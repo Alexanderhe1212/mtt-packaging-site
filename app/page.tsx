@@ -26,7 +26,7 @@ export default function Home() {
     <main className="home">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="nav" aria-label="Primary navigation">
-        <a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a>
+        <a className="brand" href="#top"><img src="/logo.svg" alt="MTT Packaging" width="72" height="52"/><b>MTT Packaging</b><small>by Hugo He</small></a>
         <div className="navlinks"><a href="/packaging">Packaging</a><a href="/how-we-work">How We Work</a><a href="/sustainability">Sustainability</a><a href="/insights">Insights</a><a href="#contact">Contact</a></div>
         <a className="button small" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp Hugo</a>
       </nav>
@@ -125,7 +125,7 @@ export default function Home() {
         </form>
       </section>
 
-      <footer className="site-footer"><div><a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a><p>High-end custom packaging, handled directly from brief to production.</p></div><div><b>Explore</b><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#sustainability">Sustainability</a><a href="#insights">Insights</a></div><div><b>Contact</b><a href="mailto:alexanderhe1212@gmail.com">Email Hugo</a><a href="https://wa.me/8617207110964" target="_blank" rel="noreferrer">WhatsApp</a><a href="#contact">Send a brief</a></div><div><b>Website</b><a href="/sitemap.xml">Sitemap</a><a href="#faq">FAQ</a><a href="#top">Back to top ↑</a></div></footer>
+      <footer className="site-footer"><div><a className="brand" href="#top"><img src="/logo.svg" alt="MTT Packaging" width="72" height="52"/><b>MTT Packaging</b><small>by Hugo He</small></a><p>High-end custom packaging, handled directly from brief to production.</p></div><div><b>Explore</b><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#sustainability">Sustainability</a><a href="#insights">Insights</a></div><div><b>Contact</b><a href="mailto:alexanderhe1212@gmail.com">Email Hugo</a><a href="https://wa.me/8617207110964" target="_blank" rel="noreferrer">WhatsApp</a><a href="#contact">Send a brief</a></div><div><b>Website</b><a href="/sitemap.xml">Sitemap</a><a href="#faq">FAQ</a><a href="#top">Back to top ↑</a></div></footer>
     </main>
   );
 }
