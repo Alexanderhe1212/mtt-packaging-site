@@ -3,6 +3,8 @@ export type Industry = {
   eyebrow: string;
   title: string;
   summary: string;
+  image: string;
+  imageAlt: string;
   products: string[];
   structures: Array<[string, string]>;
   priorities: Array<[string, string]>;
@@ -13,6 +15,7 @@ export type Industry = {
 export const industries: Industry[] = [
   {
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
+    image: '/industry/perfume.webp', imageAlt: 'Forest green custom rigid perfume box with fitted insert',
     title: 'Custom perfume boxes that protect the bottle and stage the reveal.',
     summary: 'Premium rigid boxes, discovery-set packaging and fitted inserts developed around bottle geometry, brand presentation and distribution needs.',
     products: ['Eau de parfum bottles', 'Travel sprays', 'Discovery sets', 'Fragrance gift sets'],
@@ -23,6 +26,7 @@ export const industries: Industry[] = [
   },
   {
     slug: 'cosmetics-skincare-packaging', eyebrow: 'Cosmetics & skincare',
+    image: '/industry/cosmetics.webp', imageAlt: 'Ivory custom skincare gift box with precision insert',
     title: 'Premium cosmetics packaging built for delicate finishes and mixed formats.',
     summary: 'Custom rigid boxes, folding cartons and launch kits for jars, droppers, palettes and skincare sets—with presentation and product retention designed together.',
     products: ['Serums and droppers', 'Cream jars', 'Makeup palettes', 'Skincare and PR kits'],
@@ -33,6 +37,7 @@ export const industries: Industry[] = [
   },
   {
     slug: 'jewelry-watch-packaging', eyebrow: 'Jewelry & watches',
+    image: '/industry/jewelry.webp', imageAlt: 'Charcoal custom jewelry drawer box with fitted presentation insert',
     title: 'Jewelry and watch boxes with precise presentation at a small scale.',
     summary: 'Compact rigid boxes, drawer cases and soft-touch inserts designed to hold fine products securely while keeping every visible edge considered.',
     products: ['Rings and earrings', 'Necklaces and bracelets', 'Watches', 'Luxury accessories'],
@@ -43,6 +48,7 @@ export const industries: Industry[] = [
   },
   {
     slug: 'gift-set-pr-kit-packaging', eyebrow: 'Gift sets & PR kits',
+    image: '/industry/gifting.webp', imageAlt: 'Black custom corporate gifting presentation kit',
     title: 'Presentation packaging that guides a multi-product unboxing story.',
     summary: 'Custom gift boxes and launch kits developed around product sequence, shipping protection, assembly and the moment the recipient opens the pack.',
     products: ['Corporate gift sets', 'Influencer PR kits', 'Product launches', 'Seasonal collections'],

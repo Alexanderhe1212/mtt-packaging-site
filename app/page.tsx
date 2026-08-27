@@ -49,7 +49,7 @@ export default function Home() {
 
       <section className="industry-index" id="industries" aria-labelledby="industry-title">
         <div className="section-head"><div><p className="section-kicker">Packaging by market</p><h2 id="industry-title">Start with what<br/>you need to pack.</h2></div><p>Each product category creates different demands for protection, presentation, insert design and distribution. Explore a focused starting point for your project.</p></div>
-        <div className="industry-grid">{industries.map((item, index) => <a href={`/industries/${item.slug}`} key={item.slug}><span>0{index + 1}</span><p>{item.eyebrow}</p><h3>{item.title}</h3><small>Explore packaging options →</small></a>)}</div>
+        <div className="industry-grid">{industries.map((item, index) => <a href={`/industries/${item.slug}`} key={item.slug}><span>0{index + 1}</span><img src={item.image} alt={item.imageAlt} width="700" height="700" loading="lazy"/><p>{item.eyebrow}</p><h3>{item.title}</h3><small>Explore packaging options →</small></a>)}</div>
       </section>
 
       <section className="intro" aria-labelledby="intro-title">
@@ -93,10 +93,10 @@ export default function Home() {
       <section className="sustainability" id="sustainability" aria-labelledby="sustainability-title">
         <div className="sustainability-head"><p className="section-kicker">Responsible packaging</p><h2 id="sustainability-title">Make the environmental claim<br/><i>as considered as the box.</i></h2><p>We help buyers reduce unnecessary material, compare paper-based alternatives and request project-specific documentation. Environmental performance depends on the final structure, materials, finishes, insert and supply route.</p></div>
         <div className="sustainability-grid">
-          <article><span>01</span><h3>Documented sourcing</h3><p>Certified paper and board can be specified when available for the selected material and production route. Certificate scope and transaction documents are checked per order.</p></article>
-          <article><span>02</span><h3>Material reduction</h3><p>Right-sizing, board optimization and fewer unnecessary components can reduce material before adding more complex sustainability claims.</p></article>
-          <article><span>03</span><h3>Paper-based options</h3><p>Paperboard platforms and molded pulp can replace some plastic or foam inserts where product protection and presentation allow.</p></article>
-          <article><span>04</span><h3>Clearer end of life</h3><p>We can review magnets, laminations, mixed materials and separability so disposal guidance reflects the actual finished packaging.</p></article>
+          <article><span>01</span><img src="/sustainability/documented-sourcing.webp" alt="Textured paper and board material samples" width="700" height="700" loading="lazy"/><h3>Documented sourcing</h3><p>Certified paper and board can be specified when available for the selected material and production route. Certificate scope and transaction documents are checked per order.</p></article>
+          <article><span>02</span><img src="/sustainability/material-reduction.webp" alt="Right-sized custom box components arranged for material review" width="700" height="700" loading="lazy"/><h3>Material reduction</h3><p>Right-sizing, board optimization and fewer unnecessary components can reduce material before adding more complex sustainability claims.</p></article>
+          <article><span>03</span><img src="/sustainability/paper-based-options.webp" alt="Molded pulp and folded paperboard packaging inserts" width="700" height="700" loading="lazy"/><h3>Paper-based options</h3><p>Paperboard platforms and molded pulp can replace some plastic or foam inserts where product protection and presentation allow.</p></article>
+          <article><span>04</span><img src="/sustainability/clearer-end-of-life.webp" alt="Mono-material paper box with separable paper components" width="700" height="700" loading="lazy"/><h3>Clearer end of life</h3><p>We can review magnets, laminations, mixed materials and separability so disposal guidance reflects the actual finished packaging.</p></article>
         </div>
         <div className="cert-note"><b>Certification statement</b><p>MTT Packaging can support projects requiring verified certified materials. We do not claim every structure, supplier or order is automatically certified; the applicable certificate and scope are confirmed before production and before a certification mark is used.</p><a href="#contact">Ask for documentation →</a></div>
       </section>
