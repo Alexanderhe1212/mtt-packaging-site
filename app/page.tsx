@@ -14,8 +14,8 @@ const faqs = [
 
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
-    { '@type': 'Organization', name: 'GUKA Packaging', description: 'Premium business packaging for brands and corporate projects', url: 'https://atelier-luxury-packaging.alexanderhe1212.chatgpt.site', email: 'alexanderhe1212@gmail.com' },
-    { '@type': 'Person', name: 'Hugo He', jobTitle: 'Premium Business Packaging Consultant', worksFor: { '@type': 'Organization', name: 'GUKA Packaging' }, email: 'alexanderhe1212@gmail.com', telephone: '+86 17207110964' },
+    { '@type': 'Organization', name: 'MTT Packaging', description: 'High-end custom packaging for premium brands and corporate projects', url: 'https://mttpackaging.com', email: 'alexanderhe1212@gmail.com' },
+    { '@type': 'Person', name: 'Hugo He', jobTitle: 'Premium Custom Packaging Consultant', worksFor: { '@type': 'Organization', name: 'MTT Packaging' }, email: 'alexanderhe1212@gmail.com', telephone: '+86 17207110964', url: 'https://mttpackaging.com' },
     { '@type': 'Service', name: 'Premium Business Packaging', provider: { '@type': 'Person', name: 'Hugo He' }, areaServed: 'Worldwide', serviceType: ['Premium rigid boxes', 'Corporate gift packaging', 'Premium folding cartons', 'Bespoke paper bags', 'Custom inserts'] },
     { '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
   ],
@@ -26,20 +26,20 @@ export default function Home() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="nav" aria-label="Primary navigation">
-        <a className="brand" href="#top"><span>BH</span> Box by Hugo <small>at GUKA Packaging</small></a>
+        <a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a>
         <div className="navlinks"><a href="#solutions">Solutions</a><a href="#work">Work</a><a href="#process">Process</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
         <a className="button small" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp Hugo</a>
       </nav>
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Hugo He · GUKA Packaging</p>
-          <h1>Premium packaging built for <em>serious business.</em></h1>
+          <p className="eyebrow">MTT Packaging · High-End Custom Made</p>
+          <h1>Custom packaging made for <em>brands that mean business.</em></h1>
           <p className="lede">I help brands and corporate buyers turn product or gifting briefs into refined custom packaging—with direct communication from specification through sampling and production.</p>
           <div className="actions"><a className="button" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">Message Hugo <span>↗</span></a><a className="text-link" href="#solutions">Explore structures →</a></div>
           <dl className="stats"><div><dt>1:1</dt><dd>Direct support</dd></div><div><dt>100%</dt><dd>Custom made</dd></div><div><dt>L × W × H</dt><dd>Quote-ready details</dd></div></dl>
         </div>
-        <div className="hero-art" aria-label="Premium rigid box concept"><div className="box-lid"><span>YOUR<br/>BRAND</span></div><div className="box-base"></div><p>01 / RIGID BOX</p></div>
+        <div className="hero-art" aria-label="Premium rigid box concept"><div className="box-lid"><span>MTT<br/>PACKAGING</span></div><div className="box-base"></div><p>01 / BESPOKE RIGID BOX</p></div>
       </section>
 
       <section className="intro" aria-labelledby="intro-title">
@@ -73,7 +73,7 @@ export default function Home() {
         <form action="mailto:alexanderhe1212@gmail.com" method="post" encType="text/plain"><label>Name / Company<input required name="name" autoComplete="organization" /></label><label>Work email<input required type="email" name="email" autoComplete="email" /></label><label>Packaging type<select name="type" defaultValue="Rigid box"><option>Rigid box</option><option>Folding carton</option><option>Paper bag</option><option>Custom insert</option><option>Not sure yet</option></select></label><label>Project details<textarea required name="details" rows={4} placeholder="Product size, box size, quantity, materials, finishes and delivery country" /></label><button className="button" type="submit">Email Hugo <span>↗</span></button><small>Your email app will open with the project information addressed to Hugo.</small></form>
       </section>
 
-      <footer><a className="brand" href="#top"><span>BH</span> Box by Hugo <small>at GUKA Packaging</small></a><p>Hugo He · Premium Business Packaging Consultant</p><a href="#top">Back to top ↑</a></footer>
+      <footer><a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a><p>Hugo He · Premium Custom Packaging Consultant</p><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }
