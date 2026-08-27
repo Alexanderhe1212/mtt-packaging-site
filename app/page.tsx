@@ -1,3 +1,5 @@
+import { articles } from '../lib/articles';
+
 const solutions = [
   { n: '01', title: 'Luxury Rigid Boxes', copy: 'Magnetic, lift-off lid, drawer and sculptural presentation boxes for premium products.', tone: 'sage' },
   { n: '02', title: 'Premium Folding Cartons', copy: 'High-detail paperboard cartons with controlled color, tactile papers and specialty finishes.', tone: 'sand' },
@@ -29,7 +31,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a>
-        <div className="navlinks"><a href="#solutions">Solutions</a><a href="#work">Work</a><a href="#process">Process</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+        <div className="navlinks"><a href="#solutions">Solutions</a><a href="#work">Work</a><a href="#insights">Insights</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
         <a className="button small" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp Hugo</a>
       </nav>
 
@@ -70,6 +72,11 @@ export default function Home() {
         <ol><li><b>01</b><span><strong>Define the brief</strong>Product size, structure, quantity, insert, finishes, market and target budget.</span></li><li><b>02</b><span><strong>Engineer & sample</strong>Confirm construction, material specification, artwork and physical sample.</span></li><li><b>03</b><span><strong>Produce & inspect</strong>Mass production follows approved specifications with quality checks.</span></li><li><b>04</b><span><strong>Pack & deliver</strong>Export packing and shipping terms are confirmed for your destination.</span></li></ol>
       </section>
 
+      <section className="insights" id="insights" aria-labelledby="insights-title">
+        <div className="section-head"><div><p className="section-kicker">Packaging knowledge</p><h2 id="insights-title">Four angles of a better box</h2></div><p>Practical guidance for buyers comparing custom structures, materials, finishes and inserts before sampling or quotation.</p></div>
+        <div className="insight-grid">{articles.map((article) => <article key={article.slug}><span>{article.number} / {article.angle}</span><h3>{article.title}</h3><p>{article.summary}</p><a href={`/insights/${article.slug}`}>Read the guide →</a></article>)}</div>
+      </section>
+
       <section className="faq" id="faq" aria-labelledby="faq-title">
         <div><p className="section-kicker">Buyer questions</p><h2 id="faq-title">Before you request<br/>a custom quote</h2><p className="faq-note">Clear inputs lead to a more accurate proposal. Default prices or online estimates should not be treated as factory-confirmed quotations.</p></div>
         <div className="faq-list">{faqs.map(([q, a], i) => <details key={q} open={i === 0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div>
@@ -77,7 +84,16 @@ export default function Home() {
 
       <section className="contact" id="contact" aria-labelledby="contact-title">
         <div><p className="section-kicker light">Contact Hugo He</p><h2 id="contact-title">Tell me what<br/>you need to pack.</h2><p>For the fastest first review, include 3–5 priority SKUs, finished dimensions and estimated order volume.</p><div className="direct-contact"><a href="mailto:alexanderhe1212@gmail.com">alexanderhe1212@gmail.com</a><a href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp: +86 17207110964</a></div></div>
-        <form action="mailto:alexanderhe1212@gmail.com" method="post" encType="text/plain"><label>Name / Company<input required name="name" autoComplete="organization" /></label><label>Work email<input required type="email" name="email" autoComplete="email" /></label><label>Packaging type<select name="type" defaultValue="Rigid box"><option>Rigid box</option><option>Folding carton</option><option>Paper bag</option><option>Custom insert</option><option>Not sure yet</option></select></label><label>Project details<textarea required name="details" rows={4} placeholder="Product size, box size, quantity, materials, finishes and delivery country" /></label><button className="button" type="submit">Email Hugo <span>↗</span></button><small>Your email app will open with the project information addressed to Hugo.</small></form>
+        <form action="mailto:alexanderhe1212@gmail.com" method="post" encType="text/plain">
+          <label>Full name *<input required name="name" autoComplete="name" /></label><label>Company / brand *<input required name="company" autoComplete="organization" /></label>
+          <label>Business email *<input required type="email" name="email" autoComplete="email" /></label><label>WhatsApp / phone *<input required name="phone" autoComplete="tel" /></label>
+          <label>Brand website<input type="url" name="website" placeholder="https://yourbrand.com" /></label><label>Industry *<select required name="industry" defaultValue=""><option value="" disabled>Select industry</option><option>Beauty & cosmetics</option><option>Jewelry & watches</option><option>Food & beverage</option><option>Fashion & accessories</option><option>Corporate gifting</option><option>Consumer electronics</option><option>Other</option></select></label>
+          <label>Packaging type *<select required name="type" defaultValue="Rigid box"><option>Rigid box</option><option>Folding carton</option><option>Corrugated box</option><option>Paper bag</option><option>Custom insert</option><option>Not sure yet</option></select></label><label>Estimated quantity *<select required name="quantity" defaultValue=""><option value="" disabled>Select quantity</option><option>500–999 pieces</option><option>1,000–2,999 pieces</option><option>3,000–9,999 pieces</option><option>10,000+ pieces</option></select></label>
+          <label>Estimated budget<select name="budget" defaultValue=""><option value="">Select budget</option><option>Under US$5,000</option><option>US$5,000–10,000</option><option>US$10,000–30,000</option><option>US$30,000+</option><option>Need guidance</option></select></label><label>Project timeline *<select required name="timeline" defaultValue=""><option value="" disabled>Select timeline</option><option>Within 1 month</option><option>1–3 months</option><option>3–6 months</option><option>Flexible / planning</option></select></label>
+          <label>Delivery country *<input required name="destination" /></label><label>Reference links<input name="references" placeholder="Drive, Dropbox, website or product link" /></label>
+          <label className="wide">Project details *<textarea required name="details" rows={5} placeholder="Product and finished internal dimensions (L × W × H), materials, finishes, insert, quantity and anything else that matters." /></label>
+          <button className="button" type="submit">Send project details <span>↗</span></button><small>Your email app will open with the project information addressed to Hugo. Artwork can be attached in the email or shared by WhatsApp.</small>
+        </form>
       </section>
 
       <footer><a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a><p>Hugo He · Premium Custom Packaging Consultant</p><a href="#top">Back to top ↑</a></footer>
