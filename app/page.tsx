@@ -2,10 +2,10 @@ import { articles } from '../lib/articles';
 import { industries } from '../lib/industries';
 
 const solutions = [
-  { n: '01', title: 'Luxury Rigid Boxes', copy: 'Magnetic, lift-off lid, drawer and sculptural presentation boxes for premium products.', tone: 'sage' },
-  { n: '02', title: 'Premium Folding Cartons', copy: 'High-detail paperboard cartons with controlled color, tactile papers and specialty finishes.', tone: 'sand' },
-  { n: '03', title: 'Bespoke Paper Bags', copy: 'Brand-matched luxury bags with cotton, ribbon or paper handles and reinforced construction.', tone: 'clay' },
-  { n: '04', title: 'Custom Inserts', copy: 'Precision paper, molded pulp, EVA and fabric-covered inserts that complete the unboxing experience.', tone: 'gold' },
+  { n: '01', title: 'Luxury Rigid Boxes', copy: 'Magnetic, lift-off lid, drawer and sculptural presentation boxes for premium products.', tone: 'sage', image: '/capability-rigid-box.webp', alt: 'Open forest green magnetic rigid perfume box with fitted cream insert' },
+  { n: '02', title: 'Premium Folding Cartons', copy: 'High-detail paperboard cartons with controlled color, tactile papers and specialty finishes.', tone: 'sand', image: '/capability-folding-cartons.webp', alt: 'Premium embossed folding cartons in ivory and muted sage' },
+  { n: '03', title: 'Bespoke Paper Bags', copy: 'Brand-matched luxury bags with cotton, ribbon or paper handles and reinforced construction.', tone: 'clay', image: '/capability-paper-bags.webp', alt: 'Structured terracotta luxury paper bags with cotton rope handles' },
+  { n: '04', title: 'Custom Inserts', copy: 'Precision paper, molded pulp, EVA and fabric-covered inserts that complete the unboxing experience.', tone: 'gold', image: '/capability-custom-inserts.webp', alt: 'Mustard rigid box with precision paperboard insert for cosmetic jar and dropper bottle' },
 ];
 
 const faqs = [
@@ -65,7 +65,7 @@ export default function Home() {
 
       <section className="solutions" id="solutions" aria-labelledby="solutions-title">
         <div className="section-head"><div><p className="section-kicker">Our capabilities</p><h2 id="solutions-title">Choose the right structure</h2></div><p>Start with your product dimensions, quantity and target presentation. We will help narrow the structure before sampling and formal pricing.</p></div>
-        <div className="solution-grid">{solutions.map((item) => <article className={`solution-card ${item.tone}`} key={item.title}><span>{item.n}</span><div className="mini-box" aria-hidden="true"></div><h3>{item.title}</h3><p>{item.copy}</p><a href="#contact" aria-label={`Discuss ${item.title}`}>Discuss this structure →</a></article>)}</div>
+        <div className="solution-grid">{solutions.map((item) => <article className={`solution-card ${item.tone}`} key={item.title}><span>{item.n}</span><img className="capability-image" src={item.image} alt={item.alt} width="900" height="900" loading="lazy"/><h3>{item.title}</h3><p>{item.copy}</p><a href="#contact" aria-label={`Discuss ${item.title}`}>Discuss this structure →</a></article>)}</div>
       </section>
 
       <section className="decision" aria-labelledby="decision-title">
