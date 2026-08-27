@@ -1,12 +1,6 @@
 import { articles } from '../lib/articles';
 import { industries } from '../lib/industries';
-
-const solutions = [
-  { n: '01', title: 'Luxury Rigid Boxes', copy: 'Magnetic, lift-off lid, drawer and sculptural presentation boxes for premium products.', tone: 'sage', image: '/capability-rigid-box.webp', alt: 'Open forest green magnetic rigid perfume box with fitted cream insert' },
-  { n: '02', title: 'Premium Folding Cartons', copy: 'High-detail paperboard cartons with controlled color, tactile papers and specialty finishes.', tone: 'sand', image: '/capability-folding-cartons.webp', alt: 'Premium embossed folding cartons in ivory and muted sage' },
-  { n: '03', title: 'Bespoke Paper Bags', copy: 'Brand-matched luxury bags with cotton, ribbon or paper handles and reinforced construction.', tone: 'clay', image: '/capability-paper-bags.webp', alt: 'Structured terracotta luxury paper bags with cotton rope handles' },
-  { n: '04', title: 'Custom Inserts', copy: 'Precision paper, molded pulp, EVA and fabric-covered inserts that complete the unboxing experience.', tone: 'gold', image: '/capability-custom-inserts.webp', alt: 'Mustard rigid box with precision paperboard insert for cosmetic jar and dropper bottle' },
-];
+import { solutions } from '../lib/solutions';
 
 const faqs = [
   ['What information is needed for a quote?', 'Please share the finished internal size (L × W × H), box structure, quantity, artwork or print colors, finishes, insert material and delivery country. Photos are useful references, but dimensions are still required.'],
@@ -29,11 +23,11 @@ const structuredData = {
 
 export default function Home() {
   return (
-    <main>
+    <main className="home">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a>
-        <div className="navlinks"><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#process">Process</a><a href="#sustainability">Sustainability</a><a href="#insights">Insights</a></div>
+        <div className="navlinks"><a href="/packaging">Packaging</a><a href="/how-we-work">How We Work</a><a href="/sustainability">Sustainability</a><a href="/insights">Insights</a><a href="#contact">Contact</a></div>
         <a className="button small" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp Hugo</a>
       </nav>
 
@@ -42,7 +36,7 @@ export default function Home() {
           <p className="eyebrow">MTT Packaging · High-End Custom Made</p>
           <h1>Premium packaging, <em>designed around your product.</em></h1>
           <p className="lede">Structure, materials, inserts and finishes developed as one considered system—with Hugo as your direct contact from brief to production.</p>
-          <div className="actions"><a className="button" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">Message Hugo <span>↗</span></a><a className="text-link" href="#solutions">Explore structures →</a></div>
+          <div className="actions"><a className="button" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">Message Hugo <span>↗</span></a><a className="text-link" href="/packaging">Explore packaging →</a></div>
           <dl className="stats"><div><dt>1:1</dt><dd>Direct support</dd></div><div><dt>100%</dt><dd>Custom made</dd></div><div><dt>L × W × H</dt><dd>Quote-ready details</dd></div></dl>
         </div>
         <div className="hero-gallery" aria-label="MTT Packaging capability gallery">
