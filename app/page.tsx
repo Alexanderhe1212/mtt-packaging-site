@@ -14,9 +14,9 @@ const faqs = [
 
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
-    { '@type': 'Organization', name: 'atelier Packaging', description: 'High-end custom packaging for premium brands', url: 'https://atelier-luxury-packaging.alexanderhe1212.chatgpt.site', email: 'alexanderhe1212@gmail.com' },
-    { '@type': 'Person', name: 'Leo He', jobTitle: 'Luxury Packaging Consultant', worksFor: { '@type': 'Organization', name: 'atelier Packaging' }, email: 'alexanderhe1212@gmail.com', telephone: '+86 17207110964' },
-    { '@type': 'Service', name: 'High-end Custom Packaging', provider: { '@type': 'Person', name: 'Leo He' }, areaServed: 'Worldwide', serviceType: ['Luxury rigid boxes', 'Premium folding cartons', 'Bespoke paper bags', 'Custom inserts'] },
+    { '@type': 'Organization', name: 'atelier Packaging', description: 'Premium business packaging for brands and corporate projects', url: 'https://atelier-luxury-packaging.alexanderhe1212.chatgpt.site', email: 'alexanderhe1212@gmail.com' },
+    { '@type': 'Person', name: 'Leo He', jobTitle: 'Premium Business Packaging Consultant', worksFor: { '@type': 'Organization', name: 'atelier Packaging' }, email: 'alexanderhe1212@gmail.com', telephone: '+86 17207110964' },
+    { '@type': 'Service', name: 'Premium Business Packaging', provider: { '@type': 'Person', name: 'Leo He' }, areaServed: 'Worldwide', serviceType: ['Premium rigid boxes', 'Corporate gift packaging', 'Premium folding cartons', 'Bespoke paper bags', 'Custom inserts'] },
     { '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
   ],
 };
@@ -33,9 +33,9 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Leo He · Luxury Packaging Consultant</p>
-          <h1>Your direct partner for packaging that feels <em>worth more.</em></h1>
-          <p className="lede">I help premium brands turn product ideas into high-end custom boxes, bags and inserts—from the first brief through sampling and production.</p>
+          <p className="eyebrow">Leo He · Premium Business Packaging Consultant</p>
+          <h1>Premium packaging built for <em>serious business.</em></h1>
+          <p className="lede">I help brands and corporate buyers turn product or gifting briefs into refined custom packaging—with direct communication from specification through sampling and production.</p>
           <div className="actions"><a className="button" href="https://wa.me/8617207110964?text=Hi%20Leo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">Message Leo <span>↗</span></a><a className="text-link" href="#solutions">Explore structures →</a></div>
           <dl className="stats"><div><dt>1:1</dt><dd>Direct support</dd></div><div><dt>100%</dt><dd>Custom made</dd></div><div><dt>L × W × H</dt><dd>Quote-ready details</dd></div></dl>
         </div>
@@ -44,8 +44,8 @@ export default function Home() {
 
       <section className="intro" aria-labelledby="intro-title">
         <p className="section-kicker">Work directly with Leo</p>
-        <h2 id="intro-title">One sales contact.<br/><i>A complete packaging solution.</i></h2>
-        <p>I coordinate structure, materials, insert, print and finishes so your packaging protects the product, presents the brand and remains realistic to manufacture.</p>
+        <h2 id="intro-title">One accountable contact.<br/><i>A complete business solution.</i></h2>
+        <p>I coordinate structure, materials, insert, print and finishes so your packaging presents the brand professionally, protects the product and remains practical to manufacture and deliver.</p>
       </section>
 
       <section className="solutions" id="solutions" aria-labelledby="solutions-title">
@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       <section className="work" id="work" aria-labelledby="work-title">
-        <div className="work-heading"><div><p className="section-kicker">Selected work direction</p><h2 id="work-title">Luxury structures,<br/><i>considered in every detail.</i></h2></div><p>Original concept imagery showing the structures, materials and presentation standards I can help develop. These are capability concepts, not claimed client projects.</p></div>
+        <div className="work-heading"><div><p className="section-kicker">Business packaging direction</p><h2 id="work-title">Premium structures,<br/><i>built to represent the brand.</i></h2></div><p>Original concept imagery showing the structures, materials and presentation standards I can help develop for product launches, corporate gifting and premium retail. These are capability concepts, not claimed client projects.</p></div>
         <figure><img src="/selected-work-concepts.png" alt="Four original high-end packaging concepts: perfume rigid box, jewelry drawer box, cosmetics cartons and custom insert"/><figcaption><span>Concept showcase · No third-party brands</span><span>Rigid box / drawer box / folding carton / insert</span></figcaption></figure>
       </section>
 
@@ -73,7 +73,7 @@ export default function Home() {
         <form action="mailto:alexanderhe1212@gmail.com" method="post" encType="text/plain"><label>Name / Company<input required name="name" autoComplete="organization" /></label><label>Work email<input required type="email" name="email" autoComplete="email" /></label><label>Packaging type<select name="type" defaultValue="Rigid box"><option>Rigid box</option><option>Folding carton</option><option>Paper bag</option><option>Custom insert</option><option>Not sure yet</option></select></label><label>Project details<textarea required name="details" rows={4} placeholder="Product size, box size, quantity, materials, finishes and delivery country" /></label><button className="button" type="submit">Email Leo <span>↗</span></button><small>Your email app will open with the project information addressed to Leo.</small></form>
       </section>
 
-      <footer><a className="brand" href="#top"><span>AP</span> atelier Packaging</a><p>Leo He · Luxury Packaging Consultant</p><a href="#top">Back to top ↑</a></footer>
+      <footer><a className="brand" href="#top"><span>AP</span> atelier Packaging</a><p>Leo He · Premium Business Packaging Consultant</p><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }
