@@ -1,4 +1,5 @@
 import { articles } from '../lib/articles';
+import { industries } from '../lib/industries';
 
 const solutions = [
   { n: '01', title: 'Luxury Rigid Boxes', copy: 'Magnetic, lift-off lid, drawer and sculptural presentation boxes for premium products.', tone: 'sage' },
@@ -31,7 +32,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a>
-        <div className="navlinks"><a href="#solutions">Solutions</a><a href="#work">Work</a><a href="#insights">Insights</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+        <div className="navlinks"><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#work">Work</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div>
         <a className="button small" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp Hugo</a>
       </nav>
 
@@ -44,6 +45,11 @@ export default function Home() {
           <dl className="stats"><div><dt>1:1</dt><dd>Direct support</dd></div><div><dt>100%</dt><dd>Custom made</dd></div><div><dt>L × W × H</dt><dd>Quote-ready details</dd></div></dl>
         </div>
         <div className="hero-art" aria-label="Premium rigid box concept"><div className="box-lid"><span>MTT<br/>PACKAGING</span></div><div className="box-base"></div><p>01 / BESPOKE RIGID BOX</p></div>
+      </section>
+
+      <section className="industry-index" id="industries" aria-labelledby="industry-title">
+        <div className="section-head"><div><p className="section-kicker">Packaging by market</p><h2 id="industry-title">Start with what<br/>you need to pack.</h2></div><p>Each product category creates different demands for protection, presentation, insert design and distribution. Explore a focused starting point for your project.</p></div>
+        <div className="industry-grid">{industries.map((item, index) => <a href={`/industries/${item.slug}`} key={item.slug}><span>0{index + 1}</span><p>{item.eyebrow}</p><h3>{item.title}</h3><small>Explore packaging options →</small></a>)}</div>
       </section>
 
       <section className="intro" aria-labelledby="intro-title">
@@ -60,6 +66,18 @@ export default function Home() {
       <section className="solutions" id="solutions" aria-labelledby="solutions-title">
         <div className="section-head"><div><p className="section-kicker">Our capabilities</p><h2 id="solutions-title">Choose the right structure</h2></div><p>Start with your product dimensions, quantity and target presentation. We will help narrow the structure before sampling and formal pricing.</p></div>
         <div className="solution-grid">{solutions.map((item) => <article className={`solution-card ${item.tone}`} key={item.title}><span>{item.n}</span><div className="mini-box" aria-hidden="true"></div><h3>{item.title}</h3><p>{item.copy}</p><a href="#contact" aria-label={`Discuss ${item.title}`}>Discuss this structure →</a></article>)}</div>
+      </section>
+
+      <section className="decision" aria-labelledby="decision-title">
+        <div><p className="section-kicker light">Rigid box systems</p><h2 id="decision-title">Six structures.<br/><i>Different jobs.</i></h2><p>Structure should follow product weight, opening sequence, budget, storage and distribution—not trend alone.</p></div>
+        <div className="decision-grid">
+          <article><b>01</b><h3>Magnetic book style</h3><p>For launch kits, premium sets and a broad presentation surface.</p></article>
+          <article><b>02</b><h3>Lid & base</h3><p>For a clean lift-off reveal across fragrance, jewelry and gifting.</p></article>
+          <article><b>03</b><h3>Drawer box</h3><p>For a deliberate sliding reveal, optionally with a ribbon pull.</p></article>
+          <article><b>04</b><h3>Shoulder-neck</h3><p>For precise lid fit and a layered premium color detail.</p></article>
+          <article><b>05</b><h3>Fold-flat rigid</h3><p>For projects where assembly and logistics justify a collapsible format.</p></article>
+          <article><b>06</b><h3>Custom interior</h3><p>For product retention, protection and an intentional reveal sequence.</p></article>
+        </div>
       </section>
 
       <section className="work" id="work" aria-labelledby="work-title">
