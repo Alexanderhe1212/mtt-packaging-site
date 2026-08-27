@@ -10,3 +10,4 @@
 @media(max-width:900px){.work{padding:90px 24px}.work-heading{grid-template-columns:1fr;gap:25px}.work figcaption{align-items:flex-start;flex-direction:column}}
 .brand small{font-size:9px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#667169;margin-left:2px}
 @media(max-width:560px){.brand small{display:none}}
+.proof{padding:110px 8vw;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr 1.4fr;gap:8vw}.proof h2{font:400 clamp(38px,4.6vw,68px)/1 Georgia,serif;letter-spacing:-.04em;margin:0}.proof h2 i{font-weight:400;color:#778078}.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.proof article{border-top:1px solid var(--line);padding-top:20px}.proof article b{font:22px Georgia}.proof article p{font-size:13px;line-height:1.7;color:#687269}@media(max-width:900px){.proof{grid-template-columns:1fr;padding:85px 24px}.proof-grid{grid-template-columns:1fr}}

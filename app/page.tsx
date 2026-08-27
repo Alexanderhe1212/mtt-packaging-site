@@ -10,13 +10,15 @@ const faqs = [
   ['What is the typical minimum order quantity?', 'Most fully custom projects start from 500–1,000 pieces per design. The practical MOQ depends on structure, materials, finishes and production method.'],
   ['Can I approve a sample before production?', 'Yes. We recommend structural and printed sampling before mass production. Sampling cost and lead time depend on the chosen construction and finishes.'],
   ['How long does production take?', 'A typical custom order takes about 20–35 days after sample and artwork approval. Complex handmade structures or peak-season schedules may require longer.'],
+  ['Do you support international packaging projects?', 'Yes. MTT Packaging supports brands and business buyers worldwide. Share your delivery country so export packing, shipping terms and project timing can be considered from the beginning.'],
 ];
 
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
-    { '@type': 'Organization', name: 'MTT Packaging', description: 'High-end custom packaging for premium brands and corporate projects', url: 'https://mttpackaging.com', email: 'alexanderhe1212@gmail.com' },
+    { '@type': 'WebSite', '@id': 'https://mttpackaging.com/#website', name: 'MTT Packaging', url: 'https://mttpackaging.com', inLanguage: 'en' },
+    { '@type': 'Organization', '@id': 'https://mttpackaging.com/#organization', name: 'MTT Packaging', description: 'High-end custom packaging for premium brands and corporate projects', url: 'https://mttpackaging.com', email: 'alexanderhe1212@gmail.com', contactPoint: { '@type': 'ContactPoint', contactType: 'sales', telephone: '+86 17207110964', email: 'alexanderhe1212@gmail.com', availableLanguage: ['English', 'Chinese'], areaServed: 'Worldwide' } },
     { '@type': 'Person', name: 'Hugo He', jobTitle: 'Premium Custom Packaging Consultant', worksFor: { '@type': 'Organization', name: 'MTT Packaging' }, email: 'alexanderhe1212@gmail.com', telephone: '+86 17207110964', url: 'https://mttpackaging.com' },
-    { '@type': 'Service', name: 'Premium Business Packaging', provider: { '@type': 'Person', name: 'Hugo He' }, areaServed: 'Worldwide', serviceType: ['Premium rigid boxes', 'Corporate gift packaging', 'Premium folding cartons', 'Bespoke paper bags', 'Custom inserts'] },
+    { '@type': 'Service', '@id': 'https://mttpackaging.com/#service', name: 'High-End Custom Packaging', provider: { '@id': 'https://mttpackaging.com/#organization' }, areaServed: 'Worldwide', serviceType: ['Luxury rigid boxes', 'Corporate gift packaging', 'Premium folding cartons', 'Bespoke paper bags', 'Custom inserts'], offers: { '@type': 'OfferCatalog', name: 'Custom Packaging Solutions', itemListElement: solutions.map((item) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: item.title, description: item.copy } })) } },
     { '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
   ],
 };
@@ -46,6 +48,11 @@ export default function Home() {
         <p className="section-kicker">Work directly with Hugo</p>
         <h2 id="intro-title">One accountable contact.<br/><i>A complete business solution.</i></h2>
         <p>I coordinate structure, materials, insert, print and finishes so your packaging presents the brand professionally, protects the product and remains practical to manufacture and deliver.</p>
+      </section>
+
+      <section className="proof" aria-labelledby="proof-title">
+        <div><p className="section-kicker">Made for premium presentation</p><h2 id="proof-title">Structure, finish and protection<br/><i>considered together.</i></h2></div>
+        <div className="proof-grid"><article><b>Materials</b><p>Rigid greyboard, specialty paper, paperboard, corrugated board and responsible alternatives selected for the structure.</p></article><article><b>Finishes</b><p>Foil stamping, embossing, debossing, spot UV, textured papers and controlled color matching for a refined brand result.</p></article><article><b>Protection</b><p>Paper, molded pulp, EVA and fabric-covered inserts engineered around the product, presentation and transport needs.</p></article></div>
       </section>
 
       <section className="solutions" id="solutions" aria-labelledby="solutions-title">
