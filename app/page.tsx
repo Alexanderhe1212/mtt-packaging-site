@@ -14,6 +14,7 @@ const faqs = [
   ['Can I approve a sample before production?', 'Yes. We recommend structural and printed sampling before mass production. Sampling cost and lead time depend on the chosen construction and finishes.'],
   ['How long does production take?', 'A typical custom order takes about 20–35 days after sample and artwork approval. Complex handmade structures or peak-season schedules may require longer.'],
   ['Do you support international packaging projects?', 'Yes. MTT Packaging supports brands and business buyers worldwide. Share your delivery country so export packing, shipping terms and project timing can be considered from the beginning.'],
+  ['Can you provide certified or lower-impact packaging materials?', 'Yes. Depending on the project and production route, we can source paper-based materials with relevant chain-of-custody documentation, recycled-content options, paper-based inserts and structures designed for easier material separation. Certification scope and supporting documents must be confirmed for the specific order before any environmental claim is printed or published.'],
 ];
 
 const structuredData = {
@@ -32,19 +33,24 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a>
-        <div className="navlinks"><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#work">Work</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div>
+        <div className="navlinks"><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#process">Process</a><a href="#sustainability">Sustainability</a><a href="#insights">Insights</a></div>
         <a className="button small" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">WhatsApp Hugo</a>
       </nav>
 
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">MTT Packaging · High-End Custom Made</p>
-          <h1>Custom packaging made for <em>brands that mean business.</em></h1>
-          <p className="lede">I help brands and corporate buyers turn product or gifting briefs into refined custom packaging—with direct communication from specification through sampling and production.</p>
+          <h1>Premium packaging, <em>designed around your product.</em></h1>
+          <p className="lede">Structure, materials, inserts and finishes developed as one considered system—with Hugo as your direct contact from brief to production.</p>
           <div className="actions"><a className="button" href="https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">Message Hugo <span>↗</span></a><a className="text-link" href="#solutions">Explore structures →</a></div>
           <dl className="stats"><div><dt>1:1</dt><dd>Direct support</dd></div><div><dt>100%</dt><dd>Custom made</dd></div><div><dt>L × W × H</dt><dd>Quote-ready details</dd></div></dl>
         </div>
-        <div className="hero-art" aria-label="Premium rigid box concept"><div className="box-lid"><span>MTT<br/>PACKAGING</span></div><div className="box-base"></div><p>01 / BESPOKE RIGID BOX</p></div>
+        <div className="hero-gallery" aria-label="MTT Packaging capability gallery">
+          <img className="hero-img hero-img-a" src="/capability-rigid-box.webp" alt="Open premium rigid perfume box" width="900" height="900"/>
+          <img className="hero-img hero-img-b" src="/capability-folding-cartons.webp" alt="Premium folding cartons" width="900" height="900"/>
+          <img className="hero-img hero-img-c" src="/capability-paper-bags.webp" alt="Luxury paper shopping bags" width="900" height="900"/>
+          <img className="hero-img hero-img-d" src="/capability-custom-inserts.webp" alt="Custom paperboard packaging insert" width="900" height="900"/>
+        </div>
       </section>
 
       <section className="industry-index" id="industries" aria-labelledby="industry-title">
@@ -90,6 +96,17 @@ export default function Home() {
         <ol><li><b>01</b><span><strong>Define the brief</strong>Product size, structure, quantity, insert, finishes, market and target budget.</span></li><li><b>02</b><span><strong>Engineer & sample</strong>Confirm construction, material specification, artwork and physical sample.</span></li><li><b>03</b><span><strong>Produce & inspect</strong>Mass production follows approved specifications with quality checks.</span></li><li><b>04</b><span><strong>Pack & deliver</strong>Export packing and shipping terms are confirmed for your destination.</span></li></ol>
       </section>
 
+      <section className="sustainability" id="sustainability" aria-labelledby="sustainability-title">
+        <div className="sustainability-head"><p className="section-kicker">Responsible packaging</p><h2 id="sustainability-title">Make the environmental claim<br/><i>as considered as the box.</i></h2><p>We help buyers reduce unnecessary material, compare paper-based alternatives and request project-specific documentation. Environmental performance depends on the final structure, materials, finishes, insert and supply route.</p></div>
+        <div className="sustainability-grid">
+          <article><span>01</span><h3>Documented sourcing</h3><p>Certified paper and board can be specified when available for the selected material and production route. Certificate scope and transaction documents are checked per order.</p></article>
+          <article><span>02</span><h3>Material reduction</h3><p>Right-sizing, board optimization and fewer unnecessary components can reduce material before adding more complex sustainability claims.</p></article>
+          <article><span>03</span><h3>Paper-based options</h3><p>Paperboard platforms and molded pulp can replace some plastic or foam inserts where product protection and presentation allow.</p></article>
+          <article><span>04</span><h3>Clearer end of life</h3><p>We can review magnets, laminations, mixed materials and separability so disposal guidance reflects the actual finished packaging.</p></article>
+        </div>
+        <div className="cert-note"><b>Certification statement</b><p>MTT Packaging can support projects requiring verified certified materials. We do not claim every structure, supplier or order is automatically certified; the applicable certificate and scope are confirmed before production and before a certification mark is used.</p><a href="#contact">Ask for documentation →</a></div>
+      </section>
+
       <section className="insights" id="insights" aria-labelledby="insights-title">
         <div className="section-head"><div><p className="section-kicker">Packaging knowledge</p><h2 id="insights-title">Four angles of a better box</h2></div><p>Practical guidance for buyers comparing custom structures, materials, finishes and inserts before sampling or quotation.</p></div>
         <div className="insight-grid">{articles.map((article) => <article key={article.slug}><span>{article.number} / {article.angle}</span><h3>{article.title}</h3><p>{article.summary}</p><a href={`/insights/${article.slug}`}>Read the guide →</a></article>)}</div>
@@ -114,7 +131,7 @@ export default function Home() {
         </form>
       </section>
 
-      <footer><a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a><p>Hugo He · Premium Custom Packaging Consultant</p><a href="#top">Back to top ↑</a></footer>
+      <footer className="site-footer"><div><a className="brand" href="#top"><span>MTT</span> MTT Packaging <small>by Hugo He</small></a><p>High-end custom packaging, handled directly from brief to production.</p></div><div><b>Explore</b><a href="#industries">Industries</a><a href="#solutions">Structures</a><a href="#sustainability">Sustainability</a><a href="#insights">Insights</a></div><div><b>Contact</b><a href="mailto:alexanderhe1212@gmail.com">Email Hugo</a><a href="https://wa.me/8617207110964" target="_blank" rel="noreferrer">WhatsApp</a><a href="#contact">Send a brief</a></div><div><b>Website</b><a href="/sitemap.xml">Sitemap</a><a href="#faq">FAQ</a><a href="#top">Back to top ↑</a></div></footer>
     </main>
   );
 }
