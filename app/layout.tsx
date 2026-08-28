@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   creator: 'MTT Packaging',
   publisher: 'MTT Packaging',
   category: 'Custom Packaging',
-  keywords: ['high-end custom packaging', 'custom packaging boxes', 'luxury rigid boxes', 'custom gift boxes', 'premium packaging supplier', 'custom paper bags', 'custom box inserts', 'MTT Packaging'],
+  icons: { icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }], shortcut: '/favicon.svg' },
   alternates: { canonical: '/' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
-  openGraph: { title: 'MTT Packaging | High-End Custom Packaging', description: 'Premium custom packaging for serious business, personally handled by Hugo He.', url: '/', siteName: 'MTT Packaging', type: 'website' },
-  twitter: { card: 'summary', title: 'MTT Packaging | High-End Custom Packaging', description: 'Premium custom packaging for serious business, personally handled by Hugo He.' },
+  openGraph: { title: 'MTT Packaging | High-End Custom Packaging', description: 'Premium custom packaging for serious business, personally handled by Hugo He.', url: '/', siteName: 'MTT Packaging', type: 'website', images: [{ url: '/og.png', width: 1200, height: 630, alt: 'MTT Packaging high-end custom packaging' }] },
+  twitter: { card: 'summary_large_image', title: 'MTT Packaging | High-End Custom Packaging', description: 'Premium custom packaging for serious business, personally handled by Hugo He.', images: ['/og.png'] },
 };
 
 export default function RootLayout({

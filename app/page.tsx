@@ -1,6 +1,7 @@
 import { articles } from '../lib/articles';
 import { industries } from '../lib/industries';
 import { solutions } from '../lib/solutions';
+import { organization } from '../lib/seo';
 
 const faqs = [
   ['What information is needed for a quote?', 'Please share the finished internal size (L × W × H), box structure, quantity, artwork or print colors, finishes, insert material and delivery country. Photos are useful references, but dimensions are still required.'],
@@ -14,7 +15,7 @@ const faqs = [
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
     { '@type': 'WebSite', '@id': 'https://mttpackaging.com/#website', name: 'MTT Packaging', url: 'https://mttpackaging.com', inLanguage: 'en' },
-    { '@type': 'Organization', '@id': 'https://mttpackaging.com/#organization', name: 'MTT Packaging', description: 'High-end custom packaging for premium brands and corporate projects', url: 'https://mttpackaging.com', email: 'alexanderhe1212@gmail.com', contactPoint: { '@type': 'ContactPoint', contactType: 'sales', telephone: '+86 17207110964', email: 'alexanderhe1212@gmail.com', availableLanguage: ['English', 'Chinese'], areaServed: 'Worldwide' } },
+    organization,
     { '@type': 'Person', name: 'Hugo He', jobTitle: 'Premium Custom Packaging Consultant', worksFor: { '@type': 'Organization', name: 'MTT Packaging' }, email: 'alexanderhe1212@gmail.com', telephone: '+86 17207110964', url: 'https://mttpackaging.com' },
     { '@type': 'Service', '@id': 'https://mttpackaging.com/#service', name: 'High-End Custom Packaging', provider: { '@id': 'https://mttpackaging.com/#organization' }, areaServed: 'Worldwide', serviceType: ['Luxury rigid boxes', 'Corporate gift packaging', 'Premium folding cartons', 'Bespoke paper bags', 'Custom inserts'], offers: { '@type': 'OfferCatalog', name: 'Custom Packaging Solutions', itemListElement: solutions.map((item) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: item.title, description: item.copy } })) } },
     { '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
