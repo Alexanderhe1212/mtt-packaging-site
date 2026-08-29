@@ -35,40 +35,24 @@ const structuredData = {
 };
 
 /*
- * RFQ FORM SUBMISSION — BACKEND INTEGRATION REQUIRED
+ * RFQ FORM SUBMISSION — ACTIVE
  *
- * Current state: FRONTEND ONLY
- * The form currently uses a mailto: fallback to send form data via the user's email client.
- * This is NOT a reliable production solution.
+ * Service: Formspree (https://formspree.io)
+ * Form ID: xyeyzwpw
+ * Receiver: info@mttpackaging.com
  *
- * TODO: Integrate one of the following backend services:
+ * Status: ACTIVE — form submissions are being received
  *
- * Option 1: Formspree (https://formspree.io)
- *   - Free tier: 50 submissions/month
- *   - Add form action: https://formspree.io/f/YOUR_FORM_ID
- *   - Method: POST
- *   - No backend required
+ * LIMITATIONS:
+ * - File uploads not supported on Formspree free plan
+ * - Users directed to email artwork files separately
+ * - No server-side validation (Formspree handles spam via honeypot)
  *
- * Option 2: EmailJS (https://www.emailjs.com/)
- *   - Free tier: 200 emails/month
- *   - Client-side SDK, no backend required
- *   - Requires account setup and template configuration
- *
- * Option 3: Custom API endpoint
- *   - Build a serverless function (Vercel, Cloudflare Workers, etc.)
- *   - Handle form submission, file upload, email notification
- *   - Store submissions in database for backup
- *
- * Option 4: Netlify Forms (if migrating to Netlify)
- *   - Built-in form handling
- *   - Free tier: 100 submissions/month
- *
- * IMPORTANT:
- * - Do NOT expose API keys in client-side code
- * - Implement spam protection (honeypot, reCAPTCHA, or similar)
- * - Store submissions as backup (not just email)
- * - Create /thank-you/ page ONLY after submission is verified working
- * - Track RFQ submission as GA4 conversion event
+ * TODO (future improvements):
+ * - Upgrade Formspree or migrate to custom backend for file uploads
+ * - Add GA4 conversion tracking on form submission
+ * - Create /thank-you/ page with next steps
+ * - Add server-side form validation
  */
 
 export default function RequestAQuotePage() {
@@ -129,15 +113,17 @@ export default function RequestAQuotePage() {
            * 6. Track submission as GA4 conversion event
            */}
           {/*
-           * FORM SUBMISSION: mailto: fallback (no JavaScript required)
-           * TODO: Replace with proper backend when available (see top of file)
+           * FORM SUBMISSION: Formspree (https://formspree.io)
+           * Form ID: xyeyzwpw
+           * Receives: info@mttpackaging.com
            */}
           <form
             className="rfq-form"
-            action="mailto:info@mttpackaging.com"
-            method="post"
-            encType="text/plain"
+            action="https://formspree.io/f/xyeyzwpw"
+            method="POST"
           >
+            <input type="hidden" name="_subject" value="New RFQ from mttpackaging.com" />
+            <input type="text" name="_gotcha" style={{ display: 'none' }} />
             {/* Contact Information */}
             <fieldset className="rfq-fieldset">
               <legend>Contact Information</legend>
@@ -273,10 +259,12 @@ export default function RequestAQuotePage() {
                   multiple
                   accept=".pdf,.ai,.eps,.psd,.jpg,.jpeg,.png,.zip"
                   className="rfq-file-input"
+                  disabled
                 />
                 <small>
-                  Accepted formats: PDF, AI, EPS, PSD, JPG, PNG, ZIP (max 25MB
-                  per file)
+                  File upload coming soon. For now, please email artwork files to{" "}
+                  <a href="mailto:info@mttpackaging.com">info@mttpackaging.com</a>
+                  {" "}after submitting this form.
                 </small>
                 {/*
                  * TODO: File upload requires backend integration.
