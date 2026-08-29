@@ -4,7 +4,6 @@ const nextConfig: NextConfig =
   process.env.MTT_STATIC_EXPORT === '1'
     ? {
         output: 'export',
-        trailingSlash: true,
       }
     : {};
 

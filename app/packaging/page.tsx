@@ -111,7 +111,7 @@ export default function PackagingPage() {
               />
               <h3>{item.title}</h3>
               <p>{item.copy}</p>
-              <a href="/#contact">Discuss this structure →</a>
+              <a href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20a%20custom%20packaging%20structure." target="_blank" rel="noreferrer">Discuss this structure →</a>
             </article>
           ))}
         </div>

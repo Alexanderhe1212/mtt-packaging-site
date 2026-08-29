@@ -91,7 +91,7 @@ export default function SustainabilityPage() {
             materials. The applicable certificate and scope are confirmed before
             production and before any certification mark is used.
           </p>
-          <a href="/#contact">Ask for documentation →</a>
+          <a href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20sustainable%20packaging%20options." target="_blank" rel="noreferrer">Ask for documentation →</a>
         </div>
       </section>
       <SiteFooter />

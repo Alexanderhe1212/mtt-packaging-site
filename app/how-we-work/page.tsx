@@ -139,8 +139,8 @@ export default function ProcessPage() {
       <aside className="page-cta">
         <p>Ready to define the brief?</p>
         <h2>Send Hugo your product size and expected quantity.</h2>
-        <a className="button" href="/#contact">
-          Start a project →
+        <a className="button" href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer">
+          WhatsApp Hugo →
         </a>
       </aside>
       <SiteFooter />
