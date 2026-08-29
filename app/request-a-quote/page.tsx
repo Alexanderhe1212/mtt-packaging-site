@@ -128,41 +128,15 @@ export default function RequestAQuotePage() {
            * 5. Redirect to /thank-you/ on success
            * 6. Track submission as GA4 conversion event
            */}
+          {/*
+           * FORM SUBMISSION: mailto: fallback (no JavaScript required)
+           * TODO: Replace with proper backend when available (see top of file)
+           */}
           <form
             className="rfq-form"
-            onSubmit={(e) => {
-              e.preventDefault();
-              const fd = new FormData(e.currentTarget);
-              const name = fd.get("name");
-              const email = fd.get("email");
-              const company = fd.get("company");
-              const country = fd.get("country");
-              const packagingType = fd.get("packagingType");
-              const quantity = fd.get("quantity");
-              const boxDimensions = fd.get("boxDimensions");
-              const productDimensions = fd.get("productDimensions");
-              const message = fd.get("message");
-              const subject = `RFQ: ${packagingType} - ${quantity} - ${company} (${country})`;
-              const body = `PACKAGING QUOTE REQUEST\n${"=".repeat(40)}\n\nName: ${name}\nEmail: ${email}\nCompany: ${company}\nCountry: ${country}\n\nPackaging Type: ${packagingType}\nQuantity: ${quantity}\n\nBox Dimensions: ${boxDimensions || "Not specified"}\nProduct Dimensions: ${productDimensions || "Not specified"}\n\nProject Details:\n${message || "Not specified"}\n\n${"=".repeat(40)}\nSubmitted via mttpackaging.com/request-a-quote`;
-              window.location.href = `mailto:info@mttpackaging.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-              /*
-               * TODO: Replace above mailto with proper form submission:
-               *
-               * try {
-               *   const response = await fetch('/api/rfq', {
-               *     method: 'POST',
-               *     body: fd,
-               *   });
-               *   if (response.ok) {
-               *     window.location.href = '/thank-you/';
-               *   } else {
-               *     setError('Submission failed. Please try again or email us directly.');
-               *   }
-               * } catch (err) {
-               *   setError('Network error. Please try again or email us directly.');
-               * }
-               */
-            }}
+            action="mailto:info@mttpackaging.com"
+            method="post"
+            encType="text/plain"
           >
             {/* Contact Information */}
             <fieldset className="rfq-fieldset">
