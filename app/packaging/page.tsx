@@ -247,6 +247,17 @@ export default function PackagingPage() {
         </div>
       </section>
 
+      {/* PPWR Link */}
+      <section style={{ padding: "40px 7vw", textAlign: "center", borderTop: "1px solid rgba(23,32,25,.17)" }}>
+        <p style={{ fontSize: "14px", color: "#5f6961" }}>
+          Shipping to the EU? Learn about our{" "}
+          <a href="/ppwr-compliant-packaging" style={{ fontWeight: 700, color: "#172019", textDecoration: "underline" }}>
+            EU PPWR packaging support
+          </a>
+          {" "}for documentation and material guidance.
+        </p>
+      </section>
+
       {/* CTA */}
       <aside className="page-cta">
         <p>Ready to start?</p>

@@ -92,6 +92,13 @@ export default function SustainabilityPage() {
             production and before any certification mark is used.
           </p>
           <a href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20sustainable%20packaging%20options." target="_blank" rel="noreferrer">Ask for documentation →</a>
+          <p style={{ marginTop: "16px", fontSize: "13px", color: "#6b746d" }}>
+            Shipping to the EU? See our{" "}
+            <a href="/ppwr-compliant-packaging" style={{ fontWeight: 700, color: "#172019", textDecoration: "underline" }}>
+              PPWR-ready packaging support
+            </a>
+            {" "}for EU market requirements.
+          </p>
         </div>
       </section>
       <SiteFooter />
