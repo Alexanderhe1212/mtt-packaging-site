@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import LeadQualificationChatbot from '../components/LeadQualificationChatbot';
 import './globals.css';
 
 const GA_MEASUREMENT_ID = 'G-Z132GJZZ57';
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body>
         <a href="#main-content" className="skip-link">Skip to main content</a>
         {children}
+        <LeadQualificationChatbot />
       </body>
     </html>
   );
