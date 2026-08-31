@@ -36,7 +36,7 @@ export default async function InsightPage({
   const article = getArticle((await params).slug);
   if (!article)
     return (
-      <main className="article">
+      <main className="article-page">
         <p>Article not found.</p>
         <a href="/">Return to MTT Packaging</a>
       </main>
@@ -69,7 +69,7 @@ export default async function InsightPage({
     ],
   };
   return (
-    <main className="article">
+    <main className="article-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}

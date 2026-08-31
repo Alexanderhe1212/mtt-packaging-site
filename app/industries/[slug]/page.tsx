@@ -36,7 +36,7 @@ export default async function IndustryPage({
   const item = getIndustry((await params).slug);
   if (!item)
     return (
-      <main className="article">
+      <main className="article-page">
         <p>Industry page not found.</p>
         <a href="/">Return to MTT Packaging</a>
       </main>

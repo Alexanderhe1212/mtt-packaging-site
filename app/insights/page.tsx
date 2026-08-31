@@ -50,7 +50,7 @@ export default function InsightsPage() {
       <section className="insights standalone-insights">
         <div className="insight-grid">
           {articles.map((a) => (
-            <article key={a.slug}>
+            <div className="insight-card" key={a.slug}>
               <span>
                 {a.number} / {a.angle}
               </span>
@@ -58,7 +58,7 @@ export default function InsightsPage() {
               <h3>{a.title}</h3>
               <p>{a.summary}</p>
               <a href={`/insights/${a.slug}`}>Read the guide →</a>
-            </article>
+            </div>
           ))}
         </div>
       </section>
