@@ -28,17 +28,14 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Rigid Boxes",
+      "@type": "Service",
+      name: "Custom Rigid Box Manufacturing",
       description: "Custom rigid boxes from MTT Packaging: magnetic, lift-off lid, drawer and shoulder-neck structures for premium brands.",
-      brand: { "@type": "Brand", name: "MTT Packaging" },
-      manufacturer: { "@id": `${siteUrl}/#organization` },
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        availability: "https://schema.org/InStock",
-        seller: { "@id": `${siteUrl}/#organization` },
-      },
+      url: `${siteUrl}/packaging/custom-rigid-boxes`,
+      image: `${siteUrl}/capability-rigid-box.webp`,
+      provider: { "@id": `${siteUrl}/#organization` },
+      areaServed: "Worldwide",
+      serviceType: "Custom Rigid Box Manufacturing",
     },
     {
       "@type": "FAQPage",

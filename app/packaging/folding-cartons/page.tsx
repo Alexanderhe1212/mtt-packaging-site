@@ -26,11 +26,14 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Folding Cartons",
+      "@type": "Service",
+      name: "Custom Folding Carton Manufacturing",
       description: "Custom folding cartons from MTT Packaging: premium paperboard with specialty finishes.",
-      brand: { "@type": "Brand", name: "MTT Packaging" },
-      manufacturer: { "@id": `${siteUrl}/#organization` },
+      url: `${siteUrl}/packaging/folding-cartons`,
+      image: `${siteUrl}/capability-folding-cartons.webp`,
+      provider: { "@id": `${siteUrl}/#organization` },
+      areaServed: "Worldwide",
+      serviceType: "Custom Folding Carton Manufacturing",
     },
     {
       "@type": "FAQPage",

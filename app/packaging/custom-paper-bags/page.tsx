@@ -24,7 +24,16 @@ const faqs = [
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Product", name: "Custom Paper Bags", description: "Custom luxury paper bags from MTT Packaging.", brand: { "@type": "Brand", name: "MTT Packaging" }, manufacturer: { "@id": `${siteUrl}/#organization` } },
+    {
+      "@type": "Service",
+      name: "Custom Paper Bag Manufacturing",
+      description: "Custom luxury paper bags from MTT Packaging with custom handles and finishes.",
+      url: `${siteUrl}/packaging/custom-paper-bags`,
+      image: `${siteUrl}/capability-paper-bags.webp`,
+      provider: { "@id": `${siteUrl}/#organization` },
+      areaServed: "Worldwide",
+      serviceType: "Custom Paper Bag Manufacturing",
+    },
     { "@type": "FAQPage", mainEntity: faqs.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
     organization,
     breadcrumb([["Home", "/"], ["Packaging", "/packaging"], ["Custom Paper Bags", "/packaging/custom-paper-bags"]]),

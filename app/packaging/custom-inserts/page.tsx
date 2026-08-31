@@ -25,7 +25,16 @@ const faqs = [
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Product", name: "Custom Packaging Inserts", description: "Custom inserts in paper, molded pulp, EVA and fabric-covered materials from MTT Packaging.", brand: { "@type": "Brand", name: "MTT Packaging" }, manufacturer: { "@id": `${siteUrl}/#organization` } },
+    {
+      "@type": "Service",
+      name: "Custom Packaging Insert Manufacturing",
+      description: "Custom inserts in paper, molded pulp, EVA and fabric-covered materials from MTT Packaging.",
+      url: `${siteUrl}/packaging/custom-inserts`,
+      image: `${siteUrl}/capability-custom-inserts.webp`,
+      provider: { "@id": `${siteUrl}/#organization` },
+      areaServed: "Worldwide",
+      serviceType: "Custom Packaging Insert Manufacturing",
+    },
     { "@type": "FAQPage", mainEntity: faqs.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
     organization,
     breadcrumb([["Home", "/"], ["Packaging", "/packaging"], ["Custom Inserts", "/packaging/custom-inserts"]]),
