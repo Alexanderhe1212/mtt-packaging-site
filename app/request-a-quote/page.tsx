@@ -7,13 +7,19 @@ export const metadata: Metadata = {
   description:
     "Request a custom packaging quote from MTT Packaging. Send your product details, quantity and requirements. Typical response within 24 hours.",
   alternates: { canonical: "/request-a-quote" },
+  openGraph: {
+    title: "Request a Custom Packaging Quote | MTT Packaging",
+    description: "Send your product details, quantity and requirements. Typical response within 24 hours.",
+    url: "/request-a-quote",
+    images: ["/hero/packaging-systems.webp"],
+  },
 };
 
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebPage",
+      "@type": "ContactPage",
       name: "Request a Custom Packaging Quote",
       description: "Submit your packaging requirements to MTT Packaging.",
       url: `${siteUrl}/request-a-quote`,
@@ -112,7 +118,7 @@ export default function RequestAQuotePage() {
             style={{ display: "flex", flexDirection: "column", gap: "24px" }}
           >
             <input type="hidden" name="_subject" value="New RFQ from mttpackaging.com" />
-            <input type="text" name="_gotcha" style={{ display: "none" }} />
+            <input type="text" name="_gotcha" style={{ display: "none" }} aria-hidden="true" tabIndex={-1} />
 
             <fieldset style={{ border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px", background: "#fff", display: "flex", flexDirection: "column", gap: "16px" }}>
               <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>
@@ -194,11 +200,10 @@ export default function RequestAQuotePage() {
               </label>
               <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Attach Artwork or Reference Files</span>
-                <input name="files" type="file" multiple accept=".pdf,.ai,.eps,.psd,.jpg,.jpeg,.png,.zip" disabled style={{ padding: "10px 0", fontSize: "13px" }} />
-                <small style={{ fontSize: "11px", color: "#8a9a8d" }}>
-                  File upload coming soon. Please email artwork to{" "}
+                <small style={{ fontSize: "12px", color: "#5f6961", lineHeight: 1.6 }}>
+                  Please email artwork and reference files to{" "}
                   <a href="mailto:info@mttpackaging.com" style={{ fontWeight: 700, color: "#172019" }}>info@mttpackaging.com</a>
-                  {" "}after submitting.
+                  {" "}after submitting this form.
                 </small>
               </label>
             </fieldset>

@@ -60,7 +60,7 @@ export default async function InsightPage({
       breadcrumb([["Home", "/"], ["Insights", "/insights"], [article.title, `/insights/${article.slug}`]]),
       ...(article.faq ? [{
         "@type": "FAQPage",
-        mainEntity: article.faq.map(([q, a]: [string, string]) => ({
+        mainEntity: article.faq.map(([q, a]: readonly [string, string]) => ({
           "@type": "Question",
           name: q,
           acceptedAnswer: { "@type": "Answer", text: a },
@@ -74,7 +74,7 @@ export default async function InsightPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
       />
-      <nav>
+      <nav aria-label="Primary navigation">
         <a className="brand" href="/">
           <span>MTT</span> MTT Packaging
         </a>

@@ -62,6 +62,7 @@ export default function ProcessPage() {
               alt="Premium paper and board materials"
               width="500"
               height="350"
+              loading="lazy"
             />
             <b>Materials</b>
             <p>
@@ -75,6 +76,7 @@ export default function ProcessPage() {
               alt="Premium print and finishing details"
               width="500"
               height="350"
+              loading="lazy"
             />
             <b>Finishes</b>
             <p>
@@ -87,6 +89,7 @@ export default function ProcessPage() {
               alt="Paper-based protective inserts"
               width="500"
               height="350"
+              loading="lazy"
             />
             <b>Protection</b>
             <p>

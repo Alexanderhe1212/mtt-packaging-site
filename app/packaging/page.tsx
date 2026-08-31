@@ -3,6 +3,7 @@ import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { industries } from "../../lib/industries";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
 import { solutions } from "../../lib/solutions";
+import PackagingCustomization from "../../components/PackagingCustomization";
 
 export const metadata: Metadata = {
   title: "Custom Packaging | Rigid Boxes, Folding Cartons, Paper Bags | MTT Packaging",
@@ -110,6 +111,7 @@ export default function PackagingPage() {
                 alt={item.alt}
                 width="900"
                 height="900"
+                loading="lazy"
               />
               <h3>{item.title}</h3>
               <p>{item.copy}</p>
@@ -120,6 +122,9 @@ export default function PackagingPage() {
           ))}
         </div>
       </section>
+
+      {/* Packaging Customization Options */}
+      <PackagingCustomization />
 
       {/* Buyer specifications section */}
       <section className="decision">
@@ -180,6 +185,7 @@ export default function PackagingPage() {
                 alt={item.imageAlt}
                 width="700"
                 height="700"
+                loading="lazy"
               />
               <p>{item.eyebrow}</p>
               <h3>{item.title}</h3>
@@ -218,6 +224,7 @@ export default function PackagingPage() {
                 alt={`${t} high-end custom packaging concept`}
                 width="700"
                 height="700"
+                loading="lazy"
               />
               <b>0{i + 1}</b>
               <h3>{t}</h3>

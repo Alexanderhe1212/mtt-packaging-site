@@ -78,7 +78,7 @@ export default function SustainabilityPage() {
           {topics.map(([n, t, c, image, alt]) => (
             <article key={n}>
               <span>{n}</span>
-              <img src={image} alt={alt} width="700" height="700" />
+              <img src={image} alt={alt} width="700" height="700" loading="lazy" />
               <h3>{t}</h3>
               <p>{c}</p>
             </article>
@@ -101,6 +101,13 @@ export default function SustainabilityPage() {
           </p>
         </div>
       </section>
+      <aside className="page-cta">
+        <p>Ready to start?</p>
+        <h2>Discuss sustainable packaging options for your product.</h2>
+        <a className="button" href="/request-a-quote">
+          Request a Quote →
+        </a>
+      </aside>
       <SiteFooter />
     </main>
   );

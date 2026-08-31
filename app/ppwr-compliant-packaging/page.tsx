@@ -400,7 +400,7 @@ export default function PPWRPage() {
           <a
             href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27m%20looking%20for%20PPWR-ready%20packaging%20for%20the%20EU%20market."
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             style={{ fontSize: "13px", fontWeight: 700, color: "#fff", borderBottom: "1px solid", paddingBottom: "4px" }}
           >
             WhatsApp MTT Packaging ↗

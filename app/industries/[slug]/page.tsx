@@ -72,7 +72,7 @@ export default async function IndustryPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
       />
-      <nav>
+      <nav aria-label="Primary navigation">
         <a className="brand" href="/">
           <span>MTT</span> MTT Packaging
         </a>
