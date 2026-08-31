@@ -7,13 +7,6 @@ export const metadata: Metadata = {
   description:
     "Request a custom packaging quote from MTT Packaging. Send your product details, quantity and requirements. Typical response within 24 hours.",
   alternates: { canonical: "/request-a-quote" },
-  openGraph: {
-    title: "Request a Custom Packaging Quote | MTT Packaging",
-    description:
-      "Send your packaging requirements and receive a custom quote within 24 hours. MOQ from 500 pcs.",
-    url: "/request-a-quote",
-    images: ["/capability-rigid-box.webp"],
-  },
 };
 
 const structuredData = {
@@ -22,8 +15,7 @@ const structuredData = {
     {
       "@type": "WebPage",
       name: "Request a Custom Packaging Quote",
-      description:
-        "Submit your packaging requirements to MTT Packaging for a custom quotation.",
+      description: "Submit your packaging requirements to MTT Packaging.",
       url: `${siteUrl}/request-a-quote`,
     },
     organization,
@@ -34,168 +26,133 @@ const structuredData = {
   ],
 };
 
-/*
- * RFQ FORM SUBMISSION — ACTIVE
- *
- * Service: Formspree (https://formspree.io)
- * Form ID: xyeyzwpw
- * Receiver: info@mttpackaging.com
- *
- * Status: ACTIVE — form submissions are being received
- *
- * LIMITATIONS:
- * - File uploads not supported on Formspree free plan
- * - Users directed to email artwork files separately
- * - No server-side validation (Formspree handles spam via honeypot)
- *
- * TODO (future improvements):
- * - Upgrade Formspree or migrate to custom backend for file uploads
- * - Add GA4 conversion tracking on form submission
- * - Create /thank-you/ page with next steps
- * - Add server-side form validation
- */
-
 export default function RequestAQuotePage() {
   return (
-    <main className="rfq-page">
+    <main style={{ background: "#f1eee5" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <SiteNav />
 
-      <header className="page-hero">
+      <header
+        style={{
+          padding: "64px 7vw",
+          display: "grid",
+          gridTemplateColumns: "minmax(0,1.1fr) minmax(340px,.72fr)",
+          gap: "6vw",
+          alignItems: "center",
+          minHeight: "520px",
+        }}
+      >
         <div>
-          <p>Request a Quote</p>
-          <h1>Get a Custom Packaging Quote</h1>
-          <p>
+          <p
+            style={{
+              textTransform: "uppercase",
+              letterSpacing: ".18em",
+              fontSize: "10px",
+              fontWeight: 700,
+            }}
+          >
+            Request a Quote
+          </p>
+          <h1
+            style={{
+              font: "600 clamp(46px,4.8vw,70px)/1 Arial,Helvetica,sans-serif",
+              letterSpacing: "-.055em",
+              margin: "22px 0",
+            }}
+          >
+            Get a Custom Packaging Quote
+          </h1>
+          <p style={{ fontSize: "17px", lineHeight: 1.65, color: "#5f6961", maxWidth: "660px" }}>
             Send your product details and requirements. Hugo will review your
             project and respond within 24 hours with a packaging recommendation
             and quotation.
           </p>
         </div>
-        <div className="rfq-trust">
-          <div>
-            <b>24h</b>
-            <span>Typical response time</span>
-          </div>
-          <div>
-            <b>500</b>
-            <span>Minimum order quantity</span>
-          </div>
-          <div>
-            <b>Free</b>
-            <span>Sampling available</span>
-          </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "16px" }}>
+          {[
+            ["24h", "Response time"],
+            ["500", "MOQ (pcs)"],
+            ["Free", "Sampling"],
+          ].map(([num, label]) => (
+            <div
+              key={num}
+              style={{
+                padding: "16px",
+                background: "#f0ede5",
+                borderRadius: "6px",
+                textAlign: "center",
+              }}
+            >
+              <b style={{ display: "block", font: "600 28px/1 Arial,Helvetica,sans-serif", color: "#172019" }}>
+                {num}
+              </b>
+              <span style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: ".1em", color: "#6b746d" }}>
+                {label}
+              </span>
+            </div>
+          ))}
         </div>
       </header>
 
-      <section className="rfq-form-section">
-        <div className="rfq-form-container">
-          <h2>Packaging Project Details</h2>
-          <p>
-            Fields marked with <span className="rfq-required">*</span> are
-            required. All artwork and project details are handled confidentially.
+      <section style={{ display: "grid", gridTemplateColumns: "1.3fr .7fr", gap: "48px", padding: "60px 7vw 100px", alignItems: "start" }}>
+        <div>
+          <h2 style={{ font: "600 32px/1.1 Arial,Helvetica,sans-serif", letterSpacing: "-.03em", margin: "0 0 8px" }}>
+            Packaging Project Details
+          </h2>
+          <p style={{ fontSize: "14px", color: "#6b746d", lineHeight: 1.6, marginBottom: "28px" }}>
+            Fields marked with <span style={{ color: "#cc4444", fontWeight: 700 }}>*</span> are required.
           </p>
 
-          {/*
-           * FORM SUBMISSION HANDLER
-           *
-           * Current: mailto: fallback (temporary)
-           * TODO: Replace with proper backend submission (see comment at top of file)
-           *
-           * When backend is integrated:
-           * 1. Change form action to backend endpoint
-           * 2. Add method="POST" and enctype="multipart/form-data"
-           * 3. Remove onSubmit mailto handler
-           * 4. Add proper success/error state handling
-           * 5. Redirect to /thank-you/ on success
-           * 6. Track submission as GA4 conversion event
-           */}
-          {/*
-           * FORM SUBMISSION: Formspree (https://formspree.io)
-           * Form ID: xyeyzwpw
-           * Receives: info@mttpackaging.com
-           */}
           <form
-            className="rfq-form"
             action="https://formspree.io/f/xyeyzwpw"
             method="POST"
+            style={{ display: "flex", flexDirection: "column", gap: "24px" }}
           >
             <input type="hidden" name="_subject" value="New RFQ from mttpackaging.com" />
-            <input type="text" name="_gotcha" style={{ display: 'none' }} />
-            {/* Contact Information */}
-            <fieldset className="rfq-fieldset">
-              <legend>Contact Information</legend>
-              <div className="rfq-grid-2">
-                <label className="rfq-label">
-                  <span>
-                    Full Name <span className="rfq-required">*</span>
-                  </span>
-                  <input
-                    name="name"
-                    type="text"
-                    required
-                    placeholder="Your full name"
-                    className="form-input"
-                  />
+            <input type="text" name="_gotcha" style={{ display: "none" }} />
+
+            <fieldset style={{ border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px", background: "#fff", display: "flex", flexDirection: "column", gap: "16px" }}>
+              <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>
+                Contact Information
+              </legend>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
+                  <span>Full Name <span style={{ color: "#cc4444" }}>*</span></span>
+                  <input name="name" type="text" required placeholder="Your name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
-                <label className="rfq-label">
-                  <span>
-                    Business Email <span className="rfq-required">*</span>
-                  </span>
-                  <input
-                    name="email"
-                    type="email"
-                    required
-                    placeholder="you@company.com"
-                    className="form-input"
-                  />
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
+                  <span>Business Email <span style={{ color: "#cc4444" }}>*</span></span>
+                  <input name="email" type="email" required placeholder="you@company.com" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
               </div>
-              <div className="rfq-grid-2">
-                <label className="rfq-label">
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Company / Brand</span>
-                  <input
-                    name="company"
-                    type="text"
-                    placeholder="Company or brand name"
-                    className="form-input"
-                  />
+                  <input name="company" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
-                <label className="rfq-label">
-                  <span>
-                    Country <span className="rfq-required">*</span>
-                  </span>
-                  <input
-                    name="country"
-                    type="text"
-                    required
-                    placeholder="e.g. United States"
-                    className="form-input"
-                  />
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
+                  <span>Country <span style={{ color: "#cc4444" }}>*</span></span>
+                  <input name="country" type="text" required placeholder="e.g. United States" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
               </div>
             </fieldset>
 
-            {/* Packaging Requirements */}
-            <fieldset className="rfq-fieldset">
-              <legend>Packaging Requirements</legend>
-              <div className="rfq-grid-2">
-                <label className="rfq-label">
-                  <span>
-                    Packaging Type <span className="rfq-required">*</span>
-                  </span>
-                  <select name="packagingType" required className="form-input">
-                    <option value="">Select packaging type</option>
+            <fieldset style={{ border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px", background: "#fff", display: "flex", flexDirection: "column", gap: "16px" }}>
+              <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>
+                Packaging Requirements
+              </legend>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
+                  <span>Packaging Type <span style={{ color: "#cc4444" }}>*</span></span>
+                  <select name="packagingType" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
+                    <option value="">Select type</option>
                     <option value="Rigid Box">Rigid Box</option>
-                    <option value="Magnetic Closure Box">
-                      Magnetic Closure Box
-                    </option>
+                    <option value="Magnetic Closure Box">Magnetic Closure Box</option>
                     <option value="Drawer Box">Drawer Box</option>
-                    <option value="Shoulder-Neck Box">
-                      Shoulder-Neck Box
-                    </option>
+                    <option value="Shoulder-Neck Box">Shoulder-Neck Box</option>
                     <option value="Folding Carton">Folding Carton</option>
                     <option value="Paper Bag">Paper Bag</option>
                     <option value="Custom Insert">Custom Insert</option>
@@ -203,11 +160,9 @@ export default function RequestAQuotePage() {
                     <option value="Other">Other</option>
                   </select>
                 </label>
-                <label className="rfq-label">
-                  <span>
-                    Estimated Quantity <span className="rfq-required">*</span>
-                  </span>
-                  <select name="quantity" required className="form-input">
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
+                  <span>Estimated Quantity <span style={{ color: "#cc4444" }}>*</span></span>
+                  <select name="quantity" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
                     <option value="">Select quantity</option>
                     <option value="500-999">500–999</option>
                     <option value="1,000-2,999">1,000–2,999</option>
@@ -217,84 +172,64 @@ export default function RequestAQuotePage() {
                   </select>
                 </label>
               </div>
-              <div className="rfq-grid-2">
-                <label className="rfq-label">
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Box Dimensions (L × W × H)</span>
-                  <input
-                    name="boxDimensions"
-                    type="text"
-                    placeholder="e.g. 200 × 150 × 80 mm"
-                    className="form-input"
-                  />
+                  <input name="boxDimensions" type="text" placeholder="e.g. 200 × 150 × 80 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
-                <label className="rfq-label">
+                <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Product Dimensions</span>
-                  <input
-                    name="productDimensions"
-                    type="text"
-                    placeholder="e.g. 180 × 130 × 60 mm"
-                    className="form-input"
-                  />
+                  <input name="productDimensions" type="text" placeholder="e.g. 180 × 130 × 60 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
               </div>
             </fieldset>
 
-            {/* Project Details */}
-            <fieldset className="rfq-fieldset">
-              <legend>Project Details</legend>
-              <label className="rfq-label rfq-full">
+            <fieldset style={{ border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px", background: "#fff", display: "flex", flexDirection: "column", gap: "16px" }}>
+              <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>
+                Project Details
+              </legend>
+              <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Message / Project Details</span>
-                <textarea
-                  name="message"
-                  rows={5}
-                  placeholder="Describe your packaging project: materials, finishes, insert requirements, target delivery date, budget range, or any special requirements."
-                  className="form-input"
-                />
+                <textarea name="message" rows={5} placeholder="Describe your packaging project: materials, finishes, insert requirements, target delivery date, budget range." style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", resize: "vertical" }} />
               </label>
-              <label className="rfq-label rfq-full">
+              <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Attach Artwork or Reference Files</span>
-                <input
-                  name="files"
-                  type="file"
-                  multiple
-                  accept=".pdf,.ai,.eps,.psd,.jpg,.jpeg,.png,.zip"
-                  className="rfq-file-input"
-                  disabled
-                />
-                <small>
-                  File upload coming soon. For now, please email artwork files to{" "}
-                  <a href="mailto:info@mttpackaging.com">info@mttpackaging.com</a>
-                  {" "}after submitting this form.
+                <input name="files" type="file" multiple accept=".pdf,.ai,.eps,.psd,.jpg,.jpeg,.png,.zip" disabled style={{ padding: "10px 0", fontSize: "13px" }} />
+                <small style={{ fontSize: "11px", color: "#8a9a8d" }}>
+                  File upload coming soon. Please email artwork to{" "}
+                  <a href="mailto:info@mttpackaging.com" style={{ fontWeight: 700, color: "#172019" }}>info@mttpackaging.com</a>
+                  {" "}after submitting.
                 </small>
-                {/*
-                 * TODO: File upload requires backend integration.
-                 * The file input is present for UX but files cannot be sent via mailto:.
-                 * When backend is integrated, files will be uploaded to the server.
-                 */}
               </label>
             </fieldset>
 
-            {/* Submit */}
-            <div className="rfq-submit-section">
-              <button type="submit" className="button rfq-submit">
+            <div style={{ textAlign: "center", paddingTop: "8px" }}>
+              <button
+                type="submit"
+                style={{
+                  background: "#d6ee73",
+                  color: "#172019",
+                  border: 0,
+                  padding: "16px 48px",
+                  borderRadius: "999px",
+                  font: "700 15px Arial",
+                  cursor: "pointer",
+                  width: "100%",
+                  maxWidth: "400px",
+                }}
+              >
                 Submit Quote Request →
               </button>
-              <p className="rfq-note">
-                Your project details are handled confidentially. Hugo will
-                review your requirements and respond within 24 hours with a
-                packaging recommendation and quotation.
+              <p style={{ fontSize: "13px", color: "#6b746d", lineHeight: 1.6, marginTop: "16px", maxWidth: "500px", marginLeft: "auto", marginRight: "auto" }}>
+                Your project details are handled confidentially. Hugo will respond within 24 hours.
               </p>
-              <p className="rfq-alt-contact">
+              <p style={{ fontSize: "13px", color: "#6b746d", marginTop: "12px" }}>
                 Prefer to discuss directly?{" "}
-                <a
-                  href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20a%20custom%20packaging%20project."
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Message Hugo on WhatsApp
+                <a href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer" style={{ color: "#172019", fontWeight: 700, textDecoration: "underline" }}>
+                  WhatsApp Hugo
                 </a>{" "}
                 or email{" "}
-                <a href="mailto:info@mttpackaging.com">
+                <a href="mailto:info@mttpackaging.com" style={{ color: "#172019", fontWeight: 700, textDecoration: "underline" }}>
                   info@mttpackaging.com
                 </a>
               </p>
@@ -302,47 +237,41 @@ export default function RequestAQuotePage() {
           </form>
         </div>
 
-        {/* Sidebar */}
-        <aside className="rfq-sidebar">
-          <div className="rfq-sidebar-card">
-            <h3>What happens next?</h3>
-            <ol>
-              <li>
-                <b>Project review</b>
-                <span>
-                  Hugo reviews your product details, structure and quantity
-                </span>
-              </li>
-              <li>
-                <b>Packaging recommendation</b>
-                <span>
-                  Structure, materials, inserts and finishes suggested
-                </span>
-              </li>
-              <li>
-                <b>Formal quotation</b>
-                <span>Detailed pricing with unit cost and tooling</span>
-              </li>
-              <li>
-                <b>Physical sample</b>
-                <span>Sample produced for your approval</span>
-              </li>
-              <li>
-                <b>Production</b>
-                <span>Mass production with quality inspection</span>
-              </li>
+        <aside style={{ position: "sticky", top: "100px" }}>
+          <div style={{ background: "#fff", border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px", marginBottom: "20px" }}>
+            <h3 style={{ font: "600 18px/1.2 Arial,Helvetica,sans-serif", margin: "0 0 16px" }}>What happens next?</h3>
+            <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "14px" }}>
+              {[
+                ["Project review", "Hugo reviews your product details, structure and quantity"],
+                ["Packaging recommendation", "Structure, materials, inserts and finishes suggested"],
+                ["Formal quotation", "Detailed pricing with unit cost and tooling"],
+                ["Physical sample", "Sample produced for your approval"],
+                ["Production", "Mass production with quality inspection"],
+              ].map(([title, desc]) => (
+                <li key={title} style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
+                  <b style={{ fontSize: "13px", fontWeight: 700 }}>{title}</b>
+                  <span style={{ fontSize: "12px", color: "#6b746d", lineHeight: 1.5 }}>{desc}</span>
+                </li>
+              ))}
             </ol>
           </div>
-          <div className="rfq-sidebar-card">
-            <h3>What to include</h3>
-            <ul>
-              <li>Finished internal dimensions (L × W × H)</li>
-              <li>Product weight and fragility</li>
-              <li>Preferred structure (or let us recommend)</li>
-              <li>Quantity and delivery country</li>
-              <li>Artwork files or brand guidelines</li>
-              <li>Finish references (foil, emboss, etc.)</li>
-              <li>Target budget range (optional)</li>
+          <div style={{ background: "#fff", border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px" }}>
+            <h3 style={{ font: "600 18px/1.2 Arial,Helvetica,sans-serif", margin: "0 0 16px" }}>What to include</h3>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "8px" }}>
+              {[
+                "Finished internal dimensions (L × W × H)",
+                "Product weight and fragility",
+                "Preferred structure (or let us recommend)",
+                "Quantity and delivery country",
+                "Artwork files or brand guidelines",
+                "Finish references (foil, emboss, etc.)",
+                "Target budget range (optional)",
+              ].map((item) => (
+                <li key={item} style={{ fontSize: "13px", color: "#5f6961", paddingLeft: "16px", position: "relative" }}>
+                  <span style={{ position: "absolute", left: 0, color: "#253c2e" }}>•</span>
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
         </aside>
