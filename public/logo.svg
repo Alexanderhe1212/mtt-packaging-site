@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 52" role="img" aria-labelledby="title"><title id="title">MTT Packaging monogram</title><rect x="1" y="1" width="70" height="50" rx="2" fill="#102016"/><path d="M13 37V15h6l7 11 7-11h6v22h-6V24l-7 10-7-10v13h-6Z" fill="#F3F0E8"/><path d="M43 15h18v5h-6v17h-6V20h-6v-5Z" fill="#C8A764"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 52" role="img" aria-labelledby="title">
+  <title id="title">MTT Packaging monogram</title>
+  <rect x="1" y="1" width="70" height="50" rx="2" fill="#102016"/>
+  <path d="M12 35V17h6l6 8 6-8h6v18h-6V25l-6 10-6-10v10h-6Z" fill="#F3F0E8"/>
+  <path d="M43 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/>
+  <path d="M52 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/>
+</svg>

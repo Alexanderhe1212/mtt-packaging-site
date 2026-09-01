@@ -26,7 +26,7 @@ export default function Home() {
   return <main className="home-v2">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
     <nav className="nav" aria-label="Primary navigation">
-      <a className="brand" href="#top"><img src="/logo.svg" alt="MTT Packaging" width="72" height="52"/><b>MTT Packaging</b></a>
+      <a className="brand" href="#top"><svg viewBox="0 0 72 52" width="72" height="52" role="img" aria-label="MTT Packaging monogram"><rect x="1" y="1" width="70" height="50" rx="2" fill="#102016"/><path d="M12 35V17h6l6 8 6-8h6v18h-6V25l-6 10-6-10v10h-6Z" fill="#F3F0E8"/><path d="M43 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/><path d="M52 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/></svg><b>MTT Packaging</b></a>
       <div className="navlinks"><a href="/packaging">Products</a><a href="/industries/perfume-fragrance-packaging">Industries</a><a href="/how-we-work">Process</a><a href="/insights">Packaging Guide</a><a href="/request-a-quote">Contact</a></div>
       <a className="button small" href="/request-a-quote">Request a Quote</a>
     </nav>
