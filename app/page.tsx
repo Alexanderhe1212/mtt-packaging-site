@@ -1,5 +1,6 @@
 import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
+import CookieSettingsButton from '../components/CookieSettingsButton';
 
 const whatsapp = 'https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project.';
 const faqs = [
@@ -181,6 +182,9 @@ export default function Home() {
       </div>
     </section>
 
+    <section className="payment-section"><p className="section-kicker">Payment Options</p><div className="payment-cards"><div className="payment-card"><b>Bank Transfer</b><p>Available for confirmed production orders.</p></div><div className="payment-card"><b>PayPal</b><p>Available for eligible payments.</p></div></div><p className="payment-note">Available payment methods may depend on order value, project stage and transaction arrangements confirmed with MTT Packaging.</p></section>
+
     <footer className="site-footer v2-footer"><div><a className="brand" href="#top"><img src="/logo.svg" alt="MTT Packaging" width="72" height="52"/><b>MTT Packaging</b></a><p>High-end custom packaging, handled directly from brief to production.</p></div><div><b>Business email</b><a href="mailto:info@mttpackaging.com">info@mttpackaging.com</a></div><div><b>WhatsApp</b><a href={whatsapp} target="_blank" rel="noreferrer">+86 17207110964</a><span>Typical MOQ: 500–1,000 pcs</span></div><div><b>Navigate</b><a href="/industries/perfume-fragrance-packaging">Industries</a><a href="#projects">Portfolio</a><a href="#process">Process</a><a href="#faq">FAQ</a></div></footer>
+    <div className="footer-legal"><nav aria-label="Legal links"><a href="/privacy-policy">Privacy Policy</a><a href="/cookie-policy">Cookie Policy</a><CookieSettingsButton /></nav><p>© {new Date().getFullYear()} MTT Packaging. All rights reserved.</p></div>
   </main>;
 }
