@@ -149,6 +149,9 @@ export default function PPWRPage() {
             PPWR responsibilities depend on the packaging type, intended use and
             the role of each economic operator in the supply chain.
           </p>
+          <p style={{ marginTop: "16px", fontSize: "14px", color: "#5f6961" }}>
+            New to the regulation? Read our <a href="/insights/ppwr-packaging-requirements" style={{ color: "#253c2e", fontWeight: 700 }}>2026 PPWR packaging requirements guide</a>.
+          </p>
         </div>
       </section>
 
