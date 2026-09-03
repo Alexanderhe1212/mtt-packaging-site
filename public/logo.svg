@@ -1,7 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 52" role="img" aria-labelledby="title">
-  <title id="title">MTT Packaging monogram</title>
-  <rect x="1" y="1" width="70" height="50" rx="2" fill="#102016"/>
-  <path d="M12 35V17h6l6 8 6-8h6v18h-6V25l-6 10-6-10v10h-6Z" fill="#F3F0E8"/>
-  <path d="M43 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/>
-  <path d="M52 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">MTT Packaging mark</title>
+  <rect width="48" height="48" rx="6" fill="#102016"/>
+  <path d="M8 26L12 38H36L40 26Z" fill="none" stroke="#C1A46B" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M8 26H40" stroke="#C1A46B" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M12 38H36" stroke="#C1A46B" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M6 24L24 14L42 24" fill="none" stroke="#C1A46B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 24L24 18L42 24" fill="none" stroke="#C1A46B" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <text x="24" y="34" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="8" font-weight="400" letter-spacing="0.14em" fill="#F2EFE7">MTT</text>
 </svg>

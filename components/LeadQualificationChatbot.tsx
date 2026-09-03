@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
+import MTTMonogram from './MTTMonogram';
 
 const WHATSAPP_NUMBER = '8617207110964';
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xyeyzwpw';
@@ -186,25 +187,30 @@ export default function LeadQualificationChatbot() {
       .filter(Boolean)
       .join('\n');
 
-    const formData = new FormData();
-    formData.append('_subject', 'Website Chatbot Enquiry');
-    formData.append('name', answers.name);
-    formData.append('email', answers.email);
-    formData.append('packagingType', answers.packaging);
-    formData.append('quantity', answers.quantity);
-    formData.append('country', answers.market);
-    formData.append('company', '');
-    formData.append('message', details);
-    formData.append('leadSource', 'Website Chatbot');
-    formData.append('pageUrl', typeof window !== 'undefined' ? window.location.href : '');
-    formData.append('pageTitle', typeof document !== 'undefined' ? document.title : '');
-    formData.append('submissionTime', new Date().toISOString());
+    const payload: Record<string, string> = {
+      _subject: 'Website Chatbot Enquiry',
+      _replyto: answers.email,
+      name: answers.name,
+      email: answers.email,
+      packagingType: answers.packaging,
+      quantity: answers.quantity,
+      country: answers.market,
+      company: '',
+      message: details,
+      leadSource: 'Website Chatbot',
+      pageUrl: typeof window !== 'undefined' ? window.location.href : '',
+      pageTitle: typeof document !== 'undefined' ? document.title : '',
+      submissionTime: new Date().toISOString(),
+    };
 
     try {
       const res = await fetch(FORMSPREE_ENDPOINT, {
         method: 'POST',
-        body: formData,
-        headers: { Accept: 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(payload),
       });
       if (res.ok) {
         trackEvent('chatbot_submitted');
@@ -273,7 +279,7 @@ export default function LeadQualificationChatbot() {
           onClick={openChat}
           aria-label="Talk to MTT Packaging"
         >
-          <span className="chatbot-launcher-mtt">MTT</span>
+          <span className="chatbot-launcher-mtt"><MTTMonogram size={32} /></span>
           <span className="chatbot-launcher-text">Talk to MTT Packaging</span>
         </button>
       </div>

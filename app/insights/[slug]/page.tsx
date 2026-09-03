@@ -95,7 +95,7 @@ export default async function InsightPage({
             <b>0{index + 1}</b>
             <div>
               <h2>{title}</h2>
-              <p>{copy}</p>
+              <div dangerouslySetInnerHTML={{ __html: copy }} />
             </div>
           </section>
         ))}

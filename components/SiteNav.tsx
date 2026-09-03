@@ -1,8 +1,9 @@
 import CookieSettingsButton from './CookieSettingsButton';
+import MTTMonogram from './MTTMonogram';
 
 export function SiteNav() {
   return <>
-    <nav className="nav page-nav" aria-label="Primary navigation"><a className="brand" href="/"><svg viewBox="0 0 72 52" width="72" height="52" role="img" aria-label="MTT Packaging monogram"><rect x="1" y="1" width="70" height="50" rx="2" fill="#102016"/><path d="M12 35V17h6l6 8 6-8h6v18h-6V25l-6 10-6-10v10h-6Z" fill="#F3F0E8"/><path d="M43 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/><path d="M52 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/></svg><b>MTT Packaging</b></a><div className="navlinks"><a href="/packaging">Products</a><a href="/industries/perfume-fragrance-packaging">Industries</a><a href="/how-we-work">Process</a><a href="/insights">Packaging Guide</a><a href="/sustainability">Sustainability</a></div><a className="button small" href="/request-a-quote">Request a Quote</a></nav>
+    <nav className="nav page-nav" aria-label="Primary navigation"><a className="brand" href="/"><MTTMonogram size={40} /><b>MTT Packaging</b></a><div className="navlinks"><a href="/packaging">Products</a><a href="/industries/perfume-fragrance-packaging">Industries</a><a href="/how-we-work">Process</a><a href="/insights">Packaging Guide</a><a href="/sustainability">Sustainability</a></div><a className="button small" href="/request-a-quote">Request a Quote</a></nav>
 
     {/* WhatsApp Chat Widget */}
     <div className="wa-widget" id="wa-widget">
@@ -42,12 +43,20 @@ export function SiteFooter() {
     <section className="payment-section">
       <p className="section-kicker">Payment Options</p>
       <div className="payment-cards">
-        <div className="payment-card"><b>Bank Transfer</b><p>Available for confirmed production orders.</p></div>
-        <div className="payment-card"><b>PayPal</b><p>Available for eligible payments.</p></div>
+        <div className="payment-card">
+          <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#F2EFE7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/></svg>
+          <b>Bank Transfer</b>
+          <p>Available for confirmed production orders.</p>
+        </div>
+        <div className="payment-card">
+          <svg width="42" height="42" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7.5 20H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v2" stroke="#F2EFE7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><text x="6" y="18" fontFamily="Georgia, serif" fontSize="13" fontWeight="700" fill="#B89A61" letterSpacing="0.04em">PP</text></svg>
+          <b>PayPal</b>
+          <p>Available for eligible payments.</p>
+        </div>
       </div>
       <p className="payment-note">Available payment methods may depend on order value, project stage and transaction arrangements confirmed with MTT Packaging.</p>
     </section>
-    <footer className="site-footer"><div><a className="brand" href="/"><svg viewBox="0 0 72 52" width="72" height="52" role="img" aria-label="MTT Packaging monogram"><rect x="1" y="1" width="70" height="50" rx="2" fill="#102016"/><path d="M12 35V17h6l6 8 6-8h6v18h-6V25l-6 10-6-10v10h-6Z" fill="#F3F0E8"/><path d="M43 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/><path d="M52 13h9v2h-2v20h-5V15h-2v-2Z" fill="#C8A764"/></svg><b>MTT Packaging</b></a><p>Custom luxury packaging manufacturer in China. Rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes.</p></div><nav aria-label="Product links"><b>Products</b><a href="/packaging">All Packaging</a><a href="/industries/perfume-fragrance-packaging">Perfume Packaging</a><a href="/industries/cosmetics-skincare-packaging">Cosmetic Packaging</a><a href="/industries/jewelry-watch-packaging">Jewelry Packaging</a></nav><nav aria-label="Resource links"><b>Resources</b><a href="/insights">Packaging Guide</a><a href="/how-we-work">How We Work</a><a href="/sustainability">Sustainability</a><a href="/sitemap.xml">Sitemap</a></nav><nav aria-label="Contact links"><b>Contact</b><a href="mailto:info@mttpackaging.com">info@mttpackaging.com</a><a href="https://wa.me/8617207110964" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="/request-a-quote">Request a Quote</a></nav></footer>
+    <footer className="site-footer"><div><a className="brand" href="/"><MTTMonogram size={40} /><b>MTT Packaging</b></a><p>Custom luxury packaging manufacturer in China. Rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes.</p></div><nav aria-label="Product links"><b>Products</b><a href="/packaging">All Packaging</a><a href="/industries/perfume-fragrance-packaging">Perfume Packaging</a><a href="/industries/cosmetics-skincare-packaging">Cosmetic Packaging</a><a href="/industries/jewelry-watch-packaging">Jewelry Packaging</a></nav><nav aria-label="Resource links"><b>Resources</b><a href="/insights">Packaging Guide</a><a href="/how-we-work">How We Work</a><a href="/sustainability">Sustainability</a><a href="/sitemap.xml">Sitemap</a></nav><nav aria-label="Contact links"><b>Contact</b><a href="mailto:info@mttpackaging.com">info@mttpackaging.com</a><a href="https://wa.me/8617207110964" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="/request-a-quote">Request a Quote</a></nav></footer>
     <div className="footer-legal"><nav aria-label="Legal links"><a href="/privacy-policy">Privacy Policy</a><a href="/cookie-policy">Cookie Policy</a><CookieSettingsButton /></nav><p>© {new Date().getFullYear()} MTT Packaging. All rights reserved.</p></div>
   </>;
 }
