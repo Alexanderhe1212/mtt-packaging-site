@@ -4,12 +4,12 @@ import { breadcrumb, organization, siteUrl } from '../../../lib/seo';
 import BoxSizeCalculator from '../../../components/BoxSizeCalculator';
 
 export const metadata: Metadata = {
-  title: 'Free Box Size Calculator | MTT Packaging',
-  description: 'Estimate recommended internal and external box dimensions from product size, clearance and board thickness with MTT Packaging\'s free box size calculator.',
+  title: 'MTT Packaging Calculator | Free Box Size Calculator',
+  description: 'Plan your custom packaging in minutes. Calculate recommended internal and external box dimensions, sheet layout and shipping CBM — then get a quote from MTT Packaging.',
   alternates: { canonical: '/tools/box-size-calculator' },
   openGraph: {
-    title: 'Free Box Size Calculator | MTT Packaging',
-    description: 'Estimate recommended internal and external box dimensions from product size, clearance and board thickness.',
+    title: 'MTT Packaging Calculator | Free Box Size Calculator',
+    description: 'Plan your custom packaging in minutes. Calculate recommended internal and external box dimensions, sheet layout and shipping CBM.',
     url: '/tools/box-size-calculator',
     images: ['/og.jpg'],
   },
@@ -21,9 +21,9 @@ const structuredData = {
     {
       '@type': 'WebApplication',
       '@id': `${siteUrl}/tools/box-size-calculator#app`,
-      name: 'MTT Box Size Calculator',
+      name: 'MTT Packaging Calculator',
       url: `${siteUrl}/tools/box-size-calculator`,
-      description: 'Estimate recommended internal and external box dimensions from product size, clearance and board thickness.',
+      description: 'Plan your custom packaging: calculate box dimensions, sheet layout and shipping CBM, then request a production quote.',
       applicationCategory: 'BusinessApplication',
       operatingSystem: 'Any',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
@@ -31,16 +31,16 @@ const structuredData = {
     {
       '@type': 'WebPage',
       '@id': `${siteUrl}/tools/box-size-calculator#webpage`,
-      name: 'Free Box Size Calculator',
+      name: 'MTT Packaging Calculator',
       url: `${siteUrl}/tools/box-size-calculator`,
-      description: 'Estimate recommended internal and external box dimensions from product size, clearance and board thickness.',
+      description: 'Plan your custom packaging: calculate box dimensions, sheet layout and shipping CBM.',
       isPartOf: { '@id': `${siteUrl}/#website` },
     },
     organization,
     breadcrumb([
       ['Home', '/'],
       ['Tools', '/tools'],
-      ['Box Size Calculator', '/tools/box-size-calculator'],
+      ['Packaging Calculator', '/tools/box-size-calculator'],
     ]),
   ],
 };
@@ -50,14 +50,17 @@ export default function BoxSizeCalculatorPage() {
     <main className="calc-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
-      <header className="page-hero">
-        <p className="section-kicker">Free Packaging Tool</p>
-        <h1>Free Box Size Calculator</h1>
-        <p>Estimate recommended internal and external box dimensions from your product size, clearance and board thickness.</p>
+
+      <header className="calc-v2-hero">
+        <div className="calc-v2-hero-inner">
+          <p className="calc-v2-hero-kicker">Free Packaging Tool</p>
+          <h1 className="calc-v2-hero-title">MTT Packaging Calculator</h1>
+          <p className="calc-v2-hero-subtitle">Plan your custom packaging in minutes. Calculate recommended box dimensions, sheet layout and shipping volume — then request a production quote.</p>
+        </div>
       </header>
 
       {/* Calculator */}
-      <section className="calc-section">
+      <section className="calc-v2-section">
         <BoxSizeCalculator />
       </section>
 
@@ -65,8 +68,8 @@ export default function BoxSizeCalculatorPage() {
       <section className="calc-content-section">
         <div className="calc-content-grid">
           <article>
-            <h2>How the Box Size Calculator Works</h2>
-            <p>Enter your product dimensions (length, width and height), add the clearance you want around each side, and specify the board thickness. The calculator uses these inputs to estimate the recommended internal box size and the resulting external dimensions.</p>
+            <h2>How the Packaging Calculator Works</h2>
+            <p>Enter your product dimensions (length, width and height), select your packaging type, set the clearance around each side, and specify the board thickness. The calculator uses these inputs to estimate the recommended internal box size and the resulting external dimensions.</p>
             <p>The formulas are straightforward: for each axis, the internal dimension equals the product dimension plus twice the clearance (one clearance value applied to each side). The external dimension then adds twice the board thickness to account for both walls of the box.</p>
           </article>
 
@@ -84,11 +87,11 @@ export default function BoxSizeCalculatorPage() {
 
           <article>
             <h2>Example Calculation</h2>
-            <p><strong>Product:</strong> 120 × 60 × 40 mm</p>
+            <p><strong>Product:</strong> 123 × 23 × 42 mm</p>
             <p><strong>Clearance:</strong> 3 mm per side</p>
             <p><strong>Board thickness:</strong> 2 mm</p>
-            <p><strong>Recommended Internal Box Size:</strong> 126 × 66 × 46 mm</p>
-            <p><strong>Estimated External Box Size:</strong> 130 × 70 × 50 mm</p>
+            <p><strong>Recommended Internal Box Size:</strong> 129 × 29 × 48 mm</p>
+            <p><strong>Estimated External Box Size:</strong> 133 × 33 × 52 mm</p>
           </article>
 
           <article>
