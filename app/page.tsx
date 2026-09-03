@@ -1,6 +1,7 @@
 import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
 import CookieSettingsButton from '../components/CookieSettingsButton';
+import CalcShowcase from '../components/CalcShowcase';
 
 const whatsapp = 'https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project.';
 const faqs = [
@@ -106,6 +107,8 @@ export default function Home() {
 
     <section className="v2-section v2-industries" id="industries"><header><p className="section-kicker">02 / Industries</p><h2>Packaging starts with<br/>what you need to protect.</h2></header><div className="v2-industry-grid">{industries.map((item) => <a href={`/industries/${item.slug}`} key={item.slug}><img src={item.image} alt={item.imageAlt} width="700" height="700" loading="lazy"/><p>{item.eyebrow}</p><h3>{item.eyebrow === 'Gift sets & PR kits' ? 'Premium Gifts' : item.eyebrow}</h3><span>Explore solutions →</span></a>)}</div></section>
 
+    <CalcShowcase />
+
     <section className="v2-section v2-trust"><header><p className="section-kicker">Trusted by brands worldwide</p><h2>Packaging developed for<br/>fragrance, beauty, jewelry and gifting.</h2></header><div className="v2-trust-grid">{['Niche fragrance houses','Independent cosmetics brands','Luxury jewelry designers','Corporate gifting programs','Beauty subscription boxes','Influencer PR kits','Premium candle brands','Watch and accessory labels'].map((label) => <span key={label}>{label}</span>)}</div><p className="v2-trust-note">500+ custom packaging projects shipped to 50+ countries. Each project developed from a real product brief—not a template.</p></section>
 
     <section className="v2-section v2-projects" id="projects"><header><div><p className="section-kicker light">03 / Production portfolio</p><h2>Real production should<br/>show the detail.</h2></div><p>Selected packaging structures developed by MTT Packaging for premium brands.</p></header><div className="v2-project-grid">{projectReferences.map(([title, image], index) => <figure key={title}><img src={image} alt={`${title} custom packaging example`} width="800" height="600" loading="lazy"/><figcaption><span>0{index + 1}</span><b>{title}</b></figcaption></figure>)}</div><a className="button inverse" href="/packaging">View All Structures →</a></section>
@@ -130,17 +133,6 @@ export default function Home() {
     ].map(([title,copy,image]) => <article key={title}><img src={image} alt={`${title} packaging reference`} width="700" height="520" loading="lazy"/><h3>{title}</h3><p>{copy}</p></article>)}</div></section>
 
     <section className="v2-section v2-faq" id="faq"><header><p className="section-kicker">09 / Buyer questions</p><h2>Before you request<br/>a custom quote.</h2></header><div>{faqs.map(([q,a],index) => <details key={q} open={index === 0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
-
-    <section className="v2-calc-promo">
-      <div className="v2-calc-promo-inner">
-        <div>
-          <p className="section-kicker">Free Packaging Tool</p>
-          <h3>Free Packaging Calculator</h3>
-          <p>Estimate box dimensions, material usage and shipping volume before requesting a quote.</p>
-        </div>
-        <a className="button" href="/tools/box-size-calculator">Start Calculating →</a>
-      </div>
-    </section>
 
     <section className="v2-section v2-quote" id="quote">
       <div className="v2-quote-grid">
