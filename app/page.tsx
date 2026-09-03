@@ -87,6 +87,11 @@ export default function Home() {
           <label className="form-full"><span>Message</span><textarea name="message" rows={2} placeholder="Product dimensions, finishes…" className="form-input" /></label>
           <button type="submit" className="button" style={{ width: '100%', justifyContent: 'center' }}>Get Free Quote →</button>
           <small style={{ textAlign: 'center', color: '#6b746d', fontSize: '11px', marginTop: '8px' }}>Or <a href={whatsapp} target="_blank" rel="noreferrer" style={{ fontWeight: 700, color: '#253c2e' }}>WhatsApp Hugo</a> for instant reply</small>
+          <div style={{ textAlign: 'center', marginTop: '6px' }}>
+            <a href="/tools/box-size-calculator" style={{ fontSize: '12px', fontWeight: 600, color: '#6b746d', borderBottom: '1px solid #b5bfb8', paddingBottom: '2px' }}>
+              Or try our Packaging Calculator →
+            </a>
+          </div>
         </form>
       </div>
     </section>
@@ -125,6 +130,17 @@ export default function Home() {
     ].map(([title,copy,image]) => <article key={title}><img src={image} alt={`${title} packaging reference`} width="700" height="520" loading="lazy"/><h3>{title}</h3><p>{copy}</p></article>)}</div></section>
 
     <section className="v2-section v2-faq" id="faq"><header><p className="section-kicker">09 / Buyer questions</p><h2>Before you request<br/>a custom quote.</h2></header><div>{faqs.map(([q,a],index) => <details key={q} open={index === 0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
+
+    <section className="v2-calc-promo">
+      <div className="v2-calc-promo-inner">
+        <div>
+          <p className="section-kicker">Free Packaging Tool</p>
+          <h3>Free Packaging Calculator</h3>
+          <p>Estimate box dimensions, material usage and shipping volume before requesting a quote.</p>
+        </div>
+        <a className="button" href="/tools/box-size-calculator">Start Calculating →</a>
+      </div>
+    </section>
 
     <section className="v2-section v2-quote" id="quote">
       <div className="v2-quote-grid">
