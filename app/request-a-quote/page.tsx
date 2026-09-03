@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
 import CalcQuoteSummary from "../../components/CalcQuoteSummary";
+import CalcPreFill from "../../components/CalcPreFill";
 
 export const metadata: Metadata = {
   title: "Request a Quote | Custom Packaging | MTT Packaging",
@@ -120,6 +121,7 @@ export default function RequestAQuotePage() {
           >
             <input type="hidden" name="_subject" value="New RFQ from mttpackaging.com" />
             <input type="text" name="_gotcha" style={{ display: "none" }} aria-hidden="true" tabIndex={-1} />
+            <CalcPreFill />
 
             <fieldset style={{ border: "1px solid rgba(23,32,25,.17)", borderRadius: "8px", padding: "24px", background: "#fff", display: "flex", flexDirection: "column", gap: "16px" }}>
               <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>

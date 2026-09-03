@@ -13,7 +13,10 @@ import {
 /**
  * Reads calculator handoff data from sessionStorage and renders:
  * 1. A visible summary for the user
- * 2. Hidden Formspree fields so the data is submitted with the enquiry
+ * 2. Hidden Formspree fields for calculator-only technical data
+ *
+ * Visible form fields (packagingType, quantity, productDimensions, boxDimensions)
+ * are pre-filled by CalcPreFill — not duplicated here.
  *
  * If no data exists (direct quote-page visit), renders nothing.
  * Always safe — never blocks the form.
@@ -26,27 +29,14 @@ export default function CalcQuoteSummary() {
       const raw = sessionStorage.getItem(CALC_HANDOFF_KEY);
       if (raw) {
         const parsed = JSON.parse(raw) as CalcHandoff;
-        // Basic sanity check
         if (parsed.internalL && parsed.unit) setData(parsed);
       }
     } catch {}
-
-    // Clear sessionStorage only on form submission, not on mount.
-    // This allows the calculator data to survive page refreshes.
-    const form = document.querySelector('form[action*="formspree"]') as HTMLFormElement | null;
-    if (form) {
-      const onSubmit = () => {
-        try { sessionStorage.removeItem(CALC_HANDOFF_KEY); } catch {}
-      };
-      form.addEventListener('submit', onSubmit);
-      return () => form.removeEventListener('submit', onSubmit);
-    }
+    // sessionStorage cleanup is handled by CalcPreFill on form submit.
   }, []);
 
   if (!data) return null;
 
-  const productSize = `${data.productLength} × ${data.productWidth} × ${data.productHeight} ${data.unit}`;
-  const internalSize = `${data.internalL} × ${data.internalW} × ${data.internalH} ${data.unit}`;
   const externalSize = `${data.externalL} × ${data.externalW} × ${data.externalH} ${data.unit}`;
   const summaryText = formatHandoffText(data);
 
@@ -65,7 +55,7 @@ export default function CalcQuoteSummary() {
           </>
         )}
         <dt>Product Size</dt>
-        <dd>{productSize}</dd>
+        <dd>{`${data.productLength} × ${data.productWidth} × ${data.productHeight} ${data.unit}`}</dd>
         {data.packagingType && (
           <>
             <dt>Packaging Type</dt>
@@ -73,7 +63,7 @@ export default function CalcQuoteSummary() {
           </>
         )}
         <dt>Recommended Internal Size</dt>
-        <dd>{internalSize}</dd>
+        <dd>{`${data.internalL} × ${data.internalW} × ${data.internalH} ${data.unit}`}</dd>
         <dt>Estimated External Size</dt>
         <dd>{externalSize}</dd>
         <dt>Clearance</dt>
@@ -94,17 +84,16 @@ export default function CalcQuoteSummary() {
         )}
       </dl>
 
-      {/* Hidden Formspree fields — included in the POST */}
+      {/* Hidden Formspree fields — calculator-only technical data */}
+      {/* Visible fields (packagingType, quantity, productDimensions, boxDimensions)
+          are submitted by the pre-filled visible form inputs via CalcPreFill. */}
       <input type="hidden" name="lead_source" value="packaging_calculator" />
       {data.productType && <input type="hidden" name="calculator_product_type" value={getProductTypeLabel(data.productType)} />}
-      <input type="hidden" name="calculator_product_size" value={productSize} />
       {data.packagingType && <input type="hidden" name="calculator_packaging_type" value={getPackagingTypeLabel(data.packagingType)} />}
-      <input type="hidden" name="calculator_internal_size" value={internalSize} />
       <input type="hidden" name="calculator_external_size" value={externalSize} />
       <input type="hidden" name="calculator_clearance" value={`${data.clearance} ${data.unit} per side`} />
       <input type="hidden" name="calculator_board_thickness" value={`${data.boardThickness} ${data.unit}`} />
       {data.insert && <input type="hidden" name="calculator_insert" value={getInsertLabel(data.insert)} />}
-      {data.quantity && <input type="hidden" name="calculator_quantity" value={data.quantity} />}
 
       {/* Sheet layout hidden fields */}
       {data.sheetLayoutUsed && (
