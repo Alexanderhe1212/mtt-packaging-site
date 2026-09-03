@@ -5,6 +5,9 @@ import {
   calculate,
   validateInput,
   fmt,
+  buildHandoff,
+  formatHandoffText,
+  CALC_HANDOFF_KEY,
   type Unit,
   type CalcInput,
   type CalcResult,
@@ -16,7 +19,7 @@ const UNITS: { value: Unit; label: string }[] = [
   { value: 'inch', label: 'inch' },
 ];
 
-const EMPTY = { length: '', width: '', height: '', clearance: '3', boardThickness: '2' };
+const EMPTY = { length: '', width: '', height: '', clearance: '3', boardThickness: '2', quantity: '' };
 
 export default function BoxSizeCalculator() {
   const [fields, setFields] = useState(EMPTY);
@@ -25,7 +28,7 @@ export default function BoxSizeCalculator() {
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
 
-  const set = (key: keyof typeof EMPTY) => (e: React.ChangeEvent<HTMLInputElement>) => {
+  const set = (key: keyof typeof EMPTY) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFields((f) => ({ ...f, [key]: e.target.value }));
     setError(null);
   };
@@ -65,20 +68,24 @@ export default function BoxSizeCalculator() {
 
   const handleCopy = useCallback(() => {
     if (!result) return;
-    const u = result.unit;
-    const text = [
-      'MTT Box Size Calculator',
-      `Product Size: ${fmt(result.internal.l - 2 * num(fields.clearance))} × ${fmt(result.internal.w - 2 * num(fields.clearance))} × ${fmt(result.internal.h - 2 * num(fields.clearance))} ${u}`,
-      `Recommended Internal Box Size: ${fmt(result.internal.l)} × ${fmt(result.internal.w)} × ${fmt(result.internal.h)} ${u}`,
-      `Estimated External Size: ${fmt(result.external.l)} × ${fmt(result.external.w)} × ${fmt(result.external.h)} ${u}`,
-      `Clearance: ${fields.clearance} ${u} per side`,
-      `Board Thickness: ${fields.boardThickness} ${u}`,
-    ].join('\n');
+    const handoff = buildHandoff(fields, result);
+    const text = ['MTT Box Size Calculator', formatHandoffText(handoff)].join('\n');
     navigator.clipboard.writeText(text).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
   }, [result, fields]);
+
+  const handleQuoteCta = useCallback(() => {
+    if (!result) return;
+    const handoff = buildHandoff(fields, result);
+    try { sessionStorage.setItem(CALC_HANDOFF_KEY, JSON.stringify(handoff)); } catch {}
+    window.location.href = '/request-a-quote';
+  }, [result, fields]);
+
+  const productDims = result
+    ? `${fmt(result.internal.l - 2 * num(fields.clearance))} × ${fmt(result.internal.w - 2 * num(fields.clearance))} × ${fmt(result.internal.h - 2 * num(fields.clearance))}`
+    : '';
 
   return (
     <div className="calc-layout">
@@ -124,6 +131,17 @@ export default function BoxSizeCalculator() {
                 placeholder="2" className="calc-input" />
             </label>
           </div>
+          <label className="calc-label" style={{ marginTop: '14px' }}>
+            <span>Estimated Quantity (optional)</span>
+            <select value={fields.quantity} onChange={set('quantity')} className="calc-input" style={{ cursor: 'pointer' }}>
+              <option value="">Not specified</option>
+              <option value="500–999 pcs">500–999 pcs</option>
+              <option value="1,000–2,999 pcs">1,000–2,999 pcs</option>
+              <option value="3,000–4,999 pcs">3,000–4,999 pcs</option>
+              <option value="5,000–9,999 pcs">5,000–9,999 pcs</option>
+              <option value="10,000+ pcs">10,000+ pcs</option>
+            </select>
+          </label>
         </fieldset>
 
         <fieldset className="calc-fieldset">
@@ -151,14 +169,22 @@ export default function BoxSizeCalculator() {
       <div className="calc-results" aria-live="polite">
         {result ? (
           <>
+            {/* Primary Result */}
             <div className="calc-result-primary">
               <p className="calc-result-label">Recommended Internal Box Size</p>
               <p className="calc-result-dims">
-                {fmt(result.internal.l)} × {fmt(result.internal.w)} × {fmt(result.internal.h)}
+                {fmt(result.internal.l)} <span className="calc-dim-sep">×</span> {fmt(result.internal.w)} <span className="calc-dim-sep">×</span> {fmt(result.internal.h)}
                 <span className="calc-result-unit">{result.unit}</span>
               </p>
             </div>
 
+            {/* Product Size (readback) */}
+            <div className="calc-product-readback">
+              <span>Product Size</span>
+              <b>{productDims} {result.unit}</b>
+            </div>
+
+            {/* Secondary Metrics */}
             <div className="calc-result-secondary">
               <div className="calc-result-row">
                 <span>Estimated External Size</span>
@@ -176,23 +202,28 @@ export default function BoxSizeCalculator() {
                 <span>Board Thickness</span>
                 <b>{fields.boardThickness} {result.unit}</b>
               </div>
+              {fields.quantity && (
+                <div className="calc-result-row">
+                  <span>Estimated Quantity</span>
+                  <b>{fields.quantity}</b>
+                </div>
+              )}
             </div>
 
-            <button type="button" className="calc-copy" onClick={handleCopy}>
-              {copied ? '✓ Copied' : 'Copy Results'}
-            </button>
+            {/* Actions */}
+            <div className="calc-result-actions">
+              <button type="button" className="button calc-cta-btn" onClick={handleQuoteCta}>
+                Use These Dimensions for a Quote →
+              </button>
+              <button type="button" className="calc-copy" onClick={handleCopy}>
+                {copied ? '✓ Copied' : 'Copy Results'}
+              </button>
+            </div>
 
             <p className="calc-disclaimer">
               Estimated dimensions for preliminary packaging planning. Final dimensions may vary
               by box structure, material thickness, inserts and manufacturing tolerances.
             </p>
-
-            {/* CTA */}
-            <div className="calc-cta">
-              <h3>Need a Custom Box in This Size?</h3>
-              <p>Send us your product dimensions, quantity and packaging requirements. Our team can help develop the box structure, materials, inserts and finishing.</p>
-              <a className="button" href="/request-a-quote">Get a Custom Packaging Quote</a>
-            </div>
           </>
         ) : (
           <div className="calc-placeholder">

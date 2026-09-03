@@ -99,6 +99,62 @@ export function isValidDimension(v: unknown): v is number {
   return typeof v === 'number' && Number.isFinite(v) && v > 0;
 }
 
+/** Data shape passed from calculator to quote form via sessionStorage */
+export const CALC_HANDOFF_KEY = 'mtt_calc_handoff';
+
+export interface CalcHandoff {
+  productLength: string;
+  productWidth: string;
+  productHeight: string;
+  unit: Unit;
+  clearance: string;
+  boardThickness: string;
+  quantity: string;
+  internalL: string;
+  internalW: string;
+  internalH: string;
+  externalL: string;
+  externalW: string;
+  externalH: string;
+  volumeDisplay: string;
+}
+
+/** Build a handoff object from current calculator state */
+export function buildHandoff(
+  fields: { length: string; width: string; height: string; clearance: string; boardThickness: string; quantity: string },
+  result: CalcResult,
+): CalcHandoff {
+  return {
+    productLength: fmt(result.internal.l - 2 * parseFloat(fields.clearance)),
+    productWidth: fmt(result.internal.w - 2 * parseFloat(fields.clearance)),
+    productHeight: fmt(result.internal.h - 2 * parseFloat(fields.clearance)),
+    unit: result.unit,
+    clearance: fields.clearance,
+    boardThickness: fields.boardThickness,
+    quantity: fields.quantity,
+    internalL: fmt(result.internal.l),
+    internalW: fmt(result.internal.w),
+    internalH: fmt(result.internal.h),
+    externalL: fmt(result.external.l),
+    externalW: fmt(result.external.w),
+    externalH: fmt(result.external.h),
+    volumeDisplay: result.internalVolumeDisplay,
+  };
+}
+
+/** Format a handoff into the text block for Formspree / copy */
+export function formatHandoffText(h: CalcHandoff): string {
+  return [
+    'Source: MTT Box Size Calculator',
+    `Product Size: ${h.productLength} × ${h.productWidth} × ${h.productHeight} ${h.unit}`,
+    `Recommended Internal Box Size: ${h.internalL} × ${h.internalW} × ${h.internalH} ${h.unit}`,
+    `Estimated External Box Size: ${h.externalL} × ${h.externalW} × ${h.externalH} ${h.unit}`,
+    `Clearance: ${h.clearance} ${h.unit} per side`,
+    `Board Thickness: ${h.boardThickness} ${h.unit}`,
+    h.quantity ? `Quantity: ${h.quantity}` : null,
+  ].filter(Boolean).join('\n');
+}
+
 /** Validate all required inputs */
 export function validateInput(input: Partial<CalcInput>): string | null {
   if (!isValidDimension(input.length)) return 'Length must be a positive number.';
