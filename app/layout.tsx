@@ -29,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preload" href="/hero/mtt-hero-desktop.webp" as="image" type="image/webp" />
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied'});window.mttGrantAnalytics=function(){gtag('consent','update',{analytics_storage:'granted'});};` }} />
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="lazyOnload" />
         <Script id="google-analytics" strategy="lazyOnload">

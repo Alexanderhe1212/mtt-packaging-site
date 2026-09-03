@@ -18,46 +18,46 @@ const specs: [string, string][] = [
 ];
 
 /* ── Materials ── */
-const materials: [string, string][] = [
-  ["Greyboard", "Rigid board commonly used as the structural core of premium rigid boxes."],
-  ["Paperboard", "Printable paperboard suitable for folding cartons and lightweight packaging structures."],
-  ["Specialty Paper", "Textured, colored or decorative papers used to create a more distinctive premium presentation."],
-  ["Kraft Paper", "A natural paper option suitable for selected cartons, bags and environmentally considered packaging concepts."],
-  ["Corrugated Board", "A stronger board structure used where additional protection and transport performance is required."],
-  ["Molded Pulp", "A formed fiber-based insert option for selected products requiring fitted protection."],
+const materials: { name: string; desc: string; img?: string; alt?: string; pos?: string }[] = [
+  { name: "Greyboard", desc: "Rigid board commonly used as the structural core of premium rigid boxes.", img: "/capability-rigid-box.webp", alt: "Greyboard rigid box structure", pos: "center 30%" },
+  { name: "Paperboard", desc: "Printable paperboard suitable for folding cartons and lightweight packaging structures.", img: "/capability-folding-cartons.webp", alt: "Printed paperboard folding cartons", pos: "center 40%" },
+  { name: "Specialty Paper", desc: "Textured, colored or decorative papers used to create a more distinctive premium presentation.", img: "/sustainability/documented-sourcing.webp", alt: "Specialty paper material samples", pos: "center" },
+  { name: "Kraft Paper", desc: "A natural paper option suitable for selected cartons, bags and environmentally considered packaging concepts.", img: "/sustainability/paper-based-options.webp", alt: "Natural kraft paper packaging", pos: "center 35%" },
+  { name: "Corrugated Board", desc: "A stronger board structure used where additional protection and transport performance is required.", img: "/sustainability/material-reduction.webp", alt: "Corrugated board packaging material", pos: "center 45%" },
+  { name: "Molded Pulp", desc: "A formed fiber-based insert option for selected products requiring fitted protection.", img: "/capability-custom-inserts.webp", alt: "Molded pulp protective insert", pos: "center 60%" },
 ];
 
 /* ── Finishing ── */
-const finishing: [string, string][] = [
-  ["Hot Foil Stamping", "Metallic foil details for logos, typography and decorative accents."],
-  ["Embossing", "Raised surface detailing that adds tactile depth to selected graphics or logos."],
-  ["Debossing", "Pressed-in detailing for a refined and understated tactile effect."],
-  ["Spot UV", "Selective gloss treatment used to create contrast against matte or uncoated surfaces."],
-  ["Lamination", "Protective surface finishing available in selected matte, gloss or soft-touch effects."],
-  ["Texture / Specialty Finish", "Selected textured papers and surface treatments for more distinctive premium packaging."],
+const finishing: { name: string; desc: string; img?: string; alt?: string; pos?: string }[] = [
+  { name: "Hot Foil Stamping", desc: "Metallic foil details for logos, typography and decorative accents.", img: "/capability-rigid-box.webp", alt: "Gold foil stamped logo on rigid box", pos: "25% 20%" },
+  { name: "Embossing", desc: "Raised surface detailing that adds tactile depth to selected graphics or logos." },
+  { name: "Debossing", desc: "Pressed-in detailing for a refined and understated tactile effect." },
+  { name: "Spot UV", desc: "Selective gloss treatment used to create contrast against matte or uncoated surfaces." },
+  { name: "Lamination", desc: "Protective surface finishing available in selected matte, gloss or soft-touch effects.", img: "/capability-folding-cartons.webp", alt: "Laminated carton surface finish", pos: "60% center" },
+  { name: "Texture / Specialty Finish", desc: "Selected textured papers and surface treatments for more distinctive premium packaging.", img: "/sustainability/documented-sourcing.webp", alt: "Textured specialty paper surface", pos: "30% center" },
 ];
 
 /* ── Add-Ons ── */
-const addons: [string, string][] = [
-  ["Custom Inserts", "Fitted internal structures designed around product protection and presentation."],
-  ["Magnetic Closure", "Integrated magnetic closure for selected rigid box structures."],
-  ["Ribbon Pull", "Ribbon details used for drawer boxes, product lifting or presentation."],
-  ["Window Cut-Out", "Custom die-cut windows for selected carton or packaging structures."],
-  ["Sleeves", "Printed or decorative outer sleeves used to add branding or presentation layers."],
-  ["Handles", "Paper, ribbon or other suitable handle solutions for custom paper bags."],
+const addons: { name: string; desc: string; img?: string; alt?: string; pos?: string }[] = [
+  { name: "Custom Inserts", desc: "Fitted internal structures designed around product protection and presentation.", img: "/capability-custom-inserts.webp", alt: "Custom fitted packaging insert", pos: "center 35%" },
+  { name: "Magnetic Closure", desc: "Integrated magnetic closure for selected rigid box structures.", img: "/structure/structure-1.webp", alt: "Magnetic closure rigid box", pos: "center 40%" },
+  { name: "Ribbon Pull", desc: "Ribbon details used for drawer boxes, product lifting or presentation.", img: "/structure/structure-3.webp", alt: "Drawer box with ribbon pull", pos: "center 45%" },
+  { name: "Window Cut-Out", desc: "Custom die-cut windows for selected carton or packaging structures.", img: "/capability-folding-cartons.webp", alt: "Carton with die-cut window", pos: "70% 30%" },
+  { name: "Sleeves", desc: "Printed or decorative outer sleeves used to add branding or presentation layers.", img: "/structure/structure-5.webp", alt: "Packaging sleeve structure", pos: "center 50%" },
+  { name: "Handles", desc: "Paper, ribbon or other suitable handle solutions for custom paper bags.", img: "/capability-paper-bags.webp", alt: "Paper bag with handle detail", pos: "center 30%" },
 ];
 
 /* ── Printing ── */
-const printing: [string, string][] = [
-  ["CMYK Printing", "Full-color printing for artwork, photography and branded graphics."],
-  ["Pantone / PMS Colors", "Spot-color matching where more controlled brand color reproduction is required."],
-  ["Offset Printing", "High-quality commercial printing commonly used for premium paper packaging production."],
-  ["Digital Printing", "Useful for selected samples, prototypes and lower-volume applications where appropriate."],
-  ["Screen Printing", "Suitable for selected materials, finishes and specialized graphic applications where appropriate."],
-  ["No Printing / Material-Led Finish", "For packaging concepts where paper texture, foil, embossing or structural design carries the visual identity."],
+const printing: { name: string; desc: string; img?: string; alt?: string; pos?: string }[] = [
+  { name: "CMYK Printing", desc: "Full-color printing for artwork, photography and branded graphics.", img: "/capability-folding-cartons.webp", alt: "Full-color CMYK printed carton", pos: "center 35%" },
+  { name: "Pantone / PMS Colors", desc: "Spot-color matching where more controlled brand color reproduction is required.", img: "/capability-rigid-box.webp", alt: "Spot-color Pantone matched packaging", pos: "40% 25%" },
+  { name: "Offset Printing", desc: "High-quality commercial printing commonly used for premium paper packaging production.", img: "/capability-paper-bags.webp", alt: "Offset printed paper bag", pos: "center 55%" },
+  { name: "Digital Printing", desc: "Useful for selected samples, prototypes and lower-volume applications where appropriate.", img: "/capability-folding-cartons.webp", alt: "Digitally printed packaging sample", pos: "30% 60%" },
+  { name: "Screen Printing", desc: "Suitable for selected materials, finishes and specialized graphic applications where appropriate.", img: "/capability-paper-bags.webp", alt: "Screen printed packaging detail", pos: "center 70%" },
+  { name: "No Printing / Material-Led Finish", desc: "For packaging concepts where paper texture, foil, embossing or structural design carries the visual identity.", img: "/sustainability/documented-sourcing.webp", alt: "Premium unprinted textured material", pos: "center" },
 ];
 
-const TAB_DATA: Record<string, [string, string][]> = {
+const TAB_DATA: Record<string, { name: string; desc: string; img?: string; alt?: string; pos?: string }[]> = {
   Materials: materials,
   Finishing: finishing,
   "Add-Ons": addons,
@@ -79,13 +79,32 @@ function SpecTable() {
   );
 }
 
-function CardGrid({ items }: { items: [string, string][] }) {
+function CardGrid({ items }: { items: { name: string; desc: string; img?: string; alt?: string; pos?: string }[] }) {
   return (
     <div className="cz-grid">
-      {items.map(([name, desc]) => (
-        <article className="cz-card" key={name}>
-          <h3>{name}</h3>
-          <p>{desc}</p>
+      {items.map((item) => (
+        <article className={`cz-card${item.img ? " cz-card-visual" : ""}`} key={item.name}>
+          {item.img ? (
+            <div className="cz-card-img-wrap">
+              <img
+                src={item.img}
+                alt={item.alt || item.name}
+                className="cz-card-img"
+                style={item.pos ? { objectPosition: item.pos } : undefined}
+                loading="lazy"
+                width="600"
+                height="400"
+              />
+            </div>
+          ) : (
+            <div className="cz-card-img-placeholder" aria-hidden="true">
+              <span>{item.name}</span>
+            </div>
+          )}
+          <div className="cz-card-body">
+            <h3>{item.name}</h3>
+            <p>{item.desc}</p>
+          </div>
         </article>
       ))}
     </div>
