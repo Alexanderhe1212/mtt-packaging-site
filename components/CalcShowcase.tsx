@@ -19,7 +19,6 @@ export default function CalcShowcase() {
     const el = ref.current;
     if (!el) return;
 
-    // Respect reduced motion
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const observer = new IntersectionObserver(
@@ -30,13 +29,12 @@ export default function CalcShowcase() {
             setPhase(3);
             return;
           }
-          // Staggered reveal: product → result → plan
-          setTimeout(() => setPhase(1), 100);
-          setTimeout(() => setPhase(2), 500);
-          setTimeout(() => setPhase(3), 900);
+          setTimeout(() => setPhase(1), 120);
+          setTimeout(() => setPhase(2), 520);
+          setTimeout(() => setPhase(3), 920);
         }
       },
-      { threshold: 0.3 },
+      { threshold: 0.25 },
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -63,21 +61,21 @@ export default function CalcShowcase() {
 
           <div className="v2-calc-showcase-benefits">
             <div className="v2-calc-showcase-benefit">
-              <span className="v2-calc-showcase-benefit-dot" />
+              <span className="v2-calc-showcase-benefit-num">01</span>
               <div>
                 <strong>Instant Estimate</strong>
                 <span>No email required.</span>
               </div>
             </div>
             <div className="v2-calc-showcase-benefit">
-              <span className="v2-calc-showcase-benefit-dot" />
+              <span className="v2-calc-showcase-benefit-num">02</span>
               <div>
                 <strong>Packaging-Aware</strong>
                 <span>Built for custom packaging projects.</span>
               </div>
             </div>
             <div className="v2-calc-showcase-benefit">
-              <span className="v2-calc-showcase-benefit-dot" />
+              <span className="v2-calc-showcase-benefit-num">03</span>
               <div>
                 <strong>Quote Ready</strong>
                 <span>Send your plan directly to MTT.</span>
@@ -100,17 +98,17 @@ export default function CalcShowcase() {
               <span className="v2-calc-preview-label">PRODUCT SIZE</span>
               <div className="v2-calc-preview-dims">
                 <div className="v2-calc-preview-dim">
-                  <span className="v2-calc-preview-dim-val" style={{ opacity: phase >= 1 ? 1 : 0, transform: phase >= 1 ? 'translateY(0)' : 'translateY(6px)' }}>120</span>
+                  <span className="v2-calc-preview-dim-val" style={{ opacity: phase >= 1 ? 1 : 0, transform: phase >= 1 ? 'translateY(0)' : 'translateY(8px)' }}>120</span>
                   <span className="v2-calc-preview-dim-label">Length</span>
                 </div>
                 <span className="v2-calc-preview-x">×</span>
                 <div className="v2-calc-preview-dim">
-                  <span className="v2-calc-preview-dim-val" style={{ opacity: phase >= 1 ? 1 : 0, transform: phase >= 1 ? 'translateY(0)' : 'translateY(6px)', transitionDelay: '80ms' }}>80</span>
+                  <span className="v2-calc-preview-dim-val" style={{ opacity: phase >= 1 ? 1 : 0, transform: phase >= 1 ? 'translateY(0)' : 'translateY(8px)', transitionDelay: '90ms' }}>80</span>
                   <span className="v2-calc-preview-dim-label">Width</span>
                 </div>
                 <span className="v2-calc-preview-x">×</span>
                 <div className="v2-calc-preview-dim">
-                  <span className="v2-calc-preview-dim-val" style={{ opacity: phase >= 1 ? 1 : 0, transform: phase >= 1 ? 'translateY(0)' : 'translateY(6px)', transitionDelay: '160ms' }}>45</span>
+                  <span className="v2-calc-preview-dim-val" style={{ opacity: phase >= 1 ? 1 : 0, transform: phase >= 1 ? 'translateY(0)' : 'translateY(8px)', transitionDelay: '180ms' }}>45</span>
                   <span className="v2-calc-preview-dim-label">Height</span>
                 </div>
                 <span className="v2-calc-preview-unit">mm</span>
@@ -126,20 +124,25 @@ export default function CalcShowcase() {
               </div>
             </div>
 
-            {/* Divider */}
+            {/* Gold divider */}
             <div className="v2-calc-preview-divider" style={{ opacity: phase >= 2 ? 1 : 0 }} />
 
-            {/* Result */}
-            <div className="v2-calc-preview-result" style={{ opacity: phase >= 2 ? 1 : 0, transform: phase >= 2 ? 'translateY(0)' : 'translateY(10px)' }}>
-              <span className="v2-calc-preview-label">YOUR PACKAGING PLAN</span>
-              <span className="v2-calc-preview-result-dims">
-                126 <span className="v2-calc-preview-result-sep">×</span> 86 <span className="v2-calc-preview-result-sep">×</span> 51 <span className="v2-calc-preview-result-unit">mm</span>
-              </span>
+            {/* Result — the hero element */}
+            <div className="v2-calc-preview-result" style={{ opacity: phase >= 2 ? 1 : 0, transform: phase >= 2 ? 'translateY(0)' : 'translateY(12px)' }}>
+              <span className="v2-calc-preview-result-heading">YOUR PACKAGING PLAN</span>
+              <div className="v2-calc-preview-result-number">
+                <span className="v2-calc-preview-result-val">126</span>
+                <span className="v2-calc-preview-result-sep">×</span>
+                <span className="v2-calc-preview-result-val">86</span>
+                <span className="v2-calc-preview-result-sep">×</span>
+                <span className="v2-calc-preview-result-val">51</span>
+                <span className="v2-calc-preview-result-unit">mm</span>
+              </div>
               <span className="v2-calc-preview-result-sub">Recommended Internal Size</span>
             </div>
 
             {/* CTA */}
-            <div className="v2-calc-preview-cta" style={{ opacity: phase >= 3 ? 1 : 0, transform: phase >= 3 ? 'translateY(0)' : 'translateY(6px)' }}>
+            <div className="v2-calc-preview-cta" style={{ opacity: phase >= 3 ? 1 : 0, transform: phase >= 3 ? 'translateY(0)' : 'translateY(8px)' }}>
               <span>Calculate My Packaging →</span>
             </div>
           </div>
