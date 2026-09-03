@@ -30,8 +30,17 @@ export default function CalcQuoteSummary() {
         if (parsed.internalL && parsed.unit) setData(parsed);
       }
     } catch {}
-    // Clean up after reading so it doesn't persist across unrelated visits
-    try { sessionStorage.removeItem(CALC_HANDOFF_KEY); } catch {}
+
+    // Clear sessionStorage only on form submission, not on mount.
+    // This allows the calculator data to survive page refreshes.
+    const form = document.querySelector('form[action*="formspree"]') as HTMLFormElement | null;
+    if (form) {
+      const onSubmit = () => {
+        try { sessionStorage.removeItem(CALC_HANDOFF_KEY); } catch {}
+      };
+      form.addEventListener('submit', onSubmit);
+      return () => form.removeEventListener('submit', onSubmit);
+    }
   }, []);
 
   if (!data) return null;
