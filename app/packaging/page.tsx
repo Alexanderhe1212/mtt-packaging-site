@@ -77,10 +77,11 @@ export default function PackagingPage() {
           </p>
         </div>
         <img
-          src="/hero/packaging-systems.webp"
-          alt="Custom rigid boxes, folding cartons and precision inserts for premium brands"
-          width="900"
-          height="900"
+          src="/hero/wishloom-packaging.webp"
+          alt="Red luxury rigid packaging boxes with gold foil branding"
+          width="1179"
+          height="1179"
+          style={{ objectPosition: 'center 40%' }}
         />
       </header>
 
