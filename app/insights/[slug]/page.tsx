@@ -14,7 +14,8 @@ export async function generateMetadata({
   const article = getArticle((await params).slug);
   if (!article) return {};
   return {
-    title: `${article.title} | MTT Packaging`,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    title: (article as any).seoTitle || `${article.title} | MTT Packaging`,
     description: article.summary,
     alternates: { canonical: `/insights/${article.slug}` },
     openGraph: {
