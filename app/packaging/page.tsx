@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     description:
       "Rigid boxes, folding cartons, paper bags and custom inserts for premium brands. MOQ from 500 pcs.",
     url: "/packaging",
-    images: ["/hero/packaging-systems.webp"],
+    images: ["/design/hero-editorial.webp"],
   },
 };
 
 const faqs = [
-  ["What types of custom packaging do you offer?", "MTT Packaging produces custom rigid boxes (magnetic, lift-off lid, drawer, shoulder-neck), premium folding cartons, bespoke paper bags and precision inserts in paper, molded pulp, EVA and fabric-covered materials."],
+  ["What types of custom packaging do you offer?", "MTT Packaging coordinates production of custom rigid boxes (magnetic, lift-off lid, drawer, shoulder-neck), premium folding cartons, bespoke paper bags and precision inserts in paper, molded pulp, EVA and fabric-covered materials."],
   ["What is the minimum order quantity?", "Most custom packaging projects start from 500–1,000 pieces per design. The practical MOQ depends on the structure, materials, finishes and production method."],
   ["Can I get a sample before placing an order?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling cost depends on the structure and finishes."],
   ["What information do I need to provide for a quote?", "Provide finished internal dimensions (L × W × H), product weight, desired structure, quantity, finish preferences, insert material, delivery country and target budget range."],
@@ -62,7 +62,7 @@ const structuredData = {
 
 export default function PackagingPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
 
@@ -77,10 +77,10 @@ export default function PackagingPage() {
           </p>
         </div>
         <img
-          src="/hero/wishloom-packaging.webp"
-          alt="Red luxury rigid packaging boxes with gold foil branding"
-          width="1179"
-          height="1179"
+          src="/design/hero-editorial.webp"
+          alt="Concept: forest green rigid packaging with a lifted lid"
+          width="1800"
+          height="1200"
           style={{ objectPosition: 'center 40%' }}
         />
       </header>
@@ -212,17 +212,17 @@ export default function PackagingPage() {
         </div>
         <div className="decision-grid">
           {[
-            ["Magnetic book style", "Launch kits and premium sets."],
-            ["Lid & base", "A clean lift-off reveal."],
-            ["Drawer box", "A deliberate sliding reveal."],
-            ["Shoulder-neck", "Precise fit and layered color."],
-            ["Fold-flat rigid", "Reduced storage volume when suitable."],
-            ["Custom interior", "Retention, protection and reveal."],
-          ].map(([t, c], i) => (
+            ["Magnetic book style", "Launch kits and premium sets.", "/design/magnetic-editorial.webp"],
+            ["Lid & base", "A clean lift-off reveal.", "/design/hero-editorial.webp"],
+            ["Drawer box", "A deliberate sliding reveal.", "/design/customization/ribbon-drawer.webp"],
+            ["Shoulder-neck", "Precise fit and layered color.", "/design/shoulder-editorial.webp"],
+            ["Fold-flat rigid", "Reduced storage volume when suitable.", "/design/fold-flat-editorial.webp"],
+            ["Custom interior", "Retention, protection and reveal.", "/design/insert-editorial.webp"],
+          ].map(([t, c, img], i) => (
             <article key={t}>
               <img
-                src={`/structure/structure-${i + 1}.webp`}
-                alt={`${t} high-end custom packaging concept`}
+                src={img as string}
+                alt={`${t} custom packaging`}
                 width="700"
                 height="700"
                 loading="lazy"

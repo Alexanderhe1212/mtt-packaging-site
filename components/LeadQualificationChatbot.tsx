@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
-import MTTMonogram from './MTTMonogram';
+import HugoContactWidget from './HugoContactWidget';
 
 const WHATSAPP_NUMBER = '8617207110964';
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xyeyzwpw';
@@ -83,7 +83,7 @@ const STEP_NUMBER: Record<Exclude<Step, 'closed' | 'intro' | 'moq-block' | 'summ
 
 const TOTAL_STEPS = 8;
 
-export default function LeadQualificationChatbot() {
+export default function LeadQualificationChatbot({ hasIntroVideo = false }: { hasIntroVideo?: boolean }) {
   const [step, setStep] = useState<Step>('closed');
   const [answers, setAnswers] = useState<Answers>({
     packaging: '',
@@ -95,20 +95,25 @@ export default function LeadQualificationChatbot() {
     email: '',
     details: '',
   });
-  const [showGreeting, setShowGreeting] = useState(false);
   const [inputValue, setInputValue] = useState('');
   const [emailError, setEmailError] = useState('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement>(null);
 
-  // Show greeting badge after delay
+  // Keep both contact panels above cookie controls as their height changes.
   useEffect(() => {
-    if (step !== 'closed') return;
-    const timer = setTimeout(() => {
-      setShowGreeting(true);
-    }, 4000);
-    return () => clearTimeout(timer);
-  }, [step]);
+    let banner: Element | null = null;
+    const position = () => document.documentElement.style.setProperty('--hugo-bottom', `${banner ? banner.getBoundingClientRect().height + 12 : 20}px`);
+    const resize = new ResizeObserver(position);
+    const sync = () => {
+      const next = document.querySelector('.cookie-banner');
+      if (next !== banner) { resize.disconnect(); banner = next; if (banner) resize.observe(banner); position(); }
+    };
+    const observer = new MutationObserver(sync);
+    observer.observe(document.body, { childList: true, subtree: true });
+    sync();
+    return () => { resize.disconnect(); observer.disconnect(); document.documentElement.style.removeProperty('--hugo-bottom'); };
+  }, []);
 
   // Auto-scroll to bottom on step change
   useEffect(() => {
@@ -123,7 +128,6 @@ export default function LeadQualificationChatbot() {
   }, [step]);
 
   const openChat = useCallback(() => {
-    setShowGreeting(false);
     setStep('intro');
   }, []);
 
@@ -260,30 +264,7 @@ export default function LeadQualificationChatbot() {
   }, []);
 
   if (step === 'closed') {
-    return (
-      <div className="chatbot-widget">
-        {showGreeting && (
-          <div className="chatbot-greeting" role="status">
-            <span>Need custom packaging? Let&apos;s check your project.</span>
-            <button
-              onClick={() => setShowGreeting(false)}
-              aria-label="Dismiss greeting"
-              className="chatbot-greeting-close"
-            >
-              ×
-            </button>
-          </div>
-        )}
-        <button
-          className="chatbot-launcher"
-          onClick={openChat}
-          aria-label="Talk to MTT Packaging"
-        >
-          <span className="chatbot-launcher-mtt"><MTTMonogram size={32} /></span>
-          <span className="chatbot-launcher-text">Talk to MTT Packaging</span>
-        </button>
-      </div>
-    );
+    return <HugoContactWidget hasIntroVideo={hasIntroVideo} whatsappNumber={WHATSAPP_NUMBER} onProjectCheck={openChat} />;
   }
 
   return (
@@ -316,8 +297,8 @@ export default function LeadQualificationChatbot() {
           <div className="chatbot-step">
             <div className="chatbot-message">
               <p>Hi 👋 Welcome to MTT Packaging.</p>
-              <p>We manufacture custom packaging for brand production projects.</p>
-              <p>I&apos;ll ask a few quick questions to help check whether your project fits our production service.</p>
+              <p>We coordinate custom packaging manufacturing for brand production projects.</p>
+              <p>I&apos;ll ask a few quick questions to help check whether your project fits our coordinated production service.</p>
             </div>
             <button className="chatbot-btn" onClick={() => { trackEvent('chatbot_start'); setStep('packaging'); }}>
               Start Project Check

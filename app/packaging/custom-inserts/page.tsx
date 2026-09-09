@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     title: "Custom Packaging Inserts | MTT Packaging",
     description: "Paper, molded pulp, EVA and fabric-covered inserts for premium packaging. MOQ from 500 pcs.",
     url: "/packaging/custom-inserts",
-    images: ["/capability-custom-inserts.webp"],
+    images: ["/design/insert-editorial.webp"],
   },
 };
 
 const faqs = [
-  ["What types of packaging inserts are available?", "MTT Packaging produces paper inserts (folded paperboard platforms), molded pulp inserts, EVA foam inserts and fabric-covered foam inserts. The choice depends on product weight, fragility, presentation and sustainability requirements."],
+  ["What types of packaging inserts are available?", "MTT Packaging coordinates production of paper inserts (folded paperboard platforms), molded pulp inserts, EVA foam inserts and fabric-covered foam inserts. The choice depends on product weight, fragility, presentation and sustainability requirements."],
   ["What is the best insert for glass bottles?", "The right insert depends on bottle weight, fragility and presentation target. Molded pulp and paperboard platforms improve recyclability. EVA or fabric-covered foam provides tighter cushioning for heavier or more delicate bottles."],
   ["Can one insert hold multiple products?", "Yes, but each product needs its own cavity dimensioned from measured product sizes—not from a photo or nominal fill volume. The lid clearance, finger access and product sequence should be planned before the insert is engineered."],
   ["What information is needed to design an insert?", "Provide measured product dimensions (L × W × H in mm), weight, center of gravity, fragile points, desired retention method and sustainability requirements. Nominal capacity or a product photo is not enough to engineer a secure fit."],
@@ -30,7 +30,7 @@ const structuredData = {
       name: "Custom Packaging Insert Manufacturing",
       description: "Custom inserts in paper, molded pulp, EVA and fabric-covered materials from MTT Packaging.",
       url: `${siteUrl}/packaging/custom-inserts`,
-      image: `${siteUrl}/capability-custom-inserts.webp`,
+      image: `${siteUrl}/design/insert-editorial.webp`,
       provider: { "@id": `${siteUrl}/#organization` },
       areaServed: "Worldwide",
       serviceType: "Custom Packaging Insert Manufacturing",
@@ -52,7 +52,7 @@ export default function CustomInsertsPage() {
           <h1>Custom Packaging Inserts for Product Protection</h1>
           <p>Paper, molded pulp, EVA and fabric-covered inserts engineered around your product dimensions. Designed for retention, protection and presentation.</p>
         </div>
-        <img src="/capability-custom-inserts.webp" alt="Custom paperboard and EVA inserts for premium packaging" width="900" height="900" />
+        <img src="/design/insert-editorial.webp" alt="Concept: individually shaped product insert cavities" width="900" height="900" />
       </header>
       <section className="industry-section">
         <div><p className="section-kicker">Insert types</p><h2>Insert options for every product and budget.</h2></div>
@@ -78,7 +78,7 @@ export default function CustomInsertsPage() {
         <div><p className="section-kicker">Buyer questions</p><h2 style={{ font: "400 clamp(38px,4.5vw,64px)/1 Georgia", margin: 0 }}>Common questions.</h2></div>
         <div>{faqs.map(([q, a], i) => (<details key={q} open={i === 0} style={{ borderTop: "1px solid rgba(23,32,25,.17)", padding: "24px 0" }}><summary style={{ cursor: "pointer", listStyle: "none", font: "600 19px/1 Arial,Helvetica,sans-serif", display: "flex", justifyContent: "space-between" }}>{q}<span style={{ fontSize: "24px" }}>+</span></summary><p style={{ maxWidth: "650px", lineHeight: 1.7, color: "#667168", fontSize: "14px", marginTop: "12px" }}>{a}</p></details>))}</div>
       </section>
-      <aside className="page-cta"><p>Have a packaging project?</p><h2>Send your product details for an insert recommendation.</h2><a className="button" href="/request-a-quote">Request a Quote →</a></aside>
+      <aside className="page-cta"><p>Insert engineering guides</p><h2>Review fit strategies for variable handmade products and glass bottles.</h2><a className="button" href="/insights/packaging-inserts-for-handmade-glass-products">Handmade Glass Case Study →</a> <a className="button" href="/insights/perfume-box-insert-design">Perfume Insert Guide →</a></aside>
       <SiteFooter />
     </main>
   );

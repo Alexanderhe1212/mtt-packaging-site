@@ -21,7 +21,7 @@ const structuredData = {
 
 export default function CookiePolicy() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <nav style={{ padding: '12px 7vw', fontSize: '12px', color: '#6b746d', borderBottom: '1px solid rgba(23,32,25,.17)', background: '#fff' }}>
@@ -32,7 +32,7 @@ export default function CookiePolicy() {
       <header className="page-hero" style={{ minHeight: 'auto', padding: '64px 7vw' }}>
         <div>
           <h1>Cookie Policy</h1>
-          <p>Effective date: 1 September 2026</p>
+          <p>Effective date: 9 September 2026</p>
         </div>
       </header>
       <div style={{ padding: '0 7vw 100px', maxWidth: '860px' }}>
@@ -63,6 +63,7 @@ export default function CookiePolicy() {
         <p>Some cookies and technologies on our website are provided by third parties:</p>
         <ul>
           <li><strong>Google Analytics:</strong> Provided by Google. Collects website usage data. Subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&apos;s Privacy Policy ↗</a>.</li>
+          <li><strong>Knock Knock App:</strong> Powers live chat and calls, using session and device information to connect visitors with us and maintain conversations. Its visitor activity features are separate from Google Analytics. See <a href="https://knockknockapp.ai/privacy-policy/" target="_blank" rel="noopener noreferrer">the provider’s privacy policy</a>.</li>
           <li><strong>Formspree:</strong> Our enquiry forms may be processed through Formspree. Subject to <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree&apos;s Privacy Policy ↗</a>.</li>
         </ul>
 

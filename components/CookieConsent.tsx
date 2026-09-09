@@ -6,9 +6,12 @@ const STORAGE_KEY = 'mtt_cookie_consent';
 export default function CookieConsent() {
   const [visible, setVisible] = useState(false);
   const [showPrefs, setShowPrefs] = useState(false);
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem(STORAGE_KEY);
+    let stored: string | null = null;
+    try { stored = localStorage.getItem(STORAGE_KEY); } catch { /* Storage optional. */ }
+    setAnalyticsEnabled(stored === 'granted');
     if (stored === 'granted') {
       if (typeof window !== 'undefined' && 'mttGrantAnalytics' in window) {
         (window as unknown as { mttGrantAnalytics: () => void }).mttGrantAnalytics();
@@ -22,7 +25,8 @@ export default function CookieConsent() {
   }, []);
 
   const accept = () => {
-    localStorage.setItem(STORAGE_KEY, 'granted');
+    try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch { /* Storage optional. */ }
+    setAnalyticsEnabled(true);
     if (typeof window !== 'undefined' && 'mttGrantAnalytics' in window) {
       (window as unknown as { mttGrantAnalytics: () => void }).mttGrantAnalytics();
     }
@@ -31,7 +35,9 @@ export default function CookieConsent() {
   };
 
   const reject = () => {
-    localStorage.setItem(STORAGE_KEY, 'denied');
+    try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch { /* Storage optional. */ }
+    setAnalyticsEnabled(false);
+    (window as unknown as { mttRevokeAnalytics?: () => void }).mttRevokeAnalytics?.();
     setVisible(false);
     setShowPrefs(false);
   };
@@ -61,12 +67,12 @@ export default function CookieConsent() {
           </div>
           <div className="cookie-pref-row">
             <div><b>Analytics</b><p>Helps us understand how visitors use MTT Packaging so we can improve the website.</p></div>
-            <button className={`cookie-toggle${localStorage.getItem(STORAGE_KEY) === 'granted' ? ' cookie-toggle-on' : ''}`} onClick={() => { if (localStorage.getItem(STORAGE_KEY) === 'granted') { localStorage.removeItem(STORAGE_KEY); } else { accept(); } }}>
-              {localStorage.getItem(STORAGE_KEY) === 'granted' ? 'On' : 'Off'}
+            <button className={`cookie-toggle${analyticsEnabled ? ' cookie-toggle-on' : ''}`} onClick={() => setAnalyticsEnabled(!analyticsEnabled)} aria-pressed={analyticsEnabled}>
+              {analyticsEnabled ? 'On' : 'Off'}
             </button>
           </div>
           <div className="cookie-prefs-actions">
-            <button className="cookie-btn cookie-btn-accept" onClick={accept}>Save Preferences</button>
+            <button className="cookie-btn cookie-btn-accept" onClick={analyticsEnabled ? accept : reject}>Save Preferences</button>
             <button className="cookie-btn cookie-btn-manage" onClick={() => setShowPrefs(false)}>Back</button>
           </div>
         </div>

@@ -18,29 +18,29 @@ const topics = [
     "01",
     "Documented sourcing",
     "Certified paper and board can be specified when available. Certificate scope and transaction documents are checked per order.",
-    "/sustainability/documented-sourcing.webp",
-    "Textured paper and board material samples",
+    "/design/customization/specialty-paper.webp",
+    "Illustration: textured paper swatches for material review",
   ],
   [
     "02",
     "Material reduction",
     "Right-sizing, board optimization and fewer unnecessary components reduce material before adding complex claims.",
-    "/sustainability/material-reduction.webp",
-    "Right-sized custom box components arranged for material review",
+    "/design/carton-editorial.webp",
+    "Concept: simple folding paperboard cartons",
   ],
   [
     "03",
     "Paper-based options",
     "Paperboard platforms and molded pulp can replace some plastic or foam inserts where protection allows.",
-    "/sustainability/paper-based-options.webp",
-    "Molded pulp and folded paperboard packaging inserts",
+    "/design/customization/molded-pulp.webp",
+    "Illustration: formed fiber insert with fitted recesses",
   ],
   [
     "04",
     "Clearer end of life",
     "Magnets, laminations, mixed materials and separability are reviewed against the finished pack.",
-    "/sustainability/clearer-end-of-life.webp",
-    "Mono-material paper box with separable paper components",
+    "/design/customization/magnetic-closure.webp",
+    "Illustration: magnets and greyboard wrapping components for separability review",
   ],
 ];
 const structuredData = {
@@ -58,7 +58,7 @@ const structuredData = {
 };
 export default function SustainabilityPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <section className="sustainability standalone">

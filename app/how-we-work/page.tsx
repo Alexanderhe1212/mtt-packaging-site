@@ -27,7 +27,7 @@ const structuredData = {
 };
 export default function ProcessPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <header className="page-hero">
@@ -40,10 +40,10 @@ export default function ProcessPage() {
           </p>
         </div>
         <img
-          src="/hero/how-we-work.webp"
-          alt="Packaging development worktable with sample, caliper and material swatches"
-          width="1200"
-          height="900"
+          src="/design/hero-editorial.webp"
+          alt="Concept: forest green rigid packaging with a lifted lid"
+          width="3000"
+          height="2250"
         />
       </header>
       <section className="proof">
@@ -58,8 +58,8 @@ export default function ProcessPage() {
         <div className="proof-grid">
           <article>
             <img
-              src="/sustainability/documented-sourcing.webp"
-              alt="Premium paper and board materials"
+              src="/design/customization/specialty-paper.webp"
+              alt="Illustration: textured paper swatches for material review"
               width="500"
               height="350"
               loading="lazy"
@@ -72,8 +72,8 @@ export default function ProcessPage() {
           </article>
           <article>
             <img
-              src="/capability-folding-cartons.webp"
-              alt="Premium print and finishing details"
+              src="/design/customization/hot-foil.webp"
+              alt="Illustration: metallic foil lettering on forest green paper"
               width="500"
               height="350"
               loading="lazy"
@@ -85,8 +85,8 @@ export default function ProcessPage() {
           </article>
           <article>
             <img
-              src="/sustainability/paper-based-options.webp"
-              alt="Paper-based protective inserts"
+              src="/design/insert-editorial.webp"
+              alt="Concept: shaped insert cavities for individual products"
               width="500"
               height="350"
               loading="lazy"
@@ -139,6 +139,12 @@ export default function ProcessPage() {
           </li>
         </ol>
       </section>
+      <aside className="page-cta">
+        <p>Planning resources</p>
+        <h2>Resolve production details before the next physical sample.</h2>
+        <a className="button" href="/insights/packaging-design-to-production-china">Design-to-Production Guide →</a>{' '}
+        <a className="button" href="/insights/reduce-packaging-sampling-rounds">Sampling Checklist →</a>
+      </aside>
       <aside className="page-cta">
         <p>Ready to define the brief?</p>
         <h2>Send Hugo your product size and expected quantity.</h2>

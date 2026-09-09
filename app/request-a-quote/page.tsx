@@ -1,3 +1,4 @@
+import QuoteForm from '../../components/QuoteForm';
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
@@ -36,7 +37,7 @@ const structuredData = {
 
 export default function RequestAQuotePage() {
   return (
-    <main style={{ background: "#f1eee5" }}>
+    <main id="main-content" style={{ background: "#f1eee5" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -44,10 +45,10 @@ export default function RequestAQuotePage() {
       <SiteNav />
 
       <header
+        className="rfq-header"
         style={{
           padding: "64px 7vw",
           display: "grid",
-          gridTemplateColumns: "minmax(0,1.1fr) minmax(340px,.72fr)",
           gap: "6vw",
           alignItems: "center",
           minHeight: "520px",
@@ -79,11 +80,11 @@ export default function RequestAQuotePage() {
             and quotation.
           </p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "16px" }}>
+        <div className="rfq-trust">
           {[
             ["24h", "Response time"],
             ["500", "MOQ (pcs)"],
-            ["Free", "Sampling"],
+            ["Physical", "Sample"],
           ].map(([num, label]) => (
             <div
               key={num}
@@ -97,7 +98,7 @@ export default function RequestAQuotePage() {
               <b style={{ display: "block", font: "600 28px/1 Arial,Helvetica,sans-serif", color: "#172019" }}>
                 {num}
               </b>
-              <span style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: ".1em", color: "#6b746d" }}>
+              <span style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: ".1em", color: "#4a524b" }}>
                 {label}
               </span>
             </div>
@@ -105,21 +106,22 @@ export default function RequestAQuotePage() {
         </div>
       </header>
 
-      <section style={{ display: "grid", gridTemplateColumns: "1.3fr .7fr", gap: "48px", padding: "60px 7vw 100px", alignItems: "start" }}>
+      <section className="rfq-form-section">
         <div>
           <h2 style={{ font: "600 32px/1.1 Arial,Helvetica,sans-serif", letterSpacing: "-.03em", margin: "0 0 8px" }}>
             Packaging Project Details
           </h2>
-          <p style={{ fontSize: "14px", color: "#6b746d", lineHeight: 1.6, marginBottom: "28px" }}>
+          <p style={{ fontSize: "14px", color: "#4a524b", lineHeight: 1.6, marginBottom: "28px" }}>
             Fields marked with <span style={{ color: "#cc4444", fontWeight: 700 }}>*</span> are required.
           </p>
 
-          <form
+          <QuoteForm
             action="https://formspree.io/f/xyeyzwpw"
             method="POST"
             style={{ display: "flex", flexDirection: "column", gap: "24px" }}
           >
             <input type="hidden" name="_subject" value="New RFQ from mttpackaging.com" />
+            <input type="hidden" name="_next" value="https://mttpackaging.com/thank-you" />
             <input type="text" name="_gotcha" style={{ display: "none" }} aria-hidden="true" tabIndex={-1} />
             <CalcPreFill />
 
@@ -231,10 +233,10 @@ export default function RequestAQuotePage() {
               >
                 Submit Quote Request →
               </button>
-              <p style={{ fontSize: "13px", color: "#6b746d", lineHeight: 1.6, marginTop: "16px", maxWidth: "500px", marginLeft: "auto", marginRight: "auto" }}>
+              <p style={{ fontSize: "13px", color: "#4a524b", lineHeight: 1.6, marginTop: "16px", maxWidth: "500px", marginLeft: "auto", marginRight: "auto" }}>
                 Your project details are handled confidentially. Hugo will respond within 24 hours.
               </p>
-              <p style={{ fontSize: "13px", color: "#6b746d", marginTop: "12px" }}>
+              <p style={{ fontSize: "13px", color: "#4a524b", marginTop: "12px" }}>
                 Prefer to discuss directly?{" "}
                 <a href="https://wa.me/8617207110964?text=Hi%20Hugo!%20I%27d%20like%20to%20discuss%20a%20custom%20packaging%20project." target="_blank" rel="noreferrer" style={{ color: "#172019", fontWeight: 700, textDecoration: "underline" }}>
                   WhatsApp Hugo
@@ -245,7 +247,7 @@ export default function RequestAQuotePage() {
                 </a>
               </p>
             </div>
-          </form>
+          </QuoteForm>
         </div>
 
         <aside style={{ position: "sticky", top: "100px" }}>
@@ -261,7 +263,7 @@ export default function RequestAQuotePage() {
               ].map(([title, desc]) => (
                 <li key={title} style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                   <b style={{ fontSize: "13px", fontWeight: 700 }}>{title}</b>
-                  <span style={{ fontSize: "12px", color: "#6b746d", lineHeight: 1.5 }}>{desc}</span>
+                  <span style={{ fontSize: "12px", color: "#4a524b", lineHeight: 1.5 }}>{desc}</span>
                 </li>
               ))}
             </ol>
@@ -278,7 +280,7 @@ export default function RequestAQuotePage() {
                 "Finish references (foil, emboss, etc.)",
                 "Target budget range (optional)",
               ].map((item) => (
-                <li key={item} style={{ fontSize: "13px", color: "#5f6961", paddingLeft: "16px", position: "relative" }}>
+                <li key={item} style={{ fontSize: "13px", color: "#4a524b", paddingLeft: "16px", position: "relative" }}>
                   <span style={{ position: "absolute", left: 0, color: "#253c2e" }}>•</span>
                   {item}
                 </li>

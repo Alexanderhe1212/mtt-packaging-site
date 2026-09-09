@@ -28,7 +28,7 @@ const faqs = [
   ["Does PPWR apply to packaging manufactured in China?", "Packaging manufactured outside the EU may still need to meet applicable PPWR requirements when it is placed on the EU market. Responsibilities depend on the role of the manufacturer, importer, distributor and other economic operators involved."],
   ["What is an EU Declaration of Conformity for packaging?", "It is a declaration used under the PPWR conformity framework to state that the applicable packaging requirements have been met. Responsibility for issuing the declaration depends on who qualifies as the manufacturer for the specific packaging."],
   ["Is PPWR a certification?", "PPWR is an EU regulation, not a generic packaging certification scheme. Compliance is supported by the applicable conformity assessment, technical documentation and EU Declaration of Conformity requirements."],
-  ["Can MTT provide PPWR documentation?", "MTT can provide manufacturing-side information for the packaging we produce, including material and component information, structural specifications and relevant supplier or test documentation where available. The exact documentation depends on the project."],
+  ["Can MTT provide PPWR documentation?", "MTT can provide manufacturing-side information for the packaging projects we coordinate, including material and component information, structural specifications and relevant supplier or test documentation where available. The exact documentation depends on the project."],
   ["Are custom rigid boxes covered by PPWR?", "Rigid boxes placed on the EU market fall within the broader PPWR packaging framework. The applicable requirements depend on their materials, components, intended use and market role."],
   ["How can luxury packaging be designed with recyclability in mind?", "Possible approaches include reducing unnecessary mixed-material components, simplifying structures, improving component separation and selecting materials with recycling pathways appropriate to the target market. The final solution depends on product protection and presentation requirements."],
   ["What information should I send MTT for an EU packaging project?", "Please provide the product dimensions, packaging quantity, preferred structure, materials, printing and finishing requirements, insert requirements and destination market. If PPWR-related documentation is needed, tell us the intended EU market and any specific documentation requested by your compliance team."],
@@ -65,7 +65,7 @@ const structuredData = {
 
 export default function PPWRPage() {
   return (
-    <main>
+    <main id="main-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -189,7 +189,7 @@ export default function PPWRPage() {
             Under the PPWR, packaging suppliers may need to provide manufacturers
             with information and documentation necessary to support conformity
             assessment. MTT can support customers with manufacturing-side
-            information relevant to the packaging we produce.
+            information relevant to the packaging projects we coordinate.
           </p>
           <ul style={{ listStyle: "none", padding: 0, margin: "24px 0", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
             {[

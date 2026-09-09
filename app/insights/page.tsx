@@ -28,7 +28,7 @@ const structuredData = {
 };
 export default function InsightsPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <header className="page-hero">
@@ -41,10 +41,10 @@ export default function InsightsPage() {
           </p>
         </div>
         <img
-          src="/hero/packaging-insights.webp"
-          alt="Packaging research desk with box, insert, paper and finish samples"
-          width="900"
-          height="900"
+          src="/design/hero-editorial.webp"
+          alt="Concept: forest green rigid packaging with a lifted lid"
+          width="1800"
+          height="1200"
         />
       </header>
       <section style={{ padding: "120px 5vw" }}>

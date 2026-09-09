@@ -52,7 +52,7 @@ const structuredData = {
 
 export default function QualityControlPage() {
   return (
-    <main className="qc-page">
+    <main id="main-content" className="qc-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -70,8 +70,8 @@ export default function QualityControlPage() {
           </p>
         </div>
         <img
-          src="/hero/how-we-work.webp"
-          alt="Packaging quality inspection process"
+          src="/design/customization/greyboard.webp"
+          alt="Illustration: exposed greyboard edges for material inspection"
           width="1200"
           height="900"
         />

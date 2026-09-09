@@ -7,6 +7,8 @@ import path from 'node:path';
 const server = await createServer({ configFile: false, server: { middlewareMode: true }, appType: 'custom' });
 try {
   const { default: sitemap } = await server.ssrLoadModule('/app/sitemap.ts');
+  const { default: manifest } = await server.ssrLoadModule('/app/manifest.ts');
+  await writeFile('dist/client/manifest.webmanifest', JSON.stringify(manifest()));
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   const entries = sitemap().map(entry => `<url><loc>${escape(entry.url)}</loc>${entry.lastModified ? `<lastmod>${escape(entry.lastModified instanceof Date ? entry.lastModified.toISOString() : entry.lastModified)}</lastmod>` : ''}</url>`);
   await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>\n`);

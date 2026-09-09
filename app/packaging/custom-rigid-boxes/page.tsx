@@ -3,7 +3,7 @@ import { SiteFooter, SiteNav } from "../../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Custom Rigid Boxes | Luxury Packaging Manufacturer | MTT Packaging",
+  title: "Custom Rigid Boxes | Packaging Manufacturing Partner | MTT Packaging",
   description:
     "Custom rigid boxes from MTT Packaging: magnetic, lift-off lid, drawer and shoulder-neck structures. Premium materials, foil, embossing. MOQ from 500 pcs.",
   alternates: { canonical: "/packaging/custom-rigid-boxes" },
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     description:
       "Magnetic, lift-off lid, drawer and shoulder-neck rigid boxes for premium brands. MOQ from 500 pcs.",
     url: "/packaging/custom-rigid-boxes",
-    images: ["/capability-rigid-box.webp"],
+    images: ["/design/rigid-editorial.webp"],
   },
 };
 
 const faqs = [
   ["What is a custom rigid box?", "A rigid box is a thick, hand-assembled box made from greyboard (typically 1.5–3mm) wrapped with printed or specialty paper. It holds its shape, feels substantial and cannot be flattened. Rigid boxes are used for luxury gifting, product launches and premium retail presentation."],
-  ["What structures are available for rigid boxes?", "MTT Packaging produces magnetic closure boxes, lift-off lid boxes, drawer boxes, shoulder-neck boxes, fold-flat rigid boxes and custom presentation cases. Each structure offers a different opening experience and level of protection."],
+  ["What structures are available for rigid boxes?", "MTT Packaging coordinates production of magnetic closure boxes, lift-off lid boxes, drawer boxes, shoulder-neck boxes, fold-flat rigid boxes and custom presentation cases. Each structure offers a different opening experience and level of protection."],
   ["What is the MOQ for custom rigid boxes?", "Most custom rigid box projects start from 500–1,000 pieces per design. The practical MOQ depends on the structure complexity, materials, finishes and production method."],
   ["How much does a custom rigid box cost?", "Unit cost depends on size, board thickness, wrapping paper, printing, finishes, insert material and order quantity. A simple rigid box with one-colour printing might start from $2–4 per unit at 1,000 pieces, while a complex multi-finish box can reach $8–15 or more."],
   ["Can I order a sample before production?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling typically takes 7–14 days depending on complexity."],
@@ -32,7 +32,7 @@ const structuredData = {
       name: "Custom Rigid Box Manufacturing",
       description: "Custom rigid boxes from MTT Packaging: magnetic, lift-off lid, drawer and shoulder-neck structures for premium brands.",
       url: `${siteUrl}/packaging/custom-rigid-boxes`,
-      image: `${siteUrl}/capability-rigid-box.webp`,
+      image: `${siteUrl}/design/rigid-editorial.webp`,
       provider: { "@id": `${siteUrl}/#organization` },
       areaServed: "Worldwide",
       serviceType: "Custom Rigid Box Manufacturing",
@@ -66,8 +66,8 @@ export default function CustomRigidBoxesPage() {
           </p>
         </div>
         <img
-          src="/capability-rigid-box.webp"
-          alt="Custom rigid box with magnetic closure and fitted insert"
+          src="/design/rigid-editorial.webp"
+          alt="Concept: forest green rigid box with a separate lid"
           width="900"
           height="900"
         />

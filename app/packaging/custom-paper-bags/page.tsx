@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     title: "Custom Paper Bags | MTT Packaging",
     description: "Luxury branded paper bags with custom handles and finishes. MOQ from 500 pcs.",
     url: "/packaging/custom-paper-bags",
-    images: ["/capability-paper-bags.webp"],
+    images: ["/design/customization/handles.webp"],
   },
 };
 
 const faqs = [
-  ["What types of custom paper bags do you offer?", "MTT Packaging produces luxury paper bags with cotton rope handles, ribbon handles, paper twisted handles and die-cut handles. Available in kraft, coated and specialty papers with foil, embossing and custom printing."],
+  ["What types of custom paper bags do you offer?", "MTT Packaging coordinates production of luxury paper bags with cotton rope handles, ribbon handles, paper twisted handles and die-cut handles. Available in kraft, coated and specialty papers with foil, embossing and custom printing."],
   ["What is the MOQ for custom paper bags?", "Most custom paper bag projects start from 500–1,000 pieces. MOQ depends on the paper type, handle style, print complexity and finishes."],
   ["Can paper bags be reinforced?", "Yes. Reinforced handles, cardboard base inserts and turned-top edges are standard for premium paper bags. These improve load capacity and durability."],
 ];
@@ -29,7 +29,7 @@ const structuredData = {
       name: "Custom Paper Bag Manufacturing",
       description: "Custom luxury paper bags from MTT Packaging with custom handles and finishes.",
       url: `${siteUrl}/packaging/custom-paper-bags`,
-      image: `${siteUrl}/capability-paper-bags.webp`,
+      image: `${siteUrl}/design/customization/handles.webp`,
       provider: { "@id": `${siteUrl}/#organization` },
       areaServed: "Worldwide",
       serviceType: "Custom Paper Bag Manufacturing",
@@ -51,7 +51,7 @@ export default function CustomPaperBagsPage() {
           <h1>Custom Paper Bags for Premium Brands</h1>
           <p>Brand-matched luxury bags with cotton, ribbon or paper handles. Reinforced construction, foil stamping and embossing. MOQ from 500 pcs.</p>
         </div>
-        <img src="/capability-paper-bags.webp" alt="Custom luxury paper bags with cotton rope handles" width="900" height="900" />
+        <img src="/design/customization/handles.webp" alt="Concept: ivory paper bag with green woven ribbon handles" width="900" height="900" />
       </header>
       <section className="industry-section">
         <div><p className="section-kicker">Options</p><h2>Paper bag options and construction.</h2></div>

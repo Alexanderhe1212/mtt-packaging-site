@@ -3,16 +3,16 @@ import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "About MTT Packaging | Custom Packaging Manufacturer",
+  title: "About MTT Packaging | Packaging Manufacturing Partner",
   description:
-    "MTT Packaging is a custom packaging manufacturer based in Shenzhen, China. We develop custom rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes for international brands.",
+    "MTT Packaging is a packaging development and manufacturing partner based in Shenzhen, China. We coordinate custom rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes for international brands.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About MTT Packaging | Custom Packaging Manufacturer",
+    title: "About MTT Packaging | Packaging Manufacturing Partner",
     description:
-      "Custom packaging manufacturer in Shenzhen, China. Rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes.",
+      "Packaging development and manufacturing partner in Shenzhen, China. Rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes.",
     url: "/about",
-    images: ["/capability-rigid-box.webp"],
+    images: ["/design/rigid-editorial.webp"],
   },
 };
 
@@ -23,7 +23,7 @@ const structuredData = {
       "@type": "AboutPage",
       name: "About MTT Packaging",
       description:
-        "MTT Packaging is a custom packaging manufacturer in Shenzhen, China.",
+        "MTT Packaging is a packaging development and manufacturing partner in Shenzhen, China.",
       url: `${siteUrl}/about`,
     },
     organization,
@@ -61,7 +61,7 @@ const structuredData = {
 
 export default function AboutPage() {
   return (
-    <main className="about-page">
+    <main id="main-content" className="about-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -93,16 +93,16 @@ export default function AboutPage() {
         </div>
         <div>
           <p>
-            MTT Packaging is a custom packaging manufacturer based in Shenzhen,
-            China. We work with international brands to develop packaging
+            MTT Packaging is a packaging development and manufacturing partner
+            based in Shenzhen, China. We work with international brands to develop packaging
             structures, materials, finishes and inserts as one integrated system.
           </p>
           <p>
             Every project starts with a real product brief: dimensions, weight,
             fragility, sales channel, quantity and delivery destination. From
             that brief, we recommend a structure, select materials, engineer the
-            insert, develop the artwork, produce a physical sample and manage
-            production through to export packing and delivery.
+            insert, develop the artwork, coordinate a physical sample and manage
+            production through suitable manufacturing capabilities, export packing and delivery.
           </p>
           <p>
             Our primary contact is Hugo He, who coordinates the commercial brief

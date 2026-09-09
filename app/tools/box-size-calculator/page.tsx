@@ -148,6 +148,16 @@ export default function BoxSizeCalculatorPage() {
             <p>Rigid boxes, folding cartons, paper bags and custom inserts for premium brands.</p>
             <span>Explore →</span>
           </a>
+          <a href="/insights/reduce-custom-packaging-costs" className="calc-related-card">
+            <h3>Reduce Packaging Cost</h3>
+            <p>Review structure, size and logistics when a custom packaging quote is above target.</p>
+            <span>Read →</span>
+          </a>
+          <a href="/insights/fold-flat-triangular-gift-box-shipping-volume" className="calc-related-card">
+            <h3>Fold-Flat Shipping Volume</h3>
+            <p>Compare box cost with carton volume, pallet utilization, freight and assembly.</p>
+            <span>Read →</span>
+          </a>
         </div>
       </section>
 

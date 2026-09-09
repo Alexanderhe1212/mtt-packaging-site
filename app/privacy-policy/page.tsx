@@ -21,7 +21,7 @@ const structuredData = {
 
 export default function PrivacyPolicy() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <nav style={{ padding: '12px 7vw', fontSize: '12px', color: '#6b746d', borderBottom: '1px solid rgba(23,32,25,.17)', background: '#fff' }}>
@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
       <header className="page-hero" style={{ minHeight: 'auto', padding: '64px 7vw' }}>
         <div>
           <h1>Privacy Policy</h1>
-          <p>Effective date: 1 September 2026</p>
+          <p>Effective date: 9 September 2026</p>
         </div>
       </header>
       <div style={{ padding: '0 7vw 100px', maxWidth: '860px' }}>
@@ -58,8 +58,10 @@ export default function PrivacyPolicy() {
         <p>Providing this information is entirely voluntary. If you choose not to provide it, you can still browse the website, but we may be unable to respond to your enquiry effectively.</p>
 
         <h2>4. Website Enquiries and Chatbot</h2>
-        <p>Our website includes a lead-qualification chatbot that helps visitors describe their packaging requirements. The chatbot collects project information and contact details submitted voluntarily by the visitor. It operates using a rule-based conversation flow and uses the same submission infrastructure as our website enquiry forms.</p>
+        <p>Our website uses Knock Knock App for live chat, audio calls, video calls and messages. This service processes connection and device information, pages visited, and information you share in a conversation to operate the contact widget and help us respond. Your browser controls microphone and camera permission. Where an AI assistant responds, it is identified as MTT Assistant. Website enquiry forms are processed separately through Formspree.</p>
         <p>Visitors may optionally choose to continue the conversation on WhatsApp, which is a third-party messaging service.</p>
+
+        <p>For information about the contact service provider, see <a href="https://knockknockapp.ai/privacy-policy/" target="_blank" rel="noopener noreferrer">Knock Knock App’s Privacy Policy</a>.</p>
 
         <h2>5. Usage and Analytics Data</h2>
         <p>Our website may use Google Analytics (GA4) to understand how visitors use the site. This may include information such as pages visited, time spent on pages, approximate geographic region, device type, browser type and referring website. Google Analytics uses cookies and similar technologies to collect this information.</p>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Custom Folding Cartons | MTT Packaging",
     description: "Premium paperboard folding cartons with specialty finishes. MOQ from 500 pcs.",
     url: "/packaging/folding-cartons",
-    images: ["/capability-folding-cartons.webp"],
+    images: ["/design/carton-editorial.webp"],
   },
 };
 
@@ -30,7 +30,7 @@ const structuredData = {
       name: "Custom Folding Carton Manufacturing",
       description: "Custom folding cartons from MTT Packaging: premium paperboard with specialty finishes.",
       url: `${siteUrl}/packaging/folding-cartons`,
-      image: `${siteUrl}/capability-folding-cartons.webp`,
+      image: `${siteUrl}/design/carton-editorial.webp`,
       provider: { "@id": `${siteUrl}/#organization` },
       areaServed: "Worldwide",
       serviceType: "Custom Folding Carton Manufacturing",
@@ -55,7 +55,7 @@ export default function FoldingCartonsPage() {
           <h1>Custom Folding Cartons for Retail and E-Commerce</h1>
           <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. MOQ from 1,000 pcs.</p>
         </div>
-        <img src="/capability-folding-cartons.webp" alt="Premium embossed folding cartons with specialty finishes" width="900" height="900" />
+        <img src="/design/carton-editorial.webp" alt="Concept: ivory folding cartons" width="900" height="900" />
       </header>
       <section className="industry-section">
         <div>

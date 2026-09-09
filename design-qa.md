@@ -1,48 +1,27 @@
-# Design QA — MTT Packaging Editorial Redesign
-
-- Source visual truth: supplied Packhelp homepage, process, sustainability and footer screenshots; primary files `codex-clipboard-3ffb4407-ea9c-468b-969d-32f586b2fe51.png` and `codex-clipboard-6af7ff74-6054-4de0-bae5-cd9541846c23.png`.
-- Implementation screenshots: `/Users/heguohua/Documents/Codex/2026-08-27/wo/work/mtt-redesign-desktop.png`, `/Users/heguohua/Documents/Codex/2026-08-27/wo/work/mtt-redesign-sustainability.png`, and `/Users/heguohua/Documents/Codex/2026-08-27/wo/work/mtt-redesign-mobile.png`.
-- Desktop viewport: 1280 × 720 CSS px, device scale 1. Source references: 2866 × 1606 and 2770 × 1594 px, compared proportionally because the redesign adopts the reference language rather than cloning the page.
-- Mobile viewport: 390 × 844 CSS px, device scale 1.
-- State: homepage initial view, sustainability anchor view, mobile initial view.
-
-## Full-view comparison evidence
-
-- The implementation preserves the reference hierarchy: restrained navigation, oversized left-aligned headline, asymmetric editorial image grid, rounded primary CTA and generous whitespace.
-- The sustainability section preserves the reference's large centered statement and four-column scan pattern while replacing unverifiable metrics and third-party claims with project-specific, evidence-bounded language.
-- Search, account and cart controls are intentionally omitted because MTT is a high-end custom-project sales site rather than an ecommerce catalogue.
-
-## Focused region comparison
-
-- Hero: original MTT product images are sharp, consistently lit and correctly cropped across a tall lead image plus two supporting tiles. Typography, image density and spacing follow the source without copying its branding.
-- Sustainability: heading scale, pale environmental palette, four equal information cards and supporting certification note were checked at the same desktop viewport. No certification logos or unsupported numerical claims are present.
-- Mobile: headline wraps cleanly, body copy remains readable, CTA and secondary link remain visible, and no horizontal overflow was observed.
-
-## Fidelity surfaces
-
-- Fonts and typography: Arial/Helvetica system sans is a close freely available match to the geometric reference; display weight, tight tracking and line height are consistent. Small navigation and eyebrow text remain legible.
-- Spacing and layout rhythm: hero uses a 48/52 split, 10 px image gutters and a full-height composition; sustainability maintains consistent card gaps and section breathing room.
-- Colors and tokens: white, near-black, muted gray-green, pale botanical green and the existing MTT lime CTA form a coherent system with sufficient contrast.
-- Image quality: all visible hero imagery uses original 900 px WebP assets with appropriate object-fit and no placeholder, third-party logo or watermark.
-- Copy and content: service positioning and environmental copy are specific to MTT; no Packhelp wording, metrics, certifications or customer claims were reused.
-
-## Interaction and runtime checks
-
-- Primary navigation anchor to Sustainability tested successfully.
-- WhatsApp, internal anchors and brief form remain real links/controls.
-- Browser console checked at desktop and mobile: no warnings or errors.
-
-## Findings
-
-- No actionable P0, P1 or P2 visual or usability issues remain.
-
-## Comparison history
-
-- Initial implementation comparison: no P0/P1/P2 issues found, so no corrective iteration was required.
-
-## Follow-up polish
-
-- P3: replace the current concept showcase with verified photography when Hugo supplies real completed-project images.
-- P3: add actual certification marks only after certificate owner, scope, validity and logo-use conditions are verified.
+# MTT editorial release QA — 2026-09-10
 
 final result: passed
+
+Scope: visual redesign and image-to-copy mapping, with production restoration and static-site release checks. This is not an engineering certification of illustrated packaging or a test of external email delivery.
+
+## Findings corrected
+- P1: preview-only noindex and simulated enquiries must not ship. Production restores original Formspree handlers, consent-managed analytics and indexable metadata, removes preview label and subscription calling script.
+- P2: portrait window image stretched the entire card row. Shared 3:2 slots now have equal dimensions; cards align at the top without full-height gray panels. At 1440px, measured all six slots at421×281 with no horizontal overflow.
+- P2: industry hero image height followed intrinsic content. Explicit bounded height now avoids oversized rows, with 3:2 mobile presentation.
+- P2: imagery did not correspond to materials, finishes and structures. Corrected24 customization items, six structure examples, four industries, capability images and article covers. New perfume rigid box/discovery set matches the actual premium rigid/discovery/insert copy.
+- P2: article and industry templates retained old navigation and stray WhatsApp markup. They now use shared SiteNav/SiteFooter and the single Hugo contact entry.
+- P2: static manifest reference404. Build preparation now emits manifest.webmanifest from its source route.
+
+## Visual evidence
+Initial selected homepage versus implementation: isolated preview qa/desktop-comparison.jpg (1440px rendered comparison).
+Latest fragrance asset versus actual rendered crop: qa/fragrance-comparison.jpg. Inspected together: both show main hinged fragrance box, fitted bottle recess and three-vial discovery box. Normal Hugo launcher overlays lower corner as existing behavior.
+Desktop customization: inspected at1440×1000; equal3:2 image slots and no overflow. Final narrow519px view: qa/addons-production-mobile.png and qa/fragrance-final-mobile.png. Prior390px finishing validation also passed. Some final desktop screenshot attempts were interrupted when Chrome became unavailable; no claim of exhaustive device testing.
+
+## Functional checks
+All four image tabs switch to six-card content in the production static build. Phone menu opens all six links. Empty RFQ submission stays on form with five invalid required controls; packaging type selects correctly. Packaging tool iframe points to the original standalone application. Tool HTML is byte-identical to the previously deployed ZIP. Source handlers restored; external enquiry delivery not exercised to avoid sending test customer messages.
+
+## Release gates
+MTT_STATIC_EXPORT=1 npm run build;45 prerendered routes. scripts/validate-static.py checks43 sitemap pages for unique H1, canonical equality, indexability, local links/assets and absence of preview marker; also verifies production handlers. git diff --check.
+
+## Limitations
+AI product/process images are illustrative; they are not client project evidence, factory photographs or CAD. Fold-flat illustration shows folding direction rather than validated manufacturing geometry. Existing article text, business claims and production quotations remain outside the visual change. Formal packaging engineering still requires physical sampling.
