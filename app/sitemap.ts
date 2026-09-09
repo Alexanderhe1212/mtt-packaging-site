@@ -1,6 +1,9 @@
 import type { MetadataRoute } from 'next';
 import { articles } from '../lib/articles';
 import { industries } from '../lib/industries';
+import { siteUrl } from '../lib/seo';
 export const dynamic = 'force-static';
-const lastModified = new Date('2026-08-31');
-export default function sitemap(): MetadataRoute.Sitemap { return [{ url: 'https://mttpackaging.com', lastModified, changeFrequency: 'monthly', priority: 1 }, ...['packaging','how-we-work','sustainability','insights','request-a-quote','about','quality-control','ppwr-compliant-packaging','privacy-policy','cookie-policy','tools'].map((slug)=>({url:`https://mttpackaging.com/${slug}`,lastModified,changeFrequency:'monthly' as const,priority:.9})), ...['tools/box-size-calculator'].map((slug)=>({url:`https://mttpackaging.com/${slug}`,lastModified,changeFrequency:'monthly' as const,priority:.88})), ...['custom-rigid-boxes','folding-cartons','custom-paper-bags','custom-inserts'].map((slug)=>({url:`https://mttpackaging.com/packaging/${slug}`,lastModified,changeFrequency:'monthly' as const,priority:.88})), ...industries.map(({ slug }) => ({ url: `https://mttpackaging.com/industries/${slug}`, lastModified, changeFrequency: 'monthly' as const, priority: .85 })), ...articles.map(({ slug }) => ({ url: `https://mttpackaging.com/insights/${slug}`, lastModified, changeFrequency: 'monthly' as const, priority: .75 }))]; }
+export default function sitemap(): MetadataRoute.Sitemap {
+  const paths = ['', 'packaging', 'industries', 'how-we-work', 'sustainability', 'insights', 'request-a-quote', 'about', 'quality-control', 'ppwr-compliant-packaging', 'privacy-policy', 'cookie-policy', 'tools', 'tools/box-size-calculator', 'tools/gift-box-solution-builder', ...['custom-rigid-boxes', 'folding-cartons', 'custom-paper-bags', 'custom-inserts'].map(s => `packaging/${s}`), ...industries.map(i => `industries/${i.slug}`)];
+  return [...paths.map(path => ({ url: path ? `${siteUrl}/${path}` : siteUrl })), ...articles.map(article => ({ url: `${siteUrl}/insights/${article.slug}`, lastModified: article.dateModified || article.datePublished }))];
+}

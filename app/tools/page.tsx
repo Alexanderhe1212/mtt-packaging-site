@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 const tools = [
+  { title: 'Gift Box Solution Builder', status: 'Available' as const, href: '/tools/gift-box-solution-builder', desc: 'Plan your box structure, materials, finishes and artwork, then send the completed packaging brief to MTT.', cta: 'Build Your Packaging Brief' },
   { title: 'Box Size Calculator', status: 'Available' as const, href: '/tools/box-size-calculator', desc: 'Estimate recommended internal and external box dimensions from product size, clearance and board thickness.' },
   { title: 'Sheet Layout Calculator', status: 'Coming Soon' as const },
   { title: 'CBM Calculator', status: 'Coming Soon' as const },
@@ -42,7 +43,7 @@ const structuredData = {
 
 export default function ToolsPage() {
   return (
-    <main className="tools-page">
+    <main id="main-content" className="tools-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <header className="page-hero">
@@ -58,7 +59,7 @@ export default function ToolsPage() {
               <span className={`tool-status${tool.status === 'Available' ? ' tool-status-live' : ''}`}>{tool.status}</span>
               <h3>{tool.title}</h3>
               <p>{tool.desc ?? 'Coming soon.'}</p>
-              {tool.href ? <a className="button small" href={tool.href}>Use Calculator →</a> : null}
+              {tool.href ? <a className="button small" href={tool.href}>{'cta' in tool ? tool.cta : 'Use Calculator →'}</a> : null}
             </div>
           ))}
         </div>

@@ -1,0 +1,4 @@
+import type {Metadata} from 'next';
+import GiftBuilderFrame from '../../../components/GiftBuilderFrame';
+export const metadata:Metadata={title:'Gift Box Solution Builder | MTT Packaging',description:'Plan a custom gift box structure, materials, finishes and artwork, then send your packaging brief to MTT for engineering review and a formal production quote.',alternates:{canonical:'https://mttpackaging.com/tools/gift-box-solution-builder'}};
+export default function GiftBuilderPage(){return <main id="main-content" style={{maxWidth:1680,margin:'0 auto',padding:'20px 12px'}}><a href="/tools">← Packaging Tools</a><h1 style={{fontSize:28,margin:'12px 0'}}>MTT Gift Box Solution Builder</h1><p>Plan your box structure, materials, finishes and artwork, then send the completed packaging brief to MTT for engineering review and a formal production quote.</p><GiftBuilderFrame/></main>}
