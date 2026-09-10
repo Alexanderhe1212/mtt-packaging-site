@@ -1,3 +1,4 @@
+import BuyerPlanning from "../../../components/BuyerPlanning";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   ["What types of packaging inserts are available?", "MTT Packaging coordinates production of paper inserts (folded paperboard platforms), molded pulp inserts, EVA foam inserts and fabric-covered foam inserts. The choice depends on product weight, fragility, presentation and sustainability requirements."],
-  ["What is the best insert for glass bottles?", "The right insert depends on bottle weight, fragility and presentation target. Molded pulp and paperboard platforms improve recyclability. EVA or fabric-covered foam provides tighter cushioning for heavier or more delicate bottles."],
+  ["What is the best insert for glass bottles?", "The right insert depends on bottle weight, fragility and presentation target. Compare paperboard, molded pulp and foam using the actual bottle and distribution conditions. Protection must be verified by sampling and agreed testing; recyclability depends on composition and local collection."],
   ["Can one insert hold multiple products?", "Yes, but each product needs its own cavity dimensioned from measured product sizes—not from a photo or nominal fill volume. The lid clearance, finger access and product sequence should be planned before the insert is engineered."],
   ["What information is needed to design an insert?", "Provide measured product dimensions (L × W × H in mm), weight, center of gravity, fragile points, desired retention method and sustainability requirements. Nominal capacity or a product photo is not enough to engineer a secure fit."],
 ];
@@ -43,7 +44,7 @@ const structuredData = {
 
 export default function CustomInsertsPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <header className="page-hero">
@@ -57,7 +58,7 @@ export default function CustomInsertsPage() {
       <section className="industry-section">
         <div><p className="section-kicker">Insert types</p><h2>Insert options for every product and budget.</h2></div>
         <div className="structure-list">
-          {[["Paperboard platform", "Folded or die-cut paperboard. Print-friendly, recyclable, cost-efficient."], ["Molded pulp", "Custom-molded from recycled fibre. Supports complex shapes and reduces plastic use."], ["EVA foam", "Precise cavities for cushioning. Available in multiple densities and colors."], ["Fabric-covered foam", "EVA or foam wrapped in velvet, microfiber or paper for premium presentation."], ["Vacuum-formed tray", "Clear or colored plastic trays for exact product fit."], ["Die-cut corrugated", "Budget-friendly protection for shipping and e-commerce."]].map(([t, d], i) => (
+          {[["Paperboard platform", "Folded or die-cut paperboard. Review print, support and local recycling compatibility for the chosen construction."], ["Molded pulp", "Custom-molded from recycled fibre. Supports complex shapes and reduces plastic use."], ["EVA foam", "Precise cavities for cushioning. Available in multiple densities and colors."], ["Fabric-covered foam", "EVA or foam wrapped in velvet, microfiber or paper for premium presentation."], ["Vacuum-formed tray", "Clear or colored plastic trays for exact product fit."], ["Die-cut corrugated", "Budget-friendly protection for shipping and e-commerce."]].map(([t, d], i) => (
             <article key={t}><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
           ))}
         </div>
@@ -70,15 +71,16 @@ export default function CustomInsertsPage() {
           ))}
         </div>
       </section>
+      <BuyerPlanning kind="inserts" />
       <section className="brief-list">
         <div><p className="section-kicker">Request a quote</p><h2>Send these details for a focused review.</h2></div>
         <ol>{["Product dimensions and weight (each item if multiple)", "Insert material preference", "Retention method and orientation", "Sustainability requirements", "Outer box dimensions if known"].map((l, i) => (<li key={l}><b>0{i + 1}</b>{l}</li>))}</ol>
       </section>
-      <section style={{ padding: "100px 12vw", display: "grid", gridTemplateColumns: ".72fr 1.28fr", gap: "8vw", borderTop: "1px solid rgba(23,32,25,.17)" }}>
+      <section className="buyer-faq">
         <div><p className="section-kicker">Buyer questions</p><h2 style={{ font: "400 clamp(38px,4.5vw,64px)/1 Georgia", margin: 0 }}>Common questions.</h2></div>
         <div>{faqs.map(([q, a], i) => (<details key={q} open={i === 0} style={{ borderTop: "1px solid rgba(23,32,25,.17)", padding: "24px 0" }}><summary style={{ cursor: "pointer", listStyle: "none", font: "600 19px/1 Arial,Helvetica,sans-serif", display: "flex", justifyContent: "space-between" }}>{q}<span style={{ fontSize: "24px" }}>+</span></summary><p style={{ maxWidth: "650px", lineHeight: 1.7, color: "#667168", fontSize: "14px", marginTop: "12px" }}>{a}</p></details>))}</div>
       </section>
-      <aside className="page-cta"><p>Insert engineering guides</p><h2>Review fit strategies for variable handmade products and glass bottles.</h2><a className="button" href="/insights/packaging-inserts-for-handmade-glass-products">Handmade Glass Case Study →</a> <a className="button" href="/insights/perfume-box-insert-design">Perfume Insert Guide →</a></aside>
+      <aside className="page-cta"><p>Insert engineering guides</p><h2>Review fit strategies for variable handmade products and glass bottles.</h2><a className="button" href="/insights/packaging-inserts-for-handmade-glass-products">Handmade Glass Planning Guide →</a> <a className="button" href="/insights/perfume-box-insert-design">Perfume Insert Guide →</a></aside>
       <SiteFooter />
     </main>
   );

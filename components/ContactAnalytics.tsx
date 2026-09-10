@@ -10,6 +10,7 @@ export default function ContactAnalytics() {
       if (!link) return;
       const url = new URL(link.href, location.href);
       if (url.hostname === 'wa.me' || url.hostname === 'api.whatsapp.com') trackEvent('whatsapp_click');
+      else if (url.origin === location.origin && url.pathname === '/tools/gift-box-solution-builder') trackEvent('gift_builder_entry');
       else if (url.origin === location.origin && url.pathname === '/request-a-quote') trackEvent('packaging_brief_click');
     };
     const focus = (event: FocusEvent) => {

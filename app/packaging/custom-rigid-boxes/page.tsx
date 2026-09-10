@@ -1,3 +1,4 @@
+import BuyerPlanning from "../../../components/BuyerPlanning";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
@@ -17,10 +18,10 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  ["What is a custom rigid box?", "A rigid box is a thick, hand-assembled box made from greyboard (typically 1.5–3mm) wrapped with printed or specialty paper. It holds its shape, feels substantial and cannot be flattened. Rigid boxes are used for luxury gifting, product launches and premium retail presentation."],
+  ["What is a custom rigid box?", "A rigid box is a thick, hand-assembled box made from greyboard (typically 1.5–3mm) wrapped with printed or specialty paper. Conventional rigid boxes hold their shape; purpose-designed fold-flat versions can collapse for transport. Rigid boxes are used for luxury gifting, product launches and premium retail presentation."],
   ["What structures are available for rigid boxes?", "MTT Packaging coordinates production of magnetic closure boxes, lift-off lid boxes, drawer boxes, shoulder-neck boxes, fold-flat rigid boxes and custom presentation cases. Each structure offers a different opening experience and level of protection."],
   ["What is the MOQ for custom rigid boxes?", "Most custom rigid box projects start from 500–1,000 pieces per design. The practical MOQ depends on the structure complexity, materials, finishes and production method."],
-  ["How much does a custom rigid box cost?", "Unit cost depends on size, board thickness, wrapping paper, printing, finishes, insert material and order quantity. A simple rigid box with one-colour printing might start from $2–4 per unit at 1,000 pieces, while a complex multi-finish box can reach $8–15 or more."],
+  ["How much does a custom rigid box cost?", "Unit cost depends on size, board thickness, wrapping paper, printing, finishes, insert material and order quantity. Send your specification and quantity for a project-specific quotation; sample/tooling charges and shipping are confirmed separately."],
   ["Can I order a sample before production?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling typically takes 7–14 days depending on complexity."],
 ];
 
@@ -51,7 +52,7 @@ const structuredData = {
 
 export default function CustomRigidBoxesPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
 
@@ -84,7 +85,7 @@ export default function CustomRigidBoxesPage() {
             ["Lift-off lid", "A clean two-piece structure. Versatile, efficient to pack and suitable for single products and collections."],
             ["Drawer box", "A sleeve-and-tray format that creates a deliberate sliding reveal. Works well with ribbon pulls."],
             ["Shoulder-neck", "A visible inner neck introduces a second brand color. Strong reveal for perfume and cosmetics."],
-            ["Fold-flat rigid", "Ships flat and assembles at destination. Reduces storage and freight volume by 60–80%."],
+            ["Fold-flat rigid", "Ships flat and assembles at destination. Compare storage and freight volume using the final carton plan; savings vary by structure and packing method."],
             ["Presentation case", "A hinged or multi-part structure for high-value items, collectibles and luxury accessories."],
           ].map(([title, desc], i) => (
             <article key={title}>
@@ -115,6 +116,7 @@ export default function CustomRigidBoxesPage() {
         </div>
       </section>
 
+      <BuyerPlanning kind="rigid" />
       <section className="brief-list">
         <div>
           <p className="section-kicker">Request a quote</p>
@@ -138,7 +140,7 @@ export default function CustomRigidBoxesPage() {
       </section>
 
       {/* FAQ */}
-      <section style={{ padding: "100px 12vw", display: "grid", gridTemplateColumns: ".72fr 1.28fr", gap: "8vw", borderTop: "1px solid rgba(23,32,25,.17)" }}>
+      <section className="buyer-faq">
         <div>
           <p className="section-kicker">Buyer questions</p>
           <h2 style={{ font: "400 clamp(38px,4.5vw,64px)/1 Georgia", margin: 0 }}>Common questions about rigid boxes.</h2>

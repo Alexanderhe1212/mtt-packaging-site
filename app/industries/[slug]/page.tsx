@@ -1,3 +1,4 @@
+import BuyerPlanning from "../../../components/BuyerPlanning";
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
 import type { Metadata } from "next";
 import { getIndustry, industries } from "../../../lib/industries";
@@ -164,6 +165,7 @@ export default async function IndustryPage({
         </a>
         <p style={{ marginTop: '12px', fontSize: '12px', color: '#8a9a8d' }}>Message Hugo on WhatsApp for a quick response about your project.</p>
       </aside>
+      {item.slug === "perfume-fragrance-packaging" && <BuyerPlanning kind="perfume" />}
       <SiteFooter />
     </main>
   );
