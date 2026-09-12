@@ -1,8 +1,9 @@
 'use client';
 import { useRef, useState, type ComponentProps } from 'react';
+import {resources} from '../lib/locales/interface.mjs';
 import { trackEvent } from '../lib/analytics';
 
-export default function QuoteForm(props: ComponentProps<'form'>) {
+export default function QuoteForm({locale='en',...props}: ComponentProps<'form'> & {locale?:'en'|'zh'}) {
   const pending = useRef(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
@@ -17,14 +18,14 @@ export default function QuoteForm(props: ComponentProps<'form'>) {
       const result = await response.json();
       if (!response.ok || result.ok !== true) throw new Error('Request not accepted');
       trackEvent('generate_lead', { form_id: location.pathname === '/' ? 'homepage' : 'request_a_quote' });
-      location.assign('/thank-you');
+      location.assign(locale==='zh'?'/zh/thank-you':'/thank-you');
     } catch {
-      setError('We could not confirm your submission. Your details are still here. Please try again or contact Hugo on WhatsApp.');
+      setError(resources[locale].translation.sendError);
       pending.current = false; setBusy(false);
     }
   }}>
     {props.children}
-    {busy && <p role="status">Sending your packaging brief…</p>}
+    {busy && <p role="status">{resources[locale].translation.sending}</p>}
     {error && <p role="alert">{error}</p>}
   </form>;
 }

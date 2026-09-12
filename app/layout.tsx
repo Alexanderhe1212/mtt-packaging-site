@@ -1,3 +1,4 @@
+import LanguagePicker from '../components/LanguagePicker';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import ContactAnalytics from '../components/ContactAnalytics';
@@ -45,6 +46,7 @@ export default function RootLayout({
       <body className="mtt-editorial">
         <a href="#main-content" className="skip-link">Skip to main content</a>
         {children}
+        <LanguagePicker />
         <LeadQualificationChatbot hasIntroVideo={true} />
         <CookieConsent />
         <ContactAnalytics />

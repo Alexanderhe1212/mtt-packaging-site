@@ -1,0 +1,1 @@
+export default function ZhNav(){return <nav className="zh-nav" aria-label="中文导航"><a href="/zh"><img src="/brand/mtt-gold-triangle.webp" width="44" height="44" alt=""/>MTT Packaging</a><a href="/zh#packaging">定制包装</a><a href="/zh#process">合作流程</a><a href="/zh/request-a-quote">提交包装需求</a></nav>}
