@@ -1,2 +1,2 @@
-const links=[['定制包装','/packaging'],['行业方案','/industries'],['案例目录','/case-studies'],['合作流程','/how-we-work'],['关于 MTT','/about'],['设计包装盒','/tools/gift-box-solution-builder'],['包装工具','/tools']];
+const links=[['产品目录','/zh/products'],['定制包装','/packaging'],['行业方案','/industries'],['案例目录','/case-studies'],['合作流程','/how-we-work'],['关于 MTT','/about'],['设计包装盒','/tools/gift-box-solution-builder'],['包装工具','/tools']];
 export default function ZhNav(){return <nav className="zh-nav" aria-label="中文导航"><a href="/zh"><img src="/brand/mtt-gold-triangle.webp" width="44" height="44" alt=""/>MTT Packaging</a>{links.map(([label,href])=><a href={href} key={href}>{label}</a>)}<a href="/zh/request-a-quote">提交包装需求</a></nav>}

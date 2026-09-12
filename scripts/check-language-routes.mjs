@@ -9,3 +9,5 @@ assert.equal(languageRoute('/zh/','en'),'/');
 assert.equal(languageRoute('/request-a-quote/','zh'),'/zh/request-a-quote');
 assert.equal(languageRoute('/zh/request-a-quote/','en'),'/request-a-quote');
 console.log('Language switching preserves feature pages and translated counterparts.');
+assert.equal(languageRoute('/products/perfume-test/','zh'),'/zh/products/perfume-test');
+assert.equal(languageRoute('/zh/products/perfume-test/','en'),'/products/perfume-test');

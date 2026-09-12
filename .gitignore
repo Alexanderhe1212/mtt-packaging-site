@@ -39,3 +39,5 @@ next-env.d.ts
 
 .lighthouseci/
 qa/lighthouse-report/
+
+/docs/catalog/qa/

@@ -1,0 +1,4 @@
+import {SiteNav,SiteFooter} from '../../components/SiteNav';
+import ProductCatalogue from '../../components/ProductCatalogue';
+export const metadata={title:'Custom Packaging Products | 120 Rigid Gift Box Designs | MTT Packaging',description:'Explore custom perfume, beauty, jewelry, tea, coffee and gift packaging. Compare structures, materials, finishes and five product views.',alternates:{canonical:'/products',languages:{en:'/products','zh-Hans':'/zh/products'}}};
+export default function Products(){return <main id="main-content"><SiteNav/><div className="catalogue-shell"><header><p className="section-kicker">Made around your product</p><h1>Find your next packaging.</h1><p>Explore 120 rigid gift box designs by industry and structure. Compare the details, then send your chosen design for a tailored quotation.</p></header><ProductCatalogue/></div><SiteFooter/></main>}

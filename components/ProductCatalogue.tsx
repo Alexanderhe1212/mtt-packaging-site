@@ -1,0 +1,16 @@
+'use client';
+import {useState} from 'react';
+import {products,categories,structures,wrappingPapers} from '../lib/products';
+import {ProductView} from './ProductGallery';
+export default function ProductCatalogue({zh=false}:{zh?:boolean}){
+ const [query,setQuery]=useState(''),[category,setCategory]=useState(''),[structure,setStructure]=useState(''),[wrap,setWrap]=useState('');
+ const found=products.filter(p=>(!category||p.category===category)&&(!structure||p.structure===structure)&&(!wrap||p.wrap===wrap)&&[p.name,p.nameZh,p.code,p.categoryName,p.categoryZh,p.structureName,p.structureZh,p.material,p.materialZh,p.wrap,p.wrapZh,p.finish,p.finishZh].join(' ').toLowerCase().includes(query.toLowerCase().trim()));
+ return <>
+ <section className="product-family" aria-label={zh?'包装类别':'Packaging family'}><span>{zh?'当前类别':'Collection'}</span><h2>{zh?'精品硬盒':'Rigid gift boxes'}</h2><p>{zh?'硬质灰板支撑盒体，外裱纸决定表面质感。按开合结构、产品用途及裱纸筛选，再查看内托和工艺。':'Rigid board forms the structure; wrapping paper defines the surface. Explore opening styles, applications and papers, then compare inserts and finishes.'}</p></section>
+ <div className="product-categories" role="group" aria-label={zh?'选择产品用途':'Choose an application'}>{categories.map(c=><button type="button" key={c.id} aria-pressed={category===c.id} onClick={()=>setCategory(category===c.id?'':c.id)}><b>{zh?c.zh:c.en}</b><span>{products.filter(p=>p.category===c.id).length} {zh?'款':'designs'}</span></button>)}</div>
+ <div className="product-filters"><label>{zh?'搜索产品、材料或工艺':'Search products, materials or finishes'}<input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder={zh?'例如：抽屉、烫金、香水':'Try drawer, foil, perfume'}/></label><label>{zh?'产品用途':'Application'}<select value={category} onChange={e=>setCategory(e.target.value)}><option value="">{zh?'全部用途':'All applications'}</option>{categories.map(c=><option key={c.id} value={c.id}>{zh?c.zh:c.en}</option>)}</select></label><label>{zh?'开合结构':'Opening structure'}<select value={structure} onChange={e=>setStructure(e.target.value)}><option value="">{zh?'全部硬盒结构':'All rigid structures'}</option>{structures.map(s=><option key={s.id} value={s.id}>{zh?s.zh:s.en}</option>)}</select></label><label>{zh?'外裱纸':'Wrapping paper'}<select value={wrap} onChange={e=>setWrap(e.target.value)}><option value="">{zh?'全部裱纸':'All papers'}</option>{wrappingPapers.map(w=><option key={w.id} value={w.id}>{zh?w.zh:w.en}</option>)}</select></label></div>
+ <div className="product-results"><p role="status">{found.length} {zh?'款精品硬盒':'rigid gift box designs'}</p>{(query||category||structure||wrap)&&<button type="button" onClick={()=>{setQuery('');setCategory('');setStructure('');setWrap('')}}>{zh?'清除筛选':'Clear filters'}</button>}</div>
+ <div className="product-grid">{found.map(p=><a className="product-card" key={p.code} href={`${zh?'/zh':''}/products/${p.slug}`}><ProductView src={p.image} alt={zh?p.nameZh:p.name}/><div><small>{p.code} · {zh?p.structureZh:p.structureName}</small><h2>{zh?p.nameZh:p.name}</h2><p>{zh?p.wrapZh:p.wrap} · {zh?p.finishZh:p.finish}</p><b>{zh?'查看五个视角及规格 →':'Explore views & specifications →'}</b></div></a>)}</div>
+ {!found.length&&<p>{zh?'没有匹配的产品，请调整筛选条件。':'No matching designs. Try another filter.'}</p>}
+ </>;
+}

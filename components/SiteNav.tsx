@@ -1,6 +1,6 @@
 import CookieSettingsButton from './CookieSettingsButton';
 import MTTMonogram from './MTTMonogram';
-const links=[['Packaging','/packaging'],['Industries','/industries'],['Case Studies','/case-studies'],['How We Work','/how-we-work'],['About','/about'],['Design Your Box','/tools/gift-box-solution-builder']];
+const links=[['Products','/products'],['Packaging','/packaging'],['Industries','/industries'],['Case Studies','/case-studies'],['How We Work','/how-we-work'],['About','/about'],['Design Your Box','/tools/gift-box-solution-builder']];
 export function SiteNav(){return <nav className="ed-nav" aria-label="Primary navigation"><a className="ed-brand" href="/"><span aria-hidden="true"><MTTMonogram size={54}/></span><span>MTT Packaging</span></a><div className="ed-nav-links">{links.map(([t,u])=><a href={u} key={u}>{t}</a>)}</div><a className="button ed-nav-quote" href="/request-a-quote">Request a Quote <span aria-hidden="true">→</span></a><details className="ed-mobile-menu"><summary>Menu</summary><div>{links.map(([t,u])=><a href={u} key={u}>{t}</a>)}<a href="/tools">Packaging Tools</a><a href="/request-a-quote">Request a Quote</a></div></details></nav>}
 
 export function SiteFooter() {

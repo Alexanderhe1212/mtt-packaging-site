@@ -1,9 +1,11 @@
 'use client';
-import { useRef, useState, type ComponentProps } from 'react';
+import { useEffect, useRef, useState, type ComponentProps } from 'react';
 import {resources} from '../lib/locales/interface.mjs';
 import { trackEvent } from '../lib/analytics';
 
 export default function QuoteForm({locale='en',...props}: ComponentProps<'form'> & {locale?:'en'|'zh'}) {
+  const [product,setProduct]=useState('');
+  useEffect(()=>{setProduct(new URLSearchParams(location.search).get('product')?.slice(0,250)||'')},[]);
   const pending = useRef(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
@@ -24,6 +26,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
       pending.current = false; setBusy(false);
     }
   }}>
+    {product && <label>{locale==='zh'?'所选产品':'Selected product'}<input name="selected_product" value={product} readOnly/></label>}
     {props.children}
     {busy && <p role="status">{resources[locale].translation.sending}</p>}
     {error && <p role="alert">{error}</p>}
