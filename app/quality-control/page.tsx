@@ -1,3 +1,4 @@
+import RelatedPackagingStudies from "../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     description:
       "How MTT Packaging inspects materials, printing, finishing, assembly and packing for custom packaging projects.",
     url: "/quality-control",
-    images: ["/hero/how-we-work.webp"],
+    images: ["/design/development-worktable.webp"],
   },
 };
 
@@ -211,7 +212,7 @@ export default function QualityControlPage() {
         </a>
       </aside>
 
-      <SiteFooter />
+      <RelatedPackagingStudies ids={["glass", "modular"]}/><SiteFooter />
     </main>
   );
 }

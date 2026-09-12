@@ -1,3 +1,5 @@
+import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
+import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
 import FragrancePlanning from "../../../components/FragrancePlanning";
 import BuyerPlanning from "../../../components/BuyerPlanning";
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
@@ -168,7 +170,7 @@ export default async function IndustryPage({
         <p style={{ marginTop: '12px', fontSize: '12px', color: '#8a9a8d' }}>Message Hugo on WhatsApp for a quick response about your project.</p>
       </aside>
       {item.slug === "perfume-fragrance-packaging" && <BuyerPlanning kind="perfume" />}
-      <SiteFooter />
+      <PackagingDetailNotes kind={item.slug.startsWith("perfume") ? "fragrance" : item.slug.startsWith("cosmetics") ? "skincare" : item.slug.startsWith("jewelry") ? "jewelry" : "gift"}/><RelatedPackagingStudies ids={item.slug.startsWith("perfume") ? ["fragrance","modular"] : item.slug.startsWith("cosmetics") ? ["skincare"] : item.slug.startsWith("jewelry") ? ["jewelry"] : ["collector","tea"]}/><SiteFooter />
     </main>
   );
 }

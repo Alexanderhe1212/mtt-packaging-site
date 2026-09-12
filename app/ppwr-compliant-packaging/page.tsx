@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Custom packaging manufacturing and documentation support for EU-bound packaging projects preparing for PPWR requirements.",
     url: "/ppwr-compliant-packaging",
-    images: ["/hero/how-we-work.webp"],
+    images: ["/design/development-worktable.webp"],
   },
   twitter: {
     card: "summary_large_image",
     title: "PPWR Compliant Packaging Support for EU Brands | MTT Packaging",
     description:
       "Custom packaging manufacturing and documentation support for EU-bound packaging projects preparing for PPWR requirements.",
-    images: ["/hero/how-we-work.webp"],
+    images: ["/design/development-worktable.webp"],
   },
 };
 
@@ -42,7 +42,7 @@ const structuredData = {
       name: "PPWR-Ready Custom Packaging Support",
       description: "Custom packaging manufacturing and documentation support for EU-bound packaging projects preparing for PPWR requirements.",
       url: `${siteUrl}/ppwr-compliant-packaging`,
-      image: `${siteUrl}/hero/how-we-work.webp`,
+      image: `${siteUrl}/design/development-worktable.webp`,
       provider: { "@id": `${siteUrl}/#organization` },
       areaServed: "Worldwide",
       serviceType: "EU PPWR Packaging Manufacturing Support",
@@ -120,8 +120,8 @@ export default function PPWRPage() {
           </p>
         </div>
         <img
-          src="/hero/how-we-work.webp"
-          alt="Packaging development worktable with material samples and documentation"
+          src="/design/development-worktable.webp"
+          alt="Illustrative packaging development still life with material samples and a notebook"
           width="900"
           height="900"
         />

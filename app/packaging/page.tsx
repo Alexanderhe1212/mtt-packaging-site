@@ -1,3 +1,4 @@
+import RelatedPackagingStudies from "../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { industries } from "../../lib/industries";
@@ -275,7 +276,7 @@ export default function PackagingPage() {
         </a>
       </aside>
 
-      <SiteFooter />
+      <RelatedPackagingStudies ids={["fragrance", "tea", "window"]}/><SiteFooter />
     </main>
   );
 }

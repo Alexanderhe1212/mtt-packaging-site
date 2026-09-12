@@ -1,3 +1,4 @@
+import RelatedPackagingStudies from "../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
@@ -108,7 +109,7 @@ export default function SustainabilityPage() {
           Request a Quote →
         </a>
       </aside>
-      <SiteFooter />
+      <RelatedPackagingStudies ids={["electronics", "skincare"]}/><SiteFooter />
     </main>
   );
 }

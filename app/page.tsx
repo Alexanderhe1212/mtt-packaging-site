@@ -1,3 +1,4 @@
+import VisualCaseLink from "../components/VisualCaseLink";
 import QuoteForm from '../components/QuoteForm';
 import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
@@ -42,7 +43,7 @@ export default function Home() {
         <p className="ed-lead">Rigid boxes, cartons and custom inserts,<br className="desktop-break"/> developed around your product.</p>
         <div className="ed-actions"><a className="button" href="/packaging">Explore Packaging <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/tools/gift-box-solution-builder">Build Your Packaging Brief</a></div>
       </div>
-      <img className="ed-hero-image" src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1400w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Concept illustration of a forest green rigid gift box with a gold MTT emblem and lifted lid" width="1330" height="1182" fetchPriority="high" />
+      <img className="ed-hero-image" src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1400w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Concept illustration of a forest green rigid gift box with a fine gold triangular detail and separate lid" width="1330" height="1182" fetchPriority="high" />
     </section>
     <div className="ed-ribbon"><span>Structure</span><span>Materials</span><span>Sampling</span><span>Production</span></div>
     <section className="ed-collection">
@@ -115,14 +116,14 @@ export default function Home() {
     {/* SECTION 6 — SELECTED PACKAGING */}
     <section className="hp-selected" id="projects">
       <header className="hp-section-header hp-reveal">
-        <p className="hp-kicker">Packaging Concepts</p>
+        <p className="hp-kicker">Packaging Details</p>
         <h2 className="hp-section-h2">A closer look at<br/>packaging possibilities.</h2>
       </header>
       <div className="hp-selected-grid">
         {[['Magnetic presentation box', '/design/magnetic-editorial.webp'], ['Drawer presentation box', '/design/customization/ribbon-drawer.webp'], ['Custom fitted interior', '/design/insert-editorial.webp']].map(([title, img], i) => (
           <figure className="hp-selected-fig hp-reveal" key={title as string} style={{ transitionDelay: `${i * 100}ms` }}>
             <img src={img as string} alt={`${title} custom packaging`} width="900" height="600" loading="lazy" />
-            <figcaption><span>0{i + 1}</span><b>{title}</b></figcaption>
+            <figcaption><span>0{i + 1}</span><b>{title}</b></figcaption><VisualCaseLink image={img}/>
           </figure>
         ))}
       </div>

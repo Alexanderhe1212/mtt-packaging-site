@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Custom Packaging Guides | MTT Packaging",
     description: "Practical packaging guidance before sampling, specification and quotation.",
     url: "/insights",
-    images: ["/hero/packaging-insights.webp"],
+    images: ["/design/rigid-editorial.webp"],
   },
 };
 const structuredData = {

@@ -1,3 +1,4 @@
+import RelatedPackagingStudies from "../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../lib/seo";
@@ -79,8 +80,8 @@ export default function AboutPage() {
           </p>
         </div>
         <img
-          src="/hero/how-we-work.webp"
-          alt="Packaging development worktable with samples and materials"
+          src="/design/development-worktable.webp"
+          alt="Illustrative packaging development still life with samples and materials"
           width="1200"
           height="900"
         />
@@ -277,7 +278,7 @@ export default function AboutPage() {
         </a>
       </aside>
 
-      <SiteFooter />
+      <RelatedPackagingStudies ids={["collector", "fragrance"]}/><SiteFooter />
     </main>
   );
 }

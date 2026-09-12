@@ -1,3 +1,5 @@
+import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
+import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
 import BuyerPlanning from "../../../components/BuyerPlanning";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../../components/SiteNav";
@@ -163,7 +165,7 @@ export default function CustomRigidBoxesPage() {
         <a className="button" href="/request-a-quote">Request a Quote →</a>
       </aside>
 
-      <SiteFooter />
+      <PackagingDetailNotes kind="rigid"/><RelatedPackagingStudies ids={["fragrance", "tea", "collector"]}/><SiteFooter />
     </main>
   );
 }

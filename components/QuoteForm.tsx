@@ -16,7 +16,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
     try {
       const response = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
       const result = await response.json();
-      if (!response.ok || result.ok !== true) throw new Error('Request not accepted');
+      if (!response.ok || !result || typeof result !== "object" || !("ok" in result) || result.ok !== true) throw new Error('Request not accepted');
       trackEvent('generate_lead', { form_id: location.pathname === '/' ? 'homepage' : 'request_a_quote' });
       location.assign(locale==='zh'?'/zh/thank-you':'/thank-you');
     } catch {

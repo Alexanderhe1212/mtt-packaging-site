@@ -1,3 +1,4 @@
+import RelatedPackagingStudies from "../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization } from "../../lib/seo";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     title: "Custom Packaging Process | MTT Packaging",
     description: "A clear path from product brief to approved packaging production.",
     url: "/how-we-work",
-    images: ["/hero/how-we-work.webp"],
+    images: ["/design/development-worktable.webp"],
   },
 };
 const structuredData = {
@@ -152,7 +153,7 @@ export default function ProcessPage() {
           WhatsApp Hugo →
         </a>
       </aside>
-      <SiteFooter />
+      <RelatedPackagingStudies ids={["glass", "collector"]}/><SiteFooter />
     </main>
   );
 }

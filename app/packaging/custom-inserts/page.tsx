@@ -1,3 +1,6 @@
+import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
+import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
+import VisualCaseLink from "../../../components/VisualCaseLink";
 import BuyerPlanning from "../../../components/BuyerPlanning";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../../components/SiteNav";
@@ -59,7 +62,7 @@ export default function CustomInsertsPage() {
         <div><p className="section-kicker">Insert types</p><h2>Insert options for every product and budget.</h2></div>
         <div className="structure-list insert-illustrated">
           {[["Paperboard platform", "Folded or die-cut paperboard. Review print, support and local recycling compatibility for the chosen construction."], ["Molded pulp", "Custom-molded from recycled fibre. Supports complex shapes and reduces plastic use."], ["EVA foam", "Precise cavities for cushioning. Available in multiple densities and colors."], ["Fabric-covered foam", "EVA or foam wrapped in velvet, microfiber or paper for premium presentation."], ["Vacuum-formed tray", "Clear or colored plastic trays for exact product fit."], ["Die-cut corrugated", "Budget-friendly protection for shipping and e-commerce."]].map(([t, d], i) => (
-            <article key={t}><img src={`/design/inserts/${["paperboard","pulp","eva","fabric","vacuum","corrugated"][i]}.webp`} alt={`${t} — illustrative material and construction example`} width="1000" height="750" loading="lazy"/><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
+            <article key={t}><a href={`/design/inserts/${["paperboard","pulp","eva","fabric","vacuum","corrugated"][i]}.webp`} target="_blank" rel="noreferrer" aria-label={`View ${t} image in detail`}><img src={`/design/inserts/${["paperboard","pulp","eva","fabric","vacuum","corrugated"][i]}.webp`} alt={`${t} — illustrative material and construction example`} width="1000" height="750" loading="lazy"/><span className="image-detail-hint">View detail ↗</span></a><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p><VisualCaseLink image={`/design/inserts/${["paperboard","pulp","eva","fabric","vacuum","corrugated"][i]}.webp`}/></article>
           ))}
         </div><p className="insert-image-note">Illustrative material examples. Final shape, density, finish and product fit are confirmed through specification review and physical sampling.</p>
       </section>
@@ -81,7 +84,7 @@ export default function CustomInsertsPage() {
         <div>{faqs.map(([q, a], i) => (<details key={q} open={i === 0} style={{ borderTop: "1px solid rgba(23,32,25,.17)", padding: "24px 0" }}><summary style={{ cursor: "pointer", listStyle: "none", font: "600 19px/1 Arial,Helvetica,sans-serif", display: "flex", justifyContent: "space-between" }}>{q}<span style={{ fontSize: "24px" }}>+</span></summary><p style={{ maxWidth: "650px", lineHeight: 1.7, color: "#667168", fontSize: "14px", marginTop: "12px" }}>{a}</p></details>))}</div>
       </section>
       <aside className="page-cta"><p>Insert engineering guides</p><h2>Review fit strategies for variable handmade products and glass bottles.</h2><a className="button" href="/insights/packaging-inserts-for-handmade-glass-products">Handmade Glass Planning Guide →</a> <a className="button" href="/insights/perfume-box-insert-design">Perfume Insert Guide →</a></aside>
-      <SiteFooter />
+      <PackagingDetailNotes kind="inserts"/><RelatedPackagingStudies ids={["glass", "modular", "skincare"]}/><SiteFooter />
     </main>
   );
 }

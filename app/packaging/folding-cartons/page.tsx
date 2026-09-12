@@ -1,3 +1,5 @@
+import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
+import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
@@ -85,7 +87,7 @@ export default function FoldingCartonsPage() {
         <div>{faqs.map(([q, a], i) => (<details key={q} open={i === 0} style={{ borderTop: "1px solid rgba(23,32,25,.17)", padding: "24px 0" }}><summary style={{ cursor: "pointer", listStyle: "none", font: "600 19px/1 Arial,Helvetica,sans-serif", display: "flex", justifyContent: "space-between" }}>{q}<span style={{ fontSize: "24px" }}>+</span></summary><p style={{ maxWidth: "650px", lineHeight: 1.7, color: "#667168", fontSize: "14px", marginTop: "12px" }}>{a}</p></details>))}</div>
       </section>
       <aside className="page-cta"><p>Have a packaging project?</p><h2>Send your product details for a carton recommendation.</h2><a className="button" href="/request-a-quote">Request a Quote →</a></aside>
-      <SiteFooter />
+      <PackagingDetailNotes kind="carton"/><RelatedPackagingStudies ids={["window", "electronics"]}/><SiteFooter />
     </main>
   );
 }

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "hero-editorial",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-82fea5b7-b3c3-476b-8526-a818c9f7abb4.png",
+    "bytes": 169680
+  },
+  {
+    "id": "rigid-editorial",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-f3446f60-897f-4f9a-b327-bbd2dfe4de88.png",
+    "bytes": 155256
+  },
+  {
+    "id": "carton-editorial",
+    "caseId": "window",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-0a3ab07b-4c43-4173-a214-50ed75c5415f.png",
+    "bytes": 129638
+  },
+  {
+    "id": "insert-editorial",
+    "caseId": "modular",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-66e4e740-72b9-4d82-8b0d-d0faefbcfeb0.png",
+    "bytes": 210536
+  },
+  {
+    "id": "fragrance-premium",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-a56ddf25-190b-4dd1-8eb8-a55b7b0fc445.png",
+    "bytes": 120422
+  },
+  {
+    "id": "perfume-editorial",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-4bf36a09-72d9-498b-bae4-c8126ca7bbf0.png",
+    "bytes": 137302
+  },
+  {
+    "id": "perfume-insert-editorial",
+    "caseId": "modular",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-69f2d6b0-f8cd-4cfe-a3eb-398e80b442e3.png",
+    "bytes": 182498
+  },
+  {
+    "id": "cosmetics-editorial",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-ad2a87cb-788e-42f3-ad1d-64375ad6faf9.png",
+    "bytes": 177396
+  },
+  {
+    "id": "jewelry-editorial",
+    "caseId": "jewelry",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-50fae95c-853a-4140-bf80-e576d5c09ad5.png",
+    "bytes": 163116
+  },
+  {
+    "id": "giftset-editorial",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-fd5d8e92-9067-4f10-9e80-81fb03be9f04.png",
+    "bytes": 162002
+  },
+  {
+    "id": "magnetic-editorial",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-7ed64268-f7fa-4e01-a0b5-feeb25d4a2da.png",
+    "bytes": 181412
+  },
+  {
+    "id": "shoulder-editorial",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-c713fab5-53fd-4a36-b8ff-935285824cd2.png",
+    "bytes": 137970
+  },
+  {
+    "id": "fold-flat-editorial",
+    "caseId": "triangle",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-6342f044-7661-4414-b615-7facf636d5c2.png",
+    "bytes": 158928,
+    "review": "Revised for physical material / folding clarity"
+  },
+  {
+    "id": "glass-insert-editorial",
+    "caseId": "glass",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-d5f7138b-102c-48e4-8464-de461cb2965b.png",
+    "bytes": 166664
+  },
+  {
+    "id": "triangular-editorial",
+    "caseId": "triangle",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-68625f4a-9ce8-4f33-8dc1-f7056d5c54b6.png",
+    "bytes": 185108
+  },
+  {
+    "id": "customization/greyboard",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-4727cc06-ef97-4a7c-a4ed-fe9199325e94.png",
+    "bytes": 122198,
+    "review": "Revised for physical material / folding clarity"
+  },
+  {
+    "id": "customization/paperboard",
+    "caseId": "window",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-a606120d-e8d0-4166-b874-d4d7bb602acb.png",
+    "bytes": 105962
+  },
+  {
+    "id": "customization/specialty-paper",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-08317e4b-71be-4fd9-95ee-19028079df63.png",
+    "bytes": 221436
+  },
+  {
+    "id": "customization/kraft-paper",
+    "caseId": "electronics",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-4b0cd676-3a65-43dc-8659-309d2515c0de.png",
+    "bytes": 167144
+  },
+  {
+    "id": "customization/corrugated-board",
+    "caseId": "electronics",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-28ff7572-0133-416a-b92a-836109484f93.png",
+    "bytes": 163692
+  },
+  {
+    "id": "customization/molded-pulp",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-00d74602-2974-452d-8d10-ba5ce45a7377.png",
+    "bytes": 168322
+  },
+  {
+    "id": "customization/hot-foil",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-2b9e02aa-df7f-4484-a887-f84577265d4f.png",
+    "bytes": 234546
+  },
+  {
+    "id": "customization/embossing",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-51bdd6fa-6b88-454e-8bd8-024aed5f08bd.png",
+    "bytes": 201986
+  },
+  {
+    "id": "customization/debossing",
+    "caseId": "jewelry",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-54fb0fcf-aafc-4254-a9d1-91f235381cb8.png",
+    "bytes": 199812
+  },
+  {
+    "id": "customization/spot-uv",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-d22373c9-b99f-4a69-a032-0bccb366bbdc.png",
+    "bytes": 219518
+  },
+  {
+    "id": "customization/lamination",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-6cfc2237-7d02-40f4-921e-c3ea8cf258f0.png",
+    "bytes": 146742
+  },
+  {
+    "id": "customization/texture",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-3a499025-5838-4638-a90c-14a9ac2a5d91.png",
+    "bytes": 207442
+  },
+  {
+    "id": "customization/magnetic-closure",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-c010feaa-02b6-4835-b27b-44e268ec029a.png",
+    "bytes": 188656
+  },
+  {
+    "id": "customization/ribbon-drawer",
+    "caseId": "tea",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-ed3acdb1-f475-44a4-b370-58100bb642c0.png",
+    "bytes": 124024
+  },
+  {
+    "id": "customization/window-carton",
+    "caseId": "window",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-0c50f63f-f1f3-4683-b691-dda84715a4e1.png",
+    "bytes": 112284
+  },
+  {
+    "id": "customization/sleeves",
+    "caseId": "tea",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-4340906b-baa5-4ce3-85ef-6fc0025a04a7.png",
+    "bytes": 164572
+  },
+  {
+    "id": "customization/handles",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-29edaec9-0b29-46e8-8491-1688846fd284.png",
+    "bytes": 153936
+  },
+  {
+    "id": "customization/cmyk",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-b2702130-43e1-4e3b-b35f-e5d189e02b1d.png",
+    "bytes": 181476
+  },
+  {
+    "id": "customization/spot-colors",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-08bde819-59b9-48a1-91a2-95109a8202fe.png",
+    "bytes": 186366
+  },
+  {
+    "id": "customization/offset",
+    "caseId": "fragrance",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-c647cbf8-fa9d-4ab2-bc61-5c93098ad37d.png",
+    "bytes": 182328
+  },
+  {
+    "id": "customization/digital",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-cb1fb728-ac41-45ea-a10d-6b531071661a.png",
+    "bytes": 151024
+  },
+  {
+    "id": "customization/screen",
+    "caseId": "jewelry",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-11b05184-7a98-49aa-aa79-ee1c1bc58dc8.png",
+    "bytes": 184690
+  },
+  {
+    "id": "customization/unprinted",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-7a63dfbf-d121-424f-9d70-af7da3f7b973.png",
+    "bytes": 117892
+  },
+  {
+    "id": "inserts/paperboard",
+    "caseId": "modular",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-fdc128ca-5431-4090-84e3-6e9858bf2f03.png",
+    "bytes": 136484
+  },
+  {
+    "id": "inserts/pulp",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-6a12e8d7-c3ab-49e7-a8b2-f92e1156f93d.png",
+    "bytes": 186584
+  },
+  {
+    "id": "inserts/eva",
+    "caseId": "modular",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-c7bc495d-8fc1-4c08-9953-dea85fbdc686.png",
+    "bytes": 188578
+  },
+  {
+    "id": "inserts/fabric",
+    "caseId": "jewelry",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-9966dfa9-7797-47de-9c6c-8eef36a0ad99.png",
+    "bytes": 162890
+  },
+  {
+    "id": "inserts/vacuum",
+    "caseId": "skincare",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-792d1fef-b441-4a77-ba07-f8110b4642ee.png",
+    "bytes": 192272
+  },
+  {
+    "id": "inserts/corrugated",
+    "caseId": "electronics",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-f579e99c-e6e4-443e-92dd-542a615d86e1.png",
+    "bytes": 156482
+  },
+  {
+    "id": "development-worktable",
+    "caseId": "collector",
+    "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-7d04a5cc-d012-47c8-b339-c52316bed1ce.png",
+    "bytes": 170902
+  }
+]

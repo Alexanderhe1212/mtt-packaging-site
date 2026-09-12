@@ -1,5 +1,6 @@
 "use client";
 
+import VisualCaseLink from "./VisualCaseLink";
 import { useState } from "react";
 
 const TABS = ["Specifications", "Materials", "Finishing", "Add-Ons", "Printing"] as const;
@@ -29,7 +30,7 @@ const materials: { name: string; desc: string; img?: string; alt?: string; pos?:
 
 /* ── Finishing ── */
 const finishing: { name: string; desc: string; img?: string; alt?: string; pos?: string }[] = [
-  { name: "Hot Foil Stamping", desc: "Metallic foil details for logos, typography and decorative accents.", img: "/design/customization/hot-foil.webp", alt: "Metallic gold foil lettering on green paper" },
+  { name: "Hot Foil Stamping", desc: "Metallic foil details for logos, typography and decorative accents.", img: "/design/customization/hot-foil.webp", alt: "Fine metallic gold botanical foil on matte green paper" },
   { name: "Embossing", desc: "Raised surface detailing that adds tactile depth to selected graphics or logos.", img: "/design/customization/embossing.webp", alt: "Raised blind embossed letter on ivory paper" },
   { name: "Debossing", desc: "Pressed-in detailing for a refined and understated tactile effect.", img: "/design/customization/debossing.webp", alt: "Recessed letter pressed into green paper" },
   { name: "Spot UV", desc: "Selective gloss treatment used to create contrast against matte or uncoated surfaces.", img: "/design/customization/spot-uv.webp", alt: "Gloss leaf pattern against matte green paper" },
@@ -85,7 +86,7 @@ function CardGrid({ items }: { items: { name: string; desc: string; img?: string
       {items.map((item) => (
         <article className={`cz-card${item.img ? " cz-card-visual" : ""}`} key={item.name}>
           {item.img ? (
-            <div className="cz-card-img-wrap">
+            <a className="cz-card-img-wrap" href={item.img} target="_blank" rel="noreferrer" aria-label={`View ${item.name} image in detail`}>
               <img
                 src={item.img}
                 alt={item.alt || item.name}
@@ -95,7 +96,7 @@ function CardGrid({ items }: { items: { name: string; desc: string; img?: string
                 width="600"
                 height="400"
               />
-            </div>
+            <span className="image-detail-hint">View detail ↗</span></a>
           ) : (
             <div className="cz-card-img-placeholder" aria-hidden="true">
               <span>{item.name}</span>
@@ -104,7 +105,7 @@ function CardGrid({ items }: { items: { name: string; desc: string; img?: string
           <div className="cz-card-body">
             <h3>{item.name}</h3>
             {item.img?.startsWith("/design/") && <small className="cz-example-label">Illustrative example</small>}
-            <p>{item.desc}</p>
+            <p>{item.desc}</p><VisualCaseLink image={item.img}/>
           </div>
         </article>
       ))}
