@@ -78,7 +78,7 @@ export default async function InsightPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
       />
-      <SiteNav />
+      <SiteNav />{article.angle === "Case Study" && <p style={{padding:"20px 5vw"}}><a href="/case-studies">← All case studies</a></p>}
       <header>
         <p>
           {article.number} / {article.angle}
