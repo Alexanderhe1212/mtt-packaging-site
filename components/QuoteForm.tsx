@@ -5,6 +5,8 @@ import { trackEvent } from '../lib/analytics';
 
 export default function QuoteForm({locale='en',...props}: ComponentProps<'form'> & {locale?:'en'|'zh'}) {
   const [product,setProduct]=useState('');
+ const [accessories,setAccessories]=useState('');
+ useEffect(()=>{setAccessories(new URLSearchParams(location.search).get('accessories')?.slice(0,500)||'')},[]);
   useEffect(()=>{setProduct(new URLSearchParams(location.search).get('product')?.slice(0,250)||'')},[]);
   const pending = useRef(false);
   const [busy, setBusy] = useState(false);
@@ -27,7 +29,8 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
     }
   }}>
     {product && <label>{locale==='zh'?'所选产品':'Selected product'}<input name="selected_product" value={product} readOnly/></label>}
-    {props.children}
+    {accessories && <label>{locale==='zh'?'所选配件（可修改）':'Selected accessories (editable)'}<input name="selected_accessories" value={accessories} onChange={e=>setAccessories(e.target.value)}/></label>}
+{props.children}
     {busy && <p role="status">{resources[locale].translation.sending}</p>}
     {error && <p role="alert">{error}</p>}
   </form>;

@@ -1,0 +1,7 @@
+# Four-family catalogue expansion
+Seven initial designs added: wine, reed diffuser, candle, Christmas rigid gift set, folding skincare carton, corrugated mailer, ribbon-handle bag. Each uses five extracted views from a generated six-panel studio sheet. Sources and prompts: expansion-images.json. Built-in image generation used.
+Visual review: separate wine lid/base; sliding diffuser sleeve/tray; separate candle shoulder lid; single rear-hinged Christmas cover; thin top tuck and dust flaps on carton; integrated locking wings and corrugated edges on mailer; gussets and reinforced handle attachment on bag. Matching accessory imagery is optional, not included by default.
+Corrected wine insert copy to shaped fibre to match the image. No dimensional, load, transit or manufacturing certification is inferred from imagery. Actual sampling remains required. Images are design visualizations, not order evidence.
+UI: language chooser moved into normal document flow before navigation, including expanded panel. Family filters include all four families, with family-specific structure/material choices. Accessories are selectable and carried into quotation.
+Checks: baseline 120-product release audit, expanded catalogue asset/structure check, language routes, TypeScript. Browser: 390px language/menu no overlap or horizontal overflow; bag filter yields one product; normal viewport accessory selection and quote field verified. No live enquiry submitted.
+This release adds seven initial designs, not the previously discussed long-term 500-product target.

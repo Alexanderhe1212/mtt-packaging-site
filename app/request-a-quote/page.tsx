@@ -165,7 +165,7 @@ export default function RequestAQuotePage() {
                     <option value="Drawer Box">Drawer Box</option>
                     <option value="Shoulder-Neck Box">Shoulder-Neck Box</option>
                     <option value="Folding Carton">Folding Carton</option>
-                    <option value="Paper Bag">Paper Bag</option>
+                    <option value="Corrugated Box">Corrugated Box</option><option value="Paper Bag">Paper Bag</option>
                     <option value="Custom Insert">Custom Insert</option>
                     <option value="Gift Box Set">Gift Box Set</option>
                     <option value="Other">Other</option>

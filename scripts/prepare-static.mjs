@@ -13,6 +13,10 @@ try {
   const entries = sitemap().map(entry => `<url><loc>${escape(entry.url)}</loc>${entry.lastModified ? `<lastmod>${escape(entry.lastModified instanceof Date ? entry.lastModified.toISOString() : entry.lastModified)}</lastmod>` : ''}</url>`);
   await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>\n`);
   await copyFile('public/sitemap.xml', 'dist/client/sitemap.xml');
+  const {products}=await server.ssrLoadModule('/lib/products.ts');
+  const productXml='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'+products.flatMap(p=>['/products/','/zh/products/'].map(prefix=>'<url><loc>https://mttpackaging.com'+prefix+p.slug+'</loc>'+[0,1,2,3,4].map(i=>'<image:image><image:loc>https://mttpackaging.com'+p.image.replace('.webp','-'+i+'.webp')+'</image:loc></image:image>').join('')+'</url>')).join('')+'</urlset>';
+  await writeFile('public/sitemap-products.xml',productXml);
+  await writeFile('dist/client/sitemap-products.xml',productXml);
 } finally { await server.close(); }
 
 async function collect(dir) {

@@ -29,6 +29,7 @@ const faqs = [
 ];
 
 const productLinks = [
+  { slug: "corrugated-boxes", title: "Corrugated Boxes", desc: "Folded mailers with material, print and transit protection reviewed around the product." },
   { slug: "custom-rigid-boxes", title: "Custom Rigid Boxes", desc: "Magnetic, lift-off lid, drawer and shoulder-neck structures for premium presentation." },
   { slug: "folding-cartons", title: "Folding Cartons", desc: "High-detail paperboard cartons with specialty finishes for retail and e-commerce." },
   { slug: "custom-paper-bags", title: "Custom Paper Bags", desc: "Brand-matched luxury bags with reinforced construction and custom handles." },

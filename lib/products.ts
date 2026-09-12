@@ -1,5 +1,6 @@
 import records from './products.json';
-export const products=records;
+import expanded from './products-expanded.json';
+export const products=[...records,...expanded];
 export type PackagingProduct=typeof records[number];
 export const productBySlug=(slug:string)=>products.find(p=>p.slug===slug);
 export const categories=[...new Map(products.map(p=>[p.category,{id:p.category,en:p.categoryName,zh:p.categoryZh}])).values()];

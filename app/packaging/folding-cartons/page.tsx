@@ -58,7 +58,7 @@ export default function FoldingCartonsPage() {
           <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. MOQ from 1,000 pcs.</p>
         </div>
         <img src="/design/carton-editorial.webp" alt="Concept: ivory folding cartons" width="900" height="900" />
-      </header>
+      </header><section className="catalogue-shell"><a className="button" href="/products?family=carton">View designs, materials &amp; details →</a></section>
       <section className="industry-section">
         <div>
           <p className="section-kicker">Capabilities</p>

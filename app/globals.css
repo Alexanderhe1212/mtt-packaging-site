@@ -581,3 +581,7 @@ body:has(.hugo-widget),body:has(.chatbot-open){padding-bottom:80px}
 .purchase-guide li { margin-bottom: 20px; }
 .purchase-guide p { font-size: 1rem; line-height: 1.6; }
 .purchase-guide .button { white-space: normal; }
+.product-accessories {margin:28px 0;padding:20px;border:1px solid #d6d9cc;border-radius:12px;}
+.product-accessories label {display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #e0e2d9;cursor:pointer;}
+.product-accessories input {width:20px;height:20px;flex:none;}
+.product-accessories .button {margin-top:18px;white-space:normal;}

@@ -45,8 +45,8 @@ export default function RootLayout({
       </head>
       <body className="mtt-editorial">
         <a href="#main-content" className="skip-link">Skip to main content</a>
-        {children}
         <LanguagePicker />
+        {children}
         <LeadQualificationChatbot hasIntroVideo={true} />
         <CookieConsent />
         <ContactAnalytics />

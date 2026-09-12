@@ -54,7 +54,7 @@ export default function CustomPaperBagsPage() {
           <p>Brand-matched luxury bags with cotton, ribbon or paper handles. Reinforced construction, foil stamping and embossing. MOQ from 500 pcs.</p>
         </div>
         <img src="/design/customization/handles.webp" alt="Concept: ivory paper bag with green woven ribbon handles" width="900" height="900" />
-      </header>
+      </header><section className="catalogue-shell"><a className="button" href="/products?family=bag">View designs, materials &amp; details →</a></section>
       <section className="industry-section">
         <div><p className="section-kicker">Options</p><h2>Paper bag options and construction.</h2></div>
         <div className="structure-list">

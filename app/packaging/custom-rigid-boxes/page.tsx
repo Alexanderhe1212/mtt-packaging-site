@@ -74,7 +74,7 @@ export default function CustomRigidBoxesPage() {
           width="900"
           height="900"
         />
-      </header>
+      </header><section className="catalogue-shell"><a className="button" href="/products?family=rigid">View designs, materials &amp; details →</a></section>
 
       <section className="industry-section">
         <div>
