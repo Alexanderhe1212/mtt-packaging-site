@@ -78,3 +78,8 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 
 .mtt-editorial .structure-list article>b{color:#536158}
 .mtt-editorial .industry-priorities .section-kicker{color:#d5bb83}
+
+/* Keep the added design entry comfortable on smaller laptops. */
+@media(min-width:851px) and (max-width:1200px){.ed-nav{gap:16px;padding-inline:3%}.ed-nav-links{gap:18px}.ed-nav .ed-nav-quote{min-width:160px;margin-left:0}.ed-brand>span{font-size:25px}.ed-brand{gap:10px}}
+
+.builder-journey{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.builder-journey li{padding:16px;border:1px solid #d4d0c5;border-radius:8px}.builder-journey b,.builder-journey span{display:block}.builder-journey span{font-size:14px;color:#59625b;margin-top:6px}@media(max-width:700px){.builder-journey{grid-template-columns:1fr 1fr}}
