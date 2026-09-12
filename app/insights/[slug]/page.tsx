@@ -45,7 +45,7 @@ export default async function InsightPage({
       </main>
     );
   const related = articles.filter((a) => a.slug !== article.slug).slice(0, 2);
-  const isProblemArticle = customerProblemArticles.some((a) => a.slug === article.slug);
+  const isProblemArticle = article.angle === "Design Analysis" || customerProblemArticles.some((a) => a.slug === article.slug);
   const articleData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -78,14 +78,14 @@ export default async function InsightPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
       />
-      <SiteNav />{article.angle === "Case Study" && <p style={{padding:"20px 5vw"}}><a href="/case-studies">← All case studies</a></p>}
+      <SiteNav />{["Case Study","Design Analysis"].includes(article.angle) && <p style={{padding:"20px 5vw"}}><a href="/case-studies">← All case studies</a></p>}
       <header>
         <p>
           {article.number} / {article.angle}
         </p>
         <h1>{article.title}</h1>
         <p>{article.intro}</p>
-        <p>Written and reviewed by <a href="/about">Hugo He</a> · Custom packaging consultant at MTT Packaging</p>
+        <p>{article.angle === "Design Analysis" ? <>MTT Packaging editorial · Independent design analysis · Sources credited below</> : <>Written and reviewed by <a href="/about">Hugo He</a> · Custom packaging consultant at MTT Packaging</>}</p>
         {isProblemArticle && (
           <figure style={{ margin: "32px 0 0" }}>
             <img src={article.image} alt={article.imageAlt} width="900" height="600" style={{ width: "100%", maxHeight: "480px", objectFit: "contain" }} />
