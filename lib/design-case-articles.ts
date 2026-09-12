@@ -34,7 +34,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -73,7 +73,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -112,7 +112,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -151,7 +151,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -190,7 +190,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -229,7 +229,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -268,7 +268,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   },
@@ -307,7 +307,7 @@ export const designCaseArticles = [
       ],
       [
         "Image and project credits",
-        "The image is an illustrative concept from the MTT website image library. It does not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
       ]
     ]
   }

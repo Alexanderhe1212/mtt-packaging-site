@@ -1,3 +1,5 @@
+import CaseStages from '../../../components/CaseStages';
+import {caseStages} from '../../../lib/case-stages';
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
 import type { Metadata } from "next";
 import { articles, getArticle } from "../../../lib/articles";
@@ -25,9 +27,9 @@ export async function generateMetadata({
       description: article.summary,
       type: "article",
       url: `/insights/${article.slug}`,
-      images: [{ url: article.image, alt: article.imageAlt }],
+      images: [{ url: caseStages[article.slug]?.image || article.image, alt: caseStages[article.slug] ? `Four-stage packaging concept: ${article.title}` : article.imageAlt }],
     },
-    twitter: { card: "summary_large_image", title: article.title, description: article.summary, images: [article.image] },
+    twitter: { card: "summary_large_image", title: article.title, description: article.summary, images: [caseStages[article.slug]?.image || article.image] },
   };
 }
 
@@ -53,7 +55,7 @@ export default async function InsightPage({
         "@type": "Article",
         headline: article.title,
         description: article.summary,
-        image: `${siteUrl}${article.image}`,
+        image: `${siteUrl}${caseStages[article.slug]?.image || article.image}`,
         author: { "@type": "Person", name: "Hugo He", url: `${siteUrl}/about`, jobTitle: "Custom Packaging Consultant" },
         publisher: { "@id": `${siteUrl}/#organization` },
         mainEntityOfPage: `${siteUrl}/insights/${article.slug}`,
@@ -86,14 +88,14 @@ export default async function InsightPage({
         <h1>{article.title}</h1>
         <p>{article.intro}</p>
         <p>{article.angle === "Design Analysis" ? <>MTT Packaging editorial · Independent design analysis · Sources credited below</> : <>Written and reviewed by <a href="/about">Hugo He</a> · Custom packaging consultant at MTT Packaging</>}</p>
-        {isProblemArticle && (
+        {isProblemArticle && !caseStages[article.slug] && (
           <figure style={{ margin: "32px 0 0" }}>
             <img src={article.image} alt={article.imageAlt} width="900" height="600" style={{ width: "100%", maxHeight: "480px", objectFit: "contain" }} />
             <figcaption>Illustrative packaging structure reference; not a documented project outcome.</figcaption>
           </figure>
         )}
       </header>
-      <div className="article-body">
+      <CaseStages slug={article.slug}/><div className="article-body">
         {article.sections.map(([title, copy], index) => (
           <section key={title}>
             <b>0{index + 1}</b>

@@ -1,3 +1,4 @@
+import {caseStages} from '../../lib/case-stages';
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { articles } from "../../lib/articles";
@@ -54,7 +55,7 @@ export default function InsightsPage() {
               <span style={{ fontSize: "10px", letterSpacing: ".16em", textTransform: "uppercase", color: "#647067" }}>
                 {a.number} / {a.angle}
               </span>
-              <img src={a.image} alt={a.imageAlt} width="800" height="500" loading="lazy" style={{ width: "100%", aspectRatio: "1.9", objectFit: "cover", borderRadius: "6px", margin: "24px 0 0" }} />
+              <img src={caseStages[a.slug]?.image || a.image} alt={caseStages[a.slug] ? `Four-stage packaging concept: ${a.title}` : a.imageAlt} width="800" height="500" loading="lazy" style={{ width: "100%", aspectRatio: caseStages[a.slug] ? "1" : "1.9", objectFit: caseStages[a.slug] ? "contain" : "cover", borderRadius: "6px", margin: "24px 0 0" }} />
               <h3 style={{ font: "600 30px/1.12 Arial,Helvetica,sans-serif", letterSpacing: "-.025em", margin: "28px 0 16px" }}>{a.title}</h3>
               <p style={{ fontSize: "13px", lineHeight: 1.7, color: "#687269", maxWidth: "580px" }}>{a.summary}</p>
               <a href={`/insights/${a.slug}`} style={{ marginTop: "auto", fontSize: "12px", fontWeight: 700 }}>Read the guide →</a>
