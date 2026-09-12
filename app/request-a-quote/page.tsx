@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Request a Custom Packaging Quote | MTT Packaging",
     description: "Send your product details, quantity and requirements. Typical response within 24 hours.",
     url: "/request-a-quote",
-    images: ["/design/giftset-editorial.webp"],
+    images: ["/design/giftset-engineering-v2.webp"],
   },
 };
 
