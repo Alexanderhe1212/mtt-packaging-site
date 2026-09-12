@@ -42,7 +42,7 @@ export default function Home() {
         <p className="ed-lead">Rigid boxes, cartons and custom inserts,<br className="desktop-break"/> developed around your product.</p>
         <div className="ed-actions"><a className="button" href="/packaging">Explore Packaging <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/tools/gift-box-solution-builder">Build Your Packaging Brief</a></div>
       </div>
-      <img className="ed-hero-image" src="/design/hero-editorial.webp" alt="Concept illustration of a forest green rigid gift box with a gold MTT emblem and lifted lid" width="1330" height="1182" fetchPriority="high" />
+      <img className="ed-hero-image" src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1400w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Concept illustration of a forest green rigid gift box with a gold MTT emblem and lifted lid" width="1330" height="1182" fetchPriority="high" />
     </section>
     <div className="ed-ribbon"><span>Structure</span><span>Materials</span><span>Sampling</span><span>Production</span></div>
     <section className="ed-collection">

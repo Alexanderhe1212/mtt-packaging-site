@@ -1,0 +1,42 @@
+[
+  {
+    "url": "http://localhost:52476/packaging/custom-rigid-boxes",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "TBT_ms": 52
+  },
+  {
+    "url": "http://localhost:52476/request-a-quote",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "TBT_ms": 35.5
+  },
+  {
+    "url": "http://localhost:52476/",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "TBT_ms": 35.5
+  },
+  {
+    "url": "http://localhost:52476/tools/gift-box-solution-builder",
+    "scores": {
+      "performance": 70,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "TBT_ms": 591
+  }
+]

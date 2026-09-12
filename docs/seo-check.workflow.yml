@@ -1,0 +1,27 @@
+name: Check published package SEO
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Extract exact deployment package
+        run: mkdir -p dist/client && unzip -q mtt-packaging-edgeone.zip -d dist/client
+      - name: Audit with Lighthouse CI
+        run: npx --yes --package=@lhci/cli@0.15.1 lhci autorun
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: seo-audit
+          path: |
+            .lighthouseci
+            qa/lighthouse-report
+          retention-days: 14

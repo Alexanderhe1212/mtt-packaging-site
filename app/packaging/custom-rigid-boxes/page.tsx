@@ -67,8 +67,8 @@ export default function CustomRigidBoxesPage() {
           </p>
         </div>
         <img
-          src="/design/rigid-editorial.webp"
-          alt="Concept: forest green rigid box with a separate lid"
+          src="/design/rigid-editorial.webp" srcSet="/design/rigid-editorial-480.webp 480w, /design/rigid-editorial-800.webp 800w, /design/rigid-editorial.webp 1400w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw"
+          fetchPriority="high" alt="Concept: forest green rigid box with a separate lid"
           width="900"
           height="900"
         />
