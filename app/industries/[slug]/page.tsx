@@ -1,3 +1,4 @@
+import FragrancePlanning from "../../../components/FragrancePlanning";
 import BuyerPlanning from "../../../components/BuyerPlanning";
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
 import type { Metadata } from "next";
@@ -88,6 +89,7 @@ export default async function IndustryPage({
         </div>
         <img src={item.image} alt={item.imageAlt} width="900" height="900" />
       </header>
+      {item.slug === "perfume-fragrance-packaging" && <FragrancePlanning />}
       <section className="industry-section">
         <div>
           <p className="section-kicker">Structure directions</p>

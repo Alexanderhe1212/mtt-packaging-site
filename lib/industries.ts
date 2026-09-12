@@ -17,7 +17,7 @@ export const industries: Industry[] = [
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
     image: "/design/fragrance-premium.webp", imageAlt: "Concept: premium fragrance rigid box and three-vial discovery set with fitted inserts",
     title: 'Custom perfume boxes that protect the bottle and stage the reveal.',
-    summary: 'Premium rigid boxes, discovery-set packaging and fitted inserts developed around bottle geometry, brand presentation and distribution needs.',
+    summary: 'Custom perfume boxes, fitted bottle inserts and matching paper bags. Plan a coordinated fragrance packaging set, from early concepts to samples and a formal quote.',
     products: ['Eau de parfum bottles', 'Travel sprays', 'Discovery sets', 'Fragrance gift sets'],
     structures: [['Shoulder-neck rigid box', 'A controlled lift-off reveal with a visible neck that can introduce a second brand color.'], ['Book-style magnetic box', 'A presentation-led opening suited to gift sets, launches and multi-piece arrangements.'], ['Lift-off lid box', 'A refined, versatile structure for single bottles and coordinated collections.'], ['Drawer box', 'A sleeve-and-tray format that creates a deliberate reveal and works well with ribbon pulls.']],
     priorities: [['Bottle security', 'The insert should control movement without marking the bottle, cap or decoration.'], ['Opening feel', 'Lid friction, magnet strength and drawer tolerance influence perceived quality.'], ['Finish durability', 'Soft-touch, foil and dark colors need scuff risk considered before production.']],
