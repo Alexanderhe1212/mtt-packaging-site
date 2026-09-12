@@ -3,3 +3,5 @@ Allow: /
 
 Sitemap: https://mttpackaging.com/sitemap.xml
 Host: https://mttpackaging.com
+
+Sitemap: https://mttpackaging.com/sitemap-products.xml
