@@ -57,11 +57,11 @@ export default function CustomInsertsPage() {
       </header>
       <section className="industry-section">
         <div><p className="section-kicker">Insert types</p><h2>Insert options for every product and budget.</h2></div>
-        <div className="structure-list">
+        <div className="structure-list insert-illustrated">
           {[["Paperboard platform", "Folded or die-cut paperboard. Review print, support and local recycling compatibility for the chosen construction."], ["Molded pulp", "Custom-molded from recycled fibre. Supports complex shapes and reduces plastic use."], ["EVA foam", "Precise cavities for cushioning. Available in multiple densities and colors."], ["Fabric-covered foam", "EVA or foam wrapped in velvet, microfiber or paper for premium presentation."], ["Vacuum-formed tray", "Clear or colored plastic trays for exact product fit."], ["Die-cut corrugated", "Budget-friendly protection for shipping and e-commerce."]].map(([t, d], i) => (
-            <article key={t}><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
+            <article key={t}><img src={`/design/inserts/${["paperboard","pulp","eva","fabric","vacuum","corrugated"][i]}.webp`} alt={`${t} — illustrative material and construction example`} width="1000" height="750" loading="lazy"/><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
           ))}
-        </div>
+        </div><p className="insert-image-note">Illustrative material examples. Final shape, density, finish and product fit are confirmed through specification review and physical sampling.</p>
       </section>
       <section className="industry-priorities">
         <div><p className="section-kicker light">Engineering</p><h2>Designed around your product.</h2></div>
