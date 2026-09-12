@@ -571,3 +571,13 @@ body:has(.hugo-widget),body:has(.chatbot-open){padding-bottom:80px}
 
 .hp-nav .nav-toggle-light{color:var(--ink)}
 .hugo-prompt{color:#f1eee5}
+
+/* Buyer guidance uses the existing MTT palette and card system. */
+.industry-catalogue { padding: clamp(24px,5vw,80px); }
+.industry-catalogue > p { max-width: 65ch; }
+.industry-catalogue .product-grid { margin: 28px 0; }
+.purchase-guide { margin: 32px 0; padding: clamp(18px,3vw,28px); background: #f3f1e9; border: 1px solid #d8d9d0; border-radius: 12px; }
+.purchase-guide ol { padding-left: 22px; }
+.purchase-guide li { margin-bottom: 20px; }
+.purchase-guide p { font-size: 1rem; line-height: 1.6; }
+.purchase-guide .button { white-space: normal; }

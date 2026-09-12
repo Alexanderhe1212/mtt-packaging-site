@@ -1,3 +1,4 @@
+import IndustryProducts from '../../../components/IndustryProducts';
 import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
 import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
 import FragrancePlanning from "../../../components/FragrancePlanning";
@@ -92,6 +93,7 @@ export default async function IndustryPage({
         <img src={item.image} alt={item.imageAlt} width="900" height="900" />
       </header>
       {item.slug === "perfume-fragrance-packaging" && <FragrancePlanning />}
+      <IndustryProducts industry={item.slug} />
       <section className="industry-section">
         <div>
           <p className="section-kicker">Structure directions</p>

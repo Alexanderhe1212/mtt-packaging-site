@@ -39,9 +39,9 @@ export default function Home() {
     <section className="ed-hero" id="top">
       <div className="ed-hero-copy">
         <p className="ed-eyebrow">MTT Packaging · China</p>
-        <h1>Custom packaging.<br/>Considered from<br/>every angle.</h1>
-        <p className="ed-lead">Rigid boxes, cartons and custom inserts,<br className="desktop-break"/> developed around your product.</p>
-        <div className="ed-actions"><a className="button" href="/packaging">Explore Packaging <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/tools/gift-box-solution-builder">Build Your Packaging Brief</a></div>
+        <h1>Custom rigid boxes.<br/>Made around<br/>your product.</h1>
+        <p className="ed-lead">Premium gift boxes, fitted inserts and matching paper bags. Develop your complete packaging set with MTT.</p>
+        <div className="ed-actions"><a className="button" href="/products">Explore Box Designs <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/request-a-quote">Request a Quote</a></div>
       </div>
       <img className="ed-hero-image" src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1400w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Concept illustration of a forest green rigid gift box with a fine gold triangular detail and separate lid" width="1330" height="1182" fetchPriority="high" />
     </section>
