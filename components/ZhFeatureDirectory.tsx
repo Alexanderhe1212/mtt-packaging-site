@@ -1,0 +1,7 @@
+const groups=[
+ {title:'包装结构与配套',items:[['精品硬盒','/packaging/custom-rigid-boxes','天地盖、书型盒、抽屉盒与折叠礼盒。'],['卡纸盒','/packaging/folding-cartons','零售纸盒、印刷及开窗结构。'],['定制内托','/packaging/custom-inserts','纸卡、纸浆、EVA、包布、吸塑及瓦楞内托。'],['定制纸袋','/packaging/custom-paper-bags','与礼盒配套的纸袋、提手及品牌印刷。'],['材料、工艺与印刷','/packaging#customization','查看材料、烫金、压纹、UV、附件及印刷效果。']]},
+ {title:'行业解决方案',items:[['香水包装','/industries/perfume-fragrance-packaging','香水瓶、旅行装与探索套装。'],['护肤美妆包装','/industries/cosmetics-skincare-packaging','瓶、罐、软管与系列组合包装。'],['珠宝与腕表包装','/industries/jewelry-watch-packaging','展示、固定与取放细节。'],['全部行业','/industries','按产品用途寻找包装方向。']]},
+ {title:'设计工具与项目提交',items:[['设计我的包装盒','/tools/gift-box-solution-builder','选择盒型、上传图稿、调整材料工艺与配套，保存项目并整理询价规格。'],['全部包装工具','/tools','查看现有设计与包装规划工具。'],['中文提交包装需求','/zh/request-a-quote','提供尺寸、数量、交付地区及定制要求。']]},
+ {title:'案例与采购指南',items:[['案例目录','/case-studies','查看十篇包装案例与方案分析、阶段图片和结构说明。'],['包装知识','/insights','了解选型、材料、内托及运输考虑。'],['质量检查','/quality-control','了解样品确认与生产检查要点。'],['可持续方向','/sustainability','比较材料与结构选择。'],['合作流程','/how-we-work','从需求、打样到报价及生产。'],['关于 MTT','/about','了解我们的定制包装服务。']]}
+];
+export default function ZhFeatureDirectory(){return <section aria-labelledby="zh-features"><h2 id="zh-features">完整功能与内容目录</h2><p>中英文使用同一套设计与询价功能。以下入口保留完整页面；部分详细内容仍为英文。</p>{groups.map(group=><section key={group.title}><h3>{group.title}</h3><div className="zh-grid">{group.items.map(([title,href,description])=><article key={href}><h4><a href={href}>{title} →</a></h4><p>{description}</p></article>)}</div></section>)}</section>}
