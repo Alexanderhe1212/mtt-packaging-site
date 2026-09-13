@@ -1,3 +1,4 @@
+import buyerUpdates from '../../../lib/buyer-article-updates.json';
 import CaseStages from '../../../components/CaseStages';
 import {caseStages} from '../../../lib/case-stages';
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
@@ -46,7 +47,7 @@ export default async function InsightPage({
         <a href="/">Return to MTT Packaging</a>
       </main>
     );
-  const related = articles.filter((a) => a.slug !== article.slug).slice(0, 2);
+  const related = articles.filter((a) => a.slug !== article.slug && (!(article.slug in buyerUpdates) || a.slug in buyerUpdates)).slice(0, 3);
   const isProblemArticle = article.angle === "Design Analysis" || customerProblemArticles.some((a) => a.slug === article.slug);
   const articleData = {
     "@context": "https://schema.org",
