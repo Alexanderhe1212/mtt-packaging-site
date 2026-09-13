@@ -4,7 +4,7 @@ export const products=[...records,...expanded];
 export type PackagingProduct=typeof records[number];
 export const productBySlug=(slug:string)=>products.find(p=>p.slug===slug);
 export const categories=[...new Map(products.map(p=>[p.category,{id:p.category,en:p.categoryName,zh:p.categoryZh}])).values()];
-export const structures=[...new Map(products.map(p=>[p.structure,{id:p.structure,en:p.structureName,zh:p.structureZh}])).values()];
+export const structures=[...new Map(products.map(p=>[p.structure,{id:p.structure,en:p.structure==='stacked-drawers'?'Multi-drawer box':p.structure==='tuck'?'Tuck-end carton':p.structure==='mailer'?'Roll-end mailer':p.structureName,zh:p.structure==='stacked-drawers'?'多抽屉盒':p.structure==='tuck'?'插口卡纸盒':p.structure==='mailer'?'飞机盒':p.structureZh}])).values()];
 
 export const wrappingPapers=[...new Map(products.map(p=>[p.wrap,{id:p.wrap,en:p.wrap,zh:p.wrapZh}])).values()];
 
