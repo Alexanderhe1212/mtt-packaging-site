@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0115",
+  "source": "work/catalog-loaded-sources/MTT-C0115.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Soap bars — Gable-top carton. FAMILY carton. Exact construction: A scored paperboard carton closes with two sloping roof panels meeting at a die-cut handle. No separate lid or ribbon handles. Material: Coated folding boxboard. Finish: Gloss varnish and vivid colour printing. Vivid palette: Tangerine and plum. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH soap bars seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "ee4ecd73d6d3b63ef240af7d76656182705d54661962b68bd26c642b7f7ac10d",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0115-0.webp",
+      "sha256": "b4d4f3848649c7cd913e6cddbce509709a7fa8e429aa912d1b220b153485df67"
+    },
+    {
+      "path": "public/products/mtt-c0115-1.webp",
+      "sha256": "cfc6c136f41c565089ddbedef96377cbd034a6c1c3c1dcfe72729b7a0f535169"
+    },
+    {
+      "path": "public/products/mtt-c0115-2.webp",
+      "sha256": "1e56a29576c2e3e01038f60c09b66109087a03d4689926a5c078c15ec887e11b"
+    },
+    {
+      "path": "public/products/mtt-c0115-3.webp",
+      "sha256": "ce693e73d0bdc21285aa11b3ad4c251d12e9fcb350fe654b72bd0e8d742f3e7b"
+    },
+    {
+      "path": "public/products/mtt-c0115-4.webp",
+      "sha256": "78676b894b5fec47a13cfe67cd5ad16f7ec4b18e74bf71637f003f34ba566cf1"
+    }
+  ]
+}

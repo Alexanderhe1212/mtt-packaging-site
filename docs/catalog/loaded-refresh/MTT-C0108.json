@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0108",
+  "source": "work/catalog-loaded-sources/MTT-C0108.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Sealed supplement bottle — Gable-top carton. FAMILY carton. Exact construction: A scored paperboard carton closes with two sloping roof panels meeting at a die-cut handle. No separate lid or ribbon handles. Material: Fine-textured paperboard. Finish: Debossed motif and spot-colour printing. Vivid palette: Lime and indigo. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH sealed supplement bottle seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Open view has missing full-height front wall; keep entire front wall and open only roof panels, view down through the top. No front cutaway. Corrected sheet visually reviewed.",
+  "correction": "Open view has missing full-height front wall; keep entire front wall and open only roof panels, view down through the top. No front cutaway.",
+  "reviewedSourceHash": "0bb9425c9f155d1c3c0f35dab225e6402ae1f3308d12cc62b6c3c015f8af7787",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0108-0.webp",
+      "sha256": "39637b33a3a8f7f5dc07c2c407bf279c153a09441a1d96f2f2b02036741c994f"
+    },
+    {
+      "path": "public/products/mtt-c0108-1.webp",
+      "sha256": "6af738e72e188d807072d82a76cad69f36b6af6b1676b981807d53a1e3b92392"
+    },
+    {
+      "path": "public/products/mtt-c0108-2.webp",
+      "sha256": "d901e4c9843e63d1cec8b7997581386088902ec42912b689e485c3b33b0a6afe"
+    },
+    {
+      "path": "public/products/mtt-c0108-3.webp",
+      "sha256": "cf0a8bd35dd123dcb487d566f2ba69cae3fc1c235f51832fbc7a8b713954ea2b"
+    },
+    {
+      "path": "public/products/mtt-c0108-4.webp",
+      "sha256": "e0478878431c9b299ecd9bfe84bb04c49940aece88e209461227dcc38e5820ad"
+    }
+  ]
+}

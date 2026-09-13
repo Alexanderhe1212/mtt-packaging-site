@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0127",
+  "source": "work/catalog-loaded-sources/MTT-C0127.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Tea tin — Paperboard sleeve and tray. FAMILY carton. Exact construction: A lightweight folded paperboard tray slides inside a thin four-sided paperboard sleeve. Thin scored edges, not thick wrapped rigid board. Material: Coated folding boxboard. Finish: Gloss varnish and vivid colour printing. Vivid palette: Fuchsia and cream. Artwork: playful geometric mosaic, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH tea tin seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Corrected inconsistent compartment or opening; re-reviewed five views. Corrected sheet visually reviewed.",
+  "correction": "Corrected inconsistent compartment or opening; re-reviewed five views.",
+  "reviewedSourceHash": "c9913a562a9c98ac2d36bdd363dcdc5989e88f34e60bb6a0318ae110dafe65cf",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0127-0.webp",
+      "sha256": "5efd1e03bb237ae099527816be85552e3f5ae8b40c9838fbfd2fb51a7bcde090"
+    },
+    {
+      "path": "public/products/mtt-c0127-1.webp",
+      "sha256": "e8a20476fb587d3bcebf178c0ddb809064206043b4c2da4d3735ac1bccba53ed"
+    },
+    {
+      "path": "public/products/mtt-c0127-2.webp",
+      "sha256": "5978bc935c31076183ce86398e7f2735a4da3766cd16cafc5b51a8917a25bc66"
+    },
+    {
+      "path": "public/products/mtt-c0127-3.webp",
+      "sha256": "12692a3164710e7864fdd42eb37c1c690edf08287a59f03e3db87bb6d2b746d3"
+    },
+    {
+      "path": "public/products/mtt-c0127-4.webp",
+      "sha256": "d4baf1db6300764d3415599e7369d50c965f98c1f3ddd747f2cd4ee806bf875d"
+    }
+  ]
+}

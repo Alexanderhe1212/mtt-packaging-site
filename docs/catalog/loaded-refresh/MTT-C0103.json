@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0103",
+  "source": "work/catalog-loaded-sources/MTT-C0103.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Perfume bottle — Tuck-end carton. FAMILY carton. Exact construction: A single folding-paperboard body has a tuck tongue and two dust flaps at its top. No rigid lid, magnets or corrugated wings. Material: Coated folding boxboard. Finish: Gloss varnish and vivid colour printing. Vivid palette: Coral and cobalt. Artwork: large geometric circles, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH perfume bottle seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "a04ca5cd1576b4775aa7a43dec3170d478a79922350c345add21d86fc465d6f9",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0103-0.webp",
+      "sha256": "428b6acc43595b29ec1036f1a6f6f14ce1a1c1e7f9ff5b35e73c3c190e0b2b1a"
+    },
+    {
+      "path": "public/products/mtt-c0103-1.webp",
+      "sha256": "8ca6758983efe2f2bcb89250f550c7c18df8f1f91cd8d84755569374cfd48042"
+    },
+    {
+      "path": "public/products/mtt-c0103-2.webp",
+      "sha256": "6e7036dbd151611d9660dbeb254af4b889eab75cdee9af57603450935e16c09f"
+    },
+    {
+      "path": "public/products/mtt-c0103-3.webp",
+      "sha256": "02969b6662c45cac58dc5bea542145eca226281ffe8dadb618323e43933670ee"
+    },
+    {
+      "path": "public/products/mtt-c0103-4.webp",
+      "sha256": "8d9cd388a14a334c6f1dca49b0ae582c0f6f56ecb12c0ebfeadd70368ffa0efa"
+    }
+  ]
+}

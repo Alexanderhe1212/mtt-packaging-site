@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0125",
+  "source": "work/catalog-loaded-sources/MTT-E0125.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Travel accessories — Corrugated sleeve and tray. FAMILY corrugated. Exact construction: A folded corrugated tray slides along one axis into a four-sided corrugated sleeve. Clearly visible corrugated cut edges. Material: Litho-laminated corrugated board. Finish: Matte lamination on printed liner. Vivid palette: Tangerine and plum. Artwork: fine architectural stripes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH travel accessories seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "e6cf5f820f47b3a5bf84559360d680a08825ee78f84c79212509e302ddd16244",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0125-0.webp",
+      "sha256": "8437bf8e80a3b83ccd669d564744b690ea383fc217e213495a076f0afe5bf4bb"
+    },
+    {
+      "path": "public/products/mtt-e0125-1.webp",
+      "sha256": "82d11041393ce282364a8e3633639c347e118e29cd69b1c2be2e4ea50d4e333c"
+    },
+    {
+      "path": "public/products/mtt-e0125-2.webp",
+      "sha256": "a88e3a86ee38d7bc555eda7f02e83a754c6515e6f372eefc2810c0c7a4e78944"
+    },
+    {
+      "path": "public/products/mtt-e0125-3.webp",
+      "sha256": "2f7cadbf1f1be5b3315976ac10e16b5fca9c2346c3920c5a8a1be4f6cf068198"
+    },
+    {
+      "path": "public/products/mtt-e0125-4.webp",
+      "sha256": "372a552e6ed07f3a67d3ffb35986c420a0b96ac6375f2d688f8115e8a202d6ed"
+    }
+  ]
+}

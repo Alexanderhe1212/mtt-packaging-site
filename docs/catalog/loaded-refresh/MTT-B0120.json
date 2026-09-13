@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0120",
+  "source": "work/catalog-loaded-sources/MTT-B0120.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Honey jar — Twisted-paper handle bag. FAMILY bag. Exact construction: Paper shopping bag with two twisted-paper loop handles bonded to internal reinforcement patches, side gussets and folded bottom. Material: Dyed shopping-bag paper. Finish: Debossing and small foil motif. Vivid palette: Azure and white. Artwork: playful geometric mosaic, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH honey jar seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "3fe1eccbeade72bcbab3c4092ecb0be975742ef62b99e32931c03b88c469b4c9",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0120-0.webp",
+      "sha256": "900c57c1ed28fcc5c588bac2c0007740ef0fe88a37317227eb4aa18e43272bfd"
+    },
+    {
+      "path": "public/products/mtt-b0120-1.webp",
+      "sha256": "bbe1ad7b337fb07a4090e8d71e08bf196ea2758ca457d6a056449b98561b0963"
+    },
+    {
+      "path": "public/products/mtt-b0120-2.webp",
+      "sha256": "72f9c6968393abaa3668ea1a9b089c7beaad32063225d3c65f75258e443b48e6"
+    },
+    {
+      "path": "public/products/mtt-b0120-3.webp",
+      "sha256": "b4e167b229dddd9b3341542ebb4fb00a042677e951a30ad61fa097e6e53d9b1e"
+    },
+    {
+      "path": "public/products/mtt-b0120-4.webp",
+      "sha256": "7fc13be38b8df7c2a94fd7c2db9cfdc3410470e8957c3bad8c054a7510da5497"
+    }
+  ]
+}

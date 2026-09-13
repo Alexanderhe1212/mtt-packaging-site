@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0115",
+  "source": "work/catalog-loaded-sources/MTT-E0115.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Soap bars — Roll-end mailer. FAMILY corrugated. Exact construction: One-piece corrugated roll-end mailer: lid hinged at the rear, side wings tuck into double side walls. Visible flute at cut edges. Material: Litho-laminated corrugated board. Finish: Matte lamination on printed liner. Vivid palette: Turquoise and pink. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH soap bars seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "ba743937dbb2501d9c4bb299baa40670bd0575bd2bad0345b92ad3d5fbcc9707",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0115-0.webp",
+      "sha256": "a8d48b15209662b87bb800f1096e43a4f406ab7f74b0bcc34b4ee7843dbe0a65"
+    },
+    {
+      "path": "public/products/mtt-e0115-1.webp",
+      "sha256": "2376473ad71941a3552b36d5aef8699f24afb870bb1cfd10f39be2e76d9f22d6"
+    },
+    {
+      "path": "public/products/mtt-e0115-2.webp",
+      "sha256": "1cc17eda713aed1955f425b6954ebd29ebba1e210e0f2f048b33b55a8db3102a"
+    },
+    {
+      "path": "public/products/mtt-e0115-3.webp",
+      "sha256": "a0b63922ef5c210de5c13744aa8988e22c0494a8c119084c23acef471700f6bb"
+    },
+    {
+      "path": "public/products/mtt-e0115-4.webp",
+      "sha256": "8278a4e1707be2d61d80f3e4133e716c680dced0c23b1a85db7fd8ff4d19ef93"
+    }
+  ]
+}

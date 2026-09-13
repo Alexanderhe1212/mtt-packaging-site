@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0127",
+  "source": "work/catalog-loaded-sources/MTT-B0127.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Tea tin — Die-cut handle paper bag. FAMILY bag. Exact construction: Paper bag with reinforced oval die-cut handle holes near the top, side gussets, folded bottom. No separate cord or ribbon handles. Material: Coated shopping-bag paper. Finish: Gloss lamination and colour printing. Vivid palette: Raspberry and copper. Artwork: playful geometric mosaic, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH tea tin seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "c9c10411674f479afadd7e623711f66c3b74c05909ae212c8fe6de276a9f5374",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0127-0.webp",
+      "sha256": "a9bbbeec4030865f988fed537517350b6693896baea25cfcb0ccad2f8003427c"
+    },
+    {
+      "path": "public/products/mtt-b0127-1.webp",
+      "sha256": "0d8c9f1a3cb188e6c0db0474b7e1306c3cd48034de47cd9cd1220f6fe6760a5a"
+    },
+    {
+      "path": "public/products/mtt-b0127-2.webp",
+      "sha256": "03b3ce8f00ad0a3dee8dfef6a29e19ff3558d89021ead3d08d282104c17243bd"
+    },
+    {
+      "path": "public/products/mtt-b0127-3.webp",
+      "sha256": "089c7362679e40d244a72cbf2a8e5dcac9304551de344154cc66ef3c8ea68b3d"
+    },
+    {
+      "path": "public/products/mtt-b0127-4.webp",
+      "sha256": "2881d44d765fc5c8c18d27750fb01096faadc78ef0e4198ca236820d0e706601"
+    }
+  ]
+}

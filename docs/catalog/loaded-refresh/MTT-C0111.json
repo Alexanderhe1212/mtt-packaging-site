@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0111",
+  "source": "work/catalog-loaded-sources/MTT-C0111.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Wrapped cookies — Crash-lock bottom carton. FAMILY carton. Exact construction: A folding carton has a glued crash-lock bottom and tuck top with dust flaps. Show the tuck top open, not a separate lid. Material: Pearlescent paperboard. Finish: Pearlescent sheen with silver foil. Vivid palette: Emerald and peach. Artwork: fine architectural stripes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH wrapped cookies seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Keep same tall full-height front wall in open views as closed carton. Show contents only through top from elevated camera, not a shortened front panel. Corrected sheet visually reviewed.",
+  "correction": "Keep same tall full-height front wall in open views as closed carton. Show contents only through top from elevated camera, not a shortened front panel.",
+  "reviewedSourceHash": "095e2405342fd045c9775690626fe6ee6e72911c2a86bfeff9f90938c4dd03b0",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0111-0.webp",
+      "sha256": "850fa449fb9f31b715b7fbb13b35e88cbadd88ff7e1793042cdf7e049d88795b"
+    },
+    {
+      "path": "public/products/mtt-c0111-1.webp",
+      "sha256": "41e5c9a9122571d30e9be5aabeec3932a799fdf9fcb1c7cb3d0a14369dfa05c1"
+    },
+    {
+      "path": "public/products/mtt-c0111-2.webp",
+      "sha256": "6a5ca128ee61a84ff54e80904540604d29ffc975fb769a44769b28b1f682856e"
+    },
+    {
+      "path": "public/products/mtt-c0111-3.webp",
+      "sha256": "39347e5e8e3c736ab7653d3d5f54177bfc6a23bd2cc7f513205ed71cb0bf0cf8"
+    },
+    {
+      "path": "public/products/mtt-c0111-4.webp",
+      "sha256": "a107005cecce82244d79b6710619405170d6e882754d0bbc99cc83781340411a"
+    }
+  ]
+}

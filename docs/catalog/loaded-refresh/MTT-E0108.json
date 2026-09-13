@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0108",
+  "source": "work/catalog-loaded-sources/MTT-E0108.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Sealed supplement bottle — Four-flap shipping carton. FAMILY corrugated. Exact construction: Rectangular corrugated shipping carton with four TOP flaps: two inner short flaps and two outer long flaps meeting at centre. No hinged gift-box lid. Material: White-lined corrugated board. Finish: Colour printing and gloss varnish. Vivid palette: Violet and silver. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH sealed supplement bottle seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "72767de19d6b50b824fd4fc8a730fbff6dc276e4d3fff54821e9967202f07849",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0108-0.webp",
+      "sha256": "ba0d084e0fae93d69d853aba5dbc38032fb61bad479e8daa2367aa3934b61691"
+    },
+    {
+      "path": "public/products/mtt-e0108-1.webp",
+      "sha256": "7ee832bd9c5f112813e73398db5e9c111fb5bd9bbb16595c6de5ab330a17333a"
+    },
+    {
+      "path": "public/products/mtt-e0108-2.webp",
+      "sha256": "fdb47c756b0f95a5310bcc9ad53f6dd06cd396ced2de04f33e99a89bd4b6e302"
+    },
+    {
+      "path": "public/products/mtt-e0108-3.webp",
+      "sha256": "62a81acc20b2c1a5d5280b845822ea2f8a1ec18f106d26e3b1714b35a02db5f8"
+    },
+    {
+      "path": "public/products/mtt-e0108-4.webp",
+      "sha256": "60d17e942705e74e8c503516852d76adb205dea2e6d5805246174c31bc8b563a"
+    }
+  ]
+}

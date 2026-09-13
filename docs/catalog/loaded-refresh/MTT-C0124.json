@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0124",
+  "source": "work/catalog-loaded-sources/MTT-C0124.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Sealed granola pouch — Tuck-end carton. FAMILY carton. Exact construction: A single folding-paperboard body has a tuck tongue and two dust flaps at its top. No rigid lid, magnets or corrugated wings. Material: White paperboard. Finish: Matte coating with selective gloss UV. Vivid palette: Sunshine yellow and cherry. Artwork: large geometric circles, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH sealed granola pouch seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "ec2bd3e210b61d595556f55a6f98980ea4dd5b0ea7626e1733766e3cc7b76f3a",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0124-0.webp",
+      "sha256": "ed16862184a0df6889f1047c5d356715ee54636d270833c29bca30a656b3aded"
+    },
+    {
+      "path": "public/products/mtt-c0124-1.webp",
+      "sha256": "5cd341795fe9caa0a5f17d764dbbb8fde4fc7b7c619a3a7fe53a12ba999869ab"
+    },
+    {
+      "path": "public/products/mtt-c0124-2.webp",
+      "sha256": "7c076d17c573e370c45818549135084ee56f34d938b0665f140929a7babdda4c"
+    },
+    {
+      "path": "public/products/mtt-c0124-3.webp",
+      "sha256": "9a0dde612a76631d7e4d5893a0b6660a97fe10f7e090f01b4a6f4996a072db82"
+    },
+    {
+      "path": "public/products/mtt-c0124-4.webp",
+      "sha256": "30f36bf8b4bc16b65d2c7c2b9f223ec8398422b5ad875526dae958f8604ad04a"
+    }
+  ]
+}

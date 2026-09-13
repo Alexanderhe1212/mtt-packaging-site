@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0116",
+  "source": "work/catalog-loaded-sources/MTT-B0116.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Lipstick trio — Flat-paper handle bag. FAMILY bag. Exact construction: Paper shopping bag with two flat folded-paper handles bonded inside, visible side gussets and folded bottom. No fabric ribbon. Material: Kraft shopping-bag paper. Finish: Two-colour printing. Vivid palette: Sunshine yellow and cherry. Artwork: large angular colour blocks, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH lipstick trio seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "caf15e768d9710ab03aa08ad11e51ef7347c83ee5eb9463f736f5fdc22375957",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0116-0.webp",
+      "sha256": "1da020f70a718fc21cfca002c374668d417ebb3b821bc740dab82d09a6d4f582"
+    },
+    {
+      "path": "public/products/mtt-b0116-1.webp",
+      "sha256": "742ca83440bb4836da2fe465e054ffe8aa73d21d4cda661cb989489ae8ba4b37"
+    },
+    {
+      "path": "public/products/mtt-b0116-2.webp",
+      "sha256": "443705841542d449144e4df5763fa2a52d0be36c107fabe87703a53f123005f9"
+    },
+    {
+      "path": "public/products/mtt-b0116-3.webp",
+      "sha256": "8cfe6ab7580b39ce9de6cd2dd10e37df7c2d62c163bb958a6c4bd8264c9133a2"
+    },
+    {
+      "path": "public/products/mtt-b0116-4.webp",
+      "sha256": "5689c949e743d947aec7673a45f2d6aad57eb28a5309158f41d0b42c56ba2e33"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0113",
+  "source": "work/catalog-loaded-sources/MTT-C0113.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Jewelry pouch — Paperboard sleeve and tray. FAMILY carton. Exact construction: A lightweight folded paperboard tray slides inside a thin four-sided paperboard sleeve. Thin scored edges, not thick wrapped rigid board. Material: Metallic laminated paperboard. Finish: Opaque colour printing over metallic base. Vivid palette: Fuchsia and cream. Artwork: playful geometric mosaic, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH jewelry pouch seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "8863498d8f03fb811dd99c3224df37557ea1aae17afd086d8f56430113a21382",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0113-0.webp",
+      "sha256": "55cfef464f42083314d8e8b6224d8cb2477d0c098ae915384197ac1467bec20c"
+    },
+    {
+      "path": "public/products/mtt-c0113-1.webp",
+      "sha256": "9f97ea5601ffafbe2b5db0334f18799d9aed1965655743bd42c7b3b97a798119"
+    },
+    {
+      "path": "public/products/mtt-c0113-2.webp",
+      "sha256": "6e238a673003f8861010411aaaf333764d426687fa8f9566d921ea0dec8335dc"
+    },
+    {
+      "path": "public/products/mtt-c0113-3.webp",
+      "sha256": "a1d72006d1e223d6a5d147bbb0146c57fd7b47868790806fe7b944196ef8dee0"
+    },
+    {
+      "path": "public/products/mtt-c0113-4.webp",
+      "sha256": "eec8d812bcd3acd2576a8d89e47a4c5ade734588b97683f94386880f2f81ff59"
+    }
+  ]
+}

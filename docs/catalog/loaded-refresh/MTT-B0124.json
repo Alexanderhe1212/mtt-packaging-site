@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0124",
+  "source": "work/catalog-loaded-sources/MTT-B0124.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Sealed granola pouch — Cord-handle paper bag. FAMILY bag. Exact construction: Gusseted paper bag with two cotton cord handles anchored through reinforced top holes and a folded rectangular bottom. Material: White shopping-bag paper. Finish: Matte lamination and selective gloss. Vivid palette: Lemon and lilac. Artwork: large geometric circles, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH sealed granola pouch seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "d995a6b2128fdfe51d9aeea842cc098236dc6140b4f6fc858a73f5c64e9c8673",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0124-0.webp",
+      "sha256": "38847a6e134aca25341a4df8a0df2d4eeb0dfaffcf5f0344d69d8392eb535284"
+    },
+    {
+      "path": "public/products/mtt-b0124-1.webp",
+      "sha256": "04957595eb0171c7259af8c9b7aaca0cd588ff84215911729dc8eb53b1d8e2cd"
+    },
+    {
+      "path": "public/products/mtt-b0124-2.webp",
+      "sha256": "774badca7989a937ee808b17187130b41b0474f69f2ef2a5983b256f16b1d486"
+    },
+    {
+      "path": "public/products/mtt-b0124-3.webp",
+      "sha256": "379eeb5cfb7de31190fba57bab1d11f88471845a61ef3a5c6f1e2f97e4339f66"
+    },
+    {
+      "path": "public/products/mtt-b0124-4.webp",
+      "sha256": "901d2d704ec1faa0689410c4b99aaecbff92fdf25f98a506a37c8a0ad4904a7f"
+    }
+  ]
+}

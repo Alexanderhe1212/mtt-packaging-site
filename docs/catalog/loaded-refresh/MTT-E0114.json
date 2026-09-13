@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0114",
+  "source": "work/catalog-loaded-sources/MTT-E0114.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Silk scarf — Divided roll-end mailer. FAMILY corrugated. Exact construction: A corrugated rear-hinged roll-end mailer has folded paper dividers around the products and side locking wings. Material: Kraft-lined corrugated board. Finish: Two-colour printing. Vivid palette: Lemon and lilac. Artwork: bold botanical silhouettes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH silk scarf seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "b464589c97bf651f6ba7ae61794465cac02a13afae8fa88742e7df0310a66347",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0114-0.webp",
+      "sha256": "394db7faf3a660da1e09ed075078ffb28d820a8e2afcde364303bc1b5e3742eb"
+    },
+    {
+      "path": "public/products/mtt-e0114-1.webp",
+      "sha256": "a460a3752c03518720d136b9a96e6e3ffba90a7b42239c4c703de95bf6aad163"
+    },
+    {
+      "path": "public/products/mtt-e0114-2.webp",
+      "sha256": "e5e18443a3a3a2e0353a633c71d71bf6c56f7b6b7f8e4ea442195873ad53f4be"
+    },
+    {
+      "path": "public/products/mtt-e0114-3.webp",
+      "sha256": "60085e87b43262bc8cdd7b72fcfd44a92987133a4a6924bc2ecaa82b84a3fb53"
+    },
+    {
+      "path": "public/products/mtt-e0114-4.webp",
+      "sha256": "8d5b78a313c495930340ba2579a672a44d1b2c1019f30b1ca0504e7538b2facf"
+    }
+  ]
+}

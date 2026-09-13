@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0110",
+  "source": "work/catalog-loaded-sources/MTT-C0110.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Reed diffuser — Tuck-end carton. FAMILY carton. Exact construction: A single folding-paperboard body has a tuck tongue and two dust flaps at its top. No rigid lid, magnets or corrugated wings. Material: Uncoated kraft paperboard. Finish: Opaque colour printing. Vivid palette: Sunshine yellow and cherry. Artwork: large geometric circles, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH reed diffuser seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Open photo cuts front wall low, inconsistent with closed box. Restore full-height front wall, show capped bottle only through overhead top opening. Corrected sheet visually reviewed.",
+  "correction": "Open photo cuts front wall low, inconsistent with closed box. Restore full-height front wall, show capped bottle only through overhead top opening.",
+  "reviewedSourceHash": "d3f9cc7af2bb1f268b700ede68d6dd49e46194f9f0d30e09b1e3b6f992c37238",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0110-0.webp",
+      "sha256": "9254457ebb647f1abe52a3af400aa720605f3398beb4766648aff6f65e93e819"
+    },
+    {
+      "path": "public/products/mtt-c0110-1.webp",
+      "sha256": "b4c2a90c4ea487db907572b34c1d160627dfedcf2a55014fc4e4eeb664cb150c"
+    },
+    {
+      "path": "public/products/mtt-c0110-2.webp",
+      "sha256": "809aa77b8c3da9cefcdea5334fa792d6a0006fdf31f7a15058f27ff965a1186a"
+    },
+    {
+      "path": "public/products/mtt-c0110-3.webp",
+      "sha256": "a6ddb2b3a09222f2f456206691a42303b6f8e2673b05c7c7d573e9237e24e124"
+    },
+    {
+      "path": "public/products/mtt-c0110-4.webp",
+      "sha256": "129e791ddb4d88d15bcad6465e8d1ff6f84ba91a4ab32efaff832cb9afaed1c2"
+    }
+  ]
+}

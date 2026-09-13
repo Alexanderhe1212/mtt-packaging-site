@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0115",
+  "source": "work/catalog-loaded-sources/MTT-B0115.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Soap bars — Twisted-paper handle bag. FAMILY bag. Exact construction: Paper shopping bag with two twisted-paper loop handles bonded to internal reinforcement patches, side gussets and folded bottom. Material: Coated shopping-bag paper. Finish: Gloss lamination and colour printing. Vivid palette: Scarlet and ice blue. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH soap bars seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "836e7e790c0e1272a9260b06f3f4315d86574b272c8b01e0579a0eea7c21df08",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0115-0.webp",
+      "sha256": "d4e27c6324464ba1d54fb2aaee673ee62d9b58cd8a7f1fcfc26a9d5200d0f89a"
+    },
+    {
+      "path": "public/products/mtt-b0115-1.webp",
+      "sha256": "41b8e919c9c2c6b84b426181f58826c2e87b8264e34809fe78340ab94bd20213"
+    },
+    {
+      "path": "public/products/mtt-b0115-2.webp",
+      "sha256": "90e106a0a85944aa4b07d55e87d2c990a1d3773e9fb405ea71bf90c15679f661"
+    },
+    {
+      "path": "public/products/mtt-b0115-3.webp",
+      "sha256": "c7c7c98c0bd6e4d395852d79b7879fec4e86896b3adac8e2c48fb1e0e3de1ced"
+    },
+    {
+      "path": "public/products/mtt-b0115-4.webp",
+      "sha256": "360603aaa245928fea404e17e9e4604cb84a15adf8a60acb4940085265f01a05"
+    }
+  ]
+}

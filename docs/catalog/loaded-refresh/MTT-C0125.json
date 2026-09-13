@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0125",
+  "source": "work/catalog-loaded-sources/MTT-C0125.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Travel accessories — Crash-lock bottom carton. FAMILY carton. Exact construction: A folding carton has a glued crash-lock bottom and tuck top with dust flaps. Show the tuck top open, not a separate lid. Material: Metallic laminated paperboard. Finish: Opaque colour printing over metallic base. Vivid palette: Emerald and peach. Artwork: fine architectural stripes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH travel accessories seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Open photos remove most of the front wall. Restore complete tall front panel matching closed view. Keep products inside, visible through top opening from above only. No cutaway. Corrected sheet visually reviewed.",
+  "correction": "Open photos remove most of the front wall. Restore complete tall front panel matching closed view. Keep products inside, visible through top opening from above only. No cutaway.",
+  "reviewedSourceHash": "1783de4f01674dbf5f631d556928c79d8861804e0c562811f4c760001c414e2c",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0125-0.webp",
+      "sha256": "f8f97193ea5c9aceca75e11037f1c331d94d0facd7fe7c7ef591052add7c3698"
+    },
+    {
+      "path": "public/products/mtt-c0125-1.webp",
+      "sha256": "7ce000cc2721c72e56aaa388ab5f54350d450f1024cb1ad4c65eb08b730dc11e"
+    },
+    {
+      "path": "public/products/mtt-c0125-2.webp",
+      "sha256": "11bf0af8ae9b52eab1f39c58fbf0861c98e9be0d4556d13f63ddbf6d01e062ce"
+    },
+    {
+      "path": "public/products/mtt-c0125-3.webp",
+      "sha256": "b9d7533f532b4c2f37da0cc1a389cc5f442749f002393b972dc765c965502a33"
+    },
+    {
+      "path": "public/products/mtt-c0125-4.webp",
+      "sha256": "3159d71e98a59c93e9335428ac89c830f99091f17daed92e8272b6fb83a9ca45"
+    }
+  ]
+}

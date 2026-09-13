@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0106",
+  "source": "work/catalog-loaded-sources/MTT-E0106.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Coffee pouches — Divided roll-end mailer. FAMILY corrugated. Exact construction: A corrugated rear-hinged roll-end mailer has folded paper dividers around the products and side locking wings. Material: White-lined corrugated board. Finish: Colour printing with selective gloss. Vivid palette: Sunshine yellow and cherry. Artwork: playful geometric mosaic, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH coffee pouches seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "8e60ce7ec55af2883bfb929ac3c13cca1395be0b6429f0c0fce54843e9d435c3",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0106-0.webp",
+      "sha256": "ff57641aaf3539ed7d44a552425d9d810b94af1ebb503467c82423d3725591cf"
+    },
+    {
+      "path": "public/products/mtt-e0106-1.webp",
+      "sha256": "c25f1adfc046f6dbd5415281bf4834d805d4eadf3bf5916fdf006bf81c178e6c"
+    },
+    {
+      "path": "public/products/mtt-e0106-2.webp",
+      "sha256": "a4fe474cc1305fbde46c499a7a7e6ef58351bc956f7f366280f5f516f1465d49"
+    },
+    {
+      "path": "public/products/mtt-e0106-3.webp",
+      "sha256": "e275da257960ebfa67ff150697f15c9c45d2bccf93f7b8fdb83dcdb33a0a40e6"
+    },
+    {
+      "path": "public/products/mtt-e0106-4.webp",
+      "sha256": "79da8c70fb96222737a482126ef611ac8201d98adfd600e4f7b27860e6c28a08"
+    }
+  ]
+}

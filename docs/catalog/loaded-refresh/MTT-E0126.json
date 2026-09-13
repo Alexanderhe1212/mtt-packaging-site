@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0126",
+  "source": "work/catalog-loaded-sources/MTT-E0126.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Tumbler — Divided roll-end mailer. FAMILY corrugated. Exact construction: A corrugated rear-hinged roll-end mailer has folded paper dividers around the products and side locking wings. Material: White-lined corrugated board. Finish: Colour printing with selective gloss. Vivid palette: Mint and vermilion. Artwork: expressive abstract waves, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH tumbler seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "282ef4a54a0621333af1a9f22c3e145551603cfd3d67a979c35c7707586d7ed2",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0126-0.webp",
+      "sha256": "2ab36a5583091b0499805a9c8a4fc7c8e9df0dc4a18b75810edfcee38be1c950"
+    },
+    {
+      "path": "public/products/mtt-e0126-1.webp",
+      "sha256": "598f3a52a299403c65404d1820366eac5fc90fbea1525cb89671c0234c7b5f6b"
+    },
+    {
+      "path": "public/products/mtt-e0126-2.webp",
+      "sha256": "6ecd4d482de971ac4bc4daaeccef81c5c53be44cbd182d7b6bba6dfb476aa3e1"
+    },
+    {
+      "path": "public/products/mtt-e0126-3.webp",
+      "sha256": "fe7deb26d9defe675fa8c604efe40f34a2f7bad8c5c8b0d2861c2fd95081c700"
+    },
+    {
+      "path": "public/products/mtt-e0126-4.webp",
+      "sha256": "7ccd8aa15ff2c3147f1460455fc5f9eb524c7423c8c580ea4c96513242f189a6"
+    }
+  ]
+}

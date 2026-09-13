@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0122",
+  "source": "work/catalog-loaded-sources/MTT-E0122.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Socks gift — Divided roll-end mailer. FAMILY corrugated. Exact construction: A corrugated rear-hinged roll-end mailer has folded paper dividers around the products and side locking wings. Material: Printed kraft-lined corrugated board. Finish: Opaque bright ink and dark accents. Vivid palette: Violet and silver. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH socks gift seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "ab7ad094a0588a73c2b80a516c518ea115fdda80b53a8d3fd8244b1c869eab80",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0122-0.webp",
+      "sha256": "d045cbb5fb10bbc60e0ae41f51f2e7f0af230accb1d8b5c1eeb99583503cfd02"
+    },
+    {
+      "path": "public/products/mtt-e0122-1.webp",
+      "sha256": "294ec15564b47fe8e6ce19a6698ef47cc3caa313c8fafc6bfdc272ada516ccb4"
+    },
+    {
+      "path": "public/products/mtt-e0122-2.webp",
+      "sha256": "84dc5f002892eb2493789cbe32f5ab0663acd87cd61446708e9b9b3e0c336159"
+    },
+    {
+      "path": "public/products/mtt-e0122-3.webp",
+      "sha256": "92a6ad4dc0172f02944fec2f56cacccd07167076cb682af6eaa5a0efa27d8e36"
+    },
+    {
+      "path": "public/products/mtt-e0122-4.webp",
+      "sha256": "23eea53850ad4717c2149743577b918ff98ffee6ba20af5a44ff4811ace4c66c"
+    }
+  ]
+}

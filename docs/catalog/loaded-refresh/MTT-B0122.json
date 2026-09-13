@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0122",
+  "source": "work/catalog-loaded-sources/MTT-B0122.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Socks gift — Die-cut handle paper bag. FAMILY bag. Exact construction: Paper bag with reinforced oval die-cut handle holes near the top, side gussets, folded bottom. No separate cord or ribbon handles. Material: Kraft shopping-bag paper. Finish: Two-colour printing. Vivid palette: Mint and vermilion. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH socks gift seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "25f02057b189bf3c2043b56e53a22ef8d03d34b524d1ca05aabfcd7b96cf5d29",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0122-0.webp",
+      "sha256": "12c9d82fbd4e6dac3cb832770aa5955c602b2f5935ad510d2f27174b92cdf0d2"
+    },
+    {
+      "path": "public/products/mtt-b0122-1.webp",
+      "sha256": "ae73d099cb20976b114d5aab42580129243fe2da632800e0231abdbafe712086"
+    },
+    {
+      "path": "public/products/mtt-b0122-2.webp",
+      "sha256": "0dc902b952673c0b51bfd7424da4b5ee31e2be5380598a51ba3ad2fbd7ec0609"
+    },
+    {
+      "path": "public/products/mtt-b0122-3.webp",
+      "sha256": "f2f5fdee5fb57c356353affcc50886b801958aa2a9b36fe3aa81cf003402a706"
+    },
+    {
+      "path": "public/products/mtt-b0122-4.webp",
+      "sha256": "691a1386092138beb5ac395c1a4d8669f5f8470b8053178efc24dc28b9e76ec4"
+    }
+  ]
+}

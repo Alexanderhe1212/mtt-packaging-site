@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0119",
+  "source": "work/catalog-loaded-sources/MTT-C0119.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Wrapped mooncakes — Window tuck carton. FAMILY carton. Exact construction: A paperboard tuck carton has a small clear-film front window and intact border. Its top opens with a tuck tongue and dust flaps. Material: Metallic laminated paperboard. Finish: Opaque colour printing over metallic base. Vivid palette: Turquoise and pink. Artwork: expressive abstract waves, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH wrapped mooncakes seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "5765db0dd9cdae0ab345a064e28a041214127f1e5768cea00c22d685934812ca",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0119-0.webp",
+      "sha256": "b29320030bde80b635de3169038eab7b8f4e5bbea5a33fad529f06317de312e5"
+    },
+    {
+      "path": "public/products/mtt-c0119-1.webp",
+      "sha256": "9640ef86c742ca531ff469158b10829f5b8a29ca281483b9f54abcf07724ed93"
+    },
+    {
+      "path": "public/products/mtt-c0119-2.webp",
+      "sha256": "060bc0dae9d95f4dc2838a9353771716b07f42b38f884de1dae23ab94890f5db"
+    },
+    {
+      "path": "public/products/mtt-c0119-3.webp",
+      "sha256": "bf0f703a2d22b4a1f735aa1cb6cfdeeb151f534dc3b804ecc61f953d18fcd423"
+    },
+    {
+      "path": "public/products/mtt-c0119-4.webp",
+      "sha256": "533883e2b75ae263efa485ac3bbb36e9ad77609ce7de27e13a56308cd573e908"
+    }
+  ]
+}

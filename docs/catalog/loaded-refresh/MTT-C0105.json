@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0105",
+  "source": "work/catalog-loaded-sources/MTT-C0105.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Tea sachets — Window tuck carton. FAMILY carton. Exact construction: A paperboard tuck carton has a small clear-film front window and intact border. Its top opens with a tuck tongue and dust flaps. Material: Pearlescent paperboard. Finish: Pearlescent sheen with silver foil. Vivid palette: Turquoise and pink. Artwork: expressive abstract waves, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH tea sachets seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "4742e50521e424d25f3e54e7869d286f74753b9caad0e17e997171c07c5b15ff",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0105-0.webp",
+      "sha256": "668c9f8aec7a180b7373e57b291175e4207e79e6619b40cb4a7be3561ead8900"
+    },
+    {
+      "path": "public/products/mtt-c0105-1.webp",
+      "sha256": "e4744ca86376f704475c942051b600a87a4a6e63a37870517681afe773dd8194"
+    },
+    {
+      "path": "public/products/mtt-c0105-2.webp",
+      "sha256": "7fe53979d84082552a4f0fc76eca1b485595e4640dd7b86cdc0e95b6c57f7c75"
+    },
+    {
+      "path": "public/products/mtt-c0105-3.webp",
+      "sha256": "f60774133ee7b356b2a8ff98e798e1e155e1f49bdea194d26af27e5745d186fa"
+    },
+    {
+      "path": "public/products/mtt-c0105-4.webp",
+      "sha256": "ecc52e2530d8ac4e4ccef017ac13627c40aa26596dfff88cbf842ed2847f335d"
+    }
+  ]
+}

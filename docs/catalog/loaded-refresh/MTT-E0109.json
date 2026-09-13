@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0109",
+  "source": "work/catalog-loaded-sources/MTT-E0109.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Candle jar — Corrugated sleeve and tray. FAMILY corrugated. Exact construction: A folded corrugated tray slides along one axis into a four-sided corrugated sleeve. Clearly visible corrugated cut edges. Material: Kraft-lined corrugated board. Finish: Two-colour printing. Vivid palette: Fuchsia and cream. Artwork: large angular colour blocks, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH candle jar seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "a025867b5f0f2e0591ad8d50079e82fe41358238f2b9b1fa7c635b211d21f044",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0109-0.webp",
+      "sha256": "e561609cedb16d9a120420a5abab6818300048888766e790f69d1a9d13a7612f"
+    },
+    {
+      "path": "public/products/mtt-e0109-1.webp",
+      "sha256": "96fe0279e13995a4f61d75a21a5627d5827edde10577ae70844c775841dd344d"
+    },
+    {
+      "path": "public/products/mtt-e0109-2.webp",
+      "sha256": "40be1bd65370bf6bcf950ca5606e59a5b8a320612de88ab37c6f692fd68373ff"
+    },
+    {
+      "path": "public/products/mtt-e0109-3.webp",
+      "sha256": "f6286a10e38b854150ed01df04bb276a99700fc6562eb4c21eafe7a47650e933"
+    },
+    {
+      "path": "public/products/mtt-e0109-4.webp",
+      "sha256": "ed914a75e9f857c801b542f31cdc33343655d01d573d8db5755e4cbe5e612c5e"
+    }
+  ]
+}

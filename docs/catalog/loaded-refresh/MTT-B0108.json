@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0108",
+  "source": "work/catalog-loaded-sources/MTT-B0108.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Sealed supplement bottle — Ribbon-handle paper bag. FAMILY bag. Exact construction: Gusseted paper shopping bag with two flat ribbon handles, reinforced folded top and rectangular folded bottom. Mouth stays open. Material: Dyed shopping-bag paper. Finish: Debossing and small foil motif. Vivid palette: Mint and vermilion. Artwork: modern sunburst motif, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH sealed supplement bottle seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five views visually reviewed: consistent bag construction and handle type, contents and accessory presentation, material close-up.",
+  "reviewedSourceHash": "ca4f23939430047d84e2ffd3c6fcbf4bde8b833770d8e7fbf3c7faea2727d61b",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0108-0.webp",
+      "sha256": "9036fb761c6c8f334a03cf2afde756190f3bff7dfe9d7b96d69d7db0ad0f3499"
+    },
+    {
+      "path": "public/products/mtt-b0108-1.webp",
+      "sha256": "49a2ab5a794ed6e9814f7c98e5a1a67bbbcbbe9b3c9ba93b22b3dde0173f22dc"
+    },
+    {
+      "path": "public/products/mtt-b0108-2.webp",
+      "sha256": "45265137b068469baa344f5835f88481dc7c4eae7a187ee3b4c799dd567deacb"
+    },
+    {
+      "path": "public/products/mtt-b0108-3.webp",
+      "sha256": "81708106418729785f80b4fe072b2af0009d1afd9bd77aedcf37f602913edc2f"
+    },
+    {
+      "path": "public/products/mtt-b0108-4.webp",
+      "sha256": "66c2758da7ab0b0f8c4bc4e751b79e3bb25a3bf695eeca309a37f3cdcf8b83f9"
+    }
+  ]
+}

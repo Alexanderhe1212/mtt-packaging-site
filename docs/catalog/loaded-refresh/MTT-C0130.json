@@ -1,0 +1,37 @@
+{
+  "code": "MTT-C0130",
+  "source": "work/catalog-loaded-sources/MTT-C0130.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Client welcome kit — Hexagonal tuck carton. FAMILY carton. Exact construction: A six-sided thin paperboard body closes with a scored tuck lid and small dust flaps. No lift-off cap. Material: White paperboard. Finish: Matte coating with selective gloss UV. Vivid palette: Mint and vermilion. Artwork: large angular colour blocks, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH client welcome kit seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "3b59ffb5cb776bb0cec92729bdbd23c83c0303ac93290efbd84a4bb39b5f7ace",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0130-0.webp",
+      "sha256": "fc4f34674479b37d04a14d2882049d7eab9401b9b47b001ee1a5739c230b7f7a"
+    },
+    {
+      "path": "public/products/mtt-c0130-1.webp",
+      "sha256": "b2921e1d9704a58a48d49cb1ff5aee5797e26274628e2225c9c54282ae330f44"
+    },
+    {
+      "path": "public/products/mtt-c0130-2.webp",
+      "sha256": "1699b90250ff08c5675a0c270aad2edd30a096f33c0c64feb62fcb7231f2c90b"
+    },
+    {
+      "path": "public/products/mtt-c0130-3.webp",
+      "sha256": "57cf5745daf43fd673b5b643aa7738a4a9300e7937e359bfa436b81910a9ec57"
+    },
+    {
+      "path": "public/products/mtt-c0130-4.webp",
+      "sha256": "9d463e53c94d5e9c03a8e8967cc2464cb1a629b2b6c04c1a78bcc087f93bf26d"
+    }
+  ]
+}

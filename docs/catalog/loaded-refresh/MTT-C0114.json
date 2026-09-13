@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0114",
+  "source": "work/catalog-loaded-sources/MTT-C0114.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Silk scarf — Pillow carton. FAMILY carton. Exact construction: A curved paperboard pillow carton closes with two overlapping crescent end flaps. No rectangular tray or hinge. Show one curved end open. Material: Fine-textured paperboard. Finish: Debossed motif and spot-colour printing. Vivid palette: Azure and white. Artwork: bold botanical silhouettes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH silk scarf seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Bottom left view incorrectly opens along full long side. Pillow carton only opens curved short END. Replace frame4 with close view through one short crescent end, full uncut curved body and same scarf inside. Corrected sheet visually reviewed.",
+  "correction": "Bottom left view incorrectly opens along full long side. Pillow carton only opens curved short END. Replace frame4 with close view through one short crescent end, full uncut curved body and same scarf inside.",
+  "reviewedSourceHash": "205e25bd4d656f01f0cc2bc3ee123d8c513088efd13145df6aeb64d6a83dc46e",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0114-0.webp",
+      "sha256": "123348d7f0f951555b535cec683cc451cd2e5342d77a418670afc6b79993b67f"
+    },
+    {
+      "path": "public/products/mtt-c0114-1.webp",
+      "sha256": "ebea45e7a4a61e607143e7612178c0e69bba84b489558fcdea07043be4858e98"
+    },
+    {
+      "path": "public/products/mtt-c0114-2.webp",
+      "sha256": "6af23b0116f0dbe635ec1299710d6c420ace70b42ecc1c0f9e3d04181028dd57"
+    },
+    {
+      "path": "public/products/mtt-c0114-3.webp",
+      "sha256": "af185fd3866e5e24a084a59252d1171ffd52fd7756d0824bef4ff1652e50fb3f"
+    },
+    {
+      "path": "public/products/mtt-c0114-4.webp",
+      "sha256": "3354072959b69c5317053ae1a4c8ed77dcb329ccdcf3907f94fe7a49dd511c49"
+    }
+  ]
+}

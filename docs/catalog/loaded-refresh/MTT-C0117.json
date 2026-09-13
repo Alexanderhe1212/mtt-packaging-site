@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0117",
+  "source": "work/catalog-loaded-sources/MTT-C0117.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Stationery set — Tuck-end carton. FAMILY carton. Exact construction: A single folding-paperboard body has a tuck tongue and two dust flaps at its top. No rigid lid, magnets or corrugated wings. Material: Pearlescent paperboard. Finish: Pearlescent sheen with silver foil. Vivid palette: Coral and cobalt. Artwork: large geometric circles, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH stationery set seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Open views lower/cut away the front wall. Restore the intact full-height front panel from the closed view. Show contents through TOP from a steep overhead angle; no display cutout. Preserve carton height and proportions. Corrected sheet visually reviewed.",
+  "correction": "Open views lower/cut away the front wall. Restore the intact full-height front panel from the closed view. Show contents through TOP from a steep overhead angle; no display cutout. Preserve carton height and proportions.",
+  "reviewedSourceHash": "4aead7c9001a808ee2aa51cddd48c173a3936235b725794ed8e5b5789d64b6d0",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0117-0.webp",
+      "sha256": "e78afbbfb29703ca92d851cbae11dee63ab6a55ec9c6fabdccd784ec1b14eb0e"
+    },
+    {
+      "path": "public/products/mtt-c0117-1.webp",
+      "sha256": "8371124f033c759efe0e02db93943d244d32ff9001d223658fe15c411a77ac13"
+    },
+    {
+      "path": "public/products/mtt-c0117-2.webp",
+      "sha256": "111a128fb58ebea7587c710f75e4664ab87993463d2432505157327d5c9e30d2"
+    },
+    {
+      "path": "public/products/mtt-c0117-3.webp",
+      "sha256": "e0d875aa5423be3fa36b0e3462a6dace04fd2a53c32a3e5703814d8ad8fd7df5"
+    },
+    {
+      "path": "public/products/mtt-c0117-4.webp",
+      "sha256": "bb356d6e94de755af6fcd5e9970088b6a516211fb397689c38f85e266f032893"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "added": 84,
+  "images": 420,
+  "reviewed": true,
+  "corrections": [
+    {
+      "code": "MTT-C0104",
+      "issue": "Front wall is cut away in both open views but there is no front window on the closed carton. Show an intact full-height front wall in all views; only top opening, view steeply from above with products seen through top.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-b49a608a-beb7-45fc-a72a-cbfed4b05f6c.png"
+    },
+    {
+      "code": "MTT-C0108",
+      "issue": "Open view has missing full-height front wall; keep entire front wall and open only roof panels, view down through the top. No front cutaway.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-dab585c8-ab19-4d55-ba0a-b8f8dd7c7949.png"
+    },
+    {
+      "code": "MTT-C0110",
+      "issue": "Open photo cuts front wall low, inconsistent with closed box. Restore full-height front wall, show capped bottle only through overhead top opening.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-09aacba1-ef50-4410-a761-59432e3a25a2.png"
+    },
+    {
+      "code": "MTT-C0111",
+      "issue": "Keep same tall full-height front wall in open views as closed carton. Show contents only through top from elevated camera, not a shortened front panel.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-7d792d33-2a19-4839-a337-c66cfed57e8f.png"
+    },
+    {
+      "code": "MTT-C0114",
+      "issue": "Bottom left view incorrectly opens along full long side. Pillow carton only opens curved short END. Replace frame4 with close view through one short crescent end, full uncut curved body and same scarf inside.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-b0538986-584a-4f3b-9b05-3df9283f06c3.png"
+    },
+    {
+      "code": "MTT-C0117",
+      "issue": "Open views lower/cut away the front wall. Restore the intact full-height front panel from the closed view. Show contents through TOP from a steep overhead angle; no display cutout. Preserve carton height and proportions.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-aa76d7e9-356a-4e96-9190-32616abd4e26.png"
+    },
+    {
+      "code": "MTT-C0118",
+      "issue": "Open views lower/cut away the front wall. Restore the intact full-height front panel from the closed view. Show contents through TOP from a steep overhead angle; no display cutout. Preserve carton height and proportions.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-740fba77-7f38-4a70-ac7a-bc0e4cfaaab2.png"
+    },
+    {
+      "code": "MTT-C0121",
+      "issue": "Bottom left has an impossible long-side opening. Pillow carton opens only at a curved short end. Replace frame4 with short-end opening showing same two tubes through that end. Body remains intact, not unfolded or sliced.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-e29dc351-b50c-4b51-a446-9fa37183484d.png"
+    },
+    {
+      "code": "MTT-C0125",
+      "issue": "Open photos remove most of the front wall. Restore complete tall front panel matching closed view. Keep products inside, visible through top opening from above only. No cutaway.",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-b74ff2ac-c5d6-427c-b543-9c6aea102390.png"
+    },
+    {
+      "code": "MTT-C0127",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-5bbbbc8a-e028-493b-95f1-9e7a1b470cba.png",
+      "issue": "Corrected inconsistent compartment or opening; re-reviewed five views."
+    },
+    {
+      "code": "MTT-C0128",
+      "source": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-1adf98bd-23fe-446a-8c9d-c493797c9284.png",
+      "issue": "Corrected inconsistent compartment or opening; re-reviewed five views."
+    }
+  ]
+}

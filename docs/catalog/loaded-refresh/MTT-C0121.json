@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0121",
+  "source": "work/catalog-loaded-sources/MTT-C0121.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Hand cream duo — Pillow carton. FAMILY carton. Exact construction: A curved paperboard pillow carton closes with two overlapping crescent end flaps. No rectangular tray or hinge. Show one curved end open. Material: Coated folding boxboard. Finish: Gloss varnish and vivid colour printing. Vivid palette: Raspberry and copper. Artwork: bold botanical silhouettes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH hand cream duo seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Bottom left has an impossible long-side opening. Pillow carton opens only at a curved short end. Replace frame4 with short-end opening showing same two tubes through that end. Body remains intact, not unfolded or sliced. Corrected sheet visually reviewed.",
+  "correction": "Bottom left has an impossible long-side opening. Pillow carton opens only at a curved short end. Replace frame4 with short-end opening showing same two tubes through that end. Body remains intact, not unfolded or sliced.",
+  "reviewedSourceHash": "c7c9e76d2a1220a499081eeabe82f166c102b63d4d35d19c871912d5d8ee02db",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0121-0.webp",
+      "sha256": "2a8f69e656ff7ab80b390d2ac63ecf4bb113711b7d5341ae4b648dca18300ebb"
+    },
+    {
+      "path": "public/products/mtt-c0121-1.webp",
+      "sha256": "e0d69a85ccecd04ef7e8ae7d6a8f5b4a819028ace4ba9dd2826b4b11664b7bdb"
+    },
+    {
+      "path": "public/products/mtt-c0121-2.webp",
+      "sha256": "84350a356c46c7fa6c5a39131db02165e08a72364cdbfd981c3c3da511c13fba"
+    },
+    {
+      "path": "public/products/mtt-c0121-3.webp",
+      "sha256": "32997b9796d1fa7af642563e3de5f16b9c75efb70cf11599dd79988cf3acb58c"
+    },
+    {
+      "path": "public/products/mtt-c0121-4.webp",
+      "sha256": "fcf941b71a26f77d90c97f571f56445f4063a1fc4075b6b03e7e87e700f01970"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0121",
+  "source": "work/catalog-loaded-sources/MTT-E0121.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Hand cream duo — Corrugated sleeve and tray. FAMILY corrugated. Exact construction: A folded corrugated tray slides along one axis into a four-sided corrugated sleeve. Clearly visible corrugated cut edges. Material: White-lined corrugated board. Finish: Colour printing with selective gloss. Vivid palette: Emerald and peach. Artwork: bold botanical silhouettes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH hand cream duo seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "0a28df03c49ea3455a9b25a91b510735f73cf59a3dcc1b924320136c58b59627",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0121-0.webp",
+      "sha256": "eac08736c87f20ca38c691727f4e190c145c2c8ff557d6b1b462551cad058b7b"
+    },
+    {
+      "path": "public/products/mtt-e0121-1.webp",
+      "sha256": "95400519560b05a23ad87e0b824b935e3dcda51d40ecc26b33ab3b0d7ccbc258"
+    },
+    {
+      "path": "public/products/mtt-e0121-2.webp",
+      "sha256": "8c535138b0b6f2a8f70fa818c8b4a915961e7f93c62416b6f72d01708cb54b1d"
+    },
+    {
+      "path": "public/products/mtt-e0121-3.webp",
+      "sha256": "bc1953b02ab46e9fad370f6c29b3a096b8e3311c577ae3dca79a2019b9f385de"
+    },
+    {
+      "path": "public/products/mtt-e0121-4.webp",
+      "sha256": "128102eee93419734fe4fef0565788a2d74d2c81291c77e9356466dbeeee31c2"
+    }
+  ]
+}

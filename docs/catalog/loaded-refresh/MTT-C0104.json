@@ -1,0 +1,38 @@
+{
+  "code": "MTT-C0104",
+  "source": "work/catalog-loaded-sources/MTT-C0104.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Skincare duo — Crash-lock bottom carton. FAMILY carton. Exact construction: A folding carton has a glued crash-lock bottom and tuck top with dust flaps. Show the tuck top open, not a separate lid. Material: Uncoated kraft paperboard. Finish: Opaque colour printing. Vivid palette: Lemon and lilac. Artwork: fine architectural stripes, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH skincare duo seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Front wall is cut away in both open views but there is no front window on the closed carton. Show an intact full-height front wall in all views; only top opening, view steeply from above with products seen through top. Corrected sheet visually reviewed.",
+  "correction": "Front wall is cut away in both open views but there is no front window on the closed carton. Show an intact full-height front wall in all views; only top opening, view steeply from above with products seen through top.",
+  "reviewedSourceHash": "05a396483e81759b678b24bf95b76d8bf3000231682eeb500620ceb674d8f4ff",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0104-0.webp",
+      "sha256": "bff885b6e329830d80d7e68cf3456dfa200984c9dda383541e60d778e3b30f82"
+    },
+    {
+      "path": "public/products/mtt-c0104-1.webp",
+      "sha256": "ad21df94cc979ea9361c5c9ca9f94273ec330b330587249a4805781ff50f294f"
+    },
+    {
+      "path": "public/products/mtt-c0104-2.webp",
+      "sha256": "fa50c592afb5f42ef250cf28111cee880f8f6f92690bd4db46d2dd92f745c03d"
+    },
+    {
+      "path": "public/products/mtt-c0104-3.webp",
+      "sha256": "c7d46118191e12c9c1757ad628b5119ffcbcd1a57e5e84cf7c6918063fb85fb9"
+    },
+    {
+      "path": "public/products/mtt-c0104-4.webp",
+      "sha256": "c43de22b180ff9e503b271a80db43bde8528f0a82b04460108d8d9029172fea7"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0105",
+  "source": "work/catalog-loaded-sources/MTT-E0105.png",
+  "prompt": "Packaging catalogue contact sheet, landscape 1536x1024, exact 3 columns x 2 rows, six equal square cells, very thin boundaries. Five photographs of ONE consistent packaging product, sixth cell blank. Tea sachets — Corrugated sleeve and tray. FAMILY corrugated. Exact construction: A folded corrugated tray slides along one axis into a four-sided corrugated sleeve. Clearly visible corrugated cut edges. Material: Litho-laminated corrugated board. Finish: Matte lamination on printed liner. Vivid palette: Scarlet and ice blue. Artwork: expressive abstract waves, no lettering or branding. Mid-to-premium commercial packaging, distinct tactile material, realistic optical finish, bright clean studio, level camera no Dutch angle, physically coherent perpendicular edges. Main packaging and every accessory must stay completely within each cell with 8% margin, except macro. Frame1: complete closed package with matching card and small appropriate accessory. Frame2: open package WITH tea sachets seated inside, contents in sealed primary packaging where appropriate. Frame3: complete rear/side including structural seam or gusset. Frame4: clear overhead view into SAME package with SAME products and arrangement. Frame5: macro actual paper edge/finish/closure. Frame6 blank. For bags: frame1 frontal with contents inside and small card; frame2 mouth open from above, products inside partly concealed by intact bag walls; frame4 overhead interior and handle attachments. Never cut away front wall. No rigid box lids on cartons. No corrugated wings on folding cartons. On cartons show thin scored paperboard, dust flaps and real tuck tongue where specified. On corrugated show wavy flute at cut edges, folds and liner; never disguise as rigid gift box. On bags correct handle material and two handles plus gussets. Match colour layout and structural geometry across all views, no duplicated lid, no floating parts, no impossible hinges. Food and cosmetics use closed individual primary packs. No invented logos or illegible text. The product should look physically buildable.",
+  "status": "reviewed",
+  "reviewNotes": "Five-view contact sheet visually reviewed: family-specific opening, coherent closed/open appearance, contents and visible paper finish.",
+  "reviewedSourceHash": "1842414cd9249987f010a5bc4a4bccbf37c0be0a06b98d79109ec0bef7cb3681",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0105-0.webp",
+      "sha256": "fb877f4811798f7411912941a732cbbd02ba2577f6a8e0a303415e8cd0f5c75f"
+    },
+    {
+      "path": "public/products/mtt-e0105-1.webp",
+      "sha256": "299fea6610dc0b001066923aabe2460360635d0b9a08446899b33203a338c9fd"
+    },
+    {
+      "path": "public/products/mtt-e0105-2.webp",
+      "sha256": "b8b760dd52ccf94dbc66cc4192186885c1b25e2dab7d84b27ebbfc194775bb20"
+    },
+    {
+      "path": "public/products/mtt-e0105-3.webp",
+      "sha256": "3478be528b34903af1ae02e9bd4622454046dc1cb332d22fe96e5292c1b31c85"
+    },
+    {
+      "path": "public/products/mtt-e0105-4.webp",
+      "sha256": "744768c6730028a8280f2de7a3e0d9ca292bf0d47b907dd058a078ec83cad02b"
+    }
+  ]
+}
