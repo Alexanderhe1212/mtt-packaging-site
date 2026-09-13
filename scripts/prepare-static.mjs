@@ -1,5 +1,5 @@
 import { createServer } from 'vite';
-import { mkdir, readFile, writeFile, readdir, copyFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, readdir, copyFile, access } from 'node:fs/promises';
 import path from 'node:path';
 
 // Vinext's static export does not emit the sitemap metadata route.
@@ -37,5 +37,6 @@ console.log('Sitemap emitted from app/sitemap.ts; trailing-slash pages prepared 
 
 // Ensure the document language is correct before hydration on Chinese pages.
 async function setChineseLang(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory())await setChineseLang(file);else if(entry.name.endsWith('.html'))await writeFile(file,(await readFile(file,'utf8')).replace('<html lang="en"','<html lang="zh-Hans"'));}}
-await setChineseLang('dist/client/zh');
-await writeFile('dist/client/zh.html',(await readFile('dist/client/zh.html','utf8')).replace('<html lang="en"','<html lang="zh-Hans"'));
+async function exists(file){try{await access(file);return true}catch{return false}}
+if(await exists('dist/client/zh')) await setChineseLang('dist/client/zh');
+if(await exists('dist/client/zh.html')) await writeFile('dist/client/zh.html',(await readFile('dist/client/zh.html','utf8')).replace('<html lang="en"','<html lang="zh-Hans"'));
