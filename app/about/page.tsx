@@ -1,17 +1,17 @@
 import RelatedPackagingStudies from "../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
-import { breadcrumb, organization, siteUrl } from "../../lib/seo";
+import { breadcrumb, organization, siteUrl, businessSummary } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "About MTT Packaging | Packaging Manufacturing Partner",
   description:
-    "MTT Packaging is a packaging development and manufacturing partner based in Shenzhen, China. We coordinate custom rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes for international brands.",
+    businessSummary,
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About MTT Packaging | Packaging Manufacturing Partner",
     description:
-      "Packaging development and manufacturing partner in Shenzhen, China. Rigid boxes, perfume packaging, cosmetic packaging and premium gift boxes.",
+      businessSummary,
     url: "/about",
     images: ["/design/rigid-editorial.webp"],
   },
@@ -26,6 +26,7 @@ const structuredData = {
       description:
         "MTT Packaging is a packaging development and manufacturing partner in Shenzhen, China.",
       url: `${siteUrl}/about`,
+      about: {"@id": organization["@id"]},
     },
     organization,
     breadcrumb([
@@ -74,9 +75,7 @@ export default function AboutPage() {
           <p>About</p>
           <h1>Your Custom Packaging Partner in China</h1>
           <p>
-            MTT Packaging develops custom rigid boxes, folding cartons, paper
-            bags and precision inserts for international brands. One contact.
-            One engineering process. From brief to delivery.
+            {businessSummary}
           </p>
         </div>
         <img
@@ -132,6 +131,7 @@ export default function AboutPage() {
               finishing for retail and e-commerce.
             </p>
           </article>
+          <article><h3>Corrugated Packaging</h3><p>Roll-end mailers, shipping cartons and sleeve-and-tray structures, with board and packed protection reviewed for the product and delivery route.</p><a href="/packaging/corrugated-boxes">Explore corrugated packaging →</a></article>
           <article>
             <h3>Paper Bags</h3>
             <p>
@@ -269,6 +269,16 @@ export default function AboutPage() {
        * - Include: customer name, company, project type
        * - Never fabricate quotes or attributions
        */}
+
+      <section className="about-section">
+        <div><p className="section-kicker">Before you enquire</p><h2>What to expect from a custom packaging project.</h2></div>
+        <div className="about-grid">
+          <article><h3>Can I order a complete packaging set?</h3><p>Yes. Include the box, matching bag, insert, ribbon, card and tissue requirements in one brief. Specify quantities for each component; accessories and contents shown in product images are not automatically included.</p><a href="/products">Compare packaging options →</a></article>
+          <article><h3>What information is needed for a quote?</h3><p>Send product length × width × height, weight, quantity, delivery country and your required date. Add a product photo and artwork link if available. Mark undecided materials or finishes so they can be reviewed with the specification.</p><a href="/request-a-quote">Send your brief →</a></article>
+          <article><h3>What confirms price and delivery timing?</h3><p>The reviewed structure, materials, printing, finishes, quantity and shipping terms determine the quotation. Confirm sample costs, tooling and freight separately. A catalogue image does not establish a fixed price or lead time.</p><a href="/how-we-work">See the project process →</a></article>
+          <article><h3>What should be approved before production?</h3><p>Review a physical sample for product fit, removal, opening, artwork placement and finishes. Confirm the approved specification and complete shipping pack. Screen previews cannot establish tolerances or protective performance.</p><a href="/quality-control">Review quality checkpoints →</a></article>
+        </div>
+      </section>
 
       <aside className="page-cta">
         <p>Ready to start a project?</p>

@@ -1,12 +1,14 @@
 export const siteUrl = 'https://mttpackaging.com';
 
+export const businessSummary = 'MTT Packaging is a custom packaging development and manufacturing partner in China, coordinating rigid boxes, folding cartons, corrugated packaging, paper bags and custom inserts for international brands.';
+
 export const organization = {
   '@type': 'Organization',
   '@id': `${siteUrl}/#organization`,
   name: 'MTT Packaging',
   url: siteUrl,
   logo: `${siteUrl}/logo.svg`,
-  description: 'High-end custom packaging developed around the product, presentation and production requirements.',
+  description: businessSummary,
   email: 'info@mttpackaging.com',
   contactPoint: {
     '@type': 'ContactPoint',

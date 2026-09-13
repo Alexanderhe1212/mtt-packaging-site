@@ -1,3 +1,4 @@
+import {businessSummary} from '../lib/seo';
 import LanguagePicker from '../components/LanguagePicker';
 import type { Metadata } from 'next';
 import Script from 'next/script';
@@ -12,7 +13,7 @@ const GA_MEASUREMENT_ID = 'G-Z132GJZZ57';
 export const metadata: Metadata = {
   metadataBase: new URL('https://mttpackaging.com'),
   title: 'Custom Luxury Packaging Manufacturing Partner | MTT Packaging',
-  description: 'MTT Packaging is a custom luxury packaging development and manufacturing partner in China. We coordinate rigid boxes, perfume packaging, cosmetic packaging, jewelry boxes and premium gift boxes. MOQ from 500 pcs.',
+  description: businessSummary,
   authors: [{ name: 'Hugo He', url: 'mailto:info@mttpackaging.com' }],
   creator: 'MTT Packaging',
   publisher: 'MTT Packaging',

@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-09-13T13:49:12.874818+00:00",
+  "method": "Ordinary public HTTP requests; not a verified search crawler",
+  "robotsTxt": "User-agent: *\nAllow: /\n\nSitemap: https://mttpackaging.com/sitemap.xml\nHost: https://mttpackaging.com\n\nSitemap: https://mttpackaging.com/sitemap-products.xml\n",
+  "pages": [
+    {
+      "url": "https://mttpackaging.com/",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/about",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/about"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/products",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/products"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/how-we-work",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/how-we-work"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/request-a-quote",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/request-a-quote"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/zh",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/zh"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/packaging/corrugated-boxes",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/packaging/corrugated-boxes"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/products/custom-skincare-duo-auto-bottom",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/products/custom-skincare-duo-auto-bottom"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/products/custom-reed-diffuser-twisted-bag",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/products/custom-reed-diffuser-twisted-bag"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    },
+    {
+      "url": "https://mttpackaging.com/tools/gift-box-solution-builder",
+      "status": 200,
+      "canonical": [
+        "https://mttpackaging.com/tools/gift-box-solution-builder"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ],
+      "xRobotsTag": null,
+      "hasText": true
+    }
+  ],
+  "indexStatus": "Not measured: requires Search Console data",
+  "aiCitationStatus": "Not measured",
+  "notes": "HTTP 200 and permissive robots do not establish indexing or AI citation."
+}
