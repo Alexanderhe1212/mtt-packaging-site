@@ -1,0 +1,5 @@
+# Buyer article release
+Two catalogue-based design analyses added: double-door wine packaging and four-drawer Christmas pack-out. Search-intent titles, buyer questions, sample decision checklists, product links and existing product photography included. No delivered-order, measured-saving or tested-protection claim.
+Existing structure-guide protection/market-superlative claim narrowed. Existing FAQ data now rendered visibly on article pages. Case-directory fixed-number copy and four-stage-only link corrected. Existing URLs preserved.
+Validated TypeScript, static build, 326 sitemap pages, new URL inclusion and 390px article layout with no horizontal overflow. Google daily request quota already reached; new URLs pending, not claimed indexed.
+Google guidance consulted: https://developers.google.com/search/docs/fundamentals/creating-helpful-content and https://developers.google.com/search/docs/essentials/spam-policies . Low-quality directory links are not a substitute for useful content. No directory accounts registered.

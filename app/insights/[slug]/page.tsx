@@ -87,11 +87,11 @@ export default async function InsightPage({
         </p>
         <h1>{article.title}</h1>
         <p>{article.intro}</p>
-        <p>{article.angle === "Design Analysis" ? <>MTT Packaging editorial · Independent design analysis · Sources credited below</> : <>Written and reviewed by <a href="/about">Hugo He</a> · Custom packaging consultant at MTT Packaging</>}</p>
+        <p>{article.angle === "Design Analysis" ? <>MTT Packaging editorial · Packaging design analysis · References and specifications below</> : <>Written and reviewed by <a href="/about">Hugo He</a> · Custom packaging consultant at MTT Packaging</>}</p>
         {isProblemArticle && !caseStages[article.slug] && (
           <figure style={{ margin: "32px 0 0" }}>
             <img src={article.image} alt={article.imageAlt} width="900" height="600" style={{ width: "100%", maxHeight: "480px", objectFit: "contain" }} />
-            <figcaption>Illustrative packaging structure reference; not a documented project outcome.</figcaption>
+            <figcaption>Packaging design reference. Final fit, materials and finish are confirmed on an approved sample.</figcaption>
           </figure>
         )}
       </header>
@@ -106,6 +106,7 @@ export default async function InsightPage({
           </section>
         ))}
       </div>
+      {"faq" in article && article.faq && <section className="article-body" aria-label="Buyer questions">{article.faq.map(([question,answer])=><section key={question}><div><h2>{question}</h2><p>{answer}</p></div></section>)}</section>}
       {related.length > 0 && (
         <div className="article-related">
           <p className="section-kicker">Related articles</p>
