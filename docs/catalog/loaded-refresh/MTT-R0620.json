@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0620",
+  "source": "work/catalog-loaded-sources/MTT-R0620.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Premium onboarding set — Two-tier lift-off box; rigid; A removable outer cap covers two vertically stacked removable trays.. Paper Textured uncoated wrapping paper, palette Oxblood and cream, finish Fine foil lines and offset pattern, insert A stationery tray above an accessory tray. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional greeting card and envelope beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded contents fit corresponding insert; separate lid/trays/sleeve and matching views checked.",
+  "reviewedSourceHash": "f531b04dc71cd61ee032b896f1ebd5ba9e807e115a6c5c590a9f888429471d5e",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0620-0.webp",
+      "sha256": "253d6f785353b5477b3a66f702e00297be62897578e74ffe93684c6a95d48dfd"
+    },
+    {
+      "path": "public/products/mtt-r0620-1.webp",
+      "sha256": "efb52b33d60b43e2a259e1576791d744f0859bdb99420fc6b6d2c2d63259dbe9"
+    },
+    {
+      "path": "public/products/mtt-r0620-2.webp",
+      "sha256": "dd5f2d5a7a283a2a8f587fc90b7119da40108fe49ae83d97c8e3e157743b6bec"
+    },
+    {
+      "path": "public/products/mtt-r0620-3.webp",
+      "sha256": "bf3ea16657acb6c5183c7219e0ac912e72eba58489cc65ac68521b45870bc94b"
+    },
+    {
+      "path": "public/products/mtt-r0620-4.webp",
+      "sha256": "cfccd11040da7a93c9bb9e0c500840ed7962285fa53dc134771e430708ac8d7e"
+    }
+  ]
+}

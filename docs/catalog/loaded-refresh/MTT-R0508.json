@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0508",
+  "source": "work/catalog-loaded-sources/MTT-R0508.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Pastry discovery library — Two-drawer box; rigid; Two separate shallow drawers slide from one rigid cabinet.. Paper Pearlescent wrapping paper, palette Black and warm ivory, finish Matte print and restrained spot gloss, insert Three wrapped-pastry cells per drawer. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded sealed-food count and structure checked across views.",
+  "reviewedSourceHash": "f7007b6dea7652acaaeb9b97c3b1afb7d12024edccffbdd202d8683db96e4ac8",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0508-0.webp",
+      "sha256": "07e4cebbe5014bb402ecfd9ae816db7e7d238766c3391016911aee26d7159c6b"
+    },
+    {
+      "path": "public/products/mtt-r0508-1.webp",
+      "sha256": "15989e63f8e663d507748a2a8500d8ed66e12b048311edd5a1bc1fb329d81a2e"
+    },
+    {
+      "path": "public/products/mtt-r0508-2.webp",
+      "sha256": "5afa6ec43ff9f803f549289facced79b9d54a6005373a42998696ce23bb726a3"
+    },
+    {
+      "path": "public/products/mtt-r0508-3.webp",
+      "sha256": "f6f258c194ae1baf37822424a88e268ef9926920e99b19d69329c889489a0bc8"
+    },
+    {
+      "path": "public/products/mtt-r0508-4.webp",
+      "sha256": "852d0b6a0f875fb887ee6bd34759073dc5ffb9aa4236de779a19740315df4730"
+    }
+  ]
+}

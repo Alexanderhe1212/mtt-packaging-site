@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0412",
+  "source": "work/catalog-loaded-sources/MTT-R0412.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Bracelet pull-out gift — Drawer box; rigid; A tray slides horizontally from a rigid four-sided sleeve.. Paper Fine linen-textured wrapping paper, palette Ivory and forest green, finish Two-colour print and debossed border, insert One long bracelet channel. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded jewellery and supporting slots/pads match product specification and both interior views.",
+  "reviewedSourceHash": "11b620fbc9e96edfc940aad966aaab0e995cdd20ffacaf75b49886e4643101b5",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0412-0.webp",
+      "sha256": "be55198b0e301cd55a58a06cbdc18895e59ab482aca16239f6e0f9dd097c6ef0"
+    },
+    {
+      "path": "public/products/mtt-r0412-1.webp",
+      "sha256": "a3967665176b69643a15b017a854521b299df463264fa9b77577ff79e3257fbc"
+    },
+    {
+      "path": "public/products/mtt-r0412-2.webp",
+      "sha256": "e336f495d81aee79b39357337ca9779d5f844a3a9a08f4bfdbe5275171afc833"
+    },
+    {
+      "path": "public/products/mtt-r0412-3.webp",
+      "sha256": "90e40208656edfbf88b0b71453c44dd9004a3bb60b5cd81347cf82cf31143de4"
+    },
+    {
+      "path": "public/products/mtt-r0412-4.webp",
+      "sha256": "cfce2cc3dfe280f102584ab7e30c2b91be793f0eeff9d7638f652927cb40a2ba"
+    }
+  ]
+}

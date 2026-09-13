@@ -1,0 +1,39 @@
+{
+  "code": "MTT-R0205",
+  "source": "work/catalog-loaded-sources/MTT-R0205.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Single estate tea — Shoulder-neck box; rigid; A removable lid fits over a raised inner neck, leaving a narrow shoulder band.. Paper Smooth matte printed wrapping paper, palette Cobalt and ivory, finish Blind embossed motif and small foil accent, insert One round tin recess. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional tasting card and paper sleeve beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Revised image inspected: wrappers/sealed containers corrected; separate lid and product consistency verified.",
+  "previousSource": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-471d114a-9f87-4e59-98c5-4ffa2c941f7a.png",
+  "revisionPrompt": "Precise edit: Tea tin should be sealed in both loaded views.",
+  "reviewedSourceHash": "a434cc127cfe65c22a81a283643ef0261c45cb22a19b3449d672f2e7fea1e630",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0205-0.webp",
+      "sha256": "64e2855167a3fbb0f6d953903c862b3c37e5bd96819654ab925aabe351707ac5"
+    },
+    {
+      "path": "public/products/mtt-r0205-1.webp",
+      "sha256": "85e1cb00c4d0c6516600ff67b681c39d2f27e73c460abbd9b943652397cb28ad"
+    },
+    {
+      "path": "public/products/mtt-r0205-2.webp",
+      "sha256": "2c6c9605c878d98da027967b8ff0677e8b5fbec94b543891f1660dfe97531637"
+    },
+    {
+      "path": "public/products/mtt-r0205-3.webp",
+      "sha256": "b607952660d631f6e8a9669a6b77c345a160aee00fcbaea38c38fb62580393d2"
+    },
+    {
+      "path": "public/products/mtt-r0205-4.webp",
+      "sha256": "ac6e4468214cfe002715a1192df53f33ad22d8bfb4a14b792df84b6fb1d276fe"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MTT-B0101",
+  "source": "work/catalog-loaded-sources/MTT-B0101.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Burgundy ribbon-handle gift bag; bag; Side gussets and a rectangular reinforced bottom; ribbon handles fixed at the top.. Paper Printed bag paper, palette Burgundy and gold, finish Fine gold foil linework, insert Reinforced base and handle attachment. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and tissue beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Correct bag or cabinet/door structure, matching seated contents and count checked.",
+  "reviewedSourceHash": "88bbaeb0c1897f115bd2147aa738c20d144ec7afa8002a6c97681d385249dc87",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0101-0.webp",
+      "sha256": "d91de1a7508b6d49e8192f815ef2f106dd4a6d39bc69ea9946dd33f039c6dbe8"
+    },
+    {
+      "path": "public/products/mtt-b0101-1.webp",
+      "sha256": "3676f4c759c2ffec658c20d05f9af0eb54af008fedd12a01442595e59abe77e1"
+    },
+    {
+      "path": "public/products/mtt-b0101-2.webp",
+      "sha256": "5dc3eaa607bfe3e1459138f6327dd1663cd91b539a3b31d9ca029d814b9f53f5"
+    },
+    {
+      "path": "public/products/mtt-b0101-3.webp",
+      "sha256": "daf7edd70c4323e941bf3accca84e53408cbe6bf38c0e58d3f380bb26d1138d0"
+    },
+    {
+      "path": "public/products/mtt-b0101-4.webp",
+      "sha256": "da5cb0ea7563e85fc11a33ae093aca7b28e75b798b5541ccc25e1a430146f8f5"
+    }
+  ]
+}

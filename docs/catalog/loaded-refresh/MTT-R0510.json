@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0510",
+  "source": "work/catalog-loaded-sources/MTT-R0510.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Holiday hamper layers — Two-tier lift-off box; rigid; A removable outer cap covers two vertically stacked removable trays.. Paper Smooth matte printed wrapping paper, palette Burgundy and blush, finish Blind embossed motif and small foil accent, insert Two removable wrapped-food trays. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded sealed-food count and structure checked across views.",
+  "reviewedSourceHash": "459b9b2fe6fa194838f30d2147d1d8a903c60ee9a410db7d27092f6d4a41b304",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0510-0.webp",
+      "sha256": "89ae65677995eb02ea0b6f1f7f5de1805d46371a507352b48b7d4ef8647c679d"
+    },
+    {
+      "path": "public/products/mtt-r0510-1.webp",
+      "sha256": "e8516788cc07cbd4f1403d5640982c3c127df73d2113f911440849300aabed22"
+    },
+    {
+      "path": "public/products/mtt-r0510-2.webp",
+      "sha256": "a59986e5b2444c573d4ff5081efb2569aab67eaada39369dc7618e0c1f5898fb"
+    },
+    {
+      "path": "public/products/mtt-r0510-3.webp",
+      "sha256": "34c70b122816a2e60b3b51bbe4daeae125a9c0ac8954c04b7955b17852b8ff85"
+    },
+    {
+      "path": "public/products/mtt-r0510-4.webp",
+      "sha256": "dbf8de0666c6ef915e5f12da3fd1dbd14e4042f86c05e3f3b6e98dca18d97da8"
+    }
+  ]
+}

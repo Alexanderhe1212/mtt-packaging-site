@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0104",
+  "source": "work/catalog-loaded-sources/MTT-R0104.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Perfume discovery library — Double-door box; rigid; Two equal rigid doors hinge at opposite sides and meet centrally.. Paper Pearlescent wrapping paper, palette Plum and pearl, finish Matte print and restrained spot gloss, insert Six narrow vial channels. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional scent or care card and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Six vials consistent in open/interior views; symmetric hinged doors and continuous front motif.",
+  "reviewedSourceHash": "d6aab862b6f60286891e41833b6b7b1db6cc970d101189c03c72db762af49ad3",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0104-0.webp",
+      "sha256": "0beaec6f30ec3313d3e830e6b0c1bd5309355b5bbedf19c07a2ec83ce6da152f"
+    },
+    {
+      "path": "public/products/mtt-r0104-1.webp",
+      "sha256": "df6d92af75eee5e359264a0d89c294162bcd7bd8d435565eadaf5d65dd8605d3"
+    },
+    {
+      "path": "public/products/mtt-r0104-2.webp",
+      "sha256": "174a9b6f80e47d4829525d6fcefafbd9048117b89db5bce3d67ed50882f61a0a"
+    },
+    {
+      "path": "public/products/mtt-r0104-3.webp",
+      "sha256": "51e5f1d8eda64757c55c638844198e0ac9a5d700a55d36c9e9f264c6f11c712b"
+    },
+    {
+      "path": "public/products/mtt-r0104-4.webp",
+      "sha256": "14c421da2eb816edd4f6dbe3f657c2a0714e7322a7eff093c5ddd3a2eb306398"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0102",
+  "source": "work/catalog-loaded-sources/MTT-E0102.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Three-compartment skincare mailer; corrugated; An integrated lid and locking side wings close the mailer; three compartments separate packed items.. Paper Printed white liner, palette White and blue, finish Blue interior printing, insert Three paperboard compartments. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional thank-you card and tissue beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Three separate product compartments and corrugated locking lid match across views.",
+  "reviewedSourceHash": "0ff7253971ee3555feeb62a3eac9b2520d9bbf8849a25f604fcbbd4595836909",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0102-0.webp",
+      "sha256": "010e00ca8f850e59eab812f9661e61945c55daabc10e911b6b54ccf377603af6"
+    },
+    {
+      "path": "public/products/mtt-e0102-1.webp",
+      "sha256": "b07cb295a052eefc09d5fe7f988ed2cd28ded82e6bff19d5054ef2c462140a6b"
+    },
+    {
+      "path": "public/products/mtt-e0102-2.webp",
+      "sha256": "9e458de414ecaba88ffedcc98c8c8db323d7a74d86145543d31c7dc31798706a"
+    },
+    {
+      "path": "public/products/mtt-e0102-3.webp",
+      "sha256": "610cddf94cb30f0c0347cc7123587274a33bc13b138997cce553d352132ac973"
+    },
+    {
+      "path": "public/products/mtt-e0102-4.webp",
+      "sha256": "bc416ed656a4f89264b139ab8d606636e8f43ccdd7dc418790c719c78fa5615c"
+    }
+  ]
+}

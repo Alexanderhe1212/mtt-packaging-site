@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0516",
+  "source": "work/catalog-loaded-sources/MTT-R0516.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Celebration cookie cabinet — Two-drawer box; rigid; Two separate shallow drawers slide from one rigid cabinet.. Paper Pearlescent wrapping paper, palette Cobalt and ivory, finish Matte print and restrained spot gloss, insert Six wrapped-cookie cells per drawer. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Wrapped product counts and supporting compartments consistent, correct structure.",
+  "reviewedSourceHash": "1363a4cde11938b2657d4cb3afc0ef7187d3f46061982b331995b33663339790",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0516-0.webp",
+      "sha256": "b59b4b220d132919a1d9b90b521a5b88bdb25e8382682baacb492494657aabaf"
+    },
+    {
+      "path": "public/products/mtt-r0516-1.webp",
+      "sha256": "2d8c0991278a4d917810b881fea289f276c2d44ea84fbfd80be39b28f559265c"
+    },
+    {
+      "path": "public/products/mtt-r0516-2.webp",
+      "sha256": "4436bdfddb0114235bfc08c08a08e9046afceb2972b0c3f29340a2d3bd465bd4"
+    },
+    {
+      "path": "public/products/mtt-r0516-3.webp",
+      "sha256": "dfcf80133bc8df819dbecf8bcb7aa89c457a8929235fdcd843642289469451aa"
+    },
+    {
+      "path": "public/products/mtt-r0516-4.webp",
+      "sha256": "1737606f63ee95332a9c875a91ee5abfb5696194742b90d9c96917741db552d3"
+    }
+  ]
+}

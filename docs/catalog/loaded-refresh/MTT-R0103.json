@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0103",
+  "source": "work/catalog-loaded-sources/MTT-R0103.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Skincare ritual — Magnetic book box; rigid; A rigid lid hinges at the spine; concealed magnets close the front edge.. Paper Fine linen-textured wrapping paper, palette Midnight blue and silver, finish Two-colour print and debossed border, insert A jar well beside two bottle wells. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional scent or care card and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded product count and insert match; open/closed structure and palette checked.",
+  "reviewedSourceHash": "c031b6540b576c0527f1e95695d940b4e95f21062ffbe039bda36ffa79794e34",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0103-0.webp",
+      "sha256": "5184e04fb47703799a0b0036133ffb87902b5afd549493104b378760567783c4"
+    },
+    {
+      "path": "public/products/mtt-r0103-1.webp",
+      "sha256": "610291c89997bf3d73a45d30b4a20330e2da6cd83d4cb71e41098f332b3179ff"
+    },
+    {
+      "path": "public/products/mtt-r0103-2.webp",
+      "sha256": "c9c78d126479d71a4d70c473bb1241400aa6c5bf6dc5416e61d3aaef4281b5b4"
+    },
+    {
+      "path": "public/products/mtt-r0103-3.webp",
+      "sha256": "c4371495c75bd0cd33b8a6a85fa1d28b8f0d075ebf7d6a8db524301863ffd7a3"
+    },
+    {
+      "path": "public/products/mtt-r0103-4.webp",
+      "sha256": "256f6a53300d585d8ca88dddab49748b9cb7a124096335258a90494705bb2818"
+    }
+  ]
+}

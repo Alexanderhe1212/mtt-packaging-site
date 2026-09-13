@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0314",
+  "source": "work/catalog-loaded-sources/MTT-R0314.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Wellness welcome kit — Double-door box; rigid; Two equal rigid doors hinge at opposite sides and meet centrally.. Paper Pearlescent wrapping paper, palette Black and warm ivory, finish Matte print and restrained spot gloss, insert Three bottle wells and a card pocket. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional instruction card and paper pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Product counts, seated containers and opening match across loaded views; cavities match specification.",
+  "reviewedSourceHash": "f0a53ecbb1ecd50697363fbf95fd96928aeacb82950de3455fecca9b207b3475",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0314-0.webp",
+      "sha256": "e83282bb47268b1e05cee4941145a3e3a6b817e9e644abcde7af5ed64ca4ec1e"
+    },
+    {
+      "path": "public/products/mtt-r0314-1.webp",
+      "sha256": "531ecc22b2241b71d44ee7cdcbb72921ae3bd73aaff1af06bb4fae4faa5e1a2a"
+    },
+    {
+      "path": "public/products/mtt-r0314-2.webp",
+      "sha256": "2b48bb6b97010f840651e0691a9999fedeb59a4207e34e94d627a307cb1bfc77"
+    },
+    {
+      "path": "public/products/mtt-r0314-3.webp",
+      "sha256": "7136f67eaf1181e03864543e6c94e6de1edc3b948c903ec666d19a032a910b57"
+    },
+    {
+      "path": "public/products/mtt-r0314-4.webp",
+      "sha256": "1a1c09458215da41d0e21062dd5412994c4a82c95e1c11288e639824d3a4baea"
+    }
+  ]
+}

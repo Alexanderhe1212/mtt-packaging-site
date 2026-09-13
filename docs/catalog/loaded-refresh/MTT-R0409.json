@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0409",
+  "source": "work/catalog-loaded-sources/MTT-R0409.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Single watch round case — Round lift-off box; rigid; A separate round cap fits over a cylindrical rigid base.. Paper Pearlescent wrapping paper, palette Stone and burgundy, finish Matte print and restrained spot gloss, insert One centred watch cushion. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded jewellery and compartments consistent; detached cap, drawers and removable trays checked.",
+  "reviewedSourceHash": "e08eb93992b43dff69c628f777aff8c708f49967e51b5da88b556894b6c89f61",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0409-0.webp",
+      "sha256": "538cafb6f0d7ea07d5801f8ccebbf63434b5cd462d1d5dea808cb3922ebe34d3"
+    },
+    {
+      "path": "public/products/mtt-r0409-1.webp",
+      "sha256": "c74d16736aec2843f67187bb9383c2c0854117c2e818c24097fa6e662d2b58b4"
+    },
+    {
+      "path": "public/products/mtt-r0409-2.webp",
+      "sha256": "c91f35568ae8de797cd51ad066ebfd211f8a1086417b928e0b105a51be066e0a"
+    },
+    {
+      "path": "public/products/mtt-r0409-3.webp",
+      "sha256": "86d1160d6906f7003601068ac8ab9ecc4ad90bcb71ec27f5bc5a95ed400e6e9e"
+    },
+    {
+      "path": "public/products/mtt-r0409-4.webp",
+      "sha256": "eef4fbc81522d87fb5d5681c8d6f9ee01a0c86d25d2c40db3f0a2ea517015b03"
+    }
+  ]
+}

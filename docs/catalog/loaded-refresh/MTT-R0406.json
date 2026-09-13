@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0406",
+  "source": "work/catalog-loaded-sources/MTT-R0406.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Collector watch drawers — Two-drawer box; rigid; Two separate shallow drawers slide from one rigid cabinet.. Paper Textured uncoated wrapping paper, palette Oxblood and cream, finish Fine foil lines and offset pattern, insert Two watch cushions per drawer. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Jewellery/watch placement, matching counts and pad/cushion support verified; appropriate openings.",
+  "reviewedSourceHash": "24b4875b4d3d134eda9a881c4ee0b8ef6d613fdff9cffcf4f91aa074093ee885",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0406-0.webp",
+      "sha256": "e7141099a2ffbdb855d706855c88d5575016ae9a555816c8aa8dd5af5efda21b"
+    },
+    {
+      "path": "public/products/mtt-r0406-1.webp",
+      "sha256": "4629dce4de816f5ac038081b51cb9184dc8004ba35909562d0a0dc0a3d954117"
+    },
+    {
+      "path": "public/products/mtt-r0406-2.webp",
+      "sha256": "107ff4a9c2e6a772891bf13f0c016c9d39a9bb61e953ccdd45d943553a76442e"
+    },
+    {
+      "path": "public/products/mtt-r0406-3.webp",
+      "sha256": "d0be2ce6b184133d39639a7440d61aa550c3085193e698cf4f05317cc2a22e96"
+    },
+    {
+      "path": "public/products/mtt-r0406-4.webp",
+      "sha256": "cf7ab0047e06bc8f90d611ffc277b1ff122eb4f9e06649f00d9d2c052aa4f37c"
+    }
+  ]
+}

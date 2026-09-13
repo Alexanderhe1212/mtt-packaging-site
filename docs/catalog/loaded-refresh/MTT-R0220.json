@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0220",
+  "source": "work/catalog-loaded-sources/MTT-R0220.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Festive tea tower — Two-tier lift-off box; rigid; A removable outer cap covers two vertically stacked removable trays.. Paper Textured uncoated wrapping paper, palette Midnight blue and silver, finish Fine foil lines and offset pattern, insert Two removable trays with three wells each. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional tasting card and paper sleeve beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded views checked: matching counts and layouts, appropriate contents in wells, correct cap/tray/drawer structure.",
+  "reviewedSourceHash": "34a54173dcdcbf5f9a15ed5f8ef89446aa3e7391d2d6fa699cc32f2b50c6f1e8",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0220-0.webp",
+      "sha256": "f1474b9f154154caa55225b320253acb8752943dc99aacaa86fffa9ff910c2c8"
+    },
+    {
+      "path": "public/products/mtt-r0220-1.webp",
+      "sha256": "445e34cf91a486d2ca61a55bd7088df07e5d25a38f7a6de60f4ad5c92d8afd7a"
+    },
+    {
+      "path": "public/products/mtt-r0220-2.webp",
+      "sha256": "70d5b52b27f053e7a106dd737826aaaa34b65a763c25af38edb3a83c2d7c6ab8"
+    },
+    {
+      "path": "public/products/mtt-r0220-3.webp",
+      "sha256": "8b3d19f50450f3513ebb92d06da1e6d1f2e831f4af98ae04c77714b51c7aa5ff"
+    },
+    {
+      "path": "public/products/mtt-r0220-4.webp",
+      "sha256": "ef0b765ad65cfd35199107ebf44141571c9d16a008641c27eebc106175860554"
+    }
+  ]
+}

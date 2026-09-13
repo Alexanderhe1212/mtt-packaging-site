@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0617",
+  "source": "work/catalog-loaded-sources/MTT-R0617.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Partner appreciation set — Hexagonal lift-off box; rigid; Matching six-sided base and removable six-sided cap.. Paper Smooth matte printed wrapping paper, palette Lavender and slate, finish Blind embossed motif and small foil accent, insert A card pocket and two gift recesses. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional greeting card and envelope beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded products, cavity counts and structural opening consistent across views.",
+  "reviewedSourceHash": "95b2eea294329efa11272fd0c463cbe8857a7e439319f26800a78908e9e4514c",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0617-0.webp",
+      "sha256": "f6c6de9b07c1a7e09948d85ad053c49f15d77ea3771829a2dc08de1a159be626"
+    },
+    {
+      "path": "public/products/mtt-r0617-1.webp",
+      "sha256": "7e9c4eeeb8d273f6847b0ab93431641b35689b8385d9f1a3be8dc4df1460f37d"
+    },
+    {
+      "path": "public/products/mtt-r0617-2.webp",
+      "sha256": "7d51621d7e7d0bc17fbb0fb3ad50ffe36d3a70cf047375ccae677a19f4fd1665"
+    },
+    {
+      "path": "public/products/mtt-r0617-3.webp",
+      "sha256": "4a01528802a396872e16a6c37d908d91fca11b446d8e0a09a78e6fd17009de33"
+    },
+    {
+      "path": "public/products/mtt-r0617-4.webp",
+      "sha256": "2c7d8bdbd39b9e72f7de4852d42429dc681a5596cd1bf477df97b436741687e4"
+    }
+  ]
+}

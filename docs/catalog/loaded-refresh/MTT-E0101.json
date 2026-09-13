@@ -1,0 +1,37 @@
+{
+  "code": "MTT-E0101",
+  "source": "work/catalog-loaded-sources/MTT-E0101.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Kraft product mailer with thank-you card; corrugated; Integrated hinged lid and locking side wings form a corrugated mailer; no magnets.. Paper Kraft liner, palette Natural kraft and black, finish One-colour printed leaf motif, insert Paper insert; protection reviewed with contents. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional thank-you card and tissue beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Matching contained product and material-specific opening checked.",
+  "reviewedSourceHash": "13cdb577140f4e94aa8058620842b964addd7f85ef34cf76b1b4efbbab7e4069",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-e0101-0.webp",
+      "sha256": "055516c088c26872251da65839a4fc70d7febd45869bc2b9fb36afe8aa68831c"
+    },
+    {
+      "path": "public/products/mtt-e0101-1.webp",
+      "sha256": "188e15a47da6d960e90367eb82a8707164b4899a7c2b95d84e13b4bd125a5f1c"
+    },
+    {
+      "path": "public/products/mtt-e0101-2.webp",
+      "sha256": "f8d1476c3dea5f00a39cd2dd7e46049e5669dc9e6b5e5c950b57178f0e9f4f1e"
+    },
+    {
+      "path": "public/products/mtt-e0101-3.webp",
+      "sha256": "edf2ae243a1fa1fc7f3e843091009756ad3f66f449da6d3db7f9fafad91dafeb"
+    },
+    {
+      "path": "public/products/mtt-e0101-4.webp",
+      "sha256": "67cf46900c5bf0f54b477cdc8c1263b6f91bf6f728bb9f226c8a2abeae4f2c39"
+    }
+  ]
+}

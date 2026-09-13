@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0609",
+  "source": "work/catalog-loaded-sources/MTT-R0609.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Celebration candle gift — Round lift-off box; rigid; A separate round cap fits over a cylindrical rigid base.. Paper Smooth matte printed wrapping paper, palette Plum and pearl, finish Blind embossed motif and small foil accent, insert One round jar recess. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional greeting card and envelope beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Gift items, insert seating and opening structure consistent; accessories do not hide main structure.",
+  "reviewedSourceHash": "34ea79f4705b0fef10c03053173ace39989f56310797e98fc6cf433cc8a29832",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0609-0.webp",
+      "sha256": "3d223be77cb4749b12c8c127a318cbd616858135a7049c8d851fdf69848fdf07"
+    },
+    {
+      "path": "public/products/mtt-r0609-1.webp",
+      "sha256": "d6597392bf4022b613dd6506c9a8187ec88127294da0861ce49f08e72e254c15"
+    },
+    {
+      "path": "public/products/mtt-r0609-2.webp",
+      "sha256": "0def625eed6ec19d4a84b16c5ec1901d31216cf7d634fc2b16bbf4c7dca6f676"
+    },
+    {
+      "path": "public/products/mtt-r0609-3.webp",
+      "sha256": "f0ad8ec00497fbb8fef9022815041a4cb810cc454b2674775b2a37bcb6255611"
+    },
+    {
+      "path": "public/products/mtt-r0609-4.webp",
+      "sha256": "ec6dc022c3d437557d02c80746cccb452f667f0bf8f4d8f3427ef1a74abef401"
+    }
+  ]
+}

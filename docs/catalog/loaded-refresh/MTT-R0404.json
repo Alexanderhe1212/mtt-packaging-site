@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0404",
+  "source": "work/catalog-loaded-sources/MTT-R0404.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Wedding jewellery set — Double-door box; rigid; Two equal rigid doors hinge at opposite sides and meet centrally.. Paper Fine linen-textured wrapping paper, palette Warm grey and black, finish Two-colour print and debossed border, insert Ring, pendant and earring positions. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Jewellery/watch placement, matching counts and pad/cushion support verified; appropriate openings.",
+  "reviewedSourceHash": "3b05c10493bb805a74647af2dc1d2e8bad55b8a369055a4bc9f0ed0e4298b4a8",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0404-0.webp",
+      "sha256": "1edc3e54ef895bf93a1924cccdb4d116fd3b56f632bfcfc3af63f150563e341e"
+    },
+    {
+      "path": "public/products/mtt-r0404-1.webp",
+      "sha256": "e1126450f9a64758400404d0b323e3b1fe4c66ef6c54d566032caae8d56a4fb9"
+    },
+    {
+      "path": "public/products/mtt-r0404-2.webp",
+      "sha256": "79c7713e75790e0c6f9e037cb110a4649c002d258368b59f512eac4dbbfc3686"
+    },
+    {
+      "path": "public/products/mtt-r0404-3.webp",
+      "sha256": "f3af2e856e530fc458ce138a32f2f443b1be4ddbec7b913616c297abe2c0cbbb"
+    },
+    {
+      "path": "public/products/mtt-r0404-4.webp",
+      "sha256": "185550753d44f2db042f38ecd869672ec7fdf9dd1af0561896e2759c27ffe635"
+    }
+  ]
+}

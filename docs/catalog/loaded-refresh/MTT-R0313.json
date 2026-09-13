@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0313",
+  "source": "work/catalog-loaded-sources/MTT-R0313.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Protein shaker gift — Magnetic book box; rigid; A rigid lid hinges at the spine; concealed magnets close the front edge.. Paper Fine linen-textured wrapping paper, palette Peacock green and pearl, finish Two-colour print and debossed border, insert One tub well and a tall cup well. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional instruction card and paper pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Product counts, seated containers and opening match across loaded views; cavities match specification.",
+  "reviewedSourceHash": "865ea7973e8c942d95722e5dbe165667a4711865306064fd0050e56c0ac8c34a",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0313-0.webp",
+      "sha256": "0ae998543ade0215374a798f16e1a809a66399ce96747dd5218ca2ae2a0c0b9b"
+    },
+    {
+      "path": "public/products/mtt-r0313-1.webp",
+      "sha256": "57714c1e3bd4bea2e49fa3f484f2b5414090da310c5a3bde9db19286cdc27e0e"
+    },
+    {
+      "path": "public/products/mtt-r0313-2.webp",
+      "sha256": "2cb9e063a07ac3de71d38bc87dbc6d3b3350a3a9eec8bf04b36bb6c3113a316b"
+    },
+    {
+      "path": "public/products/mtt-r0313-3.webp",
+      "sha256": "93c8cb7cafeb4cacb8f91fefdb9a9c7a0af848e809ab2aea1b1898024cd468dd"
+    },
+    {
+      "path": "public/products/mtt-r0313-4.webp",
+      "sha256": "1e38c4a0faec50a069b4b789bd2a4a638c3dd795c7b9d5b83db6ee43148169df"
+    }
+  ]
+}

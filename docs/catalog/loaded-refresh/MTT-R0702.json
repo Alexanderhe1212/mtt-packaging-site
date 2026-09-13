@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0702",
+  "source": "work/catalog-loaded-sources/MTT-R0702.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Twin wine double-door gift box; rigid; Two symmetrical doors meet at the centre; concealed magnets close the doors.. Paper Wrapping paper; sample to confirm texture, palette Burgundy and cream, finish Fine gold geometric foil border, insert Two fitted bottle cavities. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift card and matching bag beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Correct bag or cabinet/door structure, matching seated contents and count checked.",
+  "reviewedSourceHash": "395a99abad071b6a313e2b66358ac8f3b1f09a5aa0838ca304e31c91e1fe1a2b",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0702-0.webp",
+      "sha256": "d2d2fd965394d3c1eee6e23a4001c7a00f8570293807f1aea51e945eda27b162"
+    },
+    {
+      "path": "public/products/mtt-r0702-1.webp",
+      "sha256": "7b9d7d1ea0c9e8c9f245910fd3bb650b797667d5bb1b865ee0f284cee3017211"
+    },
+    {
+      "path": "public/products/mtt-r0702-2.webp",
+      "sha256": "aa4616a2fc3eaa9a77d9e669ab386cbc6f7a3420b79df95fcdca52ec3308912a"
+    },
+    {
+      "path": "public/products/mtt-r0702-3.webp",
+      "sha256": "46339d132d885dd1d9dbd94d43f07e96e3470685c8464394604fd4f2a1dbc101"
+    },
+    {
+      "path": "public/products/mtt-r0702-4.webp",
+      "sha256": "026500cfc7ae3ca5cf12b2d8772a5f6e06d7d3d1984f84cad49765d1f041454c"
+    }
+  ]
+}

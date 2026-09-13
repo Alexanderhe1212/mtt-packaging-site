@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0701",
+  "source": "work/catalog-loaded-sources/MTT-R0701.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Single wine bottle gift box; rigid; A fully removable lid sits separately from the rigid base; no hinge.. Paper Wrapping paper; sample to confirm texture, palette Burgundy and ivory, finish Fine gold foil lines, insert Shaped fibre bottle insert. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift card and matching bag beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded contents fit corresponding insert; separate lid/trays/sleeve and matching views checked.",
+  "reviewedSourceHash": "767f252c5b6ce9c801bf095b6e9019c24dfa83559a94a652e3fa18e07202cdb1",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0701-0.webp",
+      "sha256": "abfed5865f9f6cc1fa9db90252ec9c8401d98d93a2164057451d8c6c8f6ef843"
+    },
+    {
+      "path": "public/products/mtt-r0701-1.webp",
+      "sha256": "3f3b85c1fc609d6bad4c491317b68302754086773a0b4a8cdad0bb470ebdc918"
+    },
+    {
+      "path": "public/products/mtt-r0701-2.webp",
+      "sha256": "42a23d3e03e6db78358dfc3b13232f13fde1597da4a5cf33d2826cc69a5eb776"
+    },
+    {
+      "path": "public/products/mtt-r0701-3.webp",
+      "sha256": "caef6fa2ea68ec48f30bbea1a4ab9a10d70ee4b3328d1af83571a0e2c5ff8f80"
+    },
+    {
+      "path": "public/products/mtt-r0701-4.webp",
+      "sha256": "cc7092361953539ade3bd2563d8d851f189aad5677c974f2c30bd59b1fdd11ab"
+    }
+  ]
+}

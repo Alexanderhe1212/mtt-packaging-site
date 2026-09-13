@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0505",
+  "source": "work/catalog-loaded-sources/MTT-R0505.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Fruit preserve presentation — Shoulder-neck box; rigid; A removable lid fits over a raised inner neck, leaving a narrow shoulder band.. Paper Textured uncoated wrapping paper, palette Coral and midnight blue, finish Fine foil lines and offset pattern, insert One sealed-jar cavity. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Sealed jars/wrapped food correctly seated, matching counts and structure across views.",
+  "reviewedSourceHash": "434fc6ea955fa130ec40d0409a1fb779abdf2ae3a9a068983ccc0a7de7323605",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0505-0.webp",
+      "sha256": "8ef28571a4348b76078ea0926eb6427a7af8bf6ad2bd55c80b9bfe0dff119eb0"
+    },
+    {
+      "path": "public/products/mtt-r0505-1.webp",
+      "sha256": "b18b7ca81dcba6f8d4e50534f8d63cb72a746a9113527a38e90b7c77f50a4366"
+    },
+    {
+      "path": "public/products/mtt-r0505-2.webp",
+      "sha256": "da6ebb55855a1a9e77501d7d50badad9c753b081440dad5c5a645e0cf2105df0"
+    },
+    {
+      "path": "public/products/mtt-r0505-3.webp",
+      "sha256": "162c5571b9c57716da56e04622d92f962bb3319bac5e9a022af420eefd6c12f8"
+    },
+    {
+      "path": "public/products/mtt-r0505-4.webp",
+      "sha256": "dcafc7b2411eb3079d61e86dcdf0e89343d92634302fe1328690c053182a35f7"
+    }
+  ]
+}

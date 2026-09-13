@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0415",
+  "source": "work/catalog-loaded-sources/MTT-R0415.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Brooch keepsake — Shoulder-neck box; rigid; A removable lid fits over a raised inner neck, leaving a narrow shoulder band.. Paper Smooth matte printed wrapping paper, palette Plum and pearl, finish Blind embossed motif and small foil accent, insert One shallow padded brooch recess. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Jewellery contents, lining, paired recesses and opening checked against specification.",
+  "reviewedSourceHash": "d1cce072308124e064cc689e05ec87803bbea3358bf988cfff944c77d0050988",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0415-0.webp",
+      "sha256": "1a89d753da4f209348503febbcebeb0b8e18dde77c1b23813e1deb5c0326dd20"
+    },
+    {
+      "path": "public/products/mtt-r0415-1.webp",
+      "sha256": "c7c6f2eeb6c3bb2e6c631304eb80729a498a48fce9313ea175dea410f52c0a97"
+    },
+    {
+      "path": "public/products/mtt-r0415-2.webp",
+      "sha256": "5531a07f7cee08549d7e949c1802c63ce6a3c334e9b9c03dd1b1f1569d50f5dd"
+    },
+    {
+      "path": "public/products/mtt-r0415-3.webp",
+      "sha256": "2fd102ecd749b880150364bdda7c4969cac6f885e70fa0a00409c64be342b12e"
+    },
+    {
+      "path": "public/products/mtt-r0415-4.webp",
+      "sha256": "42af00287eab11a200b30cdd6d979caf1c31cf66d92f92404485345782b3a9b2"
+    }
+  ]
+}

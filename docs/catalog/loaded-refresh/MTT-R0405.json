@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0405",
+  "source": "work/catalog-loaded-sources/MTT-R0405.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Statement cuff gift — Shoulder-neck box; rigid; A removable lid fits over a raised inner neck, leaving a narrow shoulder band.. Paper Pearlescent wrapping paper, palette Navy and amber, finish Matte print and restrained spot gloss, insert One oval fabric-lined cuff well. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Jewellery/watch placement, matching counts and pad/cushion support verified; appropriate openings.",
+  "reviewedSourceHash": "7d3f1117565ad390b2efb4111d17ac56432ec11e1ed4cf5118f128f81ba868e1",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0405-0.webp",
+      "sha256": "28d1d848d81cf990bd40f15f8ebfae1ec1d4491379937b2ef8adabb0f9a524fb"
+    },
+    {
+      "path": "public/products/mtt-r0405-1.webp",
+      "sha256": "fd445b67f28a04d3a2ba64052604b5e89a60e9a14200458cfc717ab5b6754918"
+    },
+    {
+      "path": "public/products/mtt-r0405-2.webp",
+      "sha256": "3600c7782906641bb22a3e301a12cd168475f1bd1bb1d502463d7b0e40d15a25"
+    },
+    {
+      "path": "public/products/mtt-r0405-3.webp",
+      "sha256": "61a6902754636bb38be44a236b979ab3b7c91c0cba953b805a3ea2c69563442e"
+    },
+    {
+      "path": "public/products/mtt-r0405-4.webp",
+      "sha256": "92a7bd832682a20292425005d7212b0b7b35e4b1028b27f9ab3e01efa29f6e09"
+    }
+  ]
+}

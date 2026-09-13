@@ -1,0 +1,39 @@
+{
+  "code": "MTT-B0102",
+  "source": "work/catalog-loaded-sources/MTT-B0102.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Single wine cotton-handle paper bag; bag; A tall gusseted paper bag uses cotton cord handles through reinforced top holes.. Paper Printed bag paper, palette Navy and copper, finish Small copper foil grape motif, insert Reinforced rectangular bottom and folded top. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and tissue beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded view has missing front wall. Keep intact tall gusseted bag, view down through open top at bottle neck. No cutaway. Final revised contact sheet visually checked: intact packaging walls, correct opening and consistent loaded contents across views.",
+  "previousSource": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-9a917a35-00f7-421f-961d-b621677dc438.png",
+  "revisionPrompt": "Precise edit: Loaded view has missing front wall. Keep intact tall gusseted bag, view down through open top at bottle neck. No cutaway.",
+  "reviewedSourceHash": "4427ab5232486c54e84ef9456bcb62315d259648f198212ee8e37471b76f9644",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-b0102-0.webp",
+      "sha256": "cdfffa397509396b2977e85c1f6e52e48a13e02077718c81cdb684c99faeef33"
+    },
+    {
+      "path": "public/products/mtt-b0102-1.webp",
+      "sha256": "8d7ee892039286f59c5715156058cbdb70bf81bb4626be6b93f61c9736822cd5"
+    },
+    {
+      "path": "public/products/mtt-b0102-2.webp",
+      "sha256": "6635c3bb05a6462c7fcfc1a50484ef747eb4ec56c32e8cd9c34591ff376bc427"
+    },
+    {
+      "path": "public/products/mtt-b0102-3.webp",
+      "sha256": "c626138b280ba916345d9cb6c8aa9ba35a1c3ffa23d34452802e7b601a3f9a88"
+    },
+    {
+      "path": "public/products/mtt-b0102-4.webp",
+      "sha256": "e56a7c833ac593d4d70f7f4bca0e86677f1abeef110b433400809c106248a97f"
+    }
+  ]
+}

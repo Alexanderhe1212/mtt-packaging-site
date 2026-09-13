@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0410",
+  "source": "work/catalog-loaded-sources/MTT-R0410.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Jewellery wardrobe layers — Two-tier lift-off box; rigid; A removable outer cap covers two vertically stacked removable trays.. Paper Textured uncoated wrapping paper, palette Peacock green and pearl, finish Fine foil lines and offset pattern, insert A ring tray above a necklace tray. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded jewellery and compartments consistent; detached cap, drawers and removable trays checked.",
+  "reviewedSourceHash": "7058e79578f9efde4bb4d97aae2f0a5740f7b15440b357833776961e68275599",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0410-0.webp",
+      "sha256": "4865aa26e3954a473fb2faf6f5a37434d7da0685883b6f9087780a81a9bfd701"
+    },
+    {
+      "path": "public/products/mtt-r0410-1.webp",
+      "sha256": "62cc4913044ef2faa39b0ada9ca69c834c28e921c419c3486f1d457c1037bd22"
+    },
+    {
+      "path": "public/products/mtt-r0410-2.webp",
+      "sha256": "83536ccedb5d8c0cda1c66c93b116d09eb70a06eaacca6b8982cc4df6bf35e6f"
+    },
+    {
+      "path": "public/products/mtt-r0410-3.webp",
+      "sha256": "939b5b476480f2e3627c4a19cebf23240ecdf55f3f46273eaae55796ff2394b2"
+    },
+    {
+      "path": "public/products/mtt-r0410-4.webp",
+      "sha256": "ef40effc7b0a3f59f30451695f138a6c147565631a6224ec7855ab418b432483"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0407",
+  "source": "work/catalog-loaded-sources/MTT-R0407.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Gemstone necklace gift — Hexagonal lift-off box; rigid; Matching six-sided base and removable six-sided cap.. Paper Smooth matte printed wrapping paper, palette Olive and off-white, finish Blind embossed motif and small foil accent, insert One shaped necklace presentation pad. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded jewellery and compartments consistent; detached cap, drawers and removable trays checked.",
+  "reviewedSourceHash": "a1fc07c163b181f45701153aeb13a3ada9694e9b827d2b5096cb263545a29da6",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0407-0.webp",
+      "sha256": "33bbb210d245ee3a6943550c3eb20fe62bf798b252cf76377c08cb03d534a3a8"
+    },
+    {
+      "path": "public/products/mtt-r0407-1.webp",
+      "sha256": "c61263fd752dc614bbee3aed0243d8a3ffe97a403f080f1e8d427e84ea6530bc"
+    },
+    {
+      "path": "public/products/mtt-r0407-2.webp",
+      "sha256": "a6a61f4c85c05d27c3c65b4a4f973ae109a81a726e699f2089581456381737b4"
+    },
+    {
+      "path": "public/products/mtt-r0407-3.webp",
+      "sha256": "901e71d4a410eeb9fdb18c027ed3e8024549c9935ebaf2a5743e748238d35d4e"
+    },
+    {
+      "path": "public/products/mtt-r0407-4.webp",
+      "sha256": "2d8822eee108faef65c6a1dd28b1efc48141ca67eabef4b26987153b5a684c34"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "code": "MTT-R0116",
+  "source": "work/catalog-loaded-sources/MTT-R0116.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Professional brush set — Two-drawer box; rigid; Two separate shallow drawers slide from one rigid cabinet.. Paper Pearlescent wrapping paper, palette Olive and off-white, finish Matte print and restrained spot gloss, insert Six long parallel tool slots. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional scent or care card and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Revised sheet inspected; correct sealed contents and detached lid/fixed drawer structure verified.",
+  "previousSource": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-1f1ae6a5-93af-4a8d-9c6a-0bed8d57149f.png",
+  "revisionPrompt": "Precise edit: Show fixed cabinet shell and straight horizontal drawers unmistakably; no apparent hinged lid.",
+  "reviewedSourceHash": "f81a3e83c0eeccb1034885bc542b3f03cd951539176e5a76d42c04e03888c4d9",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0116-0.webp",
+      "sha256": "6023512ab62da74ae4ed9cba9b360b44f26a37be0ab10df383e5d46fede7df8e"
+    },
+    {
+      "path": "public/products/mtt-r0116-1.webp",
+      "sha256": "2e14e5bfacbf5bd32808c90900413d85c1a7baec0ef8f3f73124d4fa5ab647cc"
+    },
+    {
+      "path": "public/products/mtt-r0116-2.webp",
+      "sha256": "8ec17229e4b6d8a7978a70cdb38cf92703eaa9d1b6b9dc19d02586f26318a4c5"
+    },
+    {
+      "path": "public/products/mtt-r0116-3.webp",
+      "sha256": "abe90e4c34f5486039a35a1dbe91874d1aafc8259e89ebd5645114840aa5790b"
+    },
+    {
+      "path": "public/products/mtt-r0116-4.webp",
+      "sha256": "6fd83cdfd0daebb0c3202976e1ee7b91493f6cdc5762364db25cb7faa1189181"
+    }
+  ]
+}

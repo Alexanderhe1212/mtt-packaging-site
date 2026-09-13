@@ -1,0 +1,39 @@
+{
+  "code": "MTT-C0102",
+  "source": "work/catalog-loaded-sources/MTT-C0102.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Window bakery gift carton; carton; Thin creased card closes with a tuck tab and dust flaps; a patched window shows wrapped contents.. Paper Direct print on paperboard, palette Peach and raspberry, finish Printed border and transparent window patch, insert Folded paper platform. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Revised window continuity, identical opaque tins and fixed drawers checked.",
+  "previousSource": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-1168c68b-324e-454a-9caa-188fc5a4a4c0.png",
+  "revisionPrompt": "Precise edit: Window must exist in open lid and closed side view too; same rectangular transparent patch throughout.",
+  "reviewedSourceHash": "43981231003c82f80b7c1e867be1fd10319e2eebbd6821ea12290eb1b0e70494",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-c0102-0.webp",
+      "sha256": "2565d8efd48aa289242b31a9b2ca2ce554611122e493673eb7938934b5a1a64e"
+    },
+    {
+      "path": "public/products/mtt-c0102-1.webp",
+      "sha256": "9d575d979b113cd890d2c44fedc89624ff9f30e85c29cd1d34b0a07d4009880e"
+    },
+    {
+      "path": "public/products/mtt-c0102-2.webp",
+      "sha256": "ae2f282f72d821c4cdbe5dbb372450ccc4321d7fd2f1401f476501c2723fea4e"
+    },
+    {
+      "path": "public/products/mtt-c0102-3.webp",
+      "sha256": "f801dc924860aa3705d3a7db1680be890ca2c3436b16a8fe20c02a421fe6effc"
+    },
+    {
+      "path": "public/products/mtt-c0102-4.webp",
+      "sha256": "76d253cada5e1e814d41a5cfa00ddd217d3ac5c90297b0afca23a258f6a131d3"
+    }
+  ]
+}

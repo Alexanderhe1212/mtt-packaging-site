@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0416",
+  "source": "work/catalog-loaded-sources/MTT-R0416.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Fine jewellery cabinet — Two-drawer box; rigid; Two separate shallow drawers slide from one rigid cabinet.. Paper Fine linen-textured wrapping paper, palette Terracotta and cream, finish Two-colour print and debossed border, insert Separate ring and bracelet divisions. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Jewellery contents, lining, paired recesses and opening checked against specification.",
+  "reviewedSourceHash": "53bcb4e4d011268e5f3e7be69b00da2218ddfa31fbaae9486dcc9968fc66e82e",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0416-0.webp",
+      "sha256": "3465dea38861e65bd7b4b810f655e2b04308e2c1579973d29ad25074f029bd02"
+    },
+    {
+      "path": "public/products/mtt-r0416-1.webp",
+      "sha256": "c711be87397b42fc2508ab9fd8874e92e2280454ebc16c0107a7d69c7ce08c01"
+    },
+    {
+      "path": "public/products/mtt-r0416-2.webp",
+      "sha256": "ca072e1d181daf8d65c10004f826ec01bde25231878a21cfd1bc50023da78c5f"
+    },
+    {
+      "path": "public/products/mtt-r0416-3.webp",
+      "sha256": "f045f0e42c3341fa9e99cd2dad2ab564c587bf587fbd3f5fe0e7bacd20aec9dc"
+    },
+    {
+      "path": "public/products/mtt-r0416-4.webp",
+      "sha256": "4d51d55a9189766e085b8b22c142ea01f46eb899fd8d40c12390d72337ac04bf"
+    }
+  ]
+}

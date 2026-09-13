@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0502",
+  "source": "work/catalog-loaded-sources/MTT-R0502.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Artisan cookie assortment — Drawer box; rigid; A tray slides horizontally from a rigid four-sided sleeve.. Paper Smooth matte printed wrapping paper, palette Navy and amber, finish Blind embossed motif and small foil accent, insert Six wrapped-cookie compartments. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Contents and recess counts consistent; correct separate caps/trays/sleeve; food individually wrapped.",
+  "reviewedSourceHash": "b48c5bb8f692fc6298a753244804242646d42e92161129b6aa5ae64bb166d234",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0502-0.webp",
+      "sha256": "2bac57ead94148a4f3222ddc5c60cf45dfb2ee879bdffe9e82fb64e54defb213"
+    },
+    {
+      "path": "public/products/mtt-r0502-1.webp",
+      "sha256": "87cd533716f446e3c8c8104234c44a8da733088e183d8a7c7ea21ca8c3a194a8"
+    },
+    {
+      "path": "public/products/mtt-r0502-2.webp",
+      "sha256": "040c508e5320fb06cea943d0778834de5d6623e7b5a5d4a5f8e295cc4dcae4c3"
+    },
+    {
+      "path": "public/products/mtt-r0502-3.webp",
+      "sha256": "d820b64368fbaea1a826368e4a5fb16d263d8243f4f8b7f15f90a8fad9b9f7e6"
+    },
+    {
+      "path": "public/products/mtt-r0502-4.webp",
+      "sha256": "ef8a3955033457dfe997e5b174ca479dd5c76eebaab343b97f05ae9646051938"
+    }
+  ]
+}

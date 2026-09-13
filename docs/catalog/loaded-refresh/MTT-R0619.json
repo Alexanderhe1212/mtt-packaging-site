@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0619",
+  "source": "work/catalog-loaded-sources/MTT-R0619.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Round keepsake presentation — Round lift-off box; rigid; A separate round cap fits over a cylindrical rigid base.. Paper Pearlescent wrapping paper, palette Navy and amber, finish Matte print and restrained spot gloss, insert One circular lined presentation well. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional greeting card and envelope beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded contents fit corresponding insert; separate lid/trays/sleeve and matching views checked.",
+  "reviewedSourceHash": "de607f102b4a37ba38589b51086a2cf59fd283442eac61f03887abf09a32b17b",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0619-0.webp",
+      "sha256": "b473b05d492d7fe60f1c64d4e96ca71b676f352c8939b71fcfa930de68f17653"
+    },
+    {
+      "path": "public/products/mtt-r0619-1.webp",
+      "sha256": "6a77999ee841d4ef56cea169651e4ba3658ef5440792f0e1c9dc0ae90c124407"
+    },
+    {
+      "path": "public/products/mtt-r0619-2.webp",
+      "sha256": "fb588f6bb1ec96dd05f65cb53965621a34519cb599fccaed07bf073cf6cef38b"
+    },
+    {
+      "path": "public/products/mtt-r0619-3.webp",
+      "sha256": "7b3caf6e74d7522835e445cb114d80331306c5cad41dd70ec0133554b47b89d7"
+    },
+    {
+      "path": "public/products/mtt-r0619-4.webp",
+      "sha256": "32b7a67abbecabce282825d2bbad6dc5a00d9cd4f602baf7012f9fc7b0e61f2e"
+    }
+  ]
+}

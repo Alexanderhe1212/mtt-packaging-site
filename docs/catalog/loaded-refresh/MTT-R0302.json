@@ -1,0 +1,37 @@
+{
+  "code": "MTT-R0302",
+  "source": "work/catalog-loaded-sources/MTT-R0302.png",
+  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Wellness sachet programme — Drawer box; rigid; A tray slides horizontally from a rigid four-sided sleeve.. Paper Pearlescent wrapping paper, palette Cobalt and ivory, finish Matte print and restrained spot gloss, insert Seven divided sachet compartments. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional instruction card and paper pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "status": "reviewed",
+  "reviewNotes": "Loaded views checked: matching counts and layouts, appropriate contents in wells, correct cap/tray/drawer structure.",
+  "reviewedSourceHash": "27b17e376930686968a9424c87c6f9dbe47764c0e7ad842064fd4947b0146c87",
+  "viewOrder": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "images": [
+    {
+      "path": "public/products/mtt-r0302-0.webp",
+      "sha256": "2e51bbc1e1972aba5cab758fd02d90fec47577cea2116104684fe432f280bbdd"
+    },
+    {
+      "path": "public/products/mtt-r0302-1.webp",
+      "sha256": "4c26cfca6dfc4683249cfd759d17c8f960668324e52847ea0a56fa463b11bd02"
+    },
+    {
+      "path": "public/products/mtt-r0302-2.webp",
+      "sha256": "6aa104b1ad3d87a846ef5e5bd78ce86d377a3c083a94ae42903adc9dc58ddae0"
+    },
+    {
+      "path": "public/products/mtt-r0302-3.webp",
+      "sha256": "79f7511ea82f986732a8fba31859ab6f7f15d53060e2052cd434cdbc6aa99544"
+    },
+    {
+      "path": "public/products/mtt-r0302-4.webp",
+      "sha256": "02add86fcd16c5e366f509d363b0891dc036d0767b4d18e3a6dd6f2e101c5323"
+    }
+  ]
+}
