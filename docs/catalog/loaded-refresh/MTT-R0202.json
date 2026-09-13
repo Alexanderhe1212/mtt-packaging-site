@@ -1,10 +1,10 @@
 {
   "code": "MTT-R0202",
   "source": "work/catalog-loaded-sources/MTT-R0202.png",
-  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Coffee tasting flight — Drawer box; rigid; A tray slides horizontally from a rigid four-sided sleeve.. Paper Fine linen-textured wrapping paper, palette Terracotta and cream, finish Two-colour print and debossed border, insert Four square pouch compartments. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional tasting card and paper sleeve beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "prompt": "Create a premium commercial packaging photography contact sheet, landscape 1536x1024 exact 3 columns x 2 rows SIX equal square cells, edge-to-edge cells, no gutters, no text labels. Same identical design across five photographs. Coffee tasting flight — Drawer box. STRUCTURE: A tray slides horizontally from a rigid four-sided sleeve. Thick paper-wrapped rigid board, no corrugated wings or tuck flaps. Insert: Four square pouch compartments. NEW visual identity: Sunshine yellow and cherry red; Smooth coated printed wrapping paper; Gloss lamination and bold colour printing. Make the material's optical behaviour clearly visible in photographic lighting: gloss broad soft reflections, matte diffuse, pearl subtle shimmer, cloth visible fine weave. Modern expressive premium design, not muted beige, no random lettering. Restrained graphic motifs appropriate to contents. Cell1 closed package plus coordinating card/ribbon. Cell2 open package loaded with appropriate real products matching the specified cavity count plus coordinated accessory beside it. Cell3 closed side/back. Cell4 overhead loaded interior SAME contents count/layout as cell2. Cell5 macro finish/board corner. Cell6 empty pale studio background. All detachable lids lie FLAT separately beside base with clear gap, NEVER hinged or leaning against base. Drawer sleeve and drawer are independent nested parts aligned on one axis. Book hinge only at spine. Double doors equal width with hinges opposite sides, not detachable lid. Food sealed/wrapped; supplement containers opaque with closed caps. Perfectly coherent perspective, straight verticals, no dutch angle, level camera, contact shadows, realistic folds, no floating objects. Complete box inside each cell, no crossing cell boundaries. Physically credible handcrafted mid/high-end packaging.",
   "status": "reviewed",
-  "reviewNotes": "Reviewed: four sealed pouches seated in drawer compartments.",
-  "reviewedSourceHash": "a5d34c6022811be111b7a016c4db1caa1be46020cad972c8146e906879317eb8",
+  "reviewNotes": "Five views visually reviewed for material distinction, content consistency and family-specific construction. Book hinge and drawer sleeve views revised before acceptance.",
+  "reviewedSourceHash": "48fafcfc3d8c9bac964dad46294084755b9840efadb72cc888cc1be4d52940f4",
   "viewOrder": [
     1,
     0,
@@ -15,23 +15,23 @@
   "images": [
     {
       "path": "public/products/mtt-r0202-0.webp",
-      "sha256": "c1934d4bd58dd1e6bc7a168747678d9c395e9034d9485be85b17f21e73d4ad22"
+      "sha256": "0204b42b3478780d622458dae910315fc930f0ac9a6a234a4698df4962e871e9"
     },
     {
       "path": "public/products/mtt-r0202-1.webp",
-      "sha256": "05a7b392f1edd494eff64b93a016d8bf2647fbdf8d02a42bd6c0f49cfbccb21d"
+      "sha256": "5f5bec20a37440c1f4a21f233fc967c3ccc413cbdda3e2079ca9fcb4810e3fc6"
     },
     {
       "path": "public/products/mtt-r0202-2.webp",
-      "sha256": "c3ba42c45123dc972d8fe3ad9f4f54531c84834bfe3449335a1d3e3d3d6a918b"
+      "sha256": "35cb38c454e9bb87e7b295139bf2c1b079c995381d60bcccdb60ee7d5c9d5ac1"
     },
     {
       "path": "public/products/mtt-r0202-3.webp",
-      "sha256": "51211b89f8edc24c5b303d07293572769eac90710c6001e19dcff39360ab2a75"
+      "sha256": "953ac496f64d5412eb7a1ae23b2b90aada2193d9653b761b86d57932e0742b91"
     },
     {
       "path": "public/products/mtt-r0202-4.webp",
-      "sha256": "1ea9581bacad25678ab01113fbce46c1acdb1f148914147944c326559dfd7e7d"
+      "sha256": "170f059e6ea8f4b95dd812319cacc76fe9b87df27aeb0d0474a20cd3f4230f96"
     }
   ]
 }

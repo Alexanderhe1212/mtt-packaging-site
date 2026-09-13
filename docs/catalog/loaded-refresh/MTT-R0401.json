@@ -1,10 +1,10 @@
 {
   "code": "MTT-R0401",
   "source": "work/catalog-loaded-sources/MTT-R0401.png",
-  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Engagement ring keepsake — Lift-off lid; rigid; A completely removable shallow cap fits over a four-wall base.. Paper Pearlescent wrapping paper, palette Deep teal and sand, finish Matte print and restrained spot gloss, insert One fabric-lined ring slit. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional care card and soft cloth or jewellery pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "prompt": "Create a premium commercial packaging photography contact sheet, landscape 1536x1024 exact 3 columns x 2 rows SIX equal square cells, edge-to-edge cells, no gutters, no text labels. Same identical design across five photographs. Engagement ring keepsake — Lift-off lid. STRUCTURE: A completely removable shallow cap fits over a four-wall base. Thick paper-wrapped rigid board, no corrugated wings or tuck flaps. Insert: One fabric-lined ring slit. NEW visual identity: Electric blue and ivory; Bookcloth over rigid greyboard; Woven cloth texture and small silver foil motif. Make the material's optical behaviour clearly visible in photographic lighting: gloss broad soft reflections, matte diffuse, pearl subtle shimmer, cloth visible fine weave. Modern expressive premium design, not muted beige, no random lettering. Restrained graphic motifs appropriate to contents. Cell1 closed package plus coordinating card/ribbon. Cell2 open package loaded with appropriate real products matching the specified cavity count plus coordinated accessory beside it. Cell3 closed side/back. Cell4 overhead loaded interior SAME contents count/layout as cell2. Cell5 macro finish/board corner. Cell6 empty pale studio background. All detachable lids lie FLAT separately beside base with clear gap, NEVER hinged or leaning against base. Drawer sleeve and drawer are independent nested parts aligned on one axis. Book hinge only at spine. Double doors equal width with hinges opposite sides, not detachable lid. Food sealed/wrapped; supplement containers opaque with closed caps. Perfectly coherent perspective, straight verticals, no dutch angle, level camera, contact shadows, realistic folds, no floating objects. Complete box inside each cell, no crossing cell boundaries. Physically credible handcrafted mid/high-end packaging.",
   "status": "reviewed",
-  "reviewNotes": "Loaded contents and supporting insert match across views; lid or sleeve remains separate as required.",
-  "reviewedSourceHash": "90fe9aa0dfedbeea8f88617e1643966513a5034507eec3ca96de973c141998f2",
+  "reviewNotes": "Five views visually reviewed for material distinction, content consistency and family-specific construction. Book hinge and drawer sleeve views revised before acceptance.",
+  "reviewedSourceHash": "73e430416086ca7ab4a80343894407b006cefd21b9acca0f7943ddda2b81f8c8",
   "viewOrder": [
     1,
     0,
@@ -15,23 +15,23 @@
   "images": [
     {
       "path": "public/products/mtt-r0401-0.webp",
-      "sha256": "a0d795608955b061fe397c9d686d2a3a8018bfcaffba6474bbf6485b2d055402"
+      "sha256": "a323672ece658fdad4be9d1fac40d7d5d4b2c0abb4f4836034be04ac9a70a4e3"
     },
     {
       "path": "public/products/mtt-r0401-1.webp",
-      "sha256": "bf9117918d7ab0fc3fb8b90f7cb25cb0420ebd942ebd95ac838e70ac881f6c5e"
+      "sha256": "aa8c9e90c8e764fd37f0988c48a420efaef803ce8d8d0906c1cb028f7023ac06"
     },
     {
       "path": "public/products/mtt-r0401-2.webp",
-      "sha256": "11b6220eff69461ee38601e59cd287a1a6e86ca12fb4a10472e352fcd2ea7daa"
+      "sha256": "c86b2e531f97ad94619bdab289d91f36bed900fd768fbff3493726e333b974f9"
     },
     {
       "path": "public/products/mtt-r0401-3.webp",
-      "sha256": "4e00801a8281366db4a445c98ff84859141e35bb9b79aa0962018abc8b95b152"
+      "sha256": "1166057103456b3e69ff6143d3b0b632221750e1105ea44e2206404dabe11e61"
     },
     {
       "path": "public/products/mtt-r0401-4.webp",
-      "sha256": "e6e4e063d114020d161410c02b995cb074ef05975175f517f14dadc44264bf3e"
+      "sha256": "0091b74d0286546445631219a840cec82e7800c5ef9405b7892007cbba14066d"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "code": "MTT-R0507",
   "source": "work/catalog-loaded-sources/MTT-R0507.png",
-  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Festival sweets collection — Hexagonal lift-off box; rigid; Matching six-sided base and removable six-sided cap.. Paper Fine linen-textured wrapping paper, palette Peacock green and pearl, finish Two-colour print and debossed border, insert Six wrapped-sweet compartments. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional gift tag and ribbon beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "prompt": "Create a premium commercial packaging photography contact sheet, landscape 1536x1024 exact 3 columns x 2 rows SIX equal square cells, edge-to-edge cells, no gutters, no text labels. Same identical design across five photographs. Festival sweets collection — Hexagonal lift-off box. STRUCTURE: Matching six-sided base and removable six-sided cap. Thick paper-wrapped rigid board, no corrugated wings or tuck flaps. Insert: Six wrapped-sweet compartments. NEW visual identity: Turquoise and vivid pink; Textured dyed wrapping paper; Colour blocking with gold foil outlines. Make the material's optical behaviour clearly visible in photographic lighting: gloss broad soft reflections, matte diffuse, pearl subtle shimmer, cloth visible fine weave. Modern expressive premium design, not muted beige, no random lettering. Restrained graphic motifs appropriate to contents. Cell1 closed package plus coordinating card/ribbon. Cell2 open package loaded with appropriate real products matching the specified cavity count plus coordinated accessory beside it. Cell3 closed side/back. Cell4 overhead loaded interior SAME contents count/layout as cell2. Cell5 macro finish/board corner. Cell6 empty pale studio background. All detachable lids lie FLAT separately beside base with clear gap, NEVER hinged or leaning against base. Drawer sleeve and drawer are independent nested parts aligned on one axis. Book hinge only at spine. Double doors equal width with hinges opposite sides, not detachable lid. Food sealed/wrapped; supplement containers opaque with closed caps. Perfectly coherent perspective, straight verticals, no dutch angle, level camera, contact shadows, realistic folds, no floating objects. Complete box inside each cell, no crossing cell boundaries. Physically credible handcrafted mid/high-end packaging.",
   "status": "reviewed",
-  "reviewNotes": "Revised image inspected: wrappers/sealed containers corrected; separate lid and product consistency verified.",
+  "reviewNotes": "Five views visually reviewed for material distinction, content consistency and family-specific construction. Book hinge and drawer sleeve views revised before acceptance.",
   "previousSource": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-7dd08cd3-e738-4640-9606-c1a9f8cfb065.png",
   "revisionPrompt": "Precise edit: Six sweets must have individual transparent primary wrappers matching specification.",
-  "reviewedSourceHash": "cfe8548325259d3bfeaad11efb482afb836914bec86ea9714713a732b61be1bb",
+  "reviewedSourceHash": "e8b3e3cff9eaf485d6de872f7489860714e2d3309280e85187fdf63597949775",
   "viewOrder": [
     1,
     0,
@@ -17,23 +17,23 @@
   "images": [
     {
       "path": "public/products/mtt-r0507-0.webp",
-      "sha256": "1e3d77746d487bf7e031cbe0c045797aa7d0d3380da02d0139713bcc8910f212"
+      "sha256": "3c119238fea620d2482d67bec52039495df9d278fa126a9f2422acf59e475d09"
     },
     {
       "path": "public/products/mtt-r0507-1.webp",
-      "sha256": "caf5575ffd066ba0f516e7f1f51cc65f1324792d6bb70af56e3b4443ab2d5933"
+      "sha256": "723acde54bf4a79829f183ea1540ab177b1f2d650219f4c2b75019335d2cb806"
     },
     {
       "path": "public/products/mtt-r0507-2.webp",
-      "sha256": "ae114e6e03efd6142837d19268ea6f01d7b7f142e6ccc0e32fa56b0a48a65c94"
+      "sha256": "afe49c1b3b8e92cebe2b0f499b55e240157cb7c00a24a5611a4a30c4ad0a62bf"
     },
     {
       "path": "public/products/mtt-r0507-3.webp",
-      "sha256": "e17d3596b4555ad774f2afbc5bcd1b4e4d5bb70be21e3ac114745d2b1be54a0e"
+      "sha256": "3af730d808861c740f63c1fb251969a1f1015392aa07288a3436e7083a95f4b8"
     },
     {
       "path": "public/products/mtt-r0507-4.webp",
-      "sha256": "6120678edb00af99fd0aa3cf63ca2292a63e573bca371e0839eb6e482b0c929e"
+      "sha256": "08a60e4b6a20c4e52a3e0d02dda000b79351680c4fcc320a0e6670878c9fbe3d"
     }
   ]
 }

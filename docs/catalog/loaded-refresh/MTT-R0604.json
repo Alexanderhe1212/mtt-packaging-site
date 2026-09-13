@@ -1,12 +1,12 @@
 {
   "code": "MTT-R0604",
   "source": "work/catalog-loaded-sources/MTT-R0604.png",
-  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Christmas client gift — Double-door box; rigid; Two equal rigid doors hinge at opposite sides and meet centrally.. Paper Textured uncoated wrapping paper, palette Peacock green and pearl, finish Fine foil lines and offset pattern, insert Four equal gift compartments. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional greeting card and envelope beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "prompt": "Create a premium commercial packaging photography contact sheet, landscape 1536x1024 exact 3 columns x 2 rows SIX equal square cells, edge-to-edge cells, no gutters, no text labels. Same identical design across five photographs. Christmas client gift — Double-door box. STRUCTURE: Two equal rigid doors hinge at opposite sides and meet centrally. Thick paper-wrapped rigid board, no corrugated wings or tuck flaps. Insert: Four equal gift compartments. NEW visual identity: Scarlet and ice blue; Pearlescent coated wrapping paper; Pearlescent sheen with silver foil stars. Make the material's optical behaviour clearly visible in photographic lighting: gloss broad soft reflections, matte diffuse, pearl subtle shimmer, cloth visible fine weave. Modern expressive premium design, not muted beige, no random lettering. Restrained graphic motifs appropriate to contents. Cell1 closed package plus coordinating card/ribbon. Cell2 open package loaded with appropriate real products matching the specified cavity count plus coordinated accessory beside it. Cell3 closed side/back. Cell4 overhead loaded interior SAME contents count/layout as cell2. Cell5 macro finish/board corner. Cell6 empty pale studio background. All detachable lids lie FLAT separately beside base with clear gap, NEVER hinged or leaning against base. Drawer sleeve and drawer are independent nested parts aligned on one axis. Book hinge only at spine. Double doors equal width with hinges opposite sides, not detachable lid. Food sealed/wrapped; supplement containers opaque with closed caps. Perfectly coherent perspective, straight verticals, no dutch angle, level camera, contact shadows, realistic folds, no floating objects. Complete box inside each cell, no crossing cell boundaries. Physically credible handcrafted mid/high-end packaging.",
   "status": "reviewed",
-  "reviewNotes": "Close/seal the bottom-right tea tin in both loaded views. Preserve other three gifts and double doors. Final revised contact sheet visually checked: intact packaging walls, correct opening and consistent loaded contents across views.",
+  "reviewNotes": "Five views visually reviewed for material distinction, content consistency and family-specific construction. Book hinge and drawer sleeve views revised before acceptance.",
   "previousSource": "/Users/heguohua/.codex/generated_images/01a084f7-bd86-7120-90b2-f4f82fb3dc08/exec-f8fa40d5-2bc0-468c-90ab-c699a9fdfeb5.png",
   "revisionPrompt": "Precise edit: Close/seal the bottom-right tea tin in both loaded views. Preserve other three gifts and double doors.",
-  "reviewedSourceHash": "57145f6e9bf9172dbb7a3f2da7f4474eef9bb7d310e97edb47f9814d16474def",
+  "reviewedSourceHash": "92bd8ef6631ca9bfae4b96843228bf77c3592056d180aa33b640422a1dd7bf78",
   "viewOrder": [
     1,
     0,
@@ -17,23 +17,23 @@
   "images": [
     {
       "path": "public/products/mtt-r0604-0.webp",
-      "sha256": "fc7edcef529b0f745bf93d3d961079eb504f2a9c4bb4c286dc4bc4e1d198efaf"
+      "sha256": "6925fcd799f3de2e6d95f402db0388605a115d0700a8724cc6d605a10747732c"
     },
     {
       "path": "public/products/mtt-r0604-1.webp",
-      "sha256": "b6bf7acd102c5a162dc7886beef8c376c13de430df776f7f89cde02cf42a1697"
+      "sha256": "61b2324e7df865004cd40efe2c2b9e736eb7ca0866de2d1a84bbe1c9dfab282c"
     },
     {
       "path": "public/products/mtt-r0604-2.webp",
-      "sha256": "692bf9b12c5e575f933424dc94a1c14d1d9c140533278c021f354a321d1d14e2"
+      "sha256": "79f7eff9962901ce11ade0f269500226bcfafea0653abc1f0c3a554fd9fafb3d"
     },
     {
       "path": "public/products/mtt-r0604-3.webp",
-      "sha256": "ce4f11a33fa23e0d51c9bf636fecb2c9a598b01c2c701333650fa24a5d89f603"
+      "sha256": "cdae1355094bc7ac9e2d958e5f954fb9471553676de5147e12ba383d2a3414ad"
     },
     {
       "path": "public/products/mtt-r0604-4.webp",
-      "sha256": "762d75d6850f1a55f4dab4a7c4cc7adc673a6bc1039f562454950e8a71c058f9"
+      "sha256": "a36bf97c13bd45d322dc0404dddd21ad6b2bba8a930c985a42a9e760b2a98efc"
     }
   ]
 }

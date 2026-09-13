@@ -1,10 +1,10 @@
 {
   "code": "MTT-R0303",
   "source": "work/catalog-loaded-sources/MTT-R0303.png",
-  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Collagen routine set — Magnetic book box; rigid; A rigid lid hinges at the spine; concealed magnets close the front edge.. Paper Textured uncoated wrapping paper, palette Dusty rose and graphite, finish Fine foil lines and offset pattern, insert One tub well and a sachet compartment. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional instruction card and paper pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "prompt": "Create a premium commercial packaging photography contact sheet, landscape 1536x1024 exact 3 columns x 2 rows SIX equal square cells, edge-to-edge cells, no gutters, no text labels. Same identical design across five photographs. Collagen routine set — Magnetic book box. STRUCTURE: A rigid lid hinges at the spine; concealed magnets close the front edge. Thick paper-wrapped rigid board, no corrugated wings or tuck flaps. Insert: One tub well and a sachet compartment. NEW visual identity: Bright aqua and white; Smooth matte printed wrapping paper; Matte lamination with selective gloss UV. Make the material's optical behaviour clearly visible in photographic lighting: gloss broad soft reflections, matte diffuse, pearl subtle shimmer, cloth visible fine weave. Modern expressive premium design, not muted beige, no random lettering. Restrained graphic motifs appropriate to contents. Cell1 closed package plus coordinating card/ribbon. Cell2 open package loaded with appropriate real products matching the specified cavity count plus coordinated accessory beside it. Cell3 closed side/back. Cell4 overhead loaded interior SAME contents count/layout as cell2. Cell5 macro finish/board corner. Cell6 empty pale studio background. All detachable lids lie FLAT separately beside base with clear gap, NEVER hinged or leaning against base. Drawer sleeve and drawer are independent nested parts aligned on one axis. Book hinge only at spine. Double doors equal width with hinges opposite sides, not detachable lid. Food sealed/wrapped; supplement containers opaque with closed caps. Perfectly coherent perspective, straight verticals, no dutch angle, level camera, contact shadows, realistic folds, no floating objects. Complete box inside each cell, no crossing cell boundaries. Physically credible handcrafted mid/high-end packaging.",
   "status": "reviewed",
-  "reviewNotes": "Matching sealed containers, count, insert cavities and opening structure checked.",
-  "reviewedSourceHash": "fdf2b7c7d15401a9966559304834d13c6f1a6ce36e8f5dbfecb2b834d08ddc38",
+  "reviewNotes": "Five views visually reviewed for material distinction, content consistency and family-specific construction. Book hinge and drawer sleeve views revised before acceptance.",
+  "reviewedSourceHash": "12e9033e90b070a44c8680404ffeb89140507624390701bf315dc1134f982fc7",
   "viewOrder": [
     1,
     0,
@@ -15,23 +15,23 @@
   "images": [
     {
       "path": "public/products/mtt-r0303-0.webp",
-      "sha256": "c368ec7d65d64b9c9dedab16836d3f124c33c5d17a30d7c17c3c62ff427453e4"
+      "sha256": "907ae3606680dbe2715cbb5bf5c5130ad359abac1382a43ae83664d9aab9f823"
     },
     {
       "path": "public/products/mtt-r0303-1.webp",
-      "sha256": "bb5e03d58f536ccff206f3460a39eb569f22efbc9f4f3f15d872a09775bd9c60"
+      "sha256": "ffc20b1e35790b54e54c8d526e6de5070ea29430c9ec8a93e382ae3703971801"
     },
     {
       "path": "public/products/mtt-r0303-2.webp",
-      "sha256": "a17ccf066304a02eabc4209e5a1554b2691f5b5ab6b77bb4d06eef0e0ea86912"
+      "sha256": "808267e148a919c8078e70d9aa4bd9571b6eea43e4ad307d62de3fdef3c645b7"
     },
     {
       "path": "public/products/mtt-r0303-3.webp",
-      "sha256": "94e77ff538d0ccc5154b407997456417556b32aa281800113c7755f7e3ef6d90"
+      "sha256": "2bebf3d09883369d696f5927315f520aeb5dfbaeb52ac7c5f3d401ec1ffbe5d8"
     },
     {
       "path": "public/products/mtt-r0303-4.webp",
-      "sha256": "e34a6bb8c95fffa0b853c54fa771132624f425cf8c826ff7652ad1342b3f0b8d"
+      "sha256": "2d98a6a0edcc34e11449d30c208a521a08243b66f4598285f5ed880a3d6e2118"
     }
   ]
 }

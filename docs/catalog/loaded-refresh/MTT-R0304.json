@@ -1,10 +1,10 @@
 {
   "code": "MTT-R0304",
   "source": "work/catalog-loaded-sources/MTT-R0304.png",
-  "prompt": "Professional luxury packaging product photography. NEW exact landscape 3:2 contact sheet, 3 columns x 2 rows, six equal SQUARE frames with narrow white gutters, NO text. ONE identical packaging design in all frames. Product: Vitamin discovery set — Double-door box; rigid; Two equal rigid doors hinge at opposite sides and meet centrally.. Paper Smooth matte printed wrapping paper, palette Deep teal and sand, finish Blind embossed motif and small foil accent, insert Four separate sealed-bottle wells. Put the CORRECT actual product INSIDE each matching insert cavity in the open and interior views, aligned and seated, realistic scale, natural removal space, no floating or intersecting. Infer appropriate contents from product name, no unrelated contents. Food individually sealed or wrapped. No logos or invented text on contents. Frame1 CLOSED entire packaging hero + coordinated optional instruction card and paper pouch beside it. Frame2 OPEN packaging WITH PRODUCTS in insert and small matching card alongside. For all detachable lids including lift-off, shoulder, round, hexagonal: lid lies FLAT separately on table with a large gap, never standing/leaning/hinged. Frame3 closed side/rear view + restrained accessory. Frame4 close overhead of same LOADED insert, exact same products and cavity arrangement as frame2, no obstructing props. Frame5 wrapping/finish/corner close-up matching exact artwork. Frame6 blank background. Same geometry, count, proportions, materials and graphic motifs across all five photos. Rigid boxes never carton tuck flaps/corrugated wings. Doors symmetrical; drawers pull straight out; correct hinges only for book/double-door. No extra compartments. Bag: frames2 bag holding suitable boxed product, frame4 inner handle attachment with contents visible. Warm neutral studio, tactile paper, sophisticated restrained motifs, physically plausible joints, no exaggerated glossy plastic look. Keep full object within each frame except macro.",
+  "prompt": "Create a premium commercial packaging photography contact sheet, landscape 1536x1024 exact 3 columns x 2 rows SIX equal square cells, edge-to-edge cells, no gutters, no text labels. Same identical design across five photographs. Vitamin discovery set — Double-door box. STRUCTURE: Two equal rigid doors hinge at opposite sides and meet centrally. Thick paper-wrapped rigid board, no corrugated wings or tuck flaps. Insert: Four separate sealed-bottle wells. NEW visual identity: Tangerine and cream; Fine-ribbed embossed wrapping paper; Blind embossing and orange spot-colour printing. Make the material's optical behaviour clearly visible in photographic lighting: gloss broad soft reflections, matte diffuse, pearl subtle shimmer, cloth visible fine weave. Modern expressive premium design, not muted beige, no random lettering. Restrained graphic motifs appropriate to contents. Cell1 closed package plus coordinating card/ribbon. Cell2 open package loaded with appropriate real products matching the specified cavity count plus coordinated accessory beside it. Cell3 closed side/back. Cell4 overhead loaded interior SAME contents count/layout as cell2. Cell5 macro finish/board corner. Cell6 empty pale studio background. All detachable lids lie FLAT separately beside base with clear gap, NEVER hinged or leaning against base. Drawer sleeve and drawer are independent nested parts aligned on one axis. Book hinge only at spine. Double doors equal width with hinges opposite sides, not detachable lid. Food sealed/wrapped; supplement containers opaque with closed caps. Perfectly coherent perspective, straight verticals, no dutch angle, level camera, contact shadows, realistic folds, no floating objects. Complete box inside each cell, no crossing cell boundaries. Physically credible handcrafted mid/high-end packaging.",
   "status": "reviewed",
-  "reviewNotes": "Matching sealed containers, count, insert cavities and opening structure checked.",
-  "reviewedSourceHash": "b80988c206c5779c74badf0f902f306aa883b827ccd10e66547e57e2bb8a5508",
+  "reviewNotes": "Five views visually reviewed for material distinction, content consistency and family-specific construction. Book hinge and drawer sleeve views revised before acceptance.",
+  "reviewedSourceHash": "f1eb53b78c2dc127852d9dfd636d3cedfbb4d3f2bb7ce7ab1e8b1d9df5a8f0a9",
   "viewOrder": [
     1,
     0,
@@ -15,23 +15,23 @@
   "images": [
     {
       "path": "public/products/mtt-r0304-0.webp",
-      "sha256": "38146ad236e367aa611de27081295c5788b178e856cc4a6c6bc45fc74e586775"
+      "sha256": "ab96cbbff19150ef9663b73266c96e19670d2da31231424304af6187a6da7ab0"
     },
     {
       "path": "public/products/mtt-r0304-1.webp",
-      "sha256": "7469358322c0206cec584fbebe6dec504bffa2e61bf769387cf17e44701f527d"
+      "sha256": "c73eb682085b3dfdd099c93b1943c7950fa38e2460f6d9e0c7a23c480c4ae337"
     },
     {
       "path": "public/products/mtt-r0304-2.webp",
-      "sha256": "d2056fa39794b4a1033f90788f70082cc97d6dc170b1cf4714ddc4d2c61797f5"
+      "sha256": "ed6519788528e558efcac6461116e4986c859a86862d84f666edd1456837db47"
     },
     {
       "path": "public/products/mtt-r0304-3.webp",
-      "sha256": "9856af732f49ef4545d24bc6cc088f8e0e0acc22453ca7cd23dddafe11121df2"
+      "sha256": "7e820e82b7d4181e15ac2967043546edab5f7320705b0492258ed64d3cab34d2"
     },
     {
       "path": "public/products/mtt-r0304-4.webp",
-      "sha256": "cbc07ca59adf8026eab9f7eba5a1c2171b07db1a2c93278b2c5e0ea1ce65d091"
+      "sha256": "e7932f7e721cb3af43fb6d5307a87f0b361191cd11bdc7abc96c48c0fa8fe449"
     }
   ]
 }
