@@ -1,3 +1,4 @@
+import FamilyProductDirectory from '../../../components/FamilyProductDirectory';
 import BuyerPlanning from "../../../components/BuyerPlanning";
 import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
 import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
@@ -45,7 +46,7 @@ const structuredData = {
 
 export default function CustomPaperBagsPage() {
   return (
-    <main>
+    <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <header className="page-hero">
@@ -64,7 +65,7 @@ export default function CustomPaperBagsPage() {
           ))}
         </div>
       </section>
-      <BuyerPlanning kind="bag" />
+      <FamilyProductDirectory family="bag"/><BuyerPlanning kind="bag" />
       <section className="brief-list">
         <div><p className="section-kicker">Request a quote</p><h2>Send these details for a focused review.</h2></div>
         <ol>{["Bag dimensions (W × D × H in mm)", "Handle type and length", "Paper type and weight", "Print colors and finishes", "Quantity and delivery country"].map((l, i) => (<li key={l}><b>0{i + 1}</b>{l}</li>))}</ol>

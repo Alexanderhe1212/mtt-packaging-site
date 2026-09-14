@@ -6,6 +6,8 @@ import { breadcrumb, organization, siteUrl } from "../../lib/seo";
 import { solutions } from "../../lib/solutions";
 import PackagingCustomization from "../../components/PackagingCustomization";
 
+export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
   title: "Custom Packaging | Rigid Boxes, Folding Cartons, Paper Bags | MTT Packaging",
   description:

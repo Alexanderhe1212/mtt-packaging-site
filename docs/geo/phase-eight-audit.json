@@ -1,0 +1,55 @@
+{
+  "before": {
+    "html_pages": 494,
+    "english_pages": 274,
+    "english_unreachable": 76,
+    "english_over_three_clicks": 6,
+    "english_max_depth": 5
+  },
+  "after": {
+    "html_pages": 494,
+    "english_pages": 274,
+    "english_unreachable": 0,
+    "english_over_three_clicks": 0,
+    "english_max_depth": 2
+  },
+  "method": "Only rendered HTML <a href> links, no JavaScript actions or sitemap edges. Unreachable does not mean unindexed. Chinese routes reported but excluded from English-navigation gate.",
+  "mobile": {
+    "viewport": 390,
+    "document_width": 390,
+    "guide_question_count": 6,
+    "native_details_keyboard": "pass",
+    "directory_product_navigation": "pass",
+    "buyer_guide_navigation": "pass"
+  },
+  "lighthouse_mobile_single_run": [
+    {
+      "path": "/packaging/custom-paper-bags/",
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "path": "/packaging/corrugated-boxes/",
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "path": "/packaging/folding-cartons/",
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "path": "/insights/",
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Audit only; supports the existing Python 3.9 environment. BSD-3-Clause.
+networkx==3.2.1

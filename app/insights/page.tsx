@@ -35,7 +35,7 @@ export default function InsightsPage() {
       <header className="page-hero">
         <div>
           <p>Packaging knowledge</p>
-          <h1>Better inputs lead to a better box.</h1>
+          <h1>Custom packaging guides for structure, materials and sampling.</h1>
           <p>
             Practical guidance for buyers before sampling, specification and
             quotation.
@@ -48,15 +48,23 @@ export default function InsightsPage() {
           height="1200"
         />
       </header>
-      <section style={{ padding: "120px 5vw" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", borderTop: "1px solid rgba(23,32,25,.17)", borderLeft: "1px solid rgba(23,32,25,.17)" }}>
+      <section className="guide-question-hub" aria-label="Find a packaging buying guide"><h2>What do you need to decide?</h2><p>Start with your buying question. Each guide explains the options, what to confirm and what to send for a specification review.</p><div>{[
+        ['Which packaging structure fits my product?','Compare rigid boxes, folding cartons and corrugated packaging before choosing finishes.','rigid-box-vs-folding-carton'],
+        ['How do I protect a glass bottle inside the box?','Review bottle orientation, insert support and removal access with the actual product.','perfume-box-inserts'],
+        ['How can I reduce packaging costs?','Identify specification, quantity and packing choices to discuss before compromising presentation.','reduce-custom-packaging-costs'],
+        ['How do I coordinate a box and matching bag?','Plan bag dimensions from the finished outer box and review the complete loaded set.','perfume-box-and-bag-packaging'],
+        ['What should I approve in a packaging sample?','Review fit, opening, artwork and finishes before confirming production.','custom-packaging-sampling-process'],
+        ['What information is needed for a quote?','Prepare product measurements, quantity, destination, references and an achievable delivery requirement.','how-to-write-a-packaging-brief']
+      ].map(([question,answer,slug])=><article key={slug}><h3><a href={'/insights/'+slug}>{question}</a></h3><p>{answer}</p></article>)}</div></section>
+      <section className="guide-article-section">
+        <div className="guide-article-grid">
           {articles.map((a) => (
             <div key={a.slug} style={{ minHeight: "540px", padding: "36px", borderRight: "1px solid rgba(23,32,25,.17)", borderBottom: "1px solid rgba(23,32,25,.17)", display: "flex", flexDirection: "column" }}>
               <span style={{ fontSize: "10px", letterSpacing: ".16em", textTransform: "uppercase", color: "#647067" }}>
                 {a.number} / {a.angle}
               </span>
               <img src={caseStages[a.slug]?.image || a.image} alt={caseStages[a.slug] ? `Four-stage packaging concept: ${a.title}` : a.imageAlt} width="800" height="500" loading="lazy" style={{ width: "100%", aspectRatio: caseStages[a.slug] ? "1" : "1.9", objectFit: caseStages[a.slug] ? "contain" : "cover", borderRadius: "6px", margin: "24px 0 0" }} />
-              <h3 style={{ font: "600 30px/1.12 Arial,Helvetica,sans-serif", letterSpacing: "-.025em", margin: "28px 0 16px" }}>{a.title}</h3>
+              <h2 style={{ font: "600 30px/1.12 Arial,Helvetica,sans-serif", letterSpacing: "-.025em", margin: "28px 0 16px" }}>{a.title}</h2>
               <p style={{ fontSize: "13px", lineHeight: 1.7, color: "#687269", maxWidth: "580px" }}>{a.summary}</p>
               <a href={`/insights/${a.slug}`} style={{ marginTop: "auto", fontSize: "12px", fontWeight: 700 }}>Read the guide →</a>
             </div>
