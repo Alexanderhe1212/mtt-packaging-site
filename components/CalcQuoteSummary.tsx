@@ -32,7 +32,7 @@ export default function CalcQuoteSummary() {
         if (parsed.internalL && parsed.unit) setData(parsed);
       }
     } catch {}
-    // sessionStorage cleanup is handled by CalcPreFill on form submit.
+    // QuoteForm clears storage only after the server accepts a submission.
   }, []);
 
   if (!data) return null;

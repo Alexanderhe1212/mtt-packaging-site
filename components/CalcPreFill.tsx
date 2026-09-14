@@ -38,7 +38,7 @@ function mapPackagingToQuoteOption(calcKey: string): string {
  * - Sets initial values on visible form inputs
  * - User edits override these values (native form behavior)
  * - Does NOT render any hidden fields (CalcQuoteSummary handles those)
- * - Cleans up sessionStorage on form submit (refresh persistence preserved)
+ * - Keeps handoff data for retry; QuoteForm clears only after accepted submission.
  */
 export default function CalcPreFill() {
   useEffect(() => {
@@ -84,15 +84,6 @@ export default function CalcPreFill() {
     setField('productDimensions', productSize);
     setField('boxDimensions', internalSize);
 
-    // Clear sessionStorage on form submit (preserves refresh persistence)
-    const form = document.querySelector('form[action*="formspree"]') as HTMLFormElement | null;
-    if (form) {
-      const onSubmit = () => {
-        try { sessionStorage.removeItem(CALC_HANDOFF_KEY); } catch {}
-      };
-      form.addEventListener('submit', onSubmit);
-      return () => form.removeEventListener('submit', onSubmit);
-    }
   }, []);
 
   return null;
