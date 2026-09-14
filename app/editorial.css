@@ -137,3 +137,9 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 @media(max-width:560px){.article-body section{grid-template-columns:1fr;gap:12px}.article-designs .button{white-space:normal}.article-contents a{overflow-wrap:anywhere}}
 .article-designs>h2{font:400 32px/1.2 Georgia,serif;margin:16px 0}.article-designs .section-kicker{margin-top:0}
 @media(max-width:560px){.article-designs>h2{font-size:28px}}
+
+/* Homepage photography: retain the complete opening structure at every breakpoint. */
+.home-v4 .ed-hero-image{height:auto;max-height:none;aspect-ratio:4/3;object-fit:contain;align-self:center}
+.home-v4 .ed-product img,.home-v4 .hp-selected-fig img{height:auto;aspect-ratio:4/3;object-fit:contain}
+.mtt-editorial .home-v4 .hp-industry-img{height:auto;aspect-ratio:4/3}
+.mtt-editorial .home-v4 .hp-industry-img img{object-fit:contain}
