@@ -1,4 +1,4 @@
-import buyerUpdates from '../../../lib/buyer-article-updates.json';
+import {articleNavigation} from '../../../lib/article-navigation';
 import CaseStages from '../../../components/CaseStages';
 import {caseStages} from '../../../lib/case-stages';
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
@@ -42,12 +42,12 @@ export default async function InsightPage({
   const article = getArticle((await params).slug);
   if (!article)
     return (
-      <main className="article-page">
+      <main id="main-content" className="article-page">
         <p>Article not found.</p>
         <a href="/">Return to MTT Packaging</a>
       </main>
     );
-  const related = articles.filter((a) => a.slug !== article.slug && (!(article.slug in buyerUpdates) || a.slug in buyerUpdates)).slice(0, 3);
+  const {related, designs} = articleNavigation(article.slug);
   const isProblemArticle = article.angle === "Design Analysis" || customerProblemArticles.some((a) => a.slug === article.slug);
   const articleData = {
     "@context": "https://schema.org",
@@ -76,7 +76,7 @@ export default async function InsightPage({
     ],
   };
   return (
-    <main className="article-page">
+    <main id="main-content" className="article-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
@@ -96,9 +96,16 @@ export default async function InsightPage({
           </figure>
         )}
       </header>
+      <div className="article-decisions">
+        <p className="section-kicker">At a glance</p><p>{article.summary}</p>
+        <details className="article-contents"><summary>In this guide · {article.sections.length} sections</summary>
+          <ol>{article.sections.map(([title],index)=><li key={title}><a href={`#guide-section-${index+1}`}>{title}</a></li>)}</ol>
+          <a href="#guide-designs">Compare packaging designs →</a>
+        </details>
+      </div>
       <CaseStages slug={article.slug}/><div className="article-body">
         {article.sections.map(([title, copy], index) => (
-          <section key={title}>
+          <section key={title} id={`guide-section-${index+1}`} tabIndex={-1}>
             <b>0{index + 1}</b>
             <div>
               <h2>{title}</h2>
@@ -108,9 +115,19 @@ export default async function InsightPage({
         ))}
       </div>
       {"faq" in article && article.faq && <section className="article-body" aria-label="Buyer questions">{article.faq.map(([question,answer])=><section key={question}><div><h2>{question}</h2><p>{answer}</p></div></section>)}</section>}
+      {designs.length > 0 && <section id="guide-designs" className="article-designs" aria-labelledby="guide-designs-title">
+        <p className="section-kicker">From guide to product</p><h2 id="guide-designs-title">Compare packaging for your brief</h2>
+        <p>Explore the opening, material and insert details for each design. These are options to review, not proof of a tested fit for your product.</p>
+        <div className="article-design-grid">{designs.map(p=><article key={p.code}>
+          <a href={'/products/'+p.slug}><img src={p.image.replace('.webp','-0.webp')} width="320" height="240" loading="lazy" alt=""/><h3>{p.name}</h3></a>
+          <p><strong>{p.familyName}</strong> · {p.structureName}</p><p>{p.wrap}</p><a href={'/products/'+p.slug}>View structure &amp; details →</a>
+        </article>)}</div>
+        <p>Have a different product? Send its dimensions, weight, quantity and destination. We can review the packaging direction before you choose a design.</p>
+        <a className="button" href="/request-a-quote">Discuss my packaging requirements →</a>
+      </section>}
       {related.length > 0 && (
         <div className="article-related">
-          <p className="section-kicker">Related articles</p>
+          <h2>Continue with a related buying question</h2>
           <div className="article-related-grid">
             {related.map((r) => (
               <a href={`/insights/${r.slug}`} key={r.slug}>
@@ -139,7 +156,7 @@ export default async function InsightPage({
         <a className="button" href={`https://wa.me/8617207110964?text=${encodeURIComponent(`Hi Hugo! I just read your article about ${article.title}. I'd like to discuss a packaging project.`)}`} target="_blank" rel="noreferrer">
           WhatsApp Hugo ↗
         </a>
-        <p style={{ marginTop: '12px', fontSize: '12px', color: '#8a9a8d' }}>Message Hugo on WhatsApp for a quick response about your project.</p>
+        <p style={{ marginTop: '12px', fontSize: '12px', color: '#cbd7ce' }}>Message Hugo on WhatsApp for a quick response about your project.</p>
           </>
         )}
       </aside>

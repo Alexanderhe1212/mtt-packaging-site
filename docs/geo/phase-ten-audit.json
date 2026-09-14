@@ -1,0 +1,44 @@
+{
+  "phase": 10,
+  "date": "2026-09-14",
+  "sitemap_pages_checked": 494,
+  "product_pages_checked": 434,
+  "guides_checked": 31,
+  "changed_urls": 31,
+  "browser_viewports": [
+    390,
+    1440
+  ],
+  "guide_browser_pass": true,
+  "quote_regression_pass": true,
+  "indexnow_status": "dry_run_only_before_deployment",
+  "lighthouse": {
+    "/insights/rigid-box-vs-folding-carton/": {
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fetch_time": "2026-09-14T12:19:30.954Z",
+      "tbt_ms": 70.5,
+      "cls": 0
+    },
+    "/insights/perfume-box-and-bag-packaging/": {
+      "scores": {
+        "performance": 79,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fetch_time": "2026-09-14T12:18:46.448Z",
+      "tbt_ms": 174,
+      "cls": 0.0002384783345596188
+    }
+  },
+  "limitations": [
+    "Local mobile simulations, not field traffic data.",
+    "Performance warning retained; shared browser work is measurable and not claimed solved.",
+    "No Google manual indexing request or AI citation gain claimed."
+  ]
+}
