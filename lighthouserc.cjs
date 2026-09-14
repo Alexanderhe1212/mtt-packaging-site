@@ -12,6 +12,7 @@ module.exports = {
         'categories:accessibility': ['warn', { minScore: 0.98 }],
         'categories:performance': ['warn', { minScore: 0.8 }],
         'image-redundant-alt': 'error',
+        'color-contrast': 'error',
       },
     },
     upload: { target: 'filesystem', outputDir: './qa/lighthouse-report' },

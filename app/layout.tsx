@@ -1,13 +1,12 @@
 import {businessSummary} from '../lib/seo';
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import {analyticsBootstrap} from '../lib/analytics-bootstrap.mjs';
 import ContactAnalytics from '../components/ContactAnalytics';
 import CookieConsent from '../components/CookieConsent';
 import './globals.css';
 import './editorial.css';
 import LeadQualificationChatbot from '../components/LeadQualificationChatbot';
 
-const GA_MEASUREMENT_ID = 'G-Z132GJZZ57';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://mttpackaging.com'),
@@ -32,16 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied'});window.mttGrantAnalytics=function(){gtag('consent','update',{analytics_storage:'granted'});};window.mttRevokeAnalytics=function(){gtag('consent','update',{analytics_storage:'denied'});};` }} />
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="lazyOnload" />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}');
-          `}
-        </Script>
+        <script dangerouslySetInnerHTML={{__html:analyticsBootstrap}} />
       </head>
       <body className="mtt-editorial">
         <a href="#main-content" className="skip-link">Skip to main content</a>

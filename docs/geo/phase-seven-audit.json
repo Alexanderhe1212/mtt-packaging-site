@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-14",
+  "environment": "Lighthouse CI 0.15.1 local mobile simulation, one run, fresh no-consent visitor; not field data",
+  "results": [
+    {
+      "path": "/tools/gift-box-solution-builder",
+      "scores": {
+        "performance": 0.94,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 2632.7191250000005
+    },
+    {
+      "path": "/products/travel-fragrance-trio-drawer",
+      "scores": {
+        "performance": 0.92,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 2944.5249999999983
+    },
+    {
+      "path": "/products",
+      "scores": {
+        "performance": 0.9,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 3185.2727999999997
+    },
+    {
+      "path": "/",
+      "scores": {
+        "performance": 0.89,
+        "accessibility": 1,
+        "best-practices": 0.96,
+        "seo": 1
+      },
+      "lcpMs": 3426.2700000000004
+    },
+    {
+      "path": "/request-a-quote",
+      "scores": {
+        "performance": 0.95,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 2543.4384000000005
+    },
+    {
+      "path": "/packaging/custom-rigid-boxes",
+      "scores": {
+        "performance": 0.94,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 2731.9582250000003
+    }
+  ]
+}
