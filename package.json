@@ -7,10 +7,12 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "npm run check:locales && vinext build && node scripts/prepare-static.mjs",
+    "build": "npm run check:locales && node scripts/prepare-product-thumbnails.mjs && vinext build && node scripts/prepare-static.mjs",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "check:locales": "node scripts/check-locales.mjs"
+    "check:locales": "node scripts/check-locales.mjs",
+    "audit:site": "lhci autorun",
+    "check:release": "python3 scripts/validate-static.py && python3 scripts/check-phase-four.py && python3 scripts/check-phase-five.py && node scripts/check-quote-retry.mjs && node scripts/check-product-thumbnails.mjs"
   },
   "dependencies": {
     "i18next": "^26.4.2",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",
     "@cloudflare/workers-types": "4.20260515.1",
+    "@lhci/cli": "0.15.1",
     "@openai/sites-vite-plugin": "^0.1.0 || ^0.2.0",
     "@tailwindcss/postcss": "4.2.1",
     "@types/node": "22.19.19",
@@ -34,6 +37,7 @@
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
     "react-server-dom-webpack": "19.2.6",
+    "sharp": "0.34.5",
     "tailwindcss": "4.2.1",
     "three": "^0.180.0",
     "typescript": "5.9.3",

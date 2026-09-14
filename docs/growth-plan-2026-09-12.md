@@ -21,3 +21,6 @@ Choose opening style → apply artwork and optional finishes → enter product s
 
 ## Publishing gate
 Read latest remote and protect local edits. Build and validate, review mobile/desktop and relevant interactions, preserve rollback commit, publish through the existing Pages package, verify live bytes. Avoid new recurring paid services. No daily forced title changes or article count targets. Summarize meaningful changes and weekly findings; remain quiet on unchanged checks. At period end report evidence and ask whether to continue content publishing.
+
+## Phase-six maintenance commands
+For subsequent releases, run `npm run check:release` after building. Run `npm run audit:site` weekly or after relevant UI/image changes; it uses pinned Lighthouse CI and saves local reports in `qa/lighthouse-report`. Keep performance/accessibility warnings visible and compare equivalent environments. Builds regenerate product thumbnails automatically. These commands extend the existing daily task's maintenance procedure; they do not add a second automation or an indexing service.

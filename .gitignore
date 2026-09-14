@@ -41,3 +41,5 @@ next-env.d.ts
 qa/lighthouse-report/
 
 /docs/catalog/qa/
+
+/public/products/thumbs/
