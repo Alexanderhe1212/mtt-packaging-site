@@ -182,7 +182,7 @@ export default function BoxSizeCalculator() {
     try {
       sessionStorage.setItem(CALC_HANDOFF_KEY, JSON.stringify(handoff));
     } catch {}
-    window.location.href = '/request-a-quote';
+    window.location.href = '/request-a-quote?source=calculator';
   }, [result, fields, sheetResult, cbmResult, unit, cartonUnit, sheetW, sheetH, dieW, dieH, cartonL, cartonW, cartonH, numCartons]);
 
   // Sheet layout handler
@@ -245,7 +245,7 @@ export default function BoxSizeCalculator() {
           <div className="calc-v2-step-header">
             <span className="calc-v2-step-num">01</span>
             <div>
-              <h3 className="calc-v2-step-title">Product Input</h3>
+              <h2 className="calc-v2-step-title">Product Input</h2>
               <p className="calc-v2-step-desc">What are you packaging?</p>
             </div>
           </div>
@@ -313,7 +313,7 @@ export default function BoxSizeCalculator() {
           <div className="calc-v2-step-header">
             <span className="calc-v2-step-num">02</span>
             <div>
-              <h3 className="calc-v2-step-title">Packaging</h3>
+              <h2 className="calc-v2-step-title">Packaging</h2>
               <p className="calc-v2-step-desc">Choose your packaging type and parameters</p>
             </div>
           </div>
@@ -388,7 +388,7 @@ export default function BoxSizeCalculator() {
           <div className="calc-v2-step-header">
             <span className="calc-v2-step-num">03</span>
             <div>
-              <h3 className="calc-v2-step-title">Unit</h3>
+              <h2 className="calc-v2-step-title">Unit</h2>
               <p className="calc-v2-step-desc">All dimensions will use this unit</p>
             </div>
           </div>
@@ -544,7 +544,7 @@ export default function BoxSizeCalculator() {
               <div className="calc-v2-advanced-body">
                 {/* A. Sheet Layout */}
                 <div className="calc-v2-adv-section">
-                  <h4 className="calc-v2-adv-title">A. Sheet Layout</h4>
+                  <h3 className="calc-v2-adv-title">A. Sheet Layout</h3>
                   <p className="calc-v2-adv-desc">Calculate how many dielines fit per parent sheet</p>
 
                   <div className="calc-v2-grid-2">
@@ -622,7 +622,7 @@ export default function BoxSizeCalculator() {
 
                 {/* B. Shipping / CBM */}
                 <div className="calc-v2-adv-section">
-                  <h4 className="calc-v2-adv-title">B. Shipping / CBM</h4>
+                  <h3 className="calc-v2-adv-title">B. Shipping / CBM</h3>
                   <p className="calc-v2-adv-desc">Calculate cubic metres for freight planning</p>
 
                   <div className="calc-v2-grid-2">
@@ -687,7 +687,7 @@ export default function BoxSizeCalculator() {
             {/* Quote CTA */}
             <div className="calc-v2-quote-cta">
               <p className="calc-v2-quote-cta-label">Ready to Produce?</p>
-              <h4 className="calc-v2-quote-cta-title">Use This Packaging Plan for a Custom Quote</h4>
+              <h3 className="calc-v2-quote-cta-title">Use This Packaging Plan for a Custom Quote</h3>
               <p className="calc-v2-quote-cta-desc">Your calculator results will be attached automatically.</p>
               <button type="button" className="button calc-v2-quote-btn" onClick={handleQuoteCta}>
                 Get a Custom Quote →
@@ -709,7 +709,7 @@ export default function BoxSizeCalculator() {
                 <path d="M8 38h48" stroke="#8a9a8d" strokeWidth="1.5" strokeDasharray="3 3" />
               </svg>
             </div>
-            <h4>Your Packaging Plan</h4>
+            <h3>Your Packaging Plan</h3>
             <p>Enter your product dimensions and packaging preferences, then click <b>Calculate Packaging Plan</b> to see your recommended box dimensions.</p>
           </div>
         )}

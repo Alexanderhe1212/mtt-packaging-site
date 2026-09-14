@@ -9,9 +9,11 @@ export default function ContactAnalytics() {
       const link = (event.target as Element).closest?.('a');
       if (!link) return;
       const url = new URL(link.href, location.href);
+      const path=url.pathname.replace(/\/$/,'');
       if (url.hostname === 'wa.me' || url.hostname === 'api.whatsapp.com') trackEvent('whatsapp_click');
-      else if (url.origin === location.origin && url.pathname === '/tools/gift-box-solution-builder') trackEvent('gift_builder_entry');
-      else if (url.origin === location.origin && url.pathname === '/request-a-quote') trackEvent('packaging_brief_click');
+      else if(url.protocol==='mailto:') trackEvent('email_click');
+      else if (url.origin === location.origin && path === '/tools/gift-box-solution-builder') trackEvent('gift_builder_entry');
+      else if (url.origin === location.origin && ['/request-a-quote','/zh/request-a-quote'].includes(path)) trackEvent('packaging_brief_click');
     };
     const focus = (event: FocusEvent) => {
       const form = (event.target as Element).closest?.('form');

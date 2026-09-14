@@ -12,7 +12,8 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "check:locales": "node scripts/check-locales.mjs",
     "audit:site": "lhci autorun",
-    "check:release": "python3 scripts/validate-static.py && python3 scripts/check-phase-four.py && python3 scripts/check-phase-five.py && node scripts/check-quote-retry.mjs && node scripts/check-product-thumbnails.mjs && node scripts/check-analytics-consent.mjs"
+    "check:release": "python3 scripts/validate-static.py && python3 scripts/check-phase-four.py && python3 scripts/check-phase-five.py && node scripts/check-quote-retry.mjs && node scripts/check-product-thumbnails.mjs && node scripts/check-analytics-consent.mjs && python3 scripts/check-indexnow.py",
+    "audit:enquiry": "node scripts/check-quote-browser.mjs"
   },
   "dependencies": {
     "i18next": "^26.4.2",

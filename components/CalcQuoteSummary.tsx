@@ -25,6 +25,7 @@ export default function CalcQuoteSummary() {
   const [data, setData] = useState<CalcHandoff | null>(null);
 
   useEffect(() => {
+    if(new URLSearchParams(location.search).get('source')!=='calculator') return;
     try {
       const raw = sessionStorage.getItem(CALC_HANDOFF_KEY);
       if (raw) {

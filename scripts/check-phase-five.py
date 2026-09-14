@@ -22,6 +22,7 @@ for p in products:
         if p['family']!='bag':assert '/packaging/custom-inserts' in page.links,path
         assert len(page.ctas)==3 and len(set(page.ctas))==1,(path,page.ctas)
         query=parse_qs(urlsplit(page.ctas[0]).query)
+        assert query['product_family']==[p['family']],path
         assert query['product']==[p['code']+' '+p['nameZh' if prefix else 'name']],path
         assert urlsplit(page.ctas[0]).path==prefix+'/request-a-quote',path
 print(f'{len(products)*2} EN/ZH products: correct family guides, sample-process links and three consistent crawlable enquiry links pass.')

@@ -5,6 +5,13 @@ import { trackEvent } from '../lib/analytics';
 import { CALC_HANDOFF_KEY } from '../lib/box-calculator';
 
 export default function QuoteForm({locale='en',...props}: ComponentProps<'form'> & {locale?:'en'|'zh'}) {
+  const formRef = useRef<HTMLFormElement>(null);
+  useEffect(()=>{
+    const family=new URLSearchParams(location.search).get('product_family')||'';
+    const types:Record<string,string>={rigid:'Rigid Box',carton:'Folding Carton',corrugated:'Corrugated Box',bag:'Paper Bag'};
+    const field=formRef.current?.elements.namedItem('packagingType') as HTMLSelectElement|null;
+    if(field && !field.value && types[family]) field.value=types[family];
+  },[]);
   const [product,setProduct]=useState('');
  const [accessories,setAccessories]=useState('');
  const [hasAccessories,setHasAccessories]=useState(false);
@@ -13,7 +20,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
   const pending = useRef(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
-  return <form {...props} aria-busy={busy} onSubmit={async event => {
+  return <form {...props} ref={formRef} aria-busy={busy} onSubmit={async event => {
     event.preventDefault();
     if (pending.current) return;
     const form = event.currentTarget;
@@ -29,6 +36,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
       trackEvent('generate_lead', { form_id: location.pathname === '/' ? 'homepage' : 'request_a_quote' });
       location.assign(locale==='zh'?'/zh/thank-you':'/thank-you');
     } catch {
+      trackEvent('quote_error', {form_id:location.pathname==='/'?'homepage':'request_a_quote',error_type:'submission_failed'});
       setError(resources[locale].translation.sendError);
       pending.current = false; setBusy(false);
     }

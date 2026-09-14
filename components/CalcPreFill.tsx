@@ -26,7 +26,7 @@ function mapPackagingToQuoteOption(calcKey: string): string {
   const map: Record<string, string> = {
     rigid: 'Rigid Box',
     folding: 'Folding Carton',
-    corrugated: 'Other',
+    corrugated: 'Corrugated Box',
     not_sure: '',
   };
   return map[calcKey] || '';
@@ -42,6 +42,7 @@ function mapPackagingToQuoteOption(calcKey: string): string {
  */
 export default function CalcPreFill() {
   useEffect(() => {
+    if(new URLSearchParams(location.search).get('source')!=='calculator') return;
     let data: CalcHandoff | null = null;
 
     try {

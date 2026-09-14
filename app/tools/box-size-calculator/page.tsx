@@ -47,7 +47,7 @@ const structuredData = {
 
 export default function BoxSizeCalculatorPage() {
   return (
-    <main className="calc-page">
+    <main className="calc-page" id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
 

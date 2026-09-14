@@ -19,7 +19,7 @@ async function scenario({ok=true,result={ok:true},networkError=false,attached=tr
  return {removed,redirects,events,requests,submit:()=>form.props.onSubmit(event)};
 }
 for(const failure of [{ok:false},{result:{ok:false}},{result:null},{networkError:true}]){
- const r=await scenario(failure);assert.equal(r.removed.length,0);assert.equal(r.redirects.length,0);assert.equal(r.events.length,0);
+ const r=await scenario(failure);assert.equal(r.removed.length,0);assert.equal(r.redirects.length,0);assert.equal(r.events.length,1);assert.equal(r.events[0][0],'quote_error');
  await r.submit();assert.equal(r.requests.length,2,'failed request must allow retry');
 }
 const accepted=await scenario();assert.deepEqual(accepted.removed,['mtt_calc_handoff']);assert.deepEqual(accepted.redirects,['/thank-you']);

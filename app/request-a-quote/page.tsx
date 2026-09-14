@@ -75,10 +75,9 @@ export default function RequestAQuotePage() {
             Get a Custom Packaging Quote
           </h1>
           <p style={{ fontSize: "17px", lineHeight: 1.65, color: "#5f6961", maxWidth: "660px" }}>
-            Send your product details and requirements. Hugo will review your
-            project and respond within 24 hours with a packaging recommendation
-            and quotation.
+            Send your product details and requirements. Not sure about the structure or quantity yet? Ask for a recommendation. Final pricing follows a review of your specification.
           </p>
+          <a className="button" href="#quote-details">Start your packaging enquiry →</a>
         </div>
         <div className="rfq-trust">
           {[
@@ -106,7 +105,7 @@ export default function RequestAQuotePage() {
         </div>
       </header>
 
-      <section className="rfq-form-section">
+      <section className="rfq-form-section" id="quote-details">
         <div>
           <h2 style={{ font: "600 32px/1.1 Arial,Helvetica,sans-serif", letterSpacing: "-.03em", margin: "0 0 8px" }}>
             Packaging Project Details
@@ -132,21 +131,21 @@ export default function RequestAQuotePage() {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Full Name <span style={{ color: "#cc4444" }}>*</span></span>
-                  <input name="name" type="text" required placeholder="Your name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="name" autoComplete="name" type="text" required placeholder="Your name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Business Email <span style={{ color: "#cc4444" }}>*</span></span>
-                  <input name="email" type="email" required placeholder="you@company.com" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="email" autoComplete="email" type="email" required placeholder="you@company.com" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Company / Brand</span>
-                  <input name="company" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="company" autoComplete="organization" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Country <span style={{ color: "#cc4444" }}>*</span></span>
-                  <input name="country" type="text" required placeholder="e.g. United States" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="country" autoComplete="country-name" type="text" required placeholder="e.g. United States" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
               </div>
             </fieldset>
@@ -168,6 +167,7 @@ export default function RequestAQuotePage() {
                     <option value="Corrugated Box">Corrugated Box</option><option value="Paper Bag">Paper Bag</option>
                     <option value="Custom Insert">Custom Insert</option>
                     <option value="Gift Box Set">Gift Box Set</option>
+                    <option value="Not sure - recommendation requested">Not sure — please recommend</option>
                     <option value="Other">Other</option>
                   </select>
                 </label>
@@ -175,6 +175,8 @@ export default function RequestAQuotePage() {
                   <span>Estimated Quantity <span style={{ color: "#cc4444" }}>*</span></span>
                   <select name="quantity" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
                     <option value="">Select quantity</option>
+                    <option value="Not sure - planning stage">Not sure yet — planning stage</option>
+                    <option value="Below 500 - feasibility review">Below 500 — feasibility review needed</option>
                     <option value="500-999">500–999</option>
                     <option value="1,000-2,999">1,000–2,999</option>
                     <option value="3,000-4,999">3,000–4,999</option>
@@ -185,7 +187,7 @@ export default function RequestAQuotePage() {
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
-                  <span>Box Dimensions (L × W × H)</span>
+                  <span>Finished Internal Box Dimensions (L × W × H)</span>
                   <input name="boxDimensions" type="text" placeholder="e.g. 200 × 150 × 80 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
@@ -207,9 +209,10 @@ export default function RequestAQuotePage() {
                 <textarea name="message" rows={5} placeholder="Describe your packaging project: materials, finishes, insert requirements, target delivery date, budget range." style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", resize: "vertical" }} />
               </label>
               <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
-                <span>Attach Artwork or Reference Files</span>
+                <span>Reference image or artwork link (optional)</span>
+                <input name="artwork_url" type="url" placeholder="https://…" maxLength={2000} style={{padding:"11px 14px",border:"1px solid #d0c9b8",borderRadius:6}}/>
                 <small style={{ fontSize: "12px", color: "#5f6961", lineHeight: 1.6 }}>
-                  Please email artwork and reference files to{" "}
+                  Share a viewable file link, or email artwork and reference files to{" "}
                   <a href="mailto:info@mttpackaging.com" style={{ fontWeight: 700, color: "#172019" }}>info@mttpackaging.com</a>
                   {" "}after submitting this form.
                 </small>

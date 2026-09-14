@@ -1,0 +1,27 @@
+{
+  "lighthouse_local_mobile_single_run": {
+    "/request-a-quote/": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "/products/custom-skincare-duo-auto-bottom/": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "/tools/box-size-calculator/": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    }
+  },
+  "static_pages_checked": 494,
+  "products_checked": 434,
+  "indexnow_preview_changed_urls": 435,
+  "indexnow_preview_status": "preview",
+  "real_enquiries_sent_during_tests": 0
+}
