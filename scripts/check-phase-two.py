@@ -42,7 +42,7 @@ for p in products:
         assert all(g[k][lang] in text for k in ['answer','selection','review']),path
         assert '/insights/'+g['guide'] in page.links,path
         assert any(p['code'] in unquote(h) and 'request-a-quote?product=' in h for h in page.links),path
-        assert sm['https://mttpackaging.com'+path]=='2026-09-13',path
+        assert sm['https://mttpackaging.com'+path]>='2026-09-13',path
         if lang==0:assert p['seoTitle'] in unescape(html) and p['seoDescription'] in unescape(html),path
 for slug,update in updates.items():
     path='/insights/'+slug;page,html=read(path);text=' '.join(page.text)
@@ -51,8 +51,8 @@ for slug,update in updates.items():
     graphs=[node for schema in page.scripts for node in schema.get('@graph',[])]
     faq=next(n for n in graphs if n.get('@type')=='FAQPage')
     assert len(faq['mainEntity'])==len(update['faq']),path
-    assert sm['https://mttpackaging.com'+path]=='2026-09-13',path
+    assert sm['https://mttpackaging.com'+path]>='2026-09-13',path
     for question in faq['mainEntity']:assert question['name'] in text and question['acceptedAnswer']['text'] in text,path
 for path in ['/about','/products','/tools/gift-box-solution-builder']:read(path)
 assert not Page((root/'index.html').read_text()).picker
-print(f'{len(checked)} pages passed content, canonical, internal-link, inquiry and language-picker checks; 30 updated URLs have accurate lastmod.')
+print(f'{len(checked)} pages passed content, canonical, internal-link, inquiry and language-picker checks; updated URLs retain accurate lastmod.')

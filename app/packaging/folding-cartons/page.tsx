@@ -1,3 +1,4 @@
+import BuyerPlanning from "../../../components/BuyerPlanning";
 import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
 import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
 import type { Metadata } from "next";
@@ -78,11 +79,12 @@ export default function FoldingCartonsPage() {
           ))}
         </div>
       </section>
+      <BuyerPlanning kind="carton" />
       <section className="brief-list">
         <div><p className="section-kicker">Request a quote</p><h2>Send these details for a focused review.</h2></div>
         <ol>{["Finished internal dimensions (L × W × H in mm)", "Product weight", "Preferred carton style", "Print colors and finishes", "Quantity and delivery country"].map((l, i) => (<li key={l}><b>0{i + 1}</b>{l}</li>))}</ol>
       </section>
-      <section style={{ padding: "100px 12vw", display: "grid", gridTemplateColumns: ".72fr 1.28fr", gap: "8vw", borderTop: "1px solid rgba(23,32,25,.17)" }}>
+      <section className="buyer-faq">
         <div><p className="section-kicker">Buyer questions</p><h2 style={{ font: "400 clamp(38px,4.5vw,64px)/1 Georgia", margin: 0 }}>Common questions.</h2></div>
         <div>{faqs.map(([q, a], i) => (<details key={q} open={i === 0} style={{ borderTop: "1px solid rgba(23,32,25,.17)", padding: "24px 0" }}><summary style={{ cursor: "pointer", listStyle: "none", font: "600 19px/1 Arial,Helvetica,sans-serif", display: "flex", justifyContent: "space-between" }}>{q}<span style={{ fontSize: "24px" }}>+</span></summary><p style={{ maxWidth: "650px", lineHeight: 1.7, color: "#667168", fontSize: "14px", marginTop: "12px" }}>{a}</p></details>))}</div>
       </section>
