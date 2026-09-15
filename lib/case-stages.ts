@@ -1,5 +1,21 @@
-export const caseStages: Record<string,{id:string;image:string;captions:string[]}> = {
-  "packaging-inserts-for-handmade-glass-products": {
+export const caseStages: Record<string,{id:string;image:string;captions:string[];viewTitles?:string[]}> = {
+
+"hexagonal-rigid-gift-box-structure-analysis":{
+  "id": "hexagon",
+  "image": "/design/case-stages/hexagon-box-v2.webp",
+  "captions": [
+    "The closed rigid box has six equal sides and a separate lift-off lid.",
+    "The lid sits completely apart from the base, exposing the ivory insert.",
+    "The empty insert shows one circular cavity and its surrounding support.",
+    "Inspect the wrapped corner, foil border and paper surface on a physical sample."
+  ],
+  "viewTitles": [
+    "Closed packaging",
+    "Opening & fit",
+    "Insert & construction",
+    "Material detail"
+  ]
+},  "packaging-inserts-for-handmade-glass-products": {
     "id": "glass",
     "image": "/design/case-stages/glass.webp",
     "captions": [
@@ -9,54 +25,68 @@ export const caseStages: Record<string,{id:string;image:string;captions:string[]
       "Review the vase, insert and outer box together; confirm transport protection separately."
     ]
   },
-  "fold-flat-triangular-gift-box-shipping-volume": {
-    "id": "triangle",
-    "image": "/design/case-stages/triangle.webp",
-    "captions": [
-      "Compare the assembled presentation volume with a fold-flat direction.",
-      "Explore a triangular opening direction; exact panel connections require an engineered drawing.",
-      "Check fold behaviour, paper grain and decoration placement with the converter.",
-      "Confirm the assembled shape, packing steps and carton utilization using samples."
-    ]
-  },
   "fragrance-packaging-brand-pattern-analysis": {
     "id": "fragrance",
-    "image": "/design/case-stages/fragrance.webp",
+    "image": "/design/case-stages/fragrance-box-v2.webp",
     "captions": [
-      "Choose the bottle and visual focal point before filling every surface with decoration.",
-      "Explore an attached-lid box with a dedicated cavity and practical bottle removal.",
-      "Compare restrained pattern printing and foil on the actual wrapping paper.",
-      "Review the bottle, insert and presentation box as a coordinated set."
+      "A two-piece rigid perfume box with a separate lift-off lid.",
+      "The detached lid sits beside the base; the bottle is supported by one fitted cavity.",
+      "The same empty insert shows the cavity and finger access without the bottle obscuring them.",
+      "Review the wrapped corner, paper texture and lining on a physical sample."
+    ],
+    "viewTitles": [
+      "Closed packaging",
+      "Opening & fit",
+      "Insert & construction",
+      "Material detail"
     ]
   },
   "skincare-packaging-series-analysis": {
     "id": "skincare",
-    "image": "/design/case-stages/skincare.webp",
+    "image": "/design/case-stages/skincare-box-v2.webp",
     "captions": [
-      "List each bottle, jar and tube with its actual dimensions and artwork version.",
-      "Give each product its own compartment and preserve access to pumps and lids.",
-      "Repeat paper tone and graphic details while keeping product variants recognizable.",
-      "Approve the whole collection together, including fit and colour consistency."
+      "A lift-off rigid gift box with a coordinated wrapping paper.",
+      "The lid is completely separate from the three-product base.",
+      "Three matching cavities organize the bottle, jar and tube.",
+      "Inspect the lid overlap, wrapped edges and surface finish."
+    ],
+    "viewTitles": [
+      "Closed packaging",
+      "Opening & fit",
+      "Insert & construction",
+      "Material detail"
     ]
   },
   "jewelry-packaging-repeat-use-analysis": {
     "id": "jewelry",
-    "image": "/design/case-stages/jewelry.webp",
+    "image": "/design/case-stages/jewelry-box-v2.webp",
     "captions": [
-      "Plan ring and necklace retention separately; their shapes and handling needs differ.",
-      "Explore a ring slot and a necklace tray with deliberate attachment points.",
-      "Review lining edges and surface contact using the intended jewelry finish.",
-      "Check repeated opening and product removal with fully lined physical samples."
+      "A two-piece rigid necklace box; lid and base separate for opening.",
+      "A small necklace illustrates the retention tabs and removable lined insert.",
+      "The empty insert makes the retention points and usable space visible.",
+      "Check the purple wrapping paper and suede-lined corner together."
+    ],
+    "viewTitles": [
+      "Closed packaging",
+      "Opening & fit",
+      "Insert & construction",
+      "Material detail"
     ]
   },
   "tea-gift-box-drawer-analysis": {
     "id": "tea",
-    "image": "/design/case-stages/tea.webp",
+    "image": "/design/case-stages/tea-box-v2.webp",
     "captions": [
-      "Define the assortment: tins, sealed packets and information cards.",
-      "Use a divided drawer to organize the contents and make removal straightforward.",
-      "Check the paper wrap, drawer clearance and strength of the ribbon pull.",
-      "Review the filled gift set; freshness protection belongs to the sealed primary pack."
+      "The teal drawer front remains visible when closed inside the yellow sleeve.",
+      "The same drawer slides straight out; the sleeve stays intact.",
+      "A hollow sleeve and separate three-compartment tray show the two-part construction.",
+      "Check the ribbon attachment, front-panel fit and wrapped sleeve edge."
+    ],
+    "viewTitles": [
+      "Closed packaging",
+      "Opening & fit",
+      "Insert & construction",
+      "Material detail"
     ]
   },
   "electronics-paperboard-insert-analysis": {

@@ -25,7 +25,7 @@ export const customerProblemArticles = [
   },
   {
     slug: 'fold-flat-triangular-gift-box-shipping-volume', number: '02', angle: 'Case Study',
-    image: "/design/triangular-editorial.webp", imageAlt: "Concept: triangular prism carton beside a flat folding blank",
+    image: "/design/case-stages/triangle-closed-v2.webp", imageAlt: "Closed triangular-prism folding carton with coral and blue printed paper",
     seoTitle: 'Fold-Flat Gift Box Design to Reduce Shipping Volume | Case Study',
     title: 'Reducing Shipping Volume with a Fold-Flat Triangular Gift Box Structure',
     summary: 'An anonymized structural case study comparing a pre-assembled triangular presentation box with a one-piece fold-flat direction for freight, storage and packing efficiency.',

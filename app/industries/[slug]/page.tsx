@@ -103,6 +103,7 @@ export default async function IndustryPage({
           {item.structures.map(([title, copy], i) => (
             <article key={title}>
               <b>0{i + 1}</b>
+              {item.structureImages?.[i] && <img src={item.structureImages[i]} alt={`${title} — packaging structure example`} width="720" height="720" loading="lazy" decoding="async" style={{display:"block",width:"100%",height:"auto",marginTop:18}}/>}
               <h3>{title}</h3>
               <p>{copy}</p>
             </article>

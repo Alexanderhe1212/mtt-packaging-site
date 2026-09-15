@@ -7,6 +7,7 @@ export type Industry = {
   imageAlt: string;
   products: string[];
   structures: Array<[string, string]>;
+  structureImages?: string[];
   priorities: Array<[string, string]>;
   brief: string[];
   faq: Array<[string, string]>;
@@ -14,6 +15,7 @@ export type Industry = {
 
 export const industries: Industry[] = [
   {
+    structureImages: ["/design/industry-structures/perfume-shoulder.webp", "/design/rigid-structures/magnetic.webp", "/products/mtt-r0101-0.webp", "/products/mtt-r0102-0.webp"],
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
     image: "/design/fragrance-premium.webp", imageAlt: "Concept: premium fragrance rigid box and three-vial discovery set with fitted inserts",
     title: 'Custom perfume boxes that protect the bottle and stage the reveal.',
@@ -25,6 +27,7 @@ export const industries: Industry[] = [
     faq: [['Which insert works best for glass perfume bottles?', 'The right choice depends on bottle weight, tolerance, presentation and sustainability target. Compare paperboard, molded pulp and foam on a physical sample. Retention, surface contact and local recycling compatibility depend on the selected construction.'], ['Can you package a perfume discovery set?', 'Yes. Share the vial dimensions, count and preferred sequence so the tray spacing, finger access and lid clearance can be evaluated.']],
   },
   {
+    structureImages: ["/products/mtt-r0103-0.webp", "/products/mtt-c0104-0.webp", "/products/mtt-r0112-0.webp", "/products/mtt-r0106-0.webp"],
     slug: 'cosmetics-skincare-packaging', eyebrow: 'Cosmetics & skincare',
     image: "/design/cosmetics-editorial.webp", imageAlt: "Concept: skincare bottle, jar and tube in a fitted presentation box",
     title: 'Premium cosmetics packaging built for delicate finishes and mixed formats.',
@@ -36,6 +39,7 @@ export const industries: Industry[] = [
     faq: [['Can one box hold several skincare SKUs?', 'Yes. A common outer box can use a purpose-built insert for the chosen assortment, provided each product dimension, weight and orientation is confirmed.'], ['Should I choose a rigid box or folding carton?', 'Rigid boxes suit high-impact gifting and launches. Folding cartons are usually more space-efficient for individual retail products. Budget, volume and distribution determine the better choice.']],
   },
   {
+    structureImages: ["/products/mtt-r0413-0.webp", "/products/mtt-r0402-0.webp", "/products/mtt-r0401-0.webp", "/design/industry-structures/jewelry-sleeve.webp"],
     slug: 'jewelry-watch-packaging', eyebrow: 'Jewelry & watches',
     image: "/design/jewelry-editorial.webp", imageAlt: "Concept: ring in a suede-lined hinged jewelry box",
     title: 'Jewelry and watch boxes with precise presentation at a small scale.',
@@ -47,6 +51,7 @@ export const industries: Industry[] = [
     faq: [['Can the insert be fabric covered?', 'Yes. Fabric-covered foam or paper-based platforms can be developed depending on the desired feel, product contact and sustainability requirements.'], ['Can several jewelry box sizes share one visual system?', 'Yes. A coordinated family can use consistent wrap papers, logo position and proportions while adapting the insert and internal dimensions.']],
   },
   {
+    structureImages: ["/products/mtt-r0603-0.webp", "/products/mtt-r0602-0.webp", "/products/mtt-r0601-0.webp", "/design/rigid-structures/fold-flat.webp"],
     slug: 'gift-set-pr-kit-packaging', eyebrow: 'Gift sets & PR kits',
     image: "/design/giftset-editorial.webp", imageAlt: "Concept: coordinated products in a fitted gift presentation box",
     title: 'Presentation packaging that guides a multi-product unboxing story.',

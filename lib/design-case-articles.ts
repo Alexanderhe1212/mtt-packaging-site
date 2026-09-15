@@ -1,4 +1,43 @@
 export const designCaseArticles = [
+{
+  "slug": "hexagonal-rigid-gift-box-structure-analysis",
+  "number": "17",
+  "angle": "Design Analysis",
+  "category": "Gift packaging",
+  "image": "/design/case-stages/hexagon-box-v2.webp",
+  "imageAlt": "Coral hexagonal rigid gift box with separate lid and ivory insert",
+  "title": "Hexagonal Rigid Gift Boxes: Lid Fit, Inserts and Wrapped Corners",
+  "summary": "Make a distinctive six-sided gift box practical to open and pack. Compare the separate lid, fitted insert and wrapped corners before approving decoration.",
+  "intro": "This packaging design review focuses on a two-piece hexagonal rigid box. The lid lifts away completely; it is not a hinged or folding-carton structure.",
+  "datePublished": "2026-09-15",
+  "dateModified": "2026-09-15",
+  "sections": [
+    [
+      "Choose the opening first",
+      "Use a separate six-sided lid over a matching rigid base. Keep the lid and base clearly separated in opening images so buyers can understand the mechanism. A regular hexagon needs six matching sides; decoration must follow the same corners in every view."
+    ],
+    [
+      "Make the insert fit the gift",
+      "The ivory insert shown has one circular recess for a round item such as a candle vessel. Confirm the actual product diameter, height and filled weight before sizing that recess. Leave practical finger access and check that the lid clears the product. Different contents require a different insert."
+    ],
+    [
+      "Balance bold colour and material detail",
+      "Coral wrapping paper and a restrained metallic border give the box a strong identity. Keep foil away from areas where wrapping or tight folds could distort it. Review paper, foil registration, corner overlaps and the insert lining together on a physical sample."
+    ],
+    [
+      "What should buyers check on a sample?",
+      "Open and close the lid several times, inspect all six corners and check whether the insert stays seated during product removal. Confirm that the box sits flat and the lid does not catch on the base. Evaluate shipping protection with the complete packed set and its outer shipping carton."
+    ],
+    [
+      "Prepare the quotation brief",
+      "Send product measurements, packed weight, quantities, preferred paper and finish, destination and any accessory requirements. <a href=\"/packaging/custom-rigid-boxes\">Compare rigid box structures</a> or <a href=\"/request-a-quote\">request a packaging quotation</a>."
+    ],
+    [
+      "About the images",
+      "These generated packaging views illustrate the structure discussed here. They are not photographs of a completed customer order; final fit and production details require a physical sample."
+    ]
+  ]
+},
   {
     "slug": "fragrance-packaging-brand-pattern-analysis",
     "number": "03",
