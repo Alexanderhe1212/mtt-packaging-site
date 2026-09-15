@@ -5,6 +5,8 @@ import sharp from 'sharp';
 const products=(await Promise.all(['lib/products.json','lib/products-expanded.json'].map(async p=>JSON.parse(await fs.readFile(p,'utf8'))))).flat();
 let originalBytes=0,thumbnailBytes=0;
 for(const p of products){
+ const card='dist/client/products/cards/'+path.basename(p.image.replace('.webp','-0.webp'));
+ assert((await sharp(card).metadata()).width===320);
  for(let i=0;i<5;i++){
   const name=path.basename(p.image.replace('.webp',`-${i}.webp`));
   const original='dist/client/products/'+name,thumb='dist/client/products/thumbs/'+name;

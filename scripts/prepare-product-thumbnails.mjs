@@ -14,3 +14,12 @@ for(const p of products) for(let view=0;view<5;view++){
  count++;
 }
 console.log(`${count} product thumbnails prepared; full-size originals preserved.`);
+
+await fs.mkdir('public/products/cards',{recursive:true});
+for(const p of products){
+ const source='public'+p.image.replace('.webp','-0.webp');
+ const target='public/products/cards/'+path.basename(source);
+ const input=await fs.stat(source),output=await fs.stat(target).catch(()=>null);
+ if(!output||input.mtimeMs>output.mtimeMs||(await sharp(target).metadata()).width!==320)await sharp(source).resize({width:320,height:320,fit:'inside',withoutEnlargement:true}).webp({quality:85}).toFile(target);
+}
+console.log(`${products.length} responsive catalogue images prepared.`);

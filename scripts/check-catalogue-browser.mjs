@@ -17,6 +17,7 @@ try {
   await page.setViewport({width,height:900});
   for(const path of ['/products/','/zh/products/']) {
    await page.goto(base+path,{waitUntil:'networkidle0'});
+   assert(await page.$eval('.product-card img',e=>e.srcset.includes('320w')&&e.srcset.includes('500w')));
    if(await page.$('.cookie-btn-reject'))await page.click('.cookie-btn-reject');
    assert.equal(await page.$eval('.packaging-comparison',e=>e.open),false);
    await page.click('.packaging-comparison summary');
@@ -55,6 +56,10 @@ try {
   assert.equal(audit.violations.length,0,JSON.stringify(results.at(-1)));
   const link=await page.$eval('.product-detail a[href*="request-a-quote"]',e=>e.href);
   const url=new URL(link);assert.equal(url.searchParams.get('product_family'),family);
+  const back=await page.$eval('.catalogue-shell>a',e=>e.href);
+  assert.equal(new URL(back).searchParams.get('family'),family);
+  await page.goto(back,{waitUntil:'networkidle0'});
+  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.family===family).length);
  }
  assert.deepEqual(errors,[]);
 } finally {await browser.close();fs.mkdirSync('work/growth',{recursive:true});fs.writeFileSync('work/growth/v12-browser.json',JSON.stringify({results,errors},null,2));}
