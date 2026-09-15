@@ -134,7 +134,7 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 .article-design-grid a{display:block;padding:8px 0}.article-design-grid a:last-child{min-height:44px;text-decoration:underline}
 .article-related>h2{font-size:28px;line-height:1.3;margin-bottom:24px}
 @media(max-width:900px){.article-decisions,.article-designs{margin:0 24px 32px;padding:20px}.article-design-grid{grid-template-columns:1fr}.article-contents ol{columns:1}}
-@media(max-width:560px){.article-body section{grid-template-columns:1fr;gap:12px}.article-designs .button{white-space:normal}.article-contents a{overflow-wrap:anywhere}}
+@media(max-width:560px){.article-body > .article-numbered-section{grid-template-columns:minmax(0,1fr);gap:12px}.article-designs .button{white-space:normal}.article-contents a{overflow-wrap:anywhere}}
 .article-designs>h2{font:400 32px/1.2 Georgia,serif;margin:16px 0}.article-designs .section-kicker{margin-top:0}
 @media(max-width:560px){.article-designs>h2{font-size:28px}}
 
@@ -170,3 +170,11 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 .fold-flat-view-link{margin:12px auto 20px;max-width:560px;text-align:center}.fold-flat-view-link button{min-height:44px;padding:10px 18px;border:1px solid #244438;border-radius:6px;background:#244438;color:white;font:inherit;cursor:pointer}.fold-flat-view-link p{font-size:13px!important;line-height:1.5;color:#57615a}.fold-flat-view-link button:focus-visible{outline:3px solid #b99c5e;outline-offset:3px}
 
 .article-page aside .article-brief-details { font-size: 16px; line-height: 1.65; letter-spacing: normal; text-transform: none; max-width: 68ch; margin: 16px 0 24px; }
+
+/* Buyer guidance must retain readable columns on smaller screens. */
+.buyer-faq-layout{padding:64px 8vw;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:6vw}
+.ppwr-page .industry-priorities>div:last-child{display:block}
+.ppwr-page .ppwr-grid,.ppwr-page .industry-priorities>.ppwr-grid:last-child{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.ppwr-page .industry-priorities>.ppwr-grid-three:last-child{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ppwr-timeline-row{display:grid;grid-template-columns:140px minmax(0,1fr);gap:24px;padding:20px 0;border-bottom:1px solid #ffffff33}
+@media(max-width:850px){.buyer-faq-layout{padding:40px 24px;grid-template-columns:minmax(0,1fr);gap:28px}.ppwr-page .ppwr-grid,.ppwr-page .industry-priorities>.ppwr-grid:last-child{grid-template-columns:minmax(0,1fr)}.ppwr-timeline-row{grid-template-columns:minmax(0,1fr);gap:10px}}

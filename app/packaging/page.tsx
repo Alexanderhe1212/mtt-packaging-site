@@ -240,7 +240,7 @@ export default function PackagingPage() {
       </section>
 
       {/* FAQ */}
-      <section style={{ padding: "100px 8vw", display: "grid", gridTemplateColumns: ".8fr 1.2fr", gap: "10vw" }}>
+      <section className="buyer-faq-layout">
         <div>
           <p className="section-kicker">Buyer questions</p>
           <h2 style={{ font: "400 clamp(42px,5.5vw,80px)/1 Georgia,serif", letterSpacing: "-.04em", margin: 0 }}>

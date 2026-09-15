@@ -65,7 +65,7 @@ const structuredData = {
 
 export default function PPWRPage() {
   return (
-    <main id="main-content">
+    <main id="main-content" className="ppwr-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -161,7 +161,7 @@ export default function PPWRPage() {
           <p className="section-kicker light">Our approach</p>
           <h2>How MTT Supports PPWR-Ready Packaging Projects</h2>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "20px" }}>
+        <div className="ppwr-grid ppwr-grid-three">
           {[
             ["Material Identification", "We document the main materials used in the packaging, including paperboard, greyboard, specialty paper, coatings, foils, adhesives, magnets, plastics, fabrics and other components where applicable."],
             ["Component Breakdown", "Complex packaging can be separated into individual components so customers can understand how the box, insert, decorative elements and functional parts are constructed."],
@@ -191,7 +191,7 @@ export default function PPWRPage() {
             assessment. MTT can support customers with manufacturing-side
             information relevant to the packaging projects we coordinate.
           </p>
-          <ul style={{ listStyle: "none", padding: 0, margin: "24px 0", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
+          <ul className="ppwr-grid" style={{ listStyle: "none", padding: 0, margin: "24px 0" }}>
             {[
               "Packaging description",
               "Material composition",
@@ -254,7 +254,7 @@ export default function PPWRPage() {
           <p className="section-kicker">Requirements</p>
           <h2>Information Commonly Needed for PPWR Technical Documentation</h2>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
+        <div className="ppwr-grid">
           {[
             "Packaging identification",
             "Intended packaging use",
@@ -281,7 +281,7 @@ export default function PPWRPage() {
           <p className="section-kicker light">Packaging types</p>
           <h2>Packaging Types We Support for EU Projects</h2>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+        <div className="ppwr-grid">
           {[
             ["Custom Rigid Boxes", "Premium rigid packaging for fragrance, cosmetics, jewelry and gift products, with custom structures, finishes and inserts.", "/packaging/custom-rigid-boxes", "Explore Custom Rigid Boxes"],
             ["Folding Cartons", "Lightweight paperboard packaging for retail products where efficient material use, printing flexibility and compact shipping are important.", "/packaging/folding-cartons", "Explore Folding Cartons"],
@@ -303,7 +303,7 @@ export default function PPWRPage() {
           <p className="section-kicker">Industries</p>
           <h2>PPWR Support for Premium Product Categories</h2>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+        <div className="ppwr-grid">
           {[
             ["Perfume & Fragrance Packaging", "/industries/perfume-fragrance-packaging"],
             ["Cosmetics & Skincare Packaging", "/industries/cosmetics-skincare-packaging"],
@@ -329,7 +329,7 @@ export default function PPWRPage() {
             ["12 August 2026", "The PPWR began applying across the EU on a phased basis."],
             ["2030 and later", "Important additional requirements and milestones apply later, including detailed measures relating to packaging recyclability, recycled plastic content, packaging minimisation, reuse and certain packaging restrictions."],
           ].map(([year, desc]) => (
-            <div key={year} style={{ display: "grid", gridTemplateColumns: "140px 1fr", gap: "24px", padding: "20px 0", borderBottom: "1px solid rgba(255,255,255,.2)" }}>
+            <div className="ppwr-timeline-row" key={year}>
               <b style={{ color: "#d6ee73", fontSize: "16px" }}>{year}</b>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: "#bac5bc", margin: 0 }}>{desc}</p>
             </div>
@@ -343,7 +343,7 @@ export default function PPWRPage() {
       </section>
 
       {/* FAQ */}
-      <section style={{ padding: "100px 12vw", display: "grid", gridTemplateColumns: ".72fr 1.28fr", gap: "8vw", borderTop: "1px solid rgba(23,32,25,.17)" }}>
+      <section className="buyer-faq-layout">
         <div>
           <p className="section-kicker">FAQ</p>
           <h2 style={{ font: "400 clamp(38px,4.5vw,64px)/1 Georgia", margin: 0 }}>

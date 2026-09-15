@@ -16,7 +16,8 @@
     "audit:enquiry": "node scripts/check-quote-browser.mjs",
     "audit:guides": "node scripts/check-guide-browser.mjs",
     "audit:links": "sh scripts/audit-links.sh",
-    "audit:catalogue": "node scripts/check-catalogue-browser.mjs"
+    "audit:catalogue": "node scripts/check-catalogue-browser.mjs",
+    "check:article-layout": "node scripts/check-article-layout.mjs"
   },
   "dependencies": {
     "i18next": "^26.4.2",

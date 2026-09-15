@@ -105,7 +105,7 @@ export default async function InsightPage({
       </div>
       <CaseStages slug={article.slug}/><div className="article-body">
         {article.sections.map(([title, copy], index) => (
-          <section key={title} id={`guide-section-${index+1}`} tabIndex={-1}>
+          <section className="article-numbered-section" key={title} id={`guide-section-${index+1}`} tabIndex={-1}>
             <b>0{index + 1}</b>
             <div>
               <h2>{title}</h2>
