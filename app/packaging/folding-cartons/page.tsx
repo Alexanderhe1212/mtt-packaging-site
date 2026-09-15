@@ -68,16 +68,16 @@ export default function FoldingCartonsPage() {
         </div>
         <div className="structure-list">
           {[
-            ["Straight tuck end (STE)", "Top and bottom tuck flaps hinge from the same panel. Compare the side profile: the two gold hinge points are on the same side.", "straight-tuck"],
-            ["Reverse tuck end (RTE)", "Top and bottom tuck flaps hinge from opposite panels. The gold hinge points show this difference; packing-line compatibility needs review.", "reverse-tuck"],
-            ["Auto-bottom / crash-lock", "Pre-glued bottom panels open into position as the carton is squared. The base sketch highlights the interlocking folds; confirm load and assembly with a sample.", "auto-bottom"],
+            ["Straight tuck end (STE)", "Top and bottom tuck flaps hinge from the same panel. Both ends open from the same side of the carton.", "straight-tuck"],
+            ["Reverse tuck end (RTE)", "Top and bottom tuck flaps hinge from opposite panels. The opposing tuck directions distinguish this structure; packing-line compatibility needs review.", "reverse-tuck"],
+            ["Auto-bottom / crash-lock", "Pre-glued bottom panels open into position as the carton is squared. The underside view shows the bottom closure; confirm load and assembly with a sample.", "auto-bottom"],
             ["Paperboard sleeve and tray", "An inner paperboard tray slides out of a separate outer sleeve. This is a folding-carton construction, not a wrapped rigid drawer box.", "sleeve-tray"],
             ["Window carton", "A die-cut opening reveals the product. Optional transparent film and the underlying closure style are specified separately.", "window"],
             ["Hang-tab carton", "An extended panel with a hanging slot supports retail peg display. Confirm hook fit, product weight and board strength.", "hanging-tab"],
           ].map(([t, d, image], i) => (
-            <article key={t}><img src={`/design/carton-structures/${image}.svg`} alt={`${t}: ${d}`} width="480" height="340" loading="lazy" style={{display:'block',width:'100%',height:'auto',marginBottom:20}}/><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
+            <article key={t}><img src={`/design/carton-structures/${image}.webp`} alt={`${t}: ${d}`} width="512" height="512" loading="lazy" style={{display:'block',width:'100%',height:'auto',marginBottom:20}}/><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
           ))}
-          <p>Structure illustrations explain opening principles, not production dielines. Straight and reverse tuck are shown in side profile; final dimensions, glue areas and locking details require engineering review.</p>
+          <p>Product renderings illustrate the carton styles. Final flap geometry, glue areas, dimensions and locking details are confirmed through engineering drawings and physical samples.</p>
         </div>
       </section>
       <section className="industry-priorities">
