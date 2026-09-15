@@ -1,5 +1,4 @@
 import VisualCaseLink from "../components/VisualCaseLink";
-import Link from 'next/link';
 import QuoteForm from '../components/QuoteForm';
 import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
@@ -47,7 +46,7 @@ export default function Home() {
         <p className="ed-eyebrow">MTT Packaging · China</p>
         <h1>Custom rigid boxes.<br/>Made around<br/>your product.</h1>
         <p className="ed-lead">Premium gift boxes, fitted inserts and matching paper bags. Develop your complete packaging set with MTT.</p>
-        <div className="ed-actions"><Link className="button" href="/products">Explore Box Designs <span aria-hidden="true">→</span></Link><a className="ed-text-link" href="/request-a-quote">Request a Quote</a></div>
+        <div className="ed-actions"><a className="button" href="/products">Explore Box Designs <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/request-a-quote">Request a Quote</a></div>
       </div>
       <img className="ed-hero-image" src="/design/home-v4/hero.webp" srcSet="/design/home-v4/hero-480.webp 480w, /design/home-v4/hero-800.webp 800w, /design/home-v4/hero.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Burgundy rigid drawer perfume box with a saffron tray, fitted bottles, matching paper bag, ribbon and gift card" width="1448" height="1086" fetchPriority="high" />
     </section>
@@ -151,7 +150,7 @@ export default function Home() {
         <p className="hp-kicker">Commercial Information</p>
         <div className="hp-trust-items">
           {[
-            ['500 pcs', 'Minimum Order Quantity'],
+            ['Tailored', 'MOQ by specification'],
             ['Physical sample', 'Before production commitment'],
             ['Custom engineering', 'Structure, insert, material'],
             ['Worldwide shipping', 'Export packing and logistics'],
@@ -188,7 +187,7 @@ export default function Home() {
           <div className="hp-quote-trust">
             <span>✓ Free consultation</span>
             <span>✓ Physical sample before production</span>
-            <span>✓ MOQ from 500 pcs</span>
+            <span>✓ MOQ confirmed by specification</span>
           </div>
         </div>
         <div className="hp-quote-form hp-reveal">
