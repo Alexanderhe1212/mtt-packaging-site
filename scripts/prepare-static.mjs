@@ -7,6 +7,9 @@ import path from 'node:path';
 const server = await createServer({ configFile: false, server: { middlewareMode: true }, appType: 'custom' });
 try {
   const { default: sitemap } = await server.ssrLoadModule('/app/sitemap.ts');
+  const { discoveryText } = await server.ssrLoadModule('/lib/discovery.ts');
+  await writeFile('public/llms.txt', discoveryText());
+  await writeFile('dist/client/llms.txt', discoveryText());
   const { default: manifest } = await server.ssrLoadModule('/app/manifest.ts');
   await writeFile('dist/client/manifest.webmanifest', JSON.stringify(manifest()));
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');

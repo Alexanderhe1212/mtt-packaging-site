@@ -162,6 +162,12 @@ export default function Home() {
       </div>
     </section>
 
+    <section className="home-buyer-faq" aria-labelledby="buyer-questions">
+      <header><p className="hp-kicker">Planning your packaging</p><h2 id="buyer-questions">Before you start.</h2><p>Practical answers before requesting your custom packaging quote.</p></header>
+      <div>{faqs.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div>
+      <a className="ed-text-link" href="/request-a-quote">Discuss your packaging brief →</a>
+    </section>
+
     {/* SECTION 8 — START A PROJECT */}
     <section className="hp-quote" id="quote">
       <div className="hp-quote-grid">

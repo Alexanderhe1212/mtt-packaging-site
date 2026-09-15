@@ -1,54 +1,61 @@
 # MTT Packaging
-> High-end custom packaging for premium brands, corporate gifting and product projects, personally handled by Hugo He.
+
+> MTT Packaging is a custom packaging development and manufacturing partner in China, coordinating rigid boxes, folding cartons, corrugated packaging, paper bags and custom inserts for international brands.
 
 ## Contact
-- Brand: MTT Packaging
-- Consultant: Hugo He
-- Website: https://mttpackaging.com
-- Email: info@mttpackaging.com
-- WhatsApp: +86 172 0711 0964 (primary contact channel for lead generation)
+Hugo He · info@mttpackaging.com · WhatsApp +86 17207110964
+Website: https://mttpackaging.com
 
-## Core services
-- Premium rigid boxes: magnetic, lift-off lid, drawer and presentation structures.
-- Corporate gift packaging for campaigns, events and business relationships.
-- Premium folding cartons with specialty papers, printing and finishes.
-- Bespoke branded paper bags.
-- Custom inserts in paper, molded pulp, EVA and fabric-covered materials.
-
-## Primary pages
-- Packaging structures: https://mttpackaging.com/packaging
-- Project process: https://mttpackaging.com/how-we-work
-- Responsible packaging: https://mttpackaging.com/sustainability
-- Packaging guides: https://mttpackaging.com/insights
-
-## Industry expertise
-- Perfume and fragrance: https://mttpackaging.com/industries/perfume-fragrance-packaging
-- Cosmetics and skincare: https://mttpackaging.com/industries/cosmetics-skincare-packaging
-- Jewelry and watches: https://mttpackaging.com/industries/jewelry-watch-packaging
-- Gift sets and PR kits: https://mttpackaging.com/industries/gift-set-pr-kit-packaging
+## Buyer paths
+- [Products](https://mttpackaging.com/products): Browse designs by industry and packaging family.
+- [Rigid boxes](https://mttpackaging.com/packaging/custom-rigid-boxes): Lift-off lids, magnetic closures, drawers and presentation structures.
+- [Folding cartons](https://mttpackaging.com/packaging/folding-cartons): Printed folding paperboard packaging.
+- [Corrugated boxes](https://mttpackaging.com/packaging/corrugated-boxes): Mailers, dividers and shipping-pack review.
+- [Paper bags](https://mttpackaging.com/packaging/custom-paper-bags): Custom handles, printing and coordinated retail bags.
+- [Custom inserts](https://mttpackaging.com/packaging/custom-inserts): Compare paperboard, molded pulp, foam and other insert options.
+- [Packaging design tool](https://mttpackaging.com/tools/gift-box-solution-builder): Choose a structure and prepare a design brief; engineering review is required.
+- [Box size calculator](https://mttpackaging.com/tools/box-size-calculator): Plan size and handling clearance before a physical sample.
+- [Request a quote](https://mttpackaging.com/request-a-quote): Send dimensions, quantity, destination and artwork or reference links.
+- [How we work](https://mttpackaging.com/how-we-work): Specification review, sampling, production and delivery.
+- [Quality control](https://mttpackaging.com/quality-control): Fit, opening, surface and packing checks.
+- [About MTT](https://mttpackaging.com/about): Business background and contact details.
+- [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
-- How to Choose the Right Custom Box Structure: https://mttpackaging.com/insights/custom-box-structure-guide
-- Packaging Material Selection for Premium Boxes: https://mttpackaging.com/insights/packaging-material-selection
-- Printing and Finishing for Luxury Packaging: https://mttpackaging.com/insights/printing-finishing-guide
-- Custom Inserts: Presentation, Fit and Product Protection: https://mttpackaging.com/insights/custom-inserts-product-protection
-- Rigid Box vs Folding Carton: Which Structure Fits Your Project: https://mttpackaging.com/insights/rigid-box-vs-folding-carton
-- Understanding Custom Packaging Costs: What Drives the Price: https://mttpackaging.com/insights/custom-packaging-cost-guide
-- A Brand Guide to Packaging Materials: Greyboard, SBS, Kraft and Corrugated: https://mttpackaging.com/insights/packaging-materials-guide
+- [Custom Wine Gift Boxes: Double-Door Structure, Inserts and Sample Checks](https://mttpackaging.com/insights/double-door-wine-gift-box-design-review)
+- [Christmas Gift Box Packaging: Four-Drawer Design and Pack-Out Checklist](https://mttpackaging.com/insights/christmas-drawer-gift-box-packout-review)
+- [How to Plan a Perfume Box and Matching Paper Bag](https://mttpackaging.com/insights/perfume-box-and-bag-packaging)
+- [Designing Packaging Inserts for Handmade Glass Products with Size Variation](https://mttpackaging.com/insights/packaging-inserts-for-handmade-glass-products)
+- [Reducing Shipping Volume with a Fold-Flat Triangular Gift Box Structure](https://mttpackaging.com/insights/fold-flat-triangular-gift-box-shipping-volume)
+- [Perfume Box Insert Design: Protecting Glass Bottles Without Ruining Presentation](https://mttpackaging.com/insights/perfume-box-insert-design)
+- [Packaging Design to Production in China: Boxes, Bags & Gift Sets](https://mttpackaging.com/insights/packaging-design-to-production-china)
+- [How to Reduce Custom Packaging Sampling Rounds Before Mass Production](https://mttpackaging.com/insights/reduce-packaging-sampling-rounds)
+- [Custom Packaging Quote Too High? 7 Ways to Reduce Cost Without Cheapening the Brand](https://mttpackaging.com/insights/reduce-custom-packaging-costs)
+- [Fragrance Packaging: Give the Brand Pattern a Clear Role](https://mttpackaging.com/insights/fragrance-packaging-brand-pattern-analysis)
+- [Skincare Packaging: Build One System Across Different Products](https://mttpackaging.com/insights/skincare-packaging-series-analysis)
+- [Jewelry Boxes: Design the Interior for Repeated Handling](https://mttpackaging.com/insights/jewelry-packaging-repeat-use-analysis)
+- [Tea Gift Boxes: Use the Opening Sequence to Organize Choice](https://mttpackaging.com/insights/tea-gift-box-drawer-analysis)
+- [Small Electronics: Separate Product Support from Accessory Storage](https://mttpackaging.com/insights/electronics-paperboard-insert-analysis)
+- [Window Cartons: Balance Product Visibility and Box Support](https://mttpackaging.com/insights/window-carton-presentation-analysis)
+- [Collector Packaging: Let Material Support the Story](https://mttpackaging.com/insights/collectors-packaging-story-material-analysis)
+- [Personalized Perfume Sets: Plan the Insert Around Every Combination](https://mttpackaging.com/insights/modular-perfume-packaging-analysis)
+- [Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton?](https://mttpackaging.com/insights/custom-box-structure-guide)
+- [Packaging Material Selection for Premium Boxes](https://mttpackaging.com/insights/packaging-material-selection)
+- [Matte, Gloss, Foil or Spot UV: Custom Packaging Finishes](https://mttpackaging.com/insights/printing-finishing-guide)
+- [Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts](https://mttpackaging.com/insights/custom-inserts-product-protection)
+- [Rigid Box vs Folding Carton vs Corrugated: How to Choose](https://mttpackaging.com/insights/rigid-box-vs-folding-carton)
+- [Understanding Custom Packaging Costs: What Drives the Price](https://mttpackaging.com/insights/custom-packaging-cost-guide)
+- [A Brand Guide to Packaging Materials: Greyboard, SBS, Kraft and Corrugated](https://mttpackaging.com/insights/packaging-materials-guide)
+- [5 Things Every Brand Should Know Before Ordering Custom Packaging](https://mttpackaging.com/insights/5-things-before-ordering-custom-packaging)
+- [Custom Packaging Brief Checklist: What to Send for a Quote](https://mttpackaging.com/insights/how-to-write-a-packaging-brief)
+- [Custom Packaging Sampling: What to Expect and How to Approve](https://mttpackaging.com/insights/custom-packaging-sampling-process)
+- [How to Reduce Shipping Costs for Custom Rigid Boxes](https://mttpackaging.com/insights/reduce-shipping-costs-rigid-boxes)
+- [PPWR Packaging Requirements 2026: What Brands Need to Know](https://mttpackaging.com/insights/ppwr-packaging-requirements)
+- [Molded Pulp Inserts for Cosmetic Packaging: Design, Protection & Materials](https://mttpackaging.com/insights/molded-pulp-inserts-cosmetic-packaging)
+- [Perfume Box Inserts: How to Protect and Present Glass Bottles](https://mttpackaging.com/insights/perfume-box-inserts)
 
-## Materials and finishes
-- Materials: rigid greyboard, specialty paper, paperboard and corrugated board.
-- Finishes: foil stamping, embossing, debossing, spot UV, textured paper and controlled color matching.
-- Protection: paper, molded pulp, EVA and fabric-covered inserts designed around the product.
+## Before requesting production pricing
+Share product length × width × height, weight, quantity, delivery country, opening preference, artwork and accessories. Distinguish product dimensions, finished internal box size and external shipping dimensions. Confirm the actual product fit and finishes with a physical sample. Sample/tooling charges and freight are confirmed separately.
 
-## Service area
-MTT Packaging supports custom packaging projects for brands and business buyers worldwide. Hugo He is the direct sales and project contact.
-
-## Quotation requirements
-Provide finished internal dimensions in L × W × H, structure, order quantity, artwork or print colors, finishes, insert material, delivery country and target budget. Photos alone are not production specifications.
-
-## Production
-Physical sampling and artwork approval are recommended before mass production. Typical custom projects start from 500–1,000 pieces, depending on structure and process.
-
-## Environmental claim policy
-MTT Packaging does not claim that every structure, material, supplier or order is automatically certified. Applicable certificates, chain-of-custody scope and transaction documents must be confirmed for the specific project before a certification mark or environmental claim is used.
+## Scope and evidence
+Most fully custom projects start from 500–1,000 pieces per design; practical quantities depend on the structure and process. Images can show custom design visualizations and are not evidence of a delivered client order. Certification, food-contact suitability and environmental claims require project-specific review and supporting documentation. The linked website pages provide the full context.

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-15",
+  "version": "11 quality extension",
+  "pages": 494,
+  "productSharePreviews": 434,
+  "directoryLinks": 44,
+  "visibleFaqAnswers": 80,
+  "lychee": {
+    "total": 33157,
+    "unique": 3623,
+    "successful": 30696,
+    "excludes": 2461,
+    "errors": 0
+  },
+  "browserViewports": [
+    390,
+    1440
+  ],
+  "indexnow": "One homepage content change; awaiting deployment receipt",
+  "limitations": [
+    "External links excluded from offline audit",
+    "No measurement of indexing, rankings, citations or enquiries"
+  ],
+  "lighthouse": {
+    "performance": 89,
+    "accessibility": 100,
+    "best-practices": 96,
+    "seo": 100
+  }
+}

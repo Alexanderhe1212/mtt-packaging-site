@@ -143,3 +143,12 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 .home-v4 .ed-product img,.home-v4 .hp-selected-fig img{height:auto;aspect-ratio:4/3;object-fit:contain}
 .mtt-editorial .home-v4 .hp-industry-img{height:auto;aspect-ratio:4/3}
 .mtt-editorial .home-v4 .hp-industry-img img{object-fit:contain}
+
+.home-buyer-faq{padding:64px 4.5%;background:#f7f4ec;color:#18372d}
+.home-buyer-faq header,.home-buyer-faq>div{max-width:1000px;margin:0 auto 24px}
+.home-buyer-faq h2{font:400 clamp(36px,4vw,56px)/1.12 Georgia,serif;margin:12px 0 20px}
+.home-buyer-faq details{border-top:1px solid #c9cec5;padding:20px 0}
+.home-buyer-faq summary{cursor:pointer;font-size:18px;font-weight:600;line-height:1.5}
+.home-buyer-faq details p{line-height:1.65;max-width:850px;color:#47584f;margin:14px 0 0}
+.home-buyer-faq>.ed-text-link{display:table;margin:0 auto}
+@media(max-width:650px){.home-buyer-faq{padding:42px 24px}}
