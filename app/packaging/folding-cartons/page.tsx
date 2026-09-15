@@ -9,7 +9,7 @@ import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 export const metadata: Metadata = {
   title: "Custom Folding Cartons | Premium Paperboard Packaging | MTT Packaging",
   description:
-    "Custom folding cartons from MTT Packaging: premium paperboard with specialty finishes, foil stamping and embossing. Typical projects start from 1,000–3,000 pieces; confirm MOQ for your specification.",
+    "Custom paperboard cartons: straight tuck end, reverse tuck end, crash-lock bottom, sleeve and tray, window and hang-tab styles. Compare closures and request a tailored quote.",
   alternates: { canonical: "/packaging/folding-cartons" },
   openGraph: {
     title: "Custom Folding Cartons | MTT Packaging",
@@ -67,9 +67,17 @@ export default function FoldingCartonsPage() {
           <h2>Paperboard cartons with controlled finishing.</h2>
         </div>
         <div className="structure-list">
-          {[["Straight tuck", "Standard retail carton with clean tuck closure."], ["Reverse tuck", "Efficient for automated packing lines."], ["Auto-bottom", "Pre-glued base that pops open for fast assembly."], ["Sleeve and tray", "A sliding reveal for premium presentation."], ["Window cutout", "Product visibility through a die-cut window."], ["Hanging tab", "For pegboard retail display."]].map(([t, d], i) => (
-            <article key={t}><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
+          {[
+            ["Straight tuck end (STE)", "Top and bottom tuck flaps hinge from the same panel. Compare the side profile: the two gold hinge points are on the same side.", "straight-tuck"],
+            ["Reverse tuck end (RTE)", "Top and bottom tuck flaps hinge from opposite panels. The gold hinge points show this difference; packing-line compatibility needs review.", "reverse-tuck"],
+            ["Auto-bottom / crash-lock", "Pre-glued bottom panels open into position as the carton is squared. The base sketch highlights the interlocking folds; confirm load and assembly with a sample.", "auto-bottom"],
+            ["Paperboard sleeve and tray", "An inner paperboard tray slides out of a separate outer sleeve. This is a folding-carton construction, not a wrapped rigid drawer box.", "sleeve-tray"],
+            ["Window carton", "A die-cut opening reveals the product. Optional transparent film and the underlying closure style are specified separately.", "window"],
+            ["Hang-tab carton", "An extended panel with a hanging slot supports retail peg display. Confirm hook fit, product weight and board strength.", "hanging-tab"],
+          ].map(([t, d, image], i) => (
+            <article key={t}><img src={`/design/carton-structures/${image}.svg`} alt={`${t}: ${d}`} width="480" height="340" loading="lazy" style={{display:'block',width:'100%',height:'auto',marginBottom:20}}/><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
           ))}
+          <p>Structure illustrations explain opening principles, not production dielines. Straight and reverse tuck are shown in side profile; final dimensions, glue areas and locking details require engineering review.</p>
         </div>
       </section>
       <section className="industry-priorities">
