@@ -44,3 +44,14 @@ Path('work/growth/quality-inputs.txt').write_text('\n'.join(files))
 print(f'{len(urls)} social metadata pages; {products} product share previews; {len(links)} discovery links; {len(errors)} errors')
 for error in errors:print(error)
 assert not errors
+
+# Buyer comparison must remain available before JavaScript, in both languages.
+for path in ['products','zh/products']:
+ html=(root/path/'index.html').read_text()
+ assert 'packaging-comparison' in html
+ for family in ['custom-rigid-boxes','folding-cartons','corrugated-boxes','custom-paper-bags']:
+  assert f'href="/packaging/{family}"' in html,(path,family)
+carton=(root/'packaging/folding-cartons/index.html').read_text()
+assert 'MOQ from 500' not in carton,'Carton minimum contradicts its visible buying guidance'
+assert '1,000–3,000' in carton
+print('Four-family comparison in EN/ZH static HTML; carton MOQ consistency passed')

@@ -9,11 +9,11 @@ import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 export const metadata: Metadata = {
   title: "Custom Folding Cartons | Premium Paperboard Packaging | MTT Packaging",
   description:
-    "Custom folding cartons from MTT Packaging: premium paperboard with specialty finishes, foil stamping and embossing. MOQ from 500 pcs.",
+    "Custom folding cartons from MTT Packaging: premium paperboard with specialty finishes, foil stamping and embossing. Typical projects start from 1,000–3,000 pieces; confirm MOQ for your specification.",
   alternates: { canonical: "/packaging/folding-cartons" },
   openGraph: {
     title: "Custom Folding Cartons | MTT Packaging",
-    description: "Premium paperboard folding cartons with specialty finishes. MOQ from 500 pcs.",
+    description: "Premium paperboard folding cartons with specialty finishes. Typical projects start from 1,000–3,000 pieces; confirm MOQ for your specification.",
     url: "/packaging/folding-cartons",
     images: ["/design/carton-editorial.webp"],
   },
@@ -57,7 +57,7 @@ export default function FoldingCartonsPage() {
         <div>
           <p>Folding Cartons</p>
           <h1>Custom Folding Cartons for Retail and E-Commerce</h1>
-          <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. MOQ from 1,000 pcs.</p>
+          <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. Typical projects start from 1,000–3,000 pieces; confirm MOQ for your specification.</p>
         </div>
         <img src="/design/carton-editorial.webp" alt="Concept: ivory folding cartons" width="900" height="900" />
       </header><section className="catalogue-shell"><a className="button" href="/products?family=carton">View designs, materials &amp; details →</a></section>

@@ -1,0 +1,88 @@
+{
+  "version": 12,
+  "date": "2026-09-15",
+  "rollback": "f89f386760e3cd1fbe3044390652e8691349791d",
+  "build": "passed",
+  "staticPages": 494,
+  "productMetadata": 434,
+  "discoveryLinks": 44,
+  "browser": {
+    "results": [
+      {
+        "path": "/products/",
+        "width": 390,
+        "violations": [],
+        "manualReview": []
+      },
+      {
+        "path": "/zh/products/",
+        "width": 390,
+        "violations": [],
+        "manualReview": []
+      },
+      {
+        "path": "/products/",
+        "width": 1440,
+        "violations": [],
+        "manualReview": [
+          "color-contrast"
+        ]
+      },
+      {
+        "path": "/zh/products/",
+        "width": 1440,
+        "violations": [],
+        "manualReview": []
+      },
+      {
+        "family": "rigid",
+        "path": "/products/signature-perfume-lift-off",
+        "violations": [],
+        "manualReview": [
+          "color-contrast"
+        ]
+      },
+      {
+        "family": "carton",
+        "path": "/products/custom-carton-packaging-set",
+        "violations": [],
+        "manualReview": [
+          "color-contrast"
+        ]
+      },
+      {
+        "family": "corrugated",
+        "path": "/products/custom-corrugated-packaging-set",
+        "violations": [],
+        "manualReview": [
+          "color-contrast"
+        ]
+      },
+      {
+        "family": "bag",
+        "path": "/products/custom-bag-packaging-set",
+        "violations": [],
+        "manualReview": [
+          "color-contrast"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "indexnowPreview": {
+    "eligible": 494,
+    "changed": 3,
+    "urls": [
+      "https://mttpackaging.com/packaging/folding-cartons",
+      "https://mttpackaging.com/products",
+      "https://mttpackaging.com/zh/products"
+    ],
+    "status": "preview",
+    "meaning": "Receipt does not establish indexing, ranking or AI citations."
+  },
+  "limitations": [
+    "Automated axe-incomplete contrast checks are not certified.",
+    "Four representative product galleries tested, not all product photos.",
+    "No measured traffic or AI citation uplift."
+  ]
+}
