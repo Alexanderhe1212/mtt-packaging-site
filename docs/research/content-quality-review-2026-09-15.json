@@ -1,0 +1,1090 @@
+[
+  {
+    "slug": "custom-packaging-cost-guide",
+    "targetCustomer": "Brand buyer comparing quotations",
+    "customerDecision": "Align scope before evaluating price",
+    "primaryQuery": "custom packaging cost breakdown",
+    "secondaryQueries": [
+      "box quotation comparison",
+      "packaging tooling charges"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "First check what the price includes",
+      "Use a cost model that exposes assumptions",
+      "What changes the recurring cost?"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "packaging-material-selection",
+    "targetCustomer": "Brand specifying a rigid presentation box",
+    "customerDecision": "Choose a tested board-and-wrap combination",
+    "primaryQuery": "rigid box board and wrapping paper",
+    "secondaryQueries": [
+      "rigid box board selection",
+      "textured wrapping paper"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Start with the unsupported span",
+      "Match the wrap to the artwork",
+      "Compare the complete material stack"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "packaging-materials-guide",
+    "targetCustomer": "Buyer interpreting a supplier specification",
+    "customerDecision": "Identify grades and layers before accepting substitutes",
+    "primaryQuery": "packaging material specifications",
+    "secondaryQueries": [
+      "greyboard vs SBS",
+      "corrugated board specification"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Separate a material from a box style",
+      "What belongs on each material line?",
+      "Why equal grammage can still give a different result"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "custom-packaging-sampling-process",
+    "targetCustomer": "Buyer approving a sample",
+    "customerDecision": "Decide what a sample proves and what remains open",
+    "primaryQuery": "packaging sample approval checklist",
+    "secondaryQueries": [
+      "structural sample approval",
+      "printed packaging sample"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "evidenceSections": [
+      "Decide what this sample can establish",
+      "Check the loaded box before the surface finish",
+      "Give appearance its own reference"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "5-things-before-ordering-custom-packaging",
+    "targetCustomer": "Brand making its first packaging order",
+    "customerDecision": "Resolve five inputs before committing",
+    "primaryQuery": "before ordering custom packaging",
+    "secondaryQueries": [
+      "custom packaging order checklist",
+      "packaging buying decisions"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 89,
+    "evidenceSections": [
+      "1. Which product version is being packed?",
+      "2. Who packs it, and how does it travel?",
+      "3. Which visual detail must survive cost changes?"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "reduce-shipping-costs-rigid-boxes",
+    "targetCustomer": "Buyer comparing export packing options",
+    "customerDecision": "Compare complete packing and destination assembly",
+    "primaryQuery": "rigid box shipping cost",
+    "secondaryQueries": [
+      "packaging CBM calculation",
+      "fold flat box freight"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Measure the export carton, not the display box",
+      "A volume calculation with explicit assumptions",
+      "Flat supply transfers work to the packing location"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "packaging-inserts-for-handmade-glass-products",
+    "targetCustomer": "Buyer of packaging for variable glass pieces",
+    "customerDecision": "Define a representative variation envelope",
+    "primaryQuery": "handmade glass packaging inserts",
+    "secondaryQueries": [
+      "glass size variation packaging",
+      "irregular glass support"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "evidenceSections": [
+      "One measurement is not a fit envelope",
+      "Choose where load may be carried",
+      "Compare fixed and accommodating supports"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "fold-flat-triangular-gift-box-shipping-volume",
+    "targetCustomer": "Buyer evaluating a triangular carton",
+    "customerDecision": "Verify actual assembly before comparing volume",
+    "primaryQuery": "triangular fold flat carton",
+    "secondaryQueries": [
+      "triangular carton closure",
+      "triangular box shipping"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Specify the shape before drawing the blank",
+      "Every closure must connect to a real panel",
+      "Flat carton and collapsible rigid box are different routes"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "perfume-box-inserts",
+    "targetCustomer": "Fragrance buyer selecting an insert route",
+    "customerDecision": "Shortlist materials for the same bottle requirements",
+    "primaryQuery": "perfume insert materials",
+    "secondaryQueries": [
+      "paperboard perfume insert",
+      "foam vs molded fibre insert"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Paperboard: start with the support layout",
+      "Molded fibre: review geometry before tooling",
+      "Foam: compare the final covered component"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "molded-pulp-inserts-cosmetic-packaging",
+    "targetCustomer": "Cosmetics buyer considering custom tooling",
+    "customerDecision": "Resolve product geometry and process before tooling",
+    "primaryQuery": "molded pulp cosmetic insert tooling",
+    "secondaryQueries": [
+      "molded fibre insert sample",
+      "cosmetic tray tooling"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Freeze the product set before freezing the tool",
+      "Ask what the proposed process can reproduce",
+      "Support the container without loading the closure"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "ppwr-packaging-requirements",
+    "targetCustomer": "Brand or importer preparing EU packaging information",
+    "customerDecision": "Identify evidence gaps and responsible review",
+    "primaryQuery": "PPWR packaging documentation checklist",
+    "secondaryQueries": [
+      "PPWR application date",
+      "packaging component record"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 89,
+    "evidenceSections": [
+      "Separate the application date from later requirements",
+      "Build a component record before making a claim",
+      "What we would review in the design"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "double-door-wine-gift-box-design-review",
+    "targetCustomer": "Wine gift-set buyer",
+    "customerDecision": "Compare door access and loaded bottle support",
+    "primaryQuery": "double door wine gift box",
+    "secondaryQueries": [
+      "wine bottle removal insert",
+      "wine gift box sample"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "The decision: opening experience or simpler access?",
+      "What the example shows: and what remains to be specified",
+      "The useful detail: review the removal path, not just the cavity"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "christmas-drawer-gift-box-packout-review",
+    "targetCustomer": "Corporate seasonal gift buyer",
+    "customerDecision": "Define gift groups and packing sequence",
+    "primaryQuery": "Christmas drawer gift box",
+    "secondaryQueries": [
+      "gift cabinet pack out",
+      "Christmas gift insert layout"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Start with four gift groups, not four identical-looking cavities",
+      "The distinctive decision: separate visual rhythm from internal layout",
+      "Check a complete opening sequence"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "perfume-box-and-bag-packaging",
+    "targetCustomer": "Fragrance brand buying a complete set",
+    "customerDecision": "Size and approve the carried set together",
+    "primaryQuery": "perfume box matching paper bag",
+    "secondaryQueries": [
+      "perfume gift bag size",
+      "box and bag colour matching"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Start with the product stage",
+      "Choose the opening before the decoration",
+      "Design the bag around the finished outer box"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "perfume-box-insert-design",
+    "targetCustomer": "Buyer diagnosing bottle movement",
+    "customerDecision": "Identify contact and clearance problems",
+    "primaryQuery": "perfume bottle rattling in box",
+    "secondaryQueries": [
+      "perfume insert clearance",
+      "bottle support geometry"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 19,
+      "human": 12,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Why Perfume Bottles Are Difficult to Hold",
+      "Bottle Weight and Center of Gravity",
+      "Critical Contact Points"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "packaging-design-to-production-china",
+    "targetCustomer": "Design studio handing off artwork",
+    "customerDecision": "Connect design revisions to manufacturing specifications",
+    "primaryQuery": "packaging design to production China",
+    "secondaryQueries": [
+      "packaging artwork handoff",
+      "packaging sample coordination"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Start with a versioned structural brief",
+      "Make the artwork follow the actual opening",
+      "Specify the material and finish together"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "reduce-packaging-sampling-rounds",
+    "targetCustomer": "Buyer facing repeated revisions",
+    "customerDecision": "Remove preventable gaps without skipping validation",
+    "primaryQuery": "reduce packaging sampling rounds",
+    "secondaryQueries": [
+      "packaging sample revision",
+      "sample feedback record"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 12,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Why Packaging Samples Require Revisions",
+      "Resolve the product envelope first",
+      "Name the material that the sample must represent"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "reduce-custom-packaging-costs",
+    "targetCustomer": "Buyer with an over-budget specification",
+    "customerDecision": "Compare controlled changes to cost drivers",
+    "primaryQuery": "reduce custom packaging costs",
+    "secondaryQueries": [
+      "packaging cost reduction",
+      "simplify gift box specification"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 12,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Why Custom Packaging Cost Changes",
+      "1. Structure",
+      "2. Box Size"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "hexagonal-rigid-gift-box-structure-analysis",
+    "targetCustomer": "Gift buyer selecting an unusual shape",
+    "customerDecision": "Check across-flats space and six-sided fit",
+    "primaryQuery": "hexagonal rigid gift box",
+    "secondaryQueries": [
+      "hexagonal lid fit",
+      "hexagonal box insert"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Choose the opening first",
+      "Make the insert fit the gift",
+      "Balance bold colour and material detail"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "fragrance-packaging-brand-pattern-analysis",
+    "targetCustomer": "Brand designer developing fragrance graphics",
+    "customerDecision": "Assign recognition to a deliberate surface",
+    "primaryQuery": "fragrance packaging pattern design",
+    "secondaryQueries": [
+      "wrapped box pattern joins",
+      "fragrance brand hierarchy"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 17,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "skincare-packaging-series-analysis",
+    "targetCustomer": "Skincare brand developing several SKUs",
+    "customerDecision": "Separate visual consistency from tool sharing",
+    "primaryQuery": "skincare packaging series design",
+    "secondaryQueries": [
+      "skincare SKU packaging",
+      "shared packaging tooling"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "jewelry-packaging-repeat-use-analysis",
+    "targetCustomer": "Jewelry retailer specifying an interior",
+    "customerDecision": "Check the final lining across product variation",
+    "primaryQuery": "jewelry box interior design",
+    "secondaryQueries": [
+      "ring slot fit",
+      "necklace insert routing"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "tea-gift-box-drawer-analysis",
+    "targetCustomer": "Tea brand arranging an assortment",
+    "customerDecision": "Make assortment removal and drawer travel work together",
+    "primaryQuery": "tea drawer gift box design",
+    "secondaryQueries": [
+      "tea tin gift insert",
+      "tea gift box card placement"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 17,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "electronics-paperboard-insert-analysis",
+    "targetCustomer": "Device brand packing accessories",
+    "customerDecision": "Compare side and under-tray storage",
+    "primaryQuery": "electronics paperboard insert",
+    "secondaryQueries": [
+      "device accessory compartment",
+      "folded device tray"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "window-carton-presentation-analysis",
+    "targetCustomer": "Retail buyer requesting a product window",
+    "customerDecision": "Choose visible area without losing support",
+    "primaryQuery": "window carton design",
+    "secondaryQueries": [
+      "carton window support",
+      "covered packaging window"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "collectors-packaging-story-material-analysis",
+    "targetCustomer": "Brand creating a collector edition",
+    "customerDecision": "Keep material story evidence and fallback distinct",
+    "primaryQuery": "collector packaging material selection",
+    "secondaryQueries": [
+      "premium packaging provenance",
+      "collector box finishing"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 17,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "modular-perfume-packaging-analysis",
+    "targetCustomer": "Brand offering configurable perfume sets",
+    "customerDecision": "Define the approved combinations and inserts",
+    "primaryQuery": "modular perfume packaging inserts",
+    "secondaryQueries": [
+      "personalised perfume set box",
+      "insert configuration matrix"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Published reference",
+      "The buyer’s challenge",
+      "Structure and material direction: our analysis"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "custom-box-structure-guide",
+    "targetCustomer": "Buyer choosing an opening",
+    "customerDecision": "Compare openings within correctly identified families",
+    "primaryQuery": "custom box opening structures",
+    "secondaryQueries": [
+      "lift off vs magnetic box",
+      "drawer gift box"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Start with the product, not the decoration",
+      "Lift-off versus magnetic: what changes for a bottle?",
+      "Drawer, hexagonal and pillow are different structural decisions"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "printing-finishing-guide",
+    "targetCustomer": "Designer choosing a surface finish",
+    "customerDecision": "Approve the finish on the intended substrate",
+    "primaryQuery": "custom packaging finishes",
+    "secondaryQueries": [
+      "foil vs spot UV",
+      "matte vs gloss packaging"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Matte versus gloss: start with the broad surface",
+      "Foil adds a surface effect, not an opening structure",
+      "Emboss and deboss change surface relief"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "custom-inserts-product-protection",
+    "targetCustomer": "Buyer comparing generic support routes",
+    "customerDecision": "Choose support requirements before the material",
+    "primaryQuery": "custom packaging insert selection",
+    "secondaryQueries": [
+      "paperboard vs EVA insert",
+      "product support insert"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Measure the assembled product and identify contact areas",
+      "Paperboard: folded support with deliberate contact points",
+      "Molded pulp: formed geometry and a tooling decision"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "rigid-box-vs-folding-carton",
+    "targetCustomer": "Buyer selecting packaging layers",
+    "customerDecision": "Assign presentation retail and transport functions",
+    "primaryQuery": "rigid box vs folding carton",
+    "secondaryQueries": [
+      "corrugated vs rigid packaging",
+      "box family comparison"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "evidenceSections": [
+      "Three families, three different starting points",
+      "Choose by what the customer must do",
+      "Compare total scope, not a presumed cheapest family"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  },
+  {
+    "slug": "how-to-write-a-packaging-brief",
+    "targetCustomer": "Buyer requesting comparable supplier quotes",
+    "customerDecision": "Record frozen and provisional inputs separately",
+    "primaryQuery": "custom packaging brief checklist",
+    "secondaryQueries": [
+      "packaging quote requirements",
+      "packaging specification brief"
+    ],
+    "searchEvidence": "Editorial intent mapping; no current GSC query-page export available in this review. Not a search-volume or cannibalization measurement.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "evidenceSections": [
+      "Describe the product as it will be packed",
+      "Use the right dimension convention",
+      "Copy this enquiry checklist"
+    ],
+    "informationGain": [
+      "Decision comparison grounded in the stated buyer problem",
+      "Structure/material or production judgement in the named sections",
+      "Practical sampling or buyer-input guidance"
+    ],
+    "claimReview": "No new customer outcome asserted; engineering recommendations remain conditional. Source links retained where externally factual.",
+    "limitations": "Physical performance is not established by this article. Search impact remains unmeasured."
+  }
+]

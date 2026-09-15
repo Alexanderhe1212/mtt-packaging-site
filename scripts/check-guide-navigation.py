@@ -24,7 +24,8 @@ for loc in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/s
     designs=set(x for x in Page(handoff).links if x.startswith('/products/'))
     assert len(designs)==3,(route,'expected three curated designs',designs)
     for design in designs:assert (root/(design.strip('/')+'/index.html')).exists(),(route,design)
-    assert '/request-a-quote' in Page(handoff).links,(route,'missing enquiry')
+    brief=text.split('<aside aria-label="Packaging brief"',1)[1].split('</aside>',1)[0]
+    assert Page(brief).links.count('/request-a-quote')==1,(route,'expected one primary enquiry')
     related=text.split('class="article-related"',1)[1].split('</aside>',1)[0]
     guides=[x for x in Page(related).links if x.startswith('/insights/')]
     assert len(guides)==3 and route not in guides and len(set(guides))==3,(route,guides)

@@ -1,9 +1,1129 @@
 {
+  "custom-packaging-cost-guide": {
+    "angle": "Budget",
+    "title": "Custom Packaging Costs: How to Compare a Box Quotation",
+    "summary": "Compare box quotations by materials, inserts, tooling, quantity and delivery scope. Identify missing charges before choosing a packaging supplier.",
+    "intro": "Compare packaging quotations on the same specification and delivery scope before comparing unit prices. Separate recurring box and insert costs from tooling, samples and freight. Quantity can spread setup charges, but extra stock still costs money. The useful decision is which specification changes reduce the total approved order cost while retaining fit and the presentation features your buyers notice.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "First check what the price includes",
+        "A box-only price cannot be compared with a gift set that includes an insert, bag and printed card. Create one line for each component, then record material, size, quantity and finishing. Keep tooling, sampling, packing and delivery charges separate. If a supplier quotes an alternative paper, identify it explicitly; “equivalent quality” is not enough to compare appearance or performance."
+      ],
+      [
+        "Use a cost model that exposes assumptions",
+        "<p><strong>Order cost = quantity × recurring unit cost + setup/tooling + sampling + packing + delivery costs within the agreed scope.</strong></p><p>For illustration only, a setup charge of 300 currency units contributes 0.60 per box at 500 boxes and 0.30 at 1,000. That calculation says nothing about the actual box price, freight or whether the extra stock is needed. Ask for real quotations at quantities you can use.</p>"
+      ],
+      [
+        "What changes the recurring cost?",
+        "Board and wrap area, insert construction, finishing coverage and assembly steps all matter. A multi-part cabinet may require more handling than a simple lid-and-base box. Digital, offset and other printing routes have different setup economics; it is inaccurate to assume every additional colour requires a separate production pass. Ask the supplier to identify the proposed route before trading colours against price."
+      ],
+      [
+        "Compare alternatives without losing control",
+        "Change one major variable at a time: the same box with a different wrap, or the same wrap with a simpler finish. Retain the product fit and shipping requirements. If the option changes structure, include pack-out labour and export carton dimensions. Use the <a href=\"/insights/reduce-custom-packaging-costs\">cost-reduction decision guide</a> once the baseline quotation is complete."
+      ],
+      [
+        "Questions to resolve before accepting",
+        "<ul><li>Are inserts, bags and accessories included?</li><li>Which tools are new, reusable or separately charged?</li><li>Which paper and finish references will be sampled?</li><li>What are the delivery term, destination and packing assumptions?</li><li>What changes would trigger a revised price?</li></ul>Do not use an indicative web price as an approved project budget."
+      ]
+    ],
+    "cta": "Send both quotations, the box and insert specification, quantities and delivery terms. MTT can identify scope differences and the items that need a comparable price.",
+    "append": false,
+    "seoTitle": "Custom Packaging Costs: How to Compare a Box Quotation | MTT Packaging"
+  },
+  "packaging-material-selection": {
+    "angle": "Materials",
+    "title": "Choosing Board and Wrapping Paper for a Premium Box",
+    "summary": "Choose rigid-box board and wrapping paper by span, fit, finish and sample performance instead of thickness or price alone.",
+    "intro": "Select the structural board and visible paper separately. The board must suit the box span, contents and opening; the wrap must suit the colour, touch and finishing you want. Compare samples of the complete combination. A heavier board or a textured paper can introduce new folding, wrapping and fit problems rather than automatically improving a premium box.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "Start with the unsupported span",
+        "A broad lid and a compact ring box present different stiffness problems. We would check panel span, loaded weight and how the customer lifts the box before discussing thicker board. More thickness also changes mating sizes, wrapped corners and hinge allowances. Approve those details together rather than substituting board late in production."
+      ],
+      [
+        "Match the wrap to the artwork",
+        "Smooth coated paper and textured uncoated paper can give the same artwork very different colour and foil results. For a fine metallic border, ask for a proof on the intended stock before committing to an entire box. For a large dark surface, inspect handling marks and edge appearance. A small swatch cannot establish the look of a broad wrapped panel."
+      ],
+      [
+        "Compare the complete material stack",
+        "<ul><li>Structural core: grade, thickness and agreed stiffness requirement.</li><li>Visible wrap: stock reference, colour and finishing.</li><li>Liner and adhesive: assembled appearance and compatibility.</li><li>Insert: fit with its final covering in place.</li></ul>Keep the sample specification attached to the approval so a similar-looking replacement is not treated as identical."
+      ],
+      [
+        "Check sourcing claims separately from appearance",
+        "Brown colour does not establish recycled content, and a paper-based pack is not automatically recyclable everywhere. For an FSC claim, confirm the applicable certified supply chain and claim documentation rather than relying on a stock name. See <a href=\"https://fsc.org/en/chain-of-custody\">FSC chain-of-custody guidance</a>. MTT certification is not asserted here."
+      ],
+      [
+        "Choose what the sample needs to prove",
+        "Compare corner wrapping, lid fit, rub marks and foil detail using the intended contents. If changing the wrap changes friction, repeat the opening check. For terminology across cartons and corrugated packs, use the <a href=\"/insights/packaging-materials-guide\">material specification guide</a>."
+      ]
+    ],
+    "cta": "Send the box structure, product weight and two material references. MTT can compare a practical board-and-wrap combination for sampling.",
+    "append": false,
+    "seoTitle": "Choosing Board and Wrapping Paper for a Premium Box | MTT Packaging"
+  },
+  "packaging-materials-guide": {
+    "angle": "Materials",
+    "title": "Greyboard, SBS, Kraft and Corrugated: Reading a Packaging Specification",
+    "summary": "Understand which material details belong in a packaging quote, including structural board, face paper, liners and insert specifications.",
+    "intro": "A material name is only the start of a packaging specification. Greyboard identifies a structural board family, SBS describes a bleached solid board, and corrugated board combines liners with fluting. Ask for the actual grade, thickness or grammage, finish and component function. Compare equivalent specifications before approving a substitution or treating two quotations as the same product.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "Separate a material from a box style",
+        "A magnetic closure describes an opening, not a board grade. A kraft appearance describes neither payload nor complete fibre composition. Write the construction and material in separate fields. The <a href=\"/insights/custom-box-structure-guide\">structure guide</a> helps identify the opening before you compare material options."
+      ],
+      [
+        "What belongs on each material line?",
+        "<table class=\"comparison-table\"><thead><tr><th>Component</th><th>Ask the supplier to identify</th></tr></thead><tbody><tr><td>Rigid core</td><td>Board grade, thickness and component location</td></tr><tr><td>Folding carton</td><td>Paperboard grade, grammage, caliper and printable surfaces</td></tr><tr><td>Corrugated pack</td><td>Liners, flute configuration and agreed performance requirements</td></tr><tr><td>Wrap or liner</td><td>Stock reference, colour, coating and finishing</td></tr><tr><td>Insert</td><td>Material, construction, covering and fit reference</td></tr></tbody></table>"
+      ],
+      [
+        "Why equal grammage can still give a different result",
+        "Grammage measures mass per area, not finished-box stiffness or print quality. We would compare a proposed replacement on the same dieline and loading task. A changed thickness can affect crease behaviour, locks and internal space, even when the stated weight per square metre matches. Ask which sample checks need repeating before accepting the substitution."
+      ],
+      [
+        "Keep environmental claims attached to evidence",
+        "Ask what a claim covers: one paper, an insert or the complete pack. Coatings, adhesives, windows and hardware remain part of the specification. FSC chain of custody addresses claims through the supply chain; it is not a substitute for a complete-pack recyclability assessment. See <a href=\"https://fsc.org/en/chain-of-custody\">FSC guidance</a>."
+      ],
+      [
+        "Build an approval record that survives a reorder",
+        "Retain stock references, the approved assembled sample and the permitted substitution process. Mark which side is visible and where a finish applies. A photograph can record appearance but cannot replace the material record. Use <a href=\"/insights/packaging-material-selection\">board and wrap selection</a> when deciding between physical samples."
+      ]
+    ],
+    "cta": "Send the material lines from your quotation and the intended box format. MTT can clarify missing grades, layers and sample references.",
+    "append": false,
+    "seoTitle": "Greyboard, SBS, Kraft and Corrugated: Reading a Packaging Specification | MTT Packaging"
+  },
+  "custom-packaging-sampling-process": {
+    "angle": "Process",
+    "title": "Packaging Sample Approval: What to Check Before Production",
+    "summary": "Review structural samples, colour proofs and finished packaging against a written approval list before releasing production.",
+    "intro": "Approve each packaging sample for a defined purpose. A plain structural sample can answer fit and opening questions; a colour proof answers print questions; an assembled sample in the intended materials brings them together. Record what is approved and what remains provisional. Do not let a good-looking prototype stand in for loaded fit checks or the agreed transport assessment.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "Decide what this sample can establish",
+        "Ask how the sample was produced and where it differs from the intended production route. A hand-cut insert may demonstrate a layout while leaving production tolerances unresolved. A printed mock-up on substitute stock may show artwork placement without confirming colour or finish. List these differences on the sample record."
+      ],
+      [
+        "Check the loaded box before the surface finish",
+        "Use the final product with cap, label and accessories. Check insertion, removal and closure without forcing a flap or pressing on the contents. Inspect the insert after removing the product: marking or movement may be hidden when loaded. Repeat with representative product variation rather than accepting a single unusually convenient fit."
+      ],
+      [
+        "Give appearance its own reference",
+        "Approve the substrate, colour reference and finishing location together. Inspect wrap joins, exposed edges and registration at corners. A screen comparison is insufficient for a tactile finish. If artwork changes after fit approval, check whether any new label, card or lining also changes clearance."
+      ],
+      [
+        "Write a decision, not “looks good”",
+        "<ul><li>Sample ID and drawing/artwork revisions.</li><li>Approved dimensions, materials and contents.</li><li>Accepted appearance reference and identified deviations.</li><li>Outstanding changes and who confirms them.</li><li>Required loaded or transport checks before release.</li></ul>Photograph both the accepted detail and any defect so the supplier is not interpreting a vague description."
+      ],
+      [
+        "Keep approval and transport validation distinct",
+        "A desk sample does not reproduce distribution hazards. Choose the test with the laboratory for the actual route; <a href=\"https://www.ista.org/getting_started_with_design.php\">ISTA explains the importance of understanding distribution conditions</a>. For avoiding preventable revisions, see <a href=\"/insights/reduce-packaging-sampling-rounds\">how to reduce sampling rounds</a>."
+      ]
+    ],
+    "cta": "Send your sample photos, marked issues and the latest specification. MTT can help separate structural, artwork and material changes for the next sample.",
+    "append": false,
+    "seoTitle": "Packaging Sample Approval: What to Check Before Production | MTT Packaging"
+  },
+  "5-things-before-ordering-custom-packaging": {
+    "angle": "Buyer Guide",
+    "title": "Before Ordering Custom Packaging: Five Decisions to Settle",
+    "summary": "Resolve product fit, packing route, appearance, quantity and sample approval before committing to a custom packaging order.",
+    "intro": "Before ordering custom packaging, settle five decisions: what goes inside, how it will be packed and delivered, what presentation matters, what quantity is usable, and what approval evidence is required. An early design can remain flexible, but unresolved product dimensions or delivery scope should be marked provisional rather than silently built into a quotation.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "1. Which product version is being packed?",
+        "Use the dimensions with caps, labels and accessories fitted. If the product is still changing, identify the frozen and provisional measurements. We would delay final insert tooling when the bottle or accessory envelope remains uncertain, while still discussing opening styles and visual references."
+      ],
+      [
+        "2. Who packs it, and how does it travel?",
+        "A flat-supplied box needs an assembly step at the destination. A retail presentation box may also need an outer shipper. Describe parcel, pallet or hand-delivered use and ask the packing team to trial the sequence. A design that is quick to open can still be awkward to fill."
+      ],
+      [
+        "3. Which visual detail must survive cost changes?",
+        "Identify the main brand signal: colour, texture, a foil mark or an opening reveal. Compare physical alternatives around that priority. Adding every available finish can increase handling and make a clear hierarchy harder to achieve; simplifying a secondary finish is different from weakening the product support."
+      ],
+      [
+        "4. How many of each version will actually be used?",
+        "Split quantity by size and artwork, not just total boxes. Compare order spend, storage and the risk of obsolete branding before increasing volume for a lower unit price. Record the current delivery scope when comparing quotes; see the <a href=\"/insights/custom-packaging-cost-guide\">quotation guide</a>."
+      ],
+      [
+        "5. What constitutes approval?",
+        "Name the people responsible for artwork, product fit and commercial approval. Keep one revision list and an assembled sample reference. If the sample uses substitute materials, document the missing checks before production. The <a href=\"/insights/how-to-write-a-packaging-brief\">packaging brief checklist</a> turns these decisions into supplier inputs."
+      ]
+    ],
+    "cta": "Send the product details, launch timing and decisions still open. MTT can help turn them into a packaging brief that can be quoted.",
+    "append": false,
+    "seoTitle": "Before Ordering Custom Packaging: Five Decisions to Settle | MTT Packaging"
+  },
+  "reduce-shipping-costs-rigid-boxes": {
+    "angle": "Cost Saving",
+    "title": "Rigid Box Shipping Costs: Compare CBM, Packing and Assembly",
+    "summary": "Calculate carton volume and compare assembled versus fold-flat rigid boxes without overlooking packing labour or transport protection.",
+    "intro": "To assess rigid-box freight savings, compare final export carton dimensions, count and gross weight for the same order. Then include destination assembly, storage and protective packing. A fold-flat box may reduce shipped volume, but the saving must survive carrier pricing and pack-out costs. Changing the box alone does not establish a lower delivered cost.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "Measure the export carton, not the display box",
+        "Use outside carton dimensions after packing and include the number of cartons. Small changes in the presentation box do not necessarily remove a carton or improve a pallet layout. We would first check the existing arrangement, including protection and unused gaps, before redesigning the gift box."
+      ],
+      [
+        "A volume calculation with explicit assumptions",
+        "<p><strong>CBM = carton length in metres × width × height × carton count.</strong></p><p>For illustration, 20 cartons measuring 0.60 × 0.40 × 0.40 m occupy 1.92 m³. The same count at 0.60 × 0.40 × 0.25 m occupies 1.20 m³, a volume difference of 0.72 m³. These are example dimensions, not an MTT shipment or a freight-saving promise. Weight, minimum charges and carrier rules still affect the bill.</p>"
+      ],
+      [
+        "Flat supply transfers work to the packing location",
+        "Purpose-designed <a href=\"/products/?family=rigid&amp;structure=fold-flat\">collapsible rigid boxes</a> can arrive folded. Confirm erection steps, corner fixing, liner placement and whether assembly is reversible. Time a representative pack-out trial. Do not compare an empty folded shell against a fully loaded gift set; include inserts and accessories on both sides."
+      ],
+      [
+        "Compare the decision on one sheet",
+        "<ul><li>Same quantity and contents for each option.</li><li>Carton count, outer dimensions and gross weight.</li><li>Pallet arrangement or parcel constraints.</li><li>Destination labour and storage assumptions.</li><li>Protection and sample checks affected by the change.</li></ul>Ask the freight provider to price each complete arrangement on the same route and delivery scope."
+      ],
+      [
+        "When to retain the assembled box",
+        "Keep an erected format under consideration when destination assembly is difficult or the shape and finish cannot tolerate the proposed folds. Remove unused space only after confirming product retention and removal access. A <a href=\"/insights/fold-flat-triangular-gift-box-shipping-volume\">triangular carton comparison</a> needs its own packing plan; its result cannot be transferred to a rectangular rigid box."
+      ]
+    ],
+    "cta": "Send the current carton dimensions, carton count, gross weight, box quantity and destination. MTT can compare erected and flat-supplied packing options.",
+    "append": false,
+    "seoTitle": "Rigid Box Shipping Costs: Compare CBM, Packing and Assembly | MTT Packaging"
+  },
+  "packaging-inserts-for-handmade-glass-products": {
+    "angle": "Design Analysis",
+    "seoTitle": "Handmade Glass Packaging Inserts: Managing Size Variation | MTT Packaging",
+    "title": "Handmade Glass Packaging Inserts: Managing Size Variation",
+    "summary": "Design inserts for variable handmade glass using measured ranges, safe contact zones, removal access and representative sample checks.",
+    "intro": "For handmade glass, design the insert around measured variation rather than one nominal size. Identify safe support areas, leave fragile features clear and evaluate several representative pieces. A tighter cavity can create pressure instead of protection. Choose the material and support geometry together, then assess the complete presentation box and shipping pack with the actual products.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "One measurement is not a fit envelope",
+        "Measure more than one piece of each model, including the widest body, base, rim and any handle. Record which features vary together. A maximum width paired with an unrelated maximum height is useful as an envelope, but actual samples are still needed to understand the shape. Do not infer this range from product photographs."
+      ],
+      [
+        "Choose where load may be carried",
+        "We would start with stable base and broad body contact, while keeping a thin rim or decorative protrusion out of the load path. A support that avoids one fragile point may create another at a narrow edge. Mark permitted and restricted contact areas on photographs before asking for an insert design."
+      ],
+      [
+        "Compare fixed and accommodating supports",
+        "A tight rigid opening may reject a larger piece. A folded support with controlled flexibility may accept variation, but still needs enough restraint for the smallest piece. A shaped fibre or foam support offers a different contact surface and production route. Compare these using the same measured range rather than ranking materials by touch. See the <a href=\"/insights/custom-inserts-product-protection\">insert material comparison</a>."
+      ],
+      [
+        "Check removal as well as retention",
+        "Leave access for fingers without requiring a user to lever against a handle or rim. If a liner covers the support, test the final covered form because it changes friction and cavity size. Inspect contact marks after repacking. A sample that can be loaded only by one experienced person may be unsuitable for the intended packing team."
+      ],
+      [
+        "Use a repeatable sample record",
+        "<ul><li>Identify each test piece and its dimensions.</li><li>Record the insert material and revision.</li><li>Check rocking, rotation, removal and lid clearance.</li><li>Record visible marks and unsupported features.</li><li>Agree transport checks for the complete packed unit.</li></ul>This is a development approach, not a report of a completed customer order. The <a href=\"/insights/custom-packaging-sampling-process\">sample approval guide</a> explains how to record the result."
+      ]
+    ],
+    "cta": "Send each glass model’s photos, measured size range, weight and current wrapping. MTT can review product-specific support options before sampling.",
+    "faq": [],
+    "append": false
+  },
+  "fold-flat-triangular-gift-box-shipping-volume": {
+    "angle": "Design Analysis",
+    "seoTitle": "Triangular Fold-Flat Cartons: Structure and Shipping Tradeoffs | MTT Packaging",
+    "title": "Triangular Fold-Flat Cartons: Structure and Shipping Tradeoffs",
+    "summary": "Assess a triangular carton’s panel layout, end closure, assembly and export packing before claiming shipping savings.",
+    "intro": "A triangular carton can be considered for flat supply when its panels, end closures and assembly sequence work as one structure. Compare its final export packing with the erected alternative, including destination labour and protection. A folded photograph alone cannot prove that the blank assembles correctly or that the finished order will cost less to ship.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Specify the shape before drawing the blank",
+        "A triangular prism has two triangular ends and three lengthwise faces. It is different from a pyramid. Define the intended product orientation and usable cross-section first. The closed image is an appearance reference; it does not establish an approved flat drawing or end-lock design."
+      ],
+      [
+        "Every closure must connect to a real panel",
+        "Trace the fold sequence from the flat drawing. Identify the joining seam, end panels, closure tongues and any dust flaps. Check that parts meet without overlapping the product space or leaving a gap. We would reject a drawing that merely resembles the exterior but cannot close in the intended sequence."
+      ],
+      [
+        "Flat carton and collapsible rigid box are different routes",
+        "A creased folding carton and a wrapped collapsible rigid box need different allowances and assembly methods. Do not transfer a carton end flap to a rigid shell because both ship flat. Compare the <a href=\"/packaging/folding-cartons\">folding carton options</a> with <a href=\"/products/?family=rigid&amp;structure=fold-flat\">collapsible rigid designs</a> only after defining the required presentation and contents."
+      ],
+      [
+        "Prove packing efficiency with a carton plan",
+        "Alternating orientations may use space differently from stacking every triangle the same way. Include protective spacing, quantities per layer and gross weight. Compare flat blanks plus inserts with the complete erected alternative for the same order. The <a href=\"/insights/reduce-shipping-costs-rigid-boxes\">CBM calculation guide</a> provides the volume formula, not a saving forecast."
+      ],
+      [
+        "What would make us retain an erected format?",
+        "Consider an erected option when packers cannot reliably form the angles, closures spring open or the finish marks during assembly. A repeatable packing trial matters more than a nominally thin shipping bundle. Record assembly steps, closure fit and loading access before approving decoration. This analysis makes no claim of a completed shipment or measured cost reduction."
+      ]
+    ],
+    "cta": "Send the triangular box dimensions, proposed drawing, quantity and current carton plan. MTT can review assembly and packing assumptions together.",
+    "faq": [],
+    "append": false
+  },
+  "perfume-box-inserts": {
+    "angle": "Fragrance Packaging",
+    "title": "Perfume Insert Materials: Paperboard, Molded Fibre or Foam?",
+    "summary": "Compare perfume insert material routes by bottle contact, appearance, tooling and sample requirements before selecting an inner tray.",
+    "intro": "Choose a perfume insert material by the support the bottle needs, the surface it can tolerate and the appearance required inside the box. Paperboard, molded fibre and foam offer different construction routes. None guarantees protection by name. Compare the same filled bottle in representative samples, including removal access and the final outer packaging.",
+    "dateModified": "2026-09-15",
+    "seoTitle": "Perfume Insert Materials: Paperboard, Molded Fibre or Foam? | MTT Packaging",
+    "sections": [
+      [
+        "Paperboard: start with the support layout",
+        "A folded platform can locate a bottle and provide a printable interior. We would check whether it supports the base and limits movement without relying only on a narrow cut-out. Panel spans, folds and attachment to the box affect the result. A paperboard insert should not be dismissed as purely decorative or assumed to cushion every bottle."
+      ],
+      [
+        "Molded fibre: review geometry before tooling",
+        "A formed support can follow a three-dimensional layout, but removal from the tool, wall geometry and the chosen process constrain the shape. Ask for examples made by the proposed process. The cavity needs to accommodate the actual bottle variation rather than exactly copy a nominal CAD outline. See the <a href=\"/insights/molded-pulp-inserts-cosmetic-packaging\">molded fibre development guide</a>."
+      ],
+      [
+        "Foam: compare the final covered component",
+        "Foam options differ in density, thickness, cutting and compression behaviour. A fabric or paper cover also changes contact and usable space. Review odour, surface marking and removal with the intended bottle finish. A neat cut profile is not evidence of a successful transport test."
+      ],
+      [
+        "A practical comparison brief",
+        "<ul><li>Use the same bottle, filled weight and outer box.</li><li>Mark permitted contact and clearance around the cap.</li><li>Identify visible surfaces and plastic-reduction priorities.</li><li>Separate tooling and sample charges from unit cost.</li><li>Compare retention, removal and appearance on the assembled samples.</li></ul>Do not trade away required product support to achieve a material claim."
+      ],
+      [
+        "Where material selection ends and geometry starts",
+        "Once a route is shortlisted, define cavity depth, support zones and permitted movement. The <a href=\"/insights/perfume-box-insert-design\">bottle movement and clearance guide</a> covers that next decision. Use the complete transport pack when agreeing performance validation; the decorative box and insert are only part of it."
+      ]
+    ],
+    "cta": "Send the filled bottle measurements, photos, desired presentation and quantity. MTT can shortlist insert materials for a like-for-like sample comparison.",
+    "faq": [],
+    "append": false
+  },
+  "molded-pulp-inserts-cosmetic-packaging": {
+    "angle": "Insert Design",
+    "title": "Molded Pulp Cosmetic Inserts: What to Resolve Before Tooling",
+    "summary": "Plan molded fibre inserts around container variation, tooling access, surface quality and complete-pack sample checks.",
+    "intro": "Before commissioning a molded pulp insert, confirm the complete product set, permitted contact zones and the surface quality required. The forming process and tool design affect what shapes are practical. Evaluate the intended material with real containers, including size variation and removal. A fibre-based proposal still needs fit, finish and transport checks before production approval.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Freeze the product set before freezing the tool",
+        "A change from a jar to a pump bottle affects more than the cavity outline. Check total height, cap clearance, weight distribution and finger access. We would resolve uncertain container geometry before commissioning the final tool. If a launch contains several variants, define which combinations one insert must accept."
+      ],
+      [
+        "Ask what the proposed process can reproduce",
+        "Molded fibre processes differ in surface and geometric capability. Request a representative sample from the intended route, rather than approving a polished render. Discuss draft, transitions, wall geometry and separation from the tool with the converter. Avoid universal angle or clearance rules: these depend on the process and part."
+      ],
+      [
+        "Support the container without loading the closure",
+        "Define the load path through suitable body or base areas. Do not use a pump or decorative cap as the default support. The opening must retain the smallest approved container and admit the largest without forcing it. Check the final coating or surface treatment as part of that fit, if specified."
+      ],
+      [
+        "When another construction deserves a comparison",
+        "For a small run with changing containers, a folded paperboard support may be worth comparing before fixed tooling. For an exposed, highly finished bottle, contact marks may outweigh the visual appeal of a fibre surface. Compare alternatives against the same requirements in the <a href=\"/insights/perfume-box-inserts\">insert material guide</a>; a material name alone cannot settle protection."
+      ],
+      [
+        "Approve a tool sample with a documented scope",
+        "<ul><li>Actual containers across the approved size range.</li><li>Insertion, removal and seated presentation height.</li><li>Visible surface and marking after handling.</li><li>Fit inside the finished outer box.</li><li>Agreed complete-pack distribution checks.</li></ul>Keep the tool revision and material route with the record. A later container or material change may require new validation. See <a href=\"/insights/custom-packaging-sampling-process\">sample approval</a>."
+      ]
+    ],
+    "cta": "Send container drawings, filled weights, quantity and the intended box layout. MTT can review whether a molded fibre route merits tooling and sampling.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Molded Pulp Cosmetic Inserts: What to Resolve Before Tooling | MTT Packaging"
+  },
+  "ppwr-packaging-requirements": {
+    "angle": "PPWR / EU Regulation",
+    "title": "PPWR Packaging Requirements: An EU Buyer’s Specification Checklist",
+    "summary": "Prepare component and material records for EU-bound packaging. Separate PPWR application dates, supplier evidence and project-specific assessment.",
+    "intro": "PPWR applies on a phased timetable, with general application from 12 August 2026. For an EU-bound box project, identify the packaging components, intended use and responsible economic operators before asking for a compliance statement. Build a traceable specification and check the applicable obligations with your regulatory adviser. A material label or generic certificate does not settle the status of the complete package.",
+    "dateModified": "2026-09-15",
+    "faq": [],
+    "sections": [
+      [
+        "Separate the application date from later requirements",
+        "The European Commission lists 11 February 2025 as entry into force and 12 August 2026 as the application date. Its overview and implementation resources explain the phased framework. Do not assume that every later recyclability, labelling or reuse measure took effect on the general application date. Check the requirement and current implementation guidance for the package concerned. <a href=\"https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste_en\">European Commission: packaging waste and implementation resources</a>."
+      ],
+      [
+        "Build a component record before making a claim",
+        "For a rigid gift set, list the shell, wrap, liner, insert, closure and accessories separately. Identify coatings, adhesives, foil and plastic or textile components where present. Ask for material references and available supporting records. A paper exterior is insufficient to describe a mixed-material pack; a change in the insert can change the assessment scope."
+      ],
+      [
+        "What we would review in the design",
+        "First ask why each component is needed for protection, opening or packing. Then compare a removable insert with a permanently bonded one, and a simpler closure with the proposed hardware. Finally check whether reducing unused space preserves removal and product support. These are engineering comparisons, not declarations that a design complies."
+      ],
+      [
+        "Assign the documentation questions to the right party",
+        "The relevant legal roles depend on the supply arrangement; the physical box converter is not automatically the only responsible party. Have the brand or importer’s compliance team identify applicable responsibilities and the evidence required. Record who supplies each item, which packaging revision it covers and who reviews it. Use the <a href=\"https://eur-lex.europa.eu/eli/reg/2025/40/oj\">official Regulation (EU) 2025/40</a> alongside the Commission’s current guidance."
+      ],
+      [
+        "Buyer checklist for a sample and a reorder",
+        "<ul><li>Destination, intended use and packaging revision.</li><li>Component list with material and weight information.</li><li>Drawings, assembly and relevant supplier records.</li><li>Specific compliance questions and their responsible reviewer.</li><li>Changes since the approved specification.</li></ul>Do not reuse an old assessment without checking material or construction changes. A sampling record helps trace what was assessed; it does not itself establish legal compliance."
+      ],
+      [
+        "Keep sourcing and assessment connected",
+        "MTT can coordinate packaging specifications and available manufacturing-partner information. Regulatory assessment remains specific to the product, market and operator. Review <a href=\"/insights/packaging-materials-guide\">material specification terminology</a> when compiling a brief. This article provides packaging planning information; use current official guidance and qualified advice for a compliance decision."
+      ]
+    ],
+    "cta": "Send the destination market, packaging component list, material records and the documentation your compliance team requires. MTT can help identify specification gaps and coordinate available supplier information.",
+    "append": false,
+    "seoTitle": "PPWR Packaging Requirements: An EU Buyer’s Specification Checklist | MTT Packaging"
+  },
+  "double-door-wine-gift-box-design-review": {
+    "angle": "Design Analysis",
+    "title": "Custom Wine Gift Boxes: Double-Door Structure, Inserts and Sample Checks",
+    "summary": "A twin-bottle packaging design review: compare double-door and lift-off boxes, plan bottle removal, specify matching bags and prepare a comparable supplier quote.",
+    "intro": "A double-door wine gift box is worth considering when the opening should reveal the bottles together. Before choosing it, check bottle removal, loaded stability, door travel and the central seam. Size any matching bag from the finished outer box. The presentation shell still needs an assessed transport arrangement; door style alone does not establish protection.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "The decision: opening experience or simpler access?",
+        "<p>The double-door layout reveals both bottles together. It suits a presentation in which the recipient opens the pack from the front. A lift-off lid offers a different interaction: remove one separate part, then access the insert from above. Neither structure is automatically the better purchase. Decide where the recipient will place the box, how much opening space is available and whether the set will be carried or posted.</p><p>In <a href=\"/products/twin-wine-double-door-gift-box\">R0702, the twin wine double-door box</a>, the two leaves meet at the centre. Compare it with the <a href=\"/products/custom-wine-packaging-set\">single-bottle lift-off example</a> for opening direction, not for a like-for-like price: their capacities differ.</p>"
+      ],
+      [
+        "What the example shows: and what remains to be specified",
+        "<p>The design reference shows burgundy wrapping, a fine gold border, two bottle positions and optional matching accessories. It does not establish board thickness, bottle clearance, magnet strength or a shipping test result. These belong on the approved specification. Separate the structural board, wrapping paper, insert and closure components rather than requesting only a “luxury box”.</p><figure><img src=\"/products/mtt-r0702-1.webp\" alt=\"Design reference showing symmetrical open doors and two bottle positions\" loading=\"lazy\" width=\"500\" height=\"465\" style=\"max-width:100%;height:auto\"/><figcaption>Opening study: two doors and a fitted insert; final geometry requires sampling.</figcaption></figure>"
+      ],
+      [
+        "The useful detail: review the removal path, not just the cavity",
+        "<p>A cavity can look tidy while making a filled bottle difficult to remove. Supply each bottle’s maximum dimensions, including cap and decoration, and its filled weight. Ask where fingers will enter and which part of the bottle the user can grip. Check removal with both doors open, then check the remaining bottle stays located when its neighbour is lifted out. Avoid approving fit from nominal bottle capacity such as “750 ml”; bottle shapes with the same capacity can differ.</p><p>Paperboard, molded fibre and covered foam have different construction and appearance. Compare <a href=\"/packaging/custom-inserts\">insert options</a> using an actual bottle sample. A soft-looking surface is not proof of cushioning, and a snug cavity is not proof of transport protection.</p>"
+      ],
+      [
+        "Make the door seam part of the artwork brief",
+        "<p>A continuous border must meet deliberately at the central seam. Ask for the left and right artwork files to be checked together, including wrap turn-ins and hinge areas. Keep critical small lettering away from a joint that could move slightly after wrapping. Review foil tone on the selected paper and the closed-door alignment on the physical sample. Hidden magnets should be reviewed for placement, polarity and closure with the filled insert installed.</p>"
+      ],
+      [
+        "Add the bag and card after confirming the finished box envelope",
+        "<p>Size a matching bag from the finished external box dimensions in its carrying orientation, allowing practical insertion and hand clearance. Specify bag width × gusset × height. Test the handles and base with the complete load. A card should have a defined location so it does not obstruct the door or press against the bottles. Accessories shown in a hero image are optional components, not automatically included in a quote.</p>"
+      ],
+      [
+        "Buyer questions before ordering",
+        "<h3>Can the gift box be sent directly by courier?</h3><p>Do not assume so. Define the outer shipping carton and protective arrangement, then review a suitable test with the filled pack for the distribution route. FEFCO publishes <a href=\"https://www.fefco.org/technical-information/fefco-testing-methods-recommendations\" rel=\"noopener noreferrer\" target=\"_blank\">corrugated packaging test methods</a>; listing a method is not evidence that this design has passed it.</p><h3>Is a double-door box cheaper than a lift-off box?</h3><p>There is no fixed answer without a matching specification. Ask the supplier to compare the same bottle count, materials, finish, quantity and delivery scope. Separate sample, tooling, accessory and freight charges.</p><h3>What should I send for a quote?</h3><p>Send bottle drawings or measurements, filled weights, units per set, quantity by artwork, destination and the intended distribution route. Include a preferred opening and whether a bag or card is required.</p>"
+      ],
+      [
+        "A practical approval checklist",
+        "<ul><li>Both bottles fit with removal access and cap clearance.</li><li>Both doors open fully and close without pressing on the contents.</li><li>The central seam and foil border align on the wrapped sample.</li><li>The bag accepts the finished box and complete load.</li><li>The transport pack and test scope are agreed separately.</li></ul><p>Request a specification review for this wine packaging. Catalogue images illustrate a direction; physical samples and approved specifications determine production.</p>"
+      ]
+    ],
+    "cta": "Send the filled bottle dimensions, set weight, quantity and bag requirements. MTT can review door access, bottle support and the complete set before sampling.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Custom Wine Gift Boxes: Double-Door Structure, Inserts and Sample Checks | MTT Packaging"
+  },
+  "christmas-drawer-gift-box-packout-review": {
+    "angle": "Design Analysis",
+    "title": "Christmas Gift Box Packaging: Four-Drawer Design and Pack-Out Checklist",
+    "summary": "Review a four-drawer Christmas gift box for mixed gifts: compartment sizing, loading order, ribbon access, artwork versions and the details needed for a supplier quote.",
+    "intro": "For a multi-drawer Christmas gift box, start with the contents and packing map rather than identical cavities. Each drawer needs usable access, appropriate support and a clear place in the sequence. Trial the loaded cabinet with the packing team. Shared exterior decoration can coexist with different interior layouts, but every gift combination must remain identifiable during packing.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Start with four gift groups, not four identical-looking cavities",
+        "<p>The <a href=\"/products/four-drawer-christmas-gift-cabinet\">four-drawer Christmas cabinet</a> has a two-by-two layout. Equal drawer fronts give a balanced appearance, but the items inside may need different supports. List each gift with its primary packaging, dimensions and weight. Decide which gifts belong together and whether a recipient should encounter them in a particular order.</p><p>This is a four-drawer gifting format, not automatically a 24-day advent calendar. If the brief calls for a daily calendar, the compartment count, numbering, pack-out and overall size need a separate design.</p>"
+      ],
+      [
+        "The distinctive decision: separate visual rhythm from internal layout",
+        "<p>Keeping a regular exterior does not require repeating the same internal partition. One drawer might hold a single wrapped item; another might use removable partitions for small accessories. That lets the outside remain ordered while the interior responds to the actual gifts. Do not assume the illustrated partition is suitable for every product. Confirm the usable space after lining, dividers and pull attachments have been installed.</p><figure><img src=\"/products/mtt-r0902-3.webp\" alt=\"Removable partition inside one Christmas gift drawer, design design reference\" loading=\"lazy\" width=\"500\" height=\"500\" style=\"max-width:100%;height:auto\"/><figcaption>Interior study: partition positions must follow the selected contents.</figcaption></figure>"
+      ],
+      [
+        "Check a complete opening sequence",
+        "<p>Test each drawer with the cabinet in the intended position. Review pull-tab attachment, drawer travel, clearance from neighbouring fronts and access when the drawer is partly extended. Then repeat with the intended contents. An empty sample cannot establish loaded stability. Ask whether the cabinet needs to be laid flat for use, particularly when several drawers are open. Do not infer safe loading from a render.</p>"
+      ],
+      [
+        "Write the packing instructions before signing off decoration",
+        "<p>Prepare a simple pack-out map identifying drawer position, item, insert and any card. Specify whether each drawer is loaded before being inserted into the cabinet. Ask the people who will pack the goods to trial the sequence and record any snagging, mix-ups or difficult insertions. This produces a more useful approval discussion than judging only the closed hero image.</p><p>Keep the greeting card in a defined location. A decorative ribbon should not unintentionally block the pull tabs or require the recipient to lift a loaded cabinet awkwardly. Agree whether the ribbon is tied during manufacture or during final fulfilment.</p>"
+      ],
+      [
+        "Control the Christmas artwork versions",
+        "<p>The emerald example uses small gold stars. If a buyer needs several corporate logos or gift messages, identify which components change: card only, drawer fronts or the entire wrap. Keeping the variable message on a separate card is one option to compare; it does not guarantee a lower total price. The supplier still needs quantities per version and the finishing scope.</p><p>Check artwork orientation on each drawer and the cabinet exterior. Ask for the assembled sample rather than approving loose printed sheets alone. A foil effect visible on screen is not an approved foil tone or registration tolerance.</p>"
+      ],
+      [
+        "Common purchasing questions",
+        "<h3>Can I mix candles, food and small accessories?</h3><p>Review the complete set, including primary packs, odour transfer concerns, weight and removal access. If food is included, specify sealed primary packaging and ask for the material review appropriate to the destination. Do not treat the appearance of a gift box as food-contact approval.</p><h3>Will a drawer format reduce shipping volume?</h3><p>Not necessarily. This assembled rigid cabinet occupies its finished volume. Compare the actual export carton dimensions, count and gross weight against the alternative; no saving is established by its opening style.</p><h3>How far ahead should I order?</h3><p>Give the required delivery date and destination. Ask for a project-specific schedule covering artwork, samples, approval, production and transport. A generic lead time is not a delivery commitment.</p>"
+      ],
+      [
+        "Send a quote brief that can be priced consistently",
+        "<ul><li>Gift list with dimensions and weight for every primary pack.</li><li>Drawer layout and optional divider requirements.</li><li>Total sets and quantities by logo or message version.</li><li>Paper, print and foil direction.</li><li>Optional card, ribbon and matching bag.</li><li>Who packs the gifts and where the complete sets will ship.</li></ul><p>Ask for box, insert, accessory, sample/tooling and freight charges separately. Send a Christmas gift packaging brief or compare the <a href=\"/products/custom-christmas-packaging-set\">book-style Christmas alternative</a>. The comparison is about access and packing sequence, not an assumed price or performance ranking.</p>"
+      ]
+    ],
+    "cta": "Send the gift list, dimensions, weights and quantities by message or logo. MTT can review the drawer layout and packing sequence.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Christmas Gift Box Packaging: Four-Drawer Design and Pack-Out Checklist | MTT Packaging"
+  },
+  "perfume-box-and-bag-packaging": {
+    "angle": "Fragrance Planning",
+    "title": "How to Plan a Perfume Box and Matching Paper Bag",
+    "summary": "Coordinate a fragrance box, bottle insert and paper bag: what to decide before the bottle is final, how to size the bag and what to include in a sample brief.",
+    "intro": "Plan a matching perfume bag around the finished box, not the bottle dimensions. Confirm the carrying orientation, complete weight and room for insertion before setting bag width, gusset and height. Then approve colour and handles with the box beside it. A coordinated set needs both visual agreement and a loaded handling check.",
+    "dateModified": "2026-09-15",
+    "faq": [
+      [
+        "Can packaging planning start before the perfume bottle is final?",
+        "Yes. You can compare opening styles, visual references and quantity scenarios first. Confirm the actual bottle dimensions and weight before finalizing an insert, tooling or a production quotation."
+      ],
+      [
+        "Should a paper bag be the same size as the box?",
+        "No. Plan around the finished outer box and its insertion orientation, with practical handling clearance. Confirm bag width, side gusset and height on a loaded sample."
+      ]
+    ],
+    "sections": [
+      [
+        "Start with the product stage",
+        "If the bottle is still being developed, share a reference image, intended bottle format, quantity and launch stage. These are enough to discuss a direction. They are not enough to approve the final fit. Keep the insert and bag dimensions provisional until the bottle and outer box have been confirmed. When the bottle is ready, provide measurements with the cap fitted, filled weight, decoration details and any accessories."
+      ],
+      [
+        "Choose the opening before the decoration",
+        "A lift-off lid, drawer or hinged box changes the opening sequence and the space needed for removal. Compare the structures on the <a href=\"/industries/perfume-fragrance-packaging\">perfume packaging page</a>. For a single bottle, decide whether it should stand upright or lie in the insert. For a discovery set, confirm every vial position and how a customer can lift it out. Avoid approving artwork while the structure is still changing."
+      ],
+      [
+        "Design the bag around the finished outer box",
+        "Use the finished external box measurements, not the bottle size or the internal cavity. Define the orientation in which the box enters the bag. Specify bag dimensions as width × side gusset × height, and review the opening, handle attachment and hand clearance. There is no single clearance that suits every box and paper grade. Test insertion and removal with the assembled box and any tissue or accessories, then check the loaded bag and base construction. <a href=\"/packaging/custom-paper-bags\">Compare custom paper bag options</a>."
+      ],
+      [
+        "Match the visual direction, then approve physical samples",
+        "Choose which elements should repeat: paper color, logo position, foil tone, ribbon color or a printed pattern. Identical artwork does not guarantee identical color on different papers. A textured box wrap and smooth bag paper can reproduce inks and foil differently. Review the box and bag together under consistent lighting. Confirm how the handles feel when loaded and whether the decoration rubs during normal handling."
+      ],
+      [
+        "Treat the insert and shipping protection separately",
+        "The bottle insert needs deliberate support, cap clearance and removal access. Read the <a href=\"/insights/perfume-box-insert-design\">bottle insert planning guide</a> for the information needed to assess fit. A shopping bag provides a carrying and presentation function; do not assume it replaces a shipping carton. Confirm transport packaging and sample checks for the intended retail, gifting or parcel route."
+      ],
+      [
+        "Ask for an itemized quote",
+        "For a project around 500 sets, ask the supplier to separate the presentation box, insert and bag. State quantities by size and artwork version. Ask which setup, tooling and finishing costs are included, and request sample charges and freight separately. A smaller order spreads fixed costs over fewer pieces, but the final unit price depends on the specification. Do not compare quotes unless the material, structure, finish and delivery scope match."
+      ],
+      [
+        "A short brief you can prepare today",
+        "<ul><li>Current stage: concept, bottle selected or ready for sampling</li><li>Bottle dimensions with cap and filled weight, when available</li><li>Single bottle or set, including every accessory</li><li>Preferred box opening and insert direction</li><li>Matching bag requirement and carrying orientation</li><li>Quantity by design, destination and target timing</li><li>Logo files, finish references and optional budget range</li></ul>Use the <a href=\"/tools/gift-box-solution-builder\">Design Your Box</a> for a preliminary box design, or send a packaging brief if you need guidance. Bag and insert specifications still require separate review. This is a planning guide, not a completed customer case or a production specification."
+      ]
+    ],
+    "cta": "Send the capped bottle measurements, desired box opening, quantity and bag requirement. MTT can review the box, insert and carrying bag as one set.",
+    "append": false,
+    "seoTitle": "How to Plan a Perfume Box and Matching Paper Bag | MTT Packaging"
+  },
+  "perfume-box-insert-design": {
+    "angle": "Problem Guide",
+    "seoTitle": "Perfume Bottle Rattling in Its Box? Check Insert Fit and Support | MTT Packaging",
+    "title": "Perfume Bottle Rattling in Its Box? Check Insert Fit and Support",
+    "summary": "Diagnose bottle movement, cap pressure and difficult removal by reviewing support zones, cavity depth and representative samples.",
+    "intro": "If a perfume bottle rattles or tilts, review the support geometry before simply tightening the cavity. Use the filled bottle, identify safe contact zones and keep closure pressure off the sprayer. Check removal and representative dimensional variation. Then validate the insert with the final box and transport pack, rather than treating a tight desk fit as proof of protection.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Why Perfume Bottles Are Difficult to Hold",
+        "Perfume bottles combine dense glass, irregular shoulders, small bases, decorative coatings and vulnerable caps. Nominal fill volume does not describe the geometry. Two bottles with the same capacity may need completely different support. A tall bottle can tip; a broad bottle can rotate; an asymmetric bottle can load one cavity wall. The insert must also present the front label correctly and allow the customer to remove the bottle without pulling the cap."
+      ],
+      [
+        "Bottle Weight and Center of Gravity",
+        "Use the filled product weight whenever possible. A top-heavy bottle needs stronger lateral control than an empty sample suggests. Mark the center of gravity and observe how the bottle moves when the pack is tilted. The insert base must distribute vertical load without creating a pressure point, while side supports should resist rotation. Multi-bottle sets also need balanced spacing so the insert and outer box are not loaded unevenly."
+      ],
+      [
+        "Critical Contact Points",
+        "Identify strong contact areas such as a stable base, broad body surface or structural shoulder. Keep fragile corners, printed decoration, labels, pumps, collars and thin glass features clear unless testing supports contact. Supports should be wide enough to avoid concentrated pressure. Finger access and lift direction matter: a secure cavity that forces the user to lever against the sprayer is not an acceptable design. Photograph and annotate permitted and restricted zones before engineering."
+      ],
+      [
+        "Clearance",
+        "Exact clearance depends on bottle geometry, glass variation, insert material, manufacturing tolerance and transport requirements. Paperboard folds, molded pulp and CNC-cut EVA behave differently. There is no universal gap that is correct for every bottle. Define clearance through measured products and sample testing, including minimum and maximum dimensions where the bottle varies. Confirm that surface decoration is not rubbed during insertion, removal or vibration."
+      ],
+      [
+        "Insert Depth",
+        "The cavity must be deep enough to resist tipping without hiding too much of the bottle or making removal awkward. A shallow platform may need shoulder or neck control; a deep cavity may require finger notches or a ribbon lift. Check whether the bottle can climb out of its supports when the package is inverted or shaken. Depth should be evaluated with the complete lid clearance, not designed independently from the outer box."
+      ],
+      [
+        "Cap / Sprayer Clearance",
+        "The cap and sprayer should not carry vertical load from the lid or insert. Confirm total height with the cap fitted and allow for closure variation, liners and any printed cards above the product. If the cap is removable or decorative, lateral contact may also be undesirable. A closure check should use the actual filled bottle, insert and final sample box so hidden interference is found before production."
+      ],
+      [
+        "Neck and Shoulder Support",
+        "Neck or shoulder support can limit tilt when the contact geometry is broad and structurally safe. Avoid narrow rings that press on collars, pumps or decorative components. Some bottles are better controlled at the body and base, with the neck left clear. The right strategy depends on glass strength, bottle proportions and the intended reveal. Review relevant <a href=\"/industries/perfume-fragrance-packaging\">perfume packaging structures</a> before selecting the insert in isolation."
+      ],
+      [
+        "Insert Materials",
+        "<strong>Paperboard</strong> supports folded platforms and printed surfaces; protective performance depends on its geometry and the complete pack. <strong>Molded pulp</strong> can create three-dimensional paper-based support, with surface and tolerance determined by the selected process. <strong>EVA or foam</strong> can provide shaped support and cushioning when appropriately specified for heavy or complex bottles when appropriate, and may be wrapped for presentation. Compare these options through <a href=\"/packaging/custom-inserts\">custom insert development</a>; material selection should follow the product and distribution requirements."
+      ],
+      [
+        "Presentation vs Protection",
+        "The bottle should face the intended direction, sit at a deliberate height and remain easy to remove. Protection should be integrated rather than hidden behind excessive wrapping. However, visual minimalism cannot justify uncontrolled movement. Use color, wrap paper, fabric or printed paperboard only after the load path and retention geometry are sound. The outer <a href=\"/packaging/custom-rigid-boxes\">rigid box structure</a> also affects lid clearance, opening angle and product reveal."
+      ],
+      [
+        "Physical Sampling",
+        "A CAD drawing cannot show friction, surface marking, opening feel or the effect of manufacturing variation. Produce a physical sample using the intended material and a representative bottle. Check pack-out, removal, label orientation, closure and visible gaps. If several bottle batches or suppliers are involved, include representative variation. Record every approved change so later samples and production share one clear reference."
+      ],
+      [
+        "Shake / Fit Evaluation",
+        "Evaluate controlled hand shaking, tilting and inversion before moving to any required formal transit test. Listen for rattle, watch for bottle climb and inspect contact surfaces for marks. Repeat after opening and repacking because inserts may settle or deform. The acceptance standard should describe allowable movement and appearance rather than relying on “feels tight.” More demanding distribution routes may require a documented test plan for the full packed unit."
+      ],
+      [
+        "Outer Shipping Protection",
+        "A perfume presentation box is usually not the parcel shipper. Review the corrugated outer carton, dividers, unit spacing, stacking load and void control. E-commerce parcel delivery can expose the pack to impacts that retail pallet delivery does not. Shipping CBM also matters; preliminary dimensions can be explored with the <a href=\"/tools/box-size-calculator\">packaging calculator</a>, then confirmed from physical samples and final carton packing."
+      ],
+      [
+        "Information Buyers Should Send",
+        "<ul><li>Bottle dimensions and total height with cap</li><li>Filled weight and center-of-gravity concerns</li><li>Photos from front, side, top and base</li><li>CAD or drawings if available</li><li>Fragile and decorated surfaces</li><li>Number of bottles or accessories</li><li>Preferred box and insert direction</li><li>Quantity, destination and distribution method</li></ul>Use real measurements rather than nominal fragrance volume."
+      ]
+    ],
+    "cta": "Send photos of the bottle in its current insert, measurements, filled weight and movement or marking concerns. MTT can review support zones and sample changes.",
+    "faq": [],
+    "append": false
+  },
+  "packaging-design-to-production-china": {
+    "angle": "Problem Guide",
+    "seoTitle": "Packaging Design to Production in China: Boxes, Bags & Gift Sets | MTT Packaging",
+    "title": "Packaging Design to Production in China: Boxes, Bags & Gift Sets",
+    "summary": "Coordinate box structure, inserts, bags, cards and artwork from brief to physical sample and production approval, with a clear specification for each component.",
+    "intro": "To move a packaging design into production, connect the artwork to a buildable structure, an agreed material specification and one controlled approval record. Resolve product fit and opening before finishing tools are released. A render can communicate intent, but the converter still needs panel, joint, insert and packing information tied to the approved sample.",
+    "dateModified": "2026-09-15",
+    "faq": [
+      [
+        "Can MTT review a box, bag and card in one brief?",
+        "Yes. List each component, its quantity and how the set is packed. Dimensions, material options and sample approval still need to be confirmed for every component."
+      ],
+      [
+        "Does matching artwork guarantee the same colour on every component?",
+        "No. Paper, texture and surface finish affect reproduction. Approve the components together against physical references."
+      ],
+      [
+        "What should happen if the product or box size changes?",
+        "Recheck the insert, finished outer size, bag fit, card placement and shipping pack. Keep the revised specification linked to the approved artwork and sample."
+      ]
+    ],
+    "sections": [
+      [
+        "Start with a versioned structural brief",
+        "A render can show proportion and mood without proving that panels fold, magnets close, inserts retain products or foils register across seams. Production also needs answers about board grade, wrap, grain direction, adhesives, tolerances and packing. The gap is resolved by structured engineering decisions and physical validation; it cannot be resolved by asking the artwork file to carry information it was never designed to contain. Start with the workflow in <a href=\"/how-we-work\">How We Work</a>. Specify finished internal dimensions separately from external shipping dimensions and the maximum product envelope. A fitted cavity also needs a practical removal route: finger access or a secured lift ribbon, without losing the support needed for the product. The illustration shows an opening direction, not measured clearance, load capacity or a production drawing. Confirm these with a physical sample."
+      ],
+      [
+        "Make the artwork follow the actual opening",
+        "A lift-off lid must be a separate cap sized to the wrapped base, not a hinged cover. A drawer needs sleeve clearance and a secure pull tab. A book-style magnetic box needs a working spine allowance and aligned concealed closures. Double doors need balanced hinges and a consistent centre seam. A tiered box needs support and access to the lower tray. Review the <a href=\"/products\">rigid box catalogue</a> by structure and test each opening with the actual contents. A dieline should represent the selected production route and material thickness. Do not build final artwork on an unverified template. Manufacturing has cutting, folding, wrapping and registration variation, so critical graphics need safe distances from edges, seams and joints. The acceptable tolerance depends on the structure and process. Review the supplier dieline, then lock its version before final artwork release."
+      ],
+      [
+        "Specify the material and finish together",
+        "Specify materials by function and visible result: structural board thickness and density, paper grade, coating, texture, color, internal liner and insert material. Screen appearance is not a reliable material standard. Request physical swatches where texture or color matters. Also confirm whether a dark paper will be printed, foiled or left material-led, because each route changes artwork preparation, color behavior and rub risk. Foil, embossing, debossing, spot UV, lamination and specialty papers each have process limits. Fine lines can fill, deep embossing can distort the reverse, foil can bridge poorly across texture and finishes near folds or wrapped edges may crack or misregister. Decide which visual signal matters most, define process layers clearly and sample critical combinations. Selective finishing often creates stronger hierarchy than applying every premium process across the full surface."
+      ],
+      [
+        "Approve the loaded sample and its limitations",
+        "The insert begins with the actual product dimensions, weight, fragile areas, presentation angle and removal method. A render of an empty cavity is not enough. Product orientation affects box depth and opening sequence; heavy or tall products change support requirements. Coordinate the insert with the outer structure through <a href=\"/packaging/custom-inserts\">custom insert engineering</a>, then test it with real products rather than nominal dimensions alone. Sampling tests construction, proportion, color, finish, insert fit and opening experience. A white structural sample can resolve geometry before expensive printed finishing. A later printed sample confirms appearance and process interaction. The studio should review the sample with the actual product, under representative light, and record comments against one numbered version. “Match the render” is not a sufficient approval instruction."
+      ],
+      [
+        "Include the bag, card and transport pack",
+        "List what is supplied: presentation box, product insert, paper bag, ribbon, card, tissue and any shipping carton. State the quantity for each component and whether it arrives loose or assembled. The <a href=\"/products/festival-sweets-collection-hexagonal\">hexagonal gift box</a> and <a href=\"/products/custom-reed-diffuser-twisted-bag\">paper bag example</a> illustrate different component choices; they are not a dimensionally matched set. A pictured accessory is not automatically included in a quotation. Confirm the box’s external dimensions after wrapping and assembly, its loading orientation and the total carried weight. Specify bag width × side gusset × height. Test insertion, removal and handle attachment with the complete set, including tissue. A loose ribbon and a structurally secured lift ribbon have different functions and should be identified separately."
+      ],
+      [
+        "Keep creative approval and production coordination connected",
+        "The studio controls brand strategy, artwork and creative approval. MTT can coordinate structure review, sampling and manufacturing-partner information. Record the decision owner, current file and open questions at each handoff. The approved sample, signed artwork, material references and written specification form the quality baseline. Inspection should check dimensions, structure, color, finish position, adhesion, insert fit, opening behavior and packing. Define which differences are critical before production rather than arguing from memory later. Any approved deviation should be documented so the studio, buyer and production partner share the same reference."
+      ],
+      [
+        "Release one complete revision",
+        "The same artwork on box wrap, bag stock and card paper can differ in colour and sheen. Approve them together and record each substrate and finish. When a box size changes, recheck the bag, insert, card placement and shipping carton before release. The <a href=\"/insights/printing-finishing-guide\">finish guide</a> explains the physical references to request; use the <a href=\"/insights/how-to-write-a-packaging-brief\">enquiry checklist</a> to keep commercial scope aligned. Confirm individual protection, export carton size, units per carton, gross weight, carton marks and delivery terms. Premium surfaces may require tissue, sleeves or dividers to prevent rubbing. Fold-flat structures can change freight and assembly economics. The shipping plan should be developed alongside the box, particularly when launch timing, fulfillment location or pallet constraints are fixed."
+      ]
+    ],
+    "append": false,
+    "cta": "Send the design files, product measurements, quantity and decisions still provisional. MTT can review feasibility and coordinate the next structural or material sample."
+  },
+  "reduce-packaging-sampling-rounds": {
+    "angle": "Problem Guide",
+    "seoTitle": "How to Reduce Custom Packaging Sampling Rounds Before Mass Production | MTT Packaging",
+    "title": "How to Reduce Custom Packaging Sampling Rounds Before Mass Production",
+    "summary": "A pre-sample checklist for resolving product dimensions, structure, materials, inserts, artwork, color, finishes and shipping requirements before physical sampling.",
+    "intro": "Reduce avoidable sampling rounds by deciding what each sample must prove and keeping all comments against one revision. Confirm product dimensions, structure and material availability before refining decoration. Combine feedback from the buyer’s team, but do not skip a necessary fit or transport check to meet an arbitrary one-round target. Changes discovered through physical validation can be legitimate.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Why Packaging Samples Require Revisions",
+        "Common causes include nominal instead of measured product dimensions, late product changes, unclear internal size, an insert designed without weight data, artwork built on an old dieline, unspecified paper, screen-only color references and finishes approved without process detail. Some revisions are legitimate discoveries from physical testing. The preventable rounds are those spent finding information that could have been resolved in the brief. Review the standard <a href=\"/how-we-work\">development process</a> before scheduling."
+      ],
+      [
+        "Resolve the product envelope first",
+        "Measure the real product in length, width and height and include weight, fragile points and protrusions. For bottles, include the cap, pump and collar. For handmade or variable products, provide a measured range and several samples. Confirm whether accessories, manuals or cables share the pack. A product photograph helps orientation but does not replace dimensions. If the product is still changing, identify which measurements are frozen and which remain provisional. State whether every dimension is internal, external or product size. The usable internal space depends on board, wrap, liners and insert construction. External size affects shelf fit, cartons and freight. Mixing the two creates structural revisions even when the numbers appear correct. The <a href=\"/tools/box-size-calculator\">packaging calculator</a> can support preliminary planning, but final dimensions must be engineered and confirmed through the physical sample."
+      ],
+      [
+        "Name the material that the sample must represent",
+        "Specify the structural target and let board thickness be evaluated against box size, weight, opening feel and production method. Do not assume thicker board is always more premium. Excess thickness can change hinges, folds, lid fit and wrapped corners. Record both material grade and thickness where relevant, because boards of similar thickness can behave differently. Any substitution during sampling should be identified rather than treated as visually equivalent. Name the paper or board reference, color, coating, texture, weight or caliper and visible side. “Premium paper” is not a specification. If an exact stock is unavailable, approve a physical alternative before it enters the sample. Dark, uncoated and textured papers affect print and foil differently. Keep supplier swatches or coded references with the approval record so later production is not matched to a compressed photograph."
+      ],
+      [
+        "Insert Structure",
+        "Define product orientation, support areas, removal method, presentation height and preferred material before sampling. Include the actual product or accurate CAD where possible. A cavity should reflect weight and fragile zones as well as outline. Confirm whether the insert is removable, printed, wrapped or shared across SKUs. Outer box and insert dimensions should be reviewed together through the <a href=\"/packaging\">selected packaging structure</a>."
+      ],
+      [
+        "Pantone / Color References",
+        "Provide Pantone intent where relevant and state whether the target applies to ink, colored paper, foil or another process. The same color appears different on coated white board, kraft, texture and lamination. Screen values and emailed photographs are insufficient for critical matching. Decide what physical reference controls approval and under what lighting it will be reviewed. Allow a sample to establish a realistic production target."
+      ],
+      [
+        "Foil / Emboss / UV / Lamination",
+        "Separate each finish in the artwork and define area, color, texture and register relationship. Confirm whether embossing is blind or aligned with print or foil, whether the reverse impression matters and whether lamination is matte, gloss or soft-touch. Critical finishes near folds, seams or narrow lines need feasibility review. Sampling fewer well-defined effects is more useful than asking a sample maker to interpret an unlabeled render."
+      ],
+      [
+        "Artwork and Dieline",
+        "Use the current production dieline, include bleed and safe areas, outline fonts where requested and package linked assets. Mark front, back, top, opening direction and inside panels. Keep foil, white ink, spot UV and cut lines on named layers. Assign a revision number and retire old files. Final artwork approval should refer to the same dieline and dimensions used for the physical structure."
+      ],
+      [
+        "Product Orientation",
+        "Show exactly how the product faces when the box opens and how the customer removes it. For sets, define sequence and label direction. Orientation changes cavity geometry, graphics and sometimes box depth. Check whether the packer can identify the orientation quickly and whether products can be inserted without scratching. Include a simple annotated photograph or diagram in the brief instead of relying on verbal descriptions such as “facing forward.”"
+      ],
+      [
+        "Shipping Requirements",
+        "State the destination, distribution method, individual protection and any carton or pallet constraints. A sample intended only for visual approval may not prove parcel protection. If shipping volume matters, compare assembled and fold-flat structures before tooling. Confirm whether the product will be packed in China or elsewhere because that changes how boxes ship and who performs assembly."
+      ],
+      [
+        "Pre-Sample Checklist",
+        "<ul class=\"checklist\"><li>□ Product dimensions</li><li>□ Product weight</li><li>□ Product photos</li><li>□ Quantity</li><li>□ Packaging structure</li><li>□ Material</li><li>□ Insert</li><li>□ Artwork</li><li>□ Pantone</li><li>□ Finishes</li><li>□ Delivery market</li><li>□ Shipping method</li></ul>Mark each item approved, provisional or not applicable. Do not hide an unresolved input; assign it an owner and deadline."
+      ],
+      [
+        "Sample Approval Record",
+        "Review structure, dimensions, material, color, finishes, insert fit, product orientation, opening experience and visible workmanship separately. Photograph issues, reference measurements and state the requested change. Avoid comments such as “make it more premium” without a physical criterion. Issue one consolidated revision list so different stakeholders do not send conflicting instructions. Record what is approved as well as what must change."
+      ],
+      [
+        "Mass Production Reference Sample",
+        "Keep an approved physical sample, signed artwork and written specification as the production and QC reference. Identify any sample feature that differs from the intended production method. If a late change affects structure, material or fit, evaluate whether another sample is necessary rather than assuming the reference still applies. MTT coordinates these references with the selected production route and inspection plan."
+      ]
+    ],
+    "cta": "Send the latest sample, consolidated comments and current artwork revision. MTT can help define the next sample’s purpose and approval checklist.",
+    "faq": [],
+    "append": false
+  },
+  "reduce-custom-packaging-costs": {
+    "angle": "Problem Guide",
+    "seoTitle": "Custom Packaging Quote Too High? 7 Ways to Reduce Cost Without Cheapening the Brand | MTT Packaging",
+    "title": "Custom Packaging Quote Too High? 7 Ways to Reduce Cost Without Cheapening the Brand",
+    "summary": "Seven practical ways to review structure, size, board, finishing, inserts, SKU quantity and logistics when a custom packaging quote exceeds the target budget.",
+    "intro": "When a packaging quote exceeds budget, first align the scope and identify the expensive decisions. Compare unused space, extra components, finishing and SKU variation before reducing support or protection. Price alternatives at a usable quantity and include packing and delivery. A simpler specification is valuable only if it still performs the job and preserves the brand detail that matters.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Why Custom Packaging Cost Changes",
+        "Custom packaging combines variable materials with fixed tooling, setup, sampling and production coordination. Two boxes with similar appearance can have different costs because their dimensions use sheets differently, their finishes require separate passes or their inserts add tooling and assembly. Quantity spreads fixed cost across more units, while multiple SKUs repeat setup. A useful cost review asks what each specification contributes rather than treating the quote as one indivisible number."
+      ],
+      [
+        "1. Structure",
+        "A complex magnetic presentation structure may require more board, wrap, magnets and hand assembly than a simpler lid-and-base box or folding solution. Ask whether the opening experience is central to the brand. If it is, preserve it and optimize elsewhere. If not, compare structurally simpler <a href=\"/packaging/custom-rigid-boxes\">rigid box options</a> or a premium <a href=\"/packaging/folding-cartons\">folding carton</a> using the same artwork and finish hierarchy."
+      ],
+      [
+        "2. Box Size",
+        "Remove unnecessary empty volume while maintaining product clearance, finger access and protection. A smaller box can reduce board, paper, insert area, export carton volume and freight, but only if the product remains easy to pack and remove. Review product orientation and accessory placement before reducing dimensions. Use the <a href=\"/tools/box-size-calculator\">box size and CBM calculator</a> for preliminary comparison, then confirm final dimensions through engineering and sampling."
+      ],
+      [
+        "3. Board Thickness",
+        "Do not specify thickness only to signal quality. Board should be selected for box span, product weight, closure behavior and expected handling. Excess thickness adds material and can complicate hinges, folds and wrapped corners. Reducing from one grade to another must be structurally evaluated; it is not responsible to say that 2.5 mm is always a substitute for 3.0 mm. Compare physical samples using the intended structure and product."
+      ],
+      [
+        "4. Surface Finishing",
+        "Keep premium finishing where it carries hierarchy and remove it where it adds little. A targeted foil logo, emboss detail or spot effect may deliver a stronger focal point than full-surface combinations. Each additional process can add tooling, setup, registration risk and handling. Compare one clear finish direction with the original specification, using the same paper and artwork, so savings do not come from an uncontrolled change in overall appearance."
+      ],
+      [
+        "5. Insert Material",
+        "Compare paperboard, molded pulp and EVA or foam where appropriate. Paperboard can be efficient for lighter products and folded platforms. Molded pulp may suit a three-dimensional paper-based direction but usually needs tooling. EVA can provide shaped support and cushioning when appropriately specified for heavy or fragile products, with material and wrapping adding cost. Review <a href=\"/packaging/custom-inserts\">insert choices</a> against weight, protection, presentation and order quantity rather than selecting only by unit price."
+      ],
+      [
+        "6. Quantity and SKU Complexity",
+        "Low quantities carry a larger share of tooling and setup. Several SKUs can repeat plates, dies, color matching and sample approval even when they share a visual system. Consider whether outer boxes can share dimensions, papers or print while inserts adapt to products. Do not raise quantity only to obtain a lower unit price if excess stock creates cash, storage or obsolescence cost. Compare total spend and realistic demand."
+      ],
+      [
+        "7. Fold-Flat and Shipping Volume",
+        "Conventional rigid boxes supplied erected occupy their assembled volume. Fold-flat or folding structures may improve carton utilization, but add assembly and may change presentation. Compare units per carton, carton dimensions, gross weight, CBM, pallet use, storage and pack-out labor. A structure with a slightly higher unit cost may still reduce total landed cost if it uses freight and storage more efficiently."
+      ],
+      [
+        "Unit Price vs Total Landed Cost",
+        "<p><strong>CHEAPER UNIT PRICE ≠ LOWER TOTAL COST</strong></p>Total landed cost can include tooling, samples, boxes, protective packing, export cartons, freight, duties, storage, assembly and quality risk. Request the packing assumptions behind a quote so alternatives can be compared on the same basis. If one option ships flat and another assembled, a unit-price comparison alone is incomplete."
+      ],
+      [
+        "What Not to Reduce Blindly",
+        "Do not reduce product retention, glass clearance, load-bearing support, closure reliability, required barrier performance or shipping protection without testing. Avoid replacing a specified material or finish with an unnamed “similar” option. Do not remove sampling where structure or fit changes. Protect the elements that prevent damage and the one or two visual features customers notice most; optimize secondary decoration, unused volume and unnecessary complexity first."
+      ],
+      [
+        "Cost Optimization Checklist",
+        "<ul><li>Can a simpler structure preserve the opening experience?</li><li>Can product orientation reduce box size?</li><li>Is board thickness structurally justified?</li><li>Which finish carries the main brand signal?</li><li>Can the insert material or geometry be simplified safely?</li><li>Can SKUs share size, paper, tooling or artwork elements?</li><li>How do assembled and fold-flat carton/CBM costs compare?</li><li>What is the total spend at realistic quantity?</li></ul>"
+      ]
+    ],
+    "cta": "Send the current quotation, specification, quantity and target budget. MTT can compare changes to the cost-driving components while keeping fit requirements visible.",
+    "faq": [],
+    "append": false
+  },
+  "hexagonal-rigid-gift-box-structure-analysis": {
+    "angle": "Design Analysis",
+    "title": "Hexagonal Rigid Gift Boxes: Lid Fit, Inserts and Wrapped Corners",
+    "summary": "Make a distinctive six-sided gift box practical to open and pack. Compare the separate lid, fitted insert and wrapped corners before approving decoration.",
+    "intro": "A hexagonal rigid gift box needs a matching six-sided lid and base with a practical removal fit. Check every wrapped corner, the seated insert and product access before approving the decoration. A circular gift can suit a shaped cavity, but its measured size and weight determine the support. The separate lid must stay structurally distinct from a hinged cover.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Choose the opening first",
+        "Use a separate six-sided lid over a matching rigid base. Keep the lid and base clearly separated in opening images so buyers can understand the mechanism. A regular hexagon needs six matching sides; decoration must follow the same corners in every view."
+      ],
+      [
+        "Make the insert fit the gift",
+        "The ivory insert shown has one circular recess for a round item such as a candle vessel. Confirm the actual product diameter, height and filled weight before sizing that recess. Leave practical finger access and check that the lid clears the product. Different contents require a different insert."
+      ],
+      [
+        "Balance bold colour and material detail",
+        "Coral wrapping paper and a restrained metallic border give the box a strong identity. Keep foil away from areas where wrapping or tight folds could distort it. Review paper, foil registration, corner overlaps and the insert lining together on a physical sample."
+      ],
+      [
+        "What should buyers check on a sample?",
+        "Open and close the lid several times, inspect all six corners and check whether the insert stays seated during product removal. Confirm that the box sits flat and the lid does not catch on the base. Evaluate shipping protection with the complete packed set and its outer shipping carton."
+      ],
+      [
+        "Specify the product envelope inside the hexagon",
+        "Measure the usable internal distance across flats as well as the product envelope. Do not size a round insert from the distance across opposite corners. We would compare the cavity wall remaining at the narrowest point and the finger access before reducing the outer box. A distinctive outline should not force a weak insert or awkward removal."
+      ],
+      [
+        "Prepare the quotation brief",
+        "Send product measurements, packed weight, quantities, preferred paper and finish, destination and any accessory requirements. <a href=\"/packaging/custom-rigid-boxes\">Compare rigid box structures</a> or request a packaging quotation."
+      ],
+      [
+        "About the images",
+        "These generated packaging views illustrate the structure discussed here. They are not photographs of a completed customer order; final fit and production details require a physical sample."
+      ]
+    ],
+    "cta": "Send the gift dimensions, weight, quantity and desired finish. MTT can review a six-sided lid, base and insert for a physical sample.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Hexagonal Rigid Gift Boxes: Lid Fit, Inserts and Wrapped Corners | MTT Packaging"
+  },
+  "fragrance-packaging-brand-pattern-analysis": {
+    "angle": "Design Analysis",
+    "title": "Fragrance Packaging: Give the Brand Pattern a Clear Role",
+    "summary": "Plan fragrance box patterns around brand hierarchy, wrapped joins and bottle access, with a credited design reference and sample checks.",
+    "intro": "For patterned fragrance packaging, assign one surface the main recognition role and let the remaining surfaces support it. Review where the pattern crosses wrapped edges and where the brand mark needs uninterrupted space. Compare the box and label on their actual substrates. A visually coordinated pattern still needs a separate bottle-fit and opening check.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Communication Arts describes Pentagram’s LBTY fragrance identity as a development of Liberty’s visual archive. A patterned oversized lid and restrained bottle label have different visual roles. This is a published third-party project, not an MTT order. Read the <a href=\"https://www.commarts.com/exhibit/lbty-packaging\" target=\"_blank\" rel=\"noopener noreferrer\">Communication Arts: LBTY packaging</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A fragrance pack can lose its hierarchy when every surface carries a pattern, foil, texture and large lettering. Define the recognition point first: the lid, the bottle label or the opening reveal. The outer packaging should support that decision rather than compete with it."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "Compare a lift-off rigid box with a book-style presentation box using the actual capped bottle. Reserve uninterrupted space for the brand mark. If a pattern continues around wrapped edges, decide where joins can sit before approving the artwork. A printed wrap and a bottle label are different substrates; review their colour together."
+      ],
+      [
+        "What to check in sampling",
+        "Prepare separate print and foil artwork. Check small type, pattern joins, rub resistance and bottle removal on the sample. An attractive render does not establish cap clearance or transport protection. State the required insert and shipping carton separately."
+      ],
+      [
+        "Decide which surface owns the pattern",
+        "<ul><li>Lid: recognition at first sight; review the border around the seam.</li><li>Side wrap: continuity; choose a deliberate joining location.</li><li>Interior: reveal after opening; keep removal instructions legible.</li><li>Label: identify the fragrance; avoid competing with the box pattern.</li></ul>Choose one leading role before asking for matching decoration on every component."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Provide the capped bottle dimensions, filled weight, artwork files, preferred opening, quantity by fragrance and destination. Ask for separate costs for the box, insert, finishing tools and samples. <a href=\"/insights/printing-finishing-guide\">Compare finishing and substrate checks</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send the pattern artwork, capped bottle measurements, preferred opening and quantity by fragrance. MTT can review pattern joins and a comparable box specification.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Fragrance Packaging: Give the Brand Pattern a Clear Role | MTT Packaging"
+  },
+  "skincare-packaging-series-analysis": {
+    "angle": "Design Analysis",
+    "title": "Skincare Packaging: Build One System Across Different Products",
+    "summary": "Coordinate skincare cartons and gift sets across different containers with clear SKU hierarchy, shared material references and sample checks.",
+    "intro": "Build a skincare packaging range around a clear product-name hierarchy and shared production references, while allowing different structures for different containers. Group SKUs by size and use before assuming they can share tooling. Test the smallest format for readability and the full gift set for removal. Colour should help identify products without being the only distinction.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Xaime Betancur’s Belle Girl case describes a skincare identity extending across bottles, tubes, jars and secondary boxes. Repeated typography, restrained colour and gold accents connect the formats. The published design is credited to its creator; no MTT production relationship is implied. Read the <a href=\"https://xaimebetancur.com/work/bellegirl/\" target=\"_blank\" rel=\"noopener noreferrer\">Xaime Betancur: Belle Girl</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A skincare range needs family resemblance without making customers confuse a cleanser with a serum. Establish a fixed brand position and product-name hierarchy, then use a limited variable element to distinguish each item. Do not depend on colour alone."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "Group products by container size before choosing carton formats. Shared paper and print specifications may be practical even when the cutting dies differ. For a gift set, arrange the products in their intended use order and leave access around pumps and lids. Do not use a decorative insert as evidence of leak containment."
+      ],
+      [
+        "What to check in sampling",
+        "Review the smallest carton as well as the largest: text that fits one may fail on another. Compare printed samples across the range, check barcode placement with the buyer and confirm all required product information before artwork approval."
+      ],
+      [
+        "Separate shared references from shared tools",
+        "Two SKUs can share a paper and colour target without sharing a cutting die. A larger carton may need a different panel layout, while a different product name may require separate artwork. Record common references and unique components in a SKU table so a lower total tooling estimate is not assumed from visual similarity."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Send a SKU table with container measurements, quantities, languages and artwork versions. Request costs by SKU and identify which print, foil and cutting tools can actually be shared. <a href=\"/insights/how-to-write-a-packaging-brief\">Prepare the SKU and quotation brief</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send a SKU table with container sizes, quantities, languages and artwork. MTT can review shared material references and the components that need separate tooling.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Skincare Packaging: Build One System Across Different Products | MTT Packaging"
+  },
+  "jewelry-packaging-repeat-use-analysis": {
+    "angle": "Design Analysis",
+    "title": "Jewelry Boxes: Design the Interior for Repeated Handling",
+    "summary": "Review ring slots, necklace routing, lining and repeated handling before approving jewelry presentation packaging.",
+    "intro": "Choose jewelry-box interiors around the way each piece is held and removed. Ring slots, pendant supports and necklace routing are different tasks. Evaluate the final lining with representative sizes and repeated handling, checking edges and polished surfaces. A luxurious fabric does not by itself establish retention, durability or tarnish protection for the jewelry inside.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Alejandra Frakes documents jewelry and watch presentation packaging for Chippenhook, including wrapped board and lined interiors. The portfolio highlights repeat handling and product-specific interior geometry. These are third-party examples, not MTT delivery claims. Read the <a href=\"https://casale.studio/work/jewelry-packaging\" target=\"_blank\" rel=\"noopener noreferrer\">Alejandra Frakes: Jewelry & Presentation Packaging</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A ring, pendant and necklace need different retention. A universal foam opening may display one item well while allowing another to shift. Decide how the piece is presented, how staff remove it and whether the package is also intended for travel."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "For a ring, review the slot grip with representative shank sizes. For a necklace, consider attachment points, chain routing and space behind the display pad. A fabric-covered insert changes the final cavity dimensions; confirm the assembled lining rather than only the bare foam shape."
+      ],
+      [
+        "What to check in sampling",
+        "Agree a repeated-opening check with the supplier and inspect lining edges, loose fibres, hinge behaviour and contact with polished surfaces. Do not infer durability or tarnish protection from a luxurious fabric appearance. Material compatibility needs review with the actual jewelry finish."
+      ],
+      [
+        "Test the smallest piece as well as the largest",
+        "A slot that holds the widest ring shank may release a narrower one. A chain route that suits a short pendant can leave a longer chain loose behind the pad. Identify the approved size range, then inspect removal, snagging and return to position with the final lined insert."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Provide the jewelry range, size variation, intended retail handling, preferred lining and quantity by format. Request a sample with the final lining and attachment method, not just a colour swatch. <a href=\"/insights/custom-inserts-product-protection\">Compare insert constructions</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send the jewelry sizes, finish, handling requirements and quantity by format. MTT can review the lining, retention and sample checks for each piece.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Jewelry Boxes: Design the Interior for Repeated Handling | MTT Packaging"
+  },
+  "tea-gift-box-drawer-analysis": {
+    "angle": "Design Analysis",
+    "title": "Tea Gift Boxes: Use the Opening Sequence to Organize Choice",
+    "summary": "Plan tea gift drawers around sealed packs, removal access, ribbon pulls and assortment information before approving decoration.",
+    "intro": "A tea drawer gift box should make the assortment easy to identify and remove without disturbing neighbouring packs. Plan the tin or sachet layout, ribbon pull and information card together. Check loaded drawer travel after wrapping. The gift box organizes presentation; the tea’s primary packaging must separately meet its freshness and contact requirements.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Pentagram’s Teabox project uses a coordinated identity, a colour system and slide-open packaging. Its published description also discusses tactile printed finishes. The useful reference is the relationship between navigation and presentation, rather than a template to copy. Read the <a href=\"https://www.pentagram.com/work/teabox/story\" target=\"_blank\" rel=\"noopener noreferrer\">Pentagram: Teabox</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A tea assortment should help the recipient understand what is inside before removing every packet. Organize the range with clear names and an intentional sequence. The presentation box and the tea’s sealed primary pack have separate jobs."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "Compare a drawer format with a divided lift-off box. Check that packets or tins can be removed without pulling neighbouring items out. Keep drawer friction practical after wrapping, and specify whether the ribbon is a functional pull or a decorative bow. Leave room for the brewing information card if one is required."
+      ],
+      [
+        "What to check in sampling",
+        "Review odour, storage and barrier requirements with the primary-pack supplier; a decorative rigid box alone is not a freshness system. Check packet fit, drawer travel and label legibility on the assembled sample. Avoid adding finishes that obscure variant information."
+      ],
+      [
+        "Reserve space for the card without changing the fit",
+        "Place the brewing card above or beside the sealed packs only after checking drawer travel. A loose card can catch at the sleeve mouth; a thick folded leaflet can change the loaded height. We would locate it deliberately and trial opening after the full set has been packed."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "List every tea pack size, assortment quantity, primary-pack format and information insert. Ask for the gift box and inner components as separate quotation items. <a href=\"/insights/custom-box-structure-guide\">Compare opening structures</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send the sealed tea-pack dimensions, assortment, quantities and card requirements. MTT can review drawer access and inner partitions.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Tea Gift Boxes: Use the Opening Sequence to Organize Choice | MTT Packaging"
+  },
+  "electronics-paperboard-insert-analysis": {
+    "angle": "Design Analysis",
+    "title": "Small Electronics: Separate Product Support from Accessory Storage",
+    "summary": "Separate devices, cables and booklets in a paperboard insert while reviewing sensitive surfaces, removal and complete-pack testing.",
+    "intro": "For a small electronics kit, allocate product support and accessory storage separately before setting box depth. Keep pressure away from connectors, buttons and sensitive surfaces, and restrain cables so they cannot move onto the device. Compare the complete loaded layout. A decorative paperboard insert should not be assumed to meet device-specific electrostatic or transport requirements.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Metsä Board presents paperboard applications for consumer-electronics retail and e-commerce packaging. The reference supports considering paperboard as a packaging direction; it does not validate a particular device, insert geometry or transport test. Read the <a href=\"https://www.metsagroup.com/metsaboard/products-and-services/paperboard-applications/consumer-electronics/\" target=\"_blank\" rel=\"noopener noreferrer\">Metsä Board: Consumer electronics packaging</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A compact device, cable and booklet can make a box unnecessarily deep if they are stacked without a plan. Start with the product’s vulnerable areas and removal path, then allocate the accessories to a deliberate compartment."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "A folded platform can locate the device while a separate pocket stores the cable. Compare this with a molded insert when the shape is complex. Keep connectors, buttons and delicate surfaces away from concentrated pressure. Decorative papers should not be assumed to provide electrostatic protection."
+      ],
+      [
+        "What to check in sampling",
+        "Build a complete pack-out sample using the actual device, accessories and instructions. Check movement, cable restraint, removal access and repeated packing. Confirm any device-specific handling and transport requirements with the buyer before selecting a test plan."
+      ],
+      [
+        "Compare side storage with under-tray storage",
+        "A side pocket increases footprint but can make accessories visible immediately. Under-tray storage can keep the footprint compact, but adds depth and another removal step. Compare both with the actual cable bend and booklet thickness before choosing the external size."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Send product dimensions and weight, accessory list, sensitive surfaces, shipping channel and quantity. Ask the quotation to identify the outer package, insert, accessory compartment and shipping protection separately. <a href=\"/insights/custom-inserts-product-protection\">Review insert selection</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send device measurements, accessory sizes, sensitive surfaces and shipping requirements. MTT can review a separated product-and-accessory layout.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Small Electronics: Separate Product Support from Accessory Storage | MTT Packaging"
+  },
+  "window-carton-presentation-analysis": {
+    "angle": "Design Analysis",
+    "title": "Window Cartons: Balance Product Visibility and Box Support",
+    "summary": "Review window size, film attachment, remaining carton frame and product restraint before approving a retail carton.",
+    "intro": "A carton window should reveal the detail a customer needs to see while leaving enough structure around it. Decide whether the opening is covered, then review folds, film attachment and product restraint together. A large cut-out may look attractive but weaken handling. Validate the assembled carton with its contents before approving the window artwork.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Metsä Board’s bakery packaging case presents a windowed carton application. It is a useful reference for the relationship between display and a paperboard structure. The illustrated example on this page is an independent carton concept, not a reproduction of that project. Read the <a href=\"https://www.metsagroup.com/link/a570f61639d3422fa1ec4fbf5c5535ff.aspx\" target=\"_blank\" rel=\"noopener noreferrer\">Metsä Board: Case bakery packaging</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A larger window reveals more product but removes material from the panel. Choose what the customer needs to see, then review the remaining frame, folds and closure. A window should have a functional reason rather than simply filling the largest possible area."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "Compare an open cut-out with a covered window according to the product and handling route. Define the intended window position and any film attachment before artwork approval. Keep graphics and essential information away from the cut edge. A presentation carton does not automatically provide a moisture or grease barrier."
+      ],
+      [
+        "What to check in sampling",
+        "Inspect the assembled sample for distortion, window adhesion where applicable and product movement. For food use, obtain suitability documentation for the actual board, inks, adhesives and direct-contact components; visual similarity to another pack is not evidence of suitability."
+      ],
+      [
+        "Check the pack from the shelf distance",
+        "Choose the visible product feature first, then check whether it remains in the opening when the pack is handled. If the product rotates, a larger window may not solve the problem; the internal support needs attention. Keep the remaining frame clear of a fold that already carries handling load."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Provide product dimensions, contact conditions, shelf or delivery use, quantity and preferred viewing area. Ask the supplier to identify window material and assembly charges separately. <a href=\"/insights/rigid-box-vs-folding-carton\">Compare packaging families</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send the product size, required viewing area, primary-pack details and quantity. MTT can review the window frame and sample requirements.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Window Cartons: Balance Product Visibility and Box Support | MTT Packaging"
+  },
+  "collectors-packaging-story-material-analysis": {
+    "angle": "Design Analysis",
+    "title": "Collector Packaging: Let Material Support the Story",
+    "summary": "Choose collector packaging materials around an authorised story, documented sourcing and repeatable finishing.",
+    "intro": "For collector packaging, choose materials that support an authorised product story and remain practical to source and finish. Confirm evidence before describing a special provenance. Test the finest decoration on the actual paper, then check retention separately. An expensive finish adds little if it obscures the message or cannot be repeated consistently for the order.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "Avery Dennison’s Pentawards feature describes Lost Barrels by Meyer-Näkel and the design by Ruska Martín. Its account links the packaging material and visual details to the product story. This is third-party editorial reference material, not an MTT client case. Read the <a href=\"https://www.my-muse.com/en/home/showcases/pentawards-2024.html\" target=\"_blank\" rel=\"noopener noreferrer\">Avery Dennison M_use: Pentawards 2024</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "A collector pack needs a reason for its materials beyond expense. Identify the detail the buyer should notice first and explain how it relates to the product. Do not invent a provenance story or use material claims that cannot be documented."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "For a paper-based presentation direction, compare a textured wrap with a restrained foil detail rather than adding multiple competing finishes. If a customer requests reclaimed or specially sourced material, review consistency, availability and evidence before committing. A substitute paper cannot be described as the original material."
+      ],
+      [
+        "What to check in sampling",
+        "Approve the paper, foil and colour together. Check the finest artwork details, edge wrapping and resistance to ordinary handling. A decorative sample should be accompanied by a separate assessment of how the product is retained and shipped."
+      ],
+      [
+        "Plan for a material replacement before it is needed",
+        "If a special stock becomes unavailable, decide which features can change and which claims must be removed. A similar colour can preserve a visual reference without preserving provenance. Retain an approved fallback sample and separate its description from the original material story."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Supply the brand story, authorised assets, required material claims, product dimensions and quantity. Separate decorative setup costs from the structural package and transport packing in the quote. <a href=\"/insights/printing-finishing-guide\">Review finishing proofs</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send the authorised story, material references, product size and quantity. MTT can review finish feasibility and the supporting material information.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Collector Packaging: Let Material Support the Story | MTT Packaging"
+  },
+  "modular-perfume-packaging-analysis": {
+    "angle": "Design Analysis",
+    "title": "Personalized Perfume Sets: Plan the Insert Around Every Combination",
+    "summary": "Plan shared perfume gift boxes and variant inserts around a configuration matrix, fit checks and packing instructions.",
+    "intro": "A personalised perfume set needs an approved configuration list before a shared insert can be chosen. Compare the smallest, largest and differently shaped assemblies, including caps and accessories. A common outer box with variant inserts may be practical, but it adds packing and stock-control work. Test each distinct support condition rather than extrapolating from one attractive arrangement.",
+    "dateModified": "2026-09-15",
+    "sections": [
+      [
+        "Published reference",
+        "The same Avery Dennison feature identifies EDIT (036), by Lavernia & Cienfuegos, as a perfume personalization concept with interchangeable components. It is explicitly a concept reference. No production result or MTT involvement is claimed here. Read the <a href=\"https://www.my-muse.com/en/home/showcases/pentawards-2024.html\" target=\"_blank\" rel=\"noopener noreferrer\">Avery Dennison M_use: EDIT (036) concept</a>."
+      ],
+      [
+        "The buyer’s challenge",
+        "Personalization increases the number of combinations an insert may need to hold. A cavity developed around one bottle assembly can fail when the stopper, base or accessory changes. Define the allowed configurations before choosing a common box."
+      ],
+      [
+        "Structure and material direction: our analysis",
+        "Create a dimensional envelope for each assembly and compare a shared outer box with variant-specific inserts. A removable insert component may be worth evaluating, but it adds packing instructions and inventory. Keep the customer’s selection visible in the SKU or pack-out documentation."
+      ],
+      [
+        "What to check in sampling",
+        "Sample the smallest and largest approved configurations and any shape that introduces a new contact point. Review clearance, movement and removal. A render of one configuration cannot demonstrate that all combinations fit. Do not label a pack universal until its approved scope is documented."
+      ],
+      [
+        "Use a configuration matrix at pack-out",
+        "<ul><li>Configuration code and fitted cap or base.</li><li>Maximum assembled dimensions and filled weight.</li><li>Compatible insert revision.</li><li>Accessories and label version.</li><li>Physical fit check status.</li></ul>Include shape changes as well as size extremes: the tallest version is not necessarily the hardest to support."
+      ],
+      [
+        "Prepare a comparable quotation",
+        "Provide a configuration matrix, assembly dimensions, filled weights, quantity by option and accessory list. Request the common outer box and each insert variant as separate items so the effect of personalization is visible. <a href=\"/insights/perfume-box-insert-design\">Review bottle support and clearance</a>."
+      ],
+      [
+        "Image and project credits",
+        "The four-stage images were generated specifically for this analysis. They illustrate a proposed direction and do not show the referenced brand’s packaging. Original project credit belongs to the creators linked above. No affiliation, manufacturing relationship or production performance is implied."
+      ]
+    ],
+    "cta": "Send the configuration matrix, assembled dimensions and quantities by option. MTT can compare a common box with variant-specific inserts.",
+    "faq": [],
+    "append": false,
+    "seoTitle": "Personalized Perfume Sets: Plan the Insert Around Every Combination | MTT Packaging"
+  },
   "custom-box-structure-guide": {
+    "angle": "Structure",
     "title": "Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton?",
-    "seoTitle": "Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton? | MTT Packaging",
     "summary": "Compare custom box opening styles for perfume, skincare and gift sets. Separate rigid, folding and corrugated structures before choosing materials and artwork.",
-    "intro": "Choose the opening around the product and how the buyer will use it. A removable lid, hinged cover and sliding tray create different handling needs; none alone establishes protection or quality.",
+    "intro": "Choose the box opening around loading, customer access and the intended presentation. A lift-off lid, magnetic cover and sliding drawer require different clearances and handling space. Separate wrapped rigid structures from paperboard cartons and corrugated mailers. Shortlist two workable openings before choosing decoration, then compare both with the actual contents and packing method.",
+    "dateModified": "2026-09-15",
+    "faq": [
+      [
+        "Is a magnetic box always more luxurious than a lift-off box?",
+        "No. Material feel, finish execution, fit and the intended opening experience matter. Compare physical samples for the same product rather than ranking quality by the closure alone."
+      ],
+      [
+        "Can a rigid box ship flat?",
+        "Some purpose-designed collapsible rigid boxes can fold flat. A conventional assembled lift-off box does not. Confirm the actual supplied configuration and the assembly required at your packing location."
+      ],
+      [
+        "Does a hinged lid make a mailer a rigid gift box?",
+        "No. A corrugated mailer uses fluted board and folded locking parts. A wrapped rigid book box uses a different board and assembly method even though both can open from the rear."
+      ]
+    ],
     "sections": [
       [
         "Start with the product, not the decoration",
@@ -27,175 +1147,33 @@
       ],
       [
         "Send two options for a useful comparison",
-        "Shortlist two structures with the same contents and quantity. Ask for the board, wrap, insert, print, finishes, setup charges and shipping scope to be identified separately. A comparison with different inserts or delivery terms is not a like-for-like price comparison. <a href=\"/request-a-quote\">Send your product measurements and preferred opening</a>, or use the <a href=\"/tools/gift-box-solution-builder\">box planning tool</a> for an initial visual brief."
+        "Shortlist two structures with the same contents and quantity. Ask for the board, wrap, insert, print, finishes, setup charges and shipping scope to be identified separately. A comparison with different inserts or delivery terms is not a like-for-like price comparison. Use <a href=\"/tools/gift-box-solution-builder\">Design Your Box</a> to record an initial visual direction if useful."
       ]
     ],
-    "faq": [
-      [
-        "Is a magnetic box always more luxurious than a lift-off box?",
-        "No. Material feel, finish execution, fit and the intended opening experience matter. Compare physical samples for the same product rather than ranking quality by the closure alone."
-      ],
-      [
-        "Can a rigid box ship flat?",
-        "Some purpose-designed collapsible rigid boxes can fold flat. A conventional assembled lift-off box does not. Confirm the actual supplied configuration and the assembly required at your packing location."
-      ],
-      [
-        "Does a hinged lid make a mailer a rigid gift box?",
-        "No. A corrugated mailer uses fluted board and folded locking parts. A wrapped rigid book box uses a different board and assembly method even though both can open from the rear."
-      ]
-    ],
-    "dateModified": "2026-09-13",
-    "append": false
-  },
-  "rigid-box-vs-folding-carton": {
-    "title": "Rigid Box vs Folding Carton vs Corrugated: How to Choose",
-    "seoTitle": "Rigid Box vs Folding Carton vs Corrugated: How to Choose | MTT Packaging",
-    "summary": "Compare rigid boxes, folding cartons and corrugated packaging by presentation, packing, material use and shipping needs, with practical product examples.",
-    "intro": "Use rigid boxes for the presentation experience you want, folding cartons for an appropriate retail format, and corrugated packaging for an assessed transport or mailer role. A project may need more than one layer.",
-    "sections": [
-      [
-        "Three families, three different starting points",
-        "<ul><li><strong>Rigid box:</strong> structural board is wrapped or otherwise finished and assembled into a firm presentation format. Some designs are collapsible; many are supplied erected.</li><li><strong>Folding carton:</strong> creased paperboard forms panels, end flaps and glued or locking features. Supply and erection methods depend on the design.</li><li><strong>Corrugated packaging:</strong> fluted material between liners forms shipping cartons, mailers or other structures. Board grade, joints, supports and the route must be reviewed together.</li></ul>Paper thickness alone is not a complete performance specification."
-      ],
-      [
-        "Choose by what the customer must do",
-        "A gift recipient may keep a rigid box; a retail customer may open a carton once; a fulfilment team needs a pack that can be assembled and sealed consistently. Start with those tasks. A <a href=\"/products/skincare-ritual-book\">magnetic skincare set</a> presents several items together. A <a href=\"/products/custom-skincare-duo-auto-bottom\">crash-lock skincare carton</a> provides a different retail packing route. A <a href=\"/products/custom-skincare-duo-rsc\">four-flap corrugated carton</a> can serve an outer transport role. They are not interchangeable specifications."
-      ],
-      [
-        "Compare total scope, not a presumed cheapest family",
-        "Request a quote for the same product count, quantity and delivery scope. Separate board and wrap, insert, printing, finishing, tooling, assembly and packing. Also ask for sample charges and freight. Do not assume a universal quantity at which one family becomes cheaper: size, production route, print coverage and setup all matter. Obtain packed carton dimensions if empty packaging must travel to your filling site."
-      ],
-      [
-        "Premium appearance is not limited to one board family",
-        "A folding carton can use precise typography, bright printing and an appropriate finish. A rigid box can be restrained or colourful. Neither a magnet nor a drawer is sufficient to define quality, and similar opening actions can be engineered in different materials. Evaluate the actual construction and sample rather than relying only on names such as “luxury” or “premium”."
-      ],
-      [
-        "Separate the display box from shipping protection",
-        "For a perfume order, compare a <a href=\"/products/signature-perfume-lift-off\">presentation box</a> with a <a href=\"/products/custom-perfume-bottle-mailer\">corrugated mailer</a>. If one sits inside the other, size the outer pack from the finished packed presentation box. Agree product restraint, sealing and an appropriate testing plan. A beautiful box, a flute designation or a style drawing does not establish that the full pack will survive the distribution route."
-      ],
-      [
-        "A short selection checklist",
-        "<ul><li>What is the complete product envelope and loaded weight?</li><li>Is the pack for display, carrying, delivery or several of these?</li><li>Will it arrive at the filling site flat or erected?</li><li>Who assembles, loads and seals it?</li><li>Are inserts, cards and a bag part of the order?</li><li>Which physical sample and transport checks need approval?</li></ul><a href=\"/request-a-quote\">Request a comparison using the same brief</a>. For opening details, read the <a href=\"/insights/custom-box-structure-guide\">box structure guide</a>."
-      ]
-    ],
-    "faq": [
-      [
-        "Are all rigid boxes unable to fold flat?",
-        "No. Collapsible rigid structures exist. Specify whether your chosen design is supplied assembled or flat, and include assembly work when comparing costs."
-      ],
-      [
-        "Does a folding carton need an outer shipping pack?",
-        "That depends on the product and distribution route. Do not assume a retail carton alone is adequate for parcel shipping; review the full loaded system."
-      ],
-      [
-        "Which family is the cheapest?",
-        "There is no dependable universal ranking for every project. Compare quotes with the same contents, quantities, finishes, packing and delivery scope."
-      ]
-    ],
-    "dateModified": "2026-09-13",
-    "append": false
-  },
-  "custom-inserts-product-protection": {
-    "title": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts",
-    "seoTitle": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts | MTT Packaging",
-    "summary": "Choose a custom insert around product geometry, removal access and packaging use. Compare paperboard, molded pulp, EVA and fabric-covered support.",
-    "intro": "The best insert is the one that supports your actual product and lets the customer remove it comfortably. Choose the material after defining the contents, box opening and distribution conditions.",
-    "sections": [
-      [
-        "Measure the assembled product and identify contact areas",
-        "Provide dimensions with caps, pumps and decorations fitted, plus filled weight and photographs from several sides. Mark surfaces that should not be rubbed or loaded. Define whether the product lies down or stands up. A jar and two bottles, as in the <a href=\"/products/skincare-ritual-book\">skincare set</a>, need separate positions and a review of lid clearance. Do not size a cavity from a photograph or nominal bottle capacity."
-      ],
-      [
-        "Paperboard: folded support with deliberate contact points",
-        "Folded or die-cut paperboard can create platforms, dividers and locating features. Specify where the product rests and how it is restrained; an attractive empty cutout does not prove support. Review creases, assembly and loaded deformation on the sample. Check the full material combination and local collection route before making recyclability claims. The <a href=\"/products/custom-skincare-duo-auto-bottom\">carton example</a> uses paperboard support, with grade and fit still to be confirmed."
-      ],
-      [
-        "Molded pulp: formed geometry and a tooling decision",
-        "Molded-fibre inserts can form three-dimensional support around a product. Surface appearance and dimensional behaviour depend on the process and material. Confirm the tooling scope, sample method and product contact areas before selecting it for appearance alone. Read the <a href=\"/insights/molded-pulp-inserts-cosmetic-packaging\">molded-pulp guide for cosmetics</a> alongside your actual product requirements."
-      ],
-      [
-        "EVA and covered support: specify the full build",
-        "Cut foam can form locating cavities, but foam type, density, thickness and the remaining material between cavities need review. A fabric cover changes the contact surface and usable fit. Check for rubbing, lint, adhesive visibility and removal force. In the <a href=\"/products/engagement-ring-keepsake-lift-off\">ring keepsake layout</a>, the fabric-lined slit must suit the ring and its setting; the lining is not automatically an anti-tarnish material."
-      ],
-      [
-        "Access can matter as much as a tight fit",
-        "Allow a practical grip, finger recess or secured lift ribbon. A cavity that holds an item but makes removal awkward is not finished engineering. For a drawer, check stability during sliding; for a hinged lid, check the closing sweep; for a lift-off lid, check the full height under the cap. Use the <a href=\"/insights/custom-box-structure-guide\">opening guide</a> to coordinate the insert and box."
-      ],
-      [
-        "Validate the full pack and record the approved version",
-        "Use actual contents to check loading, removal, closure and the intended handling sequence. Confirm the transport test scope for the complete pack separately. Record material, cavity drawing, product revision and approved sample together. If the bottle or cap changes, review the fit again. <a href=\"/request-a-quote\">Send the product data for an insert review</a>; include quantity, destination and any direct-contact requirements."
-      ]
-    ],
-    "faq": [
-      [
-        "Is EVA always the safest insert for glass?",
-        "No material name establishes protection on its own. Geometry, support, material properties and the complete shipping pack need a loaded-sample review and appropriate testing."
-      ],
-      [
-        "Can one insert hold a whole gift set?",
-        "Yes, if each item has suitable support and removal access. Include every item, leaflet and accessory when defining the available space."
-      ],
-      [
-        "Is a paper insert automatically recyclable?",
-        "Do not assume that. Review coatings, adhesives, combined materials, separation and the actual collection route in the destination market."
-      ]
-    ],
-    "dateModified": "2026-09-13",
-    "append": false
-  },
-  "how-to-write-a-packaging-brief": {
-    "title": "Custom Packaging Brief Checklist: What to Send for a Quote",
-    "seoTitle": "Custom Packaging Brief Checklist: What to Send for a Quote | MTT Packaging",
-    "summary": "Prepare a packaging brief with dimensions, quantity, materials, artwork, inserts and delivery scope. Includes a copyable checklist for boxes, bags and gift sets.",
-    "intro": "A useful brief states what is known and marks what is undecided. You can request guidance before final artwork is ready, but a production quote needs a reviewed specification and clear delivery scope.",
-    "sections": [
-      [
-        "Describe the product as it will be packed",
-        "Measure the actual assembled product, including caps and projecting parts, and provide its loaded weight. List the number of pieces in each set. For food already sealed in a tray or pouch, measure that sealed pack rather than the loose contents. For example, the <a href=\"/products/custom-sealed-macarons-window-tuck\">macaron window carton</a> must accommodate the tray rim and cover as well as the food."
-      ],
-      [
-        "Use the right dimension convention",
-        "State finished internal box dimensions as length × width × height, and label product dimensions separately. A shopping bag uses width × side gusset × height and should be sized from the finished outer box with an agreed loading orientation. Do not reuse the bottle dimensions as bag dimensions. Identify the unit of measurement and mark all provisional dimensions."
-      ],
-      [
-        "Copy this enquiry checklist",
-        "<ul><li>Product name and current development stage:</li><li>Assembled product dimensions, units and loaded weight:</li><li>Items per set and individual sizes:</li><li>Packaging role: retail / gifting / parcel delivery:</li><li>Preferred structure or two options to compare:</li><li>Material and finish preferences, or undecided:</li><li>Insert, bag, card, ribbon and tissue requirements:</li><li>Quantity by size, artwork version and accessory:</li><li>Artwork files and separate foil / UV / emboss artwork, if ready:</li><li>Destination, target arrival date and delivery terms to discuss:</li><li>Optional budget range and currency:</li><li>Sample, tooling and testing requirements:</li></ul>Mark missing items “to be confirmed” instead of guessing."
-      ],
-      [
-        "Ask for an itemized commercial scope",
-        "Separate the box, insert and accessories, and ask which print and finishing operations are included. Request sample and tooling costs separately, plus freight and any tax or duty assumptions. State whether packing takes place at your facility or elsewhere. A price for an empty box and a price for a packed gift set cover different work. Use the <a href=\"/products/coffee-tasting-flight-drawer\">coffee set</a> to consider whether tasting cards are supplied loose or placed in the box."
-      ],
-      [
-        "Food and sensitive product details need their own review",
-        "State whether packaging touches the food directly, the storage conditions and the destination. A general “food grade” label is not enough to determine suitability for a particular use. The <a href=\"https://www.fda.gov/food/packaging-food-contact-substances-fcs/determining-regulatory-status-components-food-contact-material\">FDA explains how food-contact component status is assessed</a> for the United States; other destinations need their own review. This guide does not certify any catalogue pack."
-      ],
-      [
-        "Keep one current specification and a clear approval path",
-        "Attach the current artwork revision and identify who approves structure, colour and the physical sample. Do not approve print files while the structure is still changing. Start with the <a href=\"/tools/gift-box-solution-builder\">box planning tool</a> if a visual draft helps, or <a href=\"/request-a-quote\">send the checklist directly</a>. Neither an account nor a completed tool design is required to enquire."
-      ]
-    ],
-    "faq": [
-      [
-        "Can I ask for a quote before I know the material?",
-        "Yes. Share the product, quantity, opening preference and delivery needs, and mark the material undecided. A final price still needs an agreed specification."
-      ],
-      [
-        "Can a reference image replace dimensions?",
-        "No. It communicates appearance and opening direction, but it does not establish the actual product envelope or manufacturing dimensions."
-      ],
-      [
-        "Should bags and ribbons use the same order quantity as boxes?",
-        "State quantities separately. Extra bags, multiple ribbon lengths or different artwork versions may change the required quantities and quote."
-      ]
-    ],
-    "dateModified": "2026-09-13",
-    "append": false
+    "seoTitle": "Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton? | MTT Packaging",
+    "append": false,
+    "cta": "Send product dimensions, weight and two preferred openings. MTT can compare the structures with the same insert and delivery requirements."
   },
   "printing-finishing-guide": {
+    "angle": "Print & Finish",
     "title": "Matte, Gloss, Foil or Spot UV: Custom Packaging Finishes",
-    "seoTitle": "Matte, Gloss, Foil or Spot UV: Custom Packaging Finishes | MTT Packaging",
     "summary": "Compare matte and gloss surfaces, foil, embossing and spot UV for custom packaging. Learn what to specify and check on the actual paper sample.",
-    "intro": "Choose the effect you need the customer to see or feel, then test that finish on the intended substrate. A finish name alone does not predict its appearance on every paper or cloth.",
+    "intro": "Choose the finish around the visual or tactile detail you want buyers to notice, then test it on the intended paper. Matte, gloss, foil and spot effects respond differently to substrate and artwork. Review small details, joins and handling marks before combining processes. A screen mock-up cannot establish registration, adhesion or the final surface appearance.",
+    "dateModified": "2026-09-15",
+    "faq": [
+      [
+        "Can I combine foil, embossing and spot UV?",
+        "A combination may be feasible, but the substrate, operation sequence, detail and registration need review. Specify the intended areas and ask for a sample before committing to production."
+      ],
+      [
+        "Will a gloss finish make any material look the same?",
+        "No. The base material, printed coverage and coating or lamination route affect appearance. Compare the actual materials."
+      ],
+      [
+        "Does more finishing always mean better packaging?",
+        "No. Choose effects that support the design and remain clear in production. Several competing effects can make the hierarchy less readable and add setup costs."
+      ]
+    ],
     "sections": [
       [
         "Matte versus gloss: start with the broad surface",
@@ -219,60 +1197,161 @@
       ],
       [
         "Prepare artwork and quote each operation",
-        "Identify ordinary print, foil, UV and relief areas separately. Keep key information away from cuts, folds and wrap joins using the allowances agreed for that structure; there is no single safe-zone value for all packaging. Ask for each setup or tooling charge and sample scope. <a href=\"/request-a-quote\">Send your artwork and preferred finish</a>, using the <a href=\"/insights/how-to-write-a-packaging-brief\">brief checklist</a> if the specification is still open."
+        "Identify ordinary print, foil, UV and relief areas separately. Keep key information away from cuts, folds and wrap joins using the allowances agreed for that structure; there is no single safe-zone value for all packaging. Ask for each setup or tooling charge and sample scope. Send your artwork and preferred finish, using the <a href=\"/insights/how-to-write-a-packaging-brief\">brief checklist</a> if the specification is still open."
       ]
     ],
+    "seoTitle": "Matte, Gloss, Foil or Spot UV: Custom Packaging Finishes | MTT Packaging",
+    "append": false,
+    "cta": "Send the artwork, paper reference and finish priorities. MTT can review which details need a physical proof before tooling."
+  },
+  "custom-inserts-product-protection": {
+    "angle": "Insert & Protection",
+    "title": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts",
+    "summary": "Choose a custom insert around product geometry, removal access and packaging use. Compare paperboard, molded pulp, EVA and fabric-covered support.",
+    "intro": "Choose a custom insert by the product’s support needs, packing method and acceptable contact, then compare material routes. A folded platform, molded support and foam cavity can solve different problems. Test the final assembled insert, including any covering. Material names and visual neatness alone cannot establish retention or protection across the intended product range.",
+    "dateModified": "2026-09-15",
     "faq": [
       [
-        "Can I combine foil, embossing and spot UV?",
-        "A combination may be feasible, but the substrate, operation sequence, detail and registration need review. Specify the intended areas and ask for a sample before committing to production."
+        "Is EVA always the safest insert for glass?",
+        "No material name establishes protection on its own. Geometry, support, material properties and the complete shipping pack need a loaded-sample review and appropriate testing."
       ],
       [
-        "Will a gloss finish make any material look the same?",
-        "No. The base material, printed coverage and coating or lamination route affect appearance. Compare the actual materials."
+        "Can one insert hold a whole gift set?",
+        "Yes, if each item has suitable support and removal access. Include every item, leaflet and accessory when defining the available space."
       ],
       [
-        "Does more finishing always mean better packaging?",
-        "No. Choose effects that support the design and remain clear in production. Several competing effects can make the hierarchy less readable and add setup costs."
+        "Is a paper insert automatically recyclable?",
+        "Do not assume that. Review coatings, adhesives, combined materials, separation and the actual collection route in the destination market."
       ]
     ],
-    "dateModified": "2026-09-13",
-    "append": false
-  },
-  "packaging-design-to-production-china": {
-    "title": "Packaging Design to Production in China: Boxes, Bags & Gift Sets",
-    "seoTitle": "Packaging Design to Production in China: Boxes, Bags & Gift Sets | MTT Packaging",
-    "summary": "Coordinate box structure, inserts, bags, cards and artwork from brief to physical sample and production approval, with a clear specification for each component.",
-    "intro": "A coordinated packaging set needs more than matching artwork: each box, insert, bag and card needs an agreed size, material and approval reference. Keep one project brief with separate component specifications.",
     "sections": [
       [
-        "Plan the full set before finalising the box",
-        "List what is supplied: presentation box, product insert, paper bag, ribbon, card, tissue and any shipping carton. State the quantity for each component and whether it arrives loose or assembled. The <a href=\"/products/festival-sweets-collection-hexagonal\">hexagonal gift box</a> and <a href=\"/products/custom-reed-diffuser-twisted-bag\">paper bag example</a> illustrate different component choices; they are not a dimensionally matched set. A pictured accessory is not automatically included in a quotation."
+        "Measure the assembled product and identify contact areas",
+        "Provide dimensions with caps, pumps and decorations fitted, plus filled weight and photographs from several sides. Mark surfaces that should not be rubbed or loaded. Define whether the product lies down or stands up. A jar and two bottles, as in the <a href=\"/products/skincare-ritual-book\">skincare set</a>, need separate positions and a review of lid clearance. Do not size a cavity from a photograph or nominal bottle capacity."
       ],
       [
-        "Use the finished outer box to size the bag",
-        "Confirm the box’s external dimensions after wrapping and assembly, its loading orientation and the total carried weight. Specify bag width × side gusset × height. Test insertion, removal and handle attachment with the complete set, including tissue. A loose ribbon and a structurally secured lift ribbon have different functions and should be identified separately."
+        "Paperboard: folded support with deliberate contact points",
+        "Folded or die-cut paperboard can create platforms, dividers and locating features. Specify where the product rests and how it is restrained; an attractive empty cutout does not prove support. Review creases, assembly and loaded deformation on the sample. Check the full material combination and local collection route before making recyclability claims. The <a href=\"/products/custom-skincare-duo-auto-bottom\">carton example</a> uses paperboard support, with grade and fit still to be confirmed."
       ],
       [
-        "Approve colour across the materials, then freeze revisions",
-        "The same artwork on box wrap, bag stock and card paper can differ in colour and sheen. Approve them together and record each substrate and finish. When a box size changes, recheck the bag, insert, card placement and shipping carton before release. The <a href=\"/insights/printing-finishing-guide\">finish guide</a> explains the physical references to request; use the <a href=\"/insights/how-to-write-a-packaging-brief\">enquiry checklist</a> to keep commercial scope aligned."
+        "Molded pulp: formed geometry and a tooling decision",
+        "Molded-fibre inserts can form three-dimensional support around a product. Surface appearance and dimensional behaviour depend on the process and material. Confirm the tooling scope, sample method and product contact areas before selecting it for appearance alone. Read the <a href=\"/insights/molded-pulp-inserts-cosmetic-packaging\">molded-pulp guide for cosmetics</a> alongside your actual product requirements."
+      ],
+      [
+        "EVA and covered support: specify the full build",
+        "Cut foam can form locating cavities, but foam type, density, thickness and the remaining material between cavities need review. A fabric cover changes the contact surface and usable fit. Check for rubbing, lint, adhesive visibility and removal force. In the <a href=\"/products/engagement-ring-keepsake-lift-off\">ring keepsake layout</a>, the fabric-lined slit must suit the ring and its setting; the lining is not automatically an anti-tarnish material."
+      ],
+      [
+        "Access can matter as much as a tight fit",
+        "Allow a practical grip, finger recess or secured lift ribbon. A cavity that holds an item but makes removal awkward is not finished engineering. For a drawer, check stability during sliding; for a hinged lid, check the closing sweep; for a lift-off lid, check the full height under the cap. Use the <a href=\"/insights/custom-box-structure-guide\">opening guide</a> to coordinate the insert and box."
+      ],
+      [
+        "Validate the full pack and record the approved version",
+        "Use actual contents to check loading, removal, closure and the intended handling sequence. Confirm the transport test scope for the complete pack separately. Record material, cavity drawing, product revision and approved sample together. If the bottle or cap changes, review the fit again. Send the product data for an insert review; include quantity, destination and any direct-contact requirements."
       ]
     ],
+    "seoTitle": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts | MTT Packaging",
+    "append": false,
+    "cta": "Send product measurements, weights, contact restrictions and the distribution route. MTT can compare insert structures before selecting a material."
+  },
+  "rigid-box-vs-folding-carton": {
+    "angle": "How to choose",
+    "title": "Rigid Box vs Folding Carton vs Corrugated: How to Choose",
+    "summary": "Compare rigid boxes, folding cartons and corrugated packaging by presentation, packing, material use and shipping needs, with practical product examples.",
+    "intro": "Choose rigid, folding-carton or corrugated packaging by the job each layer must perform. A presentation shell, retail carton and transport pack are not interchangeable even when their lids look similar. Compare packing labour, complete cost and product support as well as appearance. Some projects need a combination; some rigid designs can also be supplied folded.",
+    "dateModified": "2026-09-15",
     "faq": [
       [
-        "Can MTT review a box, bag and card in one brief?",
-        "Yes. List each component, its quantity and how the set is packed. Dimensions, material options and sample approval still need to be confirmed for every component."
+        "Are all rigid boxes unable to fold flat?",
+        "No. Collapsible rigid structures exist. Specify whether your chosen design is supplied assembled or flat, and include assembly work when comparing costs."
       ],
       [
-        "Does matching artwork guarantee the same colour on every component?",
-        "No. Paper, texture and surface finish affect reproduction. Approve the components together against physical references."
+        "Does a folding carton need an outer shipping pack?",
+        "That depends on the product and distribution route. Do not assume a retail carton alone is adequate for parcel shipping; review the full loaded system."
       ],
       [
-        "What should happen if the product or box size changes?",
-        "Recheck the insert, finished outer size, bag fit, card placement and shipping pack. Keep the revised specification linked to the approved artwork and sample."
+        "Which family is the cheapest?",
+        "There is no dependable universal ranking for every project. Compare quotes with the same contents, quantities, finishes, packing and delivery scope."
       ]
     ],
-    "dateModified": "2026-09-13",
-    "append": true
+    "sections": [
+      [
+        "Three families, three different starting points",
+        "<ul><li><strong>Rigid box:</strong> structural board is wrapped or otherwise finished and assembled into a firm presentation format. Some designs are collapsible; many are supplied erected.</li><li><strong>Folding carton:</strong> creased paperboard forms panels, end flaps and glued or locking features. Supply and erection methods depend on the design.</li><li><strong>Corrugated packaging:</strong> fluted material between liners forms shipping cartons, mailers or other structures. Board grade, joints, supports and the route must be reviewed together.</li></ul>Paper thickness alone is not a complete performance specification."
+      ],
+      [
+        "Choose by what the customer must do",
+        "A gift recipient may keep a rigid box; a retail customer may open a carton once; a fulfilment team needs a pack that can be assembled and sealed consistently. Start with those tasks. A <a href=\"/products/skincare-ritual-book\">magnetic skincare set</a> presents several items together. A <a href=\"/products/custom-skincare-duo-auto-bottom\">crash-lock skincare carton</a> provides a different retail packing route. A <a href=\"/products/custom-skincare-duo-rsc\">four-flap corrugated carton</a> can serve an outer transport role. They are not interchangeable specifications."
+      ],
+      [
+        "Compare total scope, not a presumed cheapest family",
+        "Request a quote for the same product count, quantity and delivery scope. Separate board and wrap, insert, printing, finishing, tooling, assembly and packing. Also ask for sample charges and freight. Do not assume a universal quantity at which one family becomes cheaper: size, production route, print coverage and setup all matter. Obtain packed carton dimensions if empty packaging must travel to your filling site."
+      ],
+      [
+        "Premium appearance is not limited to one board family",
+        "A folding carton can use precise typography, bright printing and an appropriate finish. A rigid box can be restrained or colourful. Neither a magnet nor a drawer is sufficient to define quality, and similar opening actions can be engineered in different materials. Evaluate the actual construction and sample rather than relying only on names such as “luxury” or “premium”."
+      ],
+      [
+        "Separate the display box from shipping protection",
+        "For a perfume order, compare a <a href=\"/products/signature-perfume-lift-off\">presentation box</a> with a <a href=\"/products/custom-perfume-bottle-mailer\">corrugated mailer</a>. If one sits inside the other, size the outer pack from the finished packed presentation box. Agree product restraint, sealing and an appropriate testing plan. A beautiful box, a flute designation or a style drawing does not establish that the full pack will survive the distribution route."
+      ],
+      [
+        "A short selection checklist",
+        "<ul><li>What is the complete product envelope and loaded weight?</li><li>Is the pack for display, carrying, delivery or several of these?</li><li>Will it arrive at the filling site flat or erected?</li><li>Who assembles, loads and seals it?</li><li>Are inserts, cards and a bag part of the order?</li><li>Which physical sample and transport checks need approval?</li></ul>Request a comparison using the same brief. For opening details, read the <a href=\"/insights/custom-box-structure-guide\">box structure guide</a>."
+      ]
+    ],
+    "seoTitle": "Rigid Box vs Folding Carton vs Corrugated: How to Choose | MTT Packaging",
+    "append": false,
+    "cta": "Send the contents, retail or shipping route, quantity and presentation priorities. MTT can compare the packaging families on a consistent scope."
+  },
+  "how-to-write-a-packaging-brief": {
+    "angle": "Buyer Guide",
+    "title": "Custom Packaging Brief Checklist: What to Send for a Quote",
+    "summary": "Prepare a packaging brief with dimensions, quantity, materials, artwork, inserts and delivery scope. Includes a copyable checklist for boxes, bags and gift sets.",
+    "intro": "A useful packaging brief identifies the contents, dimensions, intended use, quantity and approval requirements before listing finishes. Mark provisional decisions rather than asking suppliers to guess. Separate the box, insert, accessories and delivery scope so quotations can be compared. Keep the approved brief linked to the drawing and sample revisions as the project develops.",
+    "dateModified": "2026-09-15",
+    "faq": [
+      [
+        "Can I ask for a quote before I know the material?",
+        "Yes. Share the product, quantity, opening preference and delivery needs, and mark the material undecided. A final price still needs an agreed specification."
+      ],
+      [
+        "Can a reference image replace dimensions?",
+        "No. It communicates appearance and opening direction, but it does not establish the actual product envelope or manufacturing dimensions."
+      ],
+      [
+        "Should bags and ribbons use the same order quantity as boxes?",
+        "State quantities separately. Extra bags, multiple ribbon lengths or different artwork versions may change the required quantities and quote."
+      ]
+    ],
+    "sections": [
+      [
+        "Describe the product as it will be packed",
+        "Measure the actual assembled product, including caps and projecting parts, and provide its loaded weight. List the number of pieces in each set. For food already sealed in a tray or pouch, measure that sealed pack rather than the loose contents. For example, the <a href=\"/products/custom-sealed-macarons-window-tuck\">macaron window carton</a> must accommodate the tray rim and cover as well as the food."
+      ],
+      [
+        "Use the right dimension convention",
+        "State finished internal box dimensions as length × width × height, and label product dimensions separately. A shopping bag uses width × side gusset × height and should be sized from the finished outer box with an agreed loading orientation. Do not reuse the bottle dimensions as bag dimensions. Identify the unit of measurement and mark all provisional dimensions."
+      ],
+      [
+        "Copy this enquiry checklist",
+        "<ul><li>Product name and current development stage:</li><li>Assembled product dimensions, units and loaded weight:</li><li>Items per set and individual sizes:</li><li>Packaging role: retail / gifting / parcel delivery:</li><li>Preferred structure or two options to compare:</li><li>Material and finish preferences, or undecided:</li><li>Insert, bag, card, ribbon and tissue requirements:</li><li>Quantity by size, artwork version and accessory:</li><li>Artwork files and separate foil / UV / emboss artwork, if ready:</li><li>Destination, target arrival date and delivery terms to discuss:</li><li>Optional budget range and currency:</li><li>Sample, tooling and testing requirements:</li></ul>Mark missing items “to be confirmed” instead of guessing."
+      ],
+      [
+        "Ask for an itemized commercial scope",
+        "Separate the box, insert and accessories, and ask which print and finishing operations are included. Request sample and tooling costs separately, plus freight and any tax or duty assumptions. State whether packing takes place at your facility or elsewhere. A price for an empty box and a price for a packed gift set cover different work. Use the <a href=\"/products/coffee-tasting-flight-drawer\">coffee set</a> to consider whether tasting cards are supplied loose or placed in the box."
+      ],
+      [
+        "Food and sensitive product details need their own review",
+        "State whether packaging touches the food directly, the storage conditions and the destination. A general “food grade” label is not enough to determine suitability for a particular use. The <a href=\"https://www.fda.gov/food/packaging-food-contact-substances-fcs/determining-regulatory-status-components-food-contact-material\">FDA explains how food-contact component status is assessed</a> for the United States; other destinations need their own review. This guide does not certify any catalogue pack."
+      ],
+      [
+        "Keep one current specification and a clear approval path",
+        "Attach the current artwork revision and identify who approves structure, colour and the physical sample. Do not approve print files while the structure is still changing. Start with the <a href=\"/tools/gift-box-solution-builder\">box planning tool</a> if a visual draft helps, or send the checklist directly. Neither an account nor a completed tool design is required to enquire."
+      ]
+    ],
+    "seoTitle": "Custom Packaging Brief Checklist: What to Send for a Quote | MTT Packaging",
+    "append": false,
+    "cta": "Send your product photos, measurements, quantity and draft brief. MTT can identify missing inputs needed for a comparable quotation."
   }
 }
