@@ -1,6 +1,7 @@
 import type { PackagingProduct } from './products';
 // Review prompts, not factory tolerances or claims of validated performance.
 const checks: Record<string, [string,string]> = {
+ 'fold-flat':['Check that the continuous cover, rear spine and full-depth magnetic flap align in both formed and flat states. Review inward-folding corner gussets, insert removal and corner fixing on the physical sample; do not assume permanent corner adhesives permit repeated flattening.','核对一体外壳、背脊和整高磁吸前翻盖在成型与折平时的对应关系。实物检查内折四角、内托取放及固定方式；不能假定永久粘胶四角可以反复拆折。'],
  'lift-off':['Check the lid internal size against the wrapped base external size, insertion depth and removal force. The lid is fully separate; it has no hinge.','核对上盖内尺寸与裱糊后底盒外尺寸、套入深度和取盖手感。盖底完全分离，无铰链。'],
  drawer:['Check sleeve internal clearance against the finished tray, full travel and pull-tab attachment. Test with the actual product loaded.','核对套筒内空间与成品抽匣配合、完整抽拉行程和拉带固定；装入实物后测试。'],
  book:['Check the spine hinge allowance, cover alignment and concealed magnet positions/polarity. Verify closure without the lid pressing on the product.','核对书脊转折余量、盖面齐口及隐藏磁铁的位置和极性；合盖不得挤压产品。'],

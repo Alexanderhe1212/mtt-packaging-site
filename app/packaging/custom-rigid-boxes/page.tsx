@@ -95,7 +95,7 @@ export default function CustomRigidBoxesPage() {
               <img src={`/design/rigid-structures/${image}.webp`} alt={`${title} packaging illustration`} width="720" height="720" loading="lazy" style={{display:"block",width:"100%",height:"auto",marginBottom:20}} />
               <b>0{i + 1}</b>
               <h3>{title}</h3>
-              <p>{desc}</p>
+              <p>{desc}</p>{image==="fold-flat"&&<a href="/products?family=rigid&structure=fold-flat">Explore collapsible magnetic designs →</a>}
             </article>
           ))}
         </div>

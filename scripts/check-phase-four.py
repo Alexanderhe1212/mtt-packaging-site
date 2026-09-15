@@ -29,7 +29,8 @@ for p in products:
         assert not any(n.get('@type')=='Product' for n in nodes),path
         web=next(n for n in nodes if n.get('@type')=='WebPage' and n.get('identifier')==p['code'])
         assert web['url']=='https://mttpackaging.com/'+path,path
-        assert len(web['image'])==5,path
+        assert len(web['image'])==(6 if p['structure']=='fold-flat' else 5),path
+        if p['structure']=='fold-flat': assert web['image'][-1].endswith('-5.webp'),path
         assert web['inLanguage']==('zh-Hans' if prefix.startswith('zh') else 'en'),path
         trail=next(n for n in nodes if n.get('@type')=='BreadcrumbList')
         assert trail['itemListElement'][-1]['item']==web['url'],path

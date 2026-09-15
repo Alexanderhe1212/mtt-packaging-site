@@ -7,7 +7,7 @@ let originalBytes=0,thumbnailBytes=0;
 for(const p of products){
  const card='dist/client/products/cards/'+path.basename(p.image.replace('.webp','-0.webp'));
  assert((await sharp(card).metadata()).width===320);
- for(let i=0;i<5;i++){
+ for(let i=0;i<(p.structure==='fold-flat'?6:5);i++){
   const name=path.basename(p.image.replace('.webp',`-${i}.webp`));
   const original='dist/client/products/'+name,thumb='dist/client/products/thumbs/'+name;
   const meta=await sharp(thumb).metadata();assert(meta.width<=160&&meta.height<=160,name);
@@ -15,9 +15,9 @@ for(const p of products){
  }
  for(const prefix of ['','zh/']){
   const html=await fs.readFile(`dist/client/${prefix}products/${p.slug}.html`,'utf8');
-  for(let i=0;i<5;i++)assert(html.includes('/products/thumbs/'+path.basename(p.image.replace('.webp',`-${i}.webp`))),p.slug);
+  for(let i=0;i<(p.structure==='fold-flat'?6:5);i++)assert(html.includes('/products/thumbs/'+path.basename(p.image.replace('.webp',`-${i}.webp`))),p.slug);
   assert(html.includes('fetchPriority="high"')||html.includes('fetchpriority="high"'),p.slug);
  }
 }
 assert(thumbnailBytes<originalBytes);
-console.log(`${products.length*5} thumbnails and ${products.length*2} page references pass; ${Math.round(1000*(1-thumbnailBytes/originalBytes))/10}% smaller combined thumbnail payload.`);
+console.log(`${products.reduce((n,p)=>n+(p.structure==='fold-flat'?6:5),0)} thumbnails and ${products.length*2} page references pass; ${Math.round(1000*(1-thumbnailBytes/originalBytes))/10}% smaller combined thumbnail payload.`);

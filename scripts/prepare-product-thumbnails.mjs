@@ -5,7 +5,7 @@ import sharp from 'sharp';
 const products=(await Promise.all(['lib/products.json','lib/products-expanded.json'].map(async p=>JSON.parse(await fs.readFile(p,'utf8'))))).flat();
 await fs.mkdir('public/products/thumbs',{recursive:true});
 let count=0;
-for(const p of products) for(let view=0;view<5;view++){
+for(const p of products) for(let view=0;view<(p.structure==='fold-flat'?6:5);view++){
  const source='public'+p.image.replace('.webp',`-${view}.webp`);
  const target='public/products/thumbs/'+path.basename(source);
  const input=await fs.stat(source);
