@@ -1,3 +1,4 @@
+import FamilyProductDirectory from "../../../components/FamilyProductDirectory";
 import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
 import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
 import BuyerPlanning from "../../../components/BuyerPlanning";
@@ -83,14 +84,15 @@ export default function CustomRigidBoxesPage() {
         </div>
         <div className="structure-list">
           {[
-            ["Magnetic closure", "Hidden magnets create a controlled, satisfying opening. Suited to gift sets, launches and premium retail."],
-            ["Lift-off lid", "A clean two-piece structure. Versatile, efficient to pack and suitable for single products and collections."],
-            ["Drawer box", "A sleeve-and-tray format that creates a deliberate sliding reveal. Works well with ribbon pulls."],
-            ["Shoulder-neck", "A visible inner neck introduces a second brand color. Strong reveal for perfume and cosmetics."],
-            ["Fold-flat rigid", "Ships flat and assembles at destination. Compare storage and freight volume using the final carton plan; savings vary by structure and packing method."],
-            ["Presentation case", "A hinged or multi-part structure for high-value items, collectibles and luxury accessories."],
-          ].map(([title, desc], i) => (
+            ["Magnetic closure", "Hidden magnets create a controlled, satisfying opening. Suited to gift sets, launches and premium retail.", "magnetic"],
+            ["Lift-off lid", "A clean two-piece structure. Versatile, efficient to pack and suitable for single products and collections.", "lift-off"],
+            ["Drawer box", "A sleeve-and-tray format that creates a deliberate sliding reveal. Works well with ribbon pulls.", "drawer"],
+            ["Shoulder-neck", "A visible inner neck introduces a second brand color. Strong reveal for perfume and cosmetics.", "shoulder-neck"],
+            ["Fold-flat rigid", "Ships flat and assembles at destination. Compare storage and freight volume using the final carton plan; savings vary by structure and packing method.", "fold-flat"],
+            ["Presentation case", "A hinged or multi-part structure for high-value items, collectibles and luxury accessories.", "presentation"],
+          ].map(([title, desc, image], i) => (
             <article key={title}>
+              <img src={`/design/rigid-structures/${image}.webp`} alt={`${title} packaging illustration`} width="720" height="720" loading="lazy" style={{display:"block",width:"100%",height:"auto",marginBottom:20}} />
               <b>0{i + 1}</b>
               <h3>{title}</h3>
               <p>{desc}</p>
@@ -118,6 +120,7 @@ export default function CustomRigidBoxesPage() {
         </div>
       </section>
 
+      <FamilyProductDirectory family="rigid" />
       <BuyerPlanning kind="rigid" />
       <section className="brief-list">
         <div>

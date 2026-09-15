@@ -60,8 +60,15 @@ export default function CustomPaperBagsPage() {
       <section className="industry-section">
         <div><p className="section-kicker">Options</p><h2>Paper bag options and construction.</h2></div>
         <div className="structure-list">
-          {[["Cotton rope handles", "Premium feel, reinforced with internal knots."], ["Ribbon handles", "Satin or grosgrain ribbon for luxury gifting."], ["Paper twisted handles", "Cost-efficient, clean look, fully recyclable."], ["Die-cut handles", "Integrated handle cut from the bag itself."], ["Flat base", "Cardboard insert for stability and load capacity."], ["Rope + eyelet", "Metal eyelets reinforce handle holes for heavy loads."]].map(([t, d], i) => (
-            <article key={t}><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
+          {[
+            ["Cotton rope handles", "Soft braided cotton rope, secured inside a reinforced folded rim.", "cotton-rope"],
+            ["Ribbon handles", "Flat satin or grosgrain ribbon loops for a soft, decorative carrying handle.", "ribbon"],
+            ["Paper twisted handles", "Twisted paper cord with glued paper attachment patches. Recycling suitability depends on the complete bag and local collection.", "twisted-paper"],
+            ["Die-cut handles", "An opening cut through the reinforced top of the bag, without separate cords.", "die-cut"],
+            ["Flat base", "A fitted cardboard insert supports the inside bottom. Confirm the full bag construction for the intended weight.", "flat-base"],
+            ["Rope + eyelet", "Metal eyelets surround the rope holes. Handle attachment, paper and base all need review for the intended load.", "rope-eyelet"],
+          ].map(([t, d, image], i) => (
+            <article key={t}><img src={`/design/bag-options/${image}.webp`} alt={`${t} paper bag illustration`} width="720" height="720" loading="lazy" style={{display:"block",width:"100%",height:"auto",marginBottom:20}}/><b>0{i + 1}</b><h3>{t}</h3><p>{d}</p></article>
           ))}
         </div>
       </section>
