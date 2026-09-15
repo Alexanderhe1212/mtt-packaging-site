@@ -42,7 +42,7 @@ export default function BuyerPlanning({kind}:{kind:keyof typeof guides}) {
   <p className="section-kicker">Before you order</p><h2>{g.title}</h2>
   <div className="buyer-options">{g.choices.map(([title,copy])=><article key={title}><h3>{title}</h3><p>{copy}</p></article>)}</div>
   <div className="buyer-next"><div><h3>What to send for a quote</h3><p>Product dimensions in mm, weight, quantity by size or design, destination, intended use and artwork or reference images. Tell us your preferred material and finish—or ask for a recommendation.</p><p>Price depends on the confirmed specification, tooling and quantity. Sample/tooling charges and freight should be identified separately in the formal quotation.</p></div><div><h3>What to approve in a sample</h3><p>{g.checks}</p><p>Concept visuals illustrate a direction; they are not proof of a completed production order. Final fit, appearance and protection require engineering review and physical sampling.</p></div></div>
-  <div className="buyer-actions"><a className="button" href="/request-a-quote">Request a Packaging Review →</a><a href="/tools/gift-box-solution-builder">Try the free box planning tool →</a></div>
+  <div className="buyer-actions"><a className="button" href="/request-a-quote">Request a Packaging Review →</a><a href="/tools/gift-box-solution-builder">Design Your Box →</a></div>
   <nav className="buyer-guides" aria-label="Related packaging guides">{g.links.map(([href,label])=><a key={href} href={href}>{label} →</a>)}<a href="/quality-control">Quality control →</a><a href="/how-we-work">Sampling & production process →</a></nav>
  </section>
 }
