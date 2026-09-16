@@ -89,16 +89,23 @@ export default function Home() {
     </section>
 
     {/* SECTION 4 — CRAFTSMANSHIP */}
-    <section className="hp-craft hp-reveal">
-      <div className="hp-craft-img">
-        <img src="/design/home-v4/foil.webp" alt="Copper foil fan lines catching the light across a fuchsia paper-wrapped rigid box corner" width="1200" height="900" loading="lazy" />
-        <img src="/design/home-v4/emboss.webp" alt="Close-up of blind-embossed waves and tactile ivory cotton paper" width="1200" height="900" loading="lazy" className="hp-craft-detail" />
-      </div>
-      <div className="hp-craft-content">
-        <p className="hp-kicker">Craftsmanship</p>
-        <h2 className="hp-section-h2">The detail is<br/>the difference.</h2>
-        <p className="hp-craft-sub">Foil stamping · Embossing · Specialty paper · Custom inserts — every surface and join is specified before production begins.</p>
-        <a className="hp-craft-link" href="/how-we-work">How we work →</a>
+    <section className="hp-craft hp-craft-gallery hp-reveal" aria-labelledby="craft-heading">
+      <header className="hp-craft-heading">
+        <div><p className="hp-kicker">Craftsmanship</p><h2 className="hp-section-h2" id="craft-heading">The detail is the difference.</h2></div>
+        <div><p className="hp-craft-sub">Compare surface finishes and paper textures. Confirm your chosen combination on a physical sample before production.</p><a className="hp-craft-link" href="/how-we-work">How we work →</a></div>
+      </header>
+      <div className="hp-finish-grid">
+        {[
+          ['foil','Foil stamping','Metallic lines on textured wrapping paper','Copper foil fan lines across a fuchsia rigid box corner'],
+          ['emboss','Blind embossing','Raised detail without printed colour','Raised waves on ivory paper wrapping a rigid box'],
+          ['deboss','Debossing','Recessed lettering pressed into the surface','Recessed letter M on a dark green paper-wrapped box'],
+          ['uv','Spot UV','Gloss detail against a matte background','Glossy leaf pattern on a dark green box surface'],
+          ['lamination','Matte & gloss lamination','Compare two surface reflections','Matching printed boxes showing matte and gloss surface finishes'],
+          ['paper','Specialty paper','Explore tactile wrapping textures','Fanned paper swatches showing varied textured wrapping papers'],
+        ].map(([id,title,description,alt])=><figure key={id}>
+          <img src={`/design/craft-gallery/${id}.webp`} srcSet={`/design/craft-gallery/${id}-480.webp 480w, /design/craft-gallery/${id}.webp 800w`} sizes="(max-width:600px) calc((100vw - 62px)/2), (max-width:1000px) calc((100vw - 72px)/2), 30vw" width="800" height="600" loading="lazy" alt={alt}/>
+          <figcaption><h3>{title}</h3><p>{description}</p></figcaption>
+        </figure>)}
       </div>
     </section>
 

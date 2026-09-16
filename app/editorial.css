@@ -178,3 +178,17 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 .ppwr-page .industry-priorities>.ppwr-grid-three:last-child{grid-template-columns:repeat(3,minmax(0,1fr))}
 .ppwr-timeline-row{display:grid;grid-template-columns:140px minmax(0,1fr);gap:24px;padding:20px 0;border-bottom:1px solid #ffffff33}
 @media(max-width:850px){.buyer-faq-layout{padding:40px 24px;grid-template-columns:minmax(0,1fr);gap:28px}.ppwr-page .ppwr-grid,.ppwr-page .industry-priorities>.ppwr-grid:last-child{grid-template-columns:minmax(0,1fr)}.ppwr-timeline-row{grid-template-columns:minmax(0,1fr);gap:10px}}
+
+/* Equal-size finish references replace the oversized stacked craft images. */
+.mtt-editorial .hp-craft-gallery{display:block;min-height:0}
+.hp-craft-heading{display:grid;grid-template-columns:1.2fr 1fr;gap:5vw;align-items:end;margin-bottom:32px}
+.hp-craft-heading .hp-section-h2{max-width:650px;font-size:clamp(32px,3.4vw,52px)}
+.hp-craft-heading .hp-craft-sub{margin:0 0 18px;max-width:520px}
+.hp-finish-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px}
+.hp-finish-grid figure{margin:0;min-width:0}
+.hp-finish-grid img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.hp-finish-grid figcaption{padding-top:14px;color:var(--ink)}
+.hp-finish-grid h3{font:400 25px/1.15 Georgia,serif;margin:0 0 8px}
+.hp-finish-grid figcaption p{font-size:14px;line-height:1.5;color:#49554d;margin:0}
+@media(max-width:1000px){.hp-finish-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.hp-craft-heading{grid-template-columns:1fr;gap:20px}.hp-finish-grid{gap:24px 14px}.hp-finish-grid h3{font-size:20px}.hp-finish-grid figcaption p{font-size:13px}.hp-craft-heading .hp-craft-sub{font-size:15px}}
