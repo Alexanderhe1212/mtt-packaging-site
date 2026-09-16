@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "match-gold-foil-perfume-box-paper-bag",
+    "date": "2026-09-16",
+    "targetCustomer": "Fragrance brand buyer approving a coordinated rigid box and paper bag",
+    "customerDecision": "Resolve gold-foil appearance differences before approving production samples",
+    "primaryQuery": "matching gold foil on boxes and paper bags",
+    "secondaryQueries": [
+      "gold foil colour mismatch packaging",
+      "hot foil stamping textured paper",
+      "perfume packaging foil sample approval"
+    ],
+    "searchEvidence": "Intent selected from existing perfume box/bag topic coverage and material/process question; no fresh GSC query-page data available for this article. No search volume asserted.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 93,
+    "evidenceSections": [
+      "Separate a shade mismatch from a transfer defect",
+      "Keep a separate finish record for each component",
+      "Use two sample gates: flat decoration, then assembled packaging"
+    ],
+    "informationGain": [
+      "Diagnosis checklist separating appearance from transfer defects",
+      "Three matching strategies and material tradeoffs",
+      "Two-stage sampling gate and paired reference handoff"
+    ],
+    "claimReview": "No actual customer, order, production result, certification, price or universal process setting asserted. Holmen supports the narrow surface-smoothness claim; KURZ supports availability of different decorative effects, not MTT compatibility. Remaining recommendations are conditional engineering guidance. No statement that MTT uses either supplier.",
+    "limitations": "Physical samples and converter confirmation required; editorial score is subjective and does not measure rankings or AI citations."
+  }
+]
