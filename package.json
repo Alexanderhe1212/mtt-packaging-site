@@ -12,7 +12,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "check:locales": "node scripts/check-locales.mjs",
     "audit:site": "lhci autorun",
-    "check:release": "python3 scripts/validate-static.py && python3 scripts/check-phase-four.py && python3 scripts/check-phase-five.py && node scripts/check-quote-retry.mjs && node scripts/check-product-thumbnails.mjs && node scripts/check-analytics-consent.mjs && python3 scripts/check-indexnow.py && python3 scripts/check-guide-navigation.py && python3 scripts/check-search-quality.py && python3 scripts/check-content-quality.py",
+    "check:release": "python3 scripts/validate-static.py && python3 scripts/check-phase-four.py && python3 scripts/check-phase-five.py && node scripts/check-quote-retry.mjs && node scripts/check-product-thumbnails.mjs && node scripts/check-analytics-consent.mjs && python3 scripts/check-indexnow.py && python3 scripts/check-guide-navigation.py && python3 scripts/check-search-quality.py && python3 scripts/check-content-quality.py && python3 scripts/check-crawl-paths.py",
     "audit:enquiry": "node scripts/check-quote-browser.mjs",
     "audit:guides": "node scripts/check-guide-browser.mjs",
     "audit:links": "sh scripts/audit-links.sh",
