@@ -3,7 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
-  {articles:['match-gold-foil-perfume-box-paper-bag','perfume-box-and-bag-packaging','perfume-box-inserts','perfume-box-insert-design','fragrance-packaging-brand-pattern-analysis','modular-perfume-packaging-analysis','skincare-packaging-series-analysis','molded-pulp-inserts-cosmetic-packaging'], products:['signature-perfume-lift-off','travel-fragrance-trio-drawer','custom-perfume-bottle-ribbon-bag']},
+  {articles:['perfume-discovery-set-packaging','match-gold-foil-perfume-box-paper-bag','perfume-box-and-bag-packaging','perfume-box-inserts','perfume-box-insert-design','fragrance-packaging-brand-pattern-analysis','modular-perfume-packaging-analysis','skincare-packaging-series-analysis','molded-pulp-inserts-cosmetic-packaging'], products:['signature-perfume-lift-off','travel-fragrance-trio-drawer','custom-perfume-bottle-ribbon-bag']},
   {articles:['packaging-inserts-for-handmade-glass-products','custom-inserts-product-protection','electronics-paperboard-insert-analysis','perfume-box-inserts','molded-pulp-inserts-cosmetic-packaging'], products:['custom-candle-packaging-set','signature-perfume-lift-off','three-compartment-skincare-mailer']},
   {articles:['hexagonal-rigid-gift-box-structure-analysis','custom-box-structure-guide','rigid-box-vs-folding-carton','window-carton-presentation-analysis','fold-flat-triangular-gift-box-shipping-volume'], products:['signature-perfume-lift-off','window-bakery-folding-carton','custom-corrugated-packaging-set']},
   {articles:['custom-packaging-cost-guide','reduce-custom-packaging-costs','reduce-shipping-costs-rigid-boxes','fold-flat-triangular-gift-box-shipping-volume'], products:['custom-skincare-duo-auto-bottom','three-compartment-skincare-mailer','custom-coffee-pouches-flat-handle-bag']},
@@ -12,6 +12,7 @@ const topics = [
   {articles:['double-door-wine-gift-box-design-review','christmas-drawer-gift-box-packout-review','collectors-packaging-story-material-analysis','tea-gift-box-drawer-analysis','jewelry-packaging-repeat-use-analysis'], products:['twin-wine-double-door-gift-box','four-drawer-christmas-gift-cabinet','coffee-tasting-flight-drawer']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'perfume-discovery-set-packaging':['perfume-discovery-library-double-door','travel-fragrance-trio-drawer','signature-perfume-lift-off'],
   'jewelry-packaging-repeat-use-analysis':['engagement-ring-keepsake-lift-off','pendant-presentation-drawer','watch-and-strap-collection-book'],
   'tea-gift-box-drawer-analysis':['tea-tin-pairing-lift-off','coffee-tasting-flight-drawer','chocolate-selection-book'],
   'double-door-wine-gift-box-design-review':['twin-wine-double-door-gift-box','custom-wine-packaging-set','single-wine-cotton-handle-paper-bag'],

@@ -9,6 +9,9 @@ reviews=json.loads(Path('docs/research/content-quality-review-2026-09-15.json').
 new_article=json.loads(Path('lib/finish-approval-article.json').read_text())
 updates[new_article['slug']]=new_article
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-16.json').read_text())
+discovery=json.loads(Path('lib/perfume-discovery-article.json').read_text())
+updates[discovery['slug']]=discovery
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-17.json').read_text())
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

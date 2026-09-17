@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "perfume-discovery-set-packaging",
+    "date": "2026-09-17",
+    "targetCustomer": "Fragrance brand buyer planning multi-vial discovery sets",
+    "customerDecision": "Choose shared outer boxes versus variant-specific inserts and approve vial access and packing identification",
+    "primaryQuery": "perfume discovery set packaging",
+    "secondaryQueries": [
+      "custom perfume sample boxes",
+      "fragrance discovery set inserts",
+      "multi vial perfume packaging"
+    ],
+    "searchEvidence": "Topic gap selected from existing site coverage; no current GSC query-page demand or search volume claimed.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "evidenceSections": [
+      "Start with the finished vial, not its nominal volume",
+      "Choose a layout that customers can actually use",
+      "When can several fragrance sets share one box?",
+      "Compare folding cartons and rigid discovery boxes",
+      "Prevent fragrance mix-ups during packing",
+      "An illustrative six-vial versus eight-vial decision",
+      "Approve fit, packing and transport as separate checks",
+      "What to include in a discovery-set quotation brief"
+    ],
+    "informationGain": [
+      "Shared-box decision framework",
+      "Six versus eight vial illustrative scenario",
+      "Packing identification and three-stage approval checklist"
+    ],
+    "claimReview": "Fedrigoni supports the limited creasing definition; ISTA supports route-specific testing and representative samples. All recommendations are conditional engineering judgments. No invented MTT case, savings, certification, universal tolerances or ranking promise.",
+    "limitations": "Editorial score is subjective; final fit, formulation transport acceptance and testing remain project-specific."
+  }
+]
