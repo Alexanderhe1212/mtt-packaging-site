@@ -30,7 +30,7 @@
     ],
     "cta": "Send both quotations, the box and insert specification, quantities and delivery terms. MTT can identify scope differences and the items that need a comparable price.",
     "append": false,
-    "seoTitle": "Custom Packaging Costs: How to Compare a Box Quotation | MTT Packaging"
+    "seoTitle": "Custom Packaging Costs: How to Compare a Box Quotation | MTT"
   },
   "packaging-material-selection": {
     "angle": "Materials",
@@ -96,7 +96,7 @@
     ],
     "cta": "Send the material lines from your quotation and the intended box format. MTT can clarify missing grades, layers and sample references.",
     "append": false,
-    "seoTitle": "Greyboard, SBS, Kraft and Corrugated: Reading a Packaging Specification | MTT Packaging"
+    "seoTitle": "Packaging Materials: Greyboard, SBS, Kraft & Corrugated | MTT"
   },
   "custom-packaging-sampling-process": {
     "angle": "Process",
@@ -129,7 +129,7 @@
     ],
     "cta": "Send your sample photos, marked issues and the latest specification. MTT can help separate structural, artwork and material changes for the next sample.",
     "append": false,
-    "seoTitle": "Packaging Sample Approval: What to Check Before Production | MTT Packaging"
+    "seoTitle": "Packaging Sample Approval: What to Check Before Production | MTT"
   },
   "5-things-before-ordering-custom-packaging": {
     "angle": "Buyer Guide",
@@ -162,7 +162,7 @@
     ],
     "cta": "Send the product details, launch timing and decisions still open. MTT can help turn them into a packaging brief that can be quoted.",
     "append": false,
-    "seoTitle": "Before Ordering Custom Packaging: Five Decisions to Settle | MTT Packaging"
+    "seoTitle": "Before Ordering Custom Packaging: Five Decisions to Settle | MTT"
   },
   "reduce-shipping-costs-rigid-boxes": {
     "angle": "Cost Saving",
@@ -195,11 +195,11 @@
     ],
     "cta": "Send the current carton dimensions, carton count, gross weight, box quantity and destination. MTT can compare erected and flat-supplied packing options.",
     "append": false,
-    "seoTitle": "Rigid Box Shipping Costs: Compare CBM, Packing and Assembly | MTT Packaging"
+    "seoTitle": "Rigid Box Shipping Costs: Compare CBM, Packing and Assembly | MTT"
   },
   "packaging-inserts-for-handmade-glass-products": {
     "angle": "Design Analysis",
-    "seoTitle": "Handmade Glass Packaging Inserts: Managing Size Variation | MTT Packaging",
+    "seoTitle": "Handmade Glass Packaging Inserts: Managing Size Variation | MTT",
     "title": "Handmade Glass Packaging Inserts: Managing Size Variation",
     "summary": "Design inserts for variable handmade glass using measured ranges, safe contact zones, removal access and representative sample checks.",
     "intro": "For handmade glass, design the insert around measured variation rather than one nominal size. Identify safe support areas, leave fragile features clear and evaluate several representative pieces. A tighter cavity can create pressure instead of protection. Choose the material and support geometry together, then assess the complete presentation box and shipping pack with the actual products.",
@@ -232,7 +232,7 @@
   },
   "fold-flat-triangular-gift-box-shipping-volume": {
     "angle": "Design Analysis",
-    "seoTitle": "Triangular Fold-Flat Cartons: Structure and Shipping Tradeoffs | MTT Packaging",
+    "seoTitle": "Triangular Fold-Flat Cartons: Structure and Shipping Tradeoffs | MTT",
     "title": "Triangular Fold-Flat Cartons: Structure and Shipping Tradeoffs",
     "summary": "Assess a triangular carton’s panel layout, end closure, assembly and export packing before claiming shipping savings.",
     "intro": "A triangular carton can be considered for flat supply when its panels, end closures and assembly sequence work as one structure. Compare its final export packing with the erected alternative, including destination labour and protection. A folded photograph alone cannot prove that the blank assembles correctly or that the finished order will cost less to ship.",
@@ -269,7 +269,7 @@
     "summary": "Compare perfume insert material routes by bottle contact, appearance, tooling and sample requirements before selecting an inner tray.",
     "intro": "Choose a perfume insert material by the support the bottle needs, the surface it can tolerate and the appearance required inside the box. Paperboard, molded fibre and foam offer different construction routes. None guarantees protection by name. Compare the same filled bottle in representative samples, including removal access and the final outer packaging.",
     "dateModified": "2026-09-15",
-    "seoTitle": "Perfume Insert Materials: Paperboard, Molded Fibre or Foam? | MTT Packaging",
+    "seoTitle": "Perfume Insert Materials: Paperboard, Molded Fibre or Foam? | MTT",
     "sections": [
       [
         "Paperboard: start with the support layout",
@@ -327,7 +327,7 @@
     "cta": "Send container drawings, filled weights, quantity and the intended box layout. MTT can review whether a molded fibre route merits tooling and sampling.",
     "faq": [],
     "append": false,
-    "seoTitle": "Molded Pulp Cosmetic Inserts: What to Resolve Before Tooling | MTT Packaging"
+    "seoTitle": "Molded Pulp Cosmetic Inserts: What to Resolve Before Tooling | MTT"
   },
   "ppwr-packaging-requirements": {
     "angle": "PPWR / EU Regulation",
@@ -364,7 +364,7 @@
     ],
     "cta": "Send the destination market, packaging component list, material records and the documentation your compliance team requires. MTT can help identify specification gaps and coordinate available supplier information.",
     "append": false,
-    "seoTitle": "PPWR Packaging Requirements: An EU Buyer’s Specification Checklist | MTT Packaging"
+    "seoTitle": "PPWR Packaging Requirements: EU Buyer Checklist | MTT Packaging"
   },
   "double-door-wine-gift-box-design-review": {
     "angle": "Design Analysis",
@@ -405,7 +405,7 @@
     "cta": "Send the filled bottle dimensions, set weight, quantity and bag requirements. MTT can review door access, bottle support and the complete set before sampling.",
     "faq": [],
     "append": false,
-    "seoTitle": "Custom Wine Gift Boxes: Double-Door Structure, Inserts and Sample Checks | MTT Packaging"
+    "seoTitle": "Wine Gift Boxes: Double-Door Structure & Inserts | MTT Packaging"
   },
   "christmas-drawer-gift-box-packout-review": {
     "angle": "Design Analysis",
@@ -446,7 +446,7 @@
     "cta": "Send the gift list, dimensions, weights and quantities by message or logo. MTT can review the drawer layout and packing sequence.",
     "faq": [],
     "append": false,
-    "seoTitle": "Christmas Gift Box Packaging: Four-Drawer Design and Pack-Out Checklist | MTT Packaging"
+    "seoTitle": "Christmas Gift Boxes: Four-Drawer Packing Guide | MTT Packaging"
   },
   "perfume-box-and-bag-packaging": {
     "angle": "Fragrance Planning",
@@ -500,7 +500,7 @@
   },
   "perfume-box-insert-design": {
     "angle": "Problem Guide",
-    "seoTitle": "Perfume Bottle Rattling in Its Box? Check Insert Fit and Support | MTT Packaging",
+    "seoTitle": "Perfume Box Insert Fit: Preventing Bottle Movement | MTT Packaging",
     "title": "Perfume Bottle Rattling in Its Box? Check Insert Fit and Support",
     "summary": "Diagnose bottle movement, cap pressure and difficult removal by reviewing support zones, cavity depth and representative samples.",
     "intro": "If a perfume bottle rattles or tilts, review the support geometry before simply tightening the cavity. Use the filled bottle, identify safe contact zones and keep closure pressure off the sprayer. Check removal and representative dimensional variation. Then validate the insert with the final box and transport pack, rather than treating a tight desk fit as proof of protection.",
@@ -565,7 +565,7 @@
   },
   "packaging-design-to-production-china": {
     "angle": "Problem Guide",
-    "seoTitle": "Packaging Design to Production in China: Boxes, Bags & Gift Sets | MTT Packaging",
+    "seoTitle": "Packaging Design to Production in China | MTT Packaging",
     "title": "Packaging Design to Production in China: Boxes, Bags & Gift Sets",
     "summary": "Coordinate box structure, inserts, bags, cards and artwork from brief to physical sample and production approval, with a clear specification for each component.",
     "intro": "To move a packaging design into production, connect the artwork to a buildable structure, an agreed material specification and one controlled approval record. Resolve product fit and opening before finishing tools are released. A render can communicate intent, but the converter still needs panel, joint, insert and packing information tied to the approved sample.",
@@ -619,7 +619,7 @@
   },
   "reduce-packaging-sampling-rounds": {
     "angle": "Problem Guide",
-    "seoTitle": "How to Reduce Custom Packaging Sampling Rounds Before Mass Production | MTT Packaging",
+    "seoTitle": "How to Reduce Packaging Sampling Rounds | MTT Packaging",
     "title": "How to Reduce Custom Packaging Sampling Rounds Before Mass Production",
     "summary": "A pre-sample checklist for resolving product dimensions, structure, materials, inserts, artwork, color, finishes and shipping requirements before physical sampling.",
     "intro": "Reduce avoidable sampling rounds by deciding what each sample must prove and keeping all comments against one revision. Confirm product dimensions, structure and material availability before refining decoration. Combine feedback from the buyer’s team, but do not skip a necessary fit or transport check to meet an arbitrary one-round target. Changes discovered through physical validation can be legitimate.",
@@ -680,7 +680,7 @@
   },
   "reduce-custom-packaging-costs": {
     "angle": "Problem Guide",
-    "seoTitle": "Custom Packaging Quote Too High? 7 Ways to Reduce Cost Without Cheapening the Brand | MTT Packaging",
+    "seoTitle": "7 Ways to Reduce Custom Packaging Costs | MTT Packaging",
     "title": "Custom Packaging Quote Too High? 7 Ways to Reduce Cost Without Cheapening the Brand",
     "summary": "Seven practical ways to review structure, size, board, finishing, inserts, SKU quantity and logistics when a custom packaging quote exceeds the target budget.",
     "intro": "When a packaging quote exceeds budget, first align the scope and identify the expensive decisions. Compare unused space, extra components, finishing and SKU variation before reducing support or protection. Price alternatives at a usable quantity and include packing and delivery. A simpler specification is valuable only if it still performs the job and preserves the brand detail that matters.",
@@ -774,7 +774,7 @@
     "cta": "Send the gift dimensions, weight, quantity and desired finish. MTT can review a six-sided lid, base and insert for a physical sample.",
     "faq": [],
     "append": false,
-    "seoTitle": "Hexagonal Rigid Gift Boxes: Lid Fit, Inserts and Wrapped Corners | MTT Packaging"
+    "seoTitle": "Hexagonal Gift Boxes: Lid Fit, Inserts & Corners | MTT Packaging"
   },
   "fragrance-packaging-brand-pattern-analysis": {
     "angle": "Design Analysis",
@@ -815,7 +815,7 @@
     "cta": "Send the pattern artwork, capped bottle measurements, preferred opening and quantity by fragrance. MTT can review pattern joins and a comparable box specification.",
     "faq": [],
     "append": false,
-    "seoTitle": "Fragrance Packaging: Give the Brand Pattern a Clear Role | MTT Packaging"
+    "seoTitle": "Fragrance Packaging: Give the Brand Pattern a Clear Role | MTT"
   },
   "skincare-packaging-series-analysis": {
     "angle": "Design Analysis",
@@ -856,7 +856,7 @@
     "cta": "Send a SKU table with container sizes, quantities, languages and artwork. MTT can review shared material references and the components that need separate tooling.",
     "faq": [],
     "append": false,
-    "seoTitle": "Skincare Packaging: Build One System Across Different Products | MTT Packaging"
+    "seoTitle": "Skincare Packaging Across Different Products | MTT Packaging"
   },
   "jewelry-packaging-repeat-use-analysis": {
     "angle": "Design Analysis",
@@ -897,7 +897,7 @@
     "cta": "Send the jewelry sizes, finish, handling requirements and quantity by format. MTT can review the lining, retention and sample checks for each piece.",
     "faq": [],
     "append": false,
-    "seoTitle": "Jewelry Boxes: Design the Interior for Repeated Handling | MTT Packaging"
+    "seoTitle": "Jewelry Boxes: Design the Interior for Repeated Handling | MTT"
   },
   "tea-gift-box-drawer-analysis": {
     "angle": "Design Analysis",
@@ -938,7 +938,7 @@
     "cta": "Send the sealed tea-pack dimensions, assortment, quantities and card requirements. MTT can review drawer access and inner partitions.",
     "faq": [],
     "append": false,
-    "seoTitle": "Tea Gift Boxes: Use the Opening Sequence to Organize Choice | MTT Packaging"
+    "seoTitle": "Tea Gift Boxes: Use the Opening Sequence to Organize Choice | MTT"
   },
   "electronics-paperboard-insert-analysis": {
     "angle": "Design Analysis",
@@ -979,7 +979,7 @@
     "cta": "Send device measurements, accessory sizes, sensitive surfaces and shipping requirements. MTT can review a separated product-and-accessory layout.",
     "faq": [],
     "append": false,
-    "seoTitle": "Small Electronics: Separate Product Support from Accessory Storage | MTT Packaging"
+    "seoTitle": "Electronics Packaging: Support & Accessory Storage | MTT Packaging"
   },
   "window-carton-presentation-analysis": {
     "angle": "Design Analysis",
@@ -1020,7 +1020,7 @@
     "cta": "Send the product size, required viewing area, primary-pack details and quantity. MTT can review the window frame and sample requirements.",
     "faq": [],
     "append": false,
-    "seoTitle": "Window Cartons: Balance Product Visibility and Box Support | MTT Packaging"
+    "seoTitle": "Window Cartons: Balance Product Visibility and Box Support | MTT"
   },
   "collectors-packaging-story-material-analysis": {
     "angle": "Design Analysis",
@@ -1102,7 +1102,7 @@
     "cta": "Send the configuration matrix, assembled dimensions and quantities by option. MTT can compare a common box with variant-specific inserts.",
     "faq": [],
     "append": false,
-    "seoTitle": "Personalized Perfume Sets: Plan the Insert Around Every Combination | MTT Packaging"
+    "seoTitle": "Personalized Perfume Sets: Insert Layout Planning | MTT Packaging"
   },
   "custom-box-structure-guide": {
     "angle": "Structure",
@@ -1150,7 +1150,7 @@
         "Shortlist two structures with the same contents and quantity. Ask for the board, wrap, insert, print, finishes, setup charges and shipping scope to be identified separately. A comparison with different inserts or delivery terms is not a like-for-like price comparison. Use <a href=\"/tools/gift-box-solution-builder\">Design Your Box</a> to record an initial visual direction if useful."
       ]
     ],
-    "seoTitle": "Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton? | MTT Packaging",
+    "seoTitle": "Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton? | MTT",
     "append": false,
     "cta": "Send product dimensions, weight and two preferred openings. MTT can compare the structures with the same insert and delivery requirements."
   },
@@ -1200,7 +1200,7 @@
         "Identify ordinary print, foil, UV and relief areas separately. Keep key information away from cuts, folds and wrap joins using the allowances agreed for that structure; there is no single safe-zone value for all packaging. Ask for each setup or tooling charge and sample scope. Send your artwork and preferred finish, using the <a href=\"/insights/how-to-write-a-packaging-brief\">brief checklist</a> if the specification is still open."
       ]
     ],
-    "seoTitle": "Matte, Gloss, Foil or Spot UV: Custom Packaging Finishes | MTT Packaging",
+    "seoTitle": "Matte, Gloss, Foil or Spot UV: Custom Packaging Finishes | MTT",
     "append": false,
     "cta": "Send the artwork, paper reference and finish priorities. MTT can review which details need a physical proof before tooling."
   },
@@ -1250,7 +1250,7 @@
         "Use actual contents to check loading, removal, closure and the intended handling sequence. Confirm the transport test scope for the complete pack separately. Record material, cavity drawing, product revision and approved sample together. If the bottle or cap changes, review the fit again. Send the product data for an insert review; include quantity, destination and any direct-contact requirements."
       ]
     ],
-    "seoTitle": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts | MTT Packaging",
+    "seoTitle": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts | MTT",
     "append": false,
     "cta": "Send product measurements, weights, contact restrictions and the distribution route. MTT can compare insert structures before selecting a material."
   },
@@ -1300,7 +1300,7 @@
         "<ul><li>What is the complete product envelope and loaded weight?</li><li>Is the pack for display, carrying, delivery or several of these?</li><li>Will it arrive at the filling site flat or erected?</li><li>Who assembles, loads and seals it?</li><li>Are inserts, cards and a bag part of the order?</li><li>Which physical sample and transport checks need approval?</li></ul>Request a comparison using the same brief. For opening details, read the <a href=\"/insights/custom-box-structure-guide\">box structure guide</a>."
       ]
     ],
-    "seoTitle": "Rigid Box vs Folding Carton vs Corrugated: How to Choose | MTT Packaging",
+    "seoTitle": "Rigid Box vs Folding Carton vs Corrugated: How to Choose | MTT",
     "append": false,
     "cta": "Send the contents, retail or shipping route, quantity and presentation priorities. MTT can compare the packaging families on a consistent scope."
   },
@@ -1350,7 +1350,7 @@
         "Attach the current artwork revision and identify who approves structure, colour and the physical sample. Do not approve print files while the structure is still changing. Start with the <a href=\"/tools/gift-box-solution-builder\">box planning tool</a> if a visual draft helps, or send the checklist directly. Neither an account nor a completed tool design is required to enquire."
       ]
     ],
-    "seoTitle": "Custom Packaging Brief Checklist: What to Send for a Quote | MTT Packaging",
+    "seoTitle": "Custom Packaging Brief Checklist: What to Send for a Quote | MTT",
     "append": false,
     "cta": "Send your product photos, measurements, quantity and draft brief. MTT can identify missing inputs needed for a comparable quotation."
   }

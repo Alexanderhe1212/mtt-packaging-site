@@ -119,7 +119,7 @@ export default async function InsightPage({
         <p className="section-kicker">From guide to product</p><h2 id="guide-designs-title">Compare packaging for your brief</h2>
         <p>Explore the opening, material and insert details for each design. These are options to review, not proof of a tested fit for your product.</p>
         <div className="article-design-grid">{designs.map(p=><article key={p.code}>
-          <a href={'/products/'+p.slug}><img src={p.image.replace('.webp','-0.webp')} width="320" height="240" loading="lazy" alt=""/><h3>{p.name}</h3></a>
+          <a href={'/products/'+p.slug}><img src={p.image.replace('.webp','-0.webp')} width="320" height="240" loading="lazy" alt={p.name}/><h3>{p.name}</h3></a>
           <p><strong>{p.familyName}</strong> · {p.structureName}</p><p>{p.wrap}</p><a href={'/products/'+p.slug}>View structure &amp; details →</a>
         </article>)}</div>
 

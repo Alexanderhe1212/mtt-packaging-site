@@ -9,7 +9,7 @@ import PackagingCustomization from "../../components/PackagingCustomization";
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: "Custom Packaging | Rigid Boxes, Folding Cartons, Paper Bags | MTT Packaging",
+  title: "Custom Packaging: Rigid Boxes, Cartons & Bags | MTT Packaging",
   description:
     "Custom packaging solutions from MTT Packaging: rigid boxes, folding cartons, paper bags and precision inserts. MOQ from 500 pcs. Sampling before production.",
   alternates: { canonical: "/packaging" },

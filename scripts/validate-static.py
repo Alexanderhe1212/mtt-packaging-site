@@ -5,15 +5,21 @@ from urllib.parse import urlsplit, unquote
 import xml.etree.ElementTree as ET
 root=Path('dist/client')
 class Page(HTMLParser):
- def __init__(self): super().__init__(); self.refs=[]; self.h1=0; self.robots=[]; self.canonical=[]
+ def __init__(self): super().__init__(); self.refs=[]; self.h1=0; self.robots=[]; self.canonical=[]; self.image_issues=[]; self.title=''; self.in_title=False
  def handle_starttag(self,t,a):
   a=dict(a)
   if t=='h1': self.h1+=1
+  if t=='title': self.in_title=True
+  if t=='img' and ('alt' not in a or (not a['alt'].strip() and a.get('aria-hidden')!='true')): self.image_issues.append(a.get('src',''))
   if t in ('img','script','link','a'):
    v=a.get('src',a.get('href',''))
    if v.startswith('/') and not v.startswith('//'): self.refs.append(v)
   if t=='meta' and a.get('name')=='robots': self.robots.append(a.get('content',''))
   if t=='link' and a.get('rel')=='canonical': self.canonical.append(a.get('href'))
+ def handle_endtag(self,t):
+  if t=='title': self.in_title=False
+ def handle_data(self,d):
+  if self.in_title: self.title+=d
 errors=[]; count=0
 for loc in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc'):
  path=urlsplit(loc.text).path; f=root/path.strip('/')/'index.html'
@@ -22,6 +28,8 @@ for loc in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org
  if p.h1!=1: errors.append((path,'H1 count',p.h1))
  if any('noindex' in v for v in p.robots): errors.append((path,'noindex'))
  if p.canonical!=[loc.text]: errors.append((path,'canonical',p.canonical))
+ if p.image_issues: errors.append((path,'missing image description',p.image_issues))
+ if not p.title.strip() or len(p.title.strip())>=70: errors.append((path,'title length outside release limit',len(p.title.strip())))
  if 'Design preview · Not published' in s: errors.append((path,'preview marker'))
  for v in p.refs:
   dest=root/unquote(urlsplit(v).path).lstrip('/')

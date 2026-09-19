@@ -10,12 +10,12 @@ export function SiteFooter() {
       <p className="section-kicker">Payment Options</p>
       <div className="payment-cards">
         <div className="payment-card">
-          <img className="payment-logo" src="/payment/bank.svg" width="56" height="56" alt="" aria-hidden="true" />
+          <img className="payment-logo" src="/payment/bank.svg" width="56" height="56" alt="Bank transfer" aria-hidden="true" />
           <b>Bank Transfer</b>
           <p>Available for confirmed production orders.</p>
         </div>
         <div className="payment-card">
-          <img className="payment-logo" src="/payment/paypal.svg" width="56" height="56" alt="" aria-hidden="true" />
+          <img className="payment-logo" src="/payment/paypal.svg" width="56" height="56" alt="PayPal" aria-hidden="true" />
           <b>PayPal</b>
           <p>Available for eligible payments.</p>
         </div>
