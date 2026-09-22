@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "custom-packaging-storage-scheduled-delivery",
+    "date": "2026-09-22",
+    "primaryQuery": "custom packaging storage",
+    "secondaryQueries": [
+      "packaging storage and call-off delivery",
+      "custom box storage service",
+      "staged delivery of custom packaging"
+    ],
+    "searchEvidence": "Buyer-intent and existing-content review only; no measured search volume or ranking claimed.",
+    "customerDecision": "Separate production quantity from release quantities; agree stock versions, service costs and dispatch responsibilities.",
+    "overlapReview": "Storage and release planning differs from existing structure, sampling and shipping-volume guides.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "claimReview": "Owner explicitly confirmed two months free storage; longer-term charges depend on quantity and volume. FBA primary storage guidance verified. No fixed dispatch lead time, warehouse ownership, insurance, climate control, savings or test results claimed. Both generated concepts visually reviewed and labeled.",
+    "limitations": "Editorial assessment, not measured SEO or AI citation performance. Free-period start and detailed dispatch terms remain project-specific.",
+    "evidenceSections": [
+      "When production and delivery need different schedules",
+      "Separate the production order from each release",
+      "Two months of free storage, with longer-term fees based on quantity and volume",
+      "Confirm how the packaging will be held",
+      "Keep stock versions visible",
+      "Request dispatch with a complete instruction",
+      "Prepare a production, storage and delivery brief"
+    ]
+  }
+]

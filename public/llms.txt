@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Custom Packaging Storage: Produce Once, Release in Batches](https://mttpackaging.com/insights/custom-packaging-storage-scheduled-delivery)
 - [Cosmetic Pump Bottle Packaging: Support, Clearance and Removal](https://mttpackaging.com/insights/cosmetic-pump-bottle-gift-box-clearance)
 - [Necklace Packaging: Chain Management Without Awkward Removal](https://mttpackaging.com/insights/necklace-packaging-chain-management)
 - [Perfume Discovery Set Packaging: Vial Fit, Layout and Sample Approval](https://mttpackaging.com/insights/perfume-discovery-set-packaging)
