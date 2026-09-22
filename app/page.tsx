@@ -6,7 +6,7 @@ import { SiteNav, SiteFooter } from '../components/SiteNav';
 
 const whatsapp = 'https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project.';
 const faqs = [
-  ['What is the typical MOQ?', 'Most fully custom projects start from 500–1,000 pieces per design. The practical MOQ depends on the structure, materials, finishes and production method.'],
+  ['What is the typical MOQ?', 'Most fully custom projects start from 1,000 pieces per design. The practical MOQ depends on the structure, materials, finishes and production method.'],
   ['Can you develop a custom structure?', 'Yes. Share the product dimensions, weight, presentation target, quantity and delivery country so the structure can be evaluated before formal pricing.'],
   ['Can I approve a sample before production?', 'Yes. Structural and printed sampling is recommended before mass production. Sampling cost and timing depend on the construction and finishes.'],
   ['Can MTT Packaging arrange international shipping?', 'Yes. Export packing and shipping terms can be planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms.'],
@@ -217,7 +217,7 @@ export default function Home() {
                 <select name="structure" className="form-input"><option value="">Select type</option><option value="Rigid Box">Rigid Box</option><option value="Folding Carton">Folding Carton</option><option value="Corrugated Box">Corrugated Box</option><option value="Paper Bag">Paper Bag</option><option value="Custom Insert">Custom Insert</option><option value="Not sure">Not sure</option></select>
               </label>
               <label><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Quantity</span>
-                <select name="quantity" className="form-input"><option value="">Select quantity</option><option value="500-999">500–999</option><option value="1,000-2,999">1,000–2,999</option><option value="3,000-4,999">3,000–4,999</option><option value="5,000-9,999">5,000–9,999</option><option value="10,000+">10,000+</option></select>
+                <select name="quantity" className="form-input"><option value="">Select quantity</option><option value="1,000-2,999">1,000–2,999</option><option value="3,000-4,999">3,000–4,999</option><option value="5,000-9,999">5,000–9,999</option><option value="10,000+">10,000+</option></select>
               </label>
             </div>
             <div className="form-row">

@@ -585,3 +585,9 @@ body:has(.hugo-widget),body:has(.chatbot-open){padding-bottom:80px}
 .product-accessories label {display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #e0e2d9;cursor:pointer;}
 .product-accessories input {width:20px;height:20px;flex:none;}
 .product-accessories .button {margin-top:18px;white-space:normal;}
+
+/* Keep quote fields within their grid track, including narrow mobile screens. */
+.rfq-form-section>div,.rfq-form-section form,.rfq-form-section fieldset,.rfq-grid-2>label{min-width:0}
+.rfq-form-section form,.rfq-form-section input,.rfq-form-section select,.rfq-form-section textarea{width:100%;max-width:100%;box-sizing:border-box}
+.rfq-grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:760px){.rfq-grid-2{grid-template-columns:minmax(0,1fr)}.rfq-form-section fieldset{padding:18px!important}}

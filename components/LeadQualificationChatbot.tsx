@@ -46,8 +46,7 @@ const PACKAGING_OPTIONS = [
 ];
 
 const QUANTITY_OPTIONS = [
-  'Below 500 pcs',
-  '500–999 pcs',
+  'Below 1,000 pcs',
   '1,000–4,999 pcs',
   '5,000–9,999 pcs',
   '10,000+ pcs',
@@ -334,9 +333,9 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
                   key={opt}
                   className={`chatbot-btn ${answers.quantity === opt ? 'chatbot-btn-active' : ''}`}
                   onClick={() => {
-                    if (opt === 'Below 500 pcs') {
+                    if (opt === 'Below 1,000 pcs') {
                       setAnswers((prev) => ({ ...prev, quantity: opt }));
-                      trackEvent('chatbot_moq_below_500');
+                      trackEvent('chatbot_moq_below_1000');
                       setStep('moq-block');
                     } else {
                       selectOption('quantity', opt, 'budget');
@@ -357,19 +356,19 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
               <p>Thanks for checking with us.</p>
               <p>
                 Our custom production typically starts from{' '}
-                <strong>500 pieces per design</strong>.
+                <strong>1,000 pieces per design</strong>.
               </p>
-              <p>If your quantity can reach 500 pieces, we&apos;d be happy to discuss the project.</p>
+              <p>If your quantity can reach 1,000 pieces, we&apos;d be happy to discuss the project.</p>
             </div>
             <div className="chatbot-options">
               <button
                 className="chatbot-btn"
                 onClick={() => {
-                  setAnswers((prev) => ({ ...prev, quantity: '500+ (confirmed from below 500)' }));
+                  setAnswers((prev) => ({ ...prev, quantity: '1,000+ (confirmed from below 1,000)' }));
                   setStep('budget');
                 }}
               >
-                My Quantity Can Reach 500 pcs
+                My Quantity Can Reach 1,000 pcs
               </button>
               <button className="chatbot-btn chatbot-btn-secondary" onClick={closeChat}>
                 Close

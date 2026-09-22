@@ -8,7 +8,7 @@ const TABS = ["Specifications", "Materials", "Finishing", "Add-Ons", "Printing"]
 /* ── Specifications ── */
 const specs: [string, string][] = [
   ["Custom Size", "Made to fit the product and selected packaging structure"],
-  ["MOQ", "From 500 pcs per design"],
+  ["MOQ", "From 1,000 pcs per design"],
   ["Packaging Types", "Rigid Boxes, Folding Cartons, Paper Bags, Custom Inserts"],
   ["Structure", "Standard structures or custom structural development"],
   ["Artwork", "Customer artwork or production-ready design files"],

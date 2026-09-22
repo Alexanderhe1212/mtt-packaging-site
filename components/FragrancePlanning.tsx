@@ -16,7 +16,7 @@ export default function FragrancePlanning() {
    <article><h3>Bottle dimensions ready?</h3><p>Choose a box, add artwork and finishes, then provide product measurements and quantity. The preview is a planning aid; final fit needs engineering review.</p><a className="button" href="/tools/gift-box-solution-builder">Start your box design →</a></article>
    <article><h3>Fragrance still in development?</h3><p>You can start with reference images, intended quantity and launch stage. We can discuss a packaging direction before the bottle is final; avoid committing to tooling or final pricing yet.</p><a className="button" href={consultation} target="_blank" rel="noreferrer">Discuss an early-stage project ↗</a></article>
   </div>
-  <h3>Planning around 500 sets?</h3><p>Ask for the box, insert and bag to be itemized. Setup, tooling, printing, finishing and assembly affect the unit cost, especially at smaller quantities. Sample charges and freight should be stated separately; availability and final price depend on the confirmed specification.</p>
+  <h3>Planning 1,000 sets or more?</h3><p>Ask for the box, insert and bag to be itemized. Setup, tooling, printing, finishing and assembly affect the unit cost, especially at smaller quantities. Sample charges and freight should be stated separately; availability and final price depend on the confirmed specification.</p>
   <nav className="buyer-guides" aria-label="Fragrance planning resources"><a href="/insights/perfume-box-and-bag-packaging">How to coordinate a perfume box and bag →</a><a href="/insights/perfume-box-insert-design">Bottle insert planning →</a><a href="/how-we-work">From brief to physical sample →</a></nav>
  </section>
 }

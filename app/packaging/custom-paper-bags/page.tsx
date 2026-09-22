@@ -9,11 +9,11 @@ import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 export const metadata: Metadata = {
   title: "Custom Paper Bags | Luxury Branded Bags | MTT Packaging",
   description:
-    "Custom paper bags from MTT Packaging: cotton, ribbon or paper handles, reinforced construction, foil and embossing. MOQ from 500 pcs.",
+    "Custom paper bags from MTT Packaging: cotton, ribbon or paper handles, reinforced construction, foil and embossing. MOQ from 1,000 pcs.",
   alternates: { canonical: "/packaging/custom-paper-bags" },
   openGraph: {
     title: "Custom Paper Bags | MTT Packaging",
-    description: "Luxury branded paper bags with custom handles and finishes. MOQ from 500 pcs.",
+    description: "Luxury branded paper bags with custom handles and finishes. MOQ from 1,000 pcs.",
     url: "/packaging/custom-paper-bags",
     images: ["/design/customization/handles.webp"],
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   ["What types of custom paper bags do you offer?", "MTT Packaging coordinates production of luxury paper bags with cotton rope handles, ribbon handles, paper twisted handles and die-cut handles. Available in kraft, coated and specialty papers with foil, embossing and custom printing."],
-  ["What is the MOQ for custom paper bags?", "Most custom paper bag projects start from 500–1,000 pieces. MOQ depends on the paper type, handle style, print complexity and finishes."],
+  ["What is the MOQ for custom paper bags?", "Most custom paper bag projects start from 1,000 pieces. MOQ depends on the paper type, handle style, print complexity and finishes."],
   ["Can paper bags be reinforced?", "Yes. Reinforced handles, cardboard base inserts and turned-top edges are standard for premium paper bags. These improve load capacity and durability."],
 ];
 
@@ -53,7 +53,7 @@ export default function CustomPaperBagsPage() {
         <div>
           <p>Custom Paper Bags</p>
           <h1>Custom Paper Bags for Premium Brands</h1>
-          <p>Brand-matched luxury bags with cotton, ribbon or paper handles. Reinforced construction, foil stamping and embossing. MOQ from 500 pcs.</p>
+          <p>Brand-matched luxury bags with cotton, ribbon or paper handles. Reinforced construction, foil stamping and embossing. MOQ from 1,000 pcs.</p>
         </div>
         <img src="/design/customization/handles.webp" alt="Concept: ivory paper bag with green woven ribbon handles" width="900" height="900" />
       </header><section className="catalogue-shell"><a className="button" href="/products?family=bag">View designs, materials &amp; details →</a></section>

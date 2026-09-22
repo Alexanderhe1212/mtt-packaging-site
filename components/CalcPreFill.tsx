@@ -11,7 +11,7 @@ import { CALC_HANDOFF_KEY, type CalcHandoff } from '../lib/box-calculator';
  */
 function mapQuantityToQuoteOption(calcQty: string): string {
   const q = calcQty.toLowerCase();
-  if (q.startsWith('500')) return '500-999';
+  if (q.startsWith('500') || q.startsWith('below')) return ''; // Old drafts must not silently become larger orders.
   if (q.startsWith('1,000') || q.startsWith('1000')) return '1,000-2,999';
   if (q.startsWith('3,000') || q.startsWith('3000')) return '3,000-4,999';
   if (q.startsWith('5,000') || q.startsWith('5000')) return '5,000-9,999';

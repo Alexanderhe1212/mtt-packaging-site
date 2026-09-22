@@ -11,12 +11,12 @@ export const dynamic = 'force-static';
 export const metadata: Metadata = {
   title: "Custom Packaging: Rigid Boxes, Cartons & Bags | MTT Packaging",
   description:
-    "Custom packaging solutions from MTT Packaging: rigid boxes, folding cartons, paper bags and precision inserts. MOQ from 500 pcs. Sampling before production.",
+    "Custom packaging solutions from MTT Packaging: rigid boxes, folding cartons, paper bags and precision inserts. MOQ from 1,000 pcs. Sampling before production.",
   alternates: { canonical: "/packaging" },
   openGraph: {
     title: "Custom Packaging Solutions | MTT Packaging",
     description:
-      "Rigid boxes, folding cartons, paper bags and custom inserts for premium brands. MOQ from 500 pcs.",
+      "Rigid boxes, folding cartons, paper bags and custom inserts for premium brands. MOQ from 1,000 pcs.",
     url: "/packaging",
     images: ["/design/hero-editorial.webp"],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   ["What types of custom packaging do you offer?", "MTT Packaging coordinates production of custom rigid boxes (magnetic, lift-off lid, drawer, shoulder-neck), premium folding cartons, bespoke paper bags and precision inserts in paper, molded pulp, EVA and fabric-covered materials."],
-  ["What is the minimum order quantity?", "Most custom packaging projects start from 500–1,000 pieces per design. The practical MOQ depends on the structure, materials, finishes and production method."],
+  ["What is the minimum order quantity?", "Most custom packaging projects start from 1,000 pieces per design. The practical MOQ depends on the structure, materials, finishes and production method."],
   ["Can I get a sample before placing an order?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling cost depends on the structure and finishes."],
   ["What information do I need to provide for a quote?", "Provide finished internal dimensions (L × W × H), product weight, desired structure, quantity, finish preferences, insert material, delivery country and target budget range."],
   ["Do you ship internationally?", "Yes. Export packing and shipping terms are planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms."],
@@ -77,7 +77,7 @@ export default function PackagingPage() {
           <p>
             Rigid boxes, folding cartons, paper bags and precision inserts
             developed around your product dimensions, brand presentation and
-            distribution needs. MOQ from 500 pcs. Sampling before production.
+            distribution needs. MOQ from 1,000 pcs. Sampling before production.
           </p>
         </div>
         <img
@@ -150,7 +150,7 @@ export default function PackagingPage() {
             ["Product dimensions", "Finished internal dimensions in L × W × H (mm). Include cap height for bottles."],
             ["Product weight", "Weight affects insert design, board thickness and shipping cost."],
             ["Structure type", "Rigid box, magnetic, drawer, folding carton, paper bag or let us recommend."],
-            ["Quantity", "Target quantity or range. MOQ from 500 pcs for most structures."],
+            ["Quantity", "Target quantity or range. MOQ from 1,000 pcs for most structures."],
             ["Finishes", "Foil stamping, embossing, debossing, spot UV, lamination or textured paper."],
             ["Insert material", "Paper, molded pulp, EVA foam or fabric-covered. Specify if sustainability matters."],
             ["Delivery country", "Destination affects freight planning and trade terms."],

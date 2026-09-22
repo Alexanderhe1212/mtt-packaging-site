@@ -298,7 +298,6 @@ export default function BoxSizeCalculator() {
               <span>Quantity</span>
               <select value={fields.quantity} onChange={set('quantity')} className="calc-v2-select">
                 <option value="">Not specified</option>
-                <option value="500–999 pcs">500–999 pcs</option>
                 <option value="1,000–2,999 pcs">1,000–2,999 pcs</option>
                 <option value="3,000–4,999 pcs">3,000–4,999 pcs</option>
                 <option value="5,000–9,999 pcs">5,000–9,999 pcs</option>

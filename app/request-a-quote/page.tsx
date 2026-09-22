@@ -128,7 +128,7 @@ export default function RequestAQuotePage() {
               <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>
                 Contact Information
               </legend>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+              <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Full Name <span style={{ color: "#cc4444" }}>*</span></span>
                   <input name="name" autoComplete="name" type="text" required placeholder="Your name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
@@ -138,7 +138,7 @@ export default function RequestAQuotePage() {
                   <input name="email" autoComplete="email" type="email" required placeholder="you@company.com" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
                 </label>
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+              <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Company / Brand</span>
                   <input name="company" autoComplete="organization" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
@@ -154,7 +154,7 @@ export default function RequestAQuotePage() {
               <legend style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".12em", color: "#5f6961", padding: "0 8px" }}>
                 Packaging Requirements
               </legend>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+              <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Packaging Type <span style={{ color: "#cc4444" }}>*</span></span>
                   <select name="packagingType" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
@@ -176,8 +176,6 @@ export default function RequestAQuotePage() {
                   <select name="quantity" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
                     <option value="">Select quantity</option>
                     <option value="Not sure - planning stage">Not sure yet — planning stage</option>
-                    <option value="Below 500 - feasibility review">Below 500 — feasibility review needed</option>
-                    <option value="500-999">500–999</option>
                     <option value="1,000-2,999">1,000–2,999</option>
                     <option value="3,000-4,999">3,000–4,999</option>
                     <option value="5,000-9,999">5,000–9,999</option>
@@ -185,7 +183,7 @@ export default function RequestAQuotePage() {
                   </select>
                 </label>
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+              <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Finished Internal Box Dimensions (L × W × H)</span>
                   <input name="boxDimensions" type="text" placeholder="e.g. 200 × 150 × 80 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
