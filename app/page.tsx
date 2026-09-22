@@ -98,8 +98,8 @@ export default function Home() {
         {[
           ['foil','Foil stamping','Metallic lines on textured wrapping paper','Copper foil fan lines across a fuchsia rigid box corner'],
           ['emboss','Blind embossing','Raised detail without printed colour','Raised waves on ivory paper wrapping a rigid box'],
-          ['deboss','Debossing','Recessed lettering pressed into the surface','Recessed letter M on a dark green paper-wrapped box'],
-          ['uv','Spot UV','Gloss detail against a matte background','Glossy leaf pattern on a dark green box surface'],
+          ['deboss','Debossing','Recessed lettering pressed into the surface','Recessed letter M on a deep blue paper-wrapped box'],
+          ['uv','Spot UV','Gloss detail against a matte background','Glossy leaf pattern on a plum purple box surface'],
           ['lamination','Matte & gloss lamination','Compare two surface reflections','Matching printed boxes showing matte and gloss surface finishes'],
           ['paper','Specialty paper','Explore tactile wrapping textures','Fanned paper swatches showing varied textured wrapping papers'],
         ].map(([id,title,description,alt])=><figure key={id}>
