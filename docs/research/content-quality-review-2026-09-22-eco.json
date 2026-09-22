@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "sustainable-luxury-packaging-boxes-approval",
+    "date": "2026-09-22",
+    "primaryQuery": "sustainable luxury packaging boxes",
+    "secondaryQueries": [
+      "recyclable rigid box design",
+      "paper packaging insert alternatives",
+      "packaging sustainability checklist"
+    ],
+    "searchEvidence": "Buyer intent and content gap judgment; no measured volume or ranking claimed.",
+    "customerDecision": "Approve finished packaging protection and evidence supporting environmental claims.",
+    "overlapReview": "Sample approval and evidence workflow complements existing material, insert and PPWR guides.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 19,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 94,
+    "claimReview": "Independent reviewer verified FSC, 4evergreen v4, Cepi v3 and FTC source support. No MTT certification, test, carbon or customer claims. Images labeled AI concepts.",
+    "limitations": "Editorial judgment, not search performance; actual project testing remains required."
+  }
+]

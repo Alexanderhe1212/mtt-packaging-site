@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function IndustriesPage() {
   return (
-    <main id="main-content">
+    <main id="main-content" className="industries-index">
       <SiteNav />
       <header className="page-hero" style={{ background: '#fff', gridTemplateColumns: '1fr', minHeight: 0, paddingBottom: '40px' }}>
         <div>

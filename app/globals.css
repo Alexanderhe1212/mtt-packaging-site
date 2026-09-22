@@ -591,3 +591,6 @@ body:has(.hugo-widget),body:has(.chatbot-open){padding-bottom:80px}
 .rfq-form-section form,.rfq-form-section input,.rfq-form-section select,.rfq-form-section textarea{width:100%;max-width:100%;box-sizing:border-box}
 .rfq-grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:760px){.rfq-grid-2{grid-template-columns:minmax(0,1fr)}.rfq-form-section fieldset{padding:18px!important}}
+
+/* Industry cards use quiet neutral surfaces around the varied packaging palettes. */
+.industries-index .industry-grid a{background:#f7f5f1}.industries-index .industry-grid a:hover,.industries-index .industry-grid a:focus-visible{background:#eee7dc}

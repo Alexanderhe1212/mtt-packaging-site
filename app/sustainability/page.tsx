@@ -86,6 +86,7 @@ export default function SustainabilityPage() {
           ))}
         </div>
         <div className="cert-note">
+          <p><a href="/insights/sustainable-luxury-packaging-boxes-approval">Read the sustainable packaging sample approval checklist →</a></p>
           <b>Certification statement</b>
           <p>
             MTT Packaging can support projects requiring verified certified
