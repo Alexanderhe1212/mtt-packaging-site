@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['cosmetic-pump-bottle-gift-box-clearance','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process','skincare-packaging-series-analysis'], products:['skincare-ritual-book','custom-skincare-duo-auto-bottom','three-compartment-skincare-mailer']},
+  {articles:['necklace-packaging-chain-management','jewelry-packaging-repeat-use-analysis','custom-inserts-product-protection','custom-packaging-sampling-process'], products:['pendant-presentation-drawer','engagement-ring-keepsake-lift-off','watch-and-strap-collection-book']},
   {articles:['perfume-discovery-set-packaging','match-gold-foil-perfume-box-paper-bag','perfume-box-and-bag-packaging','perfume-box-inserts','perfume-box-insert-design','fragrance-packaging-brand-pattern-analysis','modular-perfume-packaging-analysis','skincare-packaging-series-analysis','molded-pulp-inserts-cosmetic-packaging'], products:['signature-perfume-lift-off','travel-fragrance-trio-drawer','custom-perfume-bottle-ribbon-bag']},
   {articles:['packaging-inserts-for-handmade-glass-products','custom-inserts-product-protection','electronics-paperboard-insert-analysis','perfume-box-inserts','molded-pulp-inserts-cosmetic-packaging'], products:['custom-candle-packaging-set','signature-perfume-lift-off','three-compartment-skincare-mailer']},
   {articles:['hexagonal-rigid-gift-box-structure-analysis','custom-box-structure-guide','rigid-box-vs-folding-carton','window-carton-presentation-analysis','fold-flat-triangular-gift-box-shipping-volume'], products:['signature-perfume-lift-off','window-bakery-folding-carton','custom-corrugated-packaging-set']},
