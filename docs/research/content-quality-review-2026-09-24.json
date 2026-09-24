@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "recycled-vs-recyclable-packaging-boxes",
+    "date": "2026-09-24",
+    "primaryQuery": "recycled vs recyclable packaging boxes",
+    "secondaryQueries": [
+      "recycled content packaging evidence",
+      "recyclable gift box specification"
+    ],
+    "searchEvidence": "Buyer-intent editorial selection; no measured search volume, ranking or traffic claimed.",
+    "customerDecision": "Distinct buyer decision: distinguish input-content evidence from finished-pack disposal claims. The existing September 22 approval article is a broader approval workflow; this article adds denominator scope, component evidence fields and a three-way purchasing decision.",
+    "overlapReview": "Distinct buyer decision: distinguish input-content evidence from finished-pack disposal claims. The existing September 22 approval article is a broader approval workflow; this article adds denominator scope, component evidence fields and a three-way purchasing decision.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "claimReview": "No unsupported environmental, certification, customer, test or savings claim. FTC statements are US-scoped; 4evergreen is a design reference, not a product certificate. Image text uses illustration. MOQ 1000 retained.",
+    "limitations": "Editorial assessment, not search-performance evidence. Regenerated portable HTML structure rechecked: escaping resolved, detail image and links render as elements, canonical correct. Parent owns visual/release verification; strict link-checker proxy restriction is recorded separately, not claimed as a live-link pass."
+  },
+  {
+    "slug": "plastic-lamination-free-packaging-boxes",
+    "date": "2026-09-24",
+    "primaryQuery": "plastic lamination free packaging boxes",
+    "secondaryQueries": [
+      "unlaminated rigid boxes",
+      "packaging finish acceptance criteria"
+    ],
+    "searchEvidence": "Buyer-intent editorial selection; no measured search volume, ranking or traffic claimed.",
+    "customerDecision": "Distinct buyer decision: specify and approve an alternative surface when removing plastic lamination. Prior gold-foil and sustainable sample articles share approval principles but do not answer this finish-removal brief.",
+    "overlapReview": "Distinct buyer decision: specify and approve an alternative surface when removing plastic lamination. Prior gold-foil and sustainable sample articles share approval principles but do not answer this finish-removal brief.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 19,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "claimReview": "No unsupported environmental, certification, customer, test or savings claim. FTC statements are US-scoped; 4evergreen is a design reference, not a product certificate. Image text uses illustration. MOQ 1000 retained.",
+    "limitations": "Editorial assessment, not search-performance evidence. Regenerated portable HTML structure rechecked: escaping resolved, detail image and links render as elements, canonical correct. Parent owns visual/release verification; strict link-checker proxy restriction is recorded separately, not claimed as a live-link pass."
+  }
+]
