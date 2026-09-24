@@ -594,3 +594,6 @@ body:has(.hugo-widget),body:has(.chatbot-open){padding-bottom:80px}
 
 /* Industry cards use quiet neutral surfaces around the varied packaging palettes. */
 .industries-index .industry-grid a{background:#f7f5f1}.industries-index .industry-grid a:hover,.industries-index .industry-grid a:focus-visible{background:#eee7dc}
+
+/* About cards: consistent image framing without cropping packaging details. */
+.about-card-image{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f4f0e7;border-radius:4px;margin-bottom:20px}

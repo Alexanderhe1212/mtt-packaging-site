@@ -118,6 +118,7 @@ export default function AboutPage() {
         </div>
         <div className="about-grid">
           <a className="about-card" href="/packaging/custom-rigid-boxes">
+            <img className="about-card-image" src="/design/rigid-editorial-800.webp" alt="Green rigid presentation box with a fitted ivory bottle insert" width="1440" height="1080" loading="lazy" decoding="async" />
             <h3>Rigid Boxes</h3>
             <p>
               Magnetic closure, lift-off lid, drawer, shoulder-neck and
@@ -126,6 +127,7 @@ export default function AboutPage() {
             <span className="about-card-link">Explore rigid boxes <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/packaging/folding-cartons">
+            <img className="about-card-image" src="/design/carton-editorial.webp" alt="Ivory and green folding cartons with tuck-top closures" width="1440" height="1080" loading="lazy" decoding="async" />
             <h3>Folding Cartons</h3>
             <p>
               Premium paperboard cartons with specialty papers, printing and
@@ -133,10 +135,12 @@ export default function AboutPage() {
             </p>
             <span className="about-card-link">Explore folding cartons <span aria-hidden="true">→</span></span>
           </a>
-          <a className="about-card" href="/packaging/corrugated-boxes"><h3>Corrugated Packaging</h3><p>Roll-end mailers, shipping cartons and sleeve-and-tray structures, with board and packed protection reviewed for the product and delivery route.</p>
+          <a className="about-card" href="/packaging/corrugated-boxes">
+            <img className="about-card-image" src="/products/mtt-e0101-0.webp" alt="Kraft corrugated mailer with a fitted gift set insert" width="500" height="500" loading="lazy" decoding="async" /><h3>Corrugated Packaging</h3><p>Roll-end mailers, shipping cartons and sleeve-and-tray structures, with board and packed protection reviewed for the product and delivery route.</p>
             <span className="about-card-link">Explore corrugated packaging <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/packaging/custom-paper-bags">
+            <img className="about-card-image" src="/design/customization/handles.webp" alt="Ivory paper shopping bag with woven ribbon handles" width="1440" height="1080" loading="lazy" decoding="async" />
             <h3>Paper Bags</h3>
             <p>
               Branded paper bags with custom handles, printing and finishing for
@@ -145,6 +149,7 @@ export default function AboutPage() {
             <span className="about-card-link">Explore paper bags <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/packaging/custom-inserts">
+            <img className="about-card-image" src="/design/insert-editorial.webp" alt="Fitted ivory insert holding a perfume bottle and travel sprays" width="1440" height="1080" loading="lazy" decoding="async" />
             <h3>Custom Inserts</h3>
             <p>
               Paper, molded pulp, EVA and fabric-covered inserts engineered
@@ -162,6 +167,7 @@ export default function AboutPage() {
         </div>
         <div className="about-grid">
           <a className="about-card" href="/industries/perfume-fragrance-packaging">
+            <img className="about-card-image" src="/design/fragrance-premium.webp" alt="Ivory fragrance presentation box with a deep blue bottle insert" width="1200" height="960" loading="lazy" decoding="async" />
             <h3>Perfume & Fragrance</h3>
             <p>
               Rigid boxes and inserts for perfume bottles, discovery sets and
@@ -170,6 +176,7 @@ export default function AboutPage() {
             <span className="about-card-link">Explore perfume packaging <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/industries/cosmetics-skincare-packaging">
+            <img className="about-card-image" src="/design/cosmetics-editorial.webp" alt="Dusty rose skincare gift box with matching cartons" width="1200" height="960" loading="lazy" decoding="async" />
             <h3>Cosmetics & Skincare</h3>
             <p>
               Packaging for serums, jars, palettes and multi-SKU skincare gift
@@ -178,6 +185,7 @@ export default function AboutPage() {
             <span className="about-card-link">Explore cosmetics packaging <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/industries/jewelry-watch-packaging">
+            <img className="about-card-image" src="/design/jewelry-editorial.webp" alt="Burgundy ring and necklace boxes with ivory linings" width="1200" height="960" loading="lazy" decoding="async" />
             <h3>Jewelry & Watches</h3>
             <p>
               Compact rigid boxes, drawer cases and presentation packaging for
@@ -186,6 +194,7 @@ export default function AboutPage() {
             <span className="about-card-link">Explore jewelry packaging <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/industries/gift-set-pr-kit-packaging">
+            <img className="about-card-image" src="/design/giftset-editorial.webp" alt="Terracotta notebook and pen gift set with a matching paper bag" width="1200" height="960" loading="lazy" decoding="async" />
             <h3>Gift Sets & PR Kits</h3>
             <p>
               Multi-product presentation packaging for corporate gifting,
