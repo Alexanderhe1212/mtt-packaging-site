@@ -192,3 +192,9 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 .hp-finish-grid figcaption p{font-size:14px;line-height:1.5;color:#49554d;margin:0}
 @media(max-width:1000px){.hp-finish-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.hp-craft-heading{grid-template-columns:1fr;gap:20px}.hp-finish-grid{gap:24px 14px}.hp-finish-grid h3{font-size:20px}.hp-finish-grid figcaption p{font-size:13px}.hp-craft-heading .hp-craft-sub{font-size:15px}}
+
+/* Homepage procurement comparison: crawlable text with contained mobile scrolling. */
+.home-buying-guide{max-width:1440px;margin:0 auto;padding:36px clamp(24px,4.5vw,72px) 56px;color:#203d30}
+.home-buying-guide header{max-width:850px;margin-bottom:24px}.home-buying-guide h2{font-size:clamp(28px,3vw,42px);line-height:1.15;margin:12px 0}.home-buying-guide p{line-height:1.7}
+.home-buying-table{overflow-x:auto;border:1px solid #d7d3c8;border-radius:6px;background:#fffdf7}.home-buying-table table{border-collapse:collapse;width:100%;min-width:570px;font-size:15px;line-height:1.6}.home-buying-table caption{text-align:left;font-weight:700;padding:16px 20px}.home-buying-table th,.home-buying-table td{text-align:left;vertical-align:top;padding:16px 20px;border-top:1px solid #d7d3c8}.home-buying-table thead{background:#eeece2}.home-buying-table th[scope=row]{width:22%}.home-buying-table a{text-decoration:underline;text-underline-offset:4px}
+.home-brief-checklist{margin-top:28px}.home-brief-checklist h3{font-size:24px;margin-bottom:12px}.home-brief-checklist ul{padding-left:22px;line-height:1.8;margin-bottom:20px}.home-buying-table:focus-visible{outline:3px solid #245a46;outline-offset:4px}

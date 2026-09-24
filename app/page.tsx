@@ -1,8 +1,21 @@
+import type { Metadata } from 'next';
 import VisualCaseLink from "../components/VisualCaseLink";
 import QuoteForm from '../components/QuoteForm';
 import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
 import { SiteNav, SiteFooter } from '../components/SiteNav';
+
+export const metadata: Metadata = {
+  title: 'Custom Luxury Packaging Boxes & Bags | MTT Packaging',
+  description: 'Develop custom rigid boxes, cartons, inserts and paper bags for your brand. MOQ 1,000 per design. Send your product details to request a packaging quote.',
+};
+
+const packagingChoices = [
+  { name: 'Rigid Boxes', path: '/packaging/custom-rigid-boxes', use: 'Gift sets and products needing a shaped presentation box.', check: 'Confirm the insert fit, opening clearance and packed shipping dimensions.' },
+  { name: 'Folding Cartons', path: '/packaging/folding-cartons', use: 'Retail products using folding paperboard packaging.', check: 'Review the closure, product weight, crease quality and assembly sequence.' },
+  { name: 'Corrugated Boxes', path: '/packaging/corrugated-boxes', use: 'Mailers and transit packaging with dividers or fitted inserts.', check: 'Match the board and internal support to the shipping route; agree on transit checks.' },
+  { name: 'Paper Bags', path: '/packaging/custom-paper-bags', use: 'A coordinated carrying bag for a boxed product or gift set.', check: 'Check the finished box fits, then review handles and base support with the intended load.' },
+];
 
 const whatsapp = 'https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project.';
 const faqs = [
@@ -15,6 +28,7 @@ const faqs = [
 const structuredData = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: 'MTT Packaging', url: siteUrl, inLanguage: 'en' },
   organization,
+  { '@type': 'ItemList', '@id': `${siteUrl}/#packaging-families`, name: 'Custom packaging families', itemListElement: packagingChoices.map((item, index) => ({ '@type': 'ListItem', position: index + 1, item: { '@type': 'WebPage', name: item.name, url: `${siteUrl}${item.path}` } })) },
   { '@type': 'Person', '@id': `${siteUrl}/#hugo-he`, name: 'Hugo He', jobTitle: 'Custom Packaging Consultant', worksFor: { '@id': `${siteUrl}/#organization` }, email: 'info@mttpackaging.com', telephone: '+86 17207110964' },
   { '@type': 'Service', name: 'Custom Luxury Packaging Manufacturing', provider: { '@id': `${siteUrl}/#organization` }, areaServed: 'Worldwide', description: 'Custom rigid boxes, perfume packaging, cosmetic packaging, jewelry boxes and premium gift boxes for growing brands.', serviceType: ['Custom rigid boxes', 'Magnetic closure boxes', 'Drawer boxes', 'Perfume packaging', 'Cosmetic packaging', 'Jewelry packaging', 'Gift packaging', 'Custom inserts', 'Folding cartons', 'Paper bags'] },
   { '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
@@ -61,6 +75,13 @@ export default function Home() {
           ['Paper Bags','/design/home-v4/bag.webp','custom-paper-bags','Coordinated retail bags with reinforced tops, custom handles, tissue and gift accessories.','Red and blush paper shopping bags with woven handles, side gussets, tissue, a gift box and card'],
         ].map(([title,img,slug,desc,alt])=><a className="ed-product" href={'/packaging/'+slug} key={slug}><img src={img} alt={alt} srcSet={slug==='corrugated-boxes'?`${img} 500w`:`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 45vw, 23vw" width={slug==='corrugated-boxes'?500:1200} height={slug==='corrugated-boxes'?500:900} style={{objectFit:'cover'}} loading="lazy"/><h3>{title}</h3><p>{desc}</p><span className="ed-text-link">Explore {title} <span aria-hidden="true">→</span></span></a>)}
       </div>
+    </section>
+    <section className="home-buying-guide" aria-labelledby="packaging-comparison-title">
+      <header><p className="hp-kicker">Choose your packaging</p><h2 id="packaging-comparison-title">Start with the product and its journey.</h2><p>Compare the main packaging families, then confirm the complete box, insert and bag combination with a physical sample.</p></header>
+      <div className="home-buying-table" role="region" aria-label="Packaging family comparison" tabIndex={0}>
+        <table><caption>Packaging choices and sample checks</caption><thead><tr><th scope="col">Packaging family</th><th scope="col">Typical use</th><th scope="col">What to confirm</th></tr></thead><tbody>{packagingChoices.map(item => <tr key={item.path}><th scope="row"><a href={item.path}>{item.name}</a></th><td>{item.use}</td><td>{item.check}</td></tr>)}</tbody></table>
+      </div>
+      <div className="home-brief-checklist"><h3>Send these details for a useful quote.</h3><ul><li>Product dimensions, weight and every item in the set.</li><li>Quantity per design; minimum order is 1,000 pieces per design.</li><li>Preferred opening, materials, finishes and artwork references.</li><li>Delivery destination, packing needs and target timing.</li></ul><a className="ed-text-link" href="/request-a-quote">Request a packaging quote →</a></div>
     </section>
     <section className="ed-process-band"><h2>A clear path from<br/>brief to production.</h2><div>{[['01','Brief','Tell us about your product and goals.'],['02','Sample','Develop and refine your packaging.'],['03','Produce','Confirm specifications before production.']].map(([n,t,d])=><a href="/how-we-work" key={n}><span className="ed-step-number">{n}</span><h3>{t}</h3><p>{d}</p></a>)}</div></section>
     {/* SECTION 3 — FEATURED PACKAGING */}

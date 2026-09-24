@@ -9,6 +9,7 @@ import LeadQualificationChatbot from '../components/LeadQualificationChatbot';
 
 
 export const metadata: Metadata = {
+  referrer: 'strict-origin-when-cross-origin',
   metadataBase: new URL('https://mttpackaging.com'),
   title: 'Custom Luxury Packaging Manufacturing Partner | MTT Packaging',
   description: businessSummary,
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta httpEquiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests" />
         <script dangerouslySetInnerHTML={{__html:analyticsBootstrap}} />
       </head>
       <body className="mtt-editorial">
