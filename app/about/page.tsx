@@ -117,35 +117,41 @@ export default function AboutPage() {
           <h2>Structures, materials and finishes.</h2>
         </div>
         <div className="about-grid">
-          <article>
+          <a className="about-card" href="/packaging/custom-rigid-boxes">
             <h3>Rigid Boxes</h3>
             <p>
               Magnetic closure, lift-off lid, drawer, shoulder-neck and
               presentation structures in custom dimensions.
             </p>
-          </article>
-          <article>
+            <span className="about-card-link">Explore rigid boxes <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/packaging/folding-cartons">
             <h3>Folding Cartons</h3>
             <p>
               Premium paperboard cartons with specialty papers, printing and
               finishing for retail and e-commerce.
             </p>
-          </article>
-          <article><h3>Corrugated Packaging</h3><p>Roll-end mailers, shipping cartons and sleeve-and-tray structures, with board and packed protection reviewed for the product and delivery route.</p><a href="/packaging/corrugated-boxes">Explore corrugated packaging →</a></article>
-          <article>
+            <span className="about-card-link">Explore folding cartons <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/packaging/corrugated-boxes"><h3>Corrugated Packaging</h3><p>Roll-end mailers, shipping cartons and sleeve-and-tray structures, with board and packed protection reviewed for the product and delivery route.</p>
+            <span className="about-card-link">Explore corrugated packaging <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/packaging/custom-paper-bags">
             <h3>Paper Bags</h3>
             <p>
               Branded paper bags with custom handles, printing and finishing for
               retail and gifting.
             </p>
-          </article>
-          <article>
+            <span className="about-card-link">Explore paper bags <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/packaging/custom-inserts">
             <h3>Custom Inserts</h3>
             <p>
               Paper, molded pulp, EVA and fabric-covered inserts engineered
               around product dimensions.
             </p>
-          </article>
+            <span className="about-card-link">Explore custom inserts <span aria-hidden="true">→</span></span>
+          </a>
         </div>
       </section>
 
@@ -155,34 +161,38 @@ export default function AboutPage() {
           <h2>Packaging for brands that care about presentation.</h2>
         </div>
         <div className="about-grid">
-          <article>
+          <a className="about-card" href="/industries/perfume-fragrance-packaging">
             <h3>Perfume & Fragrance</h3>
             <p>
               Rigid boxes and inserts for perfume bottles, discovery sets and
               fragrance gift sets.
             </p>
-          </article>
-          <article>
+            <span className="about-card-link">Explore perfume packaging <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/industries/cosmetics-skincare-packaging">
             <h3>Cosmetics & Skincare</h3>
             <p>
               Packaging for serums, jars, palettes and multi-SKU skincare gift
               sets.
             </p>
-          </article>
-          <article>
+            <span className="about-card-link">Explore cosmetics packaging <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/industries/jewelry-watch-packaging">
             <h3>Jewelry & Watches</h3>
             <p>
               Compact rigid boxes, drawer cases and presentation packaging for
               fine products.
             </p>
-          </article>
-          <article>
+            <span className="about-card-link">Explore jewelry packaging <span aria-hidden="true">→</span></span>
+          </a>
+          <a className="about-card" href="/industries/gift-set-pr-kit-packaging">
             <h3>Gift Sets & PR Kits</h3>
             <p>
               Multi-product presentation packaging for corporate gifting,
               launches and influencer kits.
             </p>
-          </article>
+            <span className="about-card-link">Explore gift set packaging <span aria-hidden="true">→</span></span>
+          </a>
         </div>
       </section>
 
