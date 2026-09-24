@@ -6,7 +6,7 @@ import { SiteNav, SiteFooter } from '../components/SiteNav';
 
 const whatsapp = 'https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project.';
 const faqs = [
-  ['What is the typical MOQ?', 'Most fully custom projects start from 1,000 pieces per design. The practical MOQ depends on the structure, materials, finishes and production method.'],
+  ['What is the minimum order quantity?', 'The minimum order quantity is 1,000 pieces per design. The final specification and quotation depend on the structure, materials, finishes and production method.'],
   ['Can you develop a custom structure?', 'Yes. Share the product dimensions, weight, presentation target, quantity and delivery country so the structure can be evaluated before formal pricing.'],
   ['Can I approve a sample before production?', 'Yes. Structural and printed sampling is recommended before mass production. Sampling cost and timing depend on the construction and finishes.'],
   ['Can MTT Packaging arrange international shipping?', 'Yes. Export packing and shipping terms can be planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms.'],
@@ -157,7 +157,7 @@ export default function Home() {
         <p className="hp-kicker">Commercial Information</p>
         <div className="hp-trust-items">
           {[
-            ['Tailored', 'MOQ by specification'],
+            ['1,000 pieces', 'Minimum order per design'],
             ['Physical sample', 'Before production commitment'],
             ['Custom engineering', 'Structure, insert, material'],
             ['Worldwide shipping', 'Export packing and logistics'],
@@ -194,7 +194,7 @@ export default function Home() {
           <div className="hp-quote-trust">
             <span>✓ Free consultation</span>
             <span>✓ Physical sample before production</span>
-            <span>✓ MOQ confirmed by specification</span>
+            <span>✓ Minimum order: 1,000 pieces per design</span>
           </div>
         </div>
         <div className="hp-quote-form hp-reveal">

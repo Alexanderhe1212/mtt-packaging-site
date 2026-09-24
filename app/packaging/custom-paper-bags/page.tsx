@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   ["What types of custom paper bags do you offer?", "MTT Packaging coordinates production of luxury paper bags with cotton rope handles, ribbon handles, paper twisted handles and die-cut handles. Available in kraft, coated and specialty papers with foil, embossing and custom printing."],
-  ["What is the MOQ for custom paper bags?", "Most custom paper bag projects start from 1,000 pieces. MOQ depends on the paper type, handle style, print complexity and finishes."],
+  ["What is the MOQ for custom paper bags?", "The minimum order quantity for custom paper bags is 1,000 pieces per design. The final specification and quotation depend on the paper, handle, printing and finishing requirements."],
   ["Can paper bags be reinforced?", "Yes. Reinforced handles, cardboard base inserts and turned-top edges are standard for premium paper bags. These improve load capacity and durability."],
 ];
 

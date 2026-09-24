@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const tools = [
-  { title: 'Gift Box Solution Builder', status: 'Available' as const, href: '/tools/gift-box-solution-builder', desc: 'Plan your box structure, materials, finishes and artwork, then send the completed packaging brief to MTT.', cta: 'Build Your Packaging Brief' },
+  { title: 'Design Your Box', status: 'Available' as const, href: '/tools/gift-box-solution-builder', desc: 'Plan your box structure, materials, finishes and artwork, then send the completed packaging brief to MTT.', cta: 'Start designing' },
   { title: 'Box Size Calculator', status: 'Available' as const, href: '/tools/box-size-calculator', desc: 'Estimate recommended internal and external box dimensions from product size, clearance and board thickness.' },
   { title: 'Sheet Layout Calculator', status: 'Coming Soon' as const },
   { title: 'CBM Calculator', status: 'Coming Soon' as const },

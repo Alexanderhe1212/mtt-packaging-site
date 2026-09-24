@@ -53,5 +53,5 @@ for path in ['products','zh/products']:
   assert f'href="/packaging/{family}"' in html,(path,family)
 carton=(root/'packaging/folding-cartons/index.html').read_text()
 assert 'MOQ from 500' not in carton,'Carton minimum contradicts its visible buying guidance'
-assert '1,000–3,000' in carton
+assert 'minimum order quantity is 1,000 pieces per design' in carton.lower()
 print('Four-family comparison in EN/ZH static HTML; carton MOQ consistency passed')

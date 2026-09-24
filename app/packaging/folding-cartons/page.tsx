@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/packaging/folding-cartons" },
   openGraph: {
     title: "Custom Folding Cartons | MTT Packaging",
-    description: "Premium paperboard folding cartons with specialty finishes. Typical projects start from 1,000–3,000 pieces; confirm MOQ for your specification.",
+    description: "Premium paperboard folding cartons with specialty finishes. Minimum order quantity is 1,000 pieces per design; final specifications affect the quotation.",
     url: "/packaging/folding-cartons",
     images: ["/design/carton-editorial.webp"],
   },
@@ -23,7 +23,7 @@ const faqs = [
   ["What is a folding carton?", "A folding carton is a printed, die-cut box made from a single sheet of paperboard (typically 0.3–0.6mm). It ships flat and is erected during packing. Folding cartons are the standard choice for retail packaging, cosmetics, skincare and e-commerce."],
   ["How does a folding carton differ from a rigid box?", "A folding carton is lighter, ships flat and is more space-efficient for storage and freight. A rigid box is thicker, holds its shape and feels more premium. Folding cartons suit high-volume retail; rigid boxes suit gifting and presentation."],
   ["What finishes are available for folding cartons?", "Foil stamping, embossing, debossing, spot UV, matte and gloss lamination, textured papers and controlled Pantone color matching. The clay-coated surface of SBS paperboard supports sharp offset printing."],
-  ["What is the MOQ for custom folding cartons?", "Most custom folding carton projects start from 1,000–3,000 pieces. The MOQ depends on the die complexity, print colors and finishes."],
+  ["What is the MOQ for custom folding cartons?", "The minimum order quantity for custom folding cartons is 1,000 pieces per design. The final specification and quotation depend on the die, printing and finishing requirements."],
 ];
 
 const structuredData = {
@@ -57,7 +57,7 @@ export default function FoldingCartonsPage() {
         <div>
           <p>Folding Cartons</p>
           <h1>Custom Folding Cartons for Retail and E-Commerce</h1>
-          <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. Typical projects start from 1,000–3,000 pieces; confirm MOQ for your specification.</p>
+          <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. Minimum order quantity is 1,000 pieces per design; final specifications affect the quotation.</p>
         </div>
         <img src="/design/carton-editorial.webp" alt="Concept: ivory folding cartons" width="900" height="900" />
       </header><section className="catalogue-shell"><a className="button" href="/products?family=carton">View designs, materials &amp; details →</a></section>

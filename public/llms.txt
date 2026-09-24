@@ -13,7 +13,7 @@ Website: https://mttpackaging.com
 - [Corrugated boxes](https://mttpackaging.com/packaging/corrugated-boxes): Mailers, dividers and shipping-pack review.
 - [Paper bags](https://mttpackaging.com/packaging/custom-paper-bags): Custom handles, printing and coordinated retail bags.
 - [Custom inserts](https://mttpackaging.com/packaging/custom-inserts): Compare paperboard, molded pulp, foam and other insert options.
-- [Packaging design tool](https://mttpackaging.com/tools/gift-box-solution-builder): Choose a structure and prepare a design brief; engineering review is required.
+- [Design Your Box](https://mttpackaging.com/tools/gift-box-solution-builder): Choose a structure and prepare a design brief; engineering review is required.
 - [Box size calculator](https://mttpackaging.com/tools/box-size-calculator): Plan size and handling clearance before a physical sample.
 - [Request a quote](https://mttpackaging.com/request-a-quote): Send dimensions, quantity, destination and artwork or reference links.
 - [How we work](https://mttpackaging.com/how-we-work): Specification review, sampling, production and delivery.
@@ -67,4 +67,4 @@ Website: https://mttpackaging.com
 Share product length × width × height, weight, quantity, delivery country, opening preference, artwork and accessories. Distinguish product dimensions, finished internal box size and external shipping dimensions. Confirm the actual product fit and finishes with a physical sample. Sample/tooling charges and freight are confirmed separately.
 
 ## Scope and evidence
-Most fully custom projects start from 1,000 pieces per design; practical quantities depend on the structure and process. Images can show custom design visualizations and are not evidence of a delivered client order. Certification, food-contact suitability and environmental claims require project-specific review and supporting documentation. The linked website pages provide the full context.
+The minimum order quantity is 1,000 pieces per design. The final specification and quotation depend on the structure and process. Images can show custom design visualizations and are not evidence of a delivered client order. Certification, food-contact suitability and environmental claims require project-specific review and supporting documentation. The linked website pages provide the full context.

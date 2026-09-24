@@ -82,7 +82,7 @@ export default function RequestAQuotePage() {
         <div className="rfq-trust">
           {[
             ["24h", "Response time"],
-            ["Tailored", "MOQ by specification"],
+            ["1,000 pieces", "Minimum order per design"],
             ["Physical", "Sample"],
           ].map(([num, label]) => (
             <div

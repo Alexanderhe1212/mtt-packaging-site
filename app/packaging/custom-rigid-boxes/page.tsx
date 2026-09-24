@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
   ["What is a custom rigid box?", "A rigid box is a thick, hand-assembled box made from greyboard (typically 1.5–3mm) wrapped with printed or specialty paper. Conventional rigid boxes hold their shape; purpose-designed fold-flat versions can collapse for transport. Rigid boxes are used for luxury gifting, product launches and premium retail presentation."],
   ["What structures are available for rigid boxes?", "MTT Packaging coordinates production of magnetic closure boxes, lift-off lid boxes, drawer boxes, shoulder-neck boxes, fold-flat rigid boxes and custom presentation cases. Each structure offers a different opening experience and level of protection."],
-  ["What is the MOQ for custom rigid boxes?", "Most custom rigid box projects start from 1,000 pieces per design. The practical MOQ depends on the structure complexity, materials, finishes and production method."],
+  ["What is the MOQ for custom rigid boxes?", "The minimum order quantity for custom rigid boxes is 1,000 pieces per design. The final specification and quotation depend on the structure, materials, finishes and production method."],
   ["How much does a custom rigid box cost?", "Unit cost depends on size, board thickness, wrapping paper, printing, finishes, insert material and order quantity. Send your specification and quantity for a project-specific quotation; sample/tooling charges and shipping are confirmed separately."],
   ["Can I order a sample before production?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling typically takes 7–14 days depending on complexity."],
 ];
