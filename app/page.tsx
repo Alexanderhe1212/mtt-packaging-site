@@ -6,6 +6,7 @@ import { organization, siteUrl } from '../lib/seo';
 import { SiteNav, SiteFooter } from '../components/SiteNav';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/', languages: { en: '/', 'zh-Hans': '/zh', 'x-default': '/' } },
   title: 'Custom Luxury Packaging Boxes & Bags | MTT Packaging',
   description: 'Develop custom rigid boxes, cartons, inserts and paper bags for your brand. MOQ 1,000 per design. Send your product details to request a packaging quote.',
 };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Request a Quote | Custom Packaging | MTT Packaging",
   description:
     "Request a custom packaging quote from MTT Packaging. Send your product details, quantity and requirements. Typical response within 24 hours.",
-  alternates: { canonical: "/request-a-quote" },
+  alternates: { canonical: "/request-a-quote", languages: { en: "/request-a-quote", "zh-Hans": "/zh/request-a-quote", "x-default": "/request-a-quote" } },
   openGraph: {
     title: "Request a Custom Packaging Quote | MTT Packaging",
     description: "Send your product details, quantity and requirements. Typical response within 24 hours.",
