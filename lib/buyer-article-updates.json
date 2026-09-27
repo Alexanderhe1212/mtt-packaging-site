@@ -301,7 +301,7 @@
     "title": "Molded Pulp Cosmetic Inserts: What to Resolve Before Tooling",
     "summary": "Plan molded fibre inserts around container variation, tooling access, surface quality and complete-pack sample checks.",
     "intro": "Before commissioning a molded pulp insert, confirm the complete product set, permitted contact zones and the surface quality required. The forming process and tool design affect what shapes are practical. Evaluate the intended material with real containers, including size variation and removal. A fibre-based proposal still needs fit, finish and transport checks before production approval.",
-    "dateModified": "2026-09-15",
+    "dateModified": "2026-09-27",
     "sections": [
       [
         "Freeze the product set before freezing the tool",
@@ -320,8 +320,16 @@
         "For a small run with changing containers, a folded paperboard support may be worth comparing before fixed tooling. For an exposed, highly finished bottle, contact marks may outweigh the visual appeal of a fibre surface. Compare alternatives against the same requirements in the <a href=\"/insights/perfume-box-inserts\">insert material guide</a>; a material name alone cannot settle protection."
       ],
       [
+        "Write acceptance criteria before comparing samples",
+        "<p>Separate dimensional fit from surface acceptance. For fit, record the approved container reference, seated height, lid clearance, insertion and removal. For appearance, agree which surfaces are visible and what marking, loose fibres or transfer would be unacceptable. Review the actual decorated container as well as the tray; a clean-looking empty insert does not establish compatibility with a coated bottle.</p><div style=\"overflow-x:auto\"><table><caption>Molded pulp insert approval record</caption><thead><tr><th scope=\"col\">Check</th><th scope=\"col\">Record</th><th scope=\"col\">Decision if unresolved</th></tr></thead><tbody><tr><th scope=\"row\">Fit across container variation</th><td>Container and insert revisions checked</td><td>Keep the cavity provisional</td></tr><tr><th scope=\"row\">Surface contact</th><td>Contact zones and agreed appearance limits</td><td>Compare a different surface or construction</td></tr><tr><th scope=\"row\">Finished-box assembly</th><td>Seated height, closure and removal</td><td>Revise the complete layout</td></tr><tr><th scope=\"row\">Distribution performance</th><td>Packed configuration, method and result</td><td>Do not extend approval beyond the checks completed</td></tr></tbody></table></div><p>Where storage or humidity exposure is relevant to the intended route, discuss conditioning with the converter and test laboratory. Do not invent a universal exposure period or acceptance limit. The <a href=\"https://ista.org/test_procedures.php\">ISTA procedure overview</a> distinguishes screening from distribution simulations; the test selection should match the packed product and route.</p>"
+      ],
+      [
         "Approve a tool sample with a documented scope",
         "<ul><li>Actual containers across the approved size range.</li><li>Insertion, removal and seated presentation height.</li><li>Visible surface and marking after handling.</li><li>Fit inside the finished outer box.</li><li>Agreed complete-pack distribution checks.</li></ul>Keep the tool revision and material route with the record. A later container or material change may require new validation. See <a href=\"/insights/custom-packaging-sampling-process\">sample approval</a>."
+      ],
+      [
+        "Control changes after the sample is approved",
+        "<p>Keep a reference sample and the agreed acceptance record with the material and tool revision. If the container diameter, coating, cap or product combination changes, review retention, contact and clearance again. For ranges using one outer box with several inserts, give every insert a distinct part number and approved packing photograph. See the <a href=\"/insights/shared-box-multiple-cosmetic-skus\">shared cosmetic gift box decision guide</a> before treating one sample as approval for an entire range.</p><p>These are suggested purchasing controls, not evidence that a specific tray has passed testing. Recycled content, recyclability and product protection are separate questions. Request documents that identify the proposed material and the scope of any environmental statement; a fibre appearance alone does not establish it.</p>"
       ]
     ],
     "cta": "Send container drawings, filled weights, quantity and the intended box layout. MTT can review whether a molded fibre route merits tooling and sampling.",

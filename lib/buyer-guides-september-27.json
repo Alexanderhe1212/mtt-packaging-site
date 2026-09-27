@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "shared-box-multiple-cosmetic-skus",
+    "number": "41",
+    "angle": "Cosmetics Procurement",
+    "image": "/insights/shared-cosmetic-box-decision.webp",
+    "imageAlt": "Decision diagram comparing one cosmetic box with interchangeable inserts against separate box sizes",
+    "title": "Can One Gift Box Fit Multiple Cosmetic SKUs?",
+    "seoTitle": "One Gift Box for Multiple Cosmetic SKUs | MTT Packaging",
+    "summary": "Compare a shared cosmetic gift box with separate sizes. Check insert changes, packing errors and unused space before approving a multi-SKU packaging range.",
+    "intro": "A shared cosmetic gift box can work when the product combinations fit a defined outer size and each has an approved insert. Start with the largest product envelope, but check every smaller combination too. Compare the extra space, insert inventory and packing steps against separate boxes. Common artwork alone is not a reason to standardize the structure; a shared box should simplify the complete packing operation.",
+    "datePublished": "2026-09-27",
+    "dateModified": "2026-09-27",
+    "faq": [],
+    "cta": "For projects starting at 1,000 pieces, send the SKU list, capped dimensions, filled weights, quantities by combination and destination. MTT can review shared-box and separate-size options before sampling.",
+    "sections": [
+      [
+        "Create a product-and-combination matrix",
+        "<p>List the exact combinations that will be sold, rather than placing every item in the range into one oversized box. A serum-and-cream duo, a three-piece routine and a seasonal gift with an accessory are separate packing configurations. Record the number of each product in each configuration. Include leaflets, protective sleeves and any other item that occupies space.</p><p>For every container, request external dimensions with its closure fitted, filled weight and available dimensional tolerances. A nominal fill volume does not define its shape. Mark fragile decorations and surfaces that should not contact the insert. Keep unresolved measurements visible in the brief; an attractive layout based on estimates is not ready for tooling.</p>"
+      ],
+      [
+        "Choose what stays common",
+        "<p>There are several levels of commonality: the same graphics across different sizes, the same outer box with different inserts, or the same box and insert for closely related products. Evaluate each separately. Sharing a visual system can be useful even when sharing the physical box is unsuitable.</p><p>A common shell with interchangeable inserts deserves consideration when product envelopes are similar but support points differ. Separate box sizes deserve a comparison when one combination would otherwise contain large unused areas, or when its handling and distribution requirements differ. A universal cavity that loosely accepts several containers should not be approved simply because they all fit inside it.</p><figure><img src=\"/insights/shared-cosmetic-box-decision.webp\" alt=\"Decision diagram comparing a shared box and SKU-specific inserts with separate box sizes\" width=\"1200\" height=\"700\" loading=\"lazy\" style=\"width:100%;height:auto\"/><figcaption>Planning diagram: compare complete packing configurations before selecting a shared structure.</figcaption></figure>"
+      ],
+      [
+        "Compare the options on the same basis",
+        "<div style=\"overflow-x:auto\"><table><caption>Questions for a shared-box decision</caption><thead><tr><th scope=\"col\">Option</th><th scope=\"col\">Potential benefit</th><th scope=\"col\">Question to resolve</th></tr></thead><tbody><tr><th scope=\"row\">Shared box, different inserts</th><td>One outer-box reference</td><td>Can packers identify the correct insert without guesswork?</td></tr><tr><th scope=\"row\">Separate box sizes</th><td>Closer fit to each combination</td><td>How will stock and artwork revisions be separated?</td></tr><tr><th scope=\"row\">Shared graphics, different structures</th><td>Consistent presentation across channels</td><td>Which visual details can remain consistent on different materials?</td></tr></tbody></table></div><p>Ask for quotations using the same quantities by configuration and the same delivery scope. Separate tooling, samples, inserts and outer shipping cartons. Do not assume the shared option is cheaper: unused volume, extra packing steps and unused component stock belong in the comparison. Freight estimates need actual packed carton dimensions and weights.</p>"
+      ],
+      [
+        "Check both the largest and smallest approved products",
+        "<p>The tallest product can determine lid clearance, while the smallest can determine whether retention is adequate. These are different checks. Review the load path through suitable container body or base areas; avoid making a pump or decorative cap the default support. Examine lid contact, finger access and removal with the actual decorated containers.</p><p>Use the <a href=\"/insights/cosmetic-pump-bottle-gift-box-clearance\">pump-bottle clearance guide</a> for closure-specific questions. This shared-box decision adds another requirement: each allowed combination must remain distinguishable from an unapproved combination. A tray that accidentally accepts the wrong bottle may create a packing error even if the finished presentation looks plausible.</p>"
+      ],
+      [
+        "Run a packing trial before approving the inventory plan",
+        "<p>Set out the proposed components as they would be presented to the packing team. Ask a person who did not design the layout to follow the draft work instruction. Record which component references they use, any hesitation, the assembly sequence and whether products can be fitted in the wrong positions. This is a proposed evaluation method, not a claim about measured MTT packing performance.</p><p>Give interchangeable inserts distinct part numbers. If practical, use an unobtrusive identification mark that remains legible during packing. Do not rely only on similar colours. Keep a photograph of each approved packed configuration next to its bill of materials, and specify what happens to superseded components when a container changes.</p>"
+      ],
+      [
+        "Keep transport approval tied to the packed configuration",
+        "<p>A presentation sample establishes only what was checked. Do not extend one configuration\u2019s approval to a heavier product mix or another outer carton without review. Ask a qualified laboratory to select appropriate distribution checks for the actual shipping route and packed product. The <a href=\"https://ista.org/test_procedures.php\">ISTA test procedure overview</a> distinguishes early screening from simulations of distribution hazards; choosing a procedure requires a defined purpose.</p><p>Record the box revision, insert revision, product combination, shipping carton and acceptance criteria together. Changes to one element should trigger a review of what needs to be checked again. This does not mean every artwork correction requires repeating every physical test; the review should identify whether the change affects the evidence already collected.</p>"
+      ],
+      [
+        "Make the purchase decision at configuration level",
+        "<p>Approve a short list of combinations, not an open-ended promise that the box will fit future launches. Keep the forecast by configuration beside the quantities of shared and dedicated components. A common shell still needs compatible inserts in stock to become a usable finished pack.</p><ul><li>Each configuration has confirmed dimensions and a component list.</li><li>The correct insert can be identified during packing.</li><li>Insertion, removal and lid clearance have been reviewed.</li><li>Packed carton measurements support the logistics comparison.</li><li>Sample and transport records identify the configuration they cover.</li></ul><p>Review <a href=\"/industries/cosmetics-skincare-packaging\">cosmetics and skincare packaging options</a> once these requirements are clear. The useful outcome is a controlled packaging range with fewer avoidable changes, not the smallest possible count of box designs.</p>"
+      ]
+    ]
+  }
+]

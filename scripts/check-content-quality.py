@@ -23,6 +23,8 @@ updates[eco['slug']]=eco
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-22-eco.json').read_text())
 for a in json.loads(Path('lib/eco-guides-september-24.json').read_text()):updates[a['slug']]=a
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-24.json').read_text())
+for a in json.loads(Path('lib/buyer-guides-september-27.json').read_text()):updates[a['slug']]=a
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-27.json').read_text())
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

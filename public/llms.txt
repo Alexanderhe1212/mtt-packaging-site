@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Can One Gift Box Fit Multiple Cosmetic SKUs?](https://mttpackaging.com/insights/shared-box-multiple-cosmetic-skus)
 - [Recycled vs Recyclable Packaging Boxes: A Buyer’s Guide](https://mttpackaging.com/insights/recycled-vs-recyclable-packaging-boxes)
 - [Packaging Boxes Without Plastic Lamination: What to Specify](https://mttpackaging.com/insights/plastic-lamination-free-packaging-boxes)
 - [Sustainable Luxury Packaging Boxes: A Sample Approval Checklist](https://mttpackaging.com/insights/sustainable-luxury-packaging-boxes-approval)

@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "shared-box-multiple-cosmetic-skus",
+    "date": "2026-09-27",
+    "primaryQuery": "gift box for multiple cosmetic SKUs",
+    "searchEvidence": "GSC 2026-08-28 to 2026-09-24: multifunction cosmetic packaging 26 impressions, zero clicks; adjacent intent signal, not evidence of this exact keyword volume.",
+    "customerDecision": "Choose a common shell with different inserts versus separate box sizes.",
+    "overlapReview": "Existing pump-clearance and molded-pulp guides concern component fit; this article adds configuration inventory and packing-error control.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "claimReview": "ISTA source verified 2026-09-27. All proposed trials are purchasing recommendations, not measured MTT outcomes. No savings, price, environmental, certification or delivery claim. MOQ 1000 user-confirmed.",
+    "limitations": "Editorial assessment, not ranking or AI citation evidence. Original planning diagram, no factory/product photograph claim."
+  }
+]

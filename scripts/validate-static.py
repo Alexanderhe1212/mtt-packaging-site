@@ -3,6 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import xml.etree.ElementTree as ET
+import re
 root=Path('dist/client')
 class Page(HTMLParser):
  def __init__(self): super().__init__(); self.refs=[]; self.h1=0; self.robots=[]; self.canonical=[]; self.image_issues=[]; self.title=''; self.in_title=False
@@ -25,6 +26,7 @@ for loc in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org
  path=urlsplit(loc.text).path; f=root/path.strip('/')/'index.html'
  if not f.exists(): errors.append((path,'missing page')); continue
  s=f.read_text(); p=Page(); p.feed(s); count+=1
+ if re.search(r"/@vite/client|/@id/|/Users/[^/]+/|\.tsx\$\$cache=",s): errors.append((path,"development reference in production HTML"))
  if p.h1!=1: errors.append((path,'H1 count',p.h1))
  if any('noindex' in v for v in p.robots): errors.append((path,'noindex'))
  if p.canonical!=[loc.text]: errors.append((path,'canonical',p.canonical))
