@@ -29,6 +29,7 @@ const faqs = [
 const structuredData = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: 'MTT Packaging', url: siteUrl, inLanguage: 'en' },
   organization,
+  { '@type': 'WebPage', '@id': `${siteUrl}/#webpage`, url: `${siteUrl}/`, name: 'Custom Luxury Packaging Boxes & Bags | MTT Packaging', inLanguage: 'en', isPartOf: { '@id': `${siteUrl}/#website` }, about: { '@id': `${siteUrl}/#organization` }, mainEntity: { '@id': `${siteUrl}/#packaging-families` } },
   { '@type': 'ItemList', '@id': `${siteUrl}/#packaging-families`, name: 'Custom packaging families', itemListElement: packagingChoices.map((item, index) => ({ '@type': 'ListItem', position: index + 1, item: { '@type': 'WebPage', name: item.name, url: `${siteUrl}${item.path}` } })) },
   { '@type': 'Person', '@id': `${siteUrl}/#hugo-he`, name: 'Hugo He', jobTitle: 'Custom Packaging Consultant', worksFor: { '@id': `${siteUrl}/#organization` }, email: 'info@mttpackaging.com', telephone: '+86 17207110964' },
   { '@type': 'Service', name: 'Custom Luxury Packaging Manufacturing', provider: { '@id': `${siteUrl}/#organization` }, areaServed: 'Worldwide', description: 'Custom rigid boxes, perfume packaging, cosmetic packaging, jewelry boxes and premium gift boxes for growing brands.', serviceType: ['Custom rigid boxes', 'Magnetic closure boxes', 'Drawer boxes', 'Perfume packaging', 'Cosmetic packaging', 'Jewelry packaging', 'Gift packaging', 'Custom inserts', 'Folding cartons', 'Paper bags'] },
@@ -83,6 +84,20 @@ export default function Home() {
         <table><caption>Packaging choices and sample checks</caption><thead><tr><th scope="col">Packaging family</th><th scope="col">Typical use</th><th scope="col">What to confirm</th></tr></thead><tbody>{packagingChoices.map(item => <tr key={item.path}><th scope="row"><a href={item.path}>{item.name}</a></th><td>{item.use}</td><td>{item.check}</td></tr>)}</tbody></table>
       </div>
       <div className="home-brief-checklist"><h3>Send these details for a useful quote.</h3><ul><li>Product dimensions, weight and every item in the set.</li><li>Quantity per design; minimum order is 1,000 pieces per design.</li><li>Preferred opening, materials, finishes and artwork references.</li><li>Delivery destination, packing needs and target timing.</li></ul><a className="ed-text-link" href="/request-a-quote">Request a packaging quote →</a></div>
+    </section>
+    <section className="home-buying-guide" aria-labelledby="material-specification-title">
+      <header><p className="hp-kicker">Material specification</p><h2 id="material-specification-title">GSM and thickness answer different questions.</h2><p>GSM describes mass per square metre; caliper describes sheet thickness. Record both with the material grade instead of selecting a box from a GSM number alone. The wrap, structural board and insert have different jobs, so specify each separately.</p></header>
+      <div className="home-buying-table" role="region" aria-label="Material specification comparison" tabIndex={0}>
+        <table><caption>What to compare before approving a packaging material</caption><thead><tr><th scope="col">Component</th><th scope="col">Specification to request</th><th scope="col">Sample decision</th></tr></thead><tbody>
+          <tr><th scope="row">Rigid box core</th><td>Board grade and thickness in mm, separately from the wrap.</td><td>Check wall rigidity, lid clearance and corner construction with the intended contents.</td></tr>
+          <tr><th scope="row">Folding carton</th><td>Paperboard grade, GSM, caliper and grain direction.</td><td>Review creases, closure engagement and product fit after printing and finishing.</td></tr>
+          <tr><th scope="row">Wrapping paper</th><td>Paper grade, GSM, texture and planned finish.</td><td>Inspect wrapped corners and the chosen foil or embossed detail on a converted sample.</td></tr>
+          <tr><th scope="row">Corrugated pack</th><td>Flute, liner grades and the complete board specification.</td><td>Evaluate internal support and the packed shipping configuration; liner GSM alone cannot confirm protection.</td></tr>
+        </tbody></table>
+      </div>
+      <p>Ask for the supplier’s current material data sheet and an assembled sample. A thicker board can change internal space and closure fit; approve the finished pack with the actual product before fixing the production specification.</p>
+      <p><a className="ed-text-link" href="/insights/packaging-material-selection">Read the packaging material selection guide →</a></p>
+      <p><small>Technical reference: <a href="https://www.iggesund.com/insights/paperboard-know-how/general-technical-information/">Holmen paperboard properties and grade specifications</a>. These explain material measurements, not a claim that a particular grade is used in every MTT box.</small></p>
     </section>
     <section className="ed-process-band"><h2>A clear path from<br/>brief to production.</h2><div>{[['01','Brief','Tell us about your product and goals.'],['02','Sample','Develop and refine your packaging.'],['03','Produce','Confirm specifications before production.']].map(([n,t,d])=><a href="/how-we-work" key={n}><span className="ed-step-number">{n}</span><h3>{t}</h3><p>{d}</p></a>)}</div></section>
     {/* SECTION 3 — FEATURED PACKAGING */}
