@@ -1,3 +1,4 @@
+import {knowledgeTopics} from '../../../lib/knowledge-taxonomy';
 import {articleNavigation} from '../../../lib/article-navigation';
 import CaseStages from '../../../components/CaseStages';
 import {caseStages} from '../../../lib/case-stages';
@@ -48,7 +49,8 @@ export default async function InsightPage({
       </main>
     );
   const {related, designs} = articleNavigation(article.slug);
-  const isProblemArticle = article.angle === "Design Analysis" || customerProblemArticles.some((a) => a.slug === article.slug);
+  const knowledgeTopic = knowledgeTopics.find(topic=>topic.slugs.includes(article.slug));
+  const isProblemArticle = article.angle === "Packaging Buying Guide" || article.angle === "Design Analysis" || customerProblemArticles.some((a) => a.slug === article.slug);
   const articleData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -104,6 +106,7 @@ export default async function InsightPage({
         </details>
       </div>
       <CaseStages slug={article.slug}/><div className="article-body">
+        {knowledgeTopic && <nav className="article-topic-link" aria-label="Knowledge topic"><a href={"/insights#"+knowledgeTopic.id}>← {knowledgeTopic.title}: browse related knowledge</a></nav>}
         {article.sections.map(([title, copy], index) => (
           <section className="article-numbered-section" key={title} id={`guide-section-${index+1}`} tabIndex={-1}>
             <b>0{index + 1}</b>

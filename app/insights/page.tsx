@@ -1,3 +1,4 @@
+import {knowledgeTopics} from '../../lib/knowledge-taxonomy';
 import {caseStages} from '../../lib/case-stages';
 import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
@@ -35,15 +36,14 @@ export default function InsightsPage() {
       <header className="page-hero">
         <div>
           <p>Packaging knowledge</p>
-          <h1>Custom packaging guides for structure, materials and sampling.</h1>
+          <h1>Packaging knowledge, from product selection to repeat orders.</h1>
           <p>
-            Practical guidance for buyers before sampling, specification and
-            quotation.
+            Explore five connected topics: product families, structures, industry applications, materials and finishes, and procurement. Start with a decision, then follow the relevant guide to samples and specifications.
           </p>
         </div>
         <img
           src="/design/hero-editorial.webp"
-          alt="Concept: forest green rigid packaging with a lifted lid"
+          alt="Rigid presentation box design reference with a lifted lid"
           width="1800"
           height="1200"
         />
@@ -56,21 +56,23 @@ export default function InsightsPage() {
         ['What should I approve in a packaging sample?','Review fit, opening, artwork and finishes before confirming production.','custom-packaging-sampling-process'],
         ['What information is needed for a quote?','Prepare product measurements, quantity, destination, references and an achievable delivery requirement.','how-to-write-a-packaging-brief']
       ].map(([question,answer,slug])=><article key={slug}><h3><a href={'/insights/'+slug}>{question}</a></h3><p>{answer}</p></article>)}</div></section>
-      <section className="guide-article-section">
+      <nav className="knowledge-jump" aria-label="Packaging knowledge topics">
+        <h2>Browse the knowledge library</h2>
+        <p>{articles.length} guides, organized by the decision you need to make.</p>
+        <div>{knowledgeTopics.map((topic,index)=><a key={topic.id} href={'#'+topic.id}><span>0{index+1}</span><strong>{topic.title}</strong><small>{topic.slugs.length} guides ↓</small></a>)}</div>
+      </nav>
+      {knowledgeTopics.map((topic,index)=><section className="guide-article-section knowledge-topic" id={topic.id} key={topic.id} aria-labelledby={topic.id+'-title'}>
+        <div className="knowledge-topic-heading"><p>0{index+1} / Knowledge library</p><h2 id={topic.id+'-title'}>{topic.title}</h2><p>{topic.description}</p></div>
         <div className="guide-article-grid">
-          {articles.map((a) => (
-            <div key={a.slug} style={{ minHeight: "540px", padding: "36px", borderRight: "1px solid rgba(23,32,25,.17)", borderBottom: "1px solid rgba(23,32,25,.17)", display: "flex", flexDirection: "column" }}>
-              <span style={{ fontSize: "10px", letterSpacing: ".16em", textTransform: "uppercase", color: "#647067" }}>
-                {a.number} / {a.angle}
-              </span>
-              <img src={caseStages[a.slug]?.image || a.image} alt={caseStages[a.slug] ? `Four-stage packaging concept: ${a.title}` : a.imageAlt} width="800" height="500" loading="lazy" style={{ width: "100%", aspectRatio: caseStages[a.slug] ? "1" : "1.9", objectFit: caseStages[a.slug] ? "contain" : "cover", borderRadius: "6px", margin: "24px 0 0" }} />
-              <h2 style={{ font: "600 30px/1.12 Arial,Helvetica,sans-serif", letterSpacing: "-.025em", margin: "28px 0 16px" }}>{a.title}</h2>
-              <p style={{ fontSize: "13px", lineHeight: 1.7, color: "#687269", maxWidth: "580px" }}>{a.summary}</p>
-              <a href={`/insights/${a.slug}`} style={{ marginTop: "auto", fontSize: "12px", fontWeight: 700 }}>Read the guide →</a>
-            </div>
-          ))}
+          {topic.slugs.map(slug=>articles.find(a=>a.slug===slug)).filter((a): a is typeof articles[number]=>Boolean(a)).map(a=><article key={a.slug} className="knowledge-guide-card">
+            <a href={'/insights/'+a.slug} className="knowledge-image-link" tabIndex={-1} aria-hidden="true"><img src={caseStages[a.slug]?.image || a.image} alt={a.imageAlt} width="800" height="500" loading="lazy" /></a>
+            <span className="knowledge-guide-angle">{a.angle}</span>
+            <h3><a href={'/insights/'+a.slug}>{a.title}</a></h3>
+            <p>{a.summary}</p>
+            <a className="knowledge-read" href={'/insights/'+a.slug} aria-label={'Read '+a.title}>Read the guide →</a>
+          </article>)}
         </div>
-      </section>
+      </section>)}
       <SiteFooter />
     </main>
   );

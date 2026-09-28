@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "folding-carton-closure-selection",
+    "date": "2026-09-28",
+    "primaryQuery": "Folding Carton Closures: Tuck End, Lock Bottom or Auto Bottom?",
+    "customerDecision": "Choose a folding carton closure around the filled product, the packing method and the way the customer opens it. Tuck ends, manually locked bottoms and pre-glued auto bottoms solve different assembly problems. None has a universal load capacity. Compare physical samples using the same product and board specification, then approve the closure, insert and artwork together before production.",
+    "searchEvidence": "Product-system coverage gap, verified against the 41 existing guides. No measured search volume or hottest-keyword claim.",
+    "overlapReview": "Focuses on closure assembly rather than broad rigid-vs-carton selection.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Direct 40-100 word answer; unique buying intent and primary URL.",
+      "Distinct decision table, concrete failure modes and sample checklist; project-dependent recommendations are qualified.",
+      "Existing catalogue imagery labelled design reference; no claimed customer case, load rating or test result.",
+      "One problem-specific commercial CTA and links to adjacent guides."
+    ],
+    "sources": [
+      "https://www.procarton.com/why-cartons/carton-production/"
+    ],
+    "claimReview": "Sources opened 2026-09-28. Paper-bag checks are conditional purchasing guidance, without numerical load limits or certification claims. No price, MOQ, timing, savings or ranking promise. No unresolved factual claim identified.",
+    "limitations": "Self-assessed editorial score, not a search-performance metric. Guides cover core buying decisions, not every possible product configuration."
+  },
+  {
+    "slug": "corrugated-mailer-shipping-box-specification",
+    "date": "2026-09-28",
+    "primaryQuery": "Corrugated Mailer or Shipping Carton: What to Specify",
+    "customerDecision": "A corrugated mailer or shipping carton must be specified as part of a complete packed system. Start with the product, its inner protection, packed weight and distribution route. Then agree the box style, board construction, closure and verification plan. A style code identifies the design; it does not prove that a particular board or packed configuration will survive transport.",
+    "searchEvidence": "Product-system coverage gap, verified against the 41 existing guides. No measured search volume or hottest-keyword claim.",
+    "overlapReview": "Focuses on a complete transport specification rather than freight volume or insert materials alone.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Direct 40-100 word answer; unique buying intent and primary URL.",
+      "Distinct decision table, concrete failure modes and sample checklist; project-dependent recommendations are qualified.",
+      "Existing catalogue imagery labelled design reference; no claimed customer case, load rating or test result.",
+      "One problem-specific commercial CTA and links to adjacent guides."
+    ],
+    "sources": [
+      "https://www.fefco.org/technical-information/fefco-code",
+      "https://ista.org/test_procedures.php"
+    ],
+    "claimReview": "Sources opened 2026-09-28. Paper-bag checks are conditional purchasing guidance, without numerical load limits or certification claims. No price, MOQ, timing, savings or ranking promise. No unresolved factual claim identified.",
+    "limitations": "Self-assessed editorial score, not a search-performance metric. Guides cover core buying decisions, not every possible product configuration."
+  },
+  {
+    "slug": "paper-bag-size-handles-load-check",
+    "date": "2026-09-28",
+    "primaryQuery": "Custom Paper Bags: Size, Handles and Loaded Sample Checks",
+    "customerDecision": "Size a custom paper bag around the finished contents in their carrying orientation, including tissue and accessories. Specify width, side gusset and height with a drawing. Choose handles and reinforcement around the loaded weight and intended use, then evaluate an assembled, loaded sample. Paper weight and a premium handle finish do not establish a safe carrying capacity by themselves.",
+    "searchEvidence": "Product-system coverage gap, verified against the 41 existing guides. No measured search volume or hottest-keyword claim.",
+    "overlapReview": "Focuses on bag dimension and loaded evaluation, rather than fragrance set coordination or foil matching.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Direct 40-100 word answer; unique buying intent and primary URL.",
+      "Distinct decision table, concrete failure modes and sample checklist; project-dependent recommendations are qualified.",
+      "Existing catalogue imagery labelled design reference; no claimed customer case, load rating or test result.",
+      "One problem-specific commercial CTA and links to adjacent guides."
+    ],
+    "sources": [],
+    "claimReview": "Sources opened 2026-09-28. Paper-bag checks are conditional purchasing guidance, without numerical load limits or certification claims. No price, MOQ, timing, savings or ranking promise. No unresolved factual claim identified.",
+    "limitations": "Self-assessed editorial score, not a search-performance metric. Guides cover core buying decisions, not every possible product configuration."
+  },
+  {
+    "slug": "packaging-reorder-specification-change-control",
+    "date": "2026-09-28",
+    "primaryQuery": "Packaging Reorders: Control Specifications and Version Changes",
+    "customerDecision": "A packaging reorder should reference an approved specification and sample, not just an old purchase order or photograph. Confirm that the product, material, artwork, insert, packing method and delivery route are unchanged. Record every proposed substitution or revision before production. When a change affects fit, appearance or transport performance, agree the sample or test evidence needed to approve the revised configuration.",
+    "searchEvidence": "Product-system coverage gap, verified against the 41 existing guides. No measured search volume or hottest-keyword claim.",
+    "overlapReview": "Focuses on repeat-production revisions rather than first sample approval or release of stored stock.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Direct 40-100 word answer; unique buying intent and primary URL.",
+      "Distinct decision table, concrete failure modes and sample checklist; project-dependent recommendations are qualified.",
+      "Existing catalogue imagery labelled design reference; no claimed customer case, load rating or test result.",
+      "One problem-specific commercial CTA and links to adjacent guides."
+    ],
+    "sources": [
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ],
+    "claimReview": "Sources opened 2026-09-28. Paper-bag checks are conditional purchasing guidance, without numerical load limits or certification claims. No price, MOQ, timing, savings or ranking promise. No unresolved factual claim identified.",
+    "limitations": "Self-assessed editorial score, not a search-performance metric. Guides cover core buying decisions, not every possible product configuration."
+  }
+]

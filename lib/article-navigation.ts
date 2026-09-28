@@ -3,6 +3,11 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {"articles": ["folding-carton-closure-selection", "custom-box-structure-guide", "packaging-materials-guide", "custom-packaging-sampling-process"], "products": ["custom-skincare-duo-auto-bottom", "custom-carton-packaging-set", "window-bakery-folding-carton"]},
+  {"articles": ["corrugated-mailer-shipping-box-specification", "custom-inserts-product-protection", "rigid-box-vs-folding-carton", "reduce-shipping-costs-rigid-boxes"], "products": ["three-compartment-skincare-mailer", "custom-corrugated-packaging-set", "custom-skincare-duo-auto-bottom"]},
+  {"articles": ["paper-bag-size-handles-load-check", "perfume-box-and-bag-packaging", "match-gold-foil-perfume-box-paper-bag", "packaging-material-selection"], "products": ["custom-bag-packaging-set", "custom-perfume-bottle-ribbon-bag", "custom-coffee-pouches-flat-handle-bag"]},
+  {"articles": ["packaging-reorder-specification-change-control", "custom-packaging-sampling-process", "custom-packaging-storage-scheduled-delivery", "shared-box-multiple-cosmetic-skus"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+
   {articles:['shared-box-multiple-cosmetic-skus','cosmetic-pump-bottle-gift-box-clearance','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process'],products:['skincare-ritual-book','custom-skincare-duo-auto-bottom','three-compartment-skincare-mailer']},
   {articles:['recycled-vs-recyclable-packaging-boxes','plastic-lamination-free-packaging-boxes','sustainable-luxury-packaging-boxes-approval','packaging-material-selection'],products:['signature-perfume-lift-off','custom-carton-packaging-set','custom-bag-packaging-set']},
   {articles:['sustainable-luxury-packaging-boxes-approval','packaging-material-selection','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process'], products:['signature-perfume-lift-off','custom-carton-packaging-set','custom-bag-packaging-set']},

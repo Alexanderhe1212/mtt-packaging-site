@@ -25,6 +25,8 @@ for a in json.loads(Path('lib/eco-guides-september-24.json').read_text()):update
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-24.json').read_text())
 for a in json.loads(Path('lib/buyer-guides-september-27.json').read_text()):updates[a['slug']]=a
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-27.json').read_text())
+for a in json.loads(Path('lib/knowledge-guides-september-28.json').read_text()):updates[a['slug']]=a
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-28.json').read_text())
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)
@@ -71,3 +73,11 @@ assert 'Anonymized project discussion' not in ' '.join(case.text)
 for slug in ['packaging-inserts-for-handmade-glass-products','fold-flat-triangular-gift-box-shipping-volume']:
  assert updates[slug]['title'] in ' '.join(case.text),slug
 print(f'{len(updates)} articles: Quick Answers, unique metadata, editorial records, internal links, schema and case directory passed')
+# Every guide has exactly one primary knowledge topic; none disappear from the hub.
+topics=json.loads(Path('lib/knowledge-taxonomy.ts').read_text().split(' = ',1)[1].rstrip(';\n'))
+owned=[slug for topic in topics for slug in topic['slugs']]
+assert len(owned)==len(set(owned)), 'Duplicate knowledge topic ownership'
+assert set(owned)==set(updates), 'Knowledge taxonomy must cover every guide'
+hub=Page((root/'insights/index.html').read_text())
+for slug in owned:assert '/insights/'+slug in hub.links,slug
+print(f'{len(owned)} guides assigned once across {len(topics)} knowledge topics; hub links passed')

@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "folding-carton-closure-selection",
+    "number": "42",
+    "angle": "Packaging Buying Guide",
+    "title": "Folding Carton Closures: Tuck End, Lock Bottom or Auto Bottom?",
+    "seoTitle": "Folding Carton Closure Selection | MTT Packaging",
+    "summary": "Compare folding carton closures by product weight, packing method and opening. Use a sample checklist to choose a workable structure before artwork approval.",
+    "intro": "Choose a folding carton closure around the filled product, the packing method and the way the customer opens it. Tuck ends, manually locked bottoms and pre-glued auto bottoms solve different assembly problems. None has a universal load capacity. Compare physical samples using the same product and board specification, then approve the closure, insert and artwork together before production.",
+    "image": "/products/mtt-c0104-0.webp",
+    "imageAlt": "Skincare folding carton design reference with an auto-bottom structure",
+    "datePublished": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "faq": [],
+    "sections": [
+      [
+        "Define how the carton will be packed",
+        "<p>A bottle loaded from the top places different demands on the base from a light accessory loaded through either end. Record the filled weight, base shape, sharp edges, cap position and intended display orientation. Include any leaflet or insert: it can obstruct the closing flap even when the product itself fits.</p><p>State whether operators will assemble the carton by hand or use a packing line. For a line, share the equipment requirements and loading direction with the converter before the dieline is approved. A closure that works on a desk is not automatically compatible with production equipment.</p>"
+      ],
+      [
+        "Compare closure behavior",
+        "<div class=\"knowledge-table\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table; scroll horizontally on small screens\"><table><caption>Closure selection before sampling</caption><thead><tr><th scope=\"col\">Closure</th><th scope=\"col\">When to investigate it</th><th scope=\"col\">What must be checked</th></tr></thead><tbody><tr><th scope=\"row\">Tuck end</th><td>An accessible opening for relatively simple loading and removal</td><td>Flap retention, friction, product interference and opening direction</td></tr><tr><th scope=\"row\">Manual lock bottom</th><td>A base assembled by interlocking flaps</td><td>Assembly sequence, complete engagement and stability under the actual load</td></tr><tr><th scope=\"row\">Pre-glued auto bottom</th><td>A carton whose base forms as the sleeve is opened</td><td>Glue joints, full opening, base seating and compatibility with the filling process</td></tr></tbody></table></div><p>These are selection starting points, not load ratings. Ask the supplier to identify the exact closure on the drawing because informal names such as \u201ccrash lock\u201d can be used inconsistently. Keep the dieline revision beside the material specification.</p>"
+      ],
+      [
+        "Specify board and creases together",
+        "<p>Board thickness, stiffness, coating and crease design all affect how a carton folds. Increasing grammage alone may make a flap harder to insert or change the finished fit. Request the board grade and thickness alongside GSM; compare a production-representative sample rather than choosing from a weight number alone.</p><p>Pro Carton describes carton manufacture as a sequence including printing, cutting, creasing and folding/gluing. The practical implication for the buyer is that the printed sheet and the assembled box need separate checks. Inspect fold edges for visible damage and verify that decoration near a crease still meets the agreed appearance reference. See the <a href=\"/insights/packaging-materials-guide\">board specification guide</a> for the difference between material descriptions.</p>"
+      ],
+      [
+        "Check the product and insert as one assembly",
+        "<p>A carton may close when empty and bow when loaded. If the insert lifts the bottle, the cap can press on the lid; if the base is narrow, the load may concentrate at an unsupported point. Review the complete loaded carton upright and in the orientations expected during packing. Do not use the top flap to force an oversized product into place.</p><p>For a pump bottle, check <a href=\"/insights/cosmetic-pump-bottle-gift-box-clearance\">actuator and cap clearance</a> separately. Product support should come from a deliberately designed base or insert, not accidental pressure on a pump. The carton also needs external transport protection when the distribution route requires it.</p>"
+      ],
+      [
+        "Run a repeatable sample comparison",
+        "<ul><li>Assemble several samples using the proposed packing instructions; record any ambiguous fold or missed lock.</li><li>Load the actual filled product, insert and leaflet, then close without distorting the panels.</li><li>Inspect base engagement and glue areas, and agree a load-handling evaluation with the supplier.</li><li>Open and remove the product as a customer would; check tearing, snagging and access.</li><li>Review a printed sample for cracking, scuffing and artwork hidden by flaps.</li></ul><p>If comparing assembly effort, use the same packing task and document the conditions. Do not assume an auto bottom saves a particular number of seconds without observing the actual operation. A faster assembly can still be unsuitable if product positioning becomes unreliable.</p>"
+      ],
+      [
+        "Freeze the closure before final artwork",
+        "<p>Changing a bottom or flap after artwork approval can move folds, glue areas and panel boundaries. Confirm the structure first, issue artwork on the approved dieline, and retain a signed or otherwise traceable assembled reference. Record the loading direction in the pack-out instructions so a later team does not reverse it.</p><p>This guide addresses folding-carton assembly. For the earlier decision between box families, use <a href=\"/insights/rigid-box-vs-folding-carton\">rigid box vs folding carton vs corrugated packaging</a>.</p>"
+      ],
+      [
+        "Technical reference",
+        "<p><a href=\"https://www.procarton.com/why-cartons/carton-production/\">Pro Carton: carton production</a> explains the manufacturing stages. Closure suitability and load performance remain project-specific and require sample evaluation; no test result is claimed here.</p>"
+      ]
+    ],
+    "cta": "Send the filled product dimensions and weight, intended loading direction, packing method and quantity. MTT can review closure options and the samples needed before artwork is finalized."
+  },
+  {
+    "slug": "corrugated-mailer-shipping-box-specification",
+    "number": "43",
+    "angle": "Packaging Buying Guide",
+    "title": "Corrugated Mailer or Shipping Carton: What to Specify",
+    "seoTitle": "Corrugated Mailer & Shipping Box Guide | MTT Packaging",
+    "summary": "Choose a corrugated mailer or shipping carton around the packed product, insert and delivery route. Compare structure, board and transport test requirements.",
+    "intro": "A corrugated mailer or shipping carton must be specified as part of a complete packed system. Start with the product, its inner protection, packed weight and distribution route. Then agree the box style, board construction, closure and verification plan. A style code identifies the design; it does not prove that a particular board or packed configuration will survive transport.",
+    "image": "/products/mtt-e0102-0.webp",
+    "imageAlt": "Corrugated skincare mailer design reference with separated product compartments",
+    "datePublished": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "faq": [],
+    "sections": [
+      [
+        "Separate presentation from transport protection",
+        "<p>A mailer can be the customer-facing outer pack, an inner presentation pack or one component inside a shipping carton. State which role it serves. If the printed mailer travels directly through parcel handling, its surface and closure face different exposure from a mailer protected by an outer case.</p><p>List every component that ships: primary product, retail carton, insert, accessories and paperwork. Determine the packed arrangement before confirming internal dimensions. Too little room can compress a retail box; too much room can allow movement unless the inner protection is designed to control it.</p>"
+      ],
+      [
+        "Choose the structure for the route",
+        "<div class=\"knowledge-table\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table; scroll horizontally on small screens\"><table><caption>Mailers and shipping cases: buyer decisions</caption><thead><tr><th scope=\"col\">Option</th><th scope=\"col\">Useful starting point</th><th scope=\"col\">Approval question</th></tr></thead><tbody><tr><th scope=\"row\">Roll-end mailer</th><td>Individual sets with an intentional opening sequence</td><td>Do locks, side walls and sealing method stay engaged in the intended route?</td></tr><tr><th scope=\"row\">Slotted shipping carton</th><td>Consolidated products or an outer transport layer</td><td>How will flaps be sealed and how will inner units be separated?</td></tr><tr><th scope=\"row\">Sleeve and tray</th><td>A sliding presentation format inside a defined shipping system</td><td>What prevents tray movement and protects exposed ends?</td></tr></tbody></table></div><p>Use an agreed drawing or a <a href=\"https://www.fefco.org/technical-information/fefco-code\">FEFCO design code</a> to communicate construction. FEFCO describes its code as a common system for identifying corrugated designs. Add dimensions and board requirements to the drawing; the design identifier alone is not a performance specification.</p>"
+      ],
+      [
+        "Ask for more than a flute letter",
+        "<p>Flute profile describes part of the board construction. It does not describe the whole combination of liners, medium, board properties and box geometry. Ask the supplier to state the construction and the relevant board or box performance requirement agreed for the application. Do not select a shipping pack from appearance or GSM alone.</p><p>A printed or laminated outer surface can affect cost, finish and handling. Compare these choices after the protective system is defined. For material terminology, read <a href=\"/insights/packaging-materials-guide\">the board specification guide</a>. Avoid substituting a visually similar board without checking whether the agreed construction has changed.</p>"
+      ],
+      [
+        "Keep the insert and sealing method in the specification",
+        "<p>An insert that looks tidy may still let a heavy bottle move. Define support positions, separation between fragile items and removal access. Confirm the actual tape, seal or other closure used for shipment. Testing an empty box, or a box closed differently from production, does not evaluate the intended packed product.</p><p>Illustrative decision: a skincare set containing a glass jar and a tall pump bottle may need separate support zones. This is a design consideration, not evidence of a completed test. Review <a href=\"/insights/custom-inserts-product-protection\">insert material choices</a> before fixing the cavity geometry.</p>"
+      ],
+      [
+        "Agree a transport verification plan",
+        "<p><a href=\"https://ista.org/test_procedures.php\">ISTA distinguishes integrity, partial-simulation and general-simulation test procedures</a>. Select an appropriate procedure with the customer and testing provider based on the route and packed product. A convenient test name should not replace a description of how the goods will actually travel.</p><ul><li>Record the packed weight, dimensions, product version and number of items.</li><li>Identify parcel, palletized or other handling stages and any customer-specific requirements.</li><li>Agree acceptable product condition and packaging damage criteria before testing.</li><li>Use representative products, inserts, board and closures.</li><li>Record failures and changes, then decide what needs evaluation again.</li></ul><p>No universal drop height, board grade or damage allowance is specified here. Those decisions belong to the agreed test plan.</p>"
+      ],
+      [
+        "Compare quotes on the packed configuration",
+        "<p>Ask for box, insert, printing, tooling and packing assumptions to be identifiable in the quote. A smaller outer box may reduce shipment volume but create handling problems if clearance or protection is removed. Compare the packed dimensions and complete protection system, not just an empty-box unit price.</p><p>For freight-volume planning, continue to <a href=\"/insights/reduce-shipping-costs-rigid-boxes\">the packed-volume comparison guide</a>. Record any later board or product change so the original approval is not applied to a different configuration.</p>"
+      ]
+    ],
+    "cta": "Send product photos, filled weights and dimensions, the proposed packing arrangement, shipment route and quantity. MTT can review the mailer or shipping-carton specification and identify the protection checks to discuss."
+  },
+  {
+    "slug": "paper-bag-size-handles-load-check",
+    "number": "44",
+    "angle": "Packaging Buying Guide",
+    "title": "Custom Paper Bags: Size, Handles and Loaded Sample Checks",
+    "seoTitle": "Paper Bag Size & Handle Guide | MTT Packaging",
+    "summary": "Specify custom paper bags using the finished pack, carrying orientation and loaded weight. Compare handles, reinforcement and practical sample checks.",
+    "intro": "Size a custom paper bag around the finished contents in their carrying orientation, including tissue and accessories. Specify width, side gusset and height with a drawing. Choose handles and reinforcement around the loaded weight and intended use, then evaluate an assembled, loaded sample. Paper weight and a premium handle finish do not establish a safe carrying capacity by themselves.",
+    "image": "/products/mtt-b0101-0.webp",
+    "imageAlt": "Paper shopping bag design reference showing handles and a reinforced opening",
+    "datePublished": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "faq": [],
+    "sections": [
+      [
+        "Measure the finished pack, not the product cavity",
+        "<p>Use the external dimensions of the assembled box or the complete set that will enter the bag. Show its insertion orientation. For multiple items, document the arrangement rather than adding individual dimensions without accounting for their positions. Tissue, ribbons and protruding lids can change the clearance required.</p><p>Label width, gusset and height on the drawing. Ask whether the quoted dimensions are finished measurements and how they are checked. Leave handling clearance based on a physical trial; there is no single allowance that suits every stiff box, paper grade or presentation style. For coordinated fragrance sets, see <a href=\"/insights/perfume-box-and-bag-packaging\">box and bag planning</a>.</p>"
+      ],
+      [
+        "Select handles by use and attachment",
+        "<div class=\"knowledge-table\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table; scroll horizontally on small screens\"><table><caption>Handle choices to evaluate on a loaded sample</caption><thead><tr><th scope=\"col\">Handle option</th><th scope=\"col\">Buyer consideration</th><th scope=\"col\">Check at sampling</th></tr></thead><tbody><tr><th scope=\"row\">Ribbon</th><td>Visual coordination and feel in the hand</td><td>Attachment, slipping, edge discomfort and available hand clearance</td></tr><tr><th scope=\"row\">Cord</th><td>Profile, grip and attachment detail</td><td>Knot or fastening retention, hole areas and reinforcement</td></tr><tr><th scope=\"row\">Flat paper handle</th><td>Paper-based appearance and a different attachment area</td><td>Bonded area, peeling and carrying comfort under the intended load</td></tr><tr><th scope=\"row\">Die-cut opening</th><td>No separate handle component</td><td>Opening shape, reinforcement and tearing around the grip</td></tr></tbody></table></div><p>These options do not have fixed load capacities. The paper, reinforcement, attachment geometry, adhesive and contents all matter. Ask for the complete construction to be documented, including details hidden inside the folded top.</p>"
+      ],
+      [
+        "Review the base and top reinforcement",
+        "<p>A flat-bottomed gift box and several loose bottles load a bag differently. Inspect how the contents sit on the base and whether a corner creates a local pressure point. Check the base fold, bonded areas and any base insert as a system. Reinforcing only the handles does not resolve a weak base.</p><p>Review the folded top and handle attachment from inside the bag as well as outside. A neat exterior can hide inconsistent bonding or an interfering handle knot. If a removable base board is proposed, include it in packing instructions and in every loaded evaluation.</p>"
+      ],
+      [
+        "Approve appearance alongside carrying behavior",
+        "<p>A smooth bag paper can reproduce color and foil differently from a textured box wrap. Approve the set together using agreed physical references. Check where the folded edges, gussets and handle holes interrupt the artwork; keep essential information away from uncertain trim and fold boundaries.</p><p>Read <a href=\"/insights/match-gold-foil-perfume-box-paper-bag\">matching foil across boxes and bags</a> for coordinated finish approval. Scuffing and moisture exposure should be discussed for the expected use. Do not call a paper bag waterproof or assign an environmental claim simply because of its appearance or paper content.</p>"
+      ],
+      [
+        "Write a loaded-sample evaluation brief",
+        "<ul><li>List the complete contents and combined weight, including the presentation box and accessories.</li><li>Insert and remove the set without forcing the opening or catching decoration.</li><li>Check hand clearance and comfort with the intended handle length.</li><li>Agree carrying, lifting and hold conditions with the supplier, then document the observations.</li><li>Inspect the handle area, top fold, seams and base for changes after the agreed evaluation.</li><li>Record the exact paper, handles, reinforcement and adhesive construction of the approved sample.</li></ul><p>Set acceptance conditions before evaluating samples. A single successful lift is only an observation under that condition, not a certified load rating. If the contents or construction change, review whether another sample evaluation is needed.</p>"
+      ],
+      [
+        "Specify packing and the next purchasing step",
+        "<p>Paper bags can arrive flattened, with handles arranged in different ways. Confirm the packing method, quantity per shipping carton and protection against surface marking. Check whether the receiving team can store the bags and prepare them without damaging handles or creases.</p><p>A carrying bag does not replace a parcel shipping system. Use <a href=\"/insights/corrugated-mailer-shipping-box-specification\">the corrugated transport-pack guide</a> when the contents will be sent by courier. For a reorder, preserve the approved construction and sample reference instead of ordering only by size and color. This article provides a project checklist; it does not claim an MTT load test or a universal carrying limit.</p>"
+      ]
+    ],
+    "cta": "Send the finished contents, carrying orientation, total loaded weight, preferred handle, quantity and artwork. MTT can review bag dimensions, reinforcement choices and a loaded-sample evaluation brief."
+  },
+  {
+    "slug": "packaging-reorder-specification-change-control",
+    "number": "45",
+    "angle": "Packaging Buying Guide",
+    "title": "Packaging Reorders: Control Specifications and Version Changes",
+    "seoTitle": "Packaging Reorder Checklist | MTT Packaging",
+    "summary": "Prepare a packaging reorder with approved samples, material versions and change records. Separate repeat production from changes that need renewed evaluation.",
+    "intro": "A packaging reorder should reference an approved specification and sample, not just an old purchase order or photograph. Confirm that the product, material, artwork, insert, packing method and delivery route are unchanged. Record every proposed substitution or revision before production. When a change affects fit, appearance or transport performance, agree the sample or test evidence needed to approve the revised configuration.",
+    "image": "/products/mtt-r0101-0.webp",
+    "imageAlt": "Rigid presentation box reference for checking a reorder against an approved configuration",
+    "datePublished": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "faq": [],
+    "sections": [
+      [
+        "Build a single approved specification record",
+        "<p>A buyer may retain the final artwork while the packing team uses an older insert drawing. A reorder can then reproduce different versions of the same set. Assign a revision to the complete packaging configuration, and reference the component revisions beneath it. The purchase order should identify that record.</p><p>Keep a physical sample where practical and record its approval date, relevant signatures or written approval, and any accepted exceptions. Photographs help identify the configuration but cannot fully describe color, surface feel, opening resistance or material construction. Start with <a href=\"/insights/custom-packaging-sampling-process\">the sample approval checklist</a> if the original approval is incomplete.</p>"
+      ],
+      [
+        "Separate unchanged repeats from revisions",
+        "<div class=\"knowledge-table\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table; scroll horizontally on small screens\"><table><caption>Reorder change review</caption><thead><tr><th scope=\"col\">Change</th><th scope=\"col\">Possible consequence</th><th scope=\"col\">Evidence to review</th></tr></thead><tbody><tr><th scope=\"row\">Bottle, cap or accessory dimensions</th><td>Fit, support or removal may change</td><td>Actual product and loaded fit sample</td></tr><tr><th scope=\"row\">Board, wrap, adhesive or insert material</th><td>Appearance, assembly or protection may differ</td><td>Updated specification and representative sample</td></tr><tr><th scope=\"row\">Artwork or decoration</th><td>Color, registration or legibility may change</td><td>Artwork proof and affected finish reference</td></tr><tr><th scope=\"row\">Pack-out quantity or shipping route</th><td>The transport system may face different loads</td><td>Updated packing plan and test review</td></tr><tr><th scope=\"row\">No proposed change</th><td>Stored references and current production still need alignment</td><td>Written specification confirmation and agreed production checks</td></tr></tbody></table></div><p>This table is a review trigger, not an automatic instruction to repeat every test. Decide the necessary evidence from the consequence of the change. Record who accepts that decision.</p>"
+      ],
+      [
+        "Do not approve a substitution by description alone",
+        "<p>\u201cEquivalent paper\u201d is incomplete if the original specification includes texture, thickness or printing behavior. Ask what is changing and why. Review the characteristics that matter for this pack, including any documented claim that depends on material sourcing. A matching color name does not show that foil or adhesive will behave in the same way.</p><p>Separate a proposed substitute from the approved baseline. Record whether it is accepted for one order or becomes the new standard. If acceptance is conditional, state the unresolved checks so the next reorder does not treat a temporary exception as permanent approval.</p>"
+      ],
+      [
+        "Keep component quantities and versions aligned",
+        "<p>For sets, list box, insert, sleeve, bag and printed accessories individually. Show the quantity and artwork version of each. One shared outer box can support several inserts, but a picking mistake may create a set that looks correct and fits poorly. Use an understandable component identifier in the packing instructions.</p><p>The <a href=\"/insights/shared-box-multiple-cosmetic-skus\">shared-box guide</a> covers the initial decision to standardize a shell. On reorder, check whether the SKU combinations and actual products are still the same. Do not silently use an earlier insert because it remains in stock.</p>"
+      ],
+      [
+        "Revisit transport evidence when the system changes",
+        "<p><a href=\"https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested\">ISTA guidance on retesting</a> identifies changes to the product, packaging and distribution system as reasons to review retesting. Keep the evaluated configuration identifiable so a report is not assumed to cover an altered pack.</p><p>Discuss the effect of the change with the testing provider or responsible customer team. A different insert, product weight or pack-out can matter even when the outer box dimensions are unchanged. Record the decision and its basis; do not describe a changed configuration as tested unless the supporting evidence applies to it.</p>"
+      ],
+      [
+        "Use a pre-production reorder checklist",
+        "<ul><li>Confirm the complete configuration and component revision numbers.</li><li>Confirm current product samples or written confirmation that the product is unchanged.</li><li>List changes and substitutions explicitly, including a written \u201cnone\u201d when appropriate.</li><li>Agree the reference sample, appearance criteria and inspection scope.</li><li>Confirm quantities by version, packing instructions and shipping-carton markings.</li><li>Confirm stock treatment and delivery arrangements separately from new production.</li></ul><p>For inventory already produced, read <a href=\"/insights/custom-packaging-storage-scheduled-delivery\">storage and scheduled delivery</a>. Releasing approved stock is a different decision from manufacturing a new batch. For new production, reconfirm timing and price from the current specification rather than assuming the previous order terms still apply.</p>"
+      ],
+      [
+        "Resolve discrepancies before release",
+        "<p>If the sample, drawing and order disagree, stop treating any one of them as automatically authoritative. Identify the discrepancy, obtain a clear written decision and update the affected references. Archive the previous revision so it remains traceable but cannot be mistaken for the current production instruction.</p><p>This is a purchasing control framework, not a claim about a completed customer reorder. It helps a buyer decide what must be reconfirmed and what evidence belongs with the next order.</p>"
+      ]
+    ],
+    "cta": "Send the previous approved specification, sample reference, current product details and a list of proposed changes. MTT can review which components need reconfirmation before a reorder specification is released."
+  }
+]
