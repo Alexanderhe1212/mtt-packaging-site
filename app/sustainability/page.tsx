@@ -105,6 +105,24 @@ export default function SustainabilityPage() {
           </p>
         </div>
       </section>
+      <section className="home-buying-guide" aria-labelledby="sustainable-decisions">
+        <header><p className="hp-kicker">Compare the complete pack</p><h2 id="sustainable-decisions">Choose a change you can verify.</h2><p>Start with the product, delivery route and disposal market. A paper-based appearance does not establish recyclability, and a recycled-content claim does not describe every component. Compare the outer box, wrap, insert, adhesive and closure as one specification.</p></header>
+        <div className="home-buying-table" role="region" aria-label="Sustainable packaging decisions" tabIndex={0}>
+          <table><caption>Material changes to evaluate during sampling</caption><thead><tr><th scope="col">Proposed change</th><th scope="col">What to check</th><th scope="col">Evidence to retain</th></tr></thead><tbody>
+            <tr><th scope="row">Reduce box size</th><td>Keep enough space for product removal and internal support; review the shipping carton too.</td><td>Before-and-after dimensions and component weights for the same packed product.</td></tr>
+            <tr><th scope="row">Replace a foam insert</th><td>Compare folded paperboard or molded pulp for support, surface contact and packing time.</td><td>Approved fit sample and agreed protection checks with the actual product.</td></tr>
+            <tr><th scope="row">Remove plastic lamination</th><td>Review scuffing, fingerprints and finish adhesion on the selected paper.</td><td>Material and coating details plus the approved decorated sample.</td></tr>
+            <tr><th scope="row">Simplify the closure</th><td>Evaluate a tuck, sleeve or lift-off structure where the brief allows fewer mixed components.</td><td>Updated component list and confirmation that the pack still closes securely.</td></tr>
+          </tbody></table>
+        </div>
+        <div className="home-brief-checklist"><h3>Keep the claim tied to the order.</h3><ul>
+          <li>Identify which component a recycled-content or sourcing claim covers and request supporting supplier documentation.</li>
+          <li>Check certificate scope and the proposed label before artwork approval; a paper supplier’s certificate alone is not a finished-box claim.</li>
+          <li>Assess disposal instructions for the destination market, including components the customer must separate.</li>
+        </ul></div>
+        <p>The <a href="https://fsc.org/en/chain-of-custody">FSC chain-of-custody guidance</a> explains traceability through the supply chain. For US-facing environmental marketing, consult the <a href="https://www.ftc.gov/news-events/topics/truth-advertising/green-guides">FTC Green Guides</a>. Neither source verifies a particular MTT order: the supporting records must match that project.</p>
+        <p>Send photos of the current pack, the product dimensions and weight, order quantity, destination and the specific change you want to make. We can use that brief to compare material options and identify what the next sample needs to demonstrate.</p>
+      </section>
       <aside className="page-cta">
         <p>Ready to start?</p>
         <h2>Discuss sustainable packaging options for your product.</h2>

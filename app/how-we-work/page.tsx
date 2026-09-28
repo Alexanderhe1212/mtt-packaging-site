@@ -140,6 +140,24 @@ export default function ProcessPage() {
           </li>
         </ol>
       </section>
+      <section className="home-buying-guide" aria-labelledby="project-approvals">
+        <header><p className="hp-kicker">Your approval checklist</p><h2 id="project-approvals">Know what is being approved at each stage.</h2><p>A structure sample, printed proof and packed shipping sample answer different questions. Agree on the purpose of each sample before ordering it, then record the approved version so later changes remain visible.</p></header>
+        <div className="home-buying-table" role="region" aria-label="Packaging project stages and approvals" tabIndex={0}>
+          <table><caption>Information and decisions from brief to shipment</caption><thead><tr><th scope="col">Stage</th><th scope="col">What to provide</th><th scope="col">What to confirm</th></tr></thead><tbody>
+            <tr><th scope="row">Define the brief</th><td>Product samples or drawings, filled weight, quantity per design, destination and target launch date.</td><td>Opening style, items in each set, material direction and what is included in the quotation.</td></tr>
+            <tr><th scope="row">Engineer and sample</th><td>Final product components, artwork files and references for colour and finishes.</td><td>Fit, removal access, closure, artwork placement and sample limitations. A plain structural sample does not approve colour.</td></tr>
+            <tr><th scope="row">Produce and inspect</th><td>Written approval of the agreed sample and specification revision.</td><td>Inspection criteria, acceptable variation and any open changes before production is released.</td></tr>
+            <tr><th scope="row">Pack and deliver</th><td>Delivery address, consignee details and agreed shipping terms.</td><td>Carton labels, packing arrangement, final carton count, dimensions and weight for freight confirmation.</td></tr>
+          </tbody></table>
+        </div>
+        <div className="home-brief-checklist"><h3>What can trigger another sample?</h3><ul>
+          <li>A different bottle, cap or label can change the insert fit even when the stated product volume stays the same.</li>
+          <li>A board or paper substitution can change folding, wrapped corners or the clearance between lid and base.</li>
+          <li>A new finish or artwork position may need a decorated sample before it can be approved.</li>
+        </ul></div>
+        <p>If something changes after approval, identify the affected drawing, material or artwork revision and reconfirm cost and timing before proceeding. Keep one current approval record rather than combining instructions from several email versions.</p>
+        <p>For the acceptance details, review our <a className="ed-text-link" href="/quality-control">packaging quality-control stages</a>. Freight and production timing remain tied to the confirmed specification; an early estimate should be revisited when the packed configuration changes.</p>
+      </section>
       <aside className="page-cta">
         <p>Planning resources</p>
         <h2>Resolve production details before the next physical sample.</h2>
