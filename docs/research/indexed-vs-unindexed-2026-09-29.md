@@ -17,7 +17,7 @@ Word counts are regex counts of text under main, including navigation/footer whe
 | /products/holiday-hamper-layers-tiered | Indexed examples, crawl Sep 22 | 681 | Self / index, follow |
 | /products/signature-perfume-lift-off | Live inspection: crawled/not indexed; Sep 12 crawl successful | 758 | Self / index, follow |
 | /products/skincare-ritual-collapsible-magnetic-rigid-box | Live inspection: crawled/not indexed; Sep 21 crawl successful | 986 | Self / index, follow |
-| /products/custom-wrapped-mooncakes-window-tuck | Crawled/not indexed examples; Sep 21 | 682 | Self / index, follow |
+| /products/custom-wrapped-mooncakes-window-tuck | Old exclusion list; subsequent individual inspection now says INDEXED | 682 | Self / index, follow |
 | /insights/molded-pulp-inserts-cosmetic-packaging | Index status not inspected | 1131 | Self / index, follow |
 | /request-a-quote?product=MTT-R0501&product_family=rigid | Representative parameter variant, not individually inspected | 418 | /request-a-quote / index, follow |
 
@@ -43,6 +43,16 @@ Information gain: decision comparison, product-specific failure risks, physical 
 
 ## Validation and submission
 
-Pending completion below. Google [recrawl guidance](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) states that requests do not guarantee inclusion; repeated requests for the same URL do not accelerate crawling. Record each actual receipt separately from indexed status.
+Results below. Google [recrawl guidance](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) states that requests do not guarantee inclusion; repeated requests for the same URL do not accelerate crawling. Record each actual receipt separately from indexed status.
 
 - Static export and complete release checks passed (554 sitemap pages). Desktop 1440px and mobile 390px preview showed no horizontal overflow; new guide and metadata present.
+
+### Completed release and individual inspections
+
+- Production release 7caac05ef3bfaebf1e3fb3becef35d1d65efae9a, workflow 36521549859 succeeded; live deployment-revision.txt matched.
+- Post-deployment advertools sample: 9/9 HTTP 200. New perfume/mooncake copy and skincare guide link verified live. IndexNow workflow notification and receipt steps succeeded; this does not establish indexing.
+- Google request accepted for signature-perfume-lift-off and skincare-ritual-collapsible-magnetic-rigid-box: both showed priority crawl queue confirmations. Their existing index records still showed crawled/not indexed.
+- Individual inspection of custom-wrapped-mooncakes-window-tuck now showed INDEXED, contradicting its delayed exclusion-list entry. This is not attributed to this release. A content-update recrawl request was then accepted for this already-indexed page.
+- Three request receipts and the mooncake indexed-status screenshot are saved in output/index-comparison-20260929/. No claim that the other two became indexed. No parameter variants submitted.
+
+This documentation-only completion update does not change the deployed site artifact.
