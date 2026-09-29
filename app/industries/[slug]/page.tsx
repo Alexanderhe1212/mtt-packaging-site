@@ -1,3 +1,4 @@
+import CosmeticsPlanning from '../../../components/CosmeticsPlanning';
 import IndustryProducts from '../../../components/IndustryProducts';
 import PackagingDetailNotes from "../../../components/PackagingDetailNotes";
 import RelatedPackagingStudies from "../../../components/RelatedPackagingStudies";
@@ -93,6 +94,7 @@ export default async function IndustryPage({
         <img src={item.image} alt={item.imageAlt} width="900" height="900" />
       </header>
       {item.slug === "perfume-fragrance-packaging" && <FragrancePlanning />}
+      {item.slug === "cosmetics-skincare-packaging" && <CosmeticsPlanning />}
       <IndustryProducts industry={item.slug} />
       <section className="industry-section">
         <div>
@@ -137,6 +139,13 @@ export default async function IndustryPage({
             </li>
           ))}
         </ol>
+      </section>
+      <section className="buyer-planning" aria-labelledby="industry-buying-guides">
+        <p className="section-kicker">Packaging buying guides</p>
+        <h2 id="industry-buying-guides">Resolve the specifications before ordering.</h2>
+        <nav className="buyer-guides" aria-label={`${item.eyebrow} buying guides`}>
+          {item.guides.map(([label, slug]) => <a key={slug} href={`/insights/${slug}`}>{label} →</a>)}
+        </nav>
       </section>
       <section className="industry-faq">
         <div>

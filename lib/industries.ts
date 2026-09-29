@@ -6,6 +6,7 @@ export type Industry = {
   image: string;
   imageAlt: string;
   products: string[];
+  guides: Array<[string, string]>;
   structures: Array<[string, string]>;
   structureImages?: string[];
   priorities: Array<[string, string]>;
@@ -16,6 +17,7 @@ export type Industry = {
 export const industries: Industry[] = [
   {
     structureImages: ["/design/industry-structures/perfume-shoulder.webp", "/design/rigid-structures/magnetic.webp", "/products/mtt-r0101-0.webp", "/products/mtt-r0102-0.webp"],
+    guides: [["Perfume discovery set spacing and presentation", "perfume-discovery-set-packaging"], ["Coordinate perfume boxes and paper bags", "perfume-box-and-bag-packaging"], ["Approve foil across boxes and bags", "match-gold-foil-perfume-box-paper-bag"]],
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
     image: "/design/fragrance-premium.webp", imageAlt: "Concept: ivory fragrance box with deep blue insert for a bottle and three travel sprays",
     title: 'Custom perfume boxes that protect the bottle and stage the reveal.',
@@ -28,6 +30,7 @@ export const industries: Industry[] = [
   },
   {
     structureImages: ["/products/mtt-r0103-0.webp", "/products/mtt-c0104-0.webp", "/products/mtt-r0112-0.webp", "/products/mtt-r0106-0.webp"],
+    guides: [["Plan one box for multiple cosmetic SKUs", "shared-box-multiple-cosmetic-skus"], ["Choose molded pulp inserts for cosmetics", "molded-pulp-inserts-cosmetic-packaging"], ["Approve a physical packaging sample", "custom-packaging-sampling-process"]],
     slug: 'cosmetics-skincare-packaging', eyebrow: 'Cosmetics & skincare',
     image: "/design/cosmetics-editorial.webp", imageAlt: "Concept: dusty rose skincare presentation box with ivory insert and matching cartons",
     title: 'Premium cosmetics packaging built for delicate finishes and mixed formats.',
@@ -40,6 +43,7 @@ export const industries: Industry[] = [
   },
   {
     structureImages: ["/products/mtt-r0413-0.webp", "/products/mtt-r0402-0.webp", "/products/mtt-r0401-0.webp", "/design/industry-structures/jewelry-sleeve.webp"],
+    guides: [["Prevent necklace chain tangling", "necklace-packaging-chain-management"], ["Compare repeat-use jewelry packaging", "jewelry-packaging-repeat-use-analysis"], ["Choose inserts for product protection", "custom-inserts-product-protection"]],
     slug: 'jewelry-watch-packaging', eyebrow: 'Jewelry & watches',
     image: "/design/jewelry-editorial.webp", imageAlt: "Concept: burgundy ring and necklace boxes with ivory linings and a matching bag",
     title: 'Jewelry and watch boxes with precise presentation at a small scale.',
@@ -52,6 +56,7 @@ export const industries: Industry[] = [
   },
   {
     structureImages: ["/products/mtt-r0603-0.webp", "/products/mtt-r0602-0.webp", "/products/mtt-r0601-0.webp", "/design/rigid-structures/fold-flat.webp"],
+    guides: [["Christmas drawer gift box pack-out checks", "christmas-drawer-gift-box-packout-review"], ["Write a complete packaging brief", "how-to-write-a-packaging-brief"], ["Compare rigid box shipping volume", "reduce-shipping-costs-rigid-boxes"]],
     slug: 'gift-set-pr-kit-packaging', eyebrow: 'Gift sets & PR kits',
     image: "/design/giftset-editorial.webp", imageAlt: "Concept: terracotta gift box with fitted notebook and pen insert and a matching ivory bag",
     title: 'Presentation packaging that guides a multi-product unboxing story.',
