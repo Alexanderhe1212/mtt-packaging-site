@@ -120,6 +120,11 @@ export default function CustomRigidBoxesPage() {
         </div>
       </section>
 
+      <section className="purchase-guide">
+        <h2>Compare a single-bottle box with a mixed skincare set</h2>
+        <p>For a single fragrance bottle, the <a href="/products/signature-perfume-lift-off">perfume lift-off lid design</a> focuses on a removable cap, bottle access and the fit between lid and base. Compare these checks before choosing the exterior finish.</p>
+        <p>For a jar-and-serum set, the <a href="/products/skincare-ritual-collapsible-magnetic-rigid-box">collapsible skincare gift box</a> adds different support heights and packing-site assembly. A flat shell does not establish freight savings: compare the inserts and complete carton plan too.</p>
+      </section>
       <FamilyProductDirectory family="rigid" />
       <BuyerPlanning kind="rigid" />
       <section className="brief-list">

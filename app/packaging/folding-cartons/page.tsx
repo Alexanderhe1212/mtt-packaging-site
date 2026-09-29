@@ -88,6 +88,7 @@ export default function FoldingCartonsPage() {
           ))}
         </div>
       </section>
+      <section className="purchase-guide"><h2>When should a food gift carton have a window?</h2><p>The <a href="/products/custom-wrapped-mooncakes-window-tuck">window carton for individually wrapped mooncakes</a> shows how inner-pack alignment, sealed-edge clearance and film placement affect the sample brief. Compare a closed carton when the wrapper hides the product or a continuous printed panel is more useful.</p></section>
       <FamilyProductDirectory family="carton"/><BuyerPlanning kind="carton" />
       <section className="brief-list">
         <div><p className="section-kicker">Request a quote</p><h2>Send these details for a focused review.</h2></div>
