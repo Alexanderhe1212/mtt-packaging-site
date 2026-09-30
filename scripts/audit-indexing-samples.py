@@ -7,6 +7,7 @@ import advertools as adv
 
 parser = argparse.ArgumentParser()
 parser.add_argument("output", help="New JSONL output path (do not reuse an existing crawl)")
+parser.add_argument("--paths", nargs="+", help="Canonical site paths for another focused sample")
 args = parser.parse_args()
 output = Path(args.output)
 if output.exists():
@@ -23,6 +24,9 @@ paths = [
     "/products/custom-wrapped-mooncakes-window-tuck",
     "/request-a-quote?product=MTT-R0501&product_family=rigid",
 ]
+paths = args.paths or paths
+if any(not path.startswith("/") or path.startswith("//") for path in paths):
+    parser.error("Paths must start with one slash")
 adv.crawl(["https://mttpackaging.com" + path for path in paths], str(output),
     follow_links=False,
     custom_settings={"CONCURRENT_REQUESTS": 2, "DOWNLOAD_DELAY": 0.5, "LOG_LEVEL": "ERROR"},
