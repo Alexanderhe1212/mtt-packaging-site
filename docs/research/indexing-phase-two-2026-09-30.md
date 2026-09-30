@@ -32,3 +32,11 @@ Editorial assessment for both additions: problem 9/10, insight 17/20, usefulness
 ## Validation
 
 Static build and release checks passed (554 sitemap pages). Mobile ring page at 390px and desktop accessory page at 1440px: no horizontal overflow or broken loaded images; existing five-view galleries preserved. Production deployment and request receipts recorded separately after verification.
+
+## Production and submission outcome
+
+Deployment commit `de55ff9069df1b042b3a705c08e07db887cf804d`, GitHub Actions run `36739017113` completed successfully. Production revision matched. Post-deployment advertools crawl verified all six changed URLs return 200, self-canonical and contain the new copy/links. Workflow IndexNow notification and receipt steps succeeded.
+
+Google manual requests for both English product URLs returned: “There was a problem submitting your indexing request. Please try again later.” No accepted request receipt; these two Google requests remain outstanding. No CAPTCHA was solved, no indexing success is claimed. On the second ring URL inspection Google showed discovered/not indexed with both sitemaps, rather than the earlier unknown response; no crawl was recorded. This response variability is not proof of an update-induced change.
+
+Evidence: `output/index-phase2-20260930/after.jl`, `google-request-error.png`, `live-ring.png` (Chrome translated the page automatically; authored EN/ZH content verified separately).
