@@ -36,3 +36,22 @@ Applied claude-blog fact-check and SEO-check modules alongside the project pipel
 - Packaging Europe excludes AI-written articles; Packaging Digest excludes exclusively AI-written articles and requires contributor agreement. No generated manuscript sent as human-authored to either.
 - Sustainable Packaging News official 2026 media pack lists content@spnews.com for editorial submissions. Offer only free editorial consideration; no advertising purchase or commitment. Publication and link attributes remain editor-controlled.
 - A SENT receipt is not a published backlink. Record final page URL, anchor, href, rel, date and accessibility only after actual publication.
+
+### Sustainable Packaging News — publication verified 2026-09-30
+- Status: published editorial article with one MTT backlink verified in the publicly served article HTML; no login required for this check. This closes the publication-verification step for this placement.
+- Final page URL: https://spnews.com/shared-gift-box/ (HTTP 200; final response URL and canonical both match).
+- Article title: A Shared Gift Box Can Leave an Unshared Inventory Problem.
+- Publication date: 2026-09-28. The page's `article:published_time` and `time[itemprop="datePublished"]` both report `2026-09-28T13:09:24.247702`; no timezone offset is supplied, so none is inferred.
+- Verification date: 2026-09-30 (Asia/Shanghai). Method: unauthenticated HTTP GET of the public article, parsing the returned HTML and checking the actual MTT anchor, followed by an HTTP GET of its destination.
+- Actual anchor text: `shared-box configuration checklist`.
+- Actual href: `https://mttpackaging.com/insights/shared-box-multiple-cosmetic-skus` — the MTT shared-box/multiple-cosmetic-SKU guide, rather than the homepage.
+- Link attributes: `target="_blank"`; `aria-label="Link opens in new window (shared-box configuration checklist)"`; `rel` is absent in the served HTML (no explicit `nofollow`, `sponsored` or `ugc` value). This records markup only; it does not prove search-engine treatment or ranking benefit.
+- Accessibility: the article and linked MTT guide each returned HTTP 200 without login; the destination's final response URL matches the href, with no redirect observed. The anchor is present in server-returned HTML, has descriptive visible text, and its aria-label identifies the new-window behavior. This is a public-access/link check, not a full accessibility audit or proof of indexing.
+- Source HTML for the backlink:
+
+  ```html
+  <a href="https://mttpackaging.com/insights/shared-box-multiple-cosmetic-skus" target="_blank" aria-label="Link opens in new window (shared-box configuration checklist)">shared-box configuration checklist</a>
+  ```
+
+- Editorial confirmation / LinkedIn: according to the user's supplied account of Dominy Jones's 2026-09-28 confirmation, the article was published and shared on their LinkedIn page. The public article and backlink are independently verified above; the LinkedIn post URL, post contents, reach and engagement were not independently verified in this check and are not counted as an additional verified MTT backlink.
+- Performance boundary: no attributable referral traffic, enquiries, conversions, Google/Bing indexing, ranking uplift or link-equity effect has been verified. No GA4, GSC or LinkedIn analytics were read for this closeout. Published placement and live backlink are the confirmed results.
