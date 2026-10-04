@@ -47,3 +47,8 @@ Static export build passed in a clean temporary environment using the existing l
 ## Deployment workflow
 
 Local HTTPS Git push has no usable credentials. Publish through the authenticated GitHub connector. GitHub Pages now builds the committed source with Node 22, the locked dependencies, static export and the full release checks before copying dist/client to the Pages artifact. The legacy ZIP remains in the repository as a previous snapshot but is no longer the deployment input. IndexNow uses that snapshot for change comparison; its receipt is a submission result, not indexing.
+
+## Verified release receipt
+
+Production revision: 9fcd0514c32013b33126bc0c497d00baccc05b6d. GitHub Actions run 37172616479 completed successfully, including source build, all release checks and GitHub Pages deployment. The live deployment-revision.txt matches; both industry titles, H1 and canonicals verified in the browser. IndexNow returned HTTP 200 for 5 changed URLs; receipt only confirms acceptance, not indexing or ranking. Local build ZIP retained on keyword-oct4-local-package branch as a recoverable snapshot.
+
