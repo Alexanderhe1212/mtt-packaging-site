@@ -3,6 +3,7 @@ export type Industry = {
   eyebrow: string;
   title: string;
   summary: string;
+  seoTitle?: string;
   image: string;
   imageAlt: string;
   products: string[];
@@ -20,8 +21,9 @@ export const industries: Industry[] = [
     guides: [["Perfume discovery set spacing and presentation", "perfume-discovery-set-packaging"], ["Coordinate perfume boxes and paper bags", "perfume-box-and-bag-packaging"], ["Approve foil across boxes and bags", "match-gold-foil-perfume-box-paper-bag"]],
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
     image: "/design/fragrance-premium.webp", imageAlt: "Concept: ivory fragrance box with deep blue insert for a bottle and three travel sprays",
-    title: 'Custom perfume boxes that protect the bottle and stage the reveal.',
-    summary: 'Custom perfume boxes, fitted bottle inserts and matching paper bags. Plan a coordinated fragrance packaging set, from early concepts to samples and a formal quote.',
+    seoTitle: 'Custom Perfume Packaging: Boxes & Inserts | MTT Packaging',
+    title: 'Custom perfume packaging boxes, bottle inserts and discovery sets.',
+    summary: 'Compare custom perfume packaging boxes, bottle inserts and discovery set layouts. Send bottle dimensions and quantities to plan your fragrance packaging sample.',
     products: ['Eau de parfum bottles', 'Travel sprays', 'Discovery sets', 'Fragrance gift sets'],
     structures: [['Shoulder-neck rigid box', 'A controlled lift-off reveal with a visible neck that can introduce a second brand color.'], ['Book-style magnetic box', 'A presentation-led opening suited to gift sets, launches and multi-piece arrangements.'], ['Lift-off lid box', 'A refined, versatile structure for single bottles and coordinated collections.'], ['Drawer box', 'A sleeve-and-tray format that creates a deliberate reveal and works well with ribbon pulls.']],
     priorities: [['Bottle security', 'The insert should control movement without marking the bottle, cap or decoration.'], ['Opening feel', 'Lid friction, magnet strength and drawer tolerance influence perceived quality.'], ['Finish durability', 'Soft-touch, foil and dark colors need scuff risk considered before production.']],
@@ -30,11 +32,12 @@ export const industries: Industry[] = [
   },
   {
     structureImages: ["/products/mtt-r0103-0.webp", "/products/mtt-c0104-0.webp", "/products/mtt-r0112-0.webp", "/products/mtt-r0106-0.webp"],
-    guides: [["Plan one box for multiple cosmetic SKUs", "shared-box-multiple-cosmetic-skus"], ["Choose molded pulp inserts for cosmetics", "molded-pulp-inserts-cosmetic-packaging"], ["Approve a physical packaging sample", "custom-packaging-sampling-process"]],
+    guides: [["Plan one box for multiple cosmetic SKUs", "shared-box-multiple-cosmetic-skus"], ["Choose molded pulp inserts for cosmetics", "molded-pulp-inserts-cosmetic-packaging"], ["Check skincare pump bottle clearance", "cosmetic-pump-bottle-gift-box-clearance"]],
     slug: 'cosmetics-skincare-packaging', eyebrow: 'Cosmetics & skincare',
     image: "/design/cosmetics-editorial.webp", imageAlt: "Concept: dusty rose skincare presentation box with ivory insert and matching cartons",
-    title: 'Premium cosmetics packaging built for delicate finishes and mixed formats.',
-    summary: 'Custom rigid boxes, folding cartons and launch kits for jars, droppers, palettes and skincare sets—with presentation and product retention designed together.',
+    seoTitle: 'Custom Cosmetic Packaging Boxes & Inserts | MTT Packaging',
+    title: 'Custom cosmetic packaging boxes for skincare, makeup and gift sets.',
+    summary: 'Plan custom cosmetic packaging boxes, skincare gift sets and fitted inserts. Compare cartons and rigid boxes, then send product dimensions for a packaging review.',
     products: ['Serums and droppers', 'Cream jars', 'Makeup palettes', 'Skincare and PR kits'],
     structures: [['Magnetic rigid box', 'A strong option for launch kits, influencer mailers and multi-SKU presentations.'], ['Premium folding carton', 'Efficient for individual retail units while supporting foil, embossing and tactile finishes.'], ['Drawer box', 'Creates a controlled reveal for sets, palettes and accessories.'], ['Multi-level presentation kit', 'Separates products, samples and printed information into an intentional sequence.']],
     priorities: [['Mixed product heights', 'Insert levels and lid clearance should be planned from actual containers, not nominal fill volume.'], ['Surface protection', 'Glass, metallic caps and printed components need separation to reduce rubbing in transit.'], ['Range consistency', 'A shared outer format with adapted inserts can help unify several SKUs.']],

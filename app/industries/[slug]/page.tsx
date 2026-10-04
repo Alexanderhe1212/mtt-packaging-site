@@ -21,17 +21,17 @@ export async function generateMetadata({
   const item = getIndustry((await params).slug);
   if (!item) return {};
   return {
-    title: `${item.eyebrow} Packaging | MTT Packaging`,
+    title: item.seoTitle ?? `${item.eyebrow} Packaging | MTT Packaging`,
     description: item.summary,
     alternates: { canonical: `/industries/${item.slug}` },
     openGraph: {
-      title: `${item.eyebrow} Packaging | MTT Packaging`,
+      title: item.seoTitle ?? `${item.eyebrow} Packaging | MTT Packaging`,
       description: item.summary,
       url: `/industries/${item.slug}`,
       type: "website",
       images: [{ url: item.image, alt: item.imageAlt }],
     },
-    twitter: { card: "summary_large_image", title: `${item.eyebrow} Packaging | MTT Packaging`, description: item.summary, images: [item.image] },
+    twitter: { card: "summary_large_image", title: item.seoTitle ?? `${item.eyebrow} Packaging | MTT Packaging`, description: item.summary, images: [item.image] },
   };
 }
 

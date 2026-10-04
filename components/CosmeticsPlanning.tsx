@@ -1,8 +1,8 @@
 export default function CosmeticsPlanning() {
   return <section className="buyer-planning cosmetics-planning" aria-labelledby="cosmetic-set-planning">
-    <p className="section-kicker">Cosmetic gift set packaging</p>
-    <h2 id="cosmetic-set-planning">Choose the outer box and insert around your skincare assortment.</h2>
-    <p>For a serum, cream jar and pump bottle in one gift set, compare the complete containers with closures fitted. A shared outer box may work across several assortments, but each insert needs its own fit review. Confirm product access, pump clearance and the packed shipping format before approving artwork or tooling.</p>
+    <p className="section-kicker">Cosmetic packaging boxes and inserts</p>
+    <h2 id="cosmetic-set-planning">Compare cosmetic cartons, skincare gift boxes and fitted inserts.</h2>
+    <p>For custom serum boxes, cream jar cartons or a skincare gift set, start with the complete containers and closures fitted. This page covers outer paper packaging and inserts; container dimensions are inputs to the box design. A shared outer box may work across several assortments, but each insert needs its own fit review. Confirm product access, pump clearance and the packed shipping format before approving artwork or tooling.</p>
     <div className="buyer-options">
       <article><h3>One box for several cosmetic SKUs</h3><p>Compare the largest assortment first. Then check whether smaller sets leave excessive empty space or need a different support platform. A common box can simplify presentation, but extra insert versions and assembly steps still need to be quoted.</p><a href="/insights/shared-box-multiple-cosmetic-skus">Compare shared boxes and interchangeable inserts →</a></article>
       <article><h3>Molded pulp for cosmetic gift sets</h3><p>Evaluate cavity fit, edge contact and removal access on samples made with the intended material and process. Ask the supplier to review tooling and cavity geometry before committing to the design. Do not assume a paper-based insert alone makes the complete decorated box recyclable.</p><a href="/insights/molded-pulp-inserts-cosmetic-packaging">Review molded pulp insert selection →</a></article>
@@ -11,8 +11,8 @@ export default function CosmeticsPlanning() {
     <h3>Compare three packaging routes before requesting a sample.</h3>
     <div style={{overflowX:'auto'}} role="region" aria-label="Cosmetic packaging selection table" tabIndex={0}>
       <table><caption>Selection checks for a cosmetic packaging brief</caption><thead><tr><th scope="col">Route</th><th scope="col">When to consider it</th><th scope="col">Sample approval check</th></tr></thead><tbody>
-        <tr><th scope="row">Individual folding carton</th><td>One retail bottle or jar per carton.</td><td>Closure engagement, loading direction and movement inside the carton.</td></tr>
-        <tr><th scope="row">Rigid gift box with fitted insert</th><td>A coordinated assortment presented together.</td><td>Each cavity, product removal and lid clearance with every item packed.</td></tr>
+        <tr><th scope="row">Serum or cream jar folding carton</th><td>One retail bottle or jar per carton, with artwork and internal support matched to that product.</td><td>Closure engagement, loading direction and movement inside the carton.</td></tr>
+        <tr><th scope="row">Skincare gift box with fitted insert</th><td>A coordinated assortment presented together.</td><td>Each cavity, product removal and lid clearance with every item packed.</td></tr>
         <tr><th scope="row">Corrugated mailer with dividers</th><td>A set delivered through a parcel network.</td><td>Internal separation and the complete packed system against the agreed shipping conditions.</td></tr>
       </tbody></table>
     </div>
