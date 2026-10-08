@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {"articles": ["custom-packaging-inspection-checklist", "custom-packaging-sampling-process", "packaging-reorder-specification-change-control", "printing-finishing-guide"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
   {"articles": ["folding-carton-closure-selection", "custom-box-structure-guide", "packaging-materials-guide", "custom-packaging-sampling-process"], "products": ["custom-skincare-duo-auto-bottom", "custom-carton-packaging-set", "window-bakery-folding-carton"]},
   {"articles": ["corrugated-mailer-shipping-box-specification", "custom-inserts-product-protection", "rigid-box-vs-folding-carton", "reduce-shipping-costs-rigid-boxes"], "products": ["three-compartment-skincare-mailer", "custom-corrugated-packaging-set", "custom-skincare-duo-auto-bottom"]},
   {"articles": ["paper-bag-size-handles-load-check", "perfume-box-and-bag-packaging", "match-gold-foil-perfume-box-paper-bag", "packaging-material-selection"], "products": ["custom-bag-packaging-set", "custom-perfume-bottle-ribbon-bag", "custom-coffee-pouches-flat-handle-bag"]},

@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "custom-packaging-inspection-checklist",
+    "date": "2026-10-08",
+    "primaryQuery": "custom packaging inspection checklist",
+    "customerDecision": "Define sample references, defect classes, sampling inputs and evidence before releasing a packaging production lot.",
+    "searchEvidence": "Editorial product-system gap checked against 45 existing guides. No measured keyword-volume claim.",
+    "overlapReview": "Production lot acceptance is distinct from design sampling, material selection and reorder change control.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Independent claude-blog reviewer: revised rendered article 90/100, zero P0; review retained.",
+      "Original checklist and decision tables distinguish official source facts from conditional purchasing guidance.",
+      "Hypothetical 100-box arithmetic explicitly not MTT data or an AQL pass/fail example.",
+      "Existing design reference image; no fabricated customer, certification, inspection result or search volume."
+    ],
+    "sources": [
+      "https://www.iso.org/standard/2859-1",
+      "https://asq.org/quality-resources/z14-z19",
+      "https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc21.htm"
+    ],
+    "claimReview": "Public sources checked 2026-10-08. ISO edition verified; no paywalled sampling tables reproduced. ASQ counting bases and NIST purpose/limits cited. 4/100*100=4 and 5/100*100=5 checked. Checklist classifications are illustrative, not normative standard requirements.",
+    "limitations": "Editorial scores are subjective quality judgments, not search performance or engineering certification. Order-specific inspection plans require the responsible quality team."
+  }
+]

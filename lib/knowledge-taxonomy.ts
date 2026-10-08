@@ -67,6 +67,7 @@ export const knowledgeTopics = [
     "title": "Procurement and delivery",
     "description": "Prepare the brief, compare costs, approve samples and keep repeat orders consistent.",
     "slugs": [
+      "custom-packaging-inspection-checklist",
       "how-to-write-a-packaging-brief",
       "5-things-before-ordering-custom-packaging",
       "custom-packaging-cost-guide",
