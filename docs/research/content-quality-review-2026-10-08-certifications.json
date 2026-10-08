@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "fsc-certified-custom-packaging-buyers-guide",
+    "date": "2026-10-08",
+    "primaryQuery": "FSC-Certified Custom Packaging",
+    "customerDecision": "For FSC-certified custom packaging, verify the proposed supplier, the material claim and the transaction route before approving a logo. A paper sample or a factory certificate alone does not establish what your order can claim. Ask which box or bag components are covered, who will authorise the label and which sales documents will identify the supplied goods. Keep material performance checks separate from certification checks.",
+    "searchEvidence": "User-requested product-system topic; checked against 46 existing guides. No measured keyword volume claimed.",
+    "overlapReview": "Distinct supplier-evidence intent; links to existing sampling/material/inspection guidance rather than duplicating it.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Independent claude-blog review passed at 90 or above with zero P0/P1; full signed review retained in delivery folder.",
+      "15 production article/viewport checks passed: 375, 768 and 1440px; no page overflow, broken images or browser errors.",
+      "One unique supplier qualification decision per guide, comparison table and explicitly illustrative packaging scenario."
+    ],
+    "sources": [
+      "https://us.fsc.org/what-is-fsc/what-do-the-fsc-labels-mean",
+      "https://search.fsc.org/en/",
+      "https://fsc.org/en/businesses/fsc-certifications-and-licences/chain-of-custody",
+      "https://us.fsc.org/promotional-use"
+    ],
+    "claimReview": "Primary-source facts checked 2026-10-08; partner credentials not attributed to MTT. GMI example explicitly historical, no current programme scoring or certification claim. No fabricated outcomes, certificate numbers, audit scores or universal colour tolerances.",
+    "limitations": "Editorial assessment is subjective, not search performance. Partner certificate IDs and exact scopes were not supplied; each order requires current verification."
+  },
+  {
+    "slug": "gmi-printing-certification-packaging-colour-control",
+    "date": "2026-10-08",
+    "primaryQuery": "GMI Printing Certification",
+    "customerDecision": "If your packaging brief requires GMI, confirm the exact printer and the customer programme before approving production. Then define the physical colour reference, substrate, finish and measurement conditions for the job. A facility credential cannot replace an agreed artwork and colour approval. For a coordinated box-and-bag range, approve each material separately and compare the finished components together.",
+    "searchEvidence": "User-requested product-system topic; checked against 46 existing guides. No measured keyword volume claimed.",
+    "overlapReview": "Distinct supplier-evidence intent; links to existing sampling/material/inspection guidance rather than duplicating it.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Independent claude-blog review passed at 90 or above with zero P0/P1; full signed review retained in delivery folder.",
+      "15 production article/viewport checks passed: 375, 768 and 1440px; no page overflow, broken images or browser errors.",
+      "One unique supplier qualification decision per guide, comparison table and explicitly illustrative packaging scenario."
+    ],
+    "sources": [
+      "https://mm.group/wp-content/uploads/GMI_Cert_1-1.pdf",
+      "https://www.xrite.com/-/media/xrite/files/whitepaper_pdfs/l10-616-tolerancing-whitepaper/l10-616-tolerancing-white-paper-en.pdf"
+    ],
+    "claimReview": "Primary-source facts checked 2026-10-08; partner credentials not attributed to MTT. GMI example explicitly historical, no current programme scoring or certification claim. No fabricated outcomes, certificate numbers, audit scores or universal colour tolerances.",
+    "limitations": "Editorial assessment is subjective, not search performance. Partner certificate IDs and exact scopes were not supplied; each order requires current verification."
+  },
+  {
+    "slug": "iso-certification-packaging-supplier-verification",
+    "date": "2026-10-08",
+    "primaryQuery": "ISO Certification for Packaging Suppliers",
+    "customerDecision": "An ISO logo does not tell you which standard, production site or activity has been certified. Request the actual certificate, verify its current status and compare its scope with your packaging order. If the requirement is a quality management system, identify the applicable standard and edition explicitly. Keep product testing, sample approval and shipment inspection as separate requirements.",
+    "searchEvidence": "User-requested product-system topic; checked against 46 existing guides. No measured keyword volume claimed.",
+    "overlapReview": "Distinct supplier-evidence intent; links to existing sampling/material/inspection guidance rather than duplicating it.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Independent claude-blog review passed at 90 or above with zero P0/P1; full signed review retained in delivery folder.",
+      "15 production article/viewport checks passed: 375, 768 and 1440px; no page overflow, broken images or browser errors.",
+      "One unique supplier qualification decision per guide, comparison table and explicitly illustrative packaging scenario."
+    ],
+    "sources": [
+      "https://www.iso.org/certification.html",
+      "https://www.iso.org/iso/definitive_expected_outcomes_iso9001.pdf"
+    ],
+    "claimReview": "Primary-source facts checked 2026-10-08; partner credentials not attributed to MTT. GMI example explicitly historical, no current programme scoring or certification claim. No fabricated outcomes, certificate numbers, audit scores or universal colour tolerances.",
+    "limitations": "Editorial assessment is subjective, not search performance. Partner certificate IDs and exact scopes were not supplied; each order requires current verification."
+  },
+  {
+    "slug": "ce-marking-custom-packaging-artwork-guide",
+    "date": "2026-10-08",
+    "primaryQuery": "Does Custom Packaging Need CE Marking? An Artwork Approval Guide",
+    "customerDecision": "An ordinary empty paper box or shopping bag does not need CE marking merely because it is packaging. CE applies to products covered by specific EU legislation. When a mark is required on the packaged product, whether it also appears on packaging depends on the applicable rules. Obtain product-specific instructions from the responsible manufacturer before printing, and keep those instructions linked to the correct SKU and artwork revision.",
+    "searchEvidence": "User-requested product-system topic; checked against 46 existing guides. No measured keyword volume claimed.",
+    "overlapReview": "Distinct supplier-evidence intent; links to existing sampling/material/inspection guidance rather than duplicating it.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Independent claude-blog review passed at 90 or above with zero P0/P1; full signed review retained in delivery folder.",
+      "15 production article/viewport checks passed: 375, 768 and 1440px; no page overflow, broken images or browser errors.",
+      "One unique supplier qualification decision per guide, comparison table and explicitly illustrative packaging scenario."
+    ],
+    "sources": [
+      "https://europa.eu/youreurope/business/product-rules-compliance/general-product-compliance/ce-marking/index_en.htm",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022XC0629(04)"
+    ],
+    "claimReview": "Primary-source facts checked 2026-10-08; partner credentials not attributed to MTT. GMI example explicitly historical, no current programme scoring or certification claim. No fabricated outcomes, certificate numbers, audit scores or universal colour tolerances.",
+    "limitations": "Editorial assessment is subjective, not search performance. Partner certificate IDs and exact scopes were not supplied; each order requires current verification."
+  },
+  {
+    "slug": "sedex-smeta-packaging-supplier-audit-guide",
+    "date": "2026-10-08",
+    "primaryQuery": "Sedex and SMETA for Packaging Suppliers",
+    "customerDecision": "Sedex membership and a SMETA audit are different forms of evidence. Membership alone does not establish that a packaging factory has completed an audit, and SMETA is not a product certification or a pass/fail guarantee. Review the actual site, audit date, scope, findings and corrective actions against your sourcing policy. Confirm that the proposed production and any subcontracted work match the evidence you reviewed.",
+    "searchEvidence": "User-requested product-system topic; checked against 46 existing guides. No measured keyword volume claimed.",
+    "overlapReview": "Distinct supplier-evidence intent; links to existing sampling/material/inspection guidance rather than duplicating it.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Independent claude-blog review passed at 90 or above with zero P0/P1; full signed review retained in delivery folder.",
+      "15 production article/viewport checks passed: 375, 768 and 1440px; no page overflow, broken images or browser errors.",
+      "One unique supplier qualification decision per guide, comparison table and explicitly illustrative packaging scenario."
+    ],
+    "sources": [
+      "https://www.sedex.com/solutions/smeta-audit/",
+      "https://info.sedex.com/hubfs/Reports/The%20Complete%20SMETA%20Audit%20Guide.pdf?hsLang=en"
+    ],
+    "claimReview": "Primary-source facts checked 2026-10-08; partner credentials not attributed to MTT. GMI example explicitly historical, no current programme scoring or certification claim. No fabricated outcomes, certificate numbers, audit scores or universal colour tolerances.",
+    "limitations": "Editorial assessment is subjective, not search performance. Partner certificate IDs and exact scopes were not supplied; each order requires current verification."
+  }
+]

@@ -3,6 +3,12 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {"articles": ["fsc-certified-custom-packaging-buyers-guide", "packaging-material-selection", "recycled-vs-recyclable-packaging-boxes", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+  {"articles": ["gmi-printing-certification-packaging-colour-control", "printing-finishing-guide", "match-gold-foil-perfume-box-paper-bag", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+  {"articles": ["iso-certification-packaging-supplier-verification", "custom-packaging-inspection-checklist", "packaging-reorder-specification-change-control", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+  {"articles": ["ce-marking-custom-packaging-artwork-guide", "ppwr-packaging-requirements", "shared-box-multiple-cosmetic-skus", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+  {"articles": ["sedex-smeta-packaging-supplier-audit-guide", "how-to-write-a-packaging-brief", "custom-packaging-inspection-checklist", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+
   {"articles": ["custom-packaging-inspection-checklist", "custom-packaging-sampling-process", "packaging-reorder-specification-change-control", "printing-finishing-guide"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
   {"articles": ["folding-carton-closure-selection", "custom-box-structure-guide", "packaging-materials-guide", "custom-packaging-sampling-process"], "products": ["custom-skincare-duo-auto-bottom", "custom-carton-packaging-set", "window-bakery-folding-carton"]},
   {"articles": ["corrugated-mailer-shipping-box-specification", "custom-inserts-product-protection", "rigid-box-vs-folding-carton", "reduce-shipping-costs-rigid-boxes"], "products": ["three-compartment-skincare-mailer", "custom-corrugated-packaging-set", "custom-skincare-duo-auto-bottom"]},

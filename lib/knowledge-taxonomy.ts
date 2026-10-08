@@ -59,7 +59,9 @@ export const knowledgeTopics = [
       "recycled-vs-recyclable-packaging-boxes",
       "plastic-lamination-free-packaging-boxes",
       "sustainable-luxury-packaging-boxes-approval",
-      "ppwr-packaging-requirements"
+      "ppwr-packaging-requirements",
+      "fsc-certified-custom-packaging-buyers-guide",
+      "gmi-printing-certification-packaging-colour-control"
     ]
   },
   {
@@ -77,7 +79,10 @@ export const knowledgeTopics = [
       "reduce-shipping-costs-rigid-boxes",
       "custom-packaging-storage-scheduled-delivery",
       "packaging-design-to-production-china",
-      "packaging-reorder-specification-change-control"
+      "packaging-reorder-specification-change-control",
+      "iso-certification-packaging-supplier-verification",
+      "ce-marking-custom-packaging-artwork-guide",
+      "sedex-smeta-packaging-supplier-audit-guide"
     ]
   }
 ];

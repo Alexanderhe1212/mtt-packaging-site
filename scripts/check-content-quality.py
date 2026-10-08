@@ -30,6 +30,8 @@ reviews+=json.loads(Path('docs/research/content-quality-review-2026-09-28.json')
 inspection=json.loads(Path('lib/packaging-inspection-article.json').read_text())
 updates[inspection['slug']]=inspection
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-08.json').read_text())
+for a in json.loads(Path('lib/certification-guides-october-08.json').read_text()):updates[a['slug']]=a
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-08-certifications.json').read_text())
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)
