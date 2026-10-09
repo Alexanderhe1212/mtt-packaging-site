@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import VisualCaseLink from "../components/VisualCaseLink";
 import QuoteForm from '../components/QuoteForm';
+import HomeImageMotion from '../components/HomeImageMotion';
 import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
 import { SiteNav, SiteFooter } from '../components/SiteNav';
@@ -56,6 +57,7 @@ export default function Home() {
   return <main className="hp home-v4" id="main-content">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
 
+    <HomeImageMotion />
     <SiteNav />
     <section className="ed-hero" id="top">
       <div className="ed-hero-copy">
@@ -64,7 +66,7 @@ export default function Home() {
         <p className="ed-lead">Premium gift boxes, fitted inserts and matching paper bags. Develop your complete packaging set with MTT.</p>
         <div className="ed-actions"><a className="button" href="/products">Explore Box Designs <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/request-a-quote">Request a Quote</a></div>
       </div>
-      <img className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" />
+      <img data-home-image="hero" className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" />
     </section>
     <div className="ed-ribbon"><span>Structure</span><span>Materials</span><span>Sampling</span><span>Production</span></div>
     <section className="ed-collection">
@@ -75,7 +77,7 @@ export default function Home() {
           ['Folding Cartons','/design/home-v4/carton.webp','folding-cartons','Lightweight paperboard structures with vivid print, coatings and efficient pack-out.','Lilac and lime skincare folding cartons with thin paperboard tuck flaps and printed surfaces'],
           ['Corrugated Boxes','/products/mtt-e0101-0.webp','corrugated-boxes','Custom kraft mailers with fitted paper inserts, printed branding and matching gift cards.','Open kraft corrugated gift mailer with a fitted insert holding a ceramic mug, tea jar, wrapped cookie and small carton, beside a matching card'],
           ['Paper Bags','/design/home-v4/bag.webp','custom-paper-bags','Coordinated retail bags with reinforced tops, custom handles, tissue and gift accessories.','Red and blush paper shopping bags with woven handles, side gussets, tissue, a gift box and card'],
-        ].map(([title,img,slug,desc,alt])=><a className="ed-product" href={'/packaging/'+slug} key={slug}><img src={img} alt={alt} srcSet={slug==='corrugated-boxes'?`${img} 500w`:`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 45vw, 23vw" width={slug==='corrugated-boxes'?500:1200} height={slug==='corrugated-boxes'?500:900} style={{objectFit:'cover'}} loading="lazy"/><h3>{title}</h3><p>{desc}</p><span className="ed-text-link">Explore {title} <span aria-hidden="true">→</span></span></a>)}
+        ].map(([title,img,slug,desc,alt])=><a className="ed-product" href={'/packaging/'+slug} key={slug}><span className="home-image-frame"><img data-home-image="collection" src={img} alt={alt} srcSet={slug==='corrugated-boxes'?`${img} 500w`:`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 45vw, 23vw" width={slug==='corrugated-boxes'?500:1200} height={slug==='corrugated-boxes'?500:900} style={{objectFit:'cover'}} loading="lazy"/></span><h3>{title}</h3><p>{desc}</p><span className="ed-text-link">Explore {title} <span aria-hidden="true">→</span></span></a>)}
       </div>
     </section>
     <section className="home-buying-guide" aria-labelledby="packaging-comparison-title">
@@ -112,7 +114,7 @@ export default function Home() {
           return (
           <a href={`/industries/${item.slug}`} className="hp-industry-row hp-reveal" key={item.slug}>
             <div className="hp-industry-img">
-              <img src={homeImage.src} alt={homeImage.alt} srcSet={`${homeImage.src.replace('.webp', '-480.webp')} 480w, ${homeImage.src} 1200w`} sizes="(max-width: 900px) calc(100vw - 48px), 50vw" width="1200" height="900" loading="lazy" />
+              <img data-home-image="industry" src={homeImage.src} alt={homeImage.alt} srcSet={`${homeImage.src.replace('.webp', '-480.webp')} 480w, ${homeImage.src} 1200w`} sizes="(max-width: 900px) calc(100vw - 48px), 50vw" width="1200" height="900" loading="lazy" />
             </div>
             <div className="hp-industry-text">
               <span className="hp-industry-num">0{i + 1}</span>
@@ -140,7 +142,7 @@ export default function Home() {
           ['lamination','Matte & gloss lamination','Compare two surface reflections','Matching printed boxes showing matte and gloss surface finishes'],
           ['paper','Specialty paper','Explore tactile wrapping textures','Fanned paper swatches showing varied textured wrapping papers'],
         ].map(([id,title,description,alt])=><figure key={id}>
-          <img src={`/design/craft-gallery/${id}.webp`} srcSet={`/design/craft-gallery/${id}-480.webp 480w, /design/craft-gallery/${id}.webp 800w`} sizes="(max-width:600px) calc((100vw - 62px)/2), (max-width:1000px) calc((100vw - 72px)/2), 30vw" width="800" height="600" loading="lazy" alt={alt}/>
+          <div className="home-image-frame"><img data-home-image="finish" src={`/design/craft-gallery/${id}.webp`} srcSet={`/design/craft-gallery/${id}-480.webp 480w, /design/craft-gallery/${id}.webp 800w`} sizes="(max-width:600px) calc((100vw - 62px)/2), (max-width:1000px) calc((100vw - 72px)/2), 30vw" width="800" height="600" loading="lazy" alt={alt}/></div>
           <figcaption><h3>{title}</h3><p>{description}</p></figcaption>
         </figure>)}
       </div>
@@ -178,7 +180,7 @@ export default function Home() {
       <div className="hp-selected-grid">
         {[['Magnetic presentation box', '/design/home-v4/magnetic.webp', 'Yellow hinged rigid perfume box with a full-width magnetic closure flap and navy fitted insert'], ['Drawer presentation box', '/design/home-v4/drawer.webp', 'Teal rigid sleeve with a terracotta drawer pulled straight out to reveal three tea tins and dividers'], ['Custom fitted interior', '/design/home-v4/insert.webp', 'Peach rigid skincare box with a fibrous fitted insert holding a serum bottle, cream jar and tube']].map(([title, img, alt], i) => (
           <figure className="hp-selected-fig hp-reveal" key={title as string} style={{ transitionDelay: `${i * 100}ms` }}>
-            <img src={img as string} alt={alt} srcSet={`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 650px) calc(100vw - 48px), 32vw" width="1200" height="900" loading="lazy" />
+            <div className="home-image-frame"><img data-home-image="detail" src={img as string} alt={alt} srcSet={`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 650px) calc(100vw - 48px), 32vw" width="1200" height="900" loading="lazy" /></div>
             <figcaption><span>0{i + 1}</span><b>{title}</b></figcaption><VisualCaseLink image={img}/>
           </figure>
         ))}

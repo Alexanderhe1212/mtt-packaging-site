@@ -225,3 +225,26 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 @media(max-width:900px){.article-page>nav.article-breadcrumb{padding:24px 24px 0}}
 .article-body .article-table-hint{font-size:13px;margin:18px 0 8px;color:#526255}.article-body .article-table-hint+.article-table-scroll{margin-top:8px}
 .article-body .article-numbered-section>div>p+p{margin-top:18px}
+
+/* Homepage photographs: one quiet entrance, then a small detail zoom on hover.
+   No hidden initial state, layout animation, scroll listener or extra media. */
+.home-v4 .home-image-frame{display:block;overflow:hidden}
+.home-v4 [data-home-image]{transform-origin:center;transition:transform 700ms cubic-bezier(.2,.65,.25,1)}
+.home-v4 .home-image-enter{animation:home-image-arrive 900ms cubic-bezier(.2,.65,.25,1) backwards}
+.home-v4 .ed-hero-image.home-image-enter{animation:home-hero-arrive 1500ms cubic-bezier(.16,1,.3,1) backwards}
+@keyframes home-image-arrive{from{opacity:.65;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+@keyframes home-hero-arrive{from{transform:translateY(12px) scale(.97)}to{transform:none}}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+  .home-v4 .ed-product:hover [data-home-image],
+  .home-v4 .hp-industry-row:hover [data-home-image],
+  .home-v4 .hp-finish-grid figure:hover [data-home-image],
+  .home-v4 .hp-selected-fig:hover [data-home-image]{transform:scale(1.025);filter:none}
+}
+@media(max-width:850px){
+  .home-v4 .home-image-enter{animation-duration:650ms}
+  .home-v4 .ed-hero-image.home-image-enter{animation-duration:1000ms}
+}
+@media(prefers-reduced-motion:reduce){
+  .home-v4 [data-home-image],.home-v4 .hp-selected-fig:hover img{animation:none!important;transition:none!important;transform:none!important;opacity:1!important}
+}
+@media print{.home-v4 [data-home-image]{animation:none!important;transform:none!important;opacity:1!important}}
