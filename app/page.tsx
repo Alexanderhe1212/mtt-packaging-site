@@ -66,7 +66,7 @@ export default function Home() {
         <p className="ed-lead">Premium gift boxes, fitted inserts and matching paper bags. Develop your complete packaging set with MTT.</p>
         <div className="ed-actions"><a className="button" href="/products">Explore Box Designs <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/request-a-quote">Request a Quote</a></div>
       </div>
-      <img data-home-image="hero" className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" />
+      <div className="home-hero-scene"><div className="home-hero-plane"><img data-home-image="hero" className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" /></div></div>
     </section>
     <div className="ed-ribbon"><span>Structure</span><span>Materials</span><span>Sampling</span><span>Production</span></div>
     <section className="ed-collection">

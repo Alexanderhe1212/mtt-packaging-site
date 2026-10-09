@@ -226,25 +226,22 @@ body.mtt-editorial{background:var(--cream);color:var(--ink);font-family:Arial,He
 .article-body .article-table-hint{font-size:13px;margin:18px 0 8px;color:#526255}.article-body .article-table-hint+.article-table-scroll{margin-top:8px}
 .article-body .article-numbered-section>div>p+p{margin-top:18px}
 
-/* Homepage photographs: one quiet entrance, then a small detail zoom on hover.
-   No hidden initial state, layout animation, scroll listener or extra media. */
-.home-v4 .home-image-frame{display:block;overflow:hidden}
-.home-v4 [data-home-image]{transform-origin:center;transition:transform 700ms cubic-bezier(.2,.65,.25,1)}
-.home-v4 .home-image-enter{animation:home-image-arrive 900ms cubic-bezier(.2,.65,.25,1) backwards}
-.home-v4 .ed-hero-image.home-image-enter{animation:home-hero-arrive 1500ms cubic-bezier(.16,1,.3,1) backwards}
-@keyframes home-image-arrive{from{opacity:.65;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
-@keyframes home-hero-arrive{from{transform:translateY(12px) scale(.97)}to{transform:none}}
+/* Motion-powered image choreography. Static content remains the default. */
+.home-v4 .home-hero-scene{min-width:0;align-self:center;overflow:hidden;aspect-ratio:4/3;isolation:isolate}
+.home-v4 .home-hero-plane{width:100%;height:100%;transform-origin:center;transition:transform 650ms cubic-bezier(.16,1,.3,1)}
+.home-v4 .home-hero-plane .ed-hero-image{width:100%;height:100%;display:block}
+.home-v4 .home-image-frame{display:block;overflow:hidden;transform-origin:center;transition:transform 650ms cubic-bezier(.16,1,.3,1),box-shadow 650ms ease}
+.home-v4 [data-home-image]{transform-origin:center;transition:none}
+.home-v4 .hp-industry-img{overflow:hidden}
+.home-v4 .hp-selected-fig:hover img,.home-v4 .hp-industry-row:hover img{transform:none;filter:none}
 @media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
-  .home-v4 .ed-product:hover [data-home-image],
-  .home-v4 .hp-industry-row:hover [data-home-image],
-  .home-v4 .hp-finish-grid figure:hover [data-home-image],
-  .home-v4 .hp-selected-fig:hover [data-home-image]{transform:scale(1.025);filter:none}
-}
-@media(max-width:850px){
-  .home-v4 .home-image-enter{animation-duration:650ms}
-  .home-v4 .ed-hero-image.home-image-enter{animation-duration:1000ms}
+  .home-v4[data-home-motion] .ed-product:hover .home-image-frame,
+  .home-v4[data-home-motion] .hp-finish-grid figure:hover .home-image-frame{box-shadow:0 18px 35px -22px #193f3655}
+  .home-v4 .ed-product:focus-visible{outline:2px solid #245a46;outline-offset:8px}
 }
 @media(prefers-reduced-motion:reduce){
-  .home-v4 [data-home-image],.home-v4 .hp-selected-fig:hover img{animation:none!important;transition:none!important;transform:none!important;opacity:1!important}
+  .home-v4 [data-home-image],.home-v4 .home-image-frame,.home-v4 .home-hero-scene,.home-v4 .home-hero-plane,.home-v4 .ed-hero-copy>*{animation:none!important;transition:none!important;transform:none!important;clip-path:none!important;opacity:1!important}
 }
-@media print{.home-v4 [data-home-image]{animation:none!important;transform:none!important;opacity:1!important}}
+@media print{
+  .home-v4 [data-home-image],.home-v4 .home-image-frame,.home-v4 .home-hero-scene,.home-v4 .home-hero-plane,.home-v4 .ed-hero-copy>*{transform:none!important;clip-path:none!important;opacity:1!important}
+}
