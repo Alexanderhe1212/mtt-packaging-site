@@ -1,4 +1,5 @@
 // Derived display thumbnails only: originals and packaging artwork are unchanged.
+// Read buffers first so cloud-backed local files are hydrated before native decoding.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -10,7 +11,7 @@ for(const p of products) for(let view=0;view<(p.structure==='fold-flat'?6:5);vie
  const target='public/products/thumbs/'+path.basename(source);
  const input=await fs.stat(source);
  const output=await fs.stat(target).catch(()=>null);
- if(!output||input.mtimeMs>output.mtimeMs) await sharp(source).resize({width:160,height:160,fit:'inside',withoutEnlargement:true}).webp({quality:82}).toFile(target);
+ if(!output||input.mtimeMs>output.mtimeMs) await sharp(await fs.readFile(source)).resize({width:160,height:160,fit:'inside',withoutEnlargement:true}).webp({quality:82}).toFile(target);
  count++;
 }
 console.log(`${count} product thumbnails prepared; full-size originals preserved.`);
@@ -20,6 +21,6 @@ for(const p of products){
  const source='public'+p.image.replace('.webp','-0.webp');
  const target='public/products/cards/'+path.basename(source);
  const input=await fs.stat(source),output=await fs.stat(target).catch(()=>null);
- if(!output||input.mtimeMs>output.mtimeMs||(await sharp(target).metadata()).width!==320)await sharp(source).resize({width:320,height:320,fit:'inside',withoutEnlargement:true}).webp({quality:85}).toFile(target);
+ if(!output||input.mtimeMs>output.mtimeMs||(await sharp(await fs.readFile(target)).metadata()).width!==320)await sharp(await fs.readFile(source)).resize({width:320,height:320,fit:'inside',withoutEnlargement:true}).webp({quality:85}).toFile(target);
 }
 console.log(`${products.length} responsive catalogue images prepared.`);

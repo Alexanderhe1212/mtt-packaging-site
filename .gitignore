@@ -43,3 +43,11 @@ qa/lighthouse-report/
 /docs/catalog/qa/
 
 /public/products/thumbs/
+
+.studio-build/
+
+node_modules.pre-studio/
+
+# Public studio artifacts are generated from tools/packaging-studio during builds.
+/public/tools/gift-box-solution-builder/app.html
+/public/tools/gift-box-solution-builder/LICENSES.txt

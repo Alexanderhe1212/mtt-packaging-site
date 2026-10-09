@@ -3,6 +3,8 @@
 import { useState, useCallback, type FormEvent } from 'react';
 import {
   calculate,
+  toMm,
+  fromMm,
   validateInput,
   fmt,
   buildHandoff,
@@ -45,6 +47,7 @@ const EMPTY_FIELDS = {
 export default function BoxSizeCalculator() {
   const [fields, setFields] = useState(EMPTY_FIELDS);
   const [unit, setUnit] = useState<Unit>('mm');
+  const [customDefaults, setCustomDefaults] = useState({clearance:false,boardThickness:false});
   const [result, setResult] = useState<CalcResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [warnings, setWarnings] = useState<CalcWarning[]>([]);
@@ -71,7 +74,12 @@ export default function BoxSizeCalculator() {
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
   ) => {
     setFields((f) => ({ ...f, [key]: e.target.value }));
+    if (key === "clearance" || key === "boardThickness") setCustomDefaults(v => ({...v,[key]:true}));
     setError(null);
+    setResult(null);
+    setWarnings([]);
+    setCopied(false);
+    if (key === "quantity") setSheetResult(null);
   };
 
   const num = (v: string) => {
@@ -89,14 +97,36 @@ export default function BoxSizeCalculator() {
           ...f,
           packagingType: val,
           // Only set defaults if the user hasn't already customized
-          clearance: f.clearance === '3' || f.clearance === '2' || f.clearance === '' ? defaults.clearance : f.clearance,
-          boardThickness: f.boardThickness === '2' || f.boardThickness === '0.5' || f.boardThickness === '3' || f.boardThickness === '' ? defaults.boardThickness : f.boardThickness,
+          clearance: !customDefaults.clearance ? String(Number(fromMm(Number(defaults.clearance),unit).toFixed(6))) : f.clearance,
+          boardThickness: !customDefaults.boardThickness ? String(Number(fromMm(Number(defaults.boardThickness),unit).toFixed(6))) : f.boardThickness,
         };
       });
       setError(null);
+      setResult(null);
+      setWarnings([]);
     },
-    [],
+    [unit, customDefaults],
   );
+
+  const changeUnit = (next: Unit) => {
+    if (next === unit) return;
+    setFields(f => ({...f, ...Object.fromEntries(['length', 'width', 'height', 'clearance', 'boardThickness'].map(k => {
+      const value = f[k as keyof typeof f];
+      return [k, value !== '' && Number.isFinite(Number(value)) ? String(Number(fromMm(toMm(Number(value), unit), next).toFixed(6))) : value];
+    }))}));
+    const convert = (value: string) => value !== '' && Number.isFinite(Number(value)) ? String(Number(fromMm(toMm(Number(value), unit), next).toFixed(6))) : value;
+    setSheetW(convert); setSheetH(convert); setDieW(convert); setDieH(convert);
+    setUnit(next); setResult(null); setSheetResult(null); setWarnings([]); setCopied(false);
+  };
+  const handleDesignerCta = () => {
+    if (!result) return;
+    try {
+      sessionStorage.setItem('mtt_studio_handoff_v1', JSON.stringify({...buildHandoffData(),productLength:fields.length,productWidth:fields.width,productHeight:fields.height,internalL:String(result.internal.l),internalW:String(result.internal.w),internalH:String(result.internal.h)}));
+      window.location.href = '/tools/gift-box-solution-builder?source=calculator';
+    } catch {
+      setError('Your browser could not transfer this plan. Copy the dimensions, then open Design Your Box from Tools.');
+    }
+  };
 
   const handleCalc = useCallback(
     (e: FormEvent) => {
@@ -126,6 +156,7 @@ export default function BoxSizeCalculator() {
 
   const handleReset = useCallback(() => {
     setFields(EMPTY_FIELDS);
+    setCustomDefaults({clearance:false,boardThickness:false});
     setUnit('mm');
     setResult(null);
     setError(null);
@@ -404,7 +435,7 @@ export default function BoxSizeCalculator() {
                     name="unit"
                     value={u.value}
                     checked={unit === u.value}
-                    onChange={() => setUnit(u.value)}
+                    onChange={() => changeUnit(u.value)}
                   />
                   <strong>{u.label}</strong>
                   <small>{u.hint}</small>
@@ -551,12 +582,12 @@ export default function BoxSizeCalculator() {
                       <span>Parent Sheet W × H ({unit === 'inch' ? 'in' : unit})</span>
                       <div className="calc-v2-dims compact">
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={sheetW} onChange={(e) => setSheetW(e.target.value)}
+                          value={sheetW} onChange={(e) => {setSheetW(e.target.value); setSheetResult(null);}}
                           placeholder={unit === 'mm' ? '720' : unit === 'cm' ? '72' : '28.35'}
                           className="calc-v2-input" />
                         <span className="calc-v2-dim-sep">×</span>
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={sheetH} onChange={(e) => setSheetH(e.target.value)}
+                          value={sheetH} onChange={(e) => {setSheetH(e.target.value); setSheetResult(null);}}
                           placeholder={unit === 'mm' ? '1020' : unit === 'cm' ? '102' : '40.16'}
                           className="calc-v2-input" />
                       </div>
@@ -565,12 +596,12 @@ export default function BoxSizeCalculator() {
                       <span>Dieline W × H ({unit === 'inch' ? 'in' : unit})</span>
                       <div className="calc-v2-dims compact">
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={dieW} onChange={(e) => setDieW(e.target.value)}
+                          value={dieW} onChange={(e) => {setDieW(e.target.value); setSheetResult(null);}}
                           placeholder={unit === 'mm' ? '280' : unit === 'cm' ? '28' : '11.02'}
                           className="calc-v2-input" />
                         <span className="calc-v2-dim-sep">×</span>
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={dieH} onChange={(e) => setDieH(e.target.value)}
+                          value={dieH} onChange={(e) => {setDieH(e.target.value); setSheetResult(null);}}
                           placeholder={unit === 'mm' ? '190' : unit === 'cm' ? '19' : '7.48'}
                           className="calc-v2-input" />
                       </div>
@@ -629,22 +660,22 @@ export default function BoxSizeCalculator() {
                       <span>Master Carton L × W × H</span>
                       <div className="calc-v2-dims compact">
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={cartonL} onChange={(e) => setCartonL(e.target.value)}
+                          value={cartonL} onChange={(e) => {setCartonL(e.target.value); setCbmResult(null);}}
                           placeholder="60" className="calc-v2-input" />
                         <span className="calc-v2-dim-sep">×</span>
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={cartonW} onChange={(e) => setCartonW(e.target.value)}
+                          value={cartonW} onChange={(e) => {setCartonW(e.target.value); setCbmResult(null);}}
                           placeholder="40" className="calc-v2-input" />
                         <span className="calc-v2-dim-sep">×</span>
                         <input type="number" inputMode="decimal" step="any" min="0.01"
-                          value={cartonH} onChange={(e) => setCartonH(e.target.value)}
+                          value={cartonH} onChange={(e) => {setCartonH(e.target.value); setCbmResult(null);}}
                           placeholder="30" className="calc-v2-input" />
                       </div>
                     </label>
                     <div className="calc-v2-grid-2" style={{ gap: '12px' }}>
                       <label className="calc-v2-label">
                         <span>Unit</span>
-                        <select value={cartonUnit} onChange={(e) => setCartonUnit(e.target.value as Unit)} className="calc-v2-select">
+                        <select value={cartonUnit} onChange={(e) => {setCartonUnit(e.target.value as Unit); setCbmResult(null);}} className="calc-v2-select">
                           {UNITS.map((u) => (
                             <option key={u.value} value={u.value}>{u.label}</option>
                           ))}
@@ -653,7 +684,7 @@ export default function BoxSizeCalculator() {
                       <label className="calc-v2-label">
                         <span>Number of Cartons</span>
                         <input type="number" inputMode="numeric" step="1" min="1"
-                          value={numCartons} onChange={(e) => setNumCartons(e.target.value)}
+                          value={numCartons} onChange={(e) => {setNumCartons(e.target.value); setCbmResult(null);}}
                           placeholder="10" className="calc-v2-input" />
                       </label>
                     </div>
@@ -685,9 +716,10 @@ export default function BoxSizeCalculator() {
 
             {/* Quote CTA */}
             <div className="calc-v2-quote-cta">
-              <p className="calc-v2-quote-cta-label">Ready to Produce?</p>
-              <h3 className="calc-v2-quote-cta-title">Use This Packaging Plan for a Custom Quote</h3>
-              <p className="calc-v2-quote-cta-desc">Your calculator results will be attached automatically.</p>
+              <p className="calc-v2-quote-cta-label">Your next step</p>
+              <h3 className="calc-v2-quote-cta-title">Take These Dimensions into Your Design</h3>
+              <p className="calc-v2-quote-cta-desc">Choose a structure, add your artwork, then send Hugo one complete packaging brief.</p>
+              <button type="button" className="button calc-v2-quote-btn" onClick={handleDesignerCta}>Use these dimensions in Design Your Box →</button>
               <button type="button" className="button calc-v2-quote-btn" onClick={handleQuoteCta}>
                 Get a Custom Quote →
               </button>
