@@ -1,0 +1,61 @@
+{
+  "article_html_sha256": "e4f505cbc95042d9fbc44a05bdee5d9bf3de281d195ef50d614742053bb64208",
+  "article_source_sha256": "7e91ec90ea0e0bf7e3b553a504caa960a8e83f76155f99b0a2dd42abfaca4842",
+  "word_count_method": "English alphabetic tokens including hyphenated words; intro, authored sections, FAQs and CTA; headings/nav/cards/footer excluded",
+  "word_count": 1435,
+  "quick_answer_words": 52,
+  "prose_sentence_count": 73,
+  "prose_mean_sentence_words": 14.424657534246576,
+  "prose_sentence_length_cv": 0.445000099078866,
+  "ttr": 0.375609756097561,
+  "section_count": 7,
+  "faq_count": 3,
+  "table_count": 2,
+  "authored_figure_count": 3,
+  "main_content_h1_count": 1,
+  "internal_contextual_text_links": [
+    [
+      "folding-carton closure selection guide",
+      "/insights/folding-carton-closure-selection"
+    ],
+    [
+      "corrugated packaging specification guide",
+      "/insights/corrugated-mailer-shipping-box-specification"
+    ],
+    [
+      "custom packaging cost guide",
+      "/insights/custom-packaging-cost-guide"
+    ],
+    [
+      "packaging sample approval process",
+      "/insights/custom-packaging-sampling-process"
+    ]
+  ],
+  "schema_types": [
+    "Article",
+    "Organization",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
+  "missing_local_image_files": [],
+  "broken_jumps": [],
+  "flesch_reading_ease_prose": 40.501563806278114,
+  "flesch_kincaid_grade_prose": 11.31209749993344,
+  "math": {
+    "A_volume": 720,
+    "B_volume": 1344,
+    "A_unrounded_dim_weight": 5.179856115107913,
+    "B_unrounded_dim_weight": 9.66906474820144
+  },
+  "initial_review_html_sha256": "17526cd5e4599c1d99c7a3516e10c5cf7d4d54c59ec398d154692511868a9cf7",
+  "initial_review_source_sha256": "35487d16b5abe2f9bff9009c2484828380d9f4593983b9a49f60bbf25f158942",
+  "narrow_recheck": {
+    "date": "2026-10-09",
+    "corrugated_intrinsic_attributes": "500x500, matches source image",
+    "ISTA_3E": "Correctly narrowed to similar products in unitized full-truckload shipments",
+    "browser_evidence": "Main agent measured no page overflow at375/768px, keyboard-scrolling tables and no broken loaded images; reviewer visually inspected screenshots07\u201309. Desktop final QA not yet supplied.",
+    "page_speed": "N/A, no measurements supplied",
+    "table_scroll_hints": "Two explicit sideways-scroll hints verified in final HTML.",
+    "release_checks": "Main agent reports all release checks passed; reviewer did not rerun them."
+  }
+}

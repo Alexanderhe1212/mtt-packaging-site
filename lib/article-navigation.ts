@@ -30,6 +30,7 @@ const topics = [
   {articles:['double-door-wine-gift-box-design-review','christmas-drawer-gift-box-packout-review','collectors-packaging-story-material-analysis','tea-gift-box-drawer-analysis','jewelry-packaging-repeat-use-analysis'], products:['twin-wine-double-door-gift-box','four-drawer-christmas-gift-cabinet','coffee-tasting-flight-drawer']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'rigid-box-vs-folding-carton':['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set'],
   'perfume-discovery-set-packaging':['perfume-discovery-library-double-door','travel-fragrance-trio-drawer','signature-perfume-lift-off'],
   'jewelry-packaging-repeat-use-analysis':['engagement-ring-keepsake-lift-off','pendant-presentation-drawer','watch-and-strap-collection-book'],
   'tea-gift-box-drawer-analysis':['tea-tin-pairing-lift-off','coffee-tasting-flight-drawer','chocolate-selection-book'],

@@ -5,7 +5,6 @@ import {caseStages} from '../../../lib/case-stages';
 import { SiteNav, SiteFooter } from '../../../components/SiteNav';
 import type { Metadata } from "next";
 import { articles, getArticle } from "../../../lib/articles";
-import { customerProblemArticles } from "../../../lib/customer-problem-articles";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 
 export function generateStaticParams() {
@@ -50,7 +49,6 @@ export default async function InsightPage({
     );
   const {related, designs} = articleNavigation(article.slug);
   const knowledgeTopic = knowledgeTopics.find(topic=>topic.slugs.includes(article.slug));
-  const isProblemArticle = article.angle === "Packaging Buying Guide" || article.angle === "Design Analysis" || customerProblemArticles.some((a) => a.slug === article.slug);
   const articleData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -84,16 +82,17 @@ export default async function InsightPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
       />
       <SiteNav />{["Case Study","Design Analysis"].includes(article.angle) && <p style={{padding:"20px 5vw"}}><a href="/case-studies">← All case studies</a></p>}
+      <nav className="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/insights">Packaging guides</a><span aria-hidden="true">/</span><span aria-current="page">{article.title}</span></nav>
       <header>
         <p>
           {article.number} / {article.angle}
         </p>
         <h1>{article.title}</h1>
         <p className="section-kicker">Quick answer</p><p>{article.intro}</p>
-        <p>MTT Packaging editorial · Updated {article.dateModified} · <a href="/about">Packaging development &amp; manufacturing coordination</a></p>
-        {isProblemArticle && !caseStages[article.slug] && (
-          <figure style={{ margin: "32px 0 0" }}>
-            <img src={article.image} alt={article.imageAlt} width="900" height="600" style={{ width: "100%", maxHeight: "480px", objectFit: "contain" }} />
+        <p className="article-byline">MTT Packaging editorial · Updated {article.dateModified} · <a href="/about">Packaging development &amp; manufacturing coordination</a></p>
+        {!caseStages[article.slug] && (
+          <figure className="article-hero-figure">
+            <img src={article.image} alt={article.imageAlt} width="900" height="600" />
             <figcaption>Packaging design reference. Final fit, materials and finish are confirmed on an approved sample.</figcaption>
           </figure>
         )}
@@ -102,14 +101,14 @@ export default async function InsightPage({
         <p className="section-kicker">At a glance</p><p>{article.summary}</p>
         <details className="article-contents"><summary>In this guide · {article.sections.length} sections</summary>
           <ol>{article.sections.map(([title],index)=><li key={title}><a href={`#guide-section-${index+1}`}>{title}</a></li>)}</ol>
-          <a href="#guide-designs">Compare packaging designs →</a>
+          {designs.length > 0 && <a href="#guide-designs">Compare packaging designs →</a>}
         </details>
       </div>
       <CaseStages slug={article.slug}/><div className="article-body">
         {knowledgeTopic && <nav className="article-topic-link" aria-label="Knowledge topic"><a href={"/insights#"+knowledgeTopic.id}>← {knowledgeTopic.title}: browse related knowledge</a></nav>}
         {article.sections.map(([title, copy], index) => (
           <section className="article-numbered-section" key={title} id={`guide-section-${index+1}`} tabIndex={-1}>
-            <b>0{index + 1}</b>
+            <b>{String(index + 1).padStart(2, "0")}</b>
             <div>
               <h2>{title}</h2>
               <div dangerouslySetInnerHTML={{ __html: copy }} />

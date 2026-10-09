@@ -1,0 +1,139 @@
+{
+  "title": "Rigid Box vs Folding Carton vs Corrugated: How to Choose",
+  "review_date": "2026-10-09",
+  "reviewer": "Independent blog-reviewer subagent",
+  "rubric": "AGENTS.md and docs/content-quality-pipeline.md, section 7",
+  "score_type": "Editorial judgment, not objective search-performance measurement",
+  "categories": [
+    {
+      "criterion": "Customer problem clarity",
+      "score": 10,
+      "maximum": 10,
+      "evidence": [
+        "The 52-word Quick Answer and selection matrix address choosing among rigid, folding and corrugated options.",
+        "Reader must compare the complete packed product and route, not an empty-box price."
+      ]
+    },
+    {
+      "criterion": "Original insight",
+      "score": 18,
+      "maximum": 20,
+      "evidence": [
+        "Differentiated synthesis combines product location, cap-pressure avoidance, assembly work and presentation-versus-transit decisions.",
+        "Hypothetical dimensional-weight calculation is transparent and reproducible, not proprietary research.",
+        "Bounded comparison with four adjacent guides found distinct reader tasks and no exact body-sentence matches >=10 words."
+      ]
+    },
+    {
+      "criterion": "Technical usefulness",
+      "score": 19,
+      "maximum": 20,
+      "evidence": [
+        "Correct volume and dimensional-weight arithmetic; assumptions, units and billing limitations are stated.",
+        "Same-basis quotation checklist includes inserts, tooling, packing labour, inbound storage/freight and outbound delivery.",
+        "FEFCO and ISTA purpose is correctly separated from a claim of passed testing; tighter procedure-scope qualifiers are recommended."
+      ]
+    },
+    {
+      "criterion": "Human writing",
+      "score": 13,
+      "maximum": 15,
+      "evidence": [
+        "Specific product examples and direct practical instructions; no configured stock phrases found.",
+        "Flesch Reading Ease 40.50 and grade 11.31 show technical vocabulary imposes a reading burden.",
+        "Some FAQ answers repeat body guidance."
+      ]
+    },
+    {
+      "criterion": "SEO",
+      "score": 10,
+      "maximum": 10,
+      "evidence": [
+        "One H1, descriptive title/meta, stable working canonical, seven working body jump links.",
+        "Four descriptive contextual body text links; three authoritative external primary sources.",
+        "Local link destinations exist; metadata and parsed structured data match visible content."
+      ]
+    },
+    {
+      "criterion": "GEO",
+      "score": 9,
+      "maximum": 10,
+      "evidence": [
+        "Static extractable article, 52-word Quick Answer, two tables, clear entities and assumptions.",
+        "robots.txt permits general crawling.",
+        "ISTA shorthand could be more self-contained; no actual citation/indexing performance measured."
+      ]
+    },
+    {
+      "criterion": "Trust / claim safety",
+      "score": 9,
+      "maximum": 10,
+      "evidence": [
+        "FedEx, FEFCO and ISTA official pages independently checked 2026-10-09.",
+        "No invented MTT customers, tests, savings, certification or manufacturing ownership claims.",
+        "Illustrations and calculation explicitly labeled; corporate attribution is truthful but lacks a named accountable editor/public editorial policy."
+      ]
+    },
+    {
+      "criterion": "Conversion",
+      "score": 5,
+      "maximum": 5,
+      "evidence": [
+        "One primary brief-review action requests product dimensions, filled weight, quantity per design and destination.",
+        "MTT evaluates options under the same brief; sampling/specification confirmation remains explicit."
+      ]
+    }
+  ],
+  "total": 93,
+  "maximum": 100,
+  "threshold": 85,
+  "p0_count": 0,
+  "unresolved_factual_or_misleading_claims": [],
+  "editorial_gate_pass": true,
+  "publication_gate_status": "Eligible on editorial/factual review only; separate build, browser and release checks must pass. Deployment not verified by reviewer.",
+  "primary_sources": [
+    {
+      "url": "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html",
+      "checked_on": "2026-10-09",
+      "supports": "Dimensional weight formula/divisor and greater-of comparison; actual service/account terms must still be confirmed."
+    },
+    {
+      "url": "https://www.fefco.org/technical-information/fefco-code",
+      "checked_on": "2026-10-09",
+      "supports": "International corrugated design-identification system."
+    },
+    {
+      "url": "https://ista.org/test_procedures.php",
+      "checked_on": "2026-10-09",
+      "supports": "3A parcel, 3B LTL, 3E similar unitized FTL load scopes; laboratory selection for route."
+    }
+  ],
+  "unavailable_evidence": [
+    "Final desktop responsive QA had not been supplied at narrow recheck; mobile375/768px evidence reviewed.",
+    "No measured page-speed or field performance evidence.",
+    "No current search ranking, indexing, traffic, lead or AI-citation evidence.",
+    "Original Article datePublished inherited; publication history not independently reconstructed.",
+    "No web-wide plagiarism scan."
+  ],
+  "limitations": [
+    "Scores are editorial judgments and do not guarantee indexing, rankings or inquiries.",
+    "Local file link checks do not prove live server responses."
+  ],
+  "article_html_sha256": "e4f505cbc95042d9fbc44a05bdee5d9bf3de281d195ef50d614742053bb64208",
+  "article_source_sha256": "7e91ec90ea0e0bf7e3b553a504caa960a8e83f76155f99b0a2dd42abfaca4842",
+  "five_category_review": "review.md",
+  "recommended_nonblocking_fixes": [
+    "Simplify avoidable logistics abstractions.",
+    "Improve accountable authorship only using verified people/process information.",
+    "Consider adding the 3A weight limit; 3E scope is now accurately qualified."
+  ],
+  "narrow_recheck": {
+    "date": "2026-10-09",
+    "corrugated_intrinsic_attributes": "500x500, matches source image",
+    "ISTA_3E": "Correctly narrowed to similar products in unitized full-truckload shipments",
+    "browser_evidence": "Main agent measured no page overflow at375/768px, keyboard-scrolling tables and no broken loaded images; reviewer visually inspected screenshots07\u201309. Desktop final QA not yet supplied.",
+    "page_speed": "N/A, no measurements supplied",
+    "table_scroll_hints": "Two explicit sideways-scroll hints verified in final HTML.",
+    "release_checks": "Main agent reports all release checks passed; reviewer did not rerun them."
+  }
+}
