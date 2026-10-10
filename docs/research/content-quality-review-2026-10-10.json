@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "measure-packaging-internal-external-dimensions",
+    "date": "2026-10-10",
+    "primaryQuery": "internal vs external box dimensions",
+    "customerDecision": "Record the correct product, internal, external and shipping measurements before sampling.",
+    "searchEvidence": "Planned N01 measurement-intent gap; no unsupported monthly search-volume claim.",
+    "overlapReview": "Measurement and fit, distinct from structure selection, material choice and production sampling.",
+    "score": {
+      "customer": 10,
+      "insight": 19,
+      "technical": 19,
+      "human": 13,
+      "seo": 10,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 94,
+    "reviewEvidence": [
+      "Independent skill reviewer 93/100, zero P0; detailed review retained.",
+      "FEFCO 12th edition page 4 and FedEx source verified.",
+      "Two hypothetical calculations checked against arithmetic and workbench behavior."
+    ],
+    "sources": [
+      "https://www.fefco.org/technical-information/fefco-code",
+      "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html"
+    ],
+    "limitations": "Editorial score is subjective, not a ranking prediction. Examples are hypothetical and not production approval."
+  }
+]
