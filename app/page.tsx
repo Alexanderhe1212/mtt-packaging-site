@@ -8,8 +8,8 @@ import { SiteNav, SiteFooter } from '../components/SiteNav';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/', languages: { en: '/', 'zh-Hans': '/zh', 'x-default': '/' } },
-  title: 'Custom Luxury Packaging Boxes & Bags | MTT Packaging',
-  description: 'Develop custom rigid boxes, cartons, inserts and paper bags for your brand. MOQ 1,000 per design. Send your product details to request a packaging quote.',
+  title: 'Custom Luxury Packaging Boxes Supplier in China | MTT Packaging',
+  description: 'Custom rigid boxes, folding cartons, mailers, paper bags and inserts for perfume, cosmetics, jewelry and gift brands. MOQ 1,000 per design, sample first, shipped worldwide.',
 };
 
 const packagingChoices = [
@@ -26,11 +26,35 @@ const faqs = [
   ['Can I approve a sample before production?', 'Yes. Structural and printed sampling is recommended before mass production. Sampling cost and timing depend on the construction and finishes.'],
   ['Can MTT Packaging arrange international shipping?', 'Yes. Export packing and shipping terms can be planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms.'],
   ['What is the usual lead time?', 'A typical custom order takes about 20–35 days after sample and artwork approval. Complex handmade structures and peak-season schedules may require longer.'],
+  ['What information do you need for a quote?', 'Send product length × width × height, weight, quantity per design, delivery country and your required date. Add a product photo and artwork or reference links if available, and mark undecided materials or finishes so they can be reviewed.'],
+  ['How are print colours and quality checked?', 'Print colours are compared against Pantone references and approved proofs, and finished units are inspected for visual defects, dimensions, function and specification compliance. For projects requiring third-party inspection, MTT Packaging can coordinate with inspection services selected by the buyer.'],
+  ['Which payment methods are available?', 'Bank transfer is available for confirmed production orders and PayPal for eligible payments. Available methods may depend on order value, project stage and the arrangements confirmed with MTT Packaging.'],
+];
+const keyFacts = [
+  ['1,000 pcs', 'Minimum order per design'],
+  ['Sample first', 'Physical sample before production'],
+  ['20–35 days', 'Typical production after approval'],
+  ['Worldwide', 'Export packing and shipping'],
+  ['24 hours', 'Reply to every brief'],
+];
+const buyerPaths = [
+  ['By packaging type', 'Rigid boxes, folding cartons, mailers, paper bags and inserts.', '/packaging'],
+  ['By industry', 'Perfume, cosmetics, jewelry & watches, gift sets and PR kits.', '/industries'],
+  ['Browse 240 designs', 'Filter ready-to-customise structures by product and family.', '/products'],
+  ['Plan your box size', 'Work out the internal size, then send it with your quote.', '/tools/box-size-calculator'],
+];
+const buyerGuides = [
+  ['Custom Packaging Brief Checklist: What to Send for a Quote', '/insights/how-to-write-a-packaging-brief'],
+  ['Custom Packaging Costs: How to Compare a Box Quotation', '/insights/custom-packaging-cost-guide'],
+  ['Packaging Sample Approval: What to Check Before Production', '/insights/custom-packaging-sampling-process'],
+  ['Custom Box Structures: Lift-Off, Magnetic, Drawer or Carton?', '/insights/custom-box-structure-guide'],
+  ['Choosing Board and Wrapping Paper for a Premium Box', '/insights/packaging-material-selection'],
+  ['Packaging Design to Production in China: Boxes, Bags & Gift Sets', '/insights/packaging-design-to-production-china'],
 ];
 const structuredData = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: 'MTT Packaging', url: siteUrl, inLanguage: 'en' },
   organization,
-  { '@type': 'WebPage', '@id': `${siteUrl}/#webpage`, url: `${siteUrl}/`, name: 'Custom Luxury Packaging Boxes & Bags | MTT Packaging', inLanguage: 'en', isPartOf: { '@id': `${siteUrl}/#website` }, about: { '@id': `${siteUrl}/#organization` }, mainEntity: { '@id': `${siteUrl}/#packaging-families` } },
+  { '@type': 'WebPage', '@id': `${siteUrl}/#webpage`, url: `${siteUrl}/`, name: 'Custom Luxury Packaging Boxes Supplier in China | MTT Packaging', inLanguage: 'en', isPartOf: { '@id': `${siteUrl}/#website` }, about: { '@id': `${siteUrl}/#organization` }, mainEntity: { '@id': `${siteUrl}/#packaging-families` } },
   { '@type': 'ItemList', '@id': `${siteUrl}/#packaging-families`, name: 'Custom packaging families', itemListElement: packagingChoices.map((item, index) => ({ '@type': 'ListItem', position: index + 1, item: { '@type': 'WebPage', name: item.name, url: `${siteUrl}${item.path}` } })) },
   { '@type': 'Person', '@id': `${siteUrl}/#hugo-he`, name: 'Hugo He', jobTitle: 'Custom Packaging Consultant', worksFor: { '@id': `${siteUrl}/#organization` }, email: 'info@mttpackaging.com', telephone: '+86 17207110964' },
   { '@type': 'Service', name: 'Custom Luxury Packaging Manufacturing', provider: { '@id': `${siteUrl}/#organization` }, areaServed: 'Worldwide', description: 'Custom rigid boxes, perfume packaging, cosmetic packaging, jewelry boxes and premium gift boxes for growing brands.', serviceType: ['Custom rigid boxes', 'Magnetic closure boxes', 'Drawer boxes', 'Perfume packaging', 'Cosmetic packaging', 'Jewelry packaging', 'Gift packaging', 'Custom inserts', 'Folding cartons', 'Paper bags'] },
@@ -61,52 +85,32 @@ export default function Home() {
     <SiteNav />
     <section className="ed-hero" id="top">
       <div className="ed-hero-copy">
-        <p className="ed-eyebrow">MTT Packaging · China</p>
-        <h1>Custom rigid boxes.<br/>Made around<br/>your product.</h1>
-        <p className="ed-lead">Premium gift boxes, fitted inserts and matching paper bags. Develop your complete packaging set with MTT.</p>
-        <div className="ed-actions"><a className="button" href="/products">Explore Box Designs <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/request-a-quote">Request a Quote</a></div>
+        <p className="ed-eyebrow">Custom packaging supplier · Shenzhen, China</p>
+        <h1>Custom luxury boxes, made around your product.</h1>
+        <p className="ed-lead">Rigid gift boxes, folding cartons, mailers, paper bags and fitted inserts for perfume, cosmetics, jewelry and gift brands. Developed, sampled and produced in China, shipped worldwide.</p>
+        <div className="ed-actions"><a className="button" href="/request-a-quote">Get a Quote <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/products">Browse 240 box designs</a></div>
+        <ul className="hp-hero-points"><li>MOQ 1,000 pieces per design</li><li>Physical sample before production</li><li>Reply within 24 hours</li></ul>
       </div>
       <div className="home-hero-scene"><div className="home-hero-plane"><img data-home-image="hero" className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" /></div></div>
     </section>
-    <div className="ed-ribbon"><span>Structure</span><span>Materials</span><span>Sampling</span><span>Production</span></div>
+    <section className="hp-facts" aria-label="Key commercial facts"><dl>{keyFacts.map(([value,label])=><div key={value}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
+    <nav className="hp-paths" aria-labelledby="buyer-paths-title"><h2 id="buyer-paths-title">Find what you need</h2><div>{buyerPaths.map(([title,desc,href])=><a href={href} key={href}><b>{title} <span aria-hidden="true">→</span></b><span>{desc}</span></a>)}</div></nav>
     <section className="ed-collection">
-      <header className="ed-section-heading"><h2>Find your starting point.</h2><p>Four packaging families. Possibilities for your product, your brand and your market.</p></header>
+      <header className="ed-section-heading"><h2>Custom packaging we develop.</h2><p>Four packaging families, each sized around your product and matched with inserts, finishes and bags.</p></header>
       <div className="ed-product-grid">
         {[
-          ['Rigid Boxes','/design/home-v4/rigid.webp','custom-rigid-boxes','Wrapped rigid board, fitted interiors and controlled presentation for premium products.','Cobalt linen-textured rigid jewelry box with its lift-off lid placed separately beside the fitted base'],
-          ['Folding Cartons','/design/home-v4/carton.webp','folding-cartons','Lightweight paperboard structures with vivid print, coatings and efficient pack-out.','Lilac and lime skincare folding cartons with thin paperboard tuck flaps and printed surfaces'],
+          ['Rigid Boxes','/design/rigid-editorial.webp','custom-rigid-boxes','Wrapped rigid board, fitted interiors and controlled presentation for premium products.','Forest green rigid perfume box with a separate lift-off lid, gold foil mark and cream fitted insert holding the bottle'],
+          ['Folding Cartons','/design/carton-editorial.webp','folding-cartons','Lightweight paperboard structures with vivid print, coatings and efficient pack-out.','Three folding cartons with tuck-end flaps: a green carton, an open botanical-printed ivory carton and a long ivory carton'],
           ['Corrugated Boxes','/products/mtt-e0101-0.webp','corrugated-boxes','Custom kraft mailers with fitted paper inserts, printed branding and matching gift cards.','Open kraft corrugated gift mailer with a fitted insert holding a ceramic mug, tea jar, wrapped cookie and small carton, beside a matching card'],
-          ['Paper Bags','/design/home-v4/bag.webp','custom-paper-bags','Coordinated retail bags with reinforced tops, custom handles, tissue and gift accessories.','Red and blush paper shopping bags with woven handles, side gussets, tissue, a gift box and card'],
-        ].map(([title,img,slug,desc,alt])=><a className="ed-product" href={'/packaging/'+slug} key={slug}><span className="home-image-frame"><img data-home-image="collection" src={img} alt={alt} srcSet={slug==='corrugated-boxes'?`${img} 500w`:`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 45vw, 23vw" width={slug==='corrugated-boxes'?500:1200} height={slug==='corrugated-boxes'?500:900} style={{objectFit:'cover'}} loading="lazy"/></span><h3>{title}</h3><p>{desc}</p><span className="ed-text-link">Explore {title} <span aria-hidden="true">→</span></span></a>)}
+          ['Paper Bags','/capability-paper-bags.webp','custom-paper-bags','Coordinated retail bags with reinforced tops, custom handles, tissue and gift accessories.','Two terracotta paper shopping bags with cream rope handles, folded tops and a blind-embossed mark'],
+        ].map(([title,img,slug,desc,alt])=><a className="ed-product" href={'/packaging/'+slug} key={slug}><span className="home-image-frame"><img data-home-image="collection" src={img} alt={alt} srcSet={slug==='corrugated-boxes'?`${img} 500w`:slug==='custom-paper-bags'?`${img.replace('.webp', '-480.webp')} 480w, ${img} 900w`:`${img.replace('.webp', '-480.webp')} 480w, ${img.replace('.webp', '-800.webp')} 800w, ${img} 1440w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 45vw, 23vw" width={slug==='corrugated-boxes'?500:1200} height={slug==='corrugated-boxes'?500:900} style={{objectFit:'cover'}} loading="lazy"/></span><h3>{title}</h3><p>{desc}</p><span className="ed-text-link">Explore {title} <span aria-hidden="true">→</span></span></a>)}
       </div>
     </section>
-    <section className="home-buying-guide" aria-labelledby="packaging-comparison-title">
-      <header><p className="hp-kicker">Choose your packaging</p><h2 id="packaging-comparison-title">Start with the product and its journey.</h2><p>Compare the main packaging families, then confirm the complete box, insert and bag combination with a physical sample.</p></header>
-      <div className="home-buying-table" role="region" aria-label="Packaging family comparison" tabIndex={0}>
-        <table><caption>Packaging choices and sample checks</caption><thead><tr><th scope="col">Packaging family</th><th scope="col">Typical use</th><th scope="col">What to confirm</th></tr></thead><tbody>{packagingChoices.map(item => <tr key={item.path}><th scope="row"><a href={item.path}>{item.name}</a></th><td>{item.use}</td><td>{item.check}</td></tr>)}</tbody></table>
-      </div>
-      <div className="home-brief-checklist"><h3>Send these details for a useful quote.</h3><ul><li>Product dimensions, weight and every item in the set.</li><li>Quantity per design; minimum order is 1,000 pieces per design.</li><li>Preferred opening, materials, finishes and artwork references.</li><li>Delivery destination, packing needs and target timing.</li></ul><a className="ed-text-link" href="/request-a-quote">Request a packaging quote →</a></div>
-    </section>
-    <section className="home-buying-guide" aria-labelledby="material-specification-title">
-      <header><p className="hp-kicker">Material specification</p><h2 id="material-specification-title">GSM and thickness answer different questions.</h2><p>GSM describes mass per square metre; caliper describes sheet thickness. Record both with the material grade instead of selecting a box from a GSM number alone. The wrap, structural board and insert have different jobs, so specify each separately.</p></header>
-      <div className="home-buying-table" role="region" aria-label="Material specification comparison" tabIndex={0}>
-        <table><caption>What to compare before approving a packaging material</caption><thead><tr><th scope="col">Component</th><th scope="col">Specification to request</th><th scope="col">Sample decision</th></tr></thead><tbody>
-          <tr><th scope="row">Rigid box core</th><td>Board grade and thickness in mm, separately from the wrap.</td><td>Check wall rigidity, lid clearance and corner construction with the intended contents.</td></tr>
-          <tr><th scope="row">Folding carton</th><td>Paperboard grade, GSM, caliper and grain direction.</td><td>Review creases, closure engagement and product fit after printing and finishing.</td></tr>
-          <tr><th scope="row">Wrapping paper</th><td>Paper grade, GSM, texture and planned finish.</td><td>Inspect wrapped corners and the chosen foil or embossed detail on a converted sample.</td></tr>
-          <tr><th scope="row">Corrugated pack</th><td>Flute, liner grades and the complete board specification.</td><td>Evaluate internal support and the packed shipping configuration; liner GSM alone cannot confirm protection.</td></tr>
-        </tbody></table>
-      </div>
-      <p>Ask for the supplier’s current material data sheet and an assembled sample. A thicker board can change internal space and closure fit; approve the finished pack with the actual product before fixing the production specification.</p>
-      <p><a className="ed-text-link" href="/insights/packaging-material-selection">Read the packaging material selection guide →</a></p>
-      <p><small>Technical reference: <a href="https://www.iggesund.com/insights/paperboard-know-how/general-technical-information/">Holmen paperboard properties and grade specifications</a>. These explain material measurements, not a claim that a particular grade is used in every MTT box.</small></p>
-    </section>
-    <section className="ed-process-band"><h2>A clear path from<br/>brief to production.</h2><div>{[['01','Brief','Tell us about your product and goals.'],['02','Sample','Develop and refine your packaging.'],['03','Produce','Confirm specifications before production.']].map(([n,t,d])=><a href="/how-we-work" key={n}><span className="ed-step-number">{n}</span><h3>{t}</h3><p>{d}</p></a>)}</div></section>
     {/* SECTION 3 — FEATURED PACKAGING */}
     <section className="hp-industries">
       <header className="hp-section-header hp-reveal">
         <p className="hp-kicker">Featured Industries</p>
-        <h2 className="hp-section-h2">Packaging built around<br/>what you need to protect.</h2>
+        <h2 className="hp-section-h2">Packaging for your<br/>industry.</h2>
       </header>
       <div className="hp-industry-rows">
         {industries.map((item, i) => {
@@ -114,7 +118,7 @@ export default function Home() {
           return (
           <a href={`/industries/${item.slug}`} className="hp-industry-row hp-reveal" key={item.slug}>
             <div className="hp-industry-img">
-              <img data-home-image="industry" src={homeImage.src} alt={homeImage.alt} srcSet={`${homeImage.src.replace('.webp', '-480.webp')} 480w, ${homeImage.src} 1200w`} sizes="(max-width: 900px) calc(100vw - 48px), 50vw" width="1200" height="900" loading="lazy" />
+              <img data-home-image="industry" src={homeImage.src} alt={homeImage.alt} srcSet={`${homeImage.src.replace('.webp', '-480.webp')} 480w, ${homeImage.src} 1200w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1100px) 45vw, 23vw" width="1200" height="900" loading="lazy" />
             </div>
             <div className="hp-industry-text">
               <span className="hp-industry-num">0{i + 1}</span>
@@ -124,6 +128,22 @@ export default function Home() {
             </div>
           </a>
         )})}
+      </div>
+    </section>
+
+    <section className="hp-why" aria-labelledby="why-mtt-title">
+      <div className="hp-why-media"><img src="/design/development-worktable.webp" srcSet="/design/development-worktable-800.webp 800w, /design/development-worktable.webp 1440w" sizes="(max-width: 900px) calc(100vw - 48px), 44vw" width="1440" height="1080" loading="lazy" alt="Packaging development table with a green rigid box, an open ivory sample box, a tuck-end carton, board and paper swatches and structure sketches" /></div>
+      <div className="hp-why-copy">
+        <p className="hp-kicker">Why MTT Packaging</p>
+        <h2 id="why-mtt-title">One accountable contact, from brief to delivery.</h2>
+        <p>MTT Packaging is based in Shenzhen, China. One direct contact coordinates specification, sampling, production and delivery details, so structure, print, insert and packing decisions stay in one place.</p>
+        <ul>
+          <li><b>Structure and insert engineering</b><span>Magnetic, lift-off, drawer, shoulder-neck and carton structures in custom dimensions, with paper, molded pulp, EVA or fabric-covered inserts.</span></li>
+          <li><b>Materials and finishes</b><span>Board, wrapping paper, foil, embossing, spot UV and lamination specified per component and confirmed on a physical sample.</span></li>
+          <li><b>Quality checks at each stage</b><span>Material, printing, finishing, assembly and packing checks; print colours compared against Pantone references and approved proofs.</span></li>
+          <li><b>Export packing and delivery</b><span>Carton count, CBM, labelling and shipping terms confirmed for your destination.</span></li>
+        </ul>
+        <div className="hp-why-contact"><div><b>Hugo He</b><span>Custom packaging consultant · replies within 24 hours</span></div><a className="button" href="/request-a-quote">Send your brief →</a><a className="ed-text-link" href={whatsapp} target="_blank" rel="noreferrer">WhatsApp Hugo</a></div>
       </div>
     </section>
 
@@ -155,7 +175,7 @@ export default function Home() {
       </header>
       <div className="hp-process-grid">
         <div className="hp-process-left">
-          <h2 className="hp-process-h2 hp-reveal">From Concept<br/>to Production</h2>
+          <h2 className="hp-process-h2 hp-reveal">From brief<br/>to delivery</h2><p className="hp-process-note">Most projects move from first brief to approved sample before any production commitment. <a href="/how-we-work">See how we work →</a></p>
         </div>
         <div className="hp-process-right">
           {processSteps.map(([num, title, desc], i) => (
@@ -190,25 +210,14 @@ export default function Home() {
       </div>
     </section>
 
-    {/* SECTION 7 — TRUST */}
-    <section className="hp-trust hp-reveal">
-      <div className="hp-trust-inner">
-        <p className="hp-kicker">Commercial Information</p>
-        <div className="hp-trust-items">
-          {[
-            ['1,000 pieces', 'Minimum order per design'],
-            ['Physical sample', 'Before production commitment'],
-            ['Custom engineering', 'Structure, insert, material'],
-            ['Worldwide shipping', 'Export packing and logistics'],
-          ].map(([title, sub]) => (
-            <div className="hp-trust-item" key={title}><b>{title}</b><span>{sub}</span></div>
-          ))}
-        </div>
-      </div>
+    <section className="hp-guides" aria-labelledby="buyer-guides-title">
+      <header><p className="hp-kicker">Buyer guides</p><h2 id="buyer-guides-title">Plan your order with fewer sampling rounds.</h2><p>Practical guides on briefs, costs, structures, materials and sample approval.</p></header>
+      <ol>{buyerGuides.map(([title,href])=><li key={href}><a href={href}>{title} <span aria-hidden="true">→</span></a></li>)}</ol>
+      <a className="ed-text-link" href="/insights">All 50+ packaging guides →</a>
     </section>
 
     <section className="home-buyer-faq" aria-labelledby="buyer-questions">
-      <header><p className="hp-kicker">Planning your packaging</p><h2 id="buyer-questions">Before you start.</h2><p>Practical answers before requesting your custom packaging quote.</p></header>
+      <header><p className="hp-kicker">Buyer FAQ</p><h2 id="buyer-questions">Custom packaging questions, answered.</h2><p>MOQ, sampling, lead time, shipping, quality and payment before you request a quote.</p></header>
       <div>{faqs.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div>
       <a className="ed-text-link" href="/request-a-quote">Discuss your packaging brief →</a>
     </section>
@@ -218,8 +227,9 @@ export default function Home() {
       <div className="hp-quote-grid">
         <div className="hp-quote-info hp-reveal">
           <p className="hp-kicker">Start a Project</p>
-          <h2 className="hp-section-h2">Have a<br/>Packaging<br/>Project?</h2>
+          <h2 className="hp-section-h2">Request a<br/>packaging quote</h2>
           <p className="hp-quote-sub">Share your product details and Hugo will respond within 24 hours with a focused recommendation.</p>
+          <div className="hp-quote-checklist"><b>For an accurate quote, include:</b><ul><li>Product dimensions, weight and every item in the set</li><li>Quantity per design (MOQ 1,000 pieces)</li><li>Preferred opening, materials, finishes and artwork references</li><li>Delivery country and target timing</li></ul></div>
           <div className="hp-quote-channels">
             <a className="v2-quote-wa" href={whatsapp} target="_blank" rel="noreferrer">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>

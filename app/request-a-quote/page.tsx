@@ -67,8 +67,8 @@ export default function RequestAQuotePage() {
           </p>
           <h1
             style={{
-              font: "600 clamp(46px,4.8vw,70px)/1 Arial,Helvetica,sans-serif",
-              letterSpacing: "-.055em",
+              font: "400 clamp(42px,4.4vw,64px)/1.05 Georgia,serif",
+              letterSpacing: "-.03em",
               margin: "22px 0",
             }}
           >
@@ -221,11 +221,11 @@ export default function RequestAQuotePage() {
               <button
                 type="submit"
                 style={{
-                  background: "#d6ee73",
-                  color: "#172019",
+                  background: "#253c2e",
+                  color: "#ffffff",
                   border: 0,
                   padding: "16px 48px",
-                  borderRadius: "999px",
+                  borderRadius: "7px",
                   font: "700 15px Arial",
                   cursor: "pointer",
                   width: "100%",
