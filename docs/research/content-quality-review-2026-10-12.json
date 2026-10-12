@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "rigid-gift-box-shipping-outer-carton",
+    "date": "2026-10-12",
+    "primaryQuery": "rigid gift box shipping outer carton",
+    "customerDecision": "Specify the complete outer shipping assembly for a finished rigid gift set and agree sample acceptance.",
+    "searchEvidence": "Approved N03 buyer-intent gap; no verified monthly volume claimed.",
+    "overlapReview": "Owns completed gift-set transit protection, distinct from N01 measurement procedure and E08 corrugated specification; bounded exact-sentence scan across lib JSON found no repeated sentences of ten or more words.",
+    "score": {
+      "customer": 10,
+      "insight": 19,
+      "technical": 19,
+      "human": 13,
+      "seo": 10,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 94,
+    "reviewEvidence": [
+      "Independent primary-source review verified FedEx breakables guidance and ISTA test-series/3A listing on 2026-10-12.",
+      "Hypothetical 240×180×80 mm plus 80 mm on six faces independently checked as 400×340×240 mm.",
+      "Explicit route, cosmetic acceptance, support placement, packing method and sample-revision guidance; no invented tests or company results."
+    ],
+    "sources": [
+      "https://www.fedex.com/en-us/shipping/packing/how-to-pack/breakables.html",
+      "https://www.ista.org/test_procedures.php",
+      "https://mms.ista.org/members/store_product.php?orgcode=ISTA&pid=20939871"
+    ],
+    "limitations": "Subjective editorial score, not traffic prediction. Parent retains responsibility for browser, artifact and release gates. Numerical allowance is hypothetical and not a cushioning specification."
+  }
+]
