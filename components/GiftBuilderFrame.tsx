@@ -10,5 +10,5 @@ export default function GiftBuilderFrame(){
   if(event.data.event==='step'){frame.current?.scrollIntoView({behavior:'smooth',block:'start'});return}
   if(events.has(event.data.event))trackEvent(event.data.event);
  };window.addEventListener('message',listener);return()=>window.removeEventListener('message',listener)},[]);
- return <><iframe ref={frame} title="Design Your Box by MTT Packaging" src="/tools/gift-box-solution-builder/app.html" style={{display:'block',width:'100%',height,border:0,background:'#f7f6f1'}}/><div style={{padding:'8px 5%',textAlign:'right',fontSize:12}}><a href="/tools/gift-box-solution-builder/app.html">Open the studio full screen ↗</a></div></>
+ return <><iframe ref={frame} data-clarity-mask="true" title="Design Your Box by MTT Packaging" src="/tools/gift-box-solution-builder/app.html" style={{display:'block',width:'100%',height,border:0,background:'#f7f6f1'}}/><div style={{padding:'8px 5%',textAlign:'right',fontSize:12}}><a href="/tools/gift-box-solution-builder/app.html">Open the studio full screen ↗</a></div></>
 }

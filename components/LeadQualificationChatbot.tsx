@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import HugoContactWidget from './HugoContactWidget';
+import { trackEvent } from '../lib/analytics';
 
 const WHATSAPP_NUMBER = '8617207110964';
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xyeyzwpw';
@@ -127,18 +128,12 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
   }, [step]);
 
   const openChat = useCallback(() => {
+    (window as unknown as {mttStopClarity?:()=>void}).mttStopClarity?.();
     setStep('intro');
   }, []);
 
   const closeChat = useCallback(() => {
     setStep('closed');
-  }, []);
-
-  // Track analytics if gtag is available
-  const trackEvent = useCallback((name: string) => {
-    if (typeof window !== 'undefined' && 'gtag' in window) {
-      (window as unknown as { gtag: (...args: unknown[]) => void }).gtag('event', name);
-    }
   }, []);
 
   const selectOption = useCallback(
@@ -263,11 +258,11 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
   }, []);
 
   if (step === 'closed') {
-    return <HugoContactWidget hasIntroVideo={hasIntroVideo} whatsappNumber={WHATSAPP_NUMBER} onProjectCheck={openChat} />;
+    return <div data-clarity-mask="true"><HugoContactWidget hasIntroVideo={hasIntroVideo} whatsappNumber={WHATSAPP_NUMBER} onProjectCheck={openChat} /></div>;
   }
 
   return (
-    <div className="chatbot-widget chatbot-open" role="dialog" aria-label="MTT Packaging Assistant">
+    <div className="chatbot-widget chatbot-open" data-clarity-mask="true" role="dialog" aria-label="MTT Packaging Assistant">
       {/* Header */}
       <div className="chatbot-header">
         <div>

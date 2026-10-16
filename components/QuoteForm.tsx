@@ -20,7 +20,10 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
   const pending = useRef(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
-  return <form {...props} ref={formRef} aria-busy={busy} onSubmit={async event => {
+  return <form {...props} data-clarity-mask="true" ref={formRef} aria-busy={busy} onFocusCapture={event => {
+    (window as unknown as {mttStopClarity?:()=>void}).mttStopClarity?.();
+    props.onFocusCapture?.(event);
+  }} onSubmit={async event => {
     event.preventDefault();
     if (pending.current) return;
     const form = event.currentTarget;

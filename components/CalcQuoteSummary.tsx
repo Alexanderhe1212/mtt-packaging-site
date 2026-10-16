@@ -42,7 +42,7 @@ export default function CalcQuoteSummary() {
   const summaryText = formatHandoffText(data);
 
   return (
-    <div className="calc-quote-summary">
+    <div className="calc-quote-summary" data-clarity-mask="true">
       {/* Visible summary for the user */}
       <div className="calc-quote-header">
         <span className="calc-quote-badge">Packaging Calculator Result Attached</span>

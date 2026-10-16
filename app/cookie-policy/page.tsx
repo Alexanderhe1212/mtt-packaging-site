@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { SiteFooter, SiteNav } from '../../components/SiteNav';
-import { breadcrumb, organization, siteUrl } from '../../lib/seo';
+import { breadcrumb, organization } from '../../lib/seo';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy | MTT Packaging',
@@ -32,7 +32,7 @@ export default function CookiePolicy() {
       <header className="page-hero" style={{ minHeight: 'auto', padding: '64px 7vw' }}>
         <div>
           <h1>Cookie Policy</h1>
-          <p>Effective date: 9 September 2026</p>
+          <p>Effective date: 16 October 2026</p>
         </div>
       </header>
       <div style={{ padding: '0 7vw 100px', maxWidth: '860px' }}>
@@ -43,45 +43,49 @@ export default function CookiePolicy() {
         <h2>2. How We Use These Technologies</h2>
         <p>MTT Packaging uses cookies and similar technologies on mttpackaging.com for the following purposes:</p>
 
-        <h3>Strictly Necessary Technologies</h3>
-        <p>These technologies are essential for the website to function. They enable core features such as page navigation, form submission and security. These cannot be disabled without affecting the basic operation of the website.</p>
-        <p>Examples include:</p>
-        <ul>
-          <li>Session management</li>
-          <li>Cookie consent preference storage</li>
-          <li>Security and fraud prevention</li>
-        </ul>
+        <h3>Necessary Technologies</h3>
+        <p>Site and contact-service technologies support functions such as preparing and submitting an enquiry and remembering your privacy choice. The contact panel and guided chatbot are part of this website. The analytics control does not disable these functions. Browser controls may restrict storage, but doing so can affect the features you choose to use.</p>
 
         <h3>Analytics Technologies</h3>
-        <p>Analytics technologies help us understand how visitors use our website, including which pages are visited, how long visitors spend on the site, how they arrived and what devices and browsers they use. This information helps us improve the website experience.</p>
-        <p>Our website may use Google Analytics (GA4) for this purpose. Google Analytics uses cookies to collect information about website usage. Where required by applicable law, these cookies are only activated after you provide consent through our cookie consent mechanism.</p>
+        <p>With your opt-in consent, we use Google Analytics (GA4) for visit and interaction measurement and Microsoft Clarity for heatmaps and session playback. These tools help us improve content, navigation and usability using information such as pages visited, referral sources, browser/device details, clicks, scrolling and pointer movement.</p>
+        <p>For all visitors, both integrations are blocked until analytics is enabled. If you reject analytics before opting in, their scripts stay unloaded; we do not start a cookieless analytics mode. Accepting analytics does not grant advertising consent: our Google Analytics and Clarity integrations keep advertising consent set to denied.</p>
+        <p>Clarity&apos;s playback uses page layout and interaction data. We configure contact forms, chat and packaging-brief content for masking. Focusing a form field or opening our chatbot stops Clarity recording for the rest of that page visit. Clarity is excluded from quote-request, confirmation and packaging-tool pages. We do not supply our own customer or user IDs to Clarity. See our <a href="/privacy-policy">Privacy Policy</a> for the collection scope and the separate handling of enquiries.</p>
 
         <h3>Preference Storage</h3>
-        <p>We use local storage to remember your cookie consent preference so that you are not asked to make the same choice on every visit.</p>
+        <p>We use browser local storage to remember your analytics choice on that browser and device. You can change it in Cookie Settings or clear it through your browser. A different browser or device, cleared storage, or an update requiring a new choice can cause the consent banner to appear again.</p>
+
+        <h3>Analytics Cookie Examples</h3>
+        <ul>
+          <li><strong>Google Analytics:</strong> Cookies such as <code>_ga</code> distinguish browsers, while <code>_ga_&lt;container-id&gt;</code> maintains session state. See Google&apos;s <a href="https://support.google.com/analytics/answer/11397207" target="_blank" rel="noopener noreferrer">GA4 cookie documentation</a>.</li>
+          <li><strong>Microsoft Clarity:</strong> <code>_clck</code> maintains a site-specific pseudonymous identifier and preferences; <code>_clsk</code> connects page views into a session. Microsoft also documents provider cookies whose use depends on consent and browser settings. See the <a href="https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-cookies" target="_blank" rel="noopener noreferrer">Clarity cookie list</a>.</li>
+        </ul>
+        <p>Cookie availability and expiry depend on provider configuration and browser controls. Cookie expiry is separate from how long a provider retains data already received. We do not apply one fixed retention period to all analytics data.</p>
 
         <h2>3. Third-Party Technologies</h2>
         <p>Some cookies and technologies on our website are provided by third parties:</p>
         <ul>
-          <li><strong>Google Analytics:</strong> Provided by Google. Collects website usage data. Subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&apos;s Privacy Policy ↗</a>.</li>
-          <li><strong>Knock Knock App:</strong> Powers live chat and calls, using session and device information to connect visitors with us and maintain conversations. Its visitor activity features are separate from Google Analytics. See <a href="https://knockknockapp.ai/privacy-policy/" target="_blank" rel="noopener noreferrer">the provider’s privacy policy</a>.</li>
-          <li><strong>Formspree:</strong> Our enquiry forms may be processed through Formspree. Subject to <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree&apos;s Privacy Policy ↗</a>.</li>
+          <li><strong>Google Analytics:</strong> Processes analytics after you opt in. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&apos;s Privacy Policy</a>.</li>
+          <li><strong>Microsoft Clarity:</strong> Processes usage and playback data after you opt in. See the <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener noreferrer">Microsoft Privacy Statement</a> and <a href="https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-data" target="_blank" rel="noopener noreferrer">Clarity data documentation</a>.</li>
+          <li><strong>Formspree:</strong> Processes submissions from our enquiry forms and guided chatbot to deliver them to us. See <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree&apos;s Privacy Policy</a>.</li>
+          <li><strong>WhatsApp:</strong> An optional external contact channel. Choosing a WhatsApp link opens that service, where its own technologies and privacy terms apply. See our <a href="/privacy-policy">Privacy Policy</a> for the chatbot&apos;s prefilled follow-up message.</li>
         </ul>
 
         <h2>4. Managing Your Cookie Preferences</h2>
         <p>You can manage your analytics cookie preferences at any time:</p>
         <ul>
-          <li><strong>Cookie consent banner:</strong> When you first visit our website, a consent banner allows you to accept or reject non-essential cookies.</li>
-          <li><strong>Cookie Settings link:</strong> You can change your preferences at any time by clicking the &ldquo;Cookie Settings&rdquo; link in the website footer.</li>
+          <li><strong>Cookie consent banner:</strong> Choose Accept Analytics to enable Google Analytics and Clarity, or Reject Non-Essential to keep them blocked. Manage Preferences lets you review the analytics choice.</li>
+          <li><strong>Cookie Settings:</strong> Open Cookie Settings in the website footer, switch Analytics off and select Save Preferences to withdraw consent, or enable it to opt in.</li>
           <li><strong>Browser settings:</strong> You can also control cookies through your browser settings. Most browsers allow you to block or delete cookies. Please note that blocking strictly necessary cookies may affect website functionality.</li>
         </ul>
 
         <h2>5. Analytics Consent Behaviour</h2>
-        <p>When you visit our website for the first time:</p>
+        <p>Your analytics choice controls both Google Analytics and Microsoft Clarity:</p>
         <ul>
-          <li>If you <strong>accept analytics</strong>, Google Analytics will be activated to collect website usage data.</li>
-          <li>If you <strong>reject non-essential</strong> technologies, analytics cookies will not be set. Google Analytics will operate in a limited mode that does not store cookies on your device.</li>
+          <li><strong>Before you opt in:</strong> Neither integration loads or sends analytics data. Rejecting analytics keeps them blocked. Browsing does not count as consent.</li>
+          <li><strong>After acceptance:</strong> Both services can collect the analytics information described above and use the permitted analytics storage. Advertising consent remains denied.</li>
+          <li><strong>After withdrawal:</strong> Further analytics collection by these integrations stops; requests containing activity captured before withdrawal may finish sending. If you turn analytics back on during the same page visit, Clarity recording can start again only on a subsequent eligible page visit. Withdrawal does not automatically erase data already processed by the providers. You can also delete stored cookies through your browser and contact us about a data request.</li>
         </ul>
-        <p>Your preference is stored locally on your device and remains in effect until you change it.</p>
+        <p>Your choice is specific to this browser and device. The analytics control does not prevent processing needed to submit a form or chatbot enquiry, or to use an external contact link. For Microsoft&apos;s explanation of consent signals, see its <a href="https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-consent-api-v2" target="_blank" rel="noopener noreferrer">Clarity consent documentation</a>; our site additionally blocks the tool itself when you have not opted in.</p>
 
         <h2>6. Changes to This Cookie Policy</h2>
         <p>We may update this Cookie Policy from time to time. The effective date at the top of this page indicates when the policy was last updated.</p>

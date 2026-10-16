@@ -18,7 +18,7 @@ export default function ContactAnalytics() {
     const focus = (event: FocusEvent) => {
       const form = (event.target as Element).closest?.('form');
       if (form?.action === 'https://formspree.io/f/xyeyzwpw' && !started.has(form)) {
-        try { if (localStorage.getItem('mtt_cookie_consent') !== 'granted') return; } catch { return; }
+        try { if (localStorage.getItem('mtt_cookie_consent_v2') !== 'granted') return; } catch { return; }
         started.add(form); trackEvent('quote_start');
       }
     };
