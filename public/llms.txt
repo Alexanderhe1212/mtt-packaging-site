@@ -22,6 +22,8 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [E Flute vs B Flute: Choosing a Corrugated Box for Fragile Products](https://mttpackaging.com/insights/e-flute-vs-b-flute-corrugated-boxes)
+- [How to Choose a Shipping Carton for a Rigid Gift Box](https://mttpackaging.com/insights/rigid-gift-box-shipping-outer-carton)
 - [Internal vs External Box Dimensions: How to Measure](https://mttpackaging.com/insights/measure-packaging-internal-external-dimensions)
 - [FSC-Certified Custom Packaging: A Buyer’s Verification Guide](https://mttpackaging.com/insights/fsc-certified-custom-packaging-buyers-guide)
 - [GMI Printing Certification: Build a Packaging Colour Approval Brief](https://mttpackaging.com/insights/gmi-printing-certification-packaging-colour-control)

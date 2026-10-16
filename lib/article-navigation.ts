@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['e-flute-vs-b-flute-corrugated-boxes','corrugated-mailer-shipping-box-specification','measure-packaging-internal-external-dimensions','custom-inserts-product-protection'],products:['three-compartment-skincare-mailer','custom-corrugated-packaging-set','custom-skincare-duo-auto-bottom']},
   {articles:['rigid-gift-box-shipping-outer-carton','measure-packaging-internal-external-dimensions','corrugated-mailer-shipping-box-specification','reduce-shipping-costs-rigid-boxes'],products:['signature-perfume-lift-off','custom-corrugated-packaging-set','three-compartment-skincare-mailer']},
   {articles:['measure-packaging-internal-external-dimensions','rigid-box-vs-folding-carton','corrugated-mailer-shipping-box-specification','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set']},
   {"articles": ["fsc-certified-custom-packaging-buyers-guide", "packaging-material-selection", "recycled-vs-recyclable-packaging-boxes", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},

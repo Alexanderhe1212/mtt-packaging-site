@@ -37,6 +37,16 @@ for loc in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org
   dest=root/unquote(urlsplit(v).path).lstrip('/')
   if not (dest.exists() or dest.with_suffix('.html').exists()): errors.append((path,'missing reference',v))
 assert 'Disallow: /\n' not in (root/'robots.txt').read_text()
+robots=(root/'robots.txt').read_text()
+assert not re.search(r'^Host\s*:',robots,re.M|re.I), 'Unsupported Host directive in generated robots.txt'
+assert set(re.findall(r'^Sitemap:\s*(\S+)',robots,re.M))=={'https://mttpackaging.com/sitemap.xml','https://mttpackaging.com/sitemap-products.xml'}
+main_urls={n.text for n in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
+product_sitemap=ET.parse(root/'sitemap-products.xml').getroot()
+product_urls=[n.text for n in product_sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+assert product_urls and len(product_urls)==len(set(product_urls)) and set(product_urls)<=main_urls, 'Product sitemap URLs must be unique canonical pages in the main sitemap'
+for loc in product_sitemap.iter('{http://www.google.com/schemas/sitemap-image/1.1}loc'):
+ parsed=urlsplit(loc.text)
+ assert parsed.scheme=='https' and parsed.netloc=='mttpackaging.com' and (root/unquote(parsed.path).lstrip('/')).is_file(), ('Invalid product sitemap image',loc.text)
 assert 'await fetch(form.action' in Path('components/QuoteForm.tsx').read_text()
 assert 'const res = {ok:true}' not in Path('components/LeadQualificationChatbot.tsx').read_text()
 assert 'knock-knockapp.com' not in Path('app/layout.tsx').read_text()

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "scope": "author source checks; no build/deployment/indexing claim",
+  "changedArticleObjects": [
+    [
+      "corrugated-mailer-shipping-box-specification",
+      "corrugated-mailer-shipping-box-specification"
+    ]
+  ],
+  "quickAnswerWords": 67,
+  "balancedHtml": true,
+  "preservedDatePublished": "2026-09-28",
+  "dateModified": "2026-10-16",
+  "contextualLinks": [
+    "https://www.fefco.org/technical-information/fefco-code",
+    "/insights/measure-packaging-internal-external-dimensions",
+    "https://www.fefco.org/technical-information/fefco-testing-methods-recommendations",
+    "/insights/e-flute-vs-b-flute-corrugated-boxes",
+    "/insights/custom-inserts-product-protection",
+    "https://ista.org/test_procedures.php",
+    "https://ista.org/getting_started_with_design.php",
+    "https://www.fedex.com/en-ca/resources-tools/dimensional-weight.html"
+  ],
+  "newN02TargetRequiresParentBuild": true,
+  "unresolvedFactualIssues": []
+}

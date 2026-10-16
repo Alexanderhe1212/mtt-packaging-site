@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="680" viewBox="0 0 800 680" role="img" aria-labelledby="title desc">
+  <title id="title">E and B flute: profile is one part of the specification</title>
+  <desc id="desc">Two schematic single-wall board cross sections show a finer E flute and a coarser B flute. Three separate approval levels are the board, the finished box and the complete packed product. No numerical dimensions or strength ranking are implied.</desc>
+  <rect width="800" height="680" rx="20" fill="#f5f2e8"/>
+  <g font-family="Arial,sans-serif" fill="#19372c">
+    <text x="35" y="53" font-size="28" font-weight="700">A profile is not a protection rating</text>
+    <text x="35" y="87" font-size="20">Compare the board, the converted box and the filled pack.</text>
+    <rect x="30" y="116" width="355" height="220" rx="12" fill="#fff" stroke="#c9c5b5"/>
+    <rect x="415" y="116" width="355" height="220" rx="12" fill="#fff" stroke="#c9c5b5"/>
+    <text x="52" y="154" font-size="26" font-weight="700">E flute</text>
+    <text x="437" y="154" font-size="26" font-weight="700">B flute</text>
+    <text x="52" y="185" font-size="19">Finer profile</text>
+    <text x="437" y="185" font-size="19">Coarser profile</text>
+    <g stroke="#8a6438" fill="none" stroke-width="4" stroke-linecap="round">
+      <path d="M52 237h310M52 269h310"/>
+      <path d="M62 269c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32c9 0 9-32 18-32s9 32 18 32"/>
+      <path d="M437 218h310M437 280h310"/>
+      <path d="M452 280c17.5 0 17.5-62 35-62s17.5 62 35 62c17.5 0 17.5-62 35-62s17.5 62 35 62c17.5 0 17.5-62 35-62s17.5 62 35 62c17.5 0 17.5-62 35-62s17.5 62 35 62"/>
+    </g>
+    <text x="52" y="314" font-size="18">Liner + fluting + liner</text>
+    <text x="437" y="314" font-size="18">Liner + fluting + liner</text>
+    <rect x="30" y="362" width="740" height="75" rx="10" fill="#fff" stroke="#c9c5b5"/>
+    <text x="50" y="392" font-size="20" font-weight="700">01 / BOARD</text>
+    <text x="50" y="419" font-size="19">Specify the papers, caliper and relevant test requirements.</text>
+    <rect x="30" y="449" width="740" height="75" rx="10" fill="#fff" stroke="#c9c5b5"/>
+    <text x="50" y="479" font-size="20" font-weight="700">02 / FINISHED BOX</text>
+    <text x="50" y="506" font-size="19">Check folds, locks, printed surface and usable space.</text>
+    <rect x="30" y="536" width="740" height="75" rx="10" fill="#fff" stroke="#c9c5b5"/>
+    <text x="50" y="566" font-size="20" font-weight="700">03 / COMPLETE PACK</text>
+    <text x="50" y="593" font-size="19">Assess product supports, closure and the shipment route.</text>
+    <text x="35" y="653" font-size="18">Schematic only. Not a thickness scale or a tested construction.</text>
+  </g>
+</svg>

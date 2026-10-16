@@ -38,6 +38,11 @@ reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-10.json')
 shippingOuter=json.loads(Path('lib/shipping-outer-guide-october-12.json').read_text())
 updates[shippingOuter['slug']]=shippingOuter
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-12.json').read_text())
+fluteGuide=json.loads(Path('lib/flute-guide-october-16.json').read_text())
+updates[fluteGuide['slug']]=fluteGuide
+currentReviews=json.loads(Path('docs/research/content-quality-review-2026-10-16.json').read_text())
+currentSlugs={r['slug'] for r in currentReviews}
+reviews=[r for r in reviews if r['slug'] not in currentSlugs]+currentReviews
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

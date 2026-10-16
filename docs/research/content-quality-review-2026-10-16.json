@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "corrugated-mailer-shipping-box-specification",
+    "planId": "E08",
+    "date": "2026-10-16",
+    "primaryQuery": "corrugated mailer box specifications",
+    "customerDecision": "Prepare a complete corrugated packed-system specification so suppliers quote the same scope and approvals remain traceable into production.",
+    "searchEvidence": "Approved E08 update in the 2026-10-09 content calendar. No new Search Console query data or monthly search volume was available to this independent editorial review; none is claimed.",
+    "overlapReview": "Owns the full RFQ and approval specification. N02 owns E/B profile selection and substitution, N01 owns dimension measurement, and N03 owns the outer protection of a completed rigid gift set. A bounded scan of 54 article objects in lib JSON found no exact shared sentence of ten or more words for this article; this is not a web-wide plagiarism test.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 19,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 94,
+    "reviewEvidence": [
+      "Independent reviewer read the current article object, author research and source-validation record, AGENTS.md, content-quality-pipeline.md, and the approved execution instructions requiring 90/100 with no factual issues.",
+      "Reopened primary FEFCO code/testing pages, ISTA procedure/design guidance and FedEx Canada dimensional-weight guidance on 2026-10-16. The narrow paraphrases are supported; no numerical standard parameters or universal freight divisor are prescribed.",
+      "The 67-word direct answer, eight-field RFQ table, quote-scope comparison, four-stage approval sequence and revision-control guidance make the buying decision actionable.",
+      "Pump-bottle and glass-jar example is explicitly hypothetical. Failure-first reasoning and sample substitutions are conditional engineering guidance. Transport results are explicitly separated from food-contact suitability, barrier performance and supplier certification.",
+      "Original URL and 2026-09-28 publication date are retained; modification date is 2026-10-16. Title and description are unique in the reviewed pair and measure 57 and 151 characters. Three FAQs address unknown board grade, white-sample approval and limits of FEFCO/ECT evidence.",
+      "No invented MTT customer, test, factory, certification, price, capacity, lead-time promise or indexing guarantee identified. One concrete CTA requests the product and shipment inputs needed for a specification review."
+    ],
+    "sources": [
+      "https://www.fefco.org/technical-information/fefco-code",
+      "https://www.fefco.org/technical-information/fefco-testing-methods-recommendations",
+      "https://ista.org/test_procedures.php",
+      "https://ista.org/getting_started_with_design.php",
+      "https://www.fedex.com/en-ca/resources-tools/dimensional-weight.html"
+    ],
+    "unresolvedFactualIssues": [],
+    "limitations": "Independent editorial judgment, not a search-performance measurement or engineering approval. Some intentionally repeated sample/approval cautions limit concision. Parent retains responsibility for rendering, complete internal-link resolution, canonical/schema/sitemap checks, build, deployment and indexing receipts. No live indexing status is established by this review."
+  },
+  {
+    "slug": "e-flute-vs-b-flute-corrugated-boxes",
+    "planId": "N02",
+    "date": "2026-10-16",
+    "primaryQuery": "E flute vs B flute packaging",
+    "customerDecision": "Choose which E- and B-flute packed configurations to sample and identify fit, tooling, printing and verification changes before selection or substitution.",
+    "searchEvidence": "Approved N02 candidate from the 2026-10-09 calendar, implemented as the distinct E/B comparison following E08. No fresh query metrics or search-volume claim was available to this review.",
+    "overlapReview": "Owns flute-profile comparison and change control, with original tooling/folded-build-up and comparison-variable guidance. It links to E08 for the full specification and N01 for measurement instead of repeating their tutorials. N03 remains focused on a finished rigid gift set's outer pack. A bounded scan of 54 lib JSON article objects found no exact shared sentence of ten or more words for N02; this does not prove web-wide uniqueness.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 93,
+    "reviewEvidence": [
+      "Independent reviewer read lib/flute-guide-october-16.json, author research and the original SVG source against the repository pipeline and the calendar's stricter 90/100 threshold.",
+      "Independently reopened FEFCO board-production and test-list pages, GWP's own converter guidance and ISTA's procedure listing on 2026-10-16. These support single-wall construction, qualitative fine/coarse profile differences, common converter applications and the board-versus-package evidence distinction.",
+      "The 67-word Quick Answer answers the E/B question directly while requiring actual board grade and full-pack evidence. The 57-character SEO title and 152-character description align with the narrow intent.",
+      "Information gain includes an E/B decision table, a clearly hypothetical jar/lid-interference scenario, folded-layer/tooling constraints, print-process comparison controls and a six-point sample brief. Numerical caliper, load or strength promises are deliberately absent because no project board data is available.",
+      "FAQs address the common always-stronger misconception, reuse of an existing cutting die, and how to brief glass-product candidates. One CTA requests real product, drawing, artwork, quantity and route information.",
+      "SVG is explicitly schematic and unscaled, with separate board, finished-box and complete-pack approval levels. Hero alt text does not identify an unverified flute grade or claim tested protection. No MTT test, certification, customer result, food-contact or barrier claim is introduced."
+    ],
+    "sources": [
+      "https://www.fefco.org/lca/dscription-of-production-system/corrugated-board-production",
+      "https://www.gwp.co.uk/guides/corrugated-board-grades-explained/",
+      "https://www.fefco.org/technical-information/fefco-testing-methods-recommendations",
+      "https://www.ista.org/test_procedures.php",
+      "https://ista.org/getting_started_with_design.php"
+    ],
+    "unresolvedFactualIssues": [],
+    "limitations": "Editorial score is a reasoned assessment, not evidence of rankings, indexing or shipping performance. Comparison remains qualitative without converter-specific board data; this is appropriate for shortlisting but cannot approve a material. GWP is a manufacturer primary source, not a standards body. Some protective-evidence cautions recur across the article. Parent owns visual rendering and all release/indexing gates."
+  }
+]
