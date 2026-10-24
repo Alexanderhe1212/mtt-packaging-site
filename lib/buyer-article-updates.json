@@ -1231,53 +1231,57 @@
   },
   "custom-inserts-product-protection": {
     "angle": "Insert & Protection",
-    "title": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts",
-    "summary": "Choose a custom insert around product geometry, removal access and packaging use. Compare paperboard, molded pulp, EVA and fabric-covered support.",
-    "intro": "Choose a custom insert by the product’s support needs, packing method and acceptable contact, then compare material routes. A folded platform, molded support and foam cavity can solve different problems. Test the final assembled insert, including any covering. Material names and visual neatness alone cannot establish retention or protection across the intended product range.",
-    "dateModified": "2026-09-15",
+    "title": "Custom Packaging Inserts: An MTT Material Selection Case",
+    "summary": "Compare paperboard, molded pulp and EVA inserts through an MTT chocolate-box quotation: product fit, removal access and the checks needed before approval.",
+    "intro": "Compare custom packaging insert materials by the support geometry, usable space, contact surface and packing sequence your product needs. In this MTT quotation-stage case, a paperboard insert was specified for 24 truffles in a rigid drawer box. Its grade, cavity layout and liners still required approval. The record supports a paperboard design brief; it does not prove that paperboard outperformed molded pulp or EVA in testing.",
+    "dateModified": "2026-10-24",
     "faq": [
       [
-        "Is EVA always the safest insert for glass?",
-        "No material name establishes protection on its own. Geometry, support, material properties and the complete shipping pack need a loaded-sample review and appropriate testing."
+        "Was EVA or molded pulp rejected after testing in this MTT case?",
+        "No. The reviewed quotation specified paperboard. It contains no verified comparison trial of EVA or molded pulp, so the article treats those as alternative routes to evaluate, not failed materials."
       ],
       [
-        "Can one insert hold a whole gift set?",
-        "Yes, if each item has suitable support and removal access. Include every item, leaflet and accessory when defining the available space."
-      ],
-      [
-        "Is a paper insert automatically recyclable?",
-        "Do not assume that. Review coatings, adhesives, combined materials, separation and the actual collection route in the destination market."
+        "Can a 24-piece insert be approved from the external box dimensions?",
+        "No. Confirm the usable tray space, actual products and liners, folded insert build-up and removal access. The drawer must also operate with the complete load."
       ]
     ],
     "sections": [
       [
-        "Measure the assembled product and identify contact areas",
-        "Provide dimensions with caps, pumps and decorations fitted, plus filled weight and photographs from several sides. Mark surfaces that should not be rubbed or loaded. Define whether the product lies down or stands up. A jar and two bottles, as in the <a href=\"/products/skincare-ritual-book\">skincare set</a>, need separate positions and a review of lid clearance. Do not size a cavity from a photograph or nominal bottle capacity."
+        "The actual MTT brief: 24 truffles in a drawer box",
+        "<p>An MTT quotation dated 7 October 2026 specified a rigid drawer box with a sleeve, sliding inner tray and custom paperboard insert for 24 truffles. The quoted external dimensions were 220 × 160 × 30 mm. Supply was to be assembled and empty of chocolates. The customer is anonymised and commercial prices are withheld.</p><p><strong>Project stage: quotation, with fit and material approval outstanding.</strong> The record specifically required approval of insert grammage, cavity layout, truffle dimensions, suitable food-contact barrier or liners, drawer clearance and the pull detail. It does not document a completed sample test, production order or shipment.</p><p>This makes the case useful for a material comparison: the word “paperboard” had been selected for the quotation, but several decisions needed to turn that material name into a workable insert were still open.</p>"
       ],
       [
-        "Paperboard: folded support with deliberate contact points",
-        "Folded or die-cut paperboard can create platforms, dividers and locating features. Specify where the product rests and how it is restrained; an attractive empty cutout does not prove support. Review creases, assembly and loaded deformation on the sample. Check the full material combination and local collection route before making recyclability claims. The <a href=\"/products/custom-skincare-duo-auto-bottom\">carton example</a> uses paperboard support, with grade and fit still to be confirmed."
+        "Start with the space and contact requirements",
+        "<p>For this brief, we would first measure representative truffles in their intended liners. Include variations that change the usable footprint and height. The 220 × 160 × 30 mm dimensions describe the outside of the box, not the cavity available to the product. Do not divide the external footprint by 24 and treat the result as an approved cavity size.</p><p>Allocate space for the tray walls, insert folds, liners and removal access before choosing a cavity arrangement. The drawer must slide without dragging across the contents. A product that fits with the tray open can still interfere with the sleeve when it closes.</p><p>Use the <a href=\"/insights/measure-packaging-internal-external-dimensions\">box measurement checklist</a> to separate external dimensions from usable space. The material comparison below assumes these constraints are held constant; it is a review framework, not a report that three materials were trialled in this project.</p>"
       ],
       [
-        "Molded pulp: formed geometry and a tooling decision",
-        "Molded-fibre inserts can form three-dimensional support around a product. Surface appearance and dimensional behaviour depend on the process and material. Confirm the tooling scope, sample method and product contact areas before selecting it for appearance alone. Read the <a href=\"/insights/molded-pulp-inserts-cosmetic-packaging\">molded-pulp guide for cosmetics</a> alongside your actual product requirements."
+        "Compare material routes against the same job",
+        "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Custom insert material comparison\" tabindex=\"0\"><table><caption>Material and function matrix: questions to resolve on samples</caption><thead><tr><th scope=\"col\">Route</th><th scope=\"col\">Structure to evaluate</th><th scope=\"col\">Questions before selection</th><th scope=\"col\">Status in this case</th></tr></thead><tbody><tr><td>Paperboard</td><td>Die-cut or folded compartments, dividers and platforms</td><td>Will the folds stay seated, the cavities keep their shape and the loaded tray slide freely?</td><td>Specified in the quotation; grade and layout still to be approved</td></tr><tr><td>Molded pulp</td><td>Formed pockets and support surfaces</td><td>What space does the proposed formed geometry require? How will the sample represent the production surface and tooling?</td><td>No project-specific design, quotation or test verified</td></tr><tr><td>EVA foam</td><td>Cut or layered cavities in a specified foam grade</td><td>What grade, thickness, contact finish and removal force suit the item? What evidence covers the intended contact?</td><td>No project-specific design, quotation or test verified</td></tr></tbody></table></div><p>The table does not rank one material as universally safer, cheaper or more sustainable. A different support geometry can change the result even when the material stays the same.</p><p>Manufacturer references illustrate why specifications matter. Zotefoams lists Evazote in multiple densities, colours and grades and provides product information covering physical properties.<a href=\"https://www.zotefoams.com/our-materials/azote/\">[1]</a> Huhtamaki lists custom molded-fiber solutions.<a href=\"https://www.huhtamaki.com/en-us/north-america/consumer-goods/product-catalog/custom-solutions/molded-fiber-custom/\">[2]</a> Neither source establishes that its material was used in this MTT project.</p>"
       ],
       [
-        "EVA and covered support: specify the full build",
-        "Cut foam can form locating cavities, but foam type, density, thickness and the remaining material between cavities need review. A fabric cover changes the contact surface and usable fit. Check for rubbing, lint, adhesive visibility and removal force. In the <a href=\"/products/engagement-ring-keepsake-lift-off\">ring keepsake layout</a>, the fabric-lined slit must suit the ring and its setting; the lining is not automatically an anti-tarnish material."
+        "Turn the quoted paperboard into a sample specification",
+        "<p>The source quote did not fix the insert grammage. We would request the proposed grade and measured thickness alongside a drawing of the folded insert. A paper weight alone does not describe the assembled support.</p><p>Inspect where tabs, folds and divider intersections sit inside the tray. Extra layers at an intersection can consume space that a flat drawing appears to leave available. Check whether the insert lifts when one item is removed and whether a partly emptied tray stays usable.</p><p>For the sample, load all 24 positions with representative products and liners. Slide the tray in and out, remove items from central and edge positions, and inspect the insert for movement or deformation. Record observations rather than approving the material from an empty presentation photograph.</p><p>These are recommended checks arising from the brief. The available MTT record does not establish that they were completed or that a particular grade passed.</p>"
       ],
       [
-        "Access can matter as much as a tight fit",
-        "Allow a practical grip, finger recess or secured lift ribbon. A cavity that holds an item but makes removal awkward is not finished engineering. For a drawer, check stability during sliding; for a hinged lid, check the closing sweep; for a lift-off lid, check the full height under the cap. Use the <a href=\"/insights/custom-box-structure-guide\">opening guide</a> to coordinate the insert and box."
+        "Separate contact suitability from mechanical fit",
+        "<p>The quotation expressly left the suitable food-contact barrier or liners for approval. That requirement must stay open until the proposed material combination and intended use are assessed. A neat fit, a soft surface or a paper-based construction is not evidence of food-contact suitability.</p><p>Identify which surfaces can touch the product and whether the liner remains between them during loading, removal and handling. Ask the supplier for evidence applicable to the actual material and intended use. This article does not certify paperboard, molded pulp, EVA, coatings or adhesives for contact with these truffles.</p><p>For a non-food product, apply the same discipline to its own contact restrictions: fragile decoration, a soft finish or a removable label may change which surfaces can carry load. The product requirements decide the evidence needed.</p>"
       ],
       [
-        "Validate the full pack and record the approved version",
-        "Use actual contents to check loading, removal, closure and the intended handling sequence. Confirm the transport test scope for the complete pack separately. Record material, cavity drawing, product revision and approved sample together. If the bottle or cap changes, review the fit again. Send the product data for an insert review; include quantity, destination and any direct-contact requirements."
+        "Check disposal claims for the complete insert",
+        "<p>Record the insert substrate, liners, coatings, adhesives and any fabric covering separately. Ask which parts can be separated after use and check the actual disposal route for the destination. Do not describe a composite insert as recyclable merely because one component is paper.</p><p>For UK disposal instructions, Recycle Now provides an item and postcode lookup.<a href=\"https://www.recyclenow.com/recycle-an-item\">[3]</a> Use that as a route to local guidance, not as certification of a custom insert. No project-specific recyclability or compostability result is established here.</p>"
+      ],
+      [
+        "The approval record needed before production",
+        "<ul><li>Product and liner measurements, with the sample items identified.</li><li>Usable tray space and the approved cavity drawing.</li><li>Insert grade, thickness, coverings and assembly details.</li><li>Loaded fit, removal and drawer-operation observations.</li><li>Applicable evidence for the intended contact and market.</li><li>The approved sample revision and any remaining actions.</li></ul><p>Keep complete-pack transport assessment separate from an insert fit check. The <a href=\"/insights/corrugated-mailer-shipping-box-specification\">shipping-pack specification guide</a> covers that additional scope. The <a href=\"/insights/custom-packaging-sampling-process\">sample approval guide</a> explains how to record the final specification.</p><p>The documented outcome in this MTT case is a paperboard insert included in the quotation, with clear approval items still open. There is no verified material-comparison test or delivered-performance result. A material choice becomes reviewable when the drawing, contact requirements and loaded sample agree.</p>"
+      ],
+      [
+        "Source scope",
+        "<p>Project facts were checked against the original MTT quotation dated 7 October 2026. Private customer details and pricing are excluded. Technical reference pages checked on 24 October 2026: <a href=\"https://www.zotefoams.com/our-materials/azote/\">[1] Zotefoams AZOTE material range</a>, <a href=\"https://www.huhtamaki.com/en-us/north-america/consumer-goods/product-catalog/custom-solutions/molded-fiber-custom/\">[2] Huhtamaki custom molded fiber</a>, and <a href=\"https://www.recyclenow.com/recycle-an-item\">[3] Recycle Now item lookup</a>. The comparisons and proposed sample checks are engineering guidance, distinct from completed project work.</p>"
       ]
     ],
-    "seoTitle": "Paperboard vs Molded Pulp vs EVA: Choosing Custom Inserts | MTT",
+    "seoTitle": "Custom Packaging Inserts: Material Comparison | MTT",
     "append": false,
-    "cta": "Send product measurements, weights, contact restrictions and the distribution route. MTT can compare insert structures before selecting a material."
+    "cta": "Send your product and liner measurements, intended contact, quantity, box opening and current insert drawing or photos. MTT can review the support layout and identify the material and sample evidence needed for approval."
   },
   "rigid-box-vs-folding-carton": {
     "angle": "How to choose",

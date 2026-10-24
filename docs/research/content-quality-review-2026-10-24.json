@@ -31,5 +31,37 @@
     "unresolvedFactualIssues": [],
     "limitations": "Author self-review, not independent review. Project is documented only at quotation stage; no actual shipment, realised savings or new GSC metrics verified.",
     "publicationStatus": "eligible_after_release_checks"
+  },
+  {
+    "slug": "custom-inserts-product-protection",
+    "planId": "E41",
+    "date": "2026-10-24",
+    "primaryQuery": "custom packaging inserts material comparison",
+    "customerDecision": "Define a reviewable insert material and support specification from a real quotation-stage brief.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 93,
+    "reviewEvidence": [
+      "Original MTT quotation cells B14,C26,C28-C30 verify product, outside dimensions, insert scope and outstanding approvals.",
+      "Paperboard is documented; EVA and molded pulp are explicitly untested alternatives. No new customer result asserted.",
+      "Material-function matrix, tray-space reasoning, partial-removal test and approval checklist provide practical information gain.",
+      "Primary manufacturer and local recycling resources are scoped narrowly; no generic food-contact or recyclability approval.",
+      "Existing URL and publication date retained; unique metadata and concrete CTA."
+    ],
+    "sources": [
+      "https://www.zotefoams.com/our-materials/azote/",
+      "https://www.huhtamaki.com/en-us/north-america/consumer-goods/product-catalog/custom-solutions/molded-fiber-custom/",
+      "https://www.recyclenow.com/recycle-an-item"
+    ],
+    "unresolvedFactualIssues": [],
+    "limitations": "Author self-review; quotation stage only, not a test report. No current GSC query volume evidence."
   }
 ]
