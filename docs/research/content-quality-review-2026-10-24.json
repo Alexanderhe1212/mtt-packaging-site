@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "reduce-shipping-costs-rigid-boxes",
+    "planId": "E48",
+    "date": "2026-10-24",
+    "primaryQuery": "reduce rigid box shipping costs",
+    "customerDecision": "Compare complete assembled and fold-flat supply costs before approving a packaging change.",
+    "searchEvidence": "Approved October content plan; no current GSC query or indexing evidence used.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 93,
+    "reviewEvidence": [
+      "Verified source workbook cells C10, C26-C30, C33-C35 and C39 against the source file, not only its sidecar export.",
+      "Real MTT quotation-stage case; customer identity, contact details and commercial prices omitted. No shipment or savings assertion.",
+      "Recomputed 1.710 m\u00b3, 312.5 kg gross, 285 kg at 6000 and 342 kg at 5000; distinguishes carrier guidance from project budget assumptions.",
+      "Single intent remains reduce rigid box shipping costs; other mapped topics appear only as contextual links.",
+      "Copy review removed hypothetical savings narrative; identifies pending fit, packing and provider confirmation."
+    ],
+    "sources": [
+      "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html",
+      "https://dct.dhl.com/help"
+    ],
+    "unresolvedFactualIssues": [],
+    "limitations": "Author self-review, not independent review. Project is documented only at quotation stage; no actual shipment, realised savings or new GSC metrics verified.",
+    "publicationStatus": "eligible_after_release_checks"
+  }
+]

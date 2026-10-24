@@ -43,6 +43,9 @@ updates[fluteGuide['slug']]=fluteGuide
 currentReviews=json.loads(Path('docs/research/content-quality-review-2026-10-16.json').read_text())
 currentSlugs={r['slug'] for r in currentReviews}
 reviews=[r for r in reviews if r['slug'] not in currentSlugs]+currentReviews
+latestReviews=json.loads(Path('docs/research/content-quality-review-2026-10-24.json').read_text())
+latestSlugs={r['slug'] for r in latestReviews}
+reviews=[r for r in reviews if r['slug'] not in latestSlugs]+latestReviews
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

@@ -166,36 +166,53 @@
   },
   "reduce-shipping-costs-rigid-boxes": {
     "angle": "Cost Saving",
-    "title": "Rigid Box Shipping Costs: Compare CBM, Packing and Assembly",
-    "summary": "Calculate carton volume and compare assembled versus fold-flat rigid boxes without overlooking packing labour or transport protection.",
-    "intro": "To assess rigid-box freight savings, compare final export carton dimensions, count and gross weight for the same order. Then include destination assembly, storage and protective packing. A fold-flat box may reduce shipped volume, but the saving must survive carrier pricing and pack-out costs. Changing the box alone does not establish a lower delivered cost.",
-    "dateModified": "2026-09-15",
-    "faq": [],
-    "sections": [
+    "title": "Reducing Rigid Box Shipping Costs: An MTT Quotation Case",
+    "summary": "An MTT chocolate-box quotation shows how carton volume, gross weight and freight assumptions affect rigid box shipping costs before production approval.",
+    "intro": "To reduce rigid box shipping costs, first establish which part of the complete shipment drives the quotation: carton volume, gross weight or additional handling. In this MTT quotation-stage case, the planned gross weight exceeded the dimensional weight under the budget divisor. Reducing carton volume alone therefore would not necessarily reduce chargeable weight. The packing figures remained estimates requiring sample and freight-provider confirmation.",
+    "dateModified": "2026-10-24",
+    "faq": [
       [
-        "Measure the export carton, not the display box",
-        "Use outside carton dimensions after packing and include the number of cartons. Small changes in the presentation box do not necessarily remove a carton or improve a pallet layout. We would first check the existing arrangement, including protection and unused gaps, before redesigning the gift box."
+        "Did MTT achieve a shipping-cost reduction in this project?",
+        "The reviewed record is a quotation-stage budget. It does not confirm a shipment or realised saving. It identifies the packing and charging assumptions that need verification before comparing alternatives."
       ],
       [
-        "A volume calculation with explicit assumptions",
-        "<p><strong>CBM = carton length in metres × width × height × carton count.</strong></p><p>For illustration, 20 cartons measuring 0.60 × 0.40 × 0.40 m occupy 1.92 m³. The same count at 0.60 × 0.40 × 0.25 m occupies 1.20 m³, a volume difference of 0.72 m³. These are example dimensions, not an MTT shipment or a freight-saving promise. Weight, minimum charges and carrier rules still affect the bill.</p>"
-      ],
-      [
-        "Flat supply transfers work to the packing location",
-        "Purpose-designed <a href=\"/products/?family=rigid&amp;structure=fold-flat\">collapsible rigid boxes</a> can arrive folded. Confirm erection steps, corner fixing, liner placement and whether assembly is reversible. Time a representative pack-out trial. Do not compare an empty folded shell against a fully loaded gift set; include inserts and accessories on both sides."
-      ],
-      [
-        "Compare the decision on one sheet",
-        "<ul><li>Same quantity and contents for each option.</li><li>Carton count, outer dimensions and gross weight.</li><li>Pallet arrangement or parcel constraints.</li><li>Destination labour and storage assumptions.</li><li>Protection and sample checks affected by the change.</li></ul>Ask the freight provider to price each complete arrangement on the same route and delivery scope."
-      ],
-      [
-        "When to retain the assembled box",
-        "Keep an erected format under consideration when destination assembly is difficult or the shape and finish cannot tolerate the proposed folds. Remove unused space only after confirming product retention and removal access. A <a href=\"/insights/fold-flat-triangular-gift-box-shipping-volume\">triangular carton comparison</a> needs its own packing plan; its result cannot be transferred to a rectangular rigid box."
+        "Why does the case use 6,000 when DHL publishes 5,000?",
+        "The quotation used 6,000 as a budget basis. That is not proof of the eventual carrier rule. The article separately calculates the effect of 5,000 to show why the chosen service must be confirmed before relying on the freight estimate."
       ]
     ],
-    "cta": "Send the current carton dimensions, carton count, gross weight, box quantity and destination. MTT can compare erected and flat-supplied packing options.",
+    "sections": [
+      [
+        "The MTT project and the limits of the record",
+        "<p>An MTT quotation prepared in October 2026 covered 1,000 book-style hinged rigid boxes for 24 chocolates, arranged in a 6 × 4 layout. The quoted external box size was 240 × 170 × 35 mm. The supply scope included assembled boxes with paperboard lattice dividers installed. The customer is anonymised, and commercial prices are omitted.</p><p><strong>Project stage: quotation and packing budget.</strong> The record required approval of the final divider fit, closure, dieline and artwork. It did not establish a completed packing trial, shipment or achieved saving. This case examines that documented cost-planning stage.</p><p>The distinction matters: a quote for assembled boxes with fitted dividers cannot be compared directly with a price for folded shells alone. Any alternative must include the same number of boxes and dividers, plus the work needed at the receiving location.</p>"
+      ],
+      [
+        "CBM and chargeable weight answer different questions",
+        "<p><strong>Carton CBM = outside length × width × height in metres × carton count.</strong> Sum each carton size separately. For a palletised quotation, provide loaded pallet dimensions and gross weight as well; carton-only volume does not describe the whole shipping unit.</p><p>FedEx explains that dimensional weight is compared with actual weight and the higher figure determines the weight basis for charging.<a href=\"https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html\">[1]</a> DHL publishes the same comparison and a standard volumetric divisor of 5,000 for centimetres and kilograms.<a href=\"https://dct.dhl.com/help\">[2]</a> Confirm the service, units, rounding and applicable divisor with your provider. Do not apply an express-parcel calculation to a sea-freight quote.</p><p>CBM measures volume; it is not a freight price. Ask the forwarder to itemise the applicable minimums, handling, delivery and other charges for the route. Compare quotations with the same shipment date, destination and delivery scope.</p>"
+      ],
+      [
+        "What the documented packing budget tells us",
+        "<p>The quotation allowed 40 assembled boxes per export carton, with 25 cartons for the 1,000-piece quantity. Each carton was estimated at 500 × 360 × 380 mm and 12.5 kg gross. These are the actual figures recorded in the MTT quotation, <strong>not measured shipment data</strong>.</p><div class=\"article-table-scroll\" role=\"region\" aria-label=\"MTT quotation packing budget\" tabindex=\"0\"><table><caption>Documented quotation assumptions and recalculated totals</caption><thead><tr><th scope=\"col\">Item</th><th scope=\"col\">Quotation-stage basis</th><th scope=\"col\">Check still required</th></tr></thead><tbody><tr><td>Quantity and pack count</td><td>1,000 boxes; 40 per carton; 25 cartons</td><td>Demonstrate the arrangement with assembled samples and dividers</td></tr><tr><td>Outside carton dimensions</td><td>500 × 360 × 380 mm</td><td>Measure the closed packed carton</td></tr><tr><td>Total carton volume</td><td>0.50 × 0.36 × 0.38 × 25 = 1.710 m³</td><td>Confirm every carton uses that size</td></tr><tr><td>Gross weight allowance</td><td>12.5 × 25 = 312.5 kg</td><td>Weigh the complete packed cartons</td></tr><tr><td>Dimensional-weight budget</td><td>50 × 36 × 38 × 25 ÷ 6,000 = 285 kg</td><td>Confirm the selected freight service accepts this divisor and calculation basis</td></tr></tbody></table></div><p>Under that recorded divisor, gross weight was 27.5 kg above dimensional weight. The budget rounded 312.5 kg up to 313 kg. This rounding is part of the quotation record, not a universal carrier rule.</p><p>The practical finding is limited but useful: if gross weight and all other pricing inputs stayed unchanged, reducing volume below this planned level would not lower the higher-of-two weight basis. We would establish the actual charging method before spending money on a smaller carton or a structural redesign.</p><p>The divisor itself needs checking. Applying DHL’s published 5,000 divisor to the same estimated dimensions gives 342 kg of dimensional weight, above the planned 312.5 kg gross.<a href=\"https://dct.dhl.com/help\">[2]</a> That is a sensitivity calculation, not a DHL quote for this project. It shows why a budget divisor must be confirmed for the selected service.</p>"
+      ],
+      [
+        "Would fold-flat supply help this particular brief?",
+        "<p>The documented supply scope was assembled, with dividers installed. There is no verified fold-flat alternative or timed assembly trial in the record. We would therefore treat fold-flat supply as a new option to develop, rather than claim an existing freight saving.</p><p>A useful comparison would keep the 1,000-piece quantity and all components constant, then record the alternative carton count, outside dimensions and gross weight. Include any separately packed dividers. Ask the receiving team whether it can erect the boxes, install the dividers and inspect them before filling.</p><p>Calculate additional assembly cost as extra seconds per set × quantity ÷ 3,600 × the actual hourly labour cost. Add differences in materials, consumables and storage. No assembly time or labour rate was verified for this project, so no assembly saving is stated.</p><p>Compare <a href=\"/products/?family=rigid&amp;structure=fold-flat\">collapsible rigid box options</a> only if a revised sample can meet the required fit and presentation. The <a href=\"/insights/fold-flat-triangular-gift-box-shipping-volume\">triangular fold-flat example</a> has a different geometry and cannot establish the packing count for this hinged chocolate box.</p>"
+      ],
+      [
+        "Check fit and protection before changing the pack",
+        "<p>The quotation explicitly left the clear divider cavities and lid clearance subject to approval with the chocolates and their cases. The quoted external dimensions alone cannot prove usable internal space. Use the <a href=\"/insights/measure-packaging-internal-external-dimensions\">internal and external dimension checklist</a> when reviewing the actual sample.</p><p>For this assembled-box scope, we would check how the divider stays in position, how boxes stack and where decorated surfaces touch. Removing protective material merely to meet a target carton size could change the acceptance of the presentation box. These are proposed checks, not completed project tests.</p><p>The <a href=\"/insights/rigid-gift-box-shipping-outer-carton\">rigid gift box outer-carton guide</a> covers the separate protection decisions. This cost review cannot establish transport performance or suitability for direct food contact.</p>"
+      ],
+      [
+        "Put both quotations on the same comparison sheet",
+        "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Inputs to confirm before choosing a packing option\" tabindex=\"0\"><table><caption>Inputs to confirm before choosing a packing option</caption><thead><tr><th scope=\"col\">Input</th><th scope=\"col\">What to record</th></tr></thead><tbody><tr><td>Comparable scope</td><td>Same set quantity, components, artwork and delivery scope; identify extras separately</td></tr><tr><td>Export pack</td><td>Cartons by size, pieces per carton, outside dimensions, gross weights and packing photos</td></tr><tr><td>Pallet or parcel arrangement</td><td>Loaded pallet size and weight where relevant; confirm handling constraints with the provider</td></tr><tr><td>Freight quotation</td><td>Service, route, quote date and validity, weight basis, minimums, surcharges and excluded costs</td></tr><tr><td>Destination work</td><td>Extra seconds per set, labour rate, consumables, bench space and storage</td></tr><tr><td>Approval record</td><td>Sample revision, demonstrated packing count, finish checks and transport assessment</td></tr></tbody></table></div><p>For early sizing, the <a href=\"/tools/box-size-calculator\">box size calculator</a> can help organise product and box measurements. It does not produce a verified export packing plan or freight quotation. Use measured packed cartons for the final comparison.</p><p>Choose the option with the lower complete cost only after it meets the agreed fit, finish and protection requirements. If the apparent saving depends on an untested carton count or unavailable destination labour, keep it provisional.</p><p>Keep manufacturing price separate in the comparison sheet. The <a href=\"/insights/custom-packaging-cost-guide\">custom packaging cost breakdown</a> covers material, finishing and setup costs beyond this shipping decision.</p>"
+      ],
+      [
+        "Evidence and project status",
+        "<p>The case is based on an MTT packaging quotation dated 6 October 2026. The source describes packing allowances and sea/air budgets subject to actual packing, carrier acceptance and final rates. Customer identifiers and commercial pricing are withheld. The quotation is evidence of the proposed scope, not production approval or delivery.</p><p>Official carrier guidance checked on 24 October 2026: <a href=\"https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html\">[1] FedEx: What is dimensional weight?</a>; <a href=\"https://dct.dhl.com/help\">[2] DHL: About weight</a>. These sources support the charging explanation, not the project’s estimated weights or packing feasibility. The current documented outcome is a cost-planning basis with outstanding checks; no realised freight saving is claimed.</p>"
+      ]
+    ],
+    "cta": "Send the box quantity, current packing photos, carton dimensions and gross weights, insert details, destination and available assembly setup. MTT can review packing alternatives and identify which measurements and sample checks are needed before a freight comparison.",
     "append": false,
-    "seoTitle": "Rigid Box Shipping Costs: Compare CBM, Packing and Assembly | MTT"
+    "seoTitle": "Reduce Rigid Box Shipping Costs: MTT Quotation Case | MTT"
   },
   "packaging-inserts-for-handmade-glass-products": {
     "angle": "Design Analysis",
