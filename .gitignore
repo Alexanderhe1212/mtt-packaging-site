@@ -51,3 +51,6 @@ node_modules.pre-studio/
 # Public studio artifacts are generated from tools/packaging-studio during builds.
 /public/tools/gift-box-solution-builder/app.html
 /public/tools/gift-box-solution-builder/LICENSES.txt
+
+# Code-split studio assets are generated and copied by build:studio.
+/public/tools/gift-box-solution-builder/assets/

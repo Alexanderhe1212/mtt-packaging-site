@@ -1,5 +1,7 @@
 # MTT website audit — 25 October 2026
 
+Follow-up: the dependency alerts and remaining studio performance issue recorded below are addressed in the [dated dependency/performance report](dependency-performance-followup-2026-10-25.md). The original measurements below remain as historical evidence.
+
 Scope: the current GitHub Pages static website, its source and release pipeline. Baseline revision: `09d2ab42e856f27f8ce4a0a1985df7dcbc644a22`. Private crawl logs, screenshots and test receipts are retained in the operations evidence directory, outside this public repository.
 
 ## Reproduced defects and fixes

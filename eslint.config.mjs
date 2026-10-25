@@ -12,11 +12,11 @@ const eslintConfig = defineConfig([
     files: [
       'components/{CalcQuoteSummary,CookieConsent,LanguagePicker,ProductCatalogue,QuoteForm}.tsx',
       'tools/packaging-studio/app/StudioApp.tsx',
-      'tools/packaging-studio/app/components/{BoxThumbnail,FoldingPreview}.tsx',
+      'tools/packaging-studio/app/components/{DynamicBoxThumbnail,FoldingPreview}.tsx',
     ],
     rules: { 'react-hooks/set-state-in-effect': 'warn' },
   },
-  globalIgnores(['.next/**', 'dist/**', '.studio-build/**', 'out/**', 'build/**', 'next-env.d.ts']),
+  globalIgnores(['.next/**', 'dist/**', '.studio-build/**', 'public/tools/gift-box-solution-builder/assets/**', 'out/**', 'build/**', 'next-env.d.ts']),
 ]);
 
 export default eslintConfig;
