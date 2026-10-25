@@ -1,0 +1,40 @@
+{
+  "slug": "paper-gsm-vs-board-thickness",
+  "number": "55",
+  "angle": "Material Specification",
+  "image": "/design/customization/greyboard.webp",
+  "imageAlt": "Illustration of greyboard sheets beside green wrapping paper; not a photograph or thickness measurement of the quoted MTT project",
+  "title": "Paper GSM vs Board Thickness: An MTT Quotation Case",
+  "seoTitle": "Paper GSM vs Board Thickness: MTT Box Case | MTT",
+  "summary": "An MTT chocolate-box quotation shows why paper GSM cannot establish board thickness, divider fit or usable space. See what to confirm before sampling.",
+  "intro": "Paper GSM measures mass per area; thickness measures the distance between the sheet surfaces. They answer different buying questions. In an MTT chocolate-box quotation, three components had separate GSM specifications, while their thicknesses and final product fit still needed confirmation. For a rigid box, request the grade and measured caliper of each component, then check the assembled sample with the actual contents. A GSM-to-millimetre conversion alone cannot approve the fit.",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "faq": [],
+  "sections": [
+    [
+      "The MTT case: three materials, three separate specifications",
+      "<p>An anonymised MTT quotation dated 6 October 2026 describes a book-style hinged rigid box for 24 chocolates in a 6 × 4 arrangement. The quoted external dimensions were 240 × 170 × 35 mm. The material lines distinguish the printed wrap, structural board and lattice insert:</p><table class=\"comparison-table\"><thead><tr><th>Component</th><th>Documented quotation specification</th><th>Still to confirm</th></tr></thead><tbody><tr><td>Printed wrap</td><td>180 gsm C2S art paper; CMYK printing and anti-scratch matte lamination</td><td>Actual paper grade and finished layer thickness</td></tr><tr><td>Structural board</td><td>1200 gsm one-side-white greyboard</td><td>Board caliper and construction details</td></tr><tr><td>Lattice insert</td><td>350 gsm white paperboard</td><td>Caliper, slots, clear cavities and fit with chocolate cases</td></tr></tbody></table><p><strong>Project stage:</strong> this is a quotation record, not a completed production or performance-test report. Final dieline, closure and product fit required approval. No measured thickness or sample acceptance is established by this record. The illustration above is a general material illustration, not a photograph of this project.</p>"
+    ],
+    [
+      "What GSM and thickness tell a packaging buyer",
+      "<p>GSM means grams per square metre, written g/m². It describes how much a given area weighs. Caliper describes sheet thickness, normally recorded in micrometres (µm) or millimetres (mm). ISO treats them as separate measurements: <a href=\"https://www.iso.org/standard/77583.html\">ISO 536 covers grammage</a>, while <a href=\"https://www.iso.org/standard/53060.html\">ISO 534 covers thickness, density and specific volume</a>.</p><p>The missing link in a universal conversion is the material's density or bulk. Papers with different fibre structures, coatings and compression can have different calipers at the same grammage. A quoted 1200 gsm greyboard therefore does not establish a specific millimetre thickness. Adding 180 gsm wrap to 1200 gsm board does not calculate finished wall thickness either.</p><p>For the broader choice of structural board and decorative wrap, use the <a href=\"/insights/packaging-material-selection\">board and wrapping-paper guide</a>. This article addresses the narrower measurement problem.</p>"
+    ],
+    [
+      "Use a named grade data sheet, not a universal conversion chart",
+      "<p>Holmen's published <a href=\"https://www.holmen.com/en/board-and-paper/products/paperboard/invercote/invercote-g/\">Invercote G technical data sheet</a> lists 350 g/m² at a nominal thickness of 465 µm, or 0.465 mm. It gives separate grammage and thickness tolerances of ±4%, with ISO 536 and ISO 534 as the respective methods. These are supplier specifications, checked on 25 October 2026.</p><p>That figure belongs to Invercote G. The MTT quotation says only “350 gsm white paperboard” for the lattice; it does not identify Invercote G. We cannot assign 0.465 mm to the quoted insert or claim that this paper grade was used. The useful next step is to obtain the selected grade's own data sheet and confirm the sample material.</p><p>Keep both nominal caliper and the agreed tolerance in the specification. A nominal value helps start the design; sample measurements and fit checks decide whether that design works.</p>"
+    ],
+    [
+      "Why the distinction matters in this 24-cavity box",
+      "<p><strong>External size does not give usable space.</strong> The 240 × 170 × 35 mm figures describe the quoted outside dimensions. The internal space depends on the board, wrap, lining, joints and closure construction. Subtracting an assumed greyboard thickness would create an unverified cavity size. See how to specify <a href=\"/insights/measure-packaging-internal-external-dimensions\">internal and external packaging dimensions</a>.</p><p><strong>Divider thickness occupies space across the grid.</strong> The record mentions approximately 35 mm square cavities as a customer suggestion, with final clear dimensions still subject to approval. For a 6 × 4 layout, specify whether a dimension refers to the clear opening or divider spacing. A change in divider caliper can affect several openings and slot joints. Check the layout as a complete assembly rather than approving one loose strip.</p><p><strong>The wrapped chocolate needs its own clearance.</strong> The quotation calls for checking pieces or cases approximately 30 mm in size. The paper case, loading orientation and lid clearance still matter. A heavier insert is not evidence that the product will fit or be easier to remove.</p>"
+    ],
+    [
+      "A material confirmation checklist before sampling",
+      "<ol><li><strong>Name each component.</strong> Keep structural greyboard, outer wrap, lining and insert on separate specification lines.</li><li><strong>Record grade, GSM and caliper.</strong> Identify the supplier's grade and agreed thickness tolerance. Mark missing measurements as pending.</li><li><strong>Define where dimensions are measured.</strong> Separate external box size, clear internal space, divider pitch and clear cavity size.</li><li><strong>Measure and assemble the selected materials.</strong> Agree the measurement method and conditions. A quick workshop reading should not be presented as an ISO test unless the specified method was followed.</li><li><strong>Load the actual contents.</strong> Check all positions with the intended chocolate cases, close the lid, and review loading and removal. Record changes before approving the final dieline.</li><li><strong>Keep a revision reference.</strong> Link the material specification, drawing and approved sample. If the grade or caliper changes, review affected fit and construction before substituting it.</li></ol><p>These are proposed approval checks for this quotation-stage case, not a claim that MTT has already performed them. The <a href=\"/insights/custom-packaging-sampling-process\">sample approval guide</a> explains the wider approval sequence.</p>"
+    ],
+    [
+      "Send a material specification for review",
+      "<p>Send the quoted board and paper grades, GSM values, any measured calipers, the box drawing and product dimensions with their cases or wrappers. MTT can review which material and fit details need confirmation before developing a sample. Include the intended quantity and whether the dimensions are internal or external.</p><p><a href=\"/request-a-quote\">Request a board and box-fit specification review</a>.</p>"
+    ]
+  ]
+}

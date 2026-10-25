@@ -37,7 +37,7 @@
     "title": "Choosing Board and Wrapping Paper for a Premium Box",
     "summary": "Choose rigid-box board and wrapping paper by span, fit, finish and sample performance instead of thickness or price alone.",
     "intro": "Select the structural board and visible paper separately. The board must suit the box span, contents and opening; the wrap must suit the colour, touch and finishing you want. Compare samples of the complete combination. A heavier board or a textured paper can introduce new folding, wrapping and fit problems rather than automatically improving a premium box.",
-    "dateModified": "2026-09-15",
+    "dateModified": "2026-10-25",
     "faq": [],
     "sections": [
       [
@@ -59,6 +59,10 @@
       [
         "Choose what the sample needs to prove",
         "Compare corner wrapping, lid fit, rub marks and foil detail using the intended contents. If changing the wrap changes friction, repeat the opening check. For terminology across cartons and corrugated packs, use the <a href=\"/insights/packaging-materials-guide\">material specification guide</a>."
+      ],
+      [
+        "Check GSM and thickness separately",
+        "A quoted paper weight does not establish its caliper or the finished internal space. The <a href=\"/insights/paper-gsm-vs-board-thickness\">MTT quotation case on paper GSM and board thickness</a> shows which measurements to confirm for a rigid box with a lattice insert."
       ]
     ],
     "cta": "Send the box structure, product weight and two material references. MTT can compare a practical board-and-wrap combination for sampling.",
