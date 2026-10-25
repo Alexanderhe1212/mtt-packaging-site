@@ -19,7 +19,10 @@
     "audit:catalogue": "node scripts/check-catalogue-browser.mjs",
     "check:article-layout": "node scripts/check-article-layout.mjs",
     "build:studio": "node scripts/build-packaging-studio.mjs",
-    "check:studio": "node --test scripts/packaging-studio.test.mjs"
+    "check:studio": "node --test scripts/packaging-studio.test.mjs",
+    "check:types": "tsc --noEmit --incremental false",
+    "audit:studio": "node scripts/check-studio-browser.mjs",
+    "generate:studio-thumbnails": "node scripts/generate-studio-thumbnails.mjs"
   },
   "dependencies": {
     "i18next": "^26.4.2",

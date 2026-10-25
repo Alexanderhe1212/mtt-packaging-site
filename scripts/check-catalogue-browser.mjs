@@ -61,6 +61,14 @@ try {
   await page.goto(back,{waitUntil:'networkidle0'});
   await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.family===family).length);
  }
+ // A two-column product template previously squeezed these paragraphs below 180px on tablets.
+ for(const width of [768,900]){
+  await page.setViewport({width,height:900});
+  await page.goto(base+'/products/haircare-gift-ritual-hexagonal/',{waitUntil:'networkidle0'});
+  const cramped=await page.$$eval('.purchase-guide p,.product-accessories p',es=>es.filter(e=>e.getBoundingClientRect().width<180).length);
+  assert.equal(cramped,0,'Cramped product instructions at '+width);
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ }
  assert.deepEqual(errors,[]);
 } finally {await browser.close();fs.mkdirSync('work/growth',{recursive:true});fs.writeFileSync('work/growth/v12-browser.json',JSON.stringify({results,errors},null,2));}
 console.log('Catalogue EN/ZH at 390/1440: comparison, all family filters, no-results/reset; four product galleries and quote links; axe checks passed.');

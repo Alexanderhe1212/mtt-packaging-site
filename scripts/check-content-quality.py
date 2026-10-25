@@ -1,5 +1,6 @@
 """Regression checks for the reviewed article set. Editorial scores are not computed here."""
 import json,re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
@@ -46,6 +47,9 @@ reviews=[r for r in reviews if r['slug'] not in currentSlugs]+currentReviews
 latestReviews=json.loads(Path('docs/research/content-quality-review-2026-10-24.json').read_text())
 latestSlugs={r['slug'] for r in latestReviews}
 reviews=[r for r in reviews if r['slug'] not in latestSlugs]+latestReviews
+gsmGuide=json.loads(Path('lib/gsm-thickness-guide-october-25.json').read_text())
+updates[gsmGuide['slug']]=gsmGuide
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-25.json').read_text())
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)
@@ -59,6 +63,12 @@ class Page(HTMLParser):
   if t in ['script','style']:self.hidden-=1
  def handle_data(self,d):
   if not self.hidden:self.text.append(d)
+published_slugs = {
+ unquote(urlsplit(n.text).path).removeprefix('/insights/')
+ for n in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+ if urlsplit(n.text).path.startswith('/insights/')
+}
+assert set(updates) == published_slugs, ('Published guides missing content review coverage', sorted(published_slugs-set(updates)), 'Unpublished reviewed guides', sorted(set(updates)-published_slugs))
 assert len(updates)>=32
 assert len({a['title'] for a in updates.values()})==len(updates)
 assert len({a['summary'] for a in updates.values()})==len(updates)

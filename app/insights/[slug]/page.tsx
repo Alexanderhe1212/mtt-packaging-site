@@ -67,7 +67,7 @@ export default async function InsightPage({
       breadcrumb([["Home", "/"], ["Insights", "/insights"], [article.title, `/insights/${article.slug}`]]),
       ...("faq" in article && article.faq?.length ? [{
         "@type": "FAQPage",
-        mainEntity: article.faq.map(([q, a]: readonly [string, string]) => ({
+        mainEntity: article.faq.map(([q, a]: readonly string[]) => ({
           "@type": "Question",
           name: q,
           acceptedAnswer: { "@type": "Answer", text: a },

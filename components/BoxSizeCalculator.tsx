@@ -122,7 +122,7 @@ export default function BoxSizeCalculator() {
     if (!result) return;
     try {
       sessionStorage.setItem('mtt_studio_handoff_v1', JSON.stringify({...buildHandoffData(),productLength:fields.length,productWidth:fields.width,productHeight:fields.height,internalL:String(result.internal.l),internalW:String(result.internal.w),internalH:String(result.internal.h)}));
-      window.location.href = '/tools/gift-box-solution-builder?source=calculator';
+      window.location.assign('/tools/gift-box-solution-builder?source=calculator');
     } catch {
       setError('Your browser could not transfer this plan. Copy the dimensions, then open Design Your Box from Tools.');
     }
@@ -169,7 +169,7 @@ export default function BoxSizeCalculator() {
     setCbmResult(null); setCbmError(null);
   }, []);
 
-  const buildHandoffData = (): CalcHandoff => {
+  function buildHandoffData(): CalcHandoff {
     if (!result) throw new Error('No result');
     const base = buildHandoff(fields, result);
     if (sheetResult) {
@@ -213,7 +213,7 @@ export default function BoxSizeCalculator() {
     try {
       sessionStorage.setItem(CALC_HANDOFF_KEY, JSON.stringify(handoff));
     } catch {}
-    window.location.href = '/request-a-quote?source=calculator';
+    window.location.assign('/request-a-quote?source=calculator');
   }, [result, fields, sheetResult, cbmResult, unit, cartonUnit, sheetW, sheetH, dieW, dieH, cartonL, cartonW, cartonH, numCartons]);
 
   // Sheet layout handler
@@ -256,7 +256,7 @@ export default function BoxSizeCalculator() {
     setCbmResult(calculateCbm({ cartonL: cl, cartonW: cw, cartonH: ch, cartonUnit, numCartons: nc }));
   }, [cartonL, cartonW, cartonH, cartonUnit, numCartons]);
 
-  const getQuantityNumber = (): string => {
+  function getQuantityNumber(): string {
     if (!fields.quantity) return '';
     const match = fields.quantity.match(/[\d,]+/);
     if (!match) return '';

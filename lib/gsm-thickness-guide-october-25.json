@@ -31,10 +31,7 @@
     [
       "A material confirmation checklist before sampling",
       "<ol><li><strong>Name each component.</strong> Keep structural greyboard, outer wrap, lining and insert on separate specification lines.</li><li><strong>Record grade, GSM and caliper.</strong> Identify the supplier's grade and agreed thickness tolerance. Mark missing measurements as pending.</li><li><strong>Define where dimensions are measured.</strong> Separate external box size, clear internal space, divider pitch and clear cavity size.</li><li><strong>Measure and assemble the selected materials.</strong> Agree the measurement method and conditions. A quick workshop reading should not be presented as an ISO test unless the specified method was followed.</li><li><strong>Load the actual contents.</strong> Check all positions with the intended chocolate cases, close the lid, and review loading and removal. Record changes before approving the final dieline.</li><li><strong>Keep a revision reference.</strong> Link the material specification, drawing and approved sample. If the grade or caliper changes, review affected fit and construction before substituting it.</li></ol><p>These are proposed approval checks for this quotation-stage case, not a claim that MTT has already performed them. The <a href=\"/insights/custom-packaging-sampling-process\">sample approval guide</a> explains the wider approval sequence.</p>"
-    ],
-    [
-      "Send a material specification for review",
-      "<p>Send the quoted board and paper grades, GSM values, any measured calipers, the box drawing and product dimensions with their cases or wrappers. MTT can review which material and fit details need confirmation before developing a sample. Include the intended quantity and whether the dimensions are internal or external.</p><p><a href=\"/request-a-quote\">Request a board and box-fit specification review</a>.</p>"
     ]
-  ]
+  ],
+  "cta": "Send the quoted board and paper grades, GSM values, measured calipers, box drawing and product dimensions with their wrappers or cases. MTT can identify the material and fit details to confirm before sampling. Include quantity and whether dimensions are internal or external."
 }

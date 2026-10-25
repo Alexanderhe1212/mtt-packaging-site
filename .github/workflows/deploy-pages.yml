@@ -33,7 +33,35 @@ jobs:
         run: |
           npm ci --no-audit --no-fund
           npm run build
+          npm run check:types
+          npm run lint
           npm run check:release
+      - name: Verify interactive buyer flows
+        env:
+          MTT_TEST_ORIGIN: http://127.0.0.1:4217
+        run: |
+          python3 -m http.server 4217 --bind 127.0.0.1 --directory dist/client > /tmp/mtt-qa-server.log 2>&1 &
+          qa_server_pid=$!
+          trap 'kill "$qa_server_pid"' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4217/ > /dev/null; then break; fi
+            sleep 1
+          done
+          npm run audit:enquiry
+          npm run audit:guides
+          npm run audit:catalogue
+          npm run audit:studio
+      - name: Audit performance and accessibility
+        run: npm run audit:site
+      - name: Save website audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-audit-reports
+          path: |
+            qa/lighthouse-report
+            work/growth/v12-browser.json
+          if-no-files-found: ignore
       - name: Prepare static website
         run: |
           mkdir -p _site

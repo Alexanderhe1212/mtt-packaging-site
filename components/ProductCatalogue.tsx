@@ -12,8 +12,8 @@ const catalogueProducts=[...mixed];
 displayOrder.forEach((code,i)=>{const p=products.find(p=>p.code===code);if(p)catalogueProducts.splice(i*7,0,p)});
 export default function ProductCatalogue({zh=false}:{zh?:boolean}){
  const [family,setFamily]=useState('rigid');
- useEffect(()=>{const params=new URLSearchParams(location.search),f=params.get('family'),s=params.get('structure');if(['rigid','carton','corrugated','bag'].includes(f||''))setFamily(f!);if(structures.some(item=>item.id===s))setStructure(s!)},[]);
  const [query,setQuery]=useState(''),[category,setCategory]=useState(''),[structure,setStructure]=useState(''),[wrap,setWrap]=useState('');
+ useEffect(()=>{const params=new URLSearchParams(location.search),f=params.get('family'),s=params.get('structure');if(['rigid','carton','corrugated','bag'].includes(f||''))setFamily(f!);if(structures.some(item=>item.id===s))setStructure(s!)},[]);
  const found=catalogueProducts.filter(p=>(!family||p.family===family)&&(!category||p.category===category)&&(!structure||p.structure===structure)&&(!wrap||p.wrap===wrap)&&[p.name,p.nameZh,p.code,p.categoryName,p.categoryZh,p.structureName,p.structureZh,p.material,p.materialZh,p.wrap,p.wrapZh,p.finish,p.finishZh].join(' ').toLowerCase().includes(query.toLowerCase().trim()));
  return <>
  <div className="product-categories product-family-tabs" role="group" aria-label={zh?'包装大类':'Packaging families'}>{[['','All packaging','全部包装'],['rigid','Rigid gift boxes','精品硬盒'],['carton','Folding cartons','卡纸盒'],['corrugated','Corrugated boxes','瓦楞盒'],['bag','Paper bags','手提袋']].map(([id,en,cn])=><button key={id} aria-pressed={family===id} onClick={()=>{setFamily(id);setCategory('');setStructure('');setWrap('')}}>{zh?cn:en}</button>)}</div>

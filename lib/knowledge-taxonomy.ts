@@ -64,7 +64,8 @@ export const knowledgeTopics = [
       "sustainable-luxury-packaging-boxes-approval",
       "ppwr-packaging-requirements",
       "fsc-certified-custom-packaging-buyers-guide",
-      "gmi-printing-certification-packaging-colour-control"
+      "gmi-printing-certification-packaging-colour-control",
+      "paper-gsm-vs-board-thickness"
     ]
   },
   {

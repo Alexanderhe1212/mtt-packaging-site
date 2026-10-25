@@ -1,4 +1,5 @@
 // Physical dimensions are stored in millimetres; display units never reinterpret them.
+/** @type {Array<'length' | 'width' | 'height'>} */
 export const AXES = ['length', 'width', 'height'];
 export const FACTORS = {mm: 1, cm: 10, inch: 25.4};
 export const DESIGN_HANDOFF_KEY = 'mtt_studio_handoff_v1';
@@ -9,10 +10,12 @@ export function normalizeSizePlan(p = {}) {
  const s = p.sizePlan || {};
  return {mode: s.mode === 'product' ? 'product' : 'box', unit: Object.hasOwn(FACTORS, s.unit) ? s.unit : 'mm', clearanceMm: Number.isFinite(s.clearanceMm) && s.clearanceMm >= 0 && s.clearanceMm <= 500 ? s.clearanceMm : (p.thresholds?.paddingMm ?? 5)};
 }
+/** @returns {Record<'length' | 'width' | 'height' | 'clearance', string>} */
 export function draftFromProject(p) {
  const s=normalizeSizePlan(p), d=s.mode==='product'?p.product.dimensions:p.dimensions, factor=FACTORS[s.unit];
  return {...Object.fromEntries(AXES.map(k=>[k,displayNumber(d[k]/factor)])),clearance:displayNumber(s.clearanceMm/factor)};
 }
+/** @returns {{error:string, dimensions?:never, productDimensions?:never, clearanceMm?:never} | {error?:never, dimensions:Record<'length'|'width'|'height',number>, productDimensions:Record<'length'|'width'|'height',number>|null, clearanceMm:number}} */
 export function planSize(draft, mode, unit) {
  const factor=FACTORS[unit];
  if(!factor)return {error:'Choose a supported unit.'};
