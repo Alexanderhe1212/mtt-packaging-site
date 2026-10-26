@@ -59,11 +59,11 @@ try{
  }
  // Exercise the real chatbot UI: HTTP 200 alone must not count as acceptance.
  await page.goto(base+'/request-a-quote/',{waitUntil:'networkidle0'});
- const clickChat=async text=>{await page.waitForFunction(text=>[...document.querySelectorAll('.chatbot-widget button,.hugo-widget button')].some(e=>e.textContent.trim()===text),{},text);await page.evaluate(text=>[...document.querySelectorAll('.chatbot-widget button,.hugo-widget button')].find(e=>e.textContent.trim()===text).click(),text)};
+ const clickChat=async text=>{await page.waitForFunction(text=>[...document.querySelectorAll('.chatbot-widget button,.hugo-widget button')].some(e=>e.textContent.trim()===text&&!e.disabled),{},text);await page.evaluate(text=>[...document.querySelectorAll('.chatbot-widget button,.hugo-widget button')].find(e=>e.textContent.trim()===text&&!e.disabled).click(),text)};
  await page.click('[aria-label="Talk to Hugo"]');await clickChat('Help me get started →');await clickChat('Start Project Check');
  await clickChat('Custom Rigid Box');await clickChat('1,000–4,999 pcs');await clickChat('Not Sure Yet');
  await page.waitForSelector('.chatbot-input');await page.type('.chatbot-input','United Kingdom');await clickChat('Continue');await clickChat('Need a Physical Sample');
- await page.waitForSelector('input[placeholder="Your name"]');await page.type('input[placeholder="Your name"]','Local chat test');await clickChat('Continue');
+ await page.waitForSelector('.chatbot-widget input[placeholder="Your name"]');await page.type('.chatbot-widget input[placeholder="Your name"]','Local chat test');await clickChat('Continue');
  await page.waitForSelector('.chatbot-input[type=email]');await page.type('.chatbot-input[type=email]','local-test@example.com');await clickChat('Continue');await clickChat('Skip');
  accept=false;forceHttpSuccess=true;await clickChat('Submit Enquiry');
  await page.waitForFunction(()=>[...document.querySelectorAll('.chatbot-widget button')].some(e=>e.textContent.trim()==='Try Again'));

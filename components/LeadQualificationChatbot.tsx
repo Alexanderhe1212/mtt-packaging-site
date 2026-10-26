@@ -210,8 +210,8 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
         },
         body: JSON.stringify(payload),
       });
-      const result = await res.json();
-      if (res.ok && result?.ok === true) {
+      const result: unknown = await res.json();
+      if (res.ok && result && typeof result === 'object' && 'ok' in result && result.ok === true) {
         trackEvent('chatbot_submitted');
         setStep('success');
       } else {
