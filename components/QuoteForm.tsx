@@ -30,7 +30,10 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
     if (!form.reportValidity()) return;
     pending.current = true; setBusy(true); setError('');
     try {
-      const response = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+      const payload = new FormData(form);
+      if (!payload.get('lead_source')) payload.set('lead_source', location.pathname === '/' ? 'homepage_quote' : 'quote_page');
+      payload.set('submission_page', location.pathname);
+      const response = await fetch(form.action, { method: 'POST', body: payload, headers: { Accept: 'application/json' } });
       const result = await response.json();
       if (!response.ok || !result || typeof result !== "object" || !("ok" in result) || result.ok !== true) throw new Error('Request not accepted');
       if (form.querySelector('[name=calculator_summary]')) {
