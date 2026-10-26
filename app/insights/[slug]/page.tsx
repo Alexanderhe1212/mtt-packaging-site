@@ -57,7 +57,7 @@ export default async function InsightPage({
         headline: article.title,
         description: article.summary,
         image: `${siteUrl}${caseStages[article.slug]?.image || article.image}`,
-        author: { "@id": `${siteUrl}/#organization` },
+        author: { "@type": "Person", "@id": `${siteUrl}/#hugo-he`, name: "Hugo He", jobTitle: "Custom Packaging Consultant", url: `${siteUrl}/about`, worksFor: { "@id": `${siteUrl}/#organization` } },
         publisher: { "@id": `${siteUrl}/#organization` },
         mainEntityOfPage: `${siteUrl}/insights/${article.slug}`,
         datePublished: article.datePublished,
@@ -89,7 +89,7 @@ export default async function InsightPage({
         </p>
         <h1>{article.title}</h1>
         <p className="section-kicker">Quick answer</p><p>{article.intro}</p>
-        <p className="article-byline">MTT Packaging editorial · Updated {article.dateModified} · <a href="/about">Packaging development &amp; manufacturing coordination</a></p>
+        <p className="article-byline">By <a href="/about">Hugo He</a> · Custom Packaging Consultant, MTT Packaging · Updated {article.dateModified}</p>
         {!caseStages[article.slug] && (
           <figure className="article-hero-figure">
             <img src={article.image} alt={article.imageAlt} width="900" height="600" />

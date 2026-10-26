@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Rigid Drawer Box Design: Fit, Insert and Ribbon Pull](https://mttpackaging.com/insights/drawer-box-clearance-ribbon-pull)
 - [Paper GSM vs Board Thickness: An MTT Quotation Case](https://mttpackaging.com/insights/paper-gsm-vs-board-thickness)
 - [E Flute vs B Flute: Choosing a Corrugated Box for Fragile Products](https://mttpackaging.com/insights/e-flute-vs-b-flute-corrugated-boxes)
 - [How to Choose a Shipping Carton for a Rigid Gift Box](https://mttpackaging.com/insights/rigid-gift-box-shipping-outer-carton)

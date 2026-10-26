@@ -50,6 +50,11 @@ reviews=[r for r in reviews if r['slug'] not in latestSlugs]+latestReviews
 gsmGuide=json.loads(Path('lib/gsm-thickness-guide-october-25.json').read_text())
 updates[gsmGuide['slug']]=gsmGuide
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-25.json').read_text())
+drawerGuide=json.loads(Path('lib/drawer-fit-guide-october-26.json').read_text())
+updates[drawerGuide['slug']]=drawerGuide
+currentReviews=json.loads(Path('docs/research/content-quality-review-2026-10-26.json').read_text())
+currentSlugs={r['slug'] for r in currentReviews}
+reviews=[r for r in reviews if r['slug'] not in currentSlugs]+currentReviews
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)
