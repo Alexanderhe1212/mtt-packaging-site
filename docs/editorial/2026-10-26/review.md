@@ -24,4 +24,4 @@ Before release: build, types, existing release/content rules, offline links, mob
 
 ## Author attribution
 
-At the owner’s request, all guide bylines identify Hugo He, Custom Packaging Consultant, MTT Packaging, matching the existing homepage identity. Article structured data uses the same Person identity. No portrait was added: the repository still records the real portrait as awaiting owner-provided material. Illustrations remain labelled and are not passed off as project photographs.
+At the owner’s request, all guide bylines identify Hugo He, Custom Packaging Consultant, MTT Packaging, matching the existing homepage identity. Article structured data uses the same Person identity. The owner confirmed the existing public introduction video as real personal material. The author portrait is a frame extracted at 2 seconds from public/video/hugo-intro.mp4, exported as a small WebP without changing facial features. Illustrations remain labelled and are not passed off as project photographs.
