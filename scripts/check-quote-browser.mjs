@@ -7,6 +7,7 @@ const base=process.env.MTT_TEST_ORIGIN||'http://127.0.0.1:4217';
 assert(['127.0.0.1','localhost'].includes(new URL(base).hostname),'Local test server required');
 const browser=await puppeteer.launch({executablePath:Launcher.getInstallations()[0],headless:true,args:['--no-sandbox']});
 const page=await browser.newPage();let submitted=0,accept=false,forceHttpSuccess=false;const submissionBodies=[],measurements=[];
+const runtimeErrors=[];page.on('pageerror',error=>runtimeErrors.push(error.message));
 await page.exposeFunction("qaMeasurement",entry=>measurements.push(entry));
 await page.evaluateOnNewDocument(()=>{
  localStorage.setItem("mtt_cookie_consent_v2","granted");
@@ -34,6 +35,14 @@ try{
   assert.equal(await page.$eval('[name=boxDimensions]',e=>e.value),'');
   assert.equal(await page.$('[name=calculator_summary]'),null,'unrelated stale calculator data must not attach');
  }
+ // URL-backed defaults must follow browser history without discarding current edits.
+ assert.equal(await page.$eval('[name=selected_accessories]',e=>e.value),'Greeting card, Ribbon');
+ await page.$eval('[name=selected_accessories]',e=>{const setter=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;setter.call(e,'Custom ribbon');e.dispatchEvent(new Event('input',{bubbles:true}))});
+ await page.evaluate(()=>{history.pushState({},'',location.pathname+'?product=Updated%20design&accessories=New%20insert');dispatchEvent(new PopStateEvent('popstate'))});
+ await page.waitForFunction(()=>document.querySelector('[name=selected_product]')?.value==='Updated design');
+ assert.equal(await page.$eval('[name=selected_accessories]',e=>e.value),'New insert');
+ await page.$eval('[name=selected_accessories]',e=>{const setter=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;setter.call(e,'');e.dispatchEvent(new Event('input',{bubbles:true}))});
+ assert.equal(await page.$eval('[name=selected_accessories]',e=>e.value),'','clearing an editable default must persist');
  await page.select('[name=packagingType]','Not sure - recommendation requested');
  await page.select('[name=quantity]','Not sure - planning stage');
  for(const [name,value] of Object.entries({name:'Local test',email:'local-test@example.com',country:'United Kingdom',artwork_url:'https://example.com/reference'}))await page.type(`[name=${name}]`,value);
@@ -72,5 +81,6 @@ try{
  assert.equal(measurements.filter(e=>e[0]==='event'&&e[1]==='chatbot_submitted').length,1);
  const chat=JSON.parse(submissionBodies.at(-1));assert.equal(chat.leadSource,'Website Chatbot');assert.equal(chat.email,'local-test@example.com');
  assert(!JSON.stringify(measurements.filter(e=>e[0]==='event')).includes('local-test@example.com'));
+ assert.deepEqual(runtimeErrors,[],'quote/chat flow must not produce runtime errors');
  console.log('Browser: four family prefills, stale calculator isolation, uncertain planning enquiry, artwork link, failure/retry, source fields, consented event triggers without enquiry email, accepted redirect, chatbot rejected-JSON/retry and 390/1280px layout pass. No live enquiry sent.');
 }finally{await browser.close()}

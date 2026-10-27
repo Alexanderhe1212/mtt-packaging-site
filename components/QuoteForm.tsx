@@ -1,8 +1,16 @@
 'use client';
-import { useEffect, useRef, useState, type ComponentProps } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore, type ComponentProps } from 'react';
 import {resources} from '../lib/locales/interface.mjs';
 import { trackEvent } from '../lib/analytics';
 import { CALC_HANDOFF_KEY } from '../lib/box-calculator';
+
+function subscribeSearch(listener: () => void) {
+  window.addEventListener('popstate', listener);
+  return () => window.removeEventListener('popstate', listener);
+}
+const readSearch = () => window.location.search;
+// Static HTML and its hydration render share an empty URL snapshot.
+const serverSearch = () => '';
 
 export default function QuoteForm({locale='en',...props}: ComponentProps<'form'> & {locale?:'en'|'zh'}) {
   const formRef = useRef<HTMLFormElement>(null);
@@ -12,11 +20,13 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
     const field=formRef.current?.elements.namedItem('packagingType') as HTMLSelectElement|null;
     if(field && !field.value && types[family]) field.value=types[family];
   },[]);
-  const [product,setProduct]=useState('');
- const [accessories,setAccessories]=useState('');
- const [hasAccessories,setHasAccessories]=useState(false);
- useEffect(()=>{const value=new URLSearchParams(location.search).get('accessories')?.slice(0,500)||'';setAccessories(value);setHasAccessories(Boolean(value))},[]);
-  useEffect(()=>{setProduct(new URLSearchParams(location.search).get('product')?.slice(0,250)||'')},[]);
+  const search = useSyncExternalStore(subscribeSearch, readSearch, serverSearch);
+  const params = new URLSearchParams(search);
+  const product = params.get('product')?.slice(0,250)||'';
+  const initialAccessories = params.get('accessories')?.slice(0,500)||'';
+  const [accessoryEdit,setAccessoryEdit] = useState<{search:string;value:string}|null>(null);
+  const accessories = accessoryEdit?.search === search ? accessoryEdit.value : initialAccessories;
+  const hasAccessories = Boolean(initialAccessories);
   const pending = useRef(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
@@ -48,7 +58,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
     }
   }}>
     {product && <label>{locale==='zh'?'所选产品':'Selected product'}<input name="selected_product" value={product} readOnly/></label>}
-    {hasAccessories && <label>{locale==='zh'?'所选配件（可修改）':'Selected accessories (editable)'}<input name="selected_accessories" value={accessories} onChange={e=>setAccessories(e.target.value)}/></label>}
+    {hasAccessories && <label>{locale==='zh'?'所选配件（可修改）':'Selected accessories (editable)'}<input name="selected_accessories" value={accessories} onChange={e=>setAccessoryEdit({search,value:e.target.value})}/></label>}
 {props.children}
     {busy && <p role="status">{resources[locale].translation.sending}</p>}
     {error && <p role="alert">{error}</p>}

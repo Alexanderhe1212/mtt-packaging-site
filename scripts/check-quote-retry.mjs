@@ -7,9 +7,9 @@ const source=fs.readFileSync('components/QuoteForm.tsx','utf8');
 const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX}}).outputText;
 async function scenario({ok=true,result={ok:true},networkError=false,attached=true,valid=true,path="/request-a-quote",leadSource=""}={}){
  const removed=[],redirects=[],events=[],requests=[];const exports={};
- const react={useEffect:()=>{},useRef:v=>({current:v}),useState:v=>[v,()=>{}]};
+ const react={useSyncExternalStore:(_subscribe,_read,serverRead)=>serverRead(),useEffect:()=>{},useRef:v=>({current:v}),useState:v=>[v,()=>{}]};
  const jsx=(type,props)=>({type,props});
- const context={exports,require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx}:name.includes('interface')?{resources:{en:{translation:{sendError:'failed'}}}}:name.includes('analytics')?{trackEvent:(...a)=>events.push(a)}:{CALC_HANDOFF_KEY:'mtt_calc_handoff'},
+ const context={exports,URLSearchParams,require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx}:name.includes('interface')?{resources:{en:{translation:{sendError:'failed'}}}}:name.includes('analytics')?{trackEvent:(...a)=>events.push(a)}:{CALC_HANDOFF_KEY:'mtt_calc_handoff'},
  sessionStorage:{removeItem:k=>removed.push(k)},location:{pathname:path,assign:v=>redirects.push(v)},FormData:class extends Map {constructor(){super(leadSource?[['lead_source',leadSource]]:[]) }},
  fetch:async(...args)=>{requests.push(args);if(networkError)throw new Error('offline');return {ok,json:async()=>result}}};
  vm.runInNewContext(compiled,context);
