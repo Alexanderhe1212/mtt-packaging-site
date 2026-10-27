@@ -58,6 +58,7 @@ export const knowledgeTopics = [
       "packaging-materials-guide",
       "packaging-material-selection",
       "printing-finishing-guide",
+      "packaging-artwork-dieline-preflight",
       "match-gold-foil-perfume-box-paper-bag",
       "molded-pulp-inserts-cosmetic-packaging",
       "recycled-vs-recyclable-packaging-boxes",
