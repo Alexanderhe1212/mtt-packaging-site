@@ -79,7 +79,7 @@ export default function AboutPage() {
           </p>
         </div>
         <img
-          src="/design/development-worktable.webp"
+          src="/design/development-worktable.webp" srcSet="/design/development-worktable-800.webp 800w, /design/development-worktable.webp 1440w" sizes="(max-width: 850px) 91vw, 46vw"
           alt="Illustrative packaging development still life with samples and materials"
           width="1200"
           height="900"

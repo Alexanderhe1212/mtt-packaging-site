@@ -59,7 +59,7 @@ export default function FoldingCartonsPage() {
           <h1>Custom Folding Cartons for Retail and E-Commerce</h1>
           <p>Premium paperboard cartons with specialty finishes, foil stamping and embossing. Efficient for storage, freight and high-volume production. Minimum order quantity is 1,000 pieces per design; final specifications affect the quotation.</p>
         </div>
-        <img src="/design/carton-editorial.webp" alt="Concept: ivory folding cartons" width="900" height="900" />
+        <img src="/design/carton-editorial.webp" srcSet="/design/carton-editorial-480.webp 480w, /design/carton-editorial-800.webp 800w, /design/carton-editorial.webp 1440w" sizes="(max-width: 850px) 91vw, 46vw" alt="Concept: ivory folding cartons" width="900" height="900" />
       </header><section className="catalogue-shell"><a className="button" href="/products?family=carton">View designs, materials &amp; details →</a></section>
       <section className="industry-section">
         <div>

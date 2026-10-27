@@ -42,7 +42,7 @@ export default function InsightsPage() {
           </p>
         </div>
         <img
-          src="/design/hero-editorial.webp"
+          src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1440w" sizes="(max-width: 850px) 91vw, 46vw"
           alt="Rigid presentation box design reference with a lifted lid"
           width="1800"
           height="1200"
