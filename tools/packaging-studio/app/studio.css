@@ -11,3 +11,6 @@
 
 /* Dialogs stay in the visible top of the embedded studio, not the centre of a long iframe. */
 .studio-modal{margin:24px auto;max-height:min(80vh,600px)}
+
+.quote-form-link{display:inline-block;padding:12px 0;margin-bottom:8px;text-underline-offset:4px}.quote-form{scroll-margin-top:20px}
+@media(max-width:700px){.size-panel{order:-1}.studio-header-actions{flex-wrap:wrap}.studio-header-actions button{min-height:44px}}
