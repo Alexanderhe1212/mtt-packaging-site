@@ -43,3 +43,15 @@ async function setChineseLang(dir){for(const entry of await readdir(dir,{withFil
 async function exists(file){try{await access(file);return true}catch{return false}}
 if(await exists('dist/client/zh')) await setChineseLang('dist/client/zh');
 if(await exists('dist/client/zh.html')) await writeFile('dist/client/zh.html',(await readFile('dist/client/zh.html','utf8')).replace('<html lang="en"','<html lang="zh-Hans"'));
+
+// GitHub Pages serves this exported document for missing URLs. Root metadata
+// describes the homepage and must not leak into the shared error document.
+const errorFile = 'dist/client/404.html';
+if (await exists(errorFile)) {
+  const html = await readFile(errorFile, 'utf8');
+  const cleaned = html
+    .replace(/<link\b[^>]*\brel="canonical"[^>]*>/gi, '')
+    .replace(/<meta\b[^>]*\bname="(?:robots|googlebot)"[^>]*>/gi, '')
+    .replace('</head>', '<meta name="robots" content="noindex, follow"/></head>');
+  await writeFile(errorFile, cleaned);
+}

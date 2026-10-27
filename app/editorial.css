@@ -320,3 +320,6 @@ body.mtt-editorial .ed-nav .ed-mobile-menu summary{white-space:nowrap}
 
 /* Keep product specifications readable on tablets before the two-column layout gets cramped. */
 @media(max-width:1000px){.product-detail{grid-template-columns:minmax(0,1fr);gap:24px}.product-gallery{position:static}}
+
+/* Give adjacent related-product links reliable finger targets on both locales. */
+.product-related-links a{display:inline-flex;align-items:center;min-height:44px;padding-block:8px;}

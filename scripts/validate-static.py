@@ -54,3 +54,8 @@ assert 'Isolated design preview' not in Path('public/tools/gift-box-solution-bui
 print(f'Checked {count} sitemap pages; {len(errors)} errors')
 for e in errors: print(e)
 assert not errors
+
+# Missing URLs must not inherit the homepage canonical or conflicting index directives.
+error_page=Page();error_page.feed((root/'404.html').read_text())
+assert not error_page.canonical, '404 must not canonicalize to the homepage'
+assert error_page.robots == ['noindex, follow'], ('404 robots conflict', error_page.robots)

@@ -69,6 +69,14 @@ try {
   assert.equal(cramped,0,'Cramped product instructions at '+width);
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  }
+ // Adjacent related-product links must remain usable finger targets in both locales.
+ await page.setViewport({width:390,height:900});
+ for(const prefix of ['', '/zh']){
+  await page.goto(base+prefix+'/products/perfume-and-refill-lift-off/',{waitUntil:'networkidle0'});
+  const targets=await page.$$eval('.product-related-links a',es=>es.map(e=>({height:e.getBoundingClientRect().height,width:e.getBoundingClientRect().width})));
+  assert(targets.length>0 && targets.every(t=>t.height>=44 && t.width>=24),'Related product touch targets: '+prefix);
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ }
  assert.deepEqual(errors,[]);
 } finally {await browser.close();fs.mkdirSync('work/growth',{recursive:true});fs.writeFileSync('work/growth/v12-browser.json',JSON.stringify({results,errors},null,2));}
 console.log('Catalogue EN/ZH at 390/1440: comparison, all family filters, no-results/reset; four product galleries and quote links; axe checks passed.');
