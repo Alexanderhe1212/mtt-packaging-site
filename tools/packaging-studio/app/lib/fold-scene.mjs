@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import {buildBox} from './packaging.mjs';
 const smooth=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t)};
 export function hingePlacement(parent,panel){
  const edge=panel.fold.edge;

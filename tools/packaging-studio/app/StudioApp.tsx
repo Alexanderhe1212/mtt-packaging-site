@@ -1,12 +1,12 @@
 import studioLogo from '../../../public/brand/mtt-gold-triangle.webp?url';
-import {lazy,Suspense,useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
+import {lazy,Suspense,useEffect,useMemo,useCallback,useRef,useState,type ReactNode} from 'react';
 import LazyBoundary from './components/LazyBoundary';
 const DesignStudio=lazy(()=>import('./components/DesignStudio'));
 const GiftBoxPreview=lazy(()=>import('./components/GiftBoxPreview'));
 import BoxThumbnail from './components/BoxThumbnail';
 import PackagingSet from './components/PackagingSet';
 import {buildBox} from './lib/packaging.mjs';
-import {STRUCTURES,MATERIALS,FINISHES,INSERTS,DISCLAIMER,sanitizeProject,parsePublicProject,exportPublicProject,preflight,historyPush,historyUndo,historyRedo} from './lib/solution-project.mjs';
+import {STRUCTURES,MATERIALS,FINISHES,INSERTS,sanitizeProject,parsePublicProject,exportPublicProject,preflight,historyPush,historyUndo,historyRedo} from './lib/solution-project.mjs';
 import {leadPayload,sendLead,whatsappURL,publicBrief,validateLead} from './lib/solution-lead.mjs';
 import {AXES,FACTORS,DESIGN_HANDOFF_KEY,dimensionText,displayNumber,draftFromProject,planSize,projectFromCalculator,validDimensions} from './lib/size-plan.mjs';
 
@@ -32,10 +32,10 @@ export default function StudioApp(){
  const sizeResult=planSize(draft,project.sizePlan.mode,project.sizePlan.unit), sizeError=sizeResult.error;
  const check=preflight(project), materials=MATERIALS.filter(m=>m.categories.includes(box.category));
  const unit=project.sizePlan.unit, mode=project.sizePlan.mode, unitLabel=unit==='inch'?'in':unit;
- const save=(p=project,explicit=false)=>{try{localStorage.setItem(STORE,JSON.stringify([sanitizeProject(p),...stored().filter(v=>v.id!==p.id)]));localStorage.setItem(ACTIVE,p.id);setSaveStatus('Saved on this device');if(explicit)setNotice('Project saved on this device. Export a project file to keep a separate copy.');return true}catch{setSaveStatus('Device storage is full or unavailable. Export your project to keep a copy.');return false}};
+ const save=useCallback((p=project,explicit=false)=>{try{localStorage.setItem(STORE,JSON.stringify([sanitizeProject(p),...stored().filter(v=>v.id!==p.id)]));localStorage.setItem(ACTIVE,p.id);setSaveStatus('Saved on this device');if(explicit)setNotice('Project saved on this device. Export a project file to keep a separate copy.');return true}catch{setSaveStatus('Device storage is full or unavailable. Export your project to keep a copy.');return false}},[project]);
  function update(patch:Partial<Project>|((current:Project)=>Partial<Project>)){if(pending.current)return;touched.current=true;setHistory(h=>{const next={...h.present,...(typeof patch==='function'?patch(h.present):patch),updatedAt:new Date().toISOString()};const pushed=historyPush(h,h.present,next);return {...pushed,past:pushed.past.slice(-40)}});setSent(false);setSendError('')}
  function load(p:Project){const next=sanitizeProject(p);touched.current=false;setHistory({past:[],present:next,future:[]});setDraft(draftFromProject(next));setDraftDirty(false);setStep(1);setSent(false);setSaveStatus('');setLibraryOpen(false);setNotice('Project opened. Review its dimensions before continuing.');}
- useEffect(()=>{if(!touched.current||sizeError)return;const timer=setTimeout(()=>save(),800);return()=>clearTimeout(timer)},[project,sizeError]);
+ useEffect(()=>{if(!touched.current||sizeError)return;const timer=setTimeout(()=>save(),800);return()=>clearTimeout(timer)},[project,sizeError,save]);
  useEffect(()=>{try{const raw=sessionStorage.getItem(DESIGN_HANDOFF_KEY);if(raw){const p=projectFromCalculator(JSON.parse(raw));setIncoming(sanitizeProject({...p,id:crypto.randomUUID(),name:'Calculator project'}));}}catch(e){setNotice(`Calculator data could not be loaded. ${(e as Error).message}`)}},[]);
  useEffect(()=>{if(window.parent===window)return;let timer:number;const report=()=>{cancelAnimationFrame(timer);timer=requestAnimationFrame(()=>window.parent.postMessage({source:'mtt-gift-builder',event:'resize',height:Math.ceil(document.documentElement.getBoundingClientRect().height)},location.origin))};const observer=new ResizeObserver(report);observer.observe(document.body);report();return()=>{observer.disconnect();cancelAnimationFrame(timer)}},[]);
  function go(next:number){if(pending.current)return;if(next>=2&&sizeError){setNotice('Complete the size fields before moving on.');setStep(1);return}if(!started.current){track('gift_builder_start');started.current=true}if(next===3)track('gift_builder_design_completed');setStep(next);setNotice('');window.scrollTo({top:0,behavior:'smooth'});if(window.parent!==window)window.parent.postMessage({source:'mtt-gift-builder',event:'step'},location.origin)}

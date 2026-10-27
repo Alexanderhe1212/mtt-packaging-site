@@ -1,5 +1,6 @@
-import {tr} from '../lib/tool-language.mjs';
 "use client";
+import {tr} from '../lib/tool-language.mjs';
+
 /* eslint-disable react-hooks/set-state-in-effect -- synchronize readiness/errors with the external WebGL renderer lifecycle */
 import {applyPreviewArtwork} from '../lib/preview-artwork';
 import {useEffect,useRef,useState} from 'react';

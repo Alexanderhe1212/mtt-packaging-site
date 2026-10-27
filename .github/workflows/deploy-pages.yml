@@ -65,11 +65,18 @@ jobs:
           if-no-files-found: ignore
       - name: Prepare static website
         run: |
+          previous_status=$(curl --silent --show-error --connect-timeout 10 --max-time 30 --retry 3 --output /tmp/mtt-previous-manifest.json --write-out '%{http_code}' "https://mttpackaging.com/indexnow-content-manifest.json?before=$GITHUB_SHA")
+          case "$previous_status" in
+            200) python3 -c "import runpy; runpy.run_path('scripts/indexnow-submit.py')['read_manifest']('/tmp/mtt-previous-manifest.json')" ;;
+            404) rm /tmp/mtt-previous-manifest.json ;;
+            *) echo "Cannot verify prior content baseline: HTTP $previous_status"; exit 1 ;;
+          esac
           mkdir -p _site
           cp -a dist/client/. _site/
           echo mttpackaging.com > _site/CNAME
           touch _site/.nojekyll
           echo "$GITHUB_SHA" > _site/deployment-revision.txt
+          python3 scripts/indexnow-submit.py --root _site --revision "$GITHUB_SHA" --require-baseline --write-manifest _site/indexnow-content-manifest.json --output /tmp/indexnow-preview.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -80,8 +87,9 @@ jobs:
 
       - name: Notify IndexNow after verified deployment
         run: |
-          git show HEAD^:mtt-packaging-edgeone.zip > /tmp/mtt-previous.zip
-          python3 scripts/indexnow-submit.py --root _site --previous /tmp/mtt-previous.zip --revision "$GITHUB_SHA" --submit --output /tmp/indexnow-result.json
+          baseline=()
+          if [ -f /tmp/mtt-previous-manifest.json ]; then baseline=(--previous-manifest /tmp/mtt-previous-manifest.json); fi
+          python3 scripts/indexnow-submit.py --root _site "${baseline[@]}" --require-baseline --revision "$GITHUB_SHA" --submit --output /tmp/indexnow-result.json
       - name: Save IndexNow receipt
         if: always()
         uses: actions/upload-artifact@v4

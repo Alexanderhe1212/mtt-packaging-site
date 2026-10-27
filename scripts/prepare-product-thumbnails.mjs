@@ -24,3 +24,7 @@ for(const p of products){
  if(!output||input.mtimeMs>output.mtimeMs||(await sharp(await fs.readFile(target)).metadata()).width!==320)await sharp(await fs.readFile(source)).resize({width:320,height:320,fit:'inside',withoutEnlargement:true}).webp({quality:85}).toFile(target);
 }
 console.log(`${products.length} responsive catalogue images prepared.`);
+
+// Small navigation marks retain the full-size source for larger placements.
+await fs.mkdir('public/brand/responsive',{recursive:true});
+for(const width of [54,108])await sharp(await fs.readFile('public/brand/mtt-gold-triangle.webp')).resize(width,width).webp({quality:88}).toFile(`public/brand/responsive/mtt-gold-triangle-${width}.webp`);

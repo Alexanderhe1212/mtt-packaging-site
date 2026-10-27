@@ -1,5 +1,6 @@
-import {tr} from '../lib/tool-language.mjs';
 "use client";
+import {tr} from '../lib/tool-language.mjs';
+
 /* eslint-disable @next/next/no-img-element -- local customer artwork */
 import {useState} from 'react';
 import {type GiftOptions} from './GiftBoxPreview';

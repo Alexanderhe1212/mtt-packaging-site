@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {planSize,draftFromProject,projectFromCalculator,FACTORS} from '../tools/packaging-studio/app/lib/size-plan.mjs';
+import {planSize,draftFromProject,projectFromCalculator} from '../tools/packaging-studio/app/lib/size-plan.mjs';
 import {sanitizeProject,parsePublicProject,exportPublicProject,preflight} from '../tools/packaging-studio/app/lib/solution-project.mjs';
 import {leadPayload,whatsappURL,validateLead,sendLead} from '../tools/packaging-studio/app/lib/solution-lead.mjs';
 const example={length:'180',width:'120',height:'50',clearance:'5'};

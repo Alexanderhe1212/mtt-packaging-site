@@ -21,3 +21,9 @@ for(const p of products){
 }
 assert(thumbnailBytes<originalBytes);
 console.log(`${products.reduce((n,p)=>n+(p.structure==='fold-flat'?6:5),0)} thumbnails and ${products.length*2} page references pass; ${Math.round(1000*(1-thumbnailBytes/originalBytes))/10}% smaller combined thumbnail payload.`);
+
+for(const width of [54,108]){
+ const file=`dist/client/brand/responsive/mtt-gold-triangle-${width}.webp`;
+ assert.equal((await sharp(file).metadata()).width,width);
+ assert((await fs.stat(file)).size<(await fs.stat('dist/client/brand/mtt-gold-triangle.webp')).size);
+}

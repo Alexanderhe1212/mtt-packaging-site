@@ -1,5 +1,6 @@
-import {tr} from '../lib/tool-language.mjs';
 "use client";
+import {tr} from '../lib/tool-language.mjs';
+
 import { useMemo,useState } from "react";
 import { bomRows,dielineSvg } from "../lib/visuals.mjs";
 import { buildBox } from "../lib/packaging.mjs";

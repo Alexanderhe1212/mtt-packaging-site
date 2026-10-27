@@ -242,21 +242,7 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
     setStep('packaging');
   }, []);
 
-  const handleStartOver = useCallback(() => {
-    setAnswers({
-      packaging: '',
-      quantity: '',
-      budget: '',
-      market: '',
-      stage: '',
-      name: '',
-      email: '',
-      details: '',
-    });
-    setInputValue('');
-    setEmailError('');
-    setStep('intro');
-  }, []);
+
 
   if (step === 'closed') {
     return <div data-clarity-mask="true"><HugoContactWidget hasIntroVideo={hasIntroVideo} whatsappNumber={WHATSAPP_NUMBER} onProjectCheck={openChat} /></div>;

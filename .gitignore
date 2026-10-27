@@ -54,3 +54,5 @@ node_modules.pre-studio/
 
 # Code-split studio assets are generated and copied by build:studio.
 /public/tools/gift-box-solution-builder/assets/
+
+/public/brand/responsive/

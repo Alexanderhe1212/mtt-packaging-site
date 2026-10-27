@@ -29,7 +29,6 @@ import {
   type SheetLayoutResult,
   type CbmResult,
   type PackagingType,
-  type InsertOption,
 } from '../lib/box-calculator';
 
 const EMPTY_FIELDS = {
@@ -197,7 +196,7 @@ export default function BoxSizeCalculator() {
     return base;
   };
 
-  const handleCopy = useCallback(() => {
+  const handleCopy = () => {
     if (!result) return;
     const handoff = buildHandoffData();
     const text = ['MTT Packaging Calculator', formatHandoffText(handoff)].join('\n');
@@ -205,19 +204,19 @@ export default function BoxSizeCalculator() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
-  }, [result, fields, sheetResult, cbmResult, unit, cartonUnit, sheetW, sheetH, dieW, dieH, cartonL, cartonW, cartonH, numCartons]);
+  };
 
-  const handleQuoteCta = useCallback(() => {
+  const handleQuoteCta = () => {
     if (!result) return;
     const handoff = buildHandoffData();
     try {
       sessionStorage.setItem(CALC_HANDOFF_KEY, JSON.stringify(handoff));
     } catch {}
     window.location.assign('/request-a-quote?source=calculator');
-  }, [result, fields, sheetResult, cbmResult, unit, cartonUnit, sheetW, sheetH, dieW, dieH, cartonL, cartonW, cartonH, numCartons]);
+  };
 
   // Sheet layout handler
-  const handleSheetCalc = useCallback(() => {
+  const handleSheetCalc = () => {
     const sw = num(sheetW), sh = num(sheetH), dw = num(dieW), dh = num(dieH);
     const qty = result ? parseInt(getQuantityNumber()) : 0;
     if (!isFinite(sw) || !isFinite(sh) || !isFinite(dw) || !isFinite(dh) || sw <= 0 || sh <= 0 || dw <= 0 || dh <= 0) {
@@ -236,7 +235,7 @@ export default function BoxSizeCalculator() {
     if (!res) {
       setSheetError('Dieline does not fit on the parent sheet in either orientation.');
     }
-  }, [sheetW, sheetH, dieW, dieH, fields.quantity, result]);
+  };
 
   // CBM handler
   const handleCbmCalc = useCallback(() => {
