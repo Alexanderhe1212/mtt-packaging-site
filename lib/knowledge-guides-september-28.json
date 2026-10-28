@@ -106,19 +106,27 @@
     "slug": "paper-bag-size-handles-load-check",
     "number": "44",
     "angle": "Packaging Buying Guide",
-    "title": "Custom Paper Bags: Size, Handles and Loaded Sample Checks",
-    "seoTitle": "Paper Bag Size & Handle Guide | MTT Packaging",
-    "summary": "Specify custom paper bags using the finished pack, carrying orientation and loaded weight. Compare handles, reinforcement and practical sample checks.",
+    "title": "Paper Bag Dimensions: Size, Handles and Sample Checks",
+    "seoTitle": "Paper Bag Dimensions: Size in mm & Inches | MTT",
+    "summary": "Measure paper bag width, gusset and height, convert mm to inches, and check usable space, handles and loaded samples before ordering custom bags.",
     "intro": "Size a custom paper bag around the finished contents in their carrying orientation, including tissue and accessories. Specify width, side gusset and height with a drawing. Choose handles and reinforcement around the loaded weight and intended use, then evaluate an assembled, loaded sample. Paper weight and a premium handle finish do not establish a safe carrying capacity by themselves.",
     "image": "/products/mtt-b0101-0.webp",
     "imageAlt": "Paper shopping bag design reference showing handles and a reinforced opening",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-10-28",
     "faq": [],
     "sections": [
       [
         "Measure the finished pack, not the product cavity",
         "<p>Use the external dimensions of the assembled box or the complete set that will enter the bag. Show its insertion orientation. For multiple items, document the arrangement rather than adding individual dimensions without accounting for their positions. Tissue, ribbons and protruding lids can change the clearance required.</p><p>Label width, gusset and height on the drawing. Ask whether the quoted dimensions are finished measurements and how they are checked. Leave handling clearance based on a physical trial; there is no single allowance that suits every stiff box, paper grade or presentation style. For coordinated fragrance sets, see <a href=\"/insights/perfume-box-and-bag-packaging\">box and bag planning</a>.</p>"
+      ],
+      [
+        "Paper bag size chart: label each measurement",
+        "<p>Use <strong>width × gusset × height</strong> in the purchase brief, with each axis labelled on the drawing. A size written as three numbers is easy to misread when another supplier uses a different order. Record the measurement basis as well as the units.</p><div class=\"knowledge-table\" tabindex=\"0\" role=\"region\" aria-label=\"Paper bag measurement chart; scroll horizontally on small screens\"><table><caption>Paper bag dimensions to confirm with the supplier</caption><thead><tr><th scope=\"col\">Dimension</th><th scope=\"col\">What to identify</th><th scope=\"col\">Fit check</th></tr></thead><tbody><tr><th scope=\"row\">Width</th><td>The front-face width, with reference edges marked.</td><td>Can the packed box pass through the opening without forcing it?</td></tr><tr><th scope=\"row\">Gusset</th><td>The side depth when the bag is opened for use.</td><td>Does the complete pack sit on the base without bowing the sides?</td></tr><tr><th scope=\"row\">Height</th><td>The bag body from the base to the top edge; record handles separately.</td><td>Do contents, tissue and closures leave the required space below the grip?</td></tr><tr><th scope=\"row\">Handle clearance</th><td>The usable space between the top edge and the grip.</td><td>Can a person carry the loaded sample comfortably?</td></tr></tbody></table></div><p>This is a measurement chart, not a stock-size catalogue. Names such as small, medium or large do not specify a fit. Ask for the actual dimensions and check usable space with the contents installed; top folds, reinforcement and handle attachments can interfere with insertion.</p>"
+      ],
+      [
+        "Convert paper bag dimensions between mm and inches",
+        "<p><strong>Inches = millimetres ÷ 25.4. Millimetres = inches × 25.4.</strong> NIST defines one inch as exactly 25.4 mm.<sup><a href=\"#paper-bag-source-1\">[1]</a></sup> Convert width, gusset and height separately, keeping the same order.</p><div class=\"knowledge-table\" tabindex=\"0\" role=\"region\" aria-label=\"Millimetre and inch conversion reference; scroll horizontally on small screens\"><table><caption>Unit conversion only — not recommended bag sizes</caption><thead><tr><th scope=\"col\">Millimetres</th><th scope=\"col\">Inches (rounded to two decimals)</th></tr></thead><tbody><tr><td>100 mm</td><td>3.94 in</td></tr><tr><td>200 mm</td><td>7.87 in</td></tr><tr><td>250 mm</td><td>9.84 in</td></tr><tr><td>300 mm</td><td>11.81 in</td></tr></tbody></table></div><p>Keep one agreed unit as the controlling dimension on the approved drawing. Mark the converted figures as reference values: rounding a conversion is not permission to change the size or its tolerance. Conversion also does not turn an external measurement into usable internal space. Use the <a href=\"/insights/measure-packaging-internal-external-dimensions\">internal and external dimension guide</a> when measuring the box that goes inside the bag.</p>"
       ],
       [
         "Select handles by use and attachment",
@@ -139,6 +147,10 @@
       [
         "Specify packing and the next purchasing step",
         "<p>Paper bags can arrive flattened, with handles arranged in different ways. Confirm the packing method, quantity per shipping carton and protection against surface marking. Check whether the receiving team can store the bags and prepare them without damaging handles or creases.</p><p>A carrying bag does not replace a parcel shipping system. Use <a href=\"/insights/corrugated-mailer-shipping-box-specification\">the corrugated transport-pack guide</a> when the contents will be sent by courier. For a reorder, preserve the approved construction and sample reference instead of ordering only by size and color. This article provides a project checklist; it does not claim an MTT load test or a universal carrying limit.</p>"
+      ],
+      [
+        "Source and measurement boundaries",
+        "<p id=\"paper-bag-source-1\">[1] <a href=\"https://www.nist.gov/pml/owm/si-units-length\">NIST: SI Units – Length</a>, checked 28 October 2026, supports the inch-to-millimetre conversion. The table values are calculated from that definition.</p><p>The measurement chart is a specification checklist, not a published MTT customer case, production drawing or load-test result. Confirm the bag construction, usable space and carrying performance on the agreed sample.</p>"
       ]
     ],
     "cta": "Send the finished contents, carrying orientation, total loaded weight, preferred handle, quantity and artwork. MTT can review bag dimensions, reinforcement choices and a loaded-sample evaluation brief."
