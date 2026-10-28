@@ -104,36 +104,46 @@
   },
   "custom-packaging-sampling-process": {
     "angle": "Process",
-    "title": "Packaging Sample Approval: What to Check Before Production",
-    "summary": "Review structural samples, colour proofs and finished packaging against a written approval list before releasing production.",
-    "intro": "Approve each packaging sample for a defined purpose. A plain structural sample can answer fit and opening questions; a colour proof answers print questions; an assembled sample in the intended materials brings them together. Record what is approved and what remains provisional. Do not let a good-looking prototype stand in for loaded fit checks or the agreed transport assessment.",
-    "dateModified": "2026-09-15",
+    "title": "Packaging Sample Approval: An MTT Drawer Box Checklist",
+    "summary": "Use a real MTT 24-truffle box quotation to build a packaging sample approval checklist for fit, liners, artwork and written production release.",
+    "intro": "A custom packaging sample approval checklist should identify the exact sample, the contents used for checking, the approved specification and every unresolved item. In an MTT quotation for a 24-truffle drawer box, the external size was recorded as 220 \u00d7 160 \u00d7 30 mm, but insert fit, liners, drawer clearance and decoration still needed approval. Those open decisions belong on the release record before production is authorized.",
+    "dateModified": "2026-10-28",
     "faq": [],
     "sections": [
       [
-        "Decide what this sample can establish",
-        "Ask how the sample was produced and where it differs from the intended production route. A hand-cut insert may demonstrate a layout while leaving production tolerances unresolved. A printed mock-up on substitute stock may show artwork placement without confirming colour or finish. List these differences on the sample record."
+        "Start with what the MTT record actually establishes",
+        "<p>Our 7 October 2026 quotation specified an assembled rigid drawer box with a sleeve, sliding tray and paperboard insert for 24 truffles. It also listed 157 gsm coated wrapping and lining paper, a 1200 gsm greyboard core, gloss lamination and a gold foil logo with embossing. These were the proposed specifications. The record required approval of the truffle dimensions, liners, insert fit, drawer clearance, fabric pull, colour and decoration artwork before production.</p><p>This is an anonymised quotation-stage case. The available evidence does not establish a finished sample, production approval or a passed transport test. The illustration above explains the drawer construction; it is not a photograph of this project.</p><p>The useful question is what the buyer would need to sign off next. A single overall approval would leave several different decisions hidden inside it.</p>"
       ],
       [
-        "Check the loaded box before the surface finish",
-        "Use the final product with cap, label and accessories. Check insertion, removal and closure without forcing a flap or pressing on the contents. Inspect the insert after removing the product: marking or movement may be hidden when loaded. Repeat with representative product variation rather than accepting a single unusually convenient fit."
+        "Build the sample approval checklist from the open decisions",
+        "<p>The checklist below is an editorial review plan derived from that quotation. Its final column states the evidence to request, not a result already obtained.</p><div class=\"knowledge-table-wrap\"><table class=\"knowledge-table\"><caption>Review plan for the quoted 24-truffle drawer box</caption><thead><tr><th scope=\"col\">Decision</th><th scope=\"col\">Recorded scope</th><th scope=\"col\">Evidence needed before release</th></tr></thead><tbody><tr><th scope=\"row\">Product fit</th><td>24 truffles; 220 \u00d7 160 \u00d7 30 mm outside</td><td>Loaded sample with agreed truffle dimensions and liners; usable space checked</td></tr><tr><th scope=\"row\">Insert and liners</th><td>Paperboard insert; grade and cavities pending</td><td>Identified insert specification and approved liner or barrier arrangement</td></tr><tr><th scope=\"row\">Drawer opening</th><td>Sleeve, tray and fabric pull</td><td>Loaded opening and removal checks; approved pull attachment</td></tr><tr><th scope=\"row\">Appearance</th><td>Gloss laminate; gold foil and emboss</td><td>Physical appearance reference linked to the artwork revision</td></tr><tr><th scope=\"row\">Production release</th><td>Approval required before production</td><td>Dated written release identifying sample, revisions and resolved changes</td></tr></tbody></table></div><p>Assign a reviewer to each open item. If the product team changes a liner while the design team approves the artwork, the packer still needs to check the combined assembly.</p>"
       ],
       [
-        "Give appearance its own reference",
-        "Approve the substrate, colour reference and finishing location together. Inspect wrap joins, exposed edges and registration at corners. A screen comparison is insufficient for a tactile finish. If artwork changes after fit approval, check whether any new label, card or lining also changes clearance."
+        "Check a fully loaded sample before signing off the outside size",
+        "<p>For this box, 30 mm is the quoted external height. It is not the height available above a truffle. The tray base, insert and liners all occupy space. Ask the supplier to identify the internal measurement references, then check the product in its intended position.</p><p>Load all 24 positions with representative contents and the proposed liners. Close the sleeve without forcing it, open the drawer using the pull, and remove the contents. Record where a liner catches, a product moves or the tray rubs. An empty box cannot establish these behaviours.</p><p>If a substitute product is used, record its dimensions and other relevant differences. Keep fit approval provisional where the substitute does not represent the final contents. For the sleeve and pull decisions themselves, use the <a href=\"/insights/drawer-box-clearance-ribbon-pull\">drawer-box fit guide</a>.</p>"
       ],
       [
-        "Write a decision, not “looks good”",
-        "<ul><li>Sample ID and drawing/artwork revisions.</li><li>Approved dimensions, materials and contents.</li><li>Accepted appearance reference and identified deviations.</li><li>Outstanding changes and who confirms them.</li><li>Required loaded or transport checks before release.</li></ul>Photograph both the accepted detail and any defect so the supplier is not interpreting a vague description."
+        "Label what each sample is intended to approve",
+        "<p>Ask how the sample was made and where it differs from the intended production method. A hand-cut insert may help review a layout without settling the production cut. A plain sample can be useful for fit while leaving print and surface finish open. Put these limits beside the sample ID so a photograph does not become an unintended approval of every detail.</p><p>Give appearance a separate reference: paper, colour target, laminate, foil and emboss position. Adobe documents tools for inspecting separations and overprinting in a PDF, while also explaining limits of on-screen output preview. <a href=\"#sample-source-1\">[1]</a> Our practical recommendation is to combine file review with a physical reference for the surface and assembled finish. The <a href=\"/insights/packaging-artwork-dieline-preflight\">artwork handoff checklist</a> covers the file package; this page covers the approval decision.</p>"
       ],
       [
-        "Keep approval and transport validation distinct",
-        "A desk sample does not reproduce distribution hazards. Choose the test with the laboratory for the actual route; <a href=\"https://www.ista.org/getting_started_with_design.php\">ISTA explains the importance of understanding distribution conditions</a>. For avoiding preventable revisions, see <a href=\"/insights/reduce-packaging-sampling-rounds\">how to reduce sampling rounds</a>."
+        "Write the release so another person can follow it",
+        "<p>Use a short written record tied to the sample and drawings. Include the sample ID and date, product configuration, material specification, drawing and artwork revisions, reviewer, decision and any action still due. A request to revise should identify the exact detail and the evidence expected on the next sample.</p><ul><li><strong>Approved for a limited purpose:</strong> name the accepted feature, such as structure only, and keep the remaining decisions open.</li><li><strong>Revise and resubmit:</strong> mark the affected feature and retain the prior revision for comparison.</li><li><strong>Released for production:</strong> identify the complete approved configuration and the written authority to proceed.</li></ul><p>These are suggested record labels, not statuses achieved in the quoted project. If a revision changes the liner, board, insert or finish after approval, assess which earlier checks it affects. A revised insert may require another loaded fit check even when the outside artwork is unchanged.</p>"
+      ],
+      [
+        "Treat transport checks as a separate decision",
+        "<p>ISTA recommends choosing testing around the distribution environment and using products and packaging as close as possible to production items. Its guidance also calls for agreement on what constitutes product damage and acceptable package condition. <a href=\"#sample-source-2\">[2]</a></p><p>For a presentation box, review the packed shipping system with the responsible laboratory: contents, insert, presentation box and outer transport packaging. Decide whether visible scuffing is unacceptable as well as damage to the product. The sample approval checklist can record that assessment as outstanding; it cannot substitute for the test result.</p><p>Keep the signed record available for repeat orders. The <a href=\"/insights/packaging-reorder-specification-change-control\">reorder specification guide</a> explains how to identify later changes.</p>"
+      ],
+      [
+        "Sources and case boundaries",
+        "<p id=\"sample-source-1\">[1] <a href=\"https://helpx.adobe.com/acrobat/using/previewing-output-acrobat-pro.html\">Adobe: Preview output in Acrobat Pro</a>. Used for the scope and limits of PDF output inspection.</p><p id=\"sample-source-2\">[2] <a href=\"https://www.ista.org/getting_started_with_design.php\">ISTA: Getting Started with Design &amp; Testing</a>. Used for test selection, representative samples and agreed acceptance criteria.</p><p>Public sources checked 28 October 2026. Case figures come from an MTT quotation dated 7 October 2026, checked against the original record. Customer identity and commercial terms are withheld. The checklist and review sequence are our recommendations for the documented open decisions; completed sampling, certification and manufacturing results are not claimed.</p>"
       ]
     ],
-    "cta": "Send your sample photos, marked issues and the latest specification. MTT can help separate structural, artwork and material changes for the next sample.",
+    "cta": "Send the latest quotation or specification, sample photos with marked issues, and the product dimensions including liners. MTT can help turn the open points into a sample review brief.",
     "append": false,
-    "seoTitle": "Packaging Sample Approval: What to Check Before Production | MTT"
+    "seoTitle": "Packaging Sample Approval Checklist | MTT Case",
+    "image": "/design/rigid-structures/drawer.webp",
+    "imageAlt": "Drawer-box structural illustration showing sleeve and sliding tray; not a photograph of the quoted MTT project"
   },
   "5-things-before-ordering-custom-packaging": {
     "angle": "Buyer Guide",
