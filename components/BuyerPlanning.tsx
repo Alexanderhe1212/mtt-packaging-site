@@ -15,7 +15,7 @@ const guides = {
   title: 'Size the bag around the finished gift set.',
   choices: [['Paper handles', 'Choose twisted or flat paper handles with the intended appearance and carrying task in mind. Check attachment, reinforcement and comfort using the actual filled bag.'], ['Ribbon or rope handles', 'Specify handle length, attachment and top reinforcement. Match ribbon color through a physical sample; an attractive handle is not proof of carrying strength.'], ['Box, tissue and card together', 'Measure the closed box, including any sleeve or bow. Allow practical insertion and removal space in the bag, then confirm tissue quantity, card position and packing sequence.']],
   checks: 'Confirm finished width, gusset depth and height, usable opening, base construction and the complete carried weight. Check handle attachment, base seams, rubbing and repeated lifting on the sample; approve each accessory separately.',
-  links: [['/packaging/custom-rigid-boxes', 'Coordinate a rigid gift box'], ['/insights/packaging-design-to-production-china', 'Plan a complete box, bag and accessory set']]
+  links: [['/insights/paper-bag-size-handles-load-check', 'Paper bag dimensions in mm and inches'], ['/packaging/custom-rigid-boxes', 'Coordinate a rigid gift box'], ['/insights/packaging-design-to-production-china', 'Plan a complete box, bag and accessory set']]
  },
  perfume: {
   title: 'Plan the bottle, insert and box together.',
