@@ -58,6 +58,9 @@ reviews=[r for r in reviews if r['slug'] not in currentSlugs]+currentReviews
 artworkGuide=json.loads(Path('lib/artwork-preflight-guide-october-27.json').read_text())
 updates[artworkGuide['slug']]=artworkGuide
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-27.json').read_text())
+finishSelection=json.loads(Path('lib/finish-selection-guide-october-29.json').read_text())
+updates[finishSelection['slug']]=finishSelection
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-29.json').read_text())
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

@@ -19,6 +19,10 @@ export default function CosmeticsPlanning() {
     <p><small>Reference guidance: <a href="https://www.cepi.org/paper-based-packaging-recyclability-guidelines/">Cepi on complete paper packaging recyclability</a>; <a href="https://www.ista.org/getting_started_with_design.php">ISTA on selecting tests for the distribution environment</a>. Final suitability requires review of the actual packed product.</small></p>
     <h3>Prepare a measurable skincare packaging brief.</h3>
     <ul><li>List each container&apos;s maximum dimensions, filled weight and closure position.</li><li>Specify the assortments and quantity per design, including planned refill or seasonal versions.</li><li>Identify surfaces that must not rub, plus leaflets, applicators and other accessories.</li><li>State the delivery route and agree on sample checks before production approval.</li></ul>
+    <h3>What quantity and timing should a quote cover?</h3>
+    <p>Send quantities per box size and artwork version, not only the total number of skincare sets. Ask for the box, insert, decoration, sample and tooling charges to be itemized, with freight stated separately. Minimum quantity and production timing need confirmation against that specification; a shared outer box does not remove the cost of different inserts.</p>
+    <p>State the required arrival date and destination. Confirm the sample review stage, the production start conditions and the shipping allowance separately. If the container or artwork is still changing, identify it in the brief before agreeing a production date.</p>
+    <p><a href="/insights/matte-vs-gloss-packaging-scuffing">Compare matte and gloss sample checks</a> before specifying a surface finish for the set.</p>
     <a className="button" href="/request-a-quote">Send your cosmetic assortment for a packaging review →</a>
   </section>;
 }

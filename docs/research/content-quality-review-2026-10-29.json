@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "matte-vs-gloss-packaging-scuffing",
+    "primaryQuery": "matte vs gloss packaging finish",
+    "targetCustomer": "Packaging buyer comparing a proposed laminate change",
+    "customerDecision": "Which finish and sample evidence to approve",
+    "searchEvidence": "Existing N14 keyword map; no measured query volume for this topic",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "informationGain": [
+      "documented specification versus unknowns",
+      "finish decision table",
+      "repeatable proposed sample record"
+    ],
+    "claimIssues": []
+  }
+]

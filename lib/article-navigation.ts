@@ -3,7 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
-  {articles:['packaging-artwork-dieline-preflight','printing-finishing-guide','match-gold-foil-perfume-box-paper-bag','custom-packaging-sampling-process'],products:['coffee-tasting-flight-drawer','chocolate-selection-book','signature-perfume-lift-off']},
+  {articles:['matte-vs-gloss-packaging-scuffing','packaging-artwork-dieline-preflight','printing-finishing-guide','match-gold-foil-perfume-box-paper-bag','custom-packaging-sampling-process'],products:['coffee-tasting-flight-drawer','chocolate-selection-book','signature-perfume-lift-off']},
   {articles:['drawer-box-clearance-ribbon-pull','custom-packaging-sampling-process','paper-gsm-vs-board-thickness','tea-gift-box-drawer-analysis'],products:['coffee-tasting-flight-drawer','chocolate-selection-book','travel-fragrance-trio-drawer']},
   {articles:['paper-gsm-vs-board-thickness','packaging-material-selection','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set']},
   {articles:['e-flute-vs-b-flute-corrugated-boxes','corrugated-mailer-shipping-box-specification','measure-packaging-internal-external-dimensions','custom-inserts-product-protection'],products:['three-compartment-skincare-mailer','custom-corrugated-packaging-set','custom-skincare-duo-auto-bottom']},
