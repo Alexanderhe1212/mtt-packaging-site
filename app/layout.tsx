@@ -2,6 +2,7 @@ import {businessSummary} from '../lib/seo';
 import type { Metadata } from 'next';
 import {analyticsBootstrap} from '../lib/analytics-bootstrap.mjs';
 import ContactAnalytics from '../components/ContactAnalytics';
+import OptionalFeatureBoundary from '../components/OptionalFeatureBoundary';
 import CookieConsent from '../components/CookieConsent';
 import './globals.css';
 import './editorial.css';
@@ -39,9 +40,9 @@ export default function RootLayout({
       <body className="mtt-editorial">
         <a href="#main-content" className="skip-link">Skip to main content</a>
         {children}
-        <LeadQualificationChatbot hasIntroVideo={true} />
+        <OptionalFeatureBoundary><LeadQualificationChatbot hasIntroVideo={true} /></OptionalFeatureBoundary>
         <CookieConsent />
-        <ContactAnalytics />
+        <OptionalFeatureBoundary><ContactAnalytics /></OptionalFeatureBoundary>
       </body>
     </html>
   );

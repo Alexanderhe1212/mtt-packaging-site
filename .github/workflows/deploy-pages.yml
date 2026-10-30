@@ -50,6 +50,7 @@ jobs:
           done
           npm run audit:enquiry
           npm run audit:guides
+          npm run audit:optional-chunks
           npm run audit:catalogue
           npm run audit:studio
       - name: Audit performance and accessibility

@@ -1,5 +1,6 @@
 import { businessSummary } from '../lib/seo';
 import CookieSettingsButton from './CookieSettingsButton';
+import OptionalFeatureBoundary from './OptionalFeatureBoundary';
 import MTTMonogram from './MTTMonogram';
 const links=[['Products','/products'],['Packaging','/packaging'],['Industries','/industries'],['Case Studies','/case-studies'],['Guides','/insights'],['How We Work','/how-we-work'],['About','/about'],['Design Your Box','/tools/gift-box-solution-builder']];
 // Buyers on laptop widths must always see the quote action and direct contact routes.
@@ -24,6 +25,6 @@ export function SiteFooter() {
       <p className="payment-note">Available payment methods may depend on order value, project stage and transaction arrangements confirmed with MTT Packaging.</p>
     </section>
     <footer className="site-footer"><div><a className="brand" href="/"><span aria-hidden="true"><MTTMonogram size={40} /></span><b>MTT Packaging</b></a><p>{businessSummary}</p></div><nav aria-label="Product links"><b>Products</b><a href="/packaging">All Packaging</a><a href="/industries/perfume-fragrance-packaging">Perfume Packaging</a><a href="/industries/cosmetics-skincare-packaging">Cosmetic Packaging</a><a href="/industries/jewelry-watch-packaging">Jewelry Packaging</a></nav><nav aria-label="Resource links"><b>Resources</b><a href="/case-studies">Case Studies</a><a href="/insights">Packaging Guide</a><a href="/how-we-work">How We Work</a><a href="/sustainability">Sustainability</a><a href="/tools/gift-box-solution-builder">Design Your Box</a><a href="/quality-control">Quality Control</a><a href="/about">About MTT</a></nav><nav aria-label="Contact links"><b>Contact</b><a href="mailto:info@mttpackaging.com">info@mttpackaging.com</a><a href="https://wa.me/8617207110964" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="/request-a-quote">Request a Quote</a></nav></footer>
-    <div className="footer-legal"><nav aria-label="Legal links"><a href="/privacy-policy">Privacy Policy</a><a href="/cookie-policy">Cookie Policy</a><CookieSettingsButton /></nav><p className="image-provenance">Packaging visuals include illustrative concepts. Final materials, colors and structure are confirmed through sampling.</p><p>© {new Date().getFullYear()} MTT Packaging. All rights reserved.</p></div>
+    <div className="footer-legal"><nav aria-label="Legal links"><a href="/privacy-policy">Privacy Policy</a><a href="/cookie-policy">Cookie Policy</a><OptionalFeatureBoundary fallback={<a href="/cookie-policy">Cookie preferences help</a>}><CookieSettingsButton /></OptionalFeatureBoundary></nav><p className="image-provenance">Packaging visuals include illustrative concepts. Final materials, colors and structure are confirmed through sampling.</p><p>© {new Date().getFullYear()} MTT Packaging. All rights reserved.</p></div>
   </>;
 }
