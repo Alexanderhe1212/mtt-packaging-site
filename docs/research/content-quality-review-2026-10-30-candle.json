@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "candle-box-glass-jar-protection",
+    "primaryQuery": "candle jar packaging protection",
+    "targetCustomer": "Home fragrance buyer commissioning glass candle gift packaging",
+    "customerDecision": "Specify the jar support, access, lid clearance and complete shipping pack",
+    "searchEvidence": "Existing N09 mapping; live search results show jar-specific inserts and shipping protection intent. No query volume or current GSC clicks established.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "informationGain": [
+      "Four-input insert brief",
+      "Visible deck versus hidden load support",
+      "Accessory and lid stack review",
+      "Carrier cushioning distinction and 3 inch to 76.2 mm conversion",
+      "Ordered loaded-sample approval checklist"
+    ],
+    "claimIssues": []
+  }
+]

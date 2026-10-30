@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['candle-box-glass-jar-protection','packaging-inserts-for-handmade-glass-products','custom-inserts-product-protection','rigid-gift-box-shipping-outer-carton'],products:['custom-candle-packaging-set','celebration-candle-gift-round','custom-diffuser-packaging-set']},
   {articles:['pr-kit-packaging-packout-checklist','shared-box-multiple-cosmetic-skus','custom-inserts-product-protection','custom-packaging-sampling-process'],products:['skincare-ritual-book','three-compartment-skincare-mailer','custom-skincare-duo-auto-bottom']},
   {articles:['matte-vs-gloss-packaging-scuffing','packaging-artwork-dieline-preflight','printing-finishing-guide','match-gold-foil-perfume-box-paper-bag','custom-packaging-sampling-process'],products:['coffee-tasting-flight-drawer','chocolate-selection-book','signature-perfume-lift-off']},
   {articles:['drawer-box-clearance-ribbon-pull','custom-packaging-sampling-process','paper-gsm-vs-board-thickness','tea-gift-box-drawer-analysis'],products:['coffee-tasting-flight-drawer','chocolate-selection-book','travel-fragrance-trio-drawer']},

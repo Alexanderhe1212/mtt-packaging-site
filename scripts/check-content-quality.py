@@ -65,6 +65,10 @@ prKit=json.loads(Path('lib/pr-kit-guide-october-30.json').read_text())
 updates[prKit['slug']]=prKit
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-30.json').read_text())
 
+candle=json.loads(Path('lib/candle-guide-october-30.json').read_text())
+updates[candle['slug']]=candle
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-10-30-candle.json').read_text())
+
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)
