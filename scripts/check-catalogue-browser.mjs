@@ -60,6 +60,13 @@ try {
    await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
   }
  }
+ // Clearing a URL-provided filter must override the initial snapshot, not reapply it.
+ await page.goto(base+'/products/?family=bag',{waitUntil:'networkidle0'});
+ await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.family==='bag').length);
+ await page.click('.product-results button');
+ await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
+ await page.goto(base+'/products/?family=unknown&structure=unknown',{waitUntil:'networkidle0'});
+ await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
  // Exercise all five gallery views and selected-product quote handoff for each family.
  for(const family of ['rigid','carton','corrugated','bag']) {
   const p=all.find(p=>p.family===family);

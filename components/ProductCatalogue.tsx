@@ -1,5 +1,5 @@
 'use client';
-import {useEffect,useState} from 'react';
+import {useState,useSyncExternalStore} from 'react';
 import {products,categories,structures,wrappingPapers} from '../lib/products';
 import {ProductView} from './ProductGallery';
 const displayOrder=['MTT-R0101','MTT-R0202','MTT-R0401','MTT-R0507','MTT-R0107','MTT-R0303','MTT-R0209','MTT-R0402','MTT-R0304','MTT-R0501','MTT-R0602','MTT-R0604'];
@@ -10,10 +10,17 @@ const mixed=products.filter(p=>!displayOrder.includes(p.code)).sort((a,b)=>{
 });
 const catalogueProducts=[...mixed];
 displayOrder.forEach((code,i)=>{const p=products.find(p=>p.code===code);if(p)catalogueProducts.splice(i*7,0,p)});
+function subscribeSearch(listener:()=>void){window.addEventListener('popstate',listener);return()=>window.removeEventListener('popstate',listener)}
+const readSearch=()=>window.location.search;
+const serverSearch=()=>'';
 export default function ProductCatalogue({zh=false}:{zh?:boolean}){
- const [family,setFamily]=useState('');
- const [query,setQuery]=useState(''),[category,setCategory]=useState(''),[structure,setStructure]=useState(''),[wrap,setWrap]=useState('');
- useEffect(()=>{const params=new URLSearchParams(location.search),f=params.get('family'),s=params.get('structure');if(['rigid','carton','corrugated','bag'].includes(f||''))setFamily(f!);if(structures.some(item=>item.id===s))setStructure(s!)},[]);
+ // The server and hydration render use the same empty URL snapshot.
+ const search=useSyncExternalStore(subscribeSearch,readSearch,serverSearch);
+ const params=new URLSearchParams(search),requestedFamily=params.get('family')||'',requestedStructure=params.get('structure')||'';
+ const [familyChoice,setFamily]=useState<string|null>(null),[structureChoice,setStructure]=useState<string|null>(null);
+ const family=familyChoice??(['rigid','carton','corrugated','bag'].includes(requestedFamily)?requestedFamily:'');
+ const structure=structureChoice??(structures.some(item=>item.id===requestedStructure)?requestedStructure:'');
+ const [query,setQuery]=useState(''),[category,setCategory]=useState(''),[wrap,setWrap]=useState('');
  const found=catalogueProducts.filter(p=>(!family||p.family===family)&&(!category||p.category===category)&&(!structure||p.structure===structure)&&(!wrap||p.wrap===wrap)&&[p.name,p.nameZh,p.code,p.categoryName,p.categoryZh,p.structureName,p.structureZh,p.material,p.materialZh,p.wrap,p.wrapZh,p.finish,p.finishZh,p.contents,p.contentsZh,p.insert,p.insertZh,...p.searchTerms].join(' ').toLowerCase().includes(query.toLowerCase().trim()));
  return <>
  <section aria-label={zh?'按产品找包装':'Find packaging for your product'}>

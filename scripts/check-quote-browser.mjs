@@ -27,6 +27,13 @@ const key=fs.readFileSync('lib/box-calculator.ts','utf8').match(/CALC_HANDOFF_KE
 try{
  await page.setViewport({width:390,height:844});
  await page.goto(base+'/request-a-quote/',{waitUntil:'networkidle0'});
+ // Corrupt or empty calculator storage must not block an otherwise usable quote form.
+ for(const raw of ['', 'null', '{broken']){
+  await page.evaluate((key,raw)=>sessionStorage.setItem(key,raw),key,raw);
+  await page.goto(base+'/request-a-quote/?source=calculator',{waitUntil:'networkidle0'});
+  assert.equal(await page.$('[name=calculator_summary]'),null);
+  assert(await page.$('form[action*="formspree"]'));
+ }
  await page.evaluate((key,data)=>sessionStorage.setItem(key,JSON.stringify(data)),key,data);
  for(const [family,type] of Object.entries({rigid:'Rigid Box',carton:'Folding Carton',corrugated:'Corrugated Box',bag:'Paper Bag'})){
   await page.goto(base+'/request-a-quote/?'+new URLSearchParams({product:'TEST Selected design',product_family:family,accessories:'Greeting card, Ribbon'}),{waitUntil:'networkidle0'});

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useMemo, useSyncExternalStore } from 'react';
 import {
   CALC_HANDOFF_KEY,
   formatHandoffText,
@@ -21,20 +21,22 @@ import {
  * If no data exists (direct quote-page visit), renders nothing.
  * Always safe — never blocks the form.
  */
+// Read browser-owned handoff data after hydration without a state-setting effect.
+const subscribeHandoff = () => () => {};
+const serverHandoff = () => '';
+function readHandoff() {
+  if (new URLSearchParams(location.search).get('source') !== 'calculator') return '';
+  try { return sessionStorage.getItem(CALC_HANDOFF_KEY) || ''; } catch { return ''; }
+}
 export default function CalcQuoteSummary() {
-  const [data, setData] = useState<CalcHandoff | null>(null);
-
-  useEffect(() => {
-    if(new URLSearchParams(location.search).get('source')!=='calculator') return;
+  const raw = useSyncExternalStore(subscribeHandoff, readHandoff, serverHandoff);
+  const data = useMemo(() => {
     try {
-      const raw = sessionStorage.getItem(CALC_HANDOFF_KEY);
-      if (raw) {
-        const parsed = JSON.parse(raw) as CalcHandoff;
-        if (parsed.internalL && parsed.unit) setData(parsed);
-      }
-    } catch {}
-    // QuoteForm clears storage only after the server accepts a submission.
-  }, []);
+      const parsed = JSON.parse(raw) as CalcHandoff | null;
+      return parsed?.internalL && parsed.unit ? parsed : null;
+    } catch { return null; }
+  }, [raw]);
+  // QuoteForm clears storage only after the server accepts a submission.
 
   if (!data) return null;
 

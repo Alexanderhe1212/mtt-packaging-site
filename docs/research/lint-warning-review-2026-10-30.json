@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-30",
+  "before": {
+    "warnings": 77,
+    "errors": 0
+  },
+  "after": {
+    "warnings": 68,
+    "errors": 0
+  },
+  "meaning": "Two source warning sites fixed; seven private operational draft warnings removed from website scope, not fixed or deployed. Remaining 68 deliberately remain visible. No ranking, traffic or indexing claim.",
+  "items": [
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 81,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 121,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 130,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 139,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 143,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 152,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 170,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 179,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 188,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/about/page.tsx",
+      "line_before": 197,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/case-studies/page.tsx",
+      "line_before": 17,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/how-we-work/page.tsx",
+      "line_before": 43,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/how-we-work/page.tsx",
+      "line_before": 61,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/how-we-work/page.tsx",
+      "line_before": 75,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/how-we-work/page.tsx",
+      "line_before": 88,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/industries/[slug]/page.tsx",
+      "line_before": 94,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/industries/[slug]/page.tsx",
+      "line_before": 108,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/industries/page.tsx",
+      "line_before": 25,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/insights/[slug]/page.tsx",
+      "line_before": 92,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/insights/[slug]/page.tsx",
+      "line_before": 95,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/insights/[slug]/page.tsx",
+      "line_before": 124,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/insights/page.tsx",
+      "line_before": 44,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/insights/page.tsx",
+      "line_before": 68,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/corrugated-boxes/page.tsx",
+      "line_before": 5,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/custom-inserts/page.tsx",
+      "line_before": 59,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/custom-inserts/page.tsx",
+      "line_before": 65,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/custom-paper-bags/page.tsx",
+      "line_before": 58,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/custom-paper-bags/page.tsx",
+      "line_before": 71,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/custom-rigid-boxes/page.tsx",
+      "line_before": 72,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/custom-rigid-boxes/page.tsx",
+      "line_before": 95,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/folding-cartons/page.tsx",
+      "line_before": 62,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/folding-cartons/page.tsx",
+      "line_before": 78,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/page.tsx",
+      "line_before": 83,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/page.tsx",
+      "line_before": 113,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/page.tsx",
+      "line_before": 188,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/packaging/page.tsx",
+      "line_before": 227,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/page.tsx",
+      "line_before": 94,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/page.tsx",
+      "line_before": 106,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/page.tsx",
+      "line_before": 121,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/page.tsx",
+      "line_before": 135,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/page.tsx",
+      "line_before": 165,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/page.tsx",
+      "line_before": 203,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/ppwr-compliant-packaging/page.tsx",
+      "line_before": 122,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/quality-control/page.tsx",
+      "line_before": 73,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/sustainability/page.tsx",
+      "line_before": 82,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/zh/page.tsx",
+      "line_before": 4,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "app/zh/page.tsx",
+      "line_before": 4,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/BoxSizeCalculator.tsx",
+      "line_before": 124,
+      "rule": "@next/next/no-location-assign-relative-destination",
+      "disposition": "retained",
+      "reason": "Retained: calculator persists its handoff then performs a full static-page navigation. Client-router substitution needs independent route/handoff validation; no navigation failure reproduced."
+    },
+    {
+      "file": "components/BoxSizeCalculator.tsx",
+      "line_before": 215,
+      "rule": "@next/next/no-location-assign-relative-destination",
+      "disposition": "retained",
+      "reason": "Retained: calculator persists its handoff then performs a full static-page navigation. Client-router substitution needs independent route/handoff validation; no navigation failure reproduced."
+    },
+    {
+      "file": "components/CalcQuoteSummary.tsx",
+      "line_before": 33,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "fixed",
+      "reason": "Reuse the existing useSyncExternalStore pattern with a deterministic server snapshot; preserve storage errors and URL fallback handling."
+    },
+    {
+      "file": "components/CaseStages.tsx",
+      "line_before": 2,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/CookieConsent.tsx",
+      "line_before": 17,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "retained",
+      "reason": "Retained: browser-only consent/language or GPU state synchronization. Effects have bounded dependencies and cleanup; no render loop reproduced. Do not defer privacy state or GPU failure messages just to evade lint."
+    },
+    {
+      "file": "components/FamilyProductDirectory.tsx",
+      "line_before": 9,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/FragrancePlanning.tsx",
+      "line_before": 12,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/LanguagePicker.tsx",
+      "line_before": 8,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "retained",
+      "reason": "Retained: browser-only consent/language or GPU state synchronization. Effects have bounded dependencies and cleanup; no render loop reproduced. Do not defer privacy state or GPU failure messages just to evade lint."
+    },
+    {
+      "file": "components/MTTPackagingMark.tsx",
+      "line_before": 2,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/PackagingCustomization.tsx",
+      "line_before": 90,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/ProductCatalogue.tsx",
+      "line_before": 16,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "fixed",
+      "reason": "Reuse the existing useSyncExternalStore pattern with a deterministic server snapshot; preserve storage errors and URL fallback handling."
+    },
+    {
+      "file": "components/ProductGallery.tsx",
+      "line_before": 3,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/RelatedPackagingStudies.tsx",
+      "line_before": 2,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/SiteNav.tsx",
+      "line_before": 15,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/SiteNav.tsx",
+      "line_before": 20,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "components/ZhNav.tsx",
+      "line_before": 2,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "tools/packaging-studio/app/StudioApp.tsx",
+      "line_before": 39,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "retained",
+      "reason": "Retained: browser-only consent/language or GPU state synchronization. Effects have bounded dependencies and cleanup; no render loop reproduced. Do not defer privacy state or GPU failure messages just to evade lint."
+    },
+    {
+      "file": "tools/packaging-studio/app/StudioApp.tsx",
+      "line_before": 55,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "tools/packaging-studio/app/components/BoxThumbnail.tsx",
+      "line_before": 12,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "tools/packaging-studio/app/components/DynamicBoxThumbnail.tsx",
+      "line_before": 22,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "retained",
+      "reason": "Retained: browser-only consent/language or GPU state synchronization. Effects have bounded dependencies and cleanup; no render loop reproduced. Do not defer privacy state or GPU failure messages just to evade lint."
+    },
+    {
+      "file": "tools/packaging-studio/app/components/DynamicBoxThumbnail.tsx",
+      "line_before": 23,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "retained",
+      "reason": "Retained: browser-only consent/language or GPU state synchronization. Effects have bounded dependencies and cleanup; no render loop reproduced. Do not defer privacy state or GPU failure messages just to evade lint."
+    },
+    {
+      "file": "tools/packaging-studio/app/components/DynamicBoxThumbnail.tsx",
+      "line_before": 30,
+      "rule": "@next/next/no-img-element",
+      "disposition": "retained",
+      "reason": "Retained: static export uses native img, local WebP assets and existing responsive image generation. Do not replace with an image optimization server unavailable on GitHub Pages merely to silence this rule. Check actual image availability, dimensions/layout and lab performance separately."
+    },
+    {
+      "file": "tools/packaging-studio/app/components/FoldingPreview.tsx",
+      "line_before": 32,
+      "rule": "react-hooks/set-state-in-effect",
+      "disposition": "retained",
+      "reason": "Retained: browser-only consent/language or GPU state synchronization. Effects have bounded dependencies and cleanup; no render loop reproduced. Do not defer privacy state or GPU failure messages just to evade lint."
+    },
+    {
+      "file": "work/bing-backlinks-nav.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    },
+    {
+      "file": "work/gsc-sitemap-nav.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    },
+    {
+      "file": "work/perfume-nav.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    },
+    {
+      "file": "work/pin-action.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    },
+    {
+      "file": "work/pinterest-nav.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    },
+    {
+      "file": "work/pow-home.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    },
+    {
+      "file": "work/pow-retry.js",
+      "line_before": 1,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "disposition": "local_only_scope",
+      "reason": "Excluded local-only operations: gitignored work/ contains browser-console completion strings, is not tracked, imported or deployed. No website rule was disabled."
+    }
+  ]
+}
