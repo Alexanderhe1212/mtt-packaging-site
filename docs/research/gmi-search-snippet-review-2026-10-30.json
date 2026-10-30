@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "slug": "gmi-printing-certification-packaging-colour-control",
+  "scope": "Search title and summary only",
+  "buyerDecision": "Understand GMI printing certification and what a packaging buyer should verify.",
+  "changes": "Name certification in the search title and lead the summary with the matching definition question; retain buyer verification and colour approval scope.",
+  "claimsReview": "No new certification, experience or performance claim. Existing sourced definition and buyer checklist support the revised summary. No claim that MTT is GMI certified.",
+  "score": {
+    "customer": 10,
+    "insight": 17,
+    "technical": 18,
+    "human": 14,
+    "seo": 9,
+    "geo": 8,
+    "trust": 10,
+    "conversion": 5
+  },
+  "total": 91,
+  "limitations": "Editorial score only. Search engines can rewrite snippets; indexing, rankings and click improvement remain unverified.",
+  "unresolvedFactualIssues": []
+}
