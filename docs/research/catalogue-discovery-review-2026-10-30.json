@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "scope": "Existing bilingual catalogue navigation and product keyword maps",
+  "buyerProblem": "Find packaging by the product being packed, then compare presentation, retail, shipping and carrying formats without a hidden default rigid-only filter.",
+  "changes": [
+    "Expose existing application categories before family filters",
+    "Default to all packaging; preserve selected application across family comparisons",
+    "Search contents, inserts and existing product terms",
+    "Cover all 240 products in both keyword maps; distinguish 29 repeated primary-term groups covering 88 products using existing structure names"
+  ],
+  "evidence": "lib/products.json and lib/products-expanded.json; no new manufacturing, test or customer-result claims. Scenario labels are comparison candidates, not verified fit guarantees.",
+  "searchEvidence": "Editorial intent distinction only; no fresh query-page data or search volume claims. Broad terms remain supporting terms.",
+  "score": {
+    "customer": 10,
+    "insight": 17,
+    "technical": 18,
+    "human": 14,
+    "seo": 9,
+    "geo": 8,
+    "trust": 10,
+    "conversion": 5
+  },
+  "total": 91,
+  "limitations": "Editorial judgment, not measured conversion or ranking improvement. Existing URLs, product title/description, canonical and robots unchanged.",
+  "unresolvedFactualIssues": []
+}

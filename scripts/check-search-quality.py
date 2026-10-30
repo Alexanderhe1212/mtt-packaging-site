@@ -55,3 +55,23 @@ carton=(root/'packaging/folding-cartons/index.html').read_text()
 assert 'MOQ from 500' not in carton,'Carton minimum contradicts its visible buying guidance'
 assert 'minimum order quantity is 1,000 pieces per design' in carton.lower()
 print('Four-family comparison in EN/ZH static HTML; carton MOQ consistency passed')
+
+# Product discovery maps must cover the catalogue and point to existing URLs.
+import csv
+catalogue = json.loads(Path('lib/products.json').read_text()) + json.loads(Path('lib/products-expanded.json').read_text())
+keyword_rows = list(csv.DictReader(Path('docs/v15-keyword-map.csv').open()))
+keyword_json = json.loads(Path('docs/catalog/product-keywords.json').read_text())
+assert len(keyword_rows) == len(keyword_json) == len(catalogue)
+assert len({p['searchTerms'][0].lower() for p in catalogue}) == len(catalogue)
+by_code = {p['code']: p for p in catalogue}
+assert {r['code'] for r in keyword_rows} == {r['code'] for r in keyword_json} == set(by_code)
+for row in keyword_rows:
+ product = by_code[row['code']]
+ assert row['product_url'] == 'https://mttpackaging.com/products/' + product['slug']
+ assert row['product_url'] in urls
+ assert row['specific_search_intent'] == product['searchTerms'][0]
+ assert all(row.get(k) for k in ['product_application','application_category','use_scenario','structure','insert','finish'])
+for row in keyword_json:
+ assert row['url'] == 'https://mttpackaging.com/products/' + by_code[row['code']]['slug']
+ assert row['keywords'] == by_code[row['code']]['searchTerms']
+print('Complete product keyword maps, distinct candidate primary terms and scenario fields passed')

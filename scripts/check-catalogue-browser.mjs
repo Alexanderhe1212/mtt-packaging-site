@@ -30,6 +30,25 @@ try {
    await page.$eval('.packaging-comparison',e=>e.scrollIntoView());
    await page.screenshot({path:`work/growth/v12-${width}-${path.includes('zh')?'zh':'en'}.png`});
    await page.click('.packaging-comparison summary');
+   // Buyers start with all families, then narrow by their product without losing that application.
+   await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
+   assert(await page.$eval('.product-application-tabs',e=>!e.closest('details')));
+   const applications=[...new Set(all.map(p=>p.category))];
+   for(const [i,category] of applications.entries()){
+    await (await page.$$('.product-application-tabs button'))[i].click();
+    await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.category===category).length);
+    const categoryTabs=await page.$$('.product-family-tabs button');
+    for(const [j,family] of ['rigid','carton','corrugated','bag'].entries()){
+     await categoryTabs[j+1].click();
+     await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.category===category&&p.family===family).length);
+    }
+    await page.click('.product-results button');
+   }
+   await page.type('input[type=search]','candle jar');
+   await page.waitForFunction(()=>document.querySelectorAll('.product-card').length>0);
+   const jarLinks=await page.$$eval('.product-card',es=>es.map(e=>e.getAttribute('href')));
+   assert(jarLinks.some(x=>x.includes('/products/')));
+   await page.click('.product-results button');
    const tabs=await page.$$('.product-family-tabs button');
    for(const [i,family] of ['','rigid','carton','corrugated','bag'].entries()) {
     await tabs[i].click();
