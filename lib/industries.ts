@@ -59,7 +59,7 @@ export const industries: Industry[] = [
   },
   {
     structureImages: ["/products/mtt-r0603-0.webp", "/products/mtt-r0602-0.webp", "/products/mtt-r0601-0.webp", "/design/rigid-structures/fold-flat.webp"],
-    guides: [["Christmas drawer gift box pack-out checks", "christmas-drawer-gift-box-packout-review"], ["Write a complete packaging brief", "how-to-write-a-packaging-brief"], ["Compare rigid box shipping volume", "reduce-shipping-costs-rigid-boxes"]],
+    guides: [["PR kit packing checklist", "pr-kit-packaging-packout-checklist"], ["Christmas drawer gift box pack-out checks", "christmas-drawer-gift-box-packout-review"], ["Write a complete packaging brief", "how-to-write-a-packaging-brief"], ["Compare rigid box shipping volume", "reduce-shipping-costs-rigid-boxes"]],
     slug: 'gift-set-pr-kit-packaging', eyebrow: 'Gift sets & PR kits',
     image: "/design/giftset-editorial.webp", imageAlt: "Concept: terracotta gift box with fitted notebook and pen insert and a matching ivory bag",
     title: 'Presentation packaging that guides a multi-product unboxing story.',

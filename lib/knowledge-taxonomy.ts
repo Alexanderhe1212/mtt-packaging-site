@@ -16,6 +16,7 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "pr-kit-packaging-packout-checklist",
       "drawer-box-clearance-ribbon-pull",
       "rigid-gift-box-shipping-outer-carton",
       "measure-packaging-internal-external-dimensions",

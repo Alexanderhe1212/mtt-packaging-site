@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "pr-kit-packaging-packout-checklist",
+    "primaryQuery": "PR kit packaging design checklist",
+    "targetCustomer": "Brand or fulfilment buyer planning a multi-product launch kit",
+    "customerDecision": "Confirm complete packing list, placement and sample checks",
+    "searchEvidence": "Existing N12 map; no current query volume established",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "informationGain": [
+      "component and packing specification table",
+      "packing sequence and reverse removal trial",
+      "wrap, foil and corner inspection decisions",
+      "variant review matrix"
+    ],
+    "claimIssues": []
+  }
+]
