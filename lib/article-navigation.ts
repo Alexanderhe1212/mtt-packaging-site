@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['collapsible-rigid-box-assembly-checklist','custom-packaging-sampling-process','reduce-shipping-costs-rigid-boxes','measure-packaging-internal-external-dimensions'],products:["perfume-duo-collapsible-magnetic-rigid-box", "travel-fragrance-collapsible-magnetic-rigid-box", "skincare-ritual-collapsible-magnetic-rigid-box"]},
+  {articles:['paper-bag-material-selection','paper-bag-size-handles-load-check','paper-gsm-vs-board-thickness','custom-packaging-sampling-process'],products:["custom-perfume-bottle-ribbon-bag", "custom-skincare-duo-cord-bag", "custom-candle-jar-cord-bag"]},
   {articles:['candle-box-glass-jar-protection','packaging-inserts-for-handmade-glass-products','custom-inserts-product-protection','rigid-gift-box-shipping-outer-carton'],products:['custom-candle-packaging-set','celebration-candle-gift-round','custom-diffuser-packaging-set']},
   {articles:['pr-kit-packaging-packout-checklist','shared-box-multiple-cosmetic-skus','custom-inserts-product-protection','custom-packaging-sampling-process'],products:['skincare-ritual-book','three-compartment-skincare-mailer','custom-skincare-duo-auto-bottom']},
   {articles:['matte-vs-gloss-packaging-scuffing','packaging-artwork-dieline-preflight','printing-finishing-guide','match-gold-foil-perfume-box-paper-bag','custom-packaging-sampling-process'],products:['coffee-tasting-flight-drawer','chocolate-selection-book','signature-perfume-lift-off']},

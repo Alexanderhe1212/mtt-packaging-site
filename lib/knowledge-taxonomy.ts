@@ -8,7 +8,8 @@ export const knowledgeTopics = [
       "folding-carton-closure-selection",
       "corrugated-mailer-shipping-box-specification",
       "paper-bag-size-handles-load-check",
-      "custom-inserts-product-protection"
+      "custom-inserts-product-protection",
+      "paper-bag-material-selection"
     ]
   },
   {
@@ -29,7 +30,8 @@ export const knowledgeTopics = [
       "packaging-inserts-for-handmade-glass-products",
       "electronics-paperboard-insert-analysis",
       "cosmetic-pump-bottle-gift-box-clearance",
-      "necklace-packaging-chain-management"
+      "necklace-packaging-chain-management",
+      "collapsible-rigid-box-assembly-checklist"
     ]
   },
   {

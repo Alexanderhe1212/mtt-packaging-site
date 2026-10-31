@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "collapsible-rigid-box-assembly-checklist",
+    "primaryQuery": "collapsible rigid box assembly",
+    "searchEvidence": "Existing approved keyword map; no search volume asserted. Distinct assembly/material intent from shipping cost and sizing guides.",
+    "customerDecision": "Send your product dimensions, filled weights, quantity and intended packing location. Include the corner-fixing drawing or a sample reference so MTT can review the shell, insert and assembly sequence together.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 93,
+    "reviewEvidence": [
+      "Inspected existing product images and catalogue specifications.",
+      "Added structural checks, decision table and an approval record tied to actual product variables.",
+      "No fabricated order, client, performance measurement or certification.",
+      "Primary sources support limited material and bonding variables, not a guaranteed bag load or box lifespan."
+    ],
+    "unresolvedFactualIssues": []
+  },
+  {
+    "slug": "paper-bag-material-selection",
+    "primaryQuery": "paper bag material comparison",
+    "searchEvidence": "Existing approved keyword map; no search volume asserted. Distinct assembly/material intent from shipping cost and sizing guides.",
+    "customerDecision": "Share the finished outer box dimensions, total carrying weight, quantity and desired print reference. MTT can review paper options, handles and reinforcement as one bag specification.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 93,
+    "reviewEvidence": [
+      "Inspected existing product images and catalogue specifications.",
+      "Added structural checks, decision table and an approval record tied to actual product variables.",
+      "No fabricated order, client, performance measurement or certification.",
+      "Primary sources support limited material and bonding variables, not a guaranteed bag load or box lifespan."
+    ],
+    "unresolvedFactualIssues": []
+  }
+]
