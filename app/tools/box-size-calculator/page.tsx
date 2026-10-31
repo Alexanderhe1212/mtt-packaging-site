@@ -1,15 +1,16 @@
+import './calculator.css';
 import type { Metadata } from 'next';
 import { SiteFooter, SiteNav } from '../../../components/SiteNav';
 import { breadcrumb, organization, siteUrl } from '../../../lib/seo';
 import BoxSizeCalculator from '../../../components/BoxSizeCalculator';
 
 export const metadata: Metadata = {
-  title: 'MTT Packaging Calculator | Free Box Size Calculator',
-  description: 'Plan your custom packaging in minutes. Calculate recommended internal and external box dimensions, sheet layout and shipping CBM — then get a quote from MTT Packaging.',
+  title: 'Free Box Size Calculator | MTT Packaging',
+  description: 'Free box size calculator for estimated internal and external dimensions, sheet layout and shipping volume. Use your product measurements to plan a sample.',
   alternates: { canonical: '/tools/box-size-calculator' },
   openGraph: {
-    title: 'MTT Packaging Calculator | Free Box Size Calculator',
-    description: 'Plan your custom packaging in minutes. Calculate recommended internal and external box dimensions, sheet layout and shipping CBM.',
+    title: 'Free Box Size Calculator | MTT Packaging',
+    description: 'Estimate internal and external box dimensions, sheet layout and shipping volume with the free box size calculator.',
     url: '/tools/box-size-calculator',
     images: ['/og.jpg'],
   },
@@ -21,7 +22,7 @@ const structuredData = {
     {
       '@type': 'WebApplication',
       '@id': `${siteUrl}/tools/box-size-calculator#app`,
-      name: 'MTT Packaging Calculator',
+      name: 'Box Size Calculator',
       url: `${siteUrl}/tools/box-size-calculator`,
       description: 'Plan your custom packaging: calculate box dimensions, sheet layout and shipping CBM, then request a production quote.',
       applicationCategory: 'BusinessApplication',
@@ -31,7 +32,7 @@ const structuredData = {
     {
       '@type': 'WebPage',
       '@id': `${siteUrl}/tools/box-size-calculator#webpage`,
-      name: 'MTT Packaging Calculator',
+      name: 'Box Size Calculator',
       url: `${siteUrl}/tools/box-size-calculator`,
       description: 'Plan your custom packaging: calculate box dimensions, sheet layout and shipping CBM.',
       isPartOf: { '@id': `${siteUrl}/#website` },
@@ -54,8 +55,8 @@ export default function BoxSizeCalculatorPage() {
       <header className="calc-v2-hero">
         <div className="calc-v2-hero-inner">
           <p className="calc-v2-hero-kicker">Free Packaging Tool</p>
-          <h1 className="calc-v2-hero-title">MTT Packaging Calculator</h1>
-          <p className="calc-v2-hero-subtitle">Plan your custom packaging in minutes. Calculate recommended box dimensions, sheet layout and shipping volume — then request a production quote.</p>
+          <h1 className="calc-v2-hero-title">Box Size Calculator</h1>
+          <p className="calc-v2-hero-subtitle">Use this free box size calculator to estimate dimensions from your product measurements. Compare sheet layouts and shipping volume, then check the proposed fit on a sample.</p>
         </div>
       </header>
 
@@ -70,7 +71,7 @@ export default function BoxSizeCalculatorPage() {
           <article>
             <h2>How the Packaging Calculator Works</h2>
             <p>Enter your product dimensions (length, width and height), select your packaging type, set the clearance around each side, and specify the board thickness. The calculator uses these inputs to estimate the recommended internal box size and the resulting external dimensions.</p>
-            <p>The formulas are straightforward: for each axis, the internal dimension equals the product dimension plus twice the clearance (one clearance value applied to each side). The external dimension then adds twice the board thickness to account for both walls of the box.</p>
+            <p>For each axis, this tool adds the selected clearance on both sides of the product. It then adds two board thicknesses to estimate the outside size. This is a simplified straight-wall calculation: a lid, sleeve, wrapped edge or folded panel can change the finished dimensions.</p>
           </article>
 
           <article>
@@ -82,7 +83,7 @@ export default function BoxSizeCalculatorPage() {
           <article>
             <h2>How Much Clearance Should I Add?</h2>
             <p>Clearance depends on the product, insert, protection level and packaging structure. A snug rigid box with a custom insert may need very little clearance, while a product without an insert may need more space to prevent movement.</p>
-            <p>Fragile or irregular products may require additional space or a custom insert. As a general starting point, 2–5 mm per side is common for products with some form of insert protection, but the right clearance is always specific to the product and packaging design.</p>
+            <p>Fragile or irregular products may require additional space or a custom insert. Choose the allowance after reviewing the product, insert and opening method. A number entered here does not establish a protective cushion or an approved manufacturing tolerance.</p>
           </article>
 
           <article>

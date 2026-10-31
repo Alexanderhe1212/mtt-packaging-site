@@ -1,0 +1,51 @@
+/* Scoped to this calculator: keep shared catalogue and enquiry layouts intact. */
+.calc-page .calc-v2-hero,.calc-page .calc-v2-section,.calc-page .calc-content-section{padding:40px 24px;max-width:1280px;margin:auto}
+.calc-page .calc-v2-hero-title{font:400 clamp(36px,5vw,58px)/1.15 Georgia,serif;margin:12px 0 20px}
+.calc-page .calc-v2-hero-subtitle{max-width:740px;line-height:1.7}
+.calc-page .calc-v2-hero-kicker,.calc-page .calc-v2-result-kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.calc-page .calc-v2-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+.calc-page .calc-v2-form,.calc-page .calc-v2-results{min-width:0}
+.calc-page .calc-v2-step,.calc-page .calc-v2-results{padding:24px;background:#fff;border:1px solid #d2cdc2;border-radius:8px}
+.calc-page .calc-v2-step{margin-bottom:18px}
+.calc-page .calc-v2-step-header{display:flex;gap:14px;margin-bottom:24px}
+.calc-page .calc-v2-step-num{font-size:20px;color:#625a40}
+.calc-page .calc-v2-step-title,.calc-page .calc-v2-adv-title{font-size:21px;font-weight:600}
+.calc-page .calc-v2-step-desc,.calc-page .calc-v2-adv-desc{color:#525b52;font-size:14px;margin-top:5px}
+.calc-page .calc-v2-step-body,.calc-page .calc-v2-label{display:grid;gap:12px;min-width:0}
+.calc-page .calc-v2-step-body{gap:20px}
+.calc-page .calc-v2-input,.calc-page .calc-v2-select{width:100%;min-width:0;min-height:46px;border:1px solid #8a9389;border-radius:4px;background:#fff;padding:10px;font-size:16px;color:#17271e}
+.calc-page .calc-v2-dims{display:flex;gap:6px;align-items:center;min-width:0}
+.calc-page .calc-v2-dim-input{position:relative;min-width:0;flex:1}
+.calc-page .calc-v2-dim-input .calc-v2-input{padding-right:32px}
+.calc-page .calc-v2-dim-unit{position:absolute;right:8px;top:14px;font-size:12px;pointer-events:none}
+.calc-page .calc-v2-grid-2,.calc-page .calc-v2-metrics,.calc-page .calc-content-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.calc-page .calc-v2-radio-row,.calc-page .calc-v2-unit-row,.calc-page .calc-v2-actions{display:flex;flex-wrap:wrap;gap:12px}
+.calc-page .calc-v2-radio-btn,.calc-page .calc-v2-unit-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:10px;border:1px solid #d2cdc2;border-radius:4px;cursor:pointer}
+.calc-page .calc-v2-unit-hint{font-size:12px;margin-left:6px}
+.calc-page .calc-v2-reset,.calc-page .calc-v2-copy,.calc-page .calc-v2-adv-btn{min-height:44px;padding:10px 16px;border:1px solid #526453;border-radius:4px;cursor:pointer}
+.calc-page .calc-v2-result-dims{font-size:clamp(24px,3vw,38px);font-weight:600;margin:12px 0;overflow-wrap:anywhere}
+.calc-page .calc-v2-result-unit{font-size:16px;margin-left:8px}
+.calc-page .calc-v2-formula-strip{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:20px 0}
+.calc-page .calc-v2-formula-step,.calc-page .calc-v2-metric,.calc-page .calc-v2-adv-metric{display:grid;gap:6px;font-size:14px}
+.calc-page .calc-v2-formula-label,.calc-page .calc-v2-metric>span{color:#525b52}
+.calc-page .calc-v2-metrics{padding:20px 0;border-top:1px solid #d2cdc2}
+.calc-page .calc-v2-advanced{margin:24px 0;border-block:1px solid #d2cdc2}
+.calc-page .calc-v2-advanced-header{padding:16px 0;cursor:pointer;min-height:44px}
+.calc-page .calc-v2-advanced-kicker{display:block;font-size:12px}
+.calc-page .calc-v2-adv-section{padding:18px 0}
+.calc-page .calc-v2-adv-section .calc-v2-grid-2{margin:16px 0}
+.calc-page .calc-v2-adv-result{padding:16px 0}
+.calc-page .calc-v2-quote-cta{display:grid;gap:14px;padding-top:20px}
+.calc-page .calc-v2-quote-cta-title{font-size:24px;line-height:1.3}
+.calc-page .calc-v2-quote-btn{white-space:normal;text-align:center}
+.calc-page .calc-v2-disclaimer{font-size:13px;color:#525b52;line-height:1.6;margin-top:20px}
+.calc-page .calc-v2-placeholder{padding:24px 0;line-height:1.7}
+.calc-page .calc-v2-placeholder h3{font-size:24px;margin:12px 0}
+.calc-page .calc-v2-error{color:#9b2525;margin:12px 0}
+.calc-page .calc-content-grid{gap:32px;line-height:1.7}
+.calc-page .calc-content-grid h2{font-size:24px;line-height:1.3;margin-bottom:16px}
+.calc-page .calc-content-grid p+p{margin-top:14px}
+.calc-page .calc-v2-hint-icon{margin-left:8px}
+.calc-page :is(input,select,button,summary):focus-visible{outline:2px solid #20382a;outline-offset:3px}
+@media(max-width:900px){.calc-page .calc-v2-layout{grid-template-columns:1fr}.calc-page .calc-content-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.calc-page .calc-v2-hero,.calc-page .calc-v2-section,.calc-page .calc-content-section{padding:28px 20px}.calc-page .calc-v2-step,.calc-page .calc-v2-results{padding:16px}.calc-page .calc-v2-grid-2{grid-template-columns:1fr}}

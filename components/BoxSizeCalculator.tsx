@@ -300,7 +300,7 @@ export default function BoxSizeCalculator() {
               <div className="calc-v2-dims">
                 <div className="calc-v2-dim-input">
                   <input type="number" inputMode="decimal" step="any" min="0.01"
-                    value={fields.length} onChange={set('length')}
+                    aria-label={`Product length (${unit})`} value={fields.length} onChange={set('length')}
                     placeholder={unit === 'mm' ? '123' : unit === 'cm' ? '12.3' : '4.84'}
                     className="calc-v2-input" required aria-required="true" />
                   <span className="calc-v2-dim-unit">{unit === 'inch' ? 'in' : unit}</span>
@@ -308,7 +308,7 @@ export default function BoxSizeCalculator() {
                 <span className="calc-v2-dim-sep">×</span>
                 <div className="calc-v2-dim-input">
                   <input type="number" inputMode="decimal" step="any" min="0.01"
-                    value={fields.width} onChange={set('width')}
+                    aria-label={`Product width (${unit})`} value={fields.width} onChange={set('width')}
                     placeholder={unit === 'mm' ? '23' : unit === 'cm' ? '2.3' : '0.91'}
                     className="calc-v2-input" required aria-required="true" />
                   <span className="calc-v2-dim-unit">{unit === 'inch' ? 'in' : unit}</span>
@@ -316,7 +316,7 @@ export default function BoxSizeCalculator() {
                 <span className="calc-v2-dim-sep">×</span>
                 <div className="calc-v2-dim-input">
                   <input type="number" inputMode="decimal" step="any" min="0.01"
-                    value={fields.height} onChange={set('height')}
+                    aria-label={`Product height (${unit})`} value={fields.height} onChange={set('height')}
                     placeholder={unit === 'mm' ? '42' : unit === 'cm' ? '4.2' : '1.65'}
                     className="calc-v2-input" required aria-required="true" />
                   <span className="calc-v2-dim-unit">{unit === 'inch' ? 'in' : unit}</span>
@@ -366,7 +366,7 @@ export default function BoxSizeCalculator() {
               <label className="calc-v2-label">
                 <span>
                   Clearance per side
-                  <span className="calc-v2-hint-icon" title="Space between your product and the inner wall of the box. Rigid boxes with inserts typically use 2–3 mm per side.">?</span>
+                  <span className="calc-v2-hint-icon" title="Space added on each side of the product. Confirm the allowance with the insert, opening method and assembled sample.">?</span>
                 </span>
                 <div className="calc-v2-dim-input">
                   <input type="number" inputMode="decimal" step="any" min="0"
@@ -378,7 +378,7 @@ export default function BoxSizeCalculator() {
               <label className="calc-v2-label">
                 <span>
                   Board Thickness
-                  <span className="calc-v2-hint-icon" title="The material thickness of one wall of the box. Rigid boxes typically use 1.5–2.5 mm board; folding cartons use 0.3–0.6 mm.">?</span>
+                  <span className="calc-v2-hint-icon" title="Enter the specified board thickness. The calculated outside size is a straight-wall estimate; lids, sleeves and folded layers can change it.">?</span>
                 </span>
                 <div className="calc-v2-dim-input">
                   <input type="number" inputMode="decimal" step="any" min="0.01"
