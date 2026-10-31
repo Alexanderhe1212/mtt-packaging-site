@@ -13,6 +13,40 @@ const results=[],errors=[];
 try {
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
  await page.setRequestInterception(true);page.on('request',r=>r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
+ // Mobile first visit: home -> product selection -> chosen design -> contextual enquiry.
+ await page.setViewport({width:390,height:844});
+ await page.goto(base+'/',{waitUntil:'networkidle0'});
+ if(await page.$('.cookie-btn-reject'))await page.click('.cookie-btn-reject');
+ assert(await page.$eval('.ed-actions a[href="/products"]',e=>e.getBoundingClientRect().height>=44),'Home browse touch target');
+ await Promise.all([page.waitForNavigation({waitUntil:'networkidle0'}),page.click('.ed-actions a[href="/products"]')]);
+ await page.type('input[type=search]','MTT-R0111');
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===1);
+ await Promise.all([page.waitForNavigation({waitUntil:'networkidle0'}),page.click('.product-card')]);
+ for(const prefix of ['', '/zh']){
+  if(prefix)await page.goto(base+prefix+'/products/perfume-and-refill-lift-off/',{waitUntil:'networkidle0'});
+  assert.equal(await page.$$eval('h1',es=>es.length),1);
+  const position=await page.evaluate(()=>({title:document.querySelector('h1').getBoundingClientRect().top,cta:document.querySelector('.product-summary .button').getBoundingClientRect().bottom,gallery:document.querySelector('.product-gallery').getBoundingClientRect().top}));
+  assert(position.title<position.gallery && position.cta<844,'Selected product and quote must precede mobile gallery');
+  await page.click('.product-accessories input');
+  const selectedLink=await page.$eval('.product-summary .button',e=>e.href);
+  const selected=new URL(selectedLink);
+  assert(selected.searchParams.get('product').startsWith('MTT-R0111'));
+  assert.equal(selected.searchParams.get('product_family'),'rigid');
+  assert(selected.searchParams.get('accessories'));
+  await page.goto(selectedLink,{waitUntil:'networkidle0'});
+  assert((await page.$eval('[name=selected_product]',e=>e.value)).startsWith('MTT-R0111'));
+  assert.equal(await page.$eval('[name=selected_accessories]',e=>e.value),selected.searchParams.get('accessories'));
+  if(!prefix)assert.equal(await page.$eval('[name=packagingType]',e=>e.value),'Rigid Box');
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ }
+ for(const width of [360,768,1440]){
+  await page.setViewport({width,height:844});
+  await page.goto(base+'/products/perfume-duo-collapsible-magnetic-rigid-box/',{waitUntil:'networkidle0'});
+  const layout=await page.evaluate(()=>{const s=document.querySelector('.product-summary').getBoundingClientRect(),g=document.querySelector('.product-gallery').getBoundingClientRect();return {summaryBottom:s.bottom,summaryLeft:s.left,galleryTop:g.top,galleryRight:g.right,overflow:document.documentElement.scrollWidth>innerWidth+1}});
+  assert(!layout.overflow);
+  if(width<=1000)assert(layout.summaryBottom<=layout.galleryTop);
+  else assert(layout.summaryLeft>=layout.galleryRight);
+ }
  // Industry links must preserve the buyer's application; filters survive reload and Back.
  for(const prefix of ['', '/zh']){
   await page.goto(base+prefix+'/products/?category=jewelry-watches&family=rigid',{waitUntil:'networkidle0'});

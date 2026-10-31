@@ -88,7 +88,7 @@ export default function Home() {
         <p className="ed-eyebrow">Custom packaging supplier · Shenzhen, China</p>
         <h1>Custom luxury boxes, made around your product.</h1>
         <p className="ed-lead">Rigid gift boxes, folding cartons, mailers, paper bags and fitted inserts for perfume, cosmetics, jewelry and gift brands. Developed, sampled and produced in China, shipped worldwide.</p>
-        <div className="ed-actions"><a className="button" href="/request-a-quote">Get a Quote <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/products">Browse 240 box designs</a></div>
+        <div className="ed-actions"><a className="button" href="/request-a-quote">Get a Quote <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/products">Browse 240 packaging designs</a></div>
         <ul className="hp-hero-points"><li>MOQ 1,000 pieces per design</li><li>Physical sample before production</li><li>Reply within 24 hours</li></ul>
       </div>
       <div className="home-hero-scene"><div className="home-hero-plane"><img data-home-image="hero" className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" /></div></div>

@@ -323,3 +323,12 @@ body.mtt-editorial .ed-nav .ed-mobile-menu summary{white-space:nowrap}
 
 /* Give adjacent related-product links reliable finger targets on both locales. */
 .product-related-links a{display:inline-flex;align-items:center;min-height:44px;padding-block:8px;}
+
+/* Identify the selected design before the mobile gallery and keep its quote link in context. */
+.product-detail{grid-template-areas:"gallery summary" "gallery specifications";grid-template-rows:auto 1fr;row-gap:24px}
+.product-detail>.product-summary{grid-area:summary;min-width:0}
+.product-detail>.product-gallery{grid-area:gallery}
+.product-detail>.product-specifications{grid-area:specifications;min-width:0}
+.product-summary h1{margin:12px 0 20px}
+.ed-hero .ed-actions .ed-text-link{min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:1000px){.product-detail{grid-template-areas:"summary" "gallery" "specifications";grid-template-rows:auto}.product-summary .button{max-width:100%;white-space:normal}}
