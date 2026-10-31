@@ -2,7 +2,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import sharp from 'sharp';
-const cases=[['about','development-worktable'],['how-we-work','hero-editorial'],['insights','hero-editorial'],['packaging','hero-editorial'],['zh','hero-editorial'],['packaging/folding-cartons','carton-editorial']];
+const cases=[['about','development-worktable'],['ppwr-compliant-packaging','development-worktable'],['how-we-work','hero-editorial'],['insights','hero-editorial'],['packaging','hero-editorial'],['zh','hero-editorial'],['packaging/folding-cartons','carton-editorial']];
 for(const [route,name] of cases){
  const html=await fs.readFile(`dist/client/${route}.html`,'utf8');
  const tag=html.match(new RegExp(`<img[^>]+src="/design/${name}\\.webp"[^>]*>`))?.[0];
@@ -17,4 +17,4 @@ for(const [route,name] of cases){
   if(url.includes('-800.'))assert((await fs.stat(file)).size<original.size,url);
  }
 }
-console.log('Six editorial page image sets: real widths, smaller mobile files and static HTML references verified.');
+console.log('Seven editorial page image sets: real widths, smaller mobile files and static HTML references verified.');

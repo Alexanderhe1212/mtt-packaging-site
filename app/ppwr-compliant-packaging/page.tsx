@@ -121,6 +121,8 @@ export default function PPWRPage() {
         </div>
         <img
           src="/design/development-worktable.webp"
+          srcSet="/design/development-worktable-800.webp 800w, /design/development-worktable.webp 1440w"
+          sizes="(max-width: 850px) 91vw, 46vw"
           alt="Illustrative packaging development still life with material samples and a notebook"
           width="900"
           height="900"
