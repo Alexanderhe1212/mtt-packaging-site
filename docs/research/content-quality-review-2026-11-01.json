@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "eva-vs-paperboard-inserts",
+    "primaryQuery": "EVA foam vs paperboard inserts",
+    "searchEvidence": "Approved keyword-map candidate, distinct material/ink-route decision. Existing related guides reviewed; no query volume claimed.",
+    "customerDecision": "Send the filled bottle dimensions and weight, reed bundle size, surface finishes, quantity and intended shipping arrangement. MTT can review an EVA and a folded-board proposal against the same fit and removal brief.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Existing MTT product image visually inspected and matched to catalogue.",
+      "Material identification and manufacturing outcome not inferred from image.",
+      "Comparison table, buyer decision and approval checks; official manufacturer/software sources.",
+      "No fabricated project test, client order, cost or colour tolerance."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.zotefoams.com/our-materials/azote/evazote/",
+      "https://www.iggesund.com/insights/paperboard-know-how/general-technical-information/"
+    ]
+  },
+  {
+    "slug": "cmyk-vs-spot-colour-packaging",
+    "primaryQuery": "CMYK vs spot colour packaging",
+    "searchEvidence": "Approved keyword-map candidate, distinct material/ink-route decision. Existing related guides reviewed; no query volume claimed.",
+    "customerDecision": "Send the editable artwork, brand colour reference, preferred paper, finish, quantities by design and the other packaging components that must match. MTT can help define the print route and sample approval record.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Existing MTT product image visually inspected and matched to catalogue.",
+      "Material identification and manufacturing outcome not inferred from image.",
+      "Comparison table, buyer decision and approval checks; official manufacturer/software sources.",
+      "No fabricated project test, client order, cost or colour tolerance."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://helpx.adobe.com/creative-cloud/apps/colors/spot-and-process-colors.html"
+    ]
+  }
+]
