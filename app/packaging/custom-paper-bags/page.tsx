@@ -7,12 +7,12 @@ import { SiteFooter, SiteNav } from "../../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Custom Paper Bags | Luxury Branded Bags | MTT Packaging",
+  title: "Custom Luxury Paper Bags with Logo | MTT Packaging",
   description:
-    "Custom paper bags from MTT Packaging: cotton, ribbon or paper handles, reinforced construction, foil and embossing. MOQ from 1,000 pcs.",
+    "Custom luxury paper bags for retail and gifting. Compare paper, handles, printing and reinforcement. Send dimensions for a quote. MOQ: 1,000 per design.",
   alternates: { canonical: "/packaging/custom-paper-bags" },
   openGraph: {
-    title: "Custom Paper Bags | MTT Packaging",
+    title: "Custom Luxury Paper Bags with Logo | MTT Packaging",
     description: "Luxury branded paper bags with custom handles and finishes. MOQ from 1,000 pcs.",
     url: "/packaging/custom-paper-bags",
     images: ["/design/customization/handles.webp"],
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  ["What types of custom paper bags do you offer?", "MTT Packaging coordinates production of luxury paper bags with cotton rope handles, ribbon handles, paper twisted handles and die-cut handles. Available in kraft, coated and specialty papers with foil, embossing and custom printing."],
+  ["What types of custom paper bags do you offer?", "Choose cotton rope, ribbon, twisted-paper or die-cut handles. We coordinate production in kraft, coated and specialty papers. Print and finish options include foil and embossing; the final combination is reviewed for your bag."],
   ["What is the MOQ for custom paper bags?", "The minimum order quantity for custom paper bags is 1,000 pieces per design. The final specification and quotation depend on the paper, handle, printing and finishing requirements."],
-  ["Can paper bags be reinforced?", "Yes. Reinforced handles, cardboard base inserts and turned-top edges are standard for premium paper bags. These improve load capacity and durability."],
+  ["Can paper bags be reinforced?", "Reinforcement options include handle patches, a cardboard base insert and a folded top. Choose them around the packed product and its weight. Confirm the complete bag on a loaded sample before approving its carrying use."],
 ];
 
 const structuredData = {
@@ -52,8 +52,8 @@ export default function CustomPaperBagsPage() {
       <header className="page-hero">
         <div>
           <p>Custom Paper Bags</p>
-          <h1>Custom Paper Bags for Premium Brands</h1>
-          <p>Brand-matched luxury bags with cotton, ribbon or paper handles. Reinforced construction, foil stamping and embossing. MOQ from 1,000 pcs.</p>
+          <h1>Custom Luxury Paper Bags with Your Logo</h1>
+          <p>Choose branded shopping and gift bags with cotton, ribbon or paper handles. Compare paper, printing and reinforcement for your boxed products. MOQ: 1,000 pieces per design.</p>
         </div>
         <img src="/design/customization/handles.webp" alt="Concept: ivory paper bag with green woven ribbon handles" width="900" height="900" />
       </header><section className="catalogue-shell"><a className="button" href="/products?family=bag">View designs, materials &amp; details →</a></section>
@@ -81,7 +81,7 @@ export default function CustomPaperBagsPage() {
         <div><p className="section-kicker">Buyer questions</p><h2 style={{ font: "400 clamp(38px,4.5vw,64px)/1 Georgia", margin: 0 }}>Common questions.</h2></div>
         <div>{faqs.map(([q, a], i) => (<details key={q} open={i === 0} style={{ borderTop: "1px solid rgba(23,32,25,.17)", padding: "24px 0" }}><summary style={{ cursor: "pointer", listStyle: "none", font: "600 19px/1 Arial,Helvetica,sans-serif", display: "flex", justifyContent: "space-between" }}>{q}<span style={{ fontSize: "24px" }}>+</span></summary><p style={{ maxWidth: "650px", lineHeight: 1.7, color: "#667168", fontSize: "14px", marginTop: "12px" }}>{a}</p></details>))}</div>
       </section>
-      <aside className="page-cta"><p>Have a packaging project?</p><h2>Send your product details for a bag recommendation.</h2><a className="button" href="/request-a-quote">Request a Quote →</a></aside>
+      <aside className="page-cta"><p>Have a packaging project?</p><h2>Send your product details for a bag recommendation.</h2><a className="button" href="/request-a-quote?product_family=bag">Request a Quote →</a></aside>
       <PackagingDetailNotes kind="bags"/><RelatedPackagingStudies ids={["collector", "fragrance"]}/><SiteFooter />
     </main>
   );
