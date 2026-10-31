@@ -13,6 +13,33 @@ const results=[],errors=[];
 try {
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
  await page.setRequestInterception(true);page.on('request',r=>r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
+ // Industry links must preserve the buyer's application; filters survive reload and Back.
+ for(const prefix of ['', '/zh']){
+  await page.goto(base+prefix+'/products/?category=jewelry-watches&family=rigid',{waitUntil:'networkidle0'});
+  const expected=all.filter(p=>p.category==='jewelry-watches'&&p.family==='rigid').length;
+  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},expected);
+  await page.evaluate(()=>{window.__mttFilterProbe=true});
+  await page.type('input[type=search]','ring');
+  assert(await page.evaluate(()=>window.__mttFilterProbe),'Filtering must not reload the page');
+  const links=await page.$$eval('.product-card',es=>es.map(e=>e.getAttribute('href')));
+  assert(links.length>0 && links.length<expected);
+  assert.equal(new URL(page.url()).searchParams.get('q'),'ring');
+  await page.reload({waitUntil:'networkidle0'});
+  assert.deepEqual(await page.$$eval('.product-card',es=>es.map(e=>e.getAttribute('href'))),links);
+  await page.goto(base+links[0],{waitUntil:'networkidle0'});
+  await page.goBack({waitUntil:'networkidle0'});
+  assert.deepEqual(await page.$$eval('.product-card',es=>es.map(e=>e.getAttribute('href'))),links);
+  await page.click('.product-results button');
+  assert.equal(new URL(page.url()).searchParams.size,0);
+  await page.type('input[type=search]','no-such-packaging-000');
+  const enquiry=await page.$eval('.catalogue-empty a',e=>e.getAttribute('href'));
+  assert.equal(enquiry,prefix+'/request-a-quote');
+ }
+ for(const [industry,category] of [['cosmetics-skincare-packaging','fragrance-beauty'],['jewelry-watch-packaging','jewelry-watches'],['gift-set-pr-kit-packaging','corporate-gifts']]){
+  await page.goto(base+'/industries/'+industry+'/',{waitUntil:'networkidle0'});
+  const link=await page.$eval('.industry-catalogue>a',e=>e.href);
+  assert.equal(new URL(link).searchParams.get('category'),category);
+ }
  for(const width of [390,1440]) {
   await page.setViewport({width,height:900});
   for(const path of ['/products/','/zh/products/']) {
