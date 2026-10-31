@@ -51,6 +51,7 @@ jobs:
           npm run audit:enquiry
           npm run audit:guides
           npm run audit:optional-chunks
+          node scripts/check-product-chunk-resilience.mjs
           npm run audit:catalogue
           npm run audit:studio
       - name: Audit performance and accessibility

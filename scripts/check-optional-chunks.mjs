@@ -5,7 +5,7 @@ const base=process.env.MTT_TEST_ORIGIN||'http://127.0.0.1:4239';
 assert(['127.0.0.1','localhost'].includes(new URL(base).hostname));
 const browser=await puppeteer.launch({executablePath:Launcher.getInstallations()[0],headless:true,args:['--no-sandbox']});
 try {
- for(const blocked of ['CookieSettingsButton-','analytics-',null]) {
+ for(const blocked of ['CookieConsent-','CookieSettingsButton-','analytics-',null]) {
   const context=await browser.createBrowserContext();
   const page=await context.newPage();let failures=0;
   await page.setRequestInterception(true);
@@ -22,6 +22,12 @@ try {
   assert.equal(state.title,'Candle Jar Packaging Protection: Inside an MTT Gift Box');
   assert(state.body.includes('Measure the glass before choosing the cavity'));
   assert(state.quote,'Static enquiry link must survive');
+  if(blocked==='CookieConsent-'){
+   assert.equal(await page.evaluate(()=>localStorage.getItem('mtt_cookie_consent_v2')),null);
+   assert.equal(await page.evaluate(()=>window['ga-disable-G-Z132GJZZ57']),true);
+   assert.equal(await page.$$eval('script[src]',es=>es.filter(e=>/googletagmanager|clarity\.ms/.test(e.src)).length),0);
+   await context.close();continue;
+  }
   await page.click('.cookie-btn-reject');
   assert.equal(await page.evaluate(()=>localStorage.getItem('mtt_cookie_consent_v2')),'denied');
   if(blocked==='CookieSettingsButton-')assert(await page.$('a[href="/cookie-policy"]'));

@@ -41,7 +41,7 @@ export default function RootLayout({
         <a href="#main-content" className="skip-link">Skip to main content</a>
         {children}
         <OptionalFeatureBoundary><LeadQualificationChatbot hasIntroVideo={true} /></OptionalFeatureBoundary>
-        <CookieConsent />
+        <OptionalFeatureBoundary><CookieConsent /></OptionalFeatureBoundary>
         <OptionalFeatureBoundary><ContactAnalytics /></OptionalFeatureBoundary>
       </body>
     </html>
