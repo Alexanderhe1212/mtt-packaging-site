@@ -30,14 +30,6 @@ const faqs = [
   ["Do you ship internationally?", "Yes. Export packing and shipping terms are planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms."],
 ];
 
-const productLinks = [
-  { slug: "corrugated-boxes", title: "Corrugated Boxes", desc: "Folded mailers with material, print and transit protection reviewed around the product." },
-  { slug: "custom-rigid-boxes", title: "Custom Rigid Boxes", desc: "Magnetic, lift-off lid, drawer and shoulder-neck structures for premium presentation." },
-  { slug: "folding-cartons", title: "Folding Cartons", desc: "High-detail paperboard cartons with specialty finishes for retail and e-commerce." },
-  { slug: "custom-paper-bags", title: "Custom Paper Bags", desc: "Brand-matched luxury bags with reinforced construction and custom handles." },
-  { slug: "custom-inserts", title: "Custom Inserts", desc: "Paper, molded pulp, EVA and fabric-covered inserts engineered around your product." },
-];
-
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -79,6 +71,7 @@ export default function PackagingPage() {
             developed around your product dimensions, brand presentation and
             distribution needs. MOQ from 1,000 pcs. Sampling before production.
           </p>
+          <div className="ed-actions"><a className="button" href="/products">Browse packaging designs →</a><a className="button" href="/request-a-quote">Discuss your packaging →</a></div>
         </div>
         <img
           src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1440w" sizes="(max-width: 850px) 91vw, 46vw"
@@ -102,9 +95,9 @@ export default function PackagingPage() {
           </p>
         </div>
         <div className="solution-grid">
-          {solutions.map((item, index) => (
+          {solutions.map((item) => (
             <a
-              href={`/packaging/${productLinks[index].slug}`}
+              href={`/packaging/${item.slug}`}
               className={`solution-card ${item.tone}`}
               key={item.title}
               style={{ textDecoration: "none", color: "inherit" }}

@@ -13,6 +13,13 @@ const results=[],errors=[];
 try {
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
  await page.setRequestInterception(true);page.on('request',r=>r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
+ // Category labels must lead to their own family, not a parallel array position.
+ await page.setViewport({width:390,height:844});
+ await page.goto(base+'/packaging/',{waitUntil:'networkidle0'});
+ const familyLinks=await page.$$eval('.solution-card',es=>es.map(e=>[e.querySelector('h3').textContent,new URL(e.href).pathname]));
+ assert.deepEqual(familyLinks,[['Luxury Rigid Boxes','/packaging/custom-rigid-boxes'],['Premium Folding Cartons','/packaging/folding-cartons'],['Bespoke Paper Bags','/packaging/custom-paper-bags'],['Custom Inserts','/packaging/custom-inserts']]);
+ assert(await page.$('.page-hero a[href="/request-a-quote"]'));
+ assert(await page.$('.page-hero a[href="/products"]'));
  // Mobile first visit: home -> product selection -> chosen design -> contextual enquiry.
  await page.setViewport({width:390,height:844});
  await page.goto(base+'/',{waitUntil:'networkidle0'});
