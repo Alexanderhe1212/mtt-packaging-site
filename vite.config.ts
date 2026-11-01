@@ -45,6 +45,26 @@ export default defineConfig(async () => {
   const { cloudflare } = await import('@cloudflare/vite-plugin');
 
   return {
+    // The root layout provider must arrive with hydration, not as a late lazy
+    // request whose failure replaces every server-rendered page with an error.
+    environments: {
+      client: {
+        build: {
+          rolldownOptions: {
+            output: {
+              codeSplitting: {
+                groups: [{
+                  name: 'app-runtime',
+                  test: /virtual:vinext-app-browser-entry|\/vinext\/dist\/shims\/layout-segment-context\.js(?:\?|$)/,
+                  priority: 20,
+                  includeDependenciesRecursively: false,
+                }],
+              },
+            },
+          },
+        },
+      },
+    },
     css: { postcss: { plugins: [tailwindcss()] } },
     server: isCodexSeatbeltSandbox
       ? { watch: { useFsEvents: false, usePolling: true } }
