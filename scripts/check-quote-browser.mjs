@@ -35,7 +35,7 @@ try{
   assert(await page.$('form[action*="formspree"]'));
  }
  await page.evaluate((key,data)=>sessionStorage.setItem(key,JSON.stringify(data)),key,data);
- for(const [family,type] of Object.entries({rigid:'Rigid Box',carton:'Folding Carton',corrugated:'Corrugated Box',bag:'Paper Bag'})){
+ for(const [family,type] of Object.entries({rigid:'Rigid Box',carton:'Folding Carton',corrugated:'Corrugated Box',bag:'Paper Bag',metal:'Metal Tin'})){
   await page.goto(base+'/request-a-quote/?'+new URLSearchParams({product:'TEST Selected design',product_family:family,accessories:'Greeting card, Ribbon'}),{waitUntil:'networkidle0'});
   assert.equal(await page.$eval('[name=packagingType]',e=>e.value),type);
   assert.equal(await page.$eval('[name=selected_product]',e=>e.value),'TEST Selected design');

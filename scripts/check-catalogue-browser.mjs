@@ -16,10 +16,41 @@ try {
  // Category labels must lead to their own family, not a parallel array position.
  await page.setViewport({width:390,height:844});
  await page.goto(base+'/packaging/',{waitUntil:'networkidle0'});
+ await page.waitForSelector('.cookie-btn-reject',{visible:true});
+ await page.locator('.cookie-btn-reject').click();
+ await page.waitForFunction(()=>!document.querySelector('.cookie-btn-reject'));
  const familyLinks=await page.$$eval('.solution-card',es=>es.map(e=>[e.querySelector('h3').textContent,new URL(e.href).pathname]));
  assert.deepEqual(familyLinks,[['Luxury Rigid Boxes','/packaging/custom-rigid-boxes'],['Premium Folding Cartons','/packaging/folding-cartons'],['Bespoke Paper Bags','/packaging/custom-paper-bags'],['Custom Inserts','/packaging/custom-inserts']]);
  assert(await page.$('.page-hero a[href="/request-a-quote"]'));
  assert(await page.$('.page-hero a[href="/products"]'));
+ // Jar/tin collection keeps existing product URLs and composes with family filters.
+ for(const prefix of ['', '/zh']){
+  await page.goto(base+prefix+'/products/',{waitUntil:'networkidle0'});
+  assert(await page.$('[data-testid="jar-tin-filter"]'),'Jar/tin discovery control is present');
+  await page.locator('[data-testid="jar-tin-filter"]').click();
+  await page.waitForFunction(()=>location.search.includes('contents=jar-tin'));
+  const expected=all.filter(p=>p.family!=='bag'&&/\b(tins?|jars?)\b/i.test([p.name,p.contents,p.insert].join(' '))).map(p=>prefix+'/products/'+p.slug).sort();
+  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},expected.length);
+  assert.deepEqual(await page.$$eval('.product-card',es=>es.map(e=>new URL(e.href).pathname).sort()),expected);
+  assert.equal(await page.$$eval('.product-application-tabs button span',es=>es.reduce((n,e)=>n+parseInt(e.textContent,10),0)),expected.length);
+  await page.reload({waitUntil:'networkidle0'});
+  assert.equal(await page.$$eval('.product-card',es=>es.length),expected.length);
+  await page.locator('.product-family-tabs button:nth-child(2)').click();
+  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>expected.includes(prefix+'/products/'+p.slug)&&p.family==='rigid').length);
+  assert.equal(await page.$eval('link[rel=canonical]',e=>new URL(e.href).pathname),prefix+'/products');
+  assert.equal(await page.$eval('[data-testid="jar-tin-filter"]',e=>e.getAttribute('aria-pressed')),'true');
+  await page.locator('.product-results button').click();
+  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
+ }
+ await page.goto(base+'/packaging/custom-metal-tins/',{waitUntil:'networkidle0'});
+ assert.equal(await page.$eval('h1',e=>e.innerText),'Custom Metal Tins');
+ assert(await page.$('a[href="/products?contents=jar-tin"]'));
+ await page.locator('.page-hero a[href*="request-a-quote"]').click();
+ await page.waitForSelector('[name=selected_product]');
+ assert.equal(await page.$eval('[name=selected_product]',e=>e.value),'Custom metal tin container');
+ assert.equal(await page.$eval('[name=packagingType]',e=>e.value),'Metal Tin');
+ await page.goto(base+'/products/tea-tin-pairing-lift-off/',{waitUntil:'networkidle0'});
+ assert((await page.$eval('main',e=>e.innerText)).includes('lid-rim clearance'));
  // Mobile first visit: home -> product selection -> chosen design -> contextual enquiry.
  await page.setViewport({width:390,height:844});
  await page.goto(base+'/',{waitUntil:'networkidle0'});
@@ -70,7 +101,7 @@ try {
   await page.goto(base+links[0],{waitUntil:'networkidle0'});
   await page.goBack({waitUntil:'networkidle0'});
   assert.deepEqual(await page.$$eval('.product-card',es=>es.map(e=>e.getAttribute('href'))),links);
-  await page.click('.product-results button');
+  await page.locator('.product-results button').click();
   assert.equal(new URL(page.url()).searchParams.size,0);
   await page.type('input[type=search]','no-such-packaging-000');
   const enquiry=await page.$eval('.catalogue-empty a',e=>e.getAttribute('href'));
@@ -110,13 +141,13 @@ try {
      await categoryTabs[j+1].click();
      await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.category===category&&p.family===family).length);
     }
-    await page.click('.product-results button');
+    await page.locator('.product-results button').click();
    }
    await page.type('input[type=search]','candle jar');
    await page.waitForFunction(()=>document.querySelectorAll('.product-card').length>0);
    const jarLinks=await page.$$eval('.product-card',es=>es.map(e=>e.getAttribute('href')));
    assert(jarLinks.some(x=>x.includes('/products/')));
-   await page.click('.product-results button');
+   await page.locator('.product-results button').click();
    const tabs=await page.$$('.product-family-tabs button');
    for(const [i,family] of ['','rigid','carton','corrugated','bag'].entries()) {
     await tabs[i].click();
@@ -124,14 +155,14 @@ try {
    }
    await page.type('input[type=search]','no-such-packaging-000');
    assert.equal(await page.$$eval('.product-card',e=>e.length),0);
-   await page.click('.product-results button');
+   await page.locator('.product-results button').click();
    await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
   }
  }
  // Clearing a URL-provided filter must override the initial snapshot, not reapply it.
  await page.goto(base+'/products/?family=bag',{waitUntil:'networkidle0'});
  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.family==='bag').length);
- await page.click('.product-results button');
+ await page.locator('.product-results button').click();
  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);
  await page.goto(base+'/products/?family=unknown&structure=unknown',{waitUntil:'networkidle0'});
  await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.length);

@@ -168,6 +168,7 @@ export default function RequestAQuotePage() {
                     <option value="Custom Insert">Custom Insert</option>
                     <option value="Gift Box Set">Gift Box Set</option>
                     <option value="Not sure - recommendation requested">Not sure — please recommend</option>
+                    <option value="Metal Tin">Metal Tin</option>
                     <option value="Other">Other</option>
                   </select>
                 </label>

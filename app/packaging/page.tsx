@@ -272,7 +272,7 @@ export default function PackagingPage() {
         </a>
       </aside>
 
-      <RelatedPackagingStudies ids={["fragrance", "tea", "window"]}/><SiteFooter />
+      <section className="catalogue-shell"><h2>Metal containers and paper outer boxes</h2><p>Specify the container separately from its gift or shipping pack.</p><p><a href="/packaging/custom-metal-tins">Custom metal tins →</a> · <a href="/products?contents=jar-tin">Paper outer boxes for jars and tins →</a></p></section><RelatedPackagingStudies ids={["fragrance", "tea", "window"]}/><SiteFooter />
     </main>
   );
 }

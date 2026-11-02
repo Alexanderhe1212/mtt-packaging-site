@@ -16,7 +16,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
   const formRef = useRef<HTMLFormElement>(null);
   useEffect(()=>{
     const family=new URLSearchParams(location.search).get('product_family')||'';
-    const types:Record<string,string>={rigid:'Rigid Box',carton:'Folding Carton',corrugated:'Corrugated Box',bag:'Paper Bag'};
+    const types:Record<string,string>={rigid:'Rigid Box',carton:'Folding Carton',corrugated:'Corrugated Box',bag:'Paper Bag',metal:'Metal Tin'};
     const field=formRef.current?.elements.namedItem('packagingType') as HTMLSelectElement|null;
     if(field && !field.value && types[family]) field.value=types[family];
   },[]);

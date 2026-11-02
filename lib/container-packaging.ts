@@ -1,0 +1,2 @@
+// Curated from the catalogue's stated contents and insert descriptions, not visual fit assumptions.
+export const jarTinProductCodes = new Set(["MTT-R0103", "MTT-R0105", "MTT-R0201", "MTT-R0204", "MTT-R0205", "MTT-R0207", "MTT-R0211", "MTT-R0214", "MTT-R0215", "MTT-R0217", "MTT-R0309", "MTT-R0319", "MTT-R0504", "MTT-R0505", "MTT-R0511", "MTT-R0513", "MTT-R0515", "MTT-R0519", "MTT-R0609", "MTT-R0802", "MTT-C0109", "MTT-C0120", "MTT-C0127", "MTT-E0109", "MTT-E0120", "MTT-E0127", "MTT-R1203", "MTT-R1205", "MTT-R1210", "MTT-R1211", "MTT-R1217", "MTT-R1222", "MTT-R1223"]);

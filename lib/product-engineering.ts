@@ -1,3 +1,4 @@
+import {jarTinProductCodes} from './container-packaging';
 import type { PackagingProduct } from './products';
 // Review prompts, not factory tolerances or claims of validated performance.
 const checks: Record<string, [string,string]> = {
@@ -33,5 +34,6 @@ export function engineeringChecks(p:PackagingProduct,zh=false){
  const notes=[pair[zh?1:0],zh?'尺寸请分别确认成品内尺寸、成品外尺寸和产品最大外廓。内托槽位需要取放空间；图片不能确定公差、板厚或运输保护效果。':'Confirm finished internal dimensions, finished external dimensions and the product maximum envelope separately. Insert cavities need removal access; images do not establish tolerances, board thickness or transit performance.'];
  if(['tea-coffee-chocolate','bakery-food','nutrition-wellness'].includes(p.category))notes.push(zh?'明确食品或营养品是否独立密封包装。若材料直接接触内容物，需按目标市场核对接触材料及适用证明；外盒外观不代表食品接触合格。':'Specify whether contents have separate sealed primary packaging. For direct contact, review contact materials and applicable evidence for the destination market; an outer box image does not establish food-contact suitability.');
  if(p.category==='jewelry-watches')notes.push(zh?'使用实际首饰或手表检查内衬摩擦、固定和取放；绒布外观不能证明防刮或防变色性能。':'Check lining abrasion, retention and removal with the actual jewelry or watch; a fabric appearance does not establish scratch or tarnish protection.');
+ if(jarTinProductCodes.has(p.code))notes.push(zh?'罐装产品请提供装好盖后的最大外径或长宽、总高和装填重量。分开核对罐身支撑、盖沿间隙与手指取放位置，避免用装饰盖承担提取力。当前页面介绍纸质外盒，罐体材质、密封和内表面要求请另行列明。':'For jarred or tinned contents, provide maximum outside diameter or length/width with the lid fitted, total height and filled weight. Review body support, lid-rim clearance and finger access separately; avoid relying on a decorative lid to lift the product. This page specifies the paper outer box; list container material, seal and internal-surface requirements separately.');
  return notes;
 }
