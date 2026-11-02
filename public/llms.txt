@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Discreet Shipping for Luxury Gifts: Cartons, Labels and Packout](https://mttpackaging.com/insights/unbranded-shipping-carton-premium-gift)
 - [EVA Foam vs Paperboard Inserts for a Diffuser Gift Set](https://mttpackaging.com/insights/eva-vs-paperboard-inserts)
 - [CMYK vs Spot Colour Packaging: Specifying a Violet Retail Bag](https://mttpackaging.com/insights/cmyk-vs-spot-colour-packaging)
 - [Collapsible Rigid Box Assembly: An MTT Perfume Duo](https://mttpackaging.com/insights/collapsible-rigid-box-assembly-checklist)

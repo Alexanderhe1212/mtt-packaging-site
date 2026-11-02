@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['unbranded-shipping-carton-premium-gift','rigid-gift-box-shipping-outer-carton','corrugated-mailer-shipping-box-specification','packaging-reorder-specification-change-control'],products:['custom-corrugated-packaging-set','three-compartment-skincare-mailer','custom-tea-tin-mailer']},
   {articles:['eva-vs-paperboard-inserts','custom-inserts-product-protection','perfume-box-insert-design','custom-packaging-sampling-process'],products:['custom-diffuser-packaging-set','signature-perfume-lift-off','three-compartment-skincare-mailer']},
   {articles:['cmyk-vs-spot-colour-packaging','printing-finishing-guide','packaging-artwork-dieline-preflight','match-gold-foil-perfume-box-paper-bag'],products:['custom-skincare-duo-cord-bag','custom-perfume-bottle-ribbon-bag','signature-perfume-lift-off']},
   {articles:['collapsible-rigid-box-assembly-checklist','custom-packaging-sampling-process','reduce-shipping-costs-rigid-boxes','measure-packaging-internal-external-dimensions'],products:["perfume-duo-collapsible-magnetic-rigid-box", "travel-fragrance-collapsible-magnetic-rigid-box", "skincare-ritual-collapsible-magnetic-rigid-box"]},

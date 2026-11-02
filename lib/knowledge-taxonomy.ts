@@ -20,6 +20,7 @@ export const knowledgeTopics = [
       "pr-kit-packaging-packout-checklist",
       "drawer-box-clearance-ribbon-pull",
       "rigid-gift-box-shipping-outer-carton",
+      "unbranded-shipping-carton-premium-gift",
       "measure-packaging-internal-external-dimensions",
       "custom-box-structure-guide",
       "hexagonal-rigid-gift-box-structure-analysis",

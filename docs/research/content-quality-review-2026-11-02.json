@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "unbranded-shipping-carton-premium-gift",
+    "keywordId": "KW-0687",
+    "primaryQuery": "discreet shipping packaging luxury gifts",
+    "searchEvidence": "Existing content-map candidate; no measured search-volume claim. Existing outer-carton and corrugated specification guides reviewed. New scope: exterior branding policy, actual label approval, packing handoff.",
+    "customerDecision": "Choose one-layer versus separate presentation/dispatch layers and issue a repeatable exterior-and-label packing brief.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Two existing MTT images visually inspected; exterior print explicitly distinguished from unprinted shipping specification.",
+      "No made-up shipment, order, performance or protection claim.",
+      "Approval matrix, warehouse handoff sequence, buyer inputs and separate physical-test scope.",
+      "UPS and ISTA primary pages reread 2026-11-02. Erroneous numeric conversion in UPS source not reproduced.",
+      "New article links to established sizing/protection content rather than duplicating it."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ups.com/us/en/support/shipping-support/packaging-tips",
+      "https://www.ista.org/test_procedures.php"
+    ]
+  }
+]
