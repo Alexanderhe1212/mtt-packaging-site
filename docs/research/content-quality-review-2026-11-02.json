@@ -28,5 +28,35 @@
       "https://www.ups.com/us/en/support/shipping-support/packaging-tips",
       "https://www.ista.org/test_procedures.php"
     ]
+  },
+  {
+    "slug": "verify-custom-packaging-supplier-china",
+    "keywordId": "KW-0677",
+    "primaryQuery": "how to verify a packaging supplier in China",
+    "searchEvidence": "Existing independent planned keyword; no search-volume claim. Distinct pre-sample counterparty and component-responsibility review; existing ISO and sampling articles remain detailed references.",
+    "customerDecision": "Confirm the supplier identity and component responsibilities before commissioning a sample.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Existing two-tin MTT image inspected; no fabricated supplier audit or certification",
+      "Identity, production responsibility and sample approval separated",
+      "Primary TCS, ASQ and IAF instructions read 2026-11-02; source paraphrases bounded",
+      "Existing articles linked instead of duplicating certification and sampling procedures"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.deleguescommerciaux.gc.ca/en/market-industry-info/search-country-region/country/canada-china-export/conducting-due-diligence.html",
+      "https://asq.org/quality-resources/supplier-quality",
+      "https://support.iafcertsearch.org/verifiers/certificate-verification/how-to-verify-a-company-certificate"
+    ]
   }
 ]

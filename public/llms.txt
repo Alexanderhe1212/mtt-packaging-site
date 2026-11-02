@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [How to Verify a Packaging Supplier in China Before Sampling](https://mttpackaging.com/insights/verify-custom-packaging-supplier-china)
 - [Discreet Shipping for Luxury Gifts: Cartons, Labels and Packout](https://mttpackaging.com/insights/unbranded-shipping-carton-premium-gift)
 - [EVA Foam vs Paperboard Inserts for a Diffuser Gift Set](https://mttpackaging.com/insights/eva-vs-paperboard-inserts)
 - [CMYK vs Spot Colour Packaging: Specifying a Violet Retail Bag](https://mttpackaging.com/insights/cmyk-vs-spot-colour-packaging)

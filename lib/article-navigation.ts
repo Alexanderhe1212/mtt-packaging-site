@@ -18,7 +18,7 @@ const topics = [
   {articles:['measure-packaging-internal-external-dimensions','rigid-box-vs-folding-carton','corrugated-mailer-shipping-box-specification','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set']},
   {"articles": ["fsc-certified-custom-packaging-buyers-guide", "packaging-material-selection", "recycled-vs-recyclable-packaging-boxes", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
   {"articles": ["gmi-printing-certification-packaging-colour-control", "printing-finishing-guide", "match-gold-foil-perfume-box-paper-bag", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
-  {"articles": ["iso-certification-packaging-supplier-verification", "custom-packaging-inspection-checklist", "packaging-reorder-specification-change-control", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
+  {"articles": ["verify-custom-packaging-supplier-china", "iso-certification-packaging-supplier-verification", "custom-packaging-inspection-checklist", "packaging-reorder-specification-change-control", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
   {"articles": ["ce-marking-custom-packaging-artwork-guide", "ppwr-packaging-requirements", "shared-box-multiple-cosmetic-skus", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
   {"articles": ["sedex-smeta-packaging-supplier-audit-guide", "how-to-write-a-packaging-brief", "custom-packaging-inspection-checklist", "custom-packaging-sampling-process"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
 
@@ -43,6 +43,7 @@ const topics = [
   {articles:['double-door-wine-gift-box-design-review','christmas-drawer-gift-box-packout-review','collectors-packaging-story-material-analysis','tea-gift-box-drawer-analysis','jewelry-packaging-repeat-use-analysis'], products:['twin-wine-double-door-gift-box','four-drawer-christmas-gift-cabinet','coffee-tasting-flight-drawer']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'verify-custom-packaging-supplier-china':['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer'],
   'rigid-box-vs-folding-carton':['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set'],
   'perfume-discovery-set-packaging':['perfume-discovery-library-double-door','travel-fragrance-trio-drawer','signature-perfume-lift-off'],
   'jewelry-packaging-repeat-use-analysis':['engagement-ring-keepsake-lift-off','pendant-presentation-drawer','watch-and-strap-collection-book'],
