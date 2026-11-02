@@ -22,7 +22,7 @@ function setup({url='https://mttpackaging.com/insights/example',referrer='',gpc=
   const key=`${domain.replace(/^\./,'')}|${name}`;
   if(attrs.some(a=>/^max-age=0$/i.test(a)))cookies.delete(key);else cookies.set(key,{name,value});
  }});
- const sessionStorage={removeItem:key=>{if(storageThrows)throw Error('blocked');session.delete(key);}};
+ const sessionStorage={getItem:key=>{if(storageThrows)throw Error('blocked');return session.get(key)||null;},setItem:(key,value)=>{if(storageThrows)throw Error('blocked');session.set(key,value);},removeItem:key=>{if(storageThrows)throw Error('blocked');session.delete(key);}};
  const setTimeout=(fn,delay=0)=>{timers.push({fn,delay});return timers.length;};
  Object.assign(window,{document,sessionStorage,setTimeout,history});
  const context=vm.createContext({window,document,location,navigator,sessionStorage,history,URL,setTimeout,console});
@@ -88,3 +88,13 @@ test('cross-tab deny/delete revoke; unrelated writes and grants do not start cap
 test('cross-tab localStorage.clear revokes analytics',()=>{const h=setup();h.window.mttGrantAnalytics();const sdk=vendor(h);h.emit('window','storage',{key:null,newValue:null});h.flush();assert.equal(sdk.state.active,false);assert.equal(h.window['ga-disable-G-Z132GJZZ57'],true);});
 test('blocked session storage cannot prevent stop or destroy a saved form plan',()=>{const h=setup({storageThrows:true});h.window.mttGrantAnalytics();const sdk=vendor(h);assert.doesNotThrow(()=>h.window.mttRevokeAnalytics());h.flush();assert.equal(sdk.state.active,false);assert.equal(h.session.get('mtt_calc_handoff'),'KEEP CALCULATOR');});
 console.log(`${cases} consent behavior scenarios passed. Offline VM only; no vendor or form network requests.`);
+
+test('Inquiry attribution requires consent and excludes query data',()=>{
+ const h=setup({url:'https://mttpackaging.com/insights/example?email=private@example.com',referrer:'https://www.google.com/search?q=private'});
+ assert.equal(h.window.mttInquiryAttribution(),null);h.window.mttGrantAnalytics();
+ assert.deepEqual(plain(h.window.mttInquiryAttribution()),{landing_page:'/insights/example',source_category:'google'});
+ h.location.pathname='/request-a-quote';h.window.mttGrantAnalytics();
+ assert.equal(h.window.mttInquiryAttribution().landing_page,'/insights/example');
+ h.window.mttRevokeAnalytics();assert.equal(h.window.mttInquiryAttribution(),null);assert(!h.session.has('mtt_inquiry_attribution_v1'));
+});
+test('Attribution storage failure does not block consent',()=>{const h=setup({storageThrows:true});h.window.mttGrantAnalytics();assert.equal(h.window.mttInquiryAttribution(),null);h.window.mttRevokeAnalytics();});

@@ -5,11 +5,11 @@ import vm from 'node:vm';
 import ts from 'typescript';
 const source=fs.readFileSync('components/QuoteForm.tsx','utf8');
 const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX}}).outputText;
-async function scenario({ok=true,result={ok:true},networkError=false,attached=true,valid=true,path="/request-a-quote",leadSource=""}={}){
+async function scenario({ok=true,result={ok:true},networkError=false,attached=true,valid=true,path="/request-a-quote",leadSource="",attribution=null}={}){
  const removed=[],redirects=[],events=[],requests=[];const exports={};
  const react={useSyncExternalStore:(_subscribe,_read,serverRead)=>serverRead(),useEffect:()=>{},useRef:v=>({current:v}),useState:v=>[v,()=>{}]};
  const jsx=(type,props)=>({type,props});
- const context={exports,URLSearchParams,require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx}:name.includes('interface')?{resources:{en:{translation:{sendError:'failed'}}}}:name.includes('analytics')?{trackEvent:(...a)=>events.push(a)}:{CALC_HANDOFF_KEY:'mtt_calc_handoff'},
+ const context={window:{mttInquiryAttribution:()=>attribution},exports,URLSearchParams,require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx}:name.includes('interface')?{resources:{en:{translation:{sendError:'failed'}}}}:name.includes('analytics')?{trackEvent:(...a)=>events.push(a)}:{CALC_HANDOFF_KEY:'mtt_calc_handoff'},
  sessionStorage:{removeItem:k=>removed.push(k)},location:{pathname:path,assign:v=>redirects.push(v)},FormData:class extends Map {constructor(){super(leadSource?[['lead_source',leadSource]]:[]) }},
  fetch:async(...args)=>{requests.push(args);if(networkError)throw new Error('offline');return {ok,json:async()=>result}}};
  vm.runInNewContext(compiled,context);
@@ -46,3 +46,9 @@ for(const [ok,result,expected] of [[true,{ok:true},'success'],[true,{ok:false},'
  assert.equal(events.length,expected==='success'?1:0);
 }
 console.log('Chatbot accepted-response and rejected/malformed-response event boundaries pass.');
+
+const attributed=await scenario({attached:false,attribution:{landing_page:'/insights/example',source_category:'google'}});
+assert.equal(attributed.requests[0][1].body.get('entry_page'),'/insights/example');
+assert.equal(attributed.requests[0][1].body.get('entry_source_category'),'google');
+assert(!ordinary.requests[0][1].body.has('entry_page'),'no consent attribution must stay absent');
+console.log('Accepted form attaches available consented attribution; absent attribution stays absent.');
