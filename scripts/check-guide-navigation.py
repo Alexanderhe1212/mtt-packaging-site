@@ -20,9 +20,18 @@ for loc in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/s
     anchors=[x for x in page.links if x.startswith('#guide-section-')]
     assert anchors and all(x[1:] in page.ids for x in anchors),(route,'broken contents')
     assert len(anchors)==len([x for x in page.ids if x.startswith('guide-section-')]),(route,'missing section')
-    handoff=text.split('id="guide-designs"',1)[1].split('class="article-related"',1)[0]
-    designs=set(x for x in Page(handoff).links if x.startswith('/products/'))
-    assert len(designs)==3,(route,'expected three curated designs',designs)
+    no_catalogue_match={'/insights/electronics-paperboard-insert-analysis','/insights/fold-flat-triangular-gift-box-shipping-volume'}
+    if route in no_catalogue_match:
+        assert 'id="guide-designs"' not in text,(route,'unrelated product recommendations')
+        designs=set()
+    else:
+        handoff=text.split('id="guide-designs"',1)[1].split('class="article-related"',1)[0]
+        designs=set(x for x in Page(handoff).links if x.startswith('/products/'))
+        assert len(designs)==3,(route,'expected three curated designs',designs)
+    if route=='/insights/hexagonal-rigid-gift-box-structure-analysis':
+        assert all('hexagonal' in x for x in designs),(route,designs)
+    if route=='/insights/perfume-box-and-bag-packaging':
+        assert '/products/custom-perfume-bottle-ribbon-bag' in designs and '/products/signature-perfume-lift-off' in designs
     for design in designs:assert (root/(design.strip('/')+'/index.html')).exists(),(route,design)
     brief=text.split('<aside aria-label="Packaging brief"',1)[1].split('</aside>',1)[0]
     assert Page(brief).links.count('/request-a-quote')==1,(route,'expected one primary enquiry')
