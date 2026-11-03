@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Free Box Size Calculator | MTT Packaging',
   description: 'Free box size calculator for estimated internal and external dimensions, sheet layout and shipping volume. Use your product measurements to plan a sample.',
   alternates: { canonical: '/tools/box-size-calculator' },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: 'Free Box Size Calculator | MTT Packaging',
     description: 'Estimate internal and external box dimensions, sheet layout and shipping volume with the free box size calculator.',
     url: '/tools/box-size-calculator',

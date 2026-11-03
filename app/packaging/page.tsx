@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Custom packaging solutions from MTT Packaging: rigid boxes, folding cartons, paper bags and precision inserts. MOQ from 1,000 pcs. Sampling before production.",
   alternates: { canonical: "/packaging" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Packaging Solutions | MTT Packaging",
     description:
       "Rigid boxes, folding cartons, paper bags and custom inserts for premium brands. MOQ from 1,000 pcs.",

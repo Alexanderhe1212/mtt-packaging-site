@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "See how MTT Packaging moves from product brief and physical sample to production, inspection, export packing and delivery.",
   alternates: { canonical: "/how-we-work" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Packaging Process | MTT Packaging",
     description: "A clear path from product brief to approved packaging production.",
     url: "/how-we-work",

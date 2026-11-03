@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     businessSummary,
   alternates: { canonical: "/about" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "About MTT Packaging | Packaging Manufacturing Partner",
     description:
       businessSummary,

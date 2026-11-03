@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Buyer-focused guides to custom box structures, packaging materials, printing finishes and protective inserts.",
   alternates: { canonical: "/insights" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Packaging Guides | MTT Packaging",
     description: "Practical packaging guidance before sampling, specification and quotation.",
     url: "/insights",

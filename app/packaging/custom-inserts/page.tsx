@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Custom packaging inserts from MTT Packaging: paper, molded pulp, EVA and fabric-covered inserts engineered around your product. MOQ from 1,000 pcs.",
   alternates: { canonical: "/packaging/custom-inserts" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Packaging Inserts | MTT Packaging",
     description: "Paper, molded pulp, EVA and fabric-covered inserts for premium packaging. MOQ from 1,000 pcs.",
     url: "/packaging/custom-inserts",

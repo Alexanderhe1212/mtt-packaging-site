@@ -19,6 +19,8 @@ urls=[x.text for x in ET.parse(root/'sitemap.xml').getroot().iter('{http://www.s
 errors=[];files=[];products=0
 for url in urls:
  f=root/urlsplit(url).path.strip('/')/'index.html';files.append(str(f));p=Page();p.feed(f.read_text());m=p.meta
+ for field in ['og:title','og:type','og:url','og:image']:
+  if not m.get(field): errors.append((url,'missing '+field))
  if m.get('twitter:title')!=m.get('og:title'): errors.append((url,'social titles disagree'))
  if m.get('twitter:description')!=m.get('og:description'): errors.append((url,'social descriptions disagree'))
  visible=' '.join(' '.join(p.visible).split())

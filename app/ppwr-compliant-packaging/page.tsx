@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Custom packaging manufacturing for EU-bound brands with PPWR-ready material documentation, structural guidance and technical support for rigid boxes, cartons, paper bags and inserts.",
   alternates: { canonical: "/ppwr-compliant-packaging" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "PPWR Compliant Packaging Support for EU Brands | MTT Packaging",
     description:
       "Custom packaging manufacturing and documentation support for EU-bound packaging projects preparing for PPWR requirements.",

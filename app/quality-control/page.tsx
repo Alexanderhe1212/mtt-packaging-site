@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "MTT Packaging quality control process: material inspection, color control, printing inspection, finishing, assembly, insert fit, final inspection and packing.",
   alternates: { canonical: "/quality-control" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Quality Control | MTT Packaging",
     description:
       "How MTT Packaging inspects materials, printing, finishing, assembly and packing for custom packaging projects.",

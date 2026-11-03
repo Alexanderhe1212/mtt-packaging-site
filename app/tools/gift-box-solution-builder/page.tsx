@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import GiftBuilderFrame from '../../../components/GiftBuilderFrame';
 const url='https://mttpackaging.com/tools/gift-box-solution-builder';
-export const metadata:Metadata={title:'Design Your Box: Size, Preview & Quote | MTT Packaging',description:'Plan internal box dimensions, choose your packaging structure and preview your artwork. Send a complete custom packaging brief to Hugo for engineering review.',alternates:{canonical:url},openGraph:{title:'MTT Packaging Studio — Design Your Box',description:'From product dimensions to a custom packaging brief.',url}};
+export const metadata:Metadata={title:'Design Your Box: Size, Preview & Quote | MTT Packaging',description:'Plan internal box dimensions, choose your packaging structure and preview your artwork. Send a complete custom packaging brief to Hugo for engineering review.',alternates:{canonical:url},openGraph:{ type: 'website' as const, images: ['/og.jpg?v=gold-triangle'],title:'MTT Packaging Studio — Design Your Box',description:'From product dimensions to a custom packaging brief.',url}};
 export default function GiftBuilderPage(){return <main id="main-content" className="studio-page" style={{margin:0,padding:0,maxWidth:'none'}}><h1 style={{position:'absolute',width:1,height:1,padding:0,overflow:'hidden',clipPath:'inset(50%)'}}>Design Your Box — MTT Packaging Studio</h1><style>{`body:has(.studio-page) .hugo-widget{display:none}
 .studio-help{padding:0 5%;border-top:1px solid #d6d9ce;font-size:14px;background:#f7f6f1}
 .studio-help summary{cursor:pointer;padding:17px 0;font-weight:600;line-height:1.4;min-height:52px}

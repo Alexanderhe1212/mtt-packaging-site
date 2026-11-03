@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Custom paperboard cartons: straight tuck end, reverse tuck end, crash-lock bottom, sleeve and tray, window and hang-tab styles. Compare closures and request a tailored quote.",
   alternates: { canonical: "/packaging/folding-cartons" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Folding Cartons | MTT Packaging",
     description: "Premium paperboard folding cartons with specialty finishes. Minimum order quantity is 1,000 pieces per design; final specifications affect the quotation.",
     url: "/packaging/folding-cartons",

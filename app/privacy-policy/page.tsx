@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'How MTT Packaging collects, uses and protects personal information obtained through mttpackaging.com.',
   alternates: { canonical: '/privacy-policy' },
   robots: { index: true, follow: true },
-  openGraph: { title: 'Privacy Policy | MTT Packaging', description: 'How MTT Packaging collects, uses and protects personal information.', url: '/privacy-policy' },
+  openGraph: { type: 'website' as const, images: ['/og.jpg?v=gold-triangle'], title: 'Privacy Policy | MTT Packaging', description: 'How MTT Packaging collects, uses and protects personal information.', url: '/privacy-policy' },
   twitter: { card: 'summary', title: 'Privacy Policy | MTT Packaging', description: 'How MTT Packaging collects, uses and protects personal information.' },
 };
 

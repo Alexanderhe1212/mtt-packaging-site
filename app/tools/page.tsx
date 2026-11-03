@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Free Packaging Tools | MTT Packaging',
   description: 'Practical calculators and design tools for brands, packaging designers and purchasing teams. Free box size calculator, sheet layout tools and more.',
   alternates: { canonical: '/tools' },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: 'Free Packaging Tools | MTT Packaging',
     description: 'Practical calculators and design tools for brands, packaging designers and purchasing teams.',
     url: '/tools',

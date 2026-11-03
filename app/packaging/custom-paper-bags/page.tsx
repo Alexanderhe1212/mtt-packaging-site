@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Custom luxury paper bags for retail and gifting. Compare paper, handles, printing and reinforcement. Send dimensions for a quote. MOQ: 1,000 per design.",
   alternates: { canonical: "/packaging/custom-paper-bags" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Luxury Paper Bags with Logo | MTT Packaging",
     description: "Luxury branded paper bags with custom handles and finishes. MOQ from 1,000 pcs.",
     url: "/packaging/custom-paper-bags",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Review documented paper sourcing, right-sizing, paper-based inserts and end-of-life choices for a specific custom packaging project.",
   alternates: { canonical: "/sustainability" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Responsible Custom Packaging | MTT Packaging",
     description: "Project-specific material documentation and lower-impact packaging directions without unsupported claims.",
     url: "/sustainability",

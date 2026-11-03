@@ -2,6 +2,7 @@ import { industries } from '../../lib/industries';
 import { SiteFooter, SiteNav } from '../../components/SiteNav';
 
 export const metadata = {
+  openGraph: { type: 'website', url: '/industries', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
   title: 'Industries | Custom Packaging Solutions | MTT Packaging',
   description: 'Custom packaging solutions for perfume, cosmetics, jewelry and premium gift industries.',
   alternates: { canonical: '/industries' },

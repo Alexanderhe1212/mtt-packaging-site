@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Custom rigid boxes from MTT Packaging: magnetic, lift-off lid, drawer and shoulder-neck structures. Premium materials, foil, embossing. MOQ from 1,000 pcs.",
   alternates: { canonical: "/packaging/custom-rigid-boxes" },
-  openGraph: {
+  openGraph: { type: 'website' as const,
     title: "Custom Rigid Boxes | MTT Packaging",
     description:
       "Magnetic, lift-off lid, drawer and shoulder-neck rigid boxes for premium brands. MOQ from 1,000 pcs.",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'How MTT Packaging uses cookies and similar technologies on mttpackaging.com, and how visitors can manage their preferences.',
   alternates: { canonical: '/cookie-policy' },
   robots: { index: true, follow: true },
-  openGraph: { title: 'Cookie Policy | MTT Packaging', description: 'How MTT Packaging uses cookies and similar technologies on mttpackaging.com.', url: '/cookie-policy' },
+  openGraph: { type: 'website' as const, images: ['/og.jpg?v=gold-triangle'], title: 'Cookie Policy | MTT Packaging', description: 'How MTT Packaging uses cookies and similar technologies on mttpackaging.com.', url: '/cookie-policy' },
   twitter: { card: 'summary', title: 'Cookie Policy | MTT Packaging', description: 'How MTT Packaging uses cookies and similar technologies on mttpackaging.com.' },
 };
 
