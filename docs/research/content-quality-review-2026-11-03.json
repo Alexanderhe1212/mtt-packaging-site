@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "kraft-paper-recycled-content-strength",
+    "keywordId": "KW-0679",
+    "primaryQuery": "kraft paper vs recycled paper packaging",
+    "searchEvidence": "Existing independent planning keyword; no verified volume. Distinct material substitution scope versus existing environmental-claim and GSM guides.",
+    "customerDecision": "Define comparable paper grades and sample checks before substituting carton material.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Image inspected against product brief; bottom not claimed visible.",
+      "Corrugated material guidance explicitly bounded; no unsupported fibre percentage or test result.",
+      "Specific support/base/print checks, substitution record and linked products."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.dssmith.com/sheetfeeding/insights/information-downloads/material-guidance/liners",
+      "https://www.unitload.vt.edu/facilities/corrugated-packaging-lab/basis-weight-testing.html",
+      "https://www.unitload.vt.edu/facilities/corrugated-packaging-lab/thickness-testing.html"
+    ]
+  }
+]

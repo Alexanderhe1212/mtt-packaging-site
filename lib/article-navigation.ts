@@ -29,7 +29,7 @@ const topics = [
   {"articles": ["packaging-reorder-specification-change-control", "custom-packaging-sampling-process", "custom-packaging-storage-scheduled-delivery", "shared-box-multiple-cosmetic-skus"], "products": ["signature-perfume-lift-off", "custom-skincare-duo-auto-bottom", "custom-bag-packaging-set"]},
 
   {articles:['shared-box-multiple-cosmetic-skus','cosmetic-pump-bottle-gift-box-clearance','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process'],products:['skincare-ritual-book','custom-skincare-duo-auto-bottom','three-compartment-skincare-mailer']},
-  {articles:['recycled-vs-recyclable-packaging-boxes','plastic-lamination-free-packaging-boxes','sustainable-luxury-packaging-boxes-approval','packaging-material-selection'],products:['signature-perfume-lift-off','custom-carton-packaging-set','custom-bag-packaging-set']},
+  {articles:['kraft-paper-recycled-content-strength','recycled-vs-recyclable-packaging-boxes','plastic-lamination-free-packaging-boxes','sustainable-luxury-packaging-boxes-approval','packaging-material-selection'],products:['signature-perfume-lift-off','custom-carton-packaging-set','custom-bag-packaging-set']},
   {articles:['sustainable-luxury-packaging-boxes-approval','packaging-material-selection','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process'], products:['signature-perfume-lift-off','custom-carton-packaging-set','custom-bag-packaging-set']},
   {articles:['custom-packaging-storage-scheduled-delivery','reduce-shipping-costs-rigid-boxes','how-to-write-a-packaging-brief','custom-packaging-sampling-process'], products:['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-bag-packaging-set']},
   {articles:['cosmetic-pump-bottle-gift-box-clearance','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process','skincare-packaging-series-analysis'], products:['skincare-ritual-book','custom-skincare-duo-auto-bottom','three-compartment-skincare-mailer']},
@@ -60,6 +60,7 @@ const specificProducts: Record<string,string[]> = {
   "drawer-box-clearance-ribbon-pull":["coffee-tasting-flight-drawer", "artisan-cookie-assortment-drawer", "travel-fragrance-trio-drawer"],
   "e-flute-vs-b-flute-corrugated-boxes":["three-compartment-skincare-mailer", "custom-corrugated-packaging-set", "custom-tea-tin-mailer"],
 
+  'kraft-paper-recycled-content-strength':['custom-skincare-duo-auto-bottom','custom-reed-diffuser-tuck','custom-tea-sachets-corr-sleeve'],
   'verify-custom-packaging-supplier-china':['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer'],
   'rigid-box-vs-folding-carton':['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set'],
   'perfume-discovery-set-packaging':['perfume-discovery-library-double-door','travel-fragrance-trio-drawer','signature-perfume-lift-off'],

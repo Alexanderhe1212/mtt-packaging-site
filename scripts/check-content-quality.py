@@ -82,6 +82,10 @@ reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-02.json')
 supplier=json.loads(Path('lib/supplier-verification-november-02.json').read_text())
 updates[supplier['slug']]=supplier
 
+kraft=json.loads(Path('lib/kraft-material-guide-november-03.json').read_text())
+updates[kraft['slug']]=kraft
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-03.json').read_text())
+
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

@@ -9,7 +9,8 @@ export const knowledgeTopics = [
       "corrugated-mailer-shipping-box-specification",
       "paper-bag-size-handles-load-check",
       "custom-inserts-product-protection",
-      "paper-bag-material-selection"
+      "paper-bag-material-selection",
+      "kraft-paper-recycled-content-strength"
     ]
   },
   {
