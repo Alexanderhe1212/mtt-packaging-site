@@ -77,3 +77,17 @@ for row in keyword_json:
  assert row['url'] == 'https://mttpackaging.com/products/' + by_code[row['code']]['slug']
  assert row['keywords'] == by_code[row['code']]['searchTerms']
 print('Complete product keyword maps, distinct candidate primary terms and scenario fields passed')
+
+# Catalogue and Chinese home entities must describe the existing visible content.
+for route in ['products', 'zh/products']:
+ html=(root/route/'index.html').read_text()
+ graphs=[json.loads(s) for s in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',html,re.S)]
+ lists=[n for g in graphs for n in g.get('@graph',[g]) if n.get('@type')=='ItemList']
+ assert len(lists)==1,(route,'missing catalogue ItemList')
+ assert len(lists[0]['itemListElement'])==len(catalogue)
+ for item in lists[0]['itemListElement']:
+  assert item['url'] in urls
+  assert 'href="'+urlsplit(item['url']).path+'"' in html
+zh=(root/'zh/index.html').read_text()
+assert '"@type":"Organization"' in zh and '"name":"MTT Packaging"' in zh
+print('Catalogue ItemList targets match rendered product links; Chinese home organization present')
