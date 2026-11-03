@@ -7,7 +7,7 @@ import { organization, siteUrl } from '../lib/seo';
 import { SiteNav, SiteFooter } from '../components/SiteNav';
 
 export const metadata: Metadata = {
-  openGraph: { type: 'website', url: '/', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
+  openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
   alternates: { canonical: '/', languages: { en: '/', 'zh-Hans': '/zh', 'x-default': '/' } },
   title: 'Custom Luxury Packaging Boxes Supplier in China | MTT Packaging',
   description: 'Custom rigid boxes, folding cartons, mailers, paper bags and inserts for perfume, cosmetics, jewelry and gift brands. MOQ 1,000 per design, sample first, shipped worldwide.',

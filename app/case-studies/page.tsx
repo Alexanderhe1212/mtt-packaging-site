@@ -5,7 +5,7 @@ import { SiteNav, SiteFooter } from '../../components/SiteNav';
 import { breadcrumb, siteUrl } from '../../lib/seo';
 const cases = articles.filter(a => ['Case Study', 'Design Analysis'].includes(a.angle));
 export const metadata: Metadata = {
-  openGraph: { type: 'website', url: '/case-studies', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
+  openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/case-studies', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
   title: 'Packaging Studies & Design Analysis | MTT Packaging',
   description: 'Explore packaging studies and independent design analyses covering fragrance, skincare, jewelry, inserts, cartons and gift packaging.',
   alternates: { canonical: '/case-studies' },
