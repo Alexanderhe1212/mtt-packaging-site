@@ -98,3 +98,19 @@ test('Inquiry attribution requires consent and excludes query data',()=>{
  h.window.mttRevokeAnalytics();assert.equal(h.window.mttInquiryAttribution(),null);assert(!h.session.has('mtt_inquiry_attribution_v1'));
 });
 test('Attribution storage failure does not block consent',()=>{const h=setup({storageThrows:true});h.window.mttGrantAnalytics();assert.equal(h.window.mttInquiryAttribution(),null);h.window.mttRevokeAnalytics();});
+
+test('AI referrers are classified with domain boundaries and retain consent protection',()=>{
+ const sources={'chatgpt.com':'chatgpt','chat.openai.com':'chatgpt','www.perplexity.ai':'perplexity','copilot.microsoft.com':'copilot','gemini.google.com':'gemini','claude.ai':'claude','chatgpt.com.evil.test':'external','fakechatgpt.com':'external','www.google.com':'google','www.bing.com':'bing','www.pinterest.com':'pinterest'};
+ for(const [host,expected] of Object.entries(sources)){
+  const h=setup({referrer:`https://${host}/?q=PRIVATE`});
+  assert.equal(h.window.mttInquiryAttribution(),null);h.window.mttGrantAnalytics();
+  assert.equal(h.window.mttInquiryAttribution().source_category,expected,host);
+  assert(!h.session.get('mtt_inquiry_attribution_v1').includes('PRIVATE'));
+  h.document.referrer='https://mttpackaging.com/products';h.location.pathname='/request-a-quote';h.window.mttGrantAnalytics();
+  assert.equal(h.window.mttInquiryAttribution().source_category,expected);
+  h.window.mttRevokeAnalytics();assert.equal(h.window.mttInquiryAttribution(),null);
+ }
+ const unknown=setup();unknown.window.mttGrantAnalytics();assert.equal(unknown.window.mttInquiryAttribution().source_category,'direct_or_unknown');
+ const gpc=setup({gpc:true,referrer:'https://chatgpt.com/'});gpc.window.mttGrantAnalytics();assert.equal(gpc.window.mttInquiryAttribution(),null);assert(!gpc.session.has('mtt_inquiry_attribution_v1'));
+});
+console.log(`${cases} total consent and attribution scenarios passed.`);

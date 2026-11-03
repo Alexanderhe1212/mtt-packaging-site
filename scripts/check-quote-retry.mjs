@@ -52,3 +52,9 @@ assert.equal(attributed.requests[0][1].body.get('entry_page'),'/insights/example
 assert.equal(attributed.requests[0][1].body.get('entry_source_category'),'google');
 assert(!ordinary.requests[0][1].body.has('entry_page'),'no consent attribution must stay absent');
 console.log('Accepted form attaches available consented attribution; absent attribution stays absent.');
+
+for(const source of ['chatgpt','perplexity','copilot','gemini','claude']){
+ const h=await scenario({attached:false,attribution:{landing_page:'/insights/example',source_category:source}});
+ assert.equal(h.requests[0][1].body.get('entry_source_category'),source);
+}
+console.log('All five consented AI source categories survive form submission.');
