@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import VisualCaseLink from "../components/VisualCaseLink";
 import QuoteForm from '../components/QuoteForm';
+import HomeImageMotion from '../components/HomeImageMotion';
+import { industries } from '../lib/industries';
 import { organization, siteUrl } from '../lib/seo';
-import { SiteFooter } from '../components/SiteNav';
-import PortfolioNav from '../components/PortfolioNav';
-import DesignDirection from '../components/DesignDirection';
+import { SiteNav, SiteFooter } from '../components/SiteNav';
 
 export const metadata: Metadata = {
   openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
@@ -70,30 +71,159 @@ const processSteps = [
   ['06', 'Export & Delivery', 'Carton count, CBM, export packing and shipping terms coordinated to destination.'],
 ];
 
-const selected = [
-  {name:'Lift-off rigid boxes',type:'01 / Rigid presentation',image:'/design/portfolio-preview/colour-rigid.webp',alt:'Indigo lift-off rigid box with ivory tissue',href:'/packaging/custom-rigid-boxes',className:'work-large'},
-  {name:'Drawer boxes',type:'02 / Drawer boxes',image:'/design/portfolio-preview/colour-drawer.webp',alt:'Saffron drawer box with ivory paper insert',href:'/products?family=rigid&structure=drawer',className:'work-small'},
-  {name:'Paper bags',type:'03 / Paper bags',image:'/design/portfolio-preview/colour-bag.webp',alt:'Indigo paper bag with ivory ribbon handles',href:'/packaging/custom-paper-bags',className:'work-small'},
-  {name:'Folds flat. Presents beautifully.',type:'04 / Fold-flat structures',image:'/design/fold-flat-editorial.webp',alt:'Forest green magnetic rigid box shown formed and partially folded',href:'/products?family=rigid&structure=fold-flat',className:'work-large'},
-];
-export default function Home(){return <main className="portfolio-home portfolio-scope" id="main-content">
-  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
-  <PortfolioNav/>
-  <section className="pf-hero">
-    <div className="pf-hero-top"><p className="pf-eyebrow">Packaging for brands & design studios</p><span className="pf-small-note">Ideas into objects. / MTT Packaging</span></div>
-    <h1>Good design.<br/><span>Made <em>tangible.</em></span></h1>
-    <div className="pf-hero-bottom"><div className="pf-intro"><p>Custom boxes, bags and inserts for brands and design studios.</p><div className="ed-actions"><a className="pf-button" href="/request-a-quote">Discuss your project <span aria-hidden="true">↗</span></a><a className="pf-text-link" href="/products">Explore packaging <span aria-hidden="true">→</span></a></div></div><figure className="pf-hero-visual"><img data-portfolio-hero="true" src="/design/portfolio-preview/colour-hero.webp" srcSet="/design/portfolio-preview/colour-hero-640.webp 640w, /design/portfolio-preview/colour-hero.webp 1600w" sizes="100vw" width="1440" height="960" fetchPriority="high" alt="Indigo and saffron rigid boxes with translucent ivory paper"/><figcaption>Packaging concept / Colour, form & the opening moment</figcaption></figure></div>
-  </section>
-  <section className="pf-work" aria-labelledby="selected-title"><header className="pf-section-head"><div><p className="pf-eyebrow">Selected packaging</p><h2 id="selected-title">Packaging, considered.</h2></div><a className="pf-text-link" href="/products">Explore all packaging ↗</a></header><div className="pf-work-grid">{selected.slice(0,3).map(x=><a key={x.type} className={'pf-work-item '+x.className} href={x.href}><div className="pf-work-image"><img src={x.image} alt={x.alt} loading="lazy" width="1200" height="900"/></div><div className="pf-work-caption"><div><p>{x.type}</p><h3>{x.name}</h3></div><span aria-hidden="true">↗</span></div></a>)}</div><p className="pf-concept-note">Design concepts from our packaging collection. Materials and fit are developed through sampling.</p></section>
-  <section className="pf-details" aria-labelledby="detail-title"><header className="pf-section-head"><div><p className="pf-eyebrow">The close-up</p><h2 id="detail-title">Every detail,<br/><em>considered.</em></h2></div><p>A paper you can feel. A finish that catches the light. An insert that makes the opening feel right.</p></header><div className="pf-detail-grid">
-    <a href="/insights/printing-finishing-guide"><img src="/design/portfolio-preview/colour-detail.webp" alt="Indigo and saffron textured paper with blind deboss detail" width="500" height="500" loading="lazy"/><h3>Surface & finish <span>↗</span></h3><p>Texture, print, foil and deboss.</p></a>
-    <a href="/packaging/custom-inserts"><img src="/design/perfume-insert-editorial.webp" alt="Fitted perfume insert showing bottle support and removal access" width="1200" height="900" loading="lazy"/><h3>Fit & protection <span>↗</span></h3><p>The inside deserves equal attention.</p></a>
-    <a href="/insights/custom-box-structure-guide"><img src="/products/mtt-r1201-5.webp" alt="Fold-flat rigid box structure with insert removed" width="500" height="500" loading="lazy"/><h3>Structure & opening <span>↗</span></h3><p>From a flat sheet to a finished form.</p></a>
-  </div></section>
-  <section className="pf-studio"><figure><img src="/design/portfolio-preview/colour-worktable.webp" width="800" height="600" loading="lazy" alt="Packaging development concept with board samples, drawings and box structures"/><figcaption>Material & structure study · Concept visualization</figcaption></figure><div><p className="pf-eyebrow">For creative teams</p><h2>Your vision.<br/>Our production<br/><em>know-how.</em></h2><p>Bring the idea, artwork or first sketch. We can help you work through structure, materials, sampling and production—so the finished packaging carries the intention of the design.</p><a className="pf-text-link" href="/how-we-work">See how we work ↗</a><a className="pf-text-link" href="/tools/gift-box-solution-builder">Explore the packaging studio ↗</a></div></section>
-  <section className="pf-process"><header className="pf-section-head"><div><p className="pf-eyebrow">A practical path forward</p><h2>From first thought<br/><em>to finished pack.</em></h2></div><p>Clear specifications. Physical samples. An agreed route to production.</p></header><div>{processSteps.map(([n,t,d])=><article key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p></article>)}</div></section>
-  <section className="pf-buyer"><div className="pf-facts"><h2>Before we begin.</h2><dl>{keyFacts.map(([v,l])=><div key={l}><dt>{l}</dt><dd>{v}</dd></div>)}</dl></div><div className="pf-buyer-content"><h2>Find the right starting point.</h2><div className="pf-family-links">{packagingChoices.map(x=><details key={x.path}><summary>{x.name}</summary><p>{x.use} {x.check}</p><a href={x.path}>Explore {x.name.toLowerCase()} →</a></details>)}</div><nav aria-label="Buyer tools">{buyerPaths.map(([title,desc,href])=><a href={href} key={href} title={desc}>{title} ↗</a>)}</nav><details className="pf-guide-list"><summary>Planning guides</summary><ul>{buyerGuides.map(([title,href])=><li key={href}><a href={href}>{title}</a></li>)}</ul></details></div></section>
-  <section className="pf-faq"><header><p className="pf-eyebrow">Useful to know</p><h2>A few good<br/><em>questions.</em></h2></header><div>{faqs.map(([q,a])=><details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
+const homeIndustryImages: Record<string, { src: string; alt: string }> = {
+  'perfume-fragrance-packaging': { src: '/design/home-v4/perfume.webp', alt: 'Black hinged perfume discovery box with champagne fitted insert, a perfume bottle and three sample vials' },
+  'cosmetics-skincare-packaging': { src: '/design/home-v4/skincare.webp', alt: 'Turquoise lift-off lid skincare box with a separate lid, pink fitted insert, dropper bottle, cream jar and tube' },
+  'jewelry-watch-packaging': { src: '/design/home-v4/jewelry.webp', alt: 'Emerald watch and jewelry presentation box with a padded watch cushion and a separate bracelet compartment' },
+  'gift-set-pr-kit-packaging': { src: '/design/home-v4/gifts.webp', alt: 'Magenta double-door gift box with a sealed candle, tea tin, fitted interior, matching card and ribbon' },
+};
+
+export default function Home() {
+  return <main className="hp home-v4" id="main-content">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+
+    <HomeImageMotion />
+    <SiteNav />
+    <section className="ed-hero" id="top">
+      <div className="ed-hero-copy">
+        <p className="ed-eyebrow">Custom packaging supplier · Shenzhen, China</p>
+        <h1>Custom luxury boxes, made around your product.</h1>
+        <p className="ed-lead">Rigid gift boxes, folding cartons, mailers, paper bags and fitted inserts for perfume, cosmetics, jewelry and gift brands. Developed, sampled and produced in China, shipped worldwide.</p>
+        <div className="ed-actions"><a className="button" href="/request-a-quote">Get a Quote <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/products">Browse 240 packaging designs</a></div>
+        <ul className="hp-hero-points"><li>MOQ 1,000 pieces per design</li><li>Physical sample before production</li><li>Reply within 24 hours</li></ul>
+      </div>
+      <div className="home-hero-scene"><div className="home-hero-plane"><img data-home-image="hero" className="ed-hero-image" src="/design/home-v4/hero-v5.webp" srcSet="/design/home-v4/hero-v5-480.webp 480w, /design/home-v4/hero-v5-800.webp 800w, /design/home-v4/hero-v5.webp 1448w" sizes="(max-width: 850px) calc(100vw - 48px), 53vw" alt="Cobalt blue rigid gift box with a separate lift-off lid, fitted perfume bottles, an apricot paper bag and matching gift card" width="1448" height="1086" fetchPriority="high" /></div></div>
+    </section>
+    <section className="hp-facts" aria-label="Key commercial facts"><dl>{keyFacts.map(([value,label])=><div key={value}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
+    <nav className="hp-paths" aria-labelledby="buyer-paths-title"><h2 id="buyer-paths-title">Find what you need</h2><div>{buyerPaths.map(([title,desc,href])=><a href={href} key={href}><b>{title} <span aria-hidden="true">→</span></b><span>{desc}</span></a>)}</div></nav>
+    <section className="ed-collection">
+      <header className="ed-section-heading"><h2>Custom packaging we develop.</h2><p>Four packaging families, each sized around your product and matched with inserts, finishes and bags.</p></header>
+      <div className="ed-product-grid">
+        {[
+          ['Rigid Boxes','/design/rigid-editorial.webp','custom-rigid-boxes','Wrapped rigid board, fitted interiors and controlled presentation for premium products.','Forest green rigid perfume box with a separate lift-off lid, gold foil mark and cream fitted insert holding the bottle'],
+          ['Folding Cartons','/design/carton-editorial.webp','folding-cartons','Lightweight paperboard structures with vivid print, coatings and efficient pack-out.','Three folding cartons with tuck-end flaps: a green carton, an open botanical-printed ivory carton and a long ivory carton'],
+          ['Corrugated Boxes','/products/mtt-e0101-0.webp','corrugated-boxes','Custom kraft mailers with fitted paper inserts, printed branding and matching gift cards.','Open kraft corrugated gift mailer with a fitted insert holding a ceramic mug, tea jar, wrapped cookie and small carton, beside a matching card'],
+          ['Paper Bags','/capability-paper-bags.webp','custom-paper-bags','Coordinated retail bags with reinforced tops, custom handles, tissue and gift accessories.','Two terracotta paper shopping bags with cream rope handles, folded tops and a blind-embossed mark'],
+        ].map(([title,img,slug,desc,alt])=><a className="ed-product" href={'/packaging/'+slug} key={slug}><span className="home-image-frame"><img data-home-image="collection" src={img} alt={alt} srcSet={slug==='corrugated-boxes'?`${img} 500w`:slug==='custom-paper-bags'?`${img.replace('.webp', '-480.webp')} 480w, ${img} 900w`:`${img.replace('.webp', '-480.webp')} 480w, ${img.replace('.webp', '-800.webp')} 800w, ${img} 1440w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 45vw, 23vw" width={slug==='corrugated-boxes'?500:1200} height={slug==='corrugated-boxes'?500:900} style={{objectFit:'cover'}} loading="lazy"/></span><h3>{title}</h3><p>{desc}</p><span className="ed-text-link">Explore {title} <span aria-hidden="true">→</span></span></a>)}
+      </div>
+    </section>
+    {/* SECTION 3 — FEATURED PACKAGING */}
+    <section className="hp-industries">
+      <header className="hp-section-header hp-reveal">
+        <p className="hp-kicker">Featured Industries</p>
+        <h2 className="hp-section-h2">Packaging for your<br/>industry.</h2>
+      </header>
+      <div className="hp-industry-rows">
+        {industries.map((item, i) => {
+          const homeImage = homeIndustryImages[item.slug] ?? { src: item.image, alt: item.imageAlt };
+          return (
+          <a href={`/industries/${item.slug}`} className="hp-industry-row hp-reveal" key={item.slug}>
+            <div className="hp-industry-img">
+              <img data-home-image="industry" src={homeImage.src} alt={homeImage.alt} srcSet={`${homeImage.src.replace('.webp', '-480.webp')} 480w, ${homeImage.src} 1200w`} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1100px) 45vw, 23vw" width="1200" height="900" loading="lazy" />
+            </div>
+            <div className="hp-industry-text">
+              <span className="hp-industry-num">0{i + 1}</span>
+              <h3>{item.eyebrow === 'Gift sets & PR kits' ? 'Gift Sets & PR Kits' : item.eyebrow}</h3>
+              <p>{item.summary}</p>
+              <span className="hp-industry-link">Explore solution →</span>
+            </div>
+          </a>
+        )})}
+      </div>
+    </section>
+
+    <section className="hp-why" aria-labelledby="why-mtt-title">
+      <div className="hp-why-media"><img src="/design/development-worktable.webp" srcSet="/design/development-worktable-800.webp 800w, /design/development-worktable.webp 1440w" sizes="(max-width: 900px) calc(100vw - 48px), 44vw" width="1440" height="1080" loading="lazy" alt="Packaging development table with a green rigid box, an open ivory sample box, a tuck-end carton, board and paper swatches and structure sketches" /></div>
+      <div className="hp-why-copy">
+        <p className="hp-kicker">Why MTT Packaging</p>
+        <h2 id="why-mtt-title">One accountable contact, from brief to delivery.</h2>
+        <p>MTT Packaging is based in Shenzhen, China. One direct contact coordinates specification, sampling, production and delivery details, so structure, print, insert and packing decisions stay in one place.</p>
+        <ul>
+          <li><b>Structure and insert engineering</b><span>Magnetic, lift-off, drawer, shoulder-neck and carton structures in custom dimensions, with paper, molded pulp, EVA or fabric-covered inserts.</span></li>
+          <li><b>Materials and finishes</b><span>Board, wrapping paper, foil, embossing, spot UV and lamination specified per component and confirmed on a physical sample.</span></li>
+          <li><b>Quality checks at each stage</b><span>Material, printing, finishing, assembly and packing checks; print colours compared against Pantone references and approved proofs.</span></li>
+          <li><b>Export packing and delivery</b><span>Carton count, CBM, labelling and shipping terms confirmed for your destination.</span></li>
+        </ul>
+        <div className="hp-why-contact"><div><b>Hugo He</b><span>Custom packaging consultant · replies within 24 hours</span></div><a className="button" href="/request-a-quote">Send your brief →</a><a className="ed-text-link" href={whatsapp} target="_blank" rel="noreferrer">WhatsApp Hugo</a></div>
+      </div>
+    </section>
+
+    {/* SECTION 4 — CRAFTSMANSHIP */}
+    <section className="hp-craft hp-craft-gallery hp-reveal" aria-labelledby="craft-heading">
+      <header className="hp-craft-heading">
+        <div><p className="hp-kicker">Craftsmanship</p><h2 className="hp-section-h2" id="craft-heading">The detail is the difference.</h2></div>
+        <div><p className="hp-craft-sub">Compare surface finishes and paper textures. Confirm your chosen combination on a physical sample before production.</p><a className="hp-craft-link" href="/how-we-work">How we work →</a></div>
+      </header>
+      <div className="hp-finish-grid">
+        {[
+          ['foil','Foil stamping','Metallic lines on textured wrapping paper','Copper foil fan lines across a fuchsia rigid box corner'],
+          ['emboss','Blind embossing','Raised detail without printed colour','Raised waves on ivory paper wrapping a rigid box'],
+          ['deboss','Debossing','Recessed lettering pressed into the surface','Recessed letter M on a deep blue paper-wrapped box'],
+          ['uv','Spot UV','Gloss detail against a matte background','Glossy leaf pattern on a plum purple box surface'],
+          ['lamination','Matte & gloss lamination','Compare two surface reflections','Matching printed boxes showing matte and gloss surface finishes'],
+          ['paper','Specialty paper','Explore tactile wrapping textures','Fanned paper swatches showing varied textured wrapping papers'],
+        ].map(([id,title,description,alt])=><figure key={id}>
+          <div className="home-image-frame"><img data-home-image="finish" src={`/design/craft-gallery/${id}.webp`} srcSet={`/design/craft-gallery/${id}-480.webp 480w, /design/craft-gallery/${id}.webp 800w`} sizes="(max-width:600px) calc((100vw - 62px)/2), (max-width:1000px) calc((100vw - 72px)/2), 30vw" width="800" height="600" loading="lazy" alt={alt}/></div>
+          <figcaption><h3>{title}</h3><p>{description}</p></figcaption>
+        </figure>)}
+      </div>
+    </section>
+
+    {/* SECTION 5 — FROM CONCEPT TO PRODUCTION */}
+    <section className="hp-process" id="process">
+      <header className="hp-section-header hp-reveal">
+        <p className="hp-kicker">Process</p>
+      </header>
+      <div className="hp-process-grid">
+        <div className="hp-process-left">
+          <h2 className="hp-process-h2 hp-reveal">From brief<br/>to delivery</h2><p className="hp-process-note">Most projects move from first brief to approved sample before any production commitment. <a href="/how-we-work">See how we work →</a></p>
+        </div>
+        <div className="hp-process-right">
+          {processSteps.map(([num, title, desc], i) => (
+            <div className="hp-process-step hp-reveal" key={num} style={{ transitionDelay: `${i * 80}ms` }}>
+              <span className="hp-process-num">{num}</span>
+              <div>
+                <b>{title}</b>
+                <p>{desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {/* SECTION 6 — SELECTED PACKAGING */}
+    <section className="hp-selected" id="projects">
+      <header className="hp-section-header hp-reveal">
+        <p className="hp-kicker">Packaging Details</p>
+        <h2 className="hp-section-h2">A closer look at<br/>packaging possibilities.</h2>
+      </header>
+      <div className="hp-selected-grid">
+        {[['Magnetic presentation box', '/design/home-v4/magnetic.webp', 'Yellow hinged rigid perfume box with a full-width magnetic closure flap and navy fitted insert'], ['Drawer presentation box', '/design/home-v4/drawer.webp', 'Teal rigid sleeve with a terracotta drawer pulled straight out to reveal three tea tins and dividers'], ['Custom fitted interior', '/design/home-v4/insert.webp', 'Peach rigid skincare box with a fibrous fitted insert holding a serum bottle, cream jar and tube']].map(([title, img, alt], i) => (
+          <figure className="hp-selected-fig hp-reveal" key={title as string} style={{ transitionDelay: `${i * 100}ms` }}>
+            <div className="home-image-frame"><img data-home-image="detail" src={img as string} alt={alt} srcSet={`${img.replace('.webp', '-480.webp')} 480w, ${img} 1200w`} sizes="(max-width: 650px) calc(100vw - 48px), 32vw" width="1200" height="900" loading="lazy" /></div>
+            <figcaption><span>0{i + 1}</span><b>{title}</b></figcaption><VisualCaseLink image={img}/>
+          </figure>
+        ))}
+      </div>
+      <div className="hp-selected-cta hp-reveal">
+        <a className="button" href="/packaging">View All Structures →</a>
+      </div>
+    </section>
+
+    <section className="hp-guides" aria-labelledby="buyer-guides-title">
+      <header><p className="hp-kicker">Buyer guides</p><h2 id="buyer-guides-title">Plan your order with fewer sampling rounds.</h2><p>Practical guides on briefs, costs, structures, materials and sample approval.</p></header>
+      <ol>{buyerGuides.map(([title,href])=><li key={href}><a href={href}>{title} <span aria-hidden="true">→</span></a></li>)}</ol>
+      <a className="ed-text-link" href="/insights">All 50+ packaging guides →</a>
+    </section>
+
+    <section className="home-buyer-faq" aria-labelledby="buyer-questions">
+      <header><p className="hp-kicker">Buyer FAQ</p><h2 id="buyer-questions">Custom packaging questions, answered.</h2><p>MOQ, sampling, lead time, shipping, quality and payment before you request a quote.</p></header>
+      <div>{faqs.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div>
+      <a className="ed-text-link" href="/request-a-quote">Discuss your packaging brief →</a>
+    </section>
+
+    {/* SECTION 8 — START A PROJECT */}
     <section className="hp-quote" id="quote">
       <div className="hp-quote-grid">
         <div className="hp-quote-info hp-reveal">
@@ -155,4 +285,6 @@ export default function Home(){return <main className="portfolio-home portfolio-
       </div>
     </section>
 
-<SiteFooter/><DesignDirection/></main>;}
+    <SiteFooter />
+  </main>;
+}
