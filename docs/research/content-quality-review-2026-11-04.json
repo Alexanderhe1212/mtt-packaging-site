@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "stock-vs-custom-packaging-total-cost",
+    "keywordId": "KW-0678",
+    "primaryQuery": "stock vs custom packaging cost",
+    "searchEvidence": "Existing pending keyword; no verified search volume. Compare stock/custom complete scope, distinct from rigid-box freight reduction.",
+    "customerDecision": "Compare complete supplied and packed cost before committing to a custom format.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Break-even variables and conditions explicit; example labelled arithmetic, not quotation.",
+      "Existing product links resolve to the illustrated tin packaging family.",
+      "No invented customer, order, price offer or test result; carrier and testing boundaries stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html",
+      "https://www.ista.org/test_procedures.php"
+    ]
+  }
+]

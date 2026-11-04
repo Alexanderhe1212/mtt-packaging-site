@@ -644,5 +644,35 @@
       "提供配饰包装状态的实物、重量及易损表面近照。安装内托后，检查盒盖与裱纸内围框的套合，并确认取出产品时不需要拖过盒沿。珠光纸与局部光油应在约定的验样光线下组合评估，平面文件无法显示最终表面效果。确定规格前需确认样品、数量和交付方式。快递交付应将装好产品的礼盒与外层运输包装一起评估；展示设计本身不能证明运输保护能力。"
     ],
     "guide": "custom-box-structure-guide"
+  },
+  "MTT-R0201": {
+    "answer": [
+      "A two-tin presentation box for a gift set where both containers should be visible as soon as the lid is removed. The two circular wells define separate positions; the paper box is secondary packaging around the closed tins.",
+      "双罐礼赠展示盒，开盖后同时呈现两只茶罐。两个圆形槽分别定位，纸盒作为封闭罐体的外包装。"
+    ],
+    "selection": [
+      "Choose this layout for a paired assortment and a fully removable lid. Compare the sleeve-and-tray carton when a lighter folded structure matters more than a rigid presentation. For parcel delivery, review a shipping outer carton separately; this gift box alone does not establish transit protection.",
+      "需要成对陈列及完全取下的盒盖时选此结构；更重视轻量折叠结构时比较卡纸套筒抽拉盒。快递配送需另评运输外箱，礼盒本身不代表运输保护已合格。"
+    ],
+    "review": [
+      "Measure both finished tins with lids fitted, including the widest rim or seam, and record filled weights. Confirm the cavity supports the body without trapping the lid, allows finger access and does not let the tins strike each other. Approve the wrap, embossed motif and foil position together on a loaded sample.",
+      "测量两只带盖成品罐，包含最宽卷边或接缝，并记录装填重量。确认槽位承托罐身、不夹住罐盖、方便手指取出且两罐不相碰。装入实物后共同审核裱纸、击凸纹样和烫金位置。"
+    ],
+    "guide": "custom-inserts-product-protection"
+  },
+  "MTT-C0127": {
+    "answer": [
+      "A folded paperboard sleeve and tray for presenting a separately closed tea tin. The tray carries the container while the sleeve provides a printable outer surface; it is a different construction from a wrapped rigid drawer box.",
+      "用于独立封闭茶罐的折叠卡纸套筒与托盘，托盘承载罐体，套筒提供印刷展示面；结构不同于裱纸硬质抽屉盒。"
+    ],
+    "selection": [
+      "Use it when a compact retail presentation and folded board construction fit the brief. Compare a rigid lift-off box for a heavier presentation or a paired gift set. Do not choose board grade from an empty mock-up: filled tin weight and the way the tray is held affect the approval.",
+      "适合紧凑零售展示与折叠卡纸结构。需要硬挺展示或双罐礼赠时比较天地盖硬盒。不能仅凭空样选纸：罐体装填重量和托盘握持方式都影响审核。"
+    ],
+    "review": [
+      "Check the maximum tin diameter, lid rim, base seam and total height. Load the tray and withdraw it fully: look for base deflection, snagging at the sleeve opening and a tin that can roll or lift out unintentionally. Compare printed colour and varnish on the approved paperboard, then confirm packing orientation.",
+      "核对罐体最大直径、盖缘、底部接缝及总高度。装载后完整抽出托盘，检查底板下挠、套筒口卡阻以及罐体意外滚动或脱出。用确认的纸板审核印色和上光，再确认装箱方向。"
+    ],
+    "guide": "folding-carton-closure-selection"
   }
 }

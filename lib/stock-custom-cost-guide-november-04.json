@@ -1,0 +1,41 @@
+{
+  "slug": "stock-vs-custom-packaging-total-cost",
+  "number": "68",
+  "angle": "Buying Decision",
+  "image": "/products/mtt-r0201-3.webp",
+  "imageAlt": "Two tea tins arranged in a plum lift-off presentation box",
+  "title": "Stock vs Custom Packaging: Compare the Complete Cost",
+  "seoTitle": "Stock vs Custom Packaging Cost: A Buyer Worksheet",
+  "summary": "Compare stock and custom packaging using setup, inserts, assembly, freight and usable quantity—not the empty-box price alone.",
+  "intro": "Compare stock and custom packaging for the same finished pack, delivered to the same place and ready for the same job. Include the box, insert, branding, setup, assembly, freight and storage. A low empty-box price can become expensive when the product needs extra support or manual packing. Custom tooling also needs enough usable units to justify its fixed cost. Start with two complete specifications, then compare totals.",
+  "datePublished": "2026-11-04",
+  "dateModified": "2026-11-04",
+  "faq": [],
+  "cta": "Send the stock option you are considering, product dimensions and weights, required quantity and destination. MTT can scope a custom alternative and identify which costs need a like-for-like quote.",
+  "sections": [
+    [
+      "Start with one complete packing job",
+      "<p>Use the <a href=\"/products/tea-tin-pairing-lift-off\">two-tin lift-off gift box</a> as a layout reference: two finished tins, two defined positions and a removable lid. The buying decision is whether an available box can hold that set properly or whether a dedicated box and insert are needed. It is not a comparison between two empty boxes photographed from the same angle.</p><p>Measure each tin with its lid fitted, record the filled weight and decide whether the set is handed over in a shop or sent by parcel. A stock box that needs loose filler may change the presentation and packing time. A fitted insert needs cavity and removal checks. Neither option is approved until the complete set has been reviewed.</p>"
+    ],
+    [
+      "Put the same scope beside each price",
+      "<ul><li><strong>Outer packaging:</strong> size, board or material specification, closure and supplied assembly state.</li><li><strong>Internal support:</strong> divider, cavity insert, pad or filler; identify whether it arrives fitted or requires assembly.</li><li><strong>Branding:</strong> compare the actual label, sleeve or print operation, including application labour.</li><li><strong>Fixed charges:</strong> samples, cutting dies, print setup and any separately quoted tools. Record ownership and reuse conditions.</li><li><strong>Delivery:</strong> packed carton count, dimensions, gross weight, destination and matching shipping terms.</li><li><strong>On-site work:</strong> receiving, storing, assembling and packing the complete set.</li></ul><p>Do not count the same charge twice. If the supplier has already included insert fitting in the unit price, identify it as included. If taxes or destination handling are unknown, leave those lines pending rather than treating them as zero.</p>"
+    ],
+    [
+      "Use a transparent break-even calculation",
+      "<p>Let F be the additional fixed cost of the custom option, and let S and C be the comparable variable cost per finished pack for stock and custom. If S is greater than C, a simplified break-even quantity is F ÷ (S − C). If custom costs more per pack as well as having extra setup, this calculation produces no cost advantage; the decision must rest on a different documented benefit.</p><p>For an illustrative calculation only, if additional setup is 400 currency units and the custom option saves 0.40 per completed pack, the arithmetic break-even is 1,000 packs. Those are invented worksheet inputs, not an MTT quotation or a saving achieved for a customer. Replace them with written comparable quotes, then check minimum quantities, freight steps and likely usable demand. A theoretical break-even is not a reason to buy stock that will remain unused.</p>"
+    ],
+    [
+      "Check packed volume and labour before accepting the result",
+      "<p>Ask for the shipping dimensions of the packaging as supplied, not just the finished gift-box dimensions. Flat parts may reduce shipping volume but require assembly and workspace. Record the time to assemble and pack representative samples, including fitting the insert and applying any label or sleeve. Keep the trial method and number of observations with the quote comparison.</p><p><a href=\"https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html\" target=\"_blank\" rel=\"noopener noreferrer\">FedEx explains that dimensional weight can affect shipping charges</a>. Use the carrier service and rate basis applicable to the shipment, rather than transferring a parcel divisor to sea freight. Our <a href=\"/insights/reduce-shipping-costs-rigid-boxes\">rigid-box freight guide</a> covers packing-volume decisions separately.</p>"
+    ],
+    [
+      "Choose the option that fits the launch stage",
+      "<p>A stock format is worth checking when the product fits, quantities are uncertain and the required branding can be added without complicating packing. Confirm actual stock availability and the cost of replacement batches. A custom format is worth evaluating when the product arrangement, opening or protection requirements cannot be met by the available size.</p><p>For a tea gift set, compare the <a href=\"/products/custom-tea-tin-sleeve-carton\">folded sleeve and tray</a> with the rigid presentation before comparing decoration. If metal containers are part of the purchase, quote the <a href=\"/packaging/custom-metal-tins\">tin specification</a> separately from the paper box. Do not assume a lower-cost structure will carry the same load or reproduce the same finish.</p>"
+    ],
+    [
+      "Approve the sample and the reorder record",
+      "<p>Before committing, check loaded fit, removal, opening, visible surfaces and the proposed shipping pack. <a href=\"https://www.ista.org/test_procedures.php\" target=\"_blank\" rel=\"noopener noreferrer\">ISTA distinguishes screening procedures from distribution simulations</a>; choose evaluation appropriate to the delivery route. A sample that looks good on a desk does not prove shipping performance.</p><p>Keep the accepted quote, material specification, artwork revision, sample approval and packing method together. For repeat orders, ask which setup charges recur and which can be reused. The comparison is complete only when the included work and remaining uncertainties are visible. Use the <a href=\"/insights/how-to-write-a-packaging-brief\">packaging brief checklist</a> to request missing information.</p>"
+    ]
+  ]
+}
