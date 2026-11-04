@@ -134,7 +134,10 @@ try {
    assert(await page.$eval('.product-application-tabs',e=>!e.closest('details')));
    const applications=[...new Set(all.map(p=>p.category))];
    for(const [i,category] of applications.entries()){
-    await (await page.$$('.product-application-tabs button'))[i].click();
+    if(path==='/products/'){
+     if(!await page.$eval('.catalogue-refine',e=>e.open))await page.click('.catalogue-refine summary');
+     await page.select('.catalogue-refine select',category);
+    }else await (await page.$$('.product-application-tabs button'))[i].click();
     await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,{},all.filter(p=>p.category===category).length);
     const categoryTabs=await page.$$('.product-family-tabs button');
     for(const [j,family] of ['rigid','carton','corrugated','bag'].entries()){

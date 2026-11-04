@@ -90,6 +90,9 @@ stockCost=json.loads(Path('lib/stock-custom-cost-guide-november-04.json').read_t
 updates[stockCost['slug']]=stockCost
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-04.json').read_text())
 
+deboss=json.loads(Path('lib/blind-deboss-guide-november-04.json').read_text())
+updates[deboss['slug']]=deboss
+
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

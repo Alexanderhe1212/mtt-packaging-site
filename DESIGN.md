@@ -1,5 +1,2 @@
-# MTT editorial production release
-User authorized production publication on 2026-09-10 after image/style QA.
-Forest green, ivory, restrained gold. Images must match adjacent structure, material, finishing or industry copy. Concept imagery is labeled and does not represent delivered customer work.
-Production: restores live Formspree handlers, consent-managed analytics, indexable metadata, original gift tool; retains free Hugo video/contact component. No preview markers, mock submission interceptors, or KnockKnock subscription script.
-Editable source included. Raw generated PNG masters stay in the isolated mtt-design-preview project; production delivers WebP assets.
+# MTT Colour Study — approved visual direction
+Selected by user 2026-11-04. Reference: .impeccable/mocks/decision/colour.png. Indigo typography and controls, saffron packaging, white tissue and quiet white ground. Packaging objects lead hero; supporting copy and two CTAs are in the first viewport. Figtree self-hosted under SIL OFL. Three structure-linked concept tiles, material macro, production collaboration, preserved procurement and enquiry content. Mobile stacks headline/actions before the photograph, retains product filters and context. No floating review controls. Original SEO and commercial facts retained. User authorized production publication on 2026-11-04 after reviewing the preview; verify release checks before deploying.

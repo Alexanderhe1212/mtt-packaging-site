@@ -26,5 +26,33 @@
       "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html",
       "https://www.ista.org/test_procedures.php"
     ]
+  },
+  {
+    "slug": "blind-debossed-logo-packaging-boxes",
+    "keywordId": "KW-0704",
+    "primaryQuery": "blind debossed logo packaging boxes",
+    "searchEvidence": "Independent editorial hypothesis; no measured search volume. Focused sample acceptance, distinct from foil matching and film selection.",
+    "customerDecision": "Approve logo definition and assembled lid before tooling or production release.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Sources reread; Fedrigoni grade and date limits stated.",
+      "Concept provenance explicit; no tests, orders or commercial results claimed.",
+      "Final-size artwork, material stack, acceptance table, reorder record and product handoff."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.holmen.com/en/board-and-paper/insights/paper-academy/embossing-and-debossing-paperboard/",
+      "https://specialpapers.fedrigoni.com/wp-content/uploads/2021/09/POLIWRAP-3.pdf"
+    ]
   }
 ]

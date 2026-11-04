@@ -6,6 +6,7 @@ import OptionalFeatureBoundary from '../components/OptionalFeatureBoundary';
 import CookieConsent from '../components/CookieConsent';
 import './globals.css';
 import './editorial.css';
+import './portfolio-preview.css';
 import LeadQualificationChatbot from '../components/LeadQualificationChatbot';
 
 

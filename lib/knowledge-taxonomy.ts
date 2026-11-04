@@ -60,6 +60,7 @@ export const knowledgeTopics = [
     "title": "Materials and finishes",
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
+      "blind-debossed-logo-packaging-boxes",
       "eva-vs-paperboard-inserts",
       "cmyk-vs-spot-colour-packaging",
       "e-flute-vs-b-flute-corrugated-boxes",
