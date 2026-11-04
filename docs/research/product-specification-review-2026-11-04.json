@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04",
+  "scope": "Product specification guidance shared by 240 products in English and Chinese",
+  "buyer_problem": "Buyers cannot translate a design selection into an unambiguous quotation brief.",
+  "changes": [
+    "Separate product envelope from usable internal and finished external dimensions",
+    "Different material parameters for rigid, carton, corrugated and bag families",
+    "Record insert support/access or bag loaded carrying requirements",
+    "Define artwork approval and quantity/delivery inputs without invented values"
+  ],
+  "claim_basis": "Project-dependent specification requests, not measured SKU specifications or completed test claims.",
+  "source": {
+    "url": "https://www.iggesund.com/globalassets/iggesund/services/knowledge/iam/graphics-handbook/gh-pdf----en/creasing_and_folding_in_pracitce.pdf",
+    "reviewed": "2026-11-04",
+    "pages": "72-73",
+    "supports": "Paperboard thickness/grammage relationships vary; creasing depends on chosen board and thickness. No source numerical limits copied into product claims."
+  },
+  "score": {
+    "customer_problem": 10,
+    "original_insight": 16,
+    "technical_usefulness": 18,
+    "human_writing": 13,
+    "seo": 9,
+    "geo": 8,
+    "trust": 10,
+    "conversion": 5,
+    "total": 89
+  },
+  "score_note": "Editorial judgment, not a measured search performance result.",
+  "unresolved_factual_issues": [],
+  "review": "Existing product identity, artwork, related links, enquiry prefills, schema and URLs preserved; only quotation guidance changed.",
+  "limitations": [
+    "No new measured dimensions, tolerances, MOQ, prices, lead times or load ratings supplied by this update.",
+    "Review is shared buying guidance, not a complete individual technical specification audit of 240 SKUs."
+  ]
+}
