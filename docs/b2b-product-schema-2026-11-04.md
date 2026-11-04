@@ -46,9 +46,10 @@ Sources checked November 4, 2026:
 ## Evidence and validation
 
 Reviewed source at 32dc40230039271028f2f761a8e1acfbb142b2e4.
-Live English perfume and skincare-carton content was checked. The Chinese perfume
-page was checked in Chrome, including actual JSON-LD: WebPage and BreadcrumbList
-only. Its named design, specification table and quotation/sample disclaimer match
+Live English perfume and skincare-carton content was checked. Chrome also verified
+actual JSON-LD on Chinese perfume and ribbon-bag pages, English carton and
+corrugated pages: WebPage and BreadcrumbList only. The live inserts page retains
+Service, FAQPage, Organization and BreadcrumbList. Its named design, specification table and quotation/sample disclaimer match
 the source. Other catalogue records were inspected from the source data.
 
 Regression test first failed on missing Product; after the change it passed all
@@ -66,3 +67,9 @@ trigger the existing deployment workflow. After approved deployment, verify
 representative EN/ZH HTML, then request an Ahrefs recrawl and compare its actual
 URL-level findings. Google processing/reindexing is separate. Until then, only
 the code-level omission is addressed; no live warnings are confirmed cleared.
+
+The initial PR run passed build, all 480 exported graphs and locale links, types,
+and lint (0 errors, 70 existing warnings). Its release gate exposed the old
+blanket prohibition on Product in check-phase-four.py. That assertion is replaced
+with strict checks for exactly one design entity, its permitted fields and links;
+all other release assertions remain. A fresh full run is required for this revision.

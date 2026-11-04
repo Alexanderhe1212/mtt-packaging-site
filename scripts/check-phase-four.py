@@ -26,8 +26,17 @@ for p in products:
     for prefix in ('products/','zh/products/'):
         path=prefix+p['slug'];page=Page((root/(path+'.html')).read_text())
         nodes=[n for s in page.schemas for n in s.get('@graph',[s])]
-        assert not any(n.get('@type')=='Product' for n in nodes),path
+        designs=[n for n in nodes if n.get('@type')=='Product']
+        assert len(designs)==1,path
+        design=designs[0]
+        # A truthful custom design is allowed; do not invent retail offer/review data.
+        assert set(design)=={'@type','@id','url','name','identifier','description','image','mainEntityOfPage'},path
+        assert design['identifier']==p['code'],path
+        assert design['name']==p['nameZh' if prefix.startswith('zh') else 'name'],path
         web=next(n for n in nodes if n.get('@type')=='WebPage' and n.get('identifier')==p['code'])
+        assert design['url']==web['url'] and design['image']==web['image'],path
+        assert web['mainEntity']['@id']==design['@id']==web['url']+'#product',path
+        assert design['mainEntityOfPage']['@id']==web['@id'],path
         assert web['url']=='https://mttpackaging.com/'+path,path
         assert len(web['image'])==(6 if p['structure']=='fold-flat' else 5),path
         if p['structure']=='fold-flat': assert web['image'][-1].endswith('-5.webp'),path
@@ -44,4 +53,4 @@ for slug,phrase in [('folding-cartons','Choose the carton closure'),('corrugated
             path=urlsplit(href).path.strip('/')
             assert (root/path).exists() or (root/(path+'.html')).exists(),(slug,href)
     assert date(2026,9,14)<=date.fromisoformat(dates['https://mttpackaging.com/packaging/'+slug])<=date.today(),slug
-print(f'{len(products)*2} product pages: webpage schema, breadcrumbs, images and dates pass; 3 buying guides and links pass.')
+print(f'{len(products)*2} product pages: truthful product/webpage schema, breadcrumbs, images and dates pass; 3 buying guides and links pass.')
