@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-04",
+  "scope": [
+    "MTT-R0101",
+    "MTT-R0111",
+    "MTT-B0103",
+    "MTT-B0127",
+    "MTT-C0127",
+    "MTT-E0127"
+  ],
+  "buyer_problem": "Distinguish presentation, retail carrying and shipping requirements for perfume and tinned products.",
+  "evidence": [
+    "Existing product records, construction fields and product gallery images visually reviewed",
+    "Knowledge library ISTA summary consulted; original ISTA test procedure page re-read 2026-11-04"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ista.org/test_procedures.php",
+      "supports": "Select tests for the product-package system and intended distribution; appearance is not performance evidence."
+    }
+  ],
+  "parameters": "Record product envelope, filled weights, lid rim, cavity and hand access, handle drop, board and support requirements as project inputs. No unsupported numeric specifications added.",
+  "image_fix": {
+    "product": "MTT-B0103",
+    "path": "public/products/mtt-b0103-0.webp",
+    "defect": "Rear ribbon handle displayed two disconnected ends",
+    "method": "Built-in image_gen, edited existing packed view using interior view as construction reference",
+    "prompt": "Preserve bag geometry, emerald/peach circles and contents; join rear ribbon ends into one continuous naturally arched loop. Exactly two handles, physically plausible anchoring.",
+    "review": "Continuous rear loop and original front loop visible; bag, contents and palette retained; remains a visualization."
+  },
+  "score": {
+    "customer_problem": 10,
+    "original_insight": 18,
+    "technical_usefulness": 18,
+    "human_writing": 13,
+    "seo": 9,
+    "geo": 8,
+    "trust": 10,
+    "conversion": 5,
+    "total": 91
+  },
+  "score_note": "Editorial assessment, not a search performance metric.",
+  "unresolved_factual_issues": [],
+  "limits": [
+    "No factory testing, shipment performance or delivered order asserted",
+    "Image check sampled target galleries and two drawer-box hero images, not every site image"
+  ]
+}
