@@ -39,6 +39,10 @@ for p in products:
     if p['code'] not in guides:continue
     for prefix,lang in [('/products/',0),('/zh/products/',1)]:
         path=prefix+p['slug'];page,html=read(path);text=' '.join(page.text);g=guides[p['code']]
+        if lang >= len(g['answer']):
+            assert all(len(g[k]) == 1 for k in ['answer','selection','review']), path
+            assert g['answer'][0] not in text and '<section class="purchase-guide"' not in html, path
+            continue
         assert all(g[k][lang] in text for k in ['answer','selection','review']),path
         assert '/insights/'+g['guide'] in page.links,path
         assert any(p['code'] in unquote(h) and 'request-a-quote?product=' in h for h in page.links),path
@@ -49,7 +53,13 @@ for slug,update in updates.items():
     assert update['title'] in text and update['intro'] in text,path
     for question,answer in update['faq']:assert question in text and answer in text,(path,question)
     graphs=[node for schema in page.scripts for node in schema.get('@graph',[])]
-    faq=next(n for n in graphs if n.get('@type')=='FAQPage')
+    faq_nodes = [n for n in graphs if n.get('@type') == 'FAQPage']
+    if not update['faq']:
+        assert not faq_nodes, path
+        assert sm['https://mttpackaging.com'+path]>='2026-09-13',path
+        continue
+    assert len(faq_nodes) == 1, path
+    faq = faq_nodes[0]
     assert len(faq['mainEntity'])==len(update['faq']),path
     assert sm['https://mttpackaging.com'+path]>='2026-09-13',path
     for question in faq['mainEntity']:assert question['name'] in text and question['acceptedAnswer']['text'] in text,path

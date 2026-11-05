@@ -870,5 +870,131 @@
       "提供封装罐最大外径、总高和装填重量。用组装样试取实罐，核对封签及标签周围的净空。"
     ],
     "guide": "measure-packaging-internal-external-dimensions"
+  },
+  "MTT-R0407": {
+    "seoTitle": "Custom Gemstone Necklace Hexagonal Lift-Off Box | MTT Packaging",
+    "seoDescription": "Custom gemstone necklace packaging in a hexagonal lift-off box, with one shaped necklace presentation pad. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "The shaped pad sits inside a six-sided lift-off box. Use the outline of the necklace as worn to plan its position on the pad."
+    ],
+    "selection": [
+      "For a pendant with a projecting stone, send the pendant width, drop and deepest setting in mm, plus the length of chain that must sit behind the pad."
+    ],
+    "review": [
+      "Mount the actual necklace, lift and reseat the pad, then close the lid. Check the setting clears the lid and the concealed clasp does not push the pad up."
+    ],
+    "guide": "jewelry-packaging-repeat-use-analysis"
+  },
+  "MTT-R0408": {
+    "seoTitle": "Custom Earring Collection Two-Drawer Box | MTT Packaging",
+    "seoDescription": "Custom earring collection packaging in a two-drawer box, with six small lined compartments per drawer. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "Each of the two shallow drawers has six small lined compartments. Decide whether each cell presents a pair or a single earring before sizing the dividers."
+    ],
+    "selection": [
+      "Measure each pair in its display position with backs fitted. A hoop needs space across the cell, while a stud post can determine the usable drawer height."
+    ],
+    "review": [
+      "Fill both drawers and slide them fully closed. Check that posts clear the drawer above and that a customer can lift out a pair by its body without catching the lining."
+    ],
+    "guide": "drawer-box-clearance-ribbon-pull"
+  },
+  "MTT-R0413": {
+    "seoTitle": "Custom Pearl Necklace Magnetic Book Box | MTT Packaging",
+    "seoDescription": "Custom pearl necklace packaging in a magnetic book box, with one broad curved necklace pad. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "The broad curved pad presents a pearl strand in a magnetic book box. Lay the actual strand on a paper outline before choosing the pad width."
+    ],
+    "selection": [
+      "Send the strand length, largest bead diameter and clasp dimensions. Mark where the clasp sits and how much of the strand you want visible when the lid opens."
+    ],
+    "review": [
+      "Close the sample slowly and watch the section nearest the hinge. Open it again and check that the strand lies in the approved curve and lifts clear without tightening around the pad."
+    ],
+    "guide": "jewelry-packaging-repeat-use-analysis"
+  },
+  "MTT-R0802": {
+    "seoTitle": "Custom Candle Jar Rigid Gift Box | Shoulder-Neck Lid",
+    "seoDescription": "Amber candle jar presentation box in ivory and terracotta, with paperboard insert around candle jar. A separate lid fits over a raised shoulder; it is not hinged. Customize size and quantities with MTT.",
+    "answer": [
+      "A paperboard insert locates the candle jar inside a shoulder-neck gift box. The removable lid seats over the raised shoulder."
+    ],
+    "selection": [
+      "Record the jar diameter where the insert makes contact, its widest rim, capped height and filled weight. A rim that projects beyond the body needs separate removal clearance."
+    ],
+    "review": [
+      "Seat the filled jar and lower the lid onto the shoulder. Check for rim contact, lift the jar out and inspect the label where it passed the paperboard edge."
+    ],
+    "guide": "candle-box-glass-jar-protection"
+  },
+  "MTT-C0109": {
+    "seoTitle": "Custom Candle Jar Hexagonal tuck carton | MTT Packaging",
+    "seoDescription": "Custom candle jar packaging with hexagonal tuck carton construction, coated folding boxboard and gloss varnish and vivid colour printing. Tailor size, artwork and quantity with MTT.",
+    "answer": [
+      "A folded paperboard support holds the jar inside a six-sided carton. The clear distance between opposite flats controls fit for a round jar."
+    ],
+    "selection": [
+      "Give the widest jar diameter and the capped height. Ask for the usable flat-to-flat dimension after the support is folded and the space occupied by the tuck lid."
+    ],
+    "review": [
+      "Load a filled jar, fold in the dust flaps and close the tongue. Look for panels bowing outward, a tongue pressing against the cap or a support that shifts when the carton is lifted."
+    ],
+    "guide": "candle-box-glass-jar-protection"
+  },
+  "MTT-E0109": {
+    "seoTitle": "Custom Candle Jar Corrugated sleeve and tray | MTT Packaging",
+    "seoDescription": "Custom candle jar packaging with corrugated sleeve and tray construction, kraft-lined corrugated board and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "answer": [
+      "A corrugated tray carries the candle jar into a four-sided sleeve. Review the tray with its proposed paper support in place."
+    ],
+    "selection": [
+      "Measure the filled jar including its cap and label, record its weight and mark the direction the tray will travel. Check the loaded tray height against the sleeve opening."
+    ],
+    "review": [
+      "Slide the loaded tray through the sleeve from closed to fully open. Watch for the cap catching an edge or cushioning bunching ahead of the jar. Verify the complete shipping pack separately for the intended route."
+    ],
+    "guide": "corrugated-mailer-shipping-box-specification"
+  },
+  "MTT-R0203": {
+    "seoTitle": "Custom Chocolate Gift Magnetic Book Box | MTT Packaging",
+    "seoDescription": "Custom chocolate gift packaging in a magnetic book box, with nine equal compartments for wrapped chocolates. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "The magnetic book box presents nine equal compartments for individually wrapped chocolates. Use the largest finished wrapper to define the cell envelope."
+    ],
+    "selection": [
+      "Measure the wrapped length, width and height including twisted ends or folded seams. Lay out a full set of nine so adjoining wrappers and the lid lining are both accounted for."
+    ],
+    "review": [
+      "Place a piece in the centre cell and fill its neighbours. Check that it lifts out without pulling an adjacent wrapper, then shut the lid and inspect the tallest piece for contact."
+    ],
+    "guide": "measure-packaging-internal-external-dimensions"
+  },
+  "MTT-R0208": {
+    "seoTitle": "Custom Chocolate Bar Collection Two-Drawer Box | MTT Packaging",
+    "seoDescription": "Custom chocolate bar collection packaging in a two-drawer box, with six wrapped-bar channels per drawer. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "Each shallow drawer presents six wrapped bars in parallel channels. A sealed wrapper end can extend beyond the length of the bar itself."
+    ],
+    "selection": [
+      "Supply the finished wrapper length with both seals, the thickest cross-section and the front-facing artwork direction. Mark the end intended for finger access."
+    ],
+    "review": [
+      "Fill both drawers with the intended assortment and slide each one shut. Watch for wrapper seams catching on the cabinet edge. Remove a middle bar with the adjacent channels still full."
+    ],
+    "guide": "drawer-box-clearance-ribbon-pull"
+  },
+  "MTT-R0219": {
+    "seoTitle": "Custom Celebration Chocolate Round Lift-Off Box | MTT Packaging",
+    "seoDescription": "Custom celebration chocolate packaging in a round lift-off box, with radial compartments for wrapped sweets. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "Radial compartments divide the round lift-off box. Each compartment narrows toward the centre, so its outer width alone cannot establish fit."
+    ],
+    "selection": [
+      "Send the dimensions of the largest wrapped sweet and mark its intended orientation. On the insert drawing check the usable width at both ends of the sweet and the height below the lid."
+    ],
+    "review": [
+      "Arrange a full ring of wrapped samples. Try removing one near the narrow end, check the dividers stay seated and close the cap over the tallest wrapper fold."
+    ],
+    "guide": "measure-packaging-internal-external-dimensions"
   }
 }
