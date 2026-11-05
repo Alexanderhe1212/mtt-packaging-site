@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Christmas Packaging Checklist for a Fixed Delivery Date](https://mttpackaging.com/insights/holiday-packaging-production-planning)
 - [Blind Debossed Logo Boxes: What to Approve on a Sample](https://mttpackaging.com/insights/blind-debossed-logo-packaging-boxes)
 - [Stock vs Custom Packaging: Compare the Complete Cost](https://mttpackaging.com/insights/stock-vs-custom-packaging-total-cost)
 - [Kraft Paper vs Recycled Paper Packaging: What to Specify](https://mttpackaging.com/insights/kraft-paper-recycled-content-strength)

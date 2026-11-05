@@ -1,0 +1,41 @@
+{
+  "slug": "holiday-packaging-production-planning",
+  "number": "70",
+  "angle": "Seasonal Procurement",
+  "image": "/products/mtt-r0902-0.webp",
+  "imageAlt": "Green Christmas gift cabinet with four ivory drawers, gold stars and green pull tabs, shown holding wrapped treats",
+  "title": "Christmas Packaging Checklist for a Fixed Delivery Date",
+  "seoTitle": "Christmas Packaging Checklist for Buyers | MTT Packaging",
+  "summary": "Plan a holiday packaging order backwards from warehouse receipt. Decide when to freeze the insert, sign the foil sample and release each seasonal component.",
+  "intro": "Start holiday packaging production planning with the date your warehouse can receive and inspect the finished packs. Work backwards through transit, inspection, packing, conversion and sample approval using dates confirmed by the people responsible. A buyer can approve the cabinet structure while a greeting card is still being written, provided the card size and its place in the pack are already fixed.",
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "faq": [],
+  "cta": "Send the required warehouse receipt date, ship-to location, quantities by design and the component still awaiting approval. Include product dimensions and a pack photo so we can identify which decisions control the schedule.",
+  "sections": [
+    [
+      "Start at the receiving dock",
+      "<p>A store launch on Friday and a delivery appointment on Friday are two different commitments. Ask the warehouse when it can receive the cartons, count them, inspect a finished set and release stock for distribution. For multiple destinations, give each its own receipt date and allocation. A single combined quantity can hide an early shipment that needs its own labels and carton marks.</p><p>Use the following planning sheet during the supplier call. Enter the actual business days, holidays and booking cutoffs supplied for your project. Leave an unconfirmed duration open and give someone responsibility for obtaining it.</p><table><thead><tr><th>Work back from</th><th>Obtain from</th><th>Record before promising a date</th></tr></thead><tbody><tr><td>Available-to-sell date</td><td>Warehouse</td><td>Receiving slot, inbound checks and onward dispatch</td></tr><tr><td>Warehouse appointment</td><td>Forwarder</td><td>Delivery window, routing and latest handover</td></tr><tr><td>Carrier handover</td><td>Packer</td><td>Final inspection, packing time and booking documents</td></tr><tr><td>First production operation</td><td>Converter</td><td>Material availability, tooling, sample sign-off and reserved capacity</td></tr></tbody></table>"
+    ],
+    [
+      "Separate what fixes the structure from what can wait",
+      "<p>In the pictured <a href=\"/products/four-drawer-christmas-gift-cabinet\">four-drawer Christmas cabinet</a>, two rows of drawers share one case. A late change to the largest wrapped item can alter a partition, the drawer and the outer cabinet. A greeting revision on a loose card has a much smaller reach if its stock, footprint and packing position stay fixed. Assign separate approval dates to those two decisions.</p><p>Ask for a dimensioned layout with the actual wrapped units in their intended orientation. Mark the tallest item, the tab attachment and the clearance above each drawer. Record which wrapped sample drove those decisions. Use the <a href=\"/insights/christmas-drawer-gift-box-packout-review\">drawer packout review</a> for the physical loading checks; carry the approved configuration and its revision number into the production calendar.</p>"
+    ],
+    [
+      "Keep a finish trial on the calendar",
+      "<p>The gold stars on the cabinet are a useful reason to reserve time between artwork sign-off and production release. Holmen explains that hot foil transfers from a carrier film under a heated die and that an uneven substrate can show through the reflective finish. A digital proof can confirm the star positions. Ask for the smallest star and the largest solid motif on the specified wrap paper to judge the transferred edges and coverage. <a href=\"https://www.holmen.com/en/board-and-paper/insights/paper-academy/hot-foil-stamping-on-paperboard/\">Holmen’s guide to hot foil stamping</a>.</p><p>Record the stock reference, foil reference, artwork version and approved physical sample together. If the wrap changes after sign-off, send the finish back for review. Confirm the impact on the booking before accepting the substitution.</p>"
+    ],
+    [
+      "Give replacement inserts their own approval step",
+      "<p>If a pack uses a die-cut paper insert, a small change to the product outline may leave a thin bridge between two openings. The sheet must survive handling until the waste is stripped. Holmen describes how the small connecting nicks hold the blank during transfer, and how moisture and fibre direction affect cutting. A clean line on the drawing tells the buyer little about the edge after waste removal. <a href=\"https://www.holmen.com/en/board-and-paper/insights/paper-academy/die-cutting-complex-shapes-in-paperboard/\">Holmen’s guidance on die-cut shapes</a>.</p><p>Ask for a stripped sample on production-intent stock. Place the actual wrapped item in the opening and remove it as a customer would. If a bridge tears, record where it tore and return the drawing for revision before releasing the full insert run. This cutout check applies where a die-cut insert is specified. The pictured cabinet uses removable partitions.</p>"
+    ],
+    [
+      "When a date slips, choose what can move independently",
+      "<p>Suppose the translation on a holiday card is late. If the card is loose, ask whether the approved boxes can proceed and whether the packer can add the cards later. Confirm access to the finished box, the extra handling and the cost before choosing that route. If the same text is foil-stamped on the lid, a wording change reaches the artwork, die and finish sample. Ask for a revised production slot.</p><p>A <a href=\"/products/christmas-gift-collapsible-magnetic-rigid-box\">fold-flat Christmas gift box</a> creates a different decision: confirm who erects the box and how much time the receiving team has for assembly. Moving work to the destination can affect the launch even when the cartons arrive on time.</p>"
+    ],
+    [
+      "Release sheet for the purchase order",
+      "<ul><li><strong>Buyer:</strong> confirm sell date, warehouse appointment, destination and quantities by artwork version.</li><li><strong>Designer:</strong> identify the approved structural file, print file, finish layers and any loose insert still awaiting copy.</li><li><strong>Converter:</strong> confirm approved sample ID, outstanding material or tooling decisions and the production slot in writing.</li><li><strong>Packer and forwarder:</strong> confirm who assembles the set, carton allocation, inspection date and latest handover.</li></ul><p>Keep one line for each unresolved decision, its owner and the last date it can change without moving the agreed dispatch. A written exception makes the next call specific: approve a substitution, split an independently packable component, or revise the date.</p>"
+    ]
+  ]
+}

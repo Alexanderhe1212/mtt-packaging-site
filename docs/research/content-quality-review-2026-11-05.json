@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "holiday-packaging-production-planning",
+    "keywordId": "KW-0684",
+    "primaryQuery": "holiday packaging production planning",
+    "searchEvidence": "Adjacent GSC query christmas packaging checklist: 21 impressions, zero clicks, displayed chart Aug 26-Nov 2. Exact keyword volume unverified.",
+    "customerDecision": "Set approval dependencies before committing to a warehouse receipt date.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Checked displayed cabinet against catalogue and image.",
+      "Compared existing Christmas packout article. New scope is the purchasing calendar and change decisions.",
+      "Two original manufacturer sources checked. Durations and booking availability require supplier confirmation."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.holmen.com/en/board-and-paper/insights/paper-academy/hot-foil-stamping-on-paperboard/",
+      "https://www.holmen.com/en/board-and-paper/insights/paper-academy/die-cutting-complex-shapes-in-paperboard/"
+    ]
+  }
+]
