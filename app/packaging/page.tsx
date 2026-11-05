@@ -26,7 +26,7 @@ const faqs = [
   ["What types of custom packaging do you offer?", "MTT Packaging coordinates production of custom rigid boxes (magnetic, lift-off lid, drawer, shoulder-neck), premium folding cartons, bespoke paper bags and precision inserts in paper, molded pulp, EVA and fabric-covered materials."],
   ["What is the minimum order quantity?", "The minimum order quantity is 1,000 pieces per design. The final specification and quotation depend on the structure, materials, finishes and production method."],
   ["Can I get a sample before placing an order?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling cost depends on the structure and finishes."],
-  ["What information do I need to provide for a quote?", "Provide finished internal dimensions (L × W × H), product weight, desired structure, quantity, finish preferences, insert material, delivery country and target budget range."],
+  ["What information do I need to provide for a quote?", "Provide the maximum product dimensions (L × W × H in mm), product weight, desired structure, quantity, finish preferences, insert material, delivery country and target budget range."],
   ["Do you ship internationally?", "Yes. Export packing and shipping terms are planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms."],
 ];
 
@@ -140,7 +140,7 @@ export default function PackagingPage() {
         </div>
         <div className="decision-grid">
           {[
-            ["Product dimensions", "Finished internal dimensions in L × W × H (mm). Include cap height for bottles."],
+            ["Product dimensions", "Measure the item at its widest points in mm, including caps or protrusions. If matching an existing box, label its measurements as inside or outside dimensions."],
             ["Product weight", "Weight affects insert design, board thickness and shipping cost."],
             ["Structure type", "Rigid box, magnetic, drawer, folding carton, paper bag or let us recommend."],
             ["Quantity", "Target quantity or range. Minimum order is 1,000 pieces per design."],

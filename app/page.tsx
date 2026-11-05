@@ -42,7 +42,7 @@ const buyerPaths = [
   ['By packaging type', 'Rigid boxes, folding cartons, mailers, paper bags and inserts.', '/packaging'],
   ['By industry', 'Perfume, cosmetics, jewelry & watches, gift sets and PR kits.', '/industries'],
   ['Browse 240 designs', 'Filter ready-to-customise structures by product and family.', '/products'],
-  ['Plan your box size', 'Work out the internal size, then send it with your quote.', '/tools/box-size-calculator'],
+  ['Plan your box size', 'Start with your product measurements to estimate the inside dimensions of your box.', '/tools/box-size-calculator'],
 ];
 const buyerGuides = [
   ['Custom Packaging Brief Checklist: What to Send for a Quote', '/insights/how-to-write-a-packaging-brief'],

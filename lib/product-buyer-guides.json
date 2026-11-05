@@ -734,5 +734,39 @@
       "提供带盖茶罐最大外廓、装填重量、软袋尺寸及每盒数量。确认卷折侧墙成型后的可用空间、楞型、纸板组成、承托布局与封箱方式。用实物试装，检查盖内间隙、侧翼锁合及产品位移。对完整包装确定适合运输路线的测试后，再作运输保护声明；发运外尺寸与毛重来自装载样品。"
     ],
     "guide": "corrugated-mailer-shipping-box-specification"
+  },
+  "MTT-R0415": {
+    "seoTitle": "Custom Brooch Shoulder-Neck Box | MTT Packaging",
+    "seoDescription": "Custom brooch packaging in a shoulder-neck box, with one shallow padded brooch recess. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "This shoulder-neck box presents one brooch in a shallow padded recess. The closed clasp on the reverse helps determine the recess depth.",
+      "这款肩颈盒用浅垫槽展示一枚胸针，背面扣件合上后的厚度会影响槽深。"
+    ],
+    "selection": [
+      "Choose this format for a brooch that lies face up. For a curved piece, compare a shaped support that leaves clearance around the clasp.",
+      "可正面朝上平放的胸针适合浅槽。对于弧度较大的款式，可比较仿形支撑，并为背扣留出空间。"
+    ],
+    "review": [
+      "Send the face length and width, total depth with the clasp closed and a side photo. Close the sample lid over the mounted brooch, check clearance at the highest setting and lift the piece out without pulling on the pin.",
+      "请提供正面长宽、合扣后的总厚度和侧面照片。将胸针装入样盒后合盖，检查最高镶嵌点是否碰盖，再确认能握住主体取出。"
+    ],
+    "guide": "jewelry-packaging-repeat-use-analysis"
+  },
+  "MTT-R0609": {
+    "seoTitle": "Custom Candle Gift Round Lift-Off Box | MTT Packaging",
+    "seoDescription": "Custom candle gift packaging in a round lift-off box, with one round jar recess. Tailor size, wrapping paper and finishes with MTT. Request a quote.",
+    "answer": [
+      "The round lift-off box holds one upright candle jar. Size the recess to the jar body and check lid clearance against the capped height.",
+      "这款圆形天地盖盒用于单罐直立展示。按罐身核对槽径，按带盖总高核对盒盖净空。"
+    ],
+    "selection": [
+      "A cap that overhangs the jar body needs more room at the top. Mark the support point and the widest cap diameter separately on the insert drawing.",
+      "如果罐盖比罐身宽，顶部需要额外空间。请在内托图上分别标明支撑位置与罐盖最大直径。"
+    ],
+    "review": [
+      "Send body and cap diameters, capped height and filled weight. Try the filled jar in the sample, check movement at the base and confirm a finger grip for removal. For parcel delivery, review the outer shipper with the loaded gift box.",
+      "请提供罐身与罐盖直径、带盖总高及装填重量。用装满的罐子试装，检查底部晃动及取出时的手指空间。快递运输时另用装载后的礼盒审核外箱。"
+    ],
+    "guide": "candle-box-glass-jar-protection"
   }
 }
