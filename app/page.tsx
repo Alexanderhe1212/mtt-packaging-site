@@ -96,6 +96,12 @@ export default function Home() {
     </section>
     <section className="hp-facts" aria-label="Key commercial facts"><dl>{keyFacts.map(([value,label])=><div key={value}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
     <nav className="hp-paths" aria-labelledby="buyer-paths-title"><h2 id="buyer-paths-title">Find what you need</h2><div>{buyerPaths.map(([title,desc,href])=><a href={href} key={href}><b>{title} <span aria-hidden="true">→</span></b><span>{desc}</span></a>)}</div></nav>
+    <nav className="home-product-shortcuts" aria-label="Packaging by product and use">
+      <a href="/products?category=fragrance-beauty&amp;q=perfume">Perfume packaging</a>
+      <a href="/products?family=bag">Retail paper bags</a>
+      <a href="/products?contents=jar-tin">Gift boxes for filled jars and tins</a>
+      <a href="/packaging/custom-metal-tins">Custom metal tins</a>
+    </nav>
     <section className="ed-collection">
       <header className="ed-section-heading"><h2>Custom packaging we develop.</h2><p>Four packaging families, each sized around your product and matched with inserts, finishes and bags.</p></header>
       <div className="ed-product-grid">
