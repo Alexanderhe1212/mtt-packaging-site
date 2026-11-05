@@ -16,7 +16,7 @@
     "audit:enquiry": "node scripts/check-quote-browser.mjs",
     "audit:guides": "node scripts/check-guide-browser.mjs",
     "audit:links": "sh scripts/audit-links.sh",
-    "audit:catalogue": "node scripts/check-catalogue-browser.mjs",
+    "audit:catalogue": "node scripts/check-early-catalogue-filter.mjs && node scripts/check-catalogue-browser.mjs",
     "check:article-layout": "node scripts/check-article-layout.mjs",
     "build:studio": "node scripts/build-packaging-studio.mjs",
     "check:studio": "node --test scripts/packaging-studio.test.mjs",
