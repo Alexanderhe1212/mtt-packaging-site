@@ -1,0 +1,28 @@
+name: Validate B2B product schema (no deployment)
+on:
+  pull_request:
+    paths:
+      - 'components/ProductDetail.tsx'
+      - 'lib/products*.json'
+      - 'scripts/check-product-schema.mjs'
+      - '.github/workflows/check-product-schema.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: node scripts/check-product-schema.mjs
+      - run: npm run build
+        env:
+          MTT_STATIC_EXPORT: '1'
+      - run: node scripts/check-product-schema.mjs --built
+      - run: npm run check:types
+      - run: npm run lint
+      - run: npm run check:release
