@@ -26,5 +26,35 @@
       "https://www.holmen.com/en/board-and-paper/insights/paper-academy/hot-foil-stamping-on-paperboard/",
       "https://www.holmen.com/en/board-and-paper/insights/paper-academy/die-cutting-complex-shapes-in-paperboard/"
     ]
+  },
+  {
+    "slug": "qr-code-on-packaging-print-test",
+    "keywordId": "KW-0675",
+    "primaryQuery": "QR code size on packaging",
+    "searchEvidence": "Existing planned buyer intent. Trends chart unavailable; no measured volume or hottest-query claim. User authorised completing this article.",
+    "customerDecision": "Allocate code space and approve the printed assembled pack.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Official DENSO four-module quiet zone and module guidance checked.",
+      "37 times 0.5 = 18.5 mm; explicitly illustrative, not a universal minimum.",
+      "MTT-C0101 side-view inspected; no printed QR claimed.",
+      "Distinct from general artwork preflight. Carton, print and sample links included."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.qrcode.com/en/howto/code.html",
+      "https://www.qrcode.com/en/howto/cell.html",
+      "https://www.holmen.com/en/board-and-paper/insights/paper-academy/varnishing-techniques-for-paperboard/"
+    ]
   }
 ]

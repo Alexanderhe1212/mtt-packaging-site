@@ -1,0 +1,41 @@
+{
+  "slug": "qr-code-on-packaging-print-test",
+  "number": "71",
+  "angle": "Print Approval",
+  "image": "/products/mtt-c0101-2.webp",
+  "imageAlt": "MTT skincare folding carton design in ivory and sage with botanical print, showing two adjacent panels and the top closure",
+  "title": "QR Code Size on Packaging: Approve the Printed Pack",
+  "seoTitle": "QR Code Size on Packaging: Print Checks | MTT Packaging",
+  "summary": "Calculate QR code space including its quiet zone, choose a carton panel and approve scanning on the finished printed pack.",
+  "intro": "Choose QR code size on packaging from the actual encoded symbol, the printed module size and the space around it. Keep a clear border four modules wide on every side of a standard QR Code. Then check the finished, assembled package with the intended phones or scanners. A dimension that works on an uncoated proof may need revisiting after the board, ink, varnish or panel position changes.",
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "faq": [],
+  "cta": "Send the generated code, destination URL, dieline, proposed print size and finish reference. Include your product dimensions and quantity so we can review the carton panel and sampling inputs.",
+  "sections": [
+    [
+      "Count the border before allocating the panel",
+      "<p>A module is one square in the code. The designer needs the count of modules across the generated symbol and the proposed physical size of each module. DENSO WAVE specifies a four-module quiet zone on every side. The reserved square therefore measures (module count + 8) × module size. Keep nearby artwork out of that complete square.</p><p>An illustrative 29-module symbol using 0.5 mm modules occupies 18.5 mm including its border: (29 + 8) × 0.5. This is a layout calculation, not a minimum size or scan-performance approval. Generate the final destination code first; a different payload or error-correction choice can change the symbol.</p><p>Source: <a href=\"https://www.qrcode.com/en/howto/code.html\">https://www.qrcode.com/en/howto/code.html</a></p>"
+    ],
+    [
+      "Ask the printer what can survive conversion",
+      "<p>DENSO WAVE explains that module size must suit both printing resolution and the reading device. A higher-resolution output device does not establish what a customer's phone can read. Ask the converter to review the final-size file and print method before the designer reduces the symbol to fit a narrow panel.</p><p>Keep the code as vector artwork where the workflow permits. Avoid stretching it independently in one direction or placing it over a photograph. For a proposed small size, supply a larger comparison version on the same proof so the buyer can compare their behaviour under the same conditions.</p><p>Source: <a href=\"https://www.qrcode.com/en/howto/cell.html\">https://www.qrcode.com/en/howto/cell.html</a></p>"
+    ],
+    [
+      "Place it on the assembled carton",
+      "<p>The pictured MTT skincare bottle folding carton is a design reference for panel planning, with no QR code shown. It provides a useful layout reference: a top tuck flap, dust flaps and a glued side seam surround the display panels. Start by identifying a flat panel that remains visible after closing the carton. Mark the code's complete reserved square on the dieline, including the quiet zone. Keep that square away from the fold, joint and any label that the packer adds.</p><p>Check the code on the erected carton with the product inside. A flat proof cannot show whether the closing flap hides part of the code or whether an applied security label crosses its border. If the available panel is too narrow, ask whether a shorter controlled destination URL or a different panel provides more usable space before reducing the module size.</p><p>Related product: <a href=\"https://mttpackaging.com/products/custom-carton-packaging-set\">https://mttpackaging.com/products/custom-carton-packaging-set</a><br/>Procurement page: <a href=\"https://mttpackaging.com/packaging/folding-cartons\">https://mttpackaging.com/packaging/folding-cartons</a><br/>Artwork handover: <a href=\"https://mttpackaging.com/insights/packaging-artwork-dieline-preflight\">https://mttpackaging.com/insights/packaging-artwork-dieline-preflight</a></p>"
+    ],
+    [
+      "Include the final finish in the sample",
+      "<p>Holmen describes how gloss depends on the surface and coating system and recommends checking ink and varnish compatibility. Carry the specified finish into the code sample. For a reflective finish, compare scanning under ordinary store lighting and at more than one viewing angle. If glare interferes, evaluate a different finish or a reserved print area with the converter. Record the chosen combination instead of approving a finish by name alone.</p><p>A code that opens on a monitor verifies the destination and the digital graphic. It does not approve ink spread, the converted surface or the customer's viewing conditions. Retain the printed sample with its artwork revision and finish specification.</p><p>Source: <a href=\"https://www.holmen.com/en/board-and-paper/insights/paper-academy/varnishing-techniques-for-paperboard/\">https://www.holmen.com/en/board-and-paper/insights/paper-academy/varnishing-techniques-for-paperboard/</a></p>"
+    ],
+    [
+      "A practical approval record",
+      "<table><thead><tr><th scope=\"col\">Check</th><th scope=\"col\">Record</th><th scope=\"col\">Return for revision when</th></tr></thead><tbody><tr><td>Destination</td><td>Exact URL, page owner and expected language</td><td>Wrong product, expired destination or login wall</td></tr><tr><td>Symbol</td><td>Actual encoded file, module count and size</td><td>A resized export no longer matches the proof</td></tr><tr><td>Clear border</td><td>Four modules on each side of a standard QR Code</td><td>Artwork, labels or an edge intrude</td></tr><tr><td>Finished panel</td><td>Stock, ink, varnish and assembled location</td><td>Code is obscured or reading depends on avoiding normal handling</td></tr><tr><td>Reading check</td><td>Devices, lighting, viewing positions and observations</td><td>Results fail the agreed use conditions</td></tr><tr><td>Change control</td><td>Approved sample and revision</td><td>URL, stock, finish, placement or symbol changes</td></tr></tbody></table><p>Set acceptance conditions with the buyer before running the checks. Keep device observations separate from any formal barcode verification requirement imposed by a retailer. Do not label a phone scan as a certification.</p>"
+    ],
+    [
+      "Keep the destination useful after delivery",
+      "<p>Use a page controlled by the brand and assign someone to maintain it. Confirm the language and whether the content is available without an account. Test the final printed code against that destination before release. If using a redirect, check the redirected page as well as the first URL and record who can change it.</p>"
+    ]
+  ]
+}
