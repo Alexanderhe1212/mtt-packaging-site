@@ -3,6 +3,9 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {"articles": ["two-piece-rigid-box-lid-fit", "measure-packaging-internal-external-dimensions", "custom-packaging-sampling-process", "rigid-gift-box-shipping-outer-carton"], "products": ["signature-perfume-lift-off", "engagement-ring-keepsake-lift-off", "perfume-and-refill-lift-off"]},
+  {"articles": ["chocolate-gift-box-secondary-packaging", "paper-gsm-vs-board-thickness", "custom-packaging-sampling-process", "rigid-gift-box-shipping-outer-carton"], "products": ["chocolate-selection-book", "chocolate-tasting-library-stacked-drawers", "celebration-chocolate-round-round"]},
+
   {articles:['qr-code-on-packaging-print-test','packaging-artwork-dieline-preflight','printing-finishing-guide','custom-packaging-sampling-process'],products:['custom-carton-packaging-set','custom-perfume-bottle-tuck','custom-skincare-duo-auto-bottom']},
   {articles:['holiday-packaging-production-planning','christmas-drawer-gift-box-packout-review','custom-packaging-sampling-process','packaging-artwork-dieline-preflight'],products:['four-drawer-christmas-gift-cabinet','christmas-gift-collapsible-magnetic-rigid-box','custom-christmas-packaging-set']},
   {articles:['blind-debossed-logo-packaging-boxes','matte-vs-gloss-packaging-scuffing','packaging-artwork-dieline-preflight','custom-packaging-sampling-process'],products:['engagement-ring-keepsake-lift-off','signature-perfume-lift-off','skincare-ritual-book']},

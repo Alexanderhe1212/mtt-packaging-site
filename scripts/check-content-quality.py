@@ -100,6 +100,8 @@ reviews += json.loads(Path('docs/research/content-quality-review-2026-11-05.json
 qr = json.loads(Path('lib/qr-code-guide-november-05.json').read_text())
 updates[qr['slug']] = qr
 
+for guide in json.loads(Path('lib/evening-guides-november-05.json').read_text()):updates[guide['slug']]=guide
+
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

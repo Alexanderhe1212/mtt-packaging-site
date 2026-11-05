@@ -18,6 +18,7 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "two-piece-rigid-box-lid-fit",
       "pr-kit-packaging-packout-checklist",
       "drawer-box-clearance-ribbon-pull",
       "rigid-gift-box-shipping-outer-carton",
@@ -41,6 +42,7 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "chocolate-gift-box-secondary-packaging",
       "candle-box-glass-jar-protection",
       "perfume-discovery-set-packaging",
       "perfume-box-and-bag-packaging",

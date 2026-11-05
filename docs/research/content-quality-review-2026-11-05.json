@@ -56,5 +56,60 @@
       "https://www.qrcode.com/en/howto/cell.html",
       "https://www.holmen.com/en/board-and-paper/insights/paper-academy/varnishing-techniques-for-paperboard/"
     ]
+  },
+  {
+    "slug": "two-piece-rigid-box-lid-fit",
+    "keywordId": "KW-0666",
+    "primaryQuery": "two piece rigid box lid fit",
+    "searchEvidence": "Existing unassigned keyword map entry; target returned 404 before writing. No search-volume or ranking claim. Two additional evening articles explicitly authorised.",
+    "customerDecision": "Send your product dimensions and weight, desired lid coverage, quantity and a photo or short video of the opening you want. Include wrap and finish references so we can review a representative lid-and-base sample.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Independent lid/base fit intent; distinct from drawer clearance and generic dimensions. Three illustrative gap calculations checked. Product image inspected; no measurement claimed.",
+      "Sources read 2026-11-05. Own tables separate examples from supplier guidance; no completed MTT test or order asserted.",
+      "Existing article template preserves author, schema, canonical and enquiry route."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.holmen.com/globalassets/board-and-paper/products/general-technical-information.pdf"
+    ]
+  },
+  {
+    "slug": "chocolate-gift-box-secondary-packaging",
+    "keywordId": "KW-0669",
+    "primaryQuery": "chocolate gift box secondary packaging",
+    "searchEvidence": "Existing unassigned keyword map entry; target returned 404 before writing. No search-volume or ranking claim. Two additional evening articles explicitly authorised.",
+    "customerDecision": "Send the chocolate or wrapped-pack dimensions, piece count, target market, quantity and required storage conditions. Include the proposed contact-layer specification so we can review the gift-box structure, divider layout and sample scope.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Independent contact-layer and supplier-document intent, distinct from GSM and drawer quote articles. Image shows cups, not sealed wrappers. 122 mm calculation excludes perimeter and outer walls. Pure-chocolate storage scope explicit.",
+      "Sources read 2026-11-05. Own tables separate examples from supplier guidance; no completed MTT test or order asserted.",
+      "Existing article template preserves author, schema, canonical and enquiry route."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.callebaut.com/en-GB/confectionery-shelf-life-good-storage-practices",
+      "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials/legislation_en"
+    ]
   }
 ]
