@@ -33,6 +33,7 @@ export const knowledgeTopics = [
       "packaging-inserts-for-handmade-glass-products",
       "electronics-paperboard-insert-analysis",
       "cosmetic-pump-bottle-gift-box-clearance",
+      "watch-box-cushion-sizing",
       "necklace-packaging-chain-management",
       "collapsible-rigid-box-assembly-checklist"
     ]

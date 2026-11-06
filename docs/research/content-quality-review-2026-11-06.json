@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "watch-box-cushion-sizing",
+    "keywordId": "KW-0670",
+    "primaryQuery": "watch box cushion sizing",
+    "searchEvidence": "Unassigned existing mapping entry; measured keyword demand not available. Distinct from general jewellery presentation and insert materials.",
+    "customerDecision": "Specify closed bracelet accommodation and mounted watch clearance before sample approval.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "MTT-R0403 image visually inspected; no measured fit or completed test claimed.",
+      "WOLF original product pages read; wrist range and case limit remain specific to their named products.",
+      "Illustrative height arithmetic checked; no universal cushion tolerance."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.wolf1834.com/us/dynamic-cuff/black",
+      "https://www.wolf1834.com/eu/blake-5-piece-watch-box/blakeblackpurple"
+    ]
+  }
+]
