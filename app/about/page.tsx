@@ -118,7 +118,7 @@ export default function AboutPage() {
         </div>
         <div className="about-grid">
           <a className="about-card" href="/packaging/custom-rigid-boxes">
-            <img className="about-card-image" src="/design/rigid-editorial-800.webp" alt="Green rigid presentation box with a fitted ivory bottle insert" width="1440" height="1080" loading="lazy" decoding="async" />
+            <img className="about-card-image" src="/design/rigid-editorial.webp" srcSet="/design/rigid-editorial-480.webp 480w, /design/rigid-editorial-800.webp 800w, /design/rigid-editorial.webp 1440w" sizes="(max-width: 900px) calc(100vw - 98px), calc(28vw - 60px)" alt="Green rigid presentation box with a fitted ivory bottle insert" width="1440" height="1080" loading="lazy" decoding="async" />
             <h3>Rigid Boxes</h3>
             <p>
               Magnetic closure, lift-off lid, drawer, shoulder-neck and
@@ -127,7 +127,7 @@ export default function AboutPage() {
             <span className="about-card-link">Explore rigid boxes <span aria-hidden="true">→</span></span>
           </a>
           <a className="about-card" href="/packaging/folding-cartons">
-            <img className="about-card-image" src="/design/carton-editorial.webp" alt="Ivory and green folding cartons with tuck-top closures" width="1440" height="1080" loading="lazy" decoding="async" />
+            <img className="about-card-image" src="/design/carton-editorial.webp" srcSet="/design/carton-editorial-480.webp 480w, /design/carton-editorial-800.webp 800w, /design/carton-editorial.webp 1440w" sizes="(max-width: 900px) calc(100vw - 98px), calc(28vw - 60px)" alt="Ivory and green folding cartons with tuck-top closures" width="1440" height="1080" loading="lazy" decoding="async" />
             <h3>Folding Cartons</h3>
             <p>
               Premium paperboard cartons with specialty papers, printing and
