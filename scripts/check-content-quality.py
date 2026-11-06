@@ -106,6 +106,9 @@ watch = json.loads(Path('lib/watch-guide-november-06.json').read_text())
 updates[watch['slug']]=watch
 reviews += json.loads(Path('docs/research/content-quality-review-2026-11-06.json').read_text())
 
+sleeve=json.loads(Path('lib/sleeve-fit-guide-november-06.json').read_text())
+updates[sleeve['slug']]=sleeve
+
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

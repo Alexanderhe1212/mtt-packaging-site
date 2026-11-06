@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Paperboard Sleeve and Tray Fit: Fix Binding Before Production](https://mttpackaging.com/insights/paperboard-sleeve-tray-fit)
 - [Watch Box Cushion Sizing: Fit the Bracelet and the Case](https://mttpackaging.com/insights/watch-box-cushion-sizing)
 - [Two-Piece Rigid Box Lid Fit: What to Approve](https://mttpackaging.com/insights/two-piece-rigid-box-lid-fit)
 - [Chocolate Gift Box Secondary Packaging: Buyer Checks](https://mttpackaging.com/insights/chocolate-gift-box-secondary-packaging)

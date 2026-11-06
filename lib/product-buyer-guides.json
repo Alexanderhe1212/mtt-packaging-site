@@ -666,14 +666,14 @@
       "用于独立封闭茶罐的折叠卡纸套筒与托盘，托盘承载罐体，套筒提供印刷展示面；结构不同于裱纸硬质抽屉盒。"
     ],
     "selection": [
-      "Use it when a compact retail presentation and folded board construction fit the brief. Compare a rigid lift-off box for a heavier presentation or a paired gift set. Do not choose board grade from an empty mock-up: filled tin weight and the way the tray is held affect the approval.",
+      "Use it when a compact retail presentation and folded board construction fit the brief. Compare a rigid lift-off box for a heavier presentation or a paired gift set. Do not choose board grade from an empty mock-up: filled tin weight and the way the tray is held affect the approval. Specify the preferred withdrawal direction and whether the pack must retain the tray when tilted; friction alone is not an agreed retention feature.",
       "适合紧凑零售展示与折叠卡纸结构。需要硬挺展示或双罐礼赠时比较天地盖硬盒。不能仅凭空样选纸：罐体装填重量和托盘握持方式都影响审核。"
     ],
     "review": [
       "Check the maximum tin diameter, lid rim, base seam and total height. Load the tray and withdraw it fully: look for base deflection, snagging at the sleeve opening and a tin that can roll or lift out unintentionally. Compare printed colour and varnish on the approved paperboard, then confirm packing orientation. For the rectangular tin shown, measure the widest lid rim and corner radii, not only the straight body walls. Confirm the loaded tray can be withdrawn without the sleeve catching the lid. The cream tray and printed sleeve are separate surfaces to approve; a matched tin decoration is a separate supply item.",
       "核对罐体最大直径、盖缘、底部接缝及总高度。装载后完整抽出托盘，检查底板下挠、套筒口卡阻以及罐体意外滚动或脱出。用确认的纸板审核印色和上光，再确认装箱方向。 图示方罐需测量最宽盖沿及转角半径，不能只量罐身直壁。装载后确认托盘抽出时套筒不会挂住罐盖。奶油白托盘与印刷套筒应分别确认表面效果，配套罐体装饰属于另一供货项目。"
     ],
-    "guide": "folding-carton-closure-selection"
+    "guide": "paperboard-sleeve-tray-fit"
   },
   "MTT-R0111": {
     "answer": [
@@ -996,5 +996,20 @@
       "Arrange a full ring of wrapped samples. Try removing one near the narrow end, check the dividers stay seated and close the cap over the tallest wrapper fold."
     ],
     "guide": "measure-packaging-internal-external-dimensions"
+  },
+  "MTT-C0106": {
+    "answer": [
+      "A printed paperboard sleeve with a separate white tray presenting three sealed coffee pouches. The row is revealed by sliding the tray out; this is a folded carton rather than a wrapped rigid drawer.",
+      "用于三个独立密封咖啡袋的印刷卡纸套筒与白色托盘，抽出后展示整排产品。属于折叠纸盒，不是裱纸硬质抽屉盒。"
+    ],
+    "selection": [
+      "Choose this layout when the pouch graphics and a sequential reveal matter at retail or gifting. Confirm filled pouch thickness and the sealed-top envelope. Compare a tuck carton when a single end-opening pack is preferred; review a rigid tray for a different presentation or load, rather than assuming this pictured pack has a rated capacity.",
+      "适合零售或礼赠时展示袋面图案和逐步抽出效果。确认装填后袋厚及封口外廓；单端开口可比较插舌盒，其他承载需求另审结构。"
+    ],
+    "review": [
+      "Supply the filled pouches and confirm the number per row, orientation, support spacing and finger access. Check that seams and tear notches clear the sleeve, then withdraw the loaded tray fully and inspect base bowing. Approve matte coating and selective gloss UV on the final board, including rubbing at the sleeve mouth. Record tray outside dimensions separately from the sleeve opening. The sealed pouches and the delivery carton require their own specifications.",
+      "提供装填后的咖啡袋，确认每排数量、方向、支撑间距和取出空间；检查封口与易撕口是否卡住套筒，并观察装载托盘抽出后的下挠。最终纸板需审核哑涂层和局部亮光 UV，分别记录托盘外尺寸与套筒内开口。"
+    ],
+    "guide": "paperboard-sleeve-tray-fit"
   }
 }

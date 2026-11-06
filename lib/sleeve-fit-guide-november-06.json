@@ -1,0 +1,41 @@
+{
+  "slug": "paperboard-sleeve-tray-fit",
+  "number": "75",
+  "angle": "Carton Sampling",
+  "image": "/products/mtt-c0106-0.webp",
+  "imageAlt": "Orange and blue printed paperboard sleeve opened to reveal a white tray with three sealed coffee pouches",
+  "title": "Paperboard Sleeve and Tray Fit: Fix Binding Before Production",
+  "seoTitle": "Paperboard Sleeve and Tray Fit: Sample Checks | MTT",
+  "summary": "Check paperboard sleeve and tray fit with the finished board, folds and loaded product. Diagnose binding, compare clearances and record sample approval.",
+  "intro": "Check paperboard sleeve and tray fit with the actual packed product and the intended printed board. An empty white sample cannot establish how a varnished sleeve will slide over a loaded tray. Separate the product space inside the tray from the sliding space between tray and sleeve. Then inspect folds, glue seams, rubbing and removal before approving the dieline.",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "faq": [],
+  "cta": "Send the filled product dimensions and weight, quantity, preferred board finish and sleeve-box reference. We can review the tray layout, opening direction and sample checks before quoting the finished pack.",
+  "sections": [
+    [
+      "Two interfaces, two different measurements",
+      "<p>The product fits inside the tray; the tray fits inside the sleeve. These are different interfaces. Enlarging the sleeve can reduce rubbing without fixing a pouch that is squeezed by the tray walls. Enlarging the tray can solve that squeeze while making the whole assembly harder to slide.</p><p>Record the maximum assembled outside width and height of the tray, including turned edges and glued corners. Record the sleeve opening in its assembled state. A flat dieline dimension is not the same measurement. See the <a href=\"/insights/measure-packaging-internal-external-dimensions\">internal and external dimension guide</a> if the drawing mixes these references.</p>"
+    ],
+    [
+      "Read the coffee-pouch layout before choosing a board",
+      "<p>The <a href=\"/products/custom-coffee-pouches-sleeve-carton\">MTT-C0106 coffee-pouch sleeve and tray</a> shows three sealed pouches side by side. The printed sleeve provides the main graphic surface, while the white tray presents the row as it slides out. Filled pouch thickness, folded seals and the position of the tear notch belong in the sample brief; an empty pouch gives a different envelope.</p><p>Ask the packer to load the intended number and orientation. Look for a seal projecting above the tray edge, a bulging pouch spreading the side walls, or a support that catches as the tray enters. Keep each pouch independently sealed. This outer carton layout does not establish a food-contact or freshness specification.</p>"
+    ],
+    [
+      "A clearance example you can check",
+      "<p><strong>Illustrative dimensions, not an MTT production specification:</strong> suppose the finished tray measures 100.0 mm across its outside and the sleeve opening measures 101.2 mm inside. Total width clearance is 101.2 − 100.0 = 1.2 mm. If centred, the nominal gap is 0.6 mm per side. That does not account for local seams, bowing or variation between samples.</p><table class=\"comparison-table\"><thead><tr><th>Measured item</th><th>Example</th><th>What it establishes</th></tr></thead><tbody><tr><td>Tray outside width</td><td>100.0 mm</td><td>The assembled tray envelope, not the product cavity</td></tr><tr><td>Sleeve inside width</td><td>101.2 mm</td><td>The opening available to the tray</td></tr><tr><td>Total width difference</td><td>1.2 mm</td><td>Nominal clearance before local interference</td></tr><tr><td>Centred side gap</td><td>0.6 mm each</td><td>A geometric illustration, not a recommended tolerance</td></tr></tbody></table><p>Measure height separately. Record the same dimensions on the loaded sample and across the agreed sample set. Choose the final allowance from those results and the required opening feel, not from this example.</p>"
+    ],
+    [
+      "Diagnose the place where the tray stops",
+      "<table class=\"comparison-table\"><thead><tr><th>Observed problem</th><th>Check first</th><th>Change to trial</th></tr></thead><tbody><tr><td>Binds immediately at the mouth</td><td>Tray corner build-up, sleeve seam and lead-in shape</td><td>Review the corner or seam before enlarging every dimension</td></tr><tr><td>Moves empty, catches when loaded</td><td>Pouch bulge, tin rim or tray base deflection</td><td>Revise product support and the loaded envelope</td></tr><tr><td>Sticks only at one position</td><td>Local glue squeeze-out, a raised flap or damaged edge</td><td>Correct the local assembly issue and repeat the slide</td></tr><tr><td>Slides but marks the graphics</td><td>Contact location and intended coating</td><td>Trial the final surface and inspect repeated opening</td></tr><tr><td>Falls out when tilted</td><td>Opening orientation and intended retention</td><td>Review a deliberate stop or closure; do not rely on friction alone</td></tr></tbody></table>"
+    ],
+    [
+      "Approve the crease and surface together",
+      "<p>Holmen’s <a href=\"https://www.holmen.com/en/board-and-paper/insights/paper-academy/paperboard-creasing-and-folding/\" target=\"_blank\" rel=\"noopener noreferrer\">paperboard creasing guidance</a> explains that controlled creasing creates a folding hinge, and that tool geometry and the board construction affect the result. Fold towards the crease bead. A crease setup must suit the selected board; it is not a universal setting based on grammage alone.</p><p>For this sliding structure, review whether the assembled sleeve stays square and whether the tray walls spring outward. Compare the final print and coating on the surfaces that touch. If board or finishing changes after approval, repeat the fit check rather than treating the old white sample as the final reference.</p>"
+    ],
+    [
+      "Keep a sample record the packer can use",
+      "<p>Use one record for the sleeve, tray, support and packed product. Include the board grade and measured thickness, drawing revision, opening direction, seam position, artwork revision and finish. Photograph where any mark or snag occurs. State the agreed opening sequence and acceptance criteria so a smooth empty sample is not approved in place of a loaded one.</p><p>A buyer checklist should cover loading, full withdrawal, reinsertion, access to each item, print rubbing and the intended display orientation. Transit validation is a separate complete-pack exercise. A sleeve that opens well on a desk is not proof of parcel protection.</p><p>Compare the <a href=\"/packaging/paperboard-sleeve-tray-boxes\">paperboard sleeve and tray procurement options</a> with the <a href=\"/products/custom-tea-tin-sleeve-carton\">tea-tin version</a>. For a wrapped greyboard drawer, use the separate <a href=\"/insights/drawer-box-clearance-ribbon-pull\">rigid drawer clearance guide</a>; its construction is different.</p>"
+    ]
+  ]
+}

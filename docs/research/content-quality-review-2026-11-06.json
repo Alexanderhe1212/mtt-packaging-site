@@ -26,5 +26,33 @@
       "https://www.wolf1834.com/us/dynamic-cuff/black",
       "https://www.wolf1834.com/eu/blake-5-piece-watch-box/blakeblackpurple"
     ]
+  },
+  {
+    "slug": "paperboard-sleeve-tray-fit",
+    "keywordId": "KW-0705",
+    "primaryQuery": "paperboard sleeve and tray fit",
+    "searchEvidence": "New independent planning entry. No current GSC volume or Google Trends demand verified. Distinct from wrapped rigid drawer fit and commercial procurement.",
+    "customerDecision": "Diagnose loaded sleeve binding before approving the finished paperboard sample.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "MTT-C0106 source image inspected: three sealed coffee pouches in a paperboard sleeve/tray. No order, material grade or measured performance inferred.",
+      "Holmen original creasing guidance opened and read on 2026-11-06; sourced paragraph kept separate from project-dependent engineering checks.",
+      "Illustrative 101.2 minus 100.0 equals 1.2 mm, centred gap 0.6 mm; explicitly not a production tolerance.",
+      "No duplicate rigid drawer page; one commercial brief CTA, contextual product links and a decision table."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.holmen.com/en/board-and-paper/insights/paper-academy/paperboard-creasing-and-folding/"
+    ]
   }
 ]

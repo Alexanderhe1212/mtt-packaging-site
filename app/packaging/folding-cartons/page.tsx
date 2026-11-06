@@ -61,6 +61,7 @@ export default function FoldingCartonsPage() {
         </div>
         <img src="/design/carton-editorial.webp" srcSet="/design/carton-editorial-480.webp 480w, /design/carton-editorial-800.webp 800w, /design/carton-editorial.webp 1440w" sizes="(max-width: 850px) 91vw, 46vw" alt="Concept: ivory folding cartons" width="900" height="900" />
       </header><section className="catalogue-shell"><a className="button" href="/products?family=carton">View designs, materials &amp; details →</a></section>
+      <section className="catalogue-shell" aria-label="Sleeve and tray planning"><h2>Need a sliding paperboard pack?</h2><p>Compare coffee-pouch, jewelry-pouch and tea-tin layouts before choosing the tray support or finish.</p><p><a className="button" href="/packaging/paperboard-sleeve-tray-boxes">Plan a sleeve and tray box →</a></p><a href="/insights/paperboard-sleeve-tray-fit">Check loaded fit before sample approval →</a></section>
       <section className="industry-section">
         <div>
           <p className="section-kicker">Capabilities</p>
