@@ -339,3 +339,6 @@ body.mtt-editorial .ed-nav .ed-mobile-menu summary{white-space:nowrap}
 .home-product-shortcuts{display:flex;flex-wrap:wrap;gap:0 1.5rem;margin:0 4.5%;align-items:center}
 .home-product-shortcuts a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:.2em}
 @media(max-width:850px){.home-product-shortcuts{margin:0 24px}}
+
+/* Bring packaging into the first mobile screen while retaining all buyer facts. */
+@media(max-width:850px){.home-v4 .ed-hero{display:flex;flex-direction:column;height:auto;min-height:0;padding:24px}.home-v4 .ed-hero-copy{display:contents}.home-v4 .ed-hero .ed-eyebrow{order:0;margin:0 0 12px}.home-v4 .ed-hero h1{order:1;font-size:clamp(32px,8.5vw,44px);margin:0 0 18px;max-width:620px}.home-v4 .home-hero-scene{order:2;width:100%;height:auto;margin:0 0 20px}.home-v4 .home-hero-plane{height:auto}.home-v4 .home-hero-plane .ed-hero-image{height:auto;aspect-ratio:4/3;object-fit:contain}.home-v4 .ed-hero .ed-lead{order:3;margin:0 0 18px;font-size:16px}.home-v4 .ed-hero .ed-actions{order:4;margin:0 0 16px}.home-v4 .hp-hero-points{order:5;margin:0}}

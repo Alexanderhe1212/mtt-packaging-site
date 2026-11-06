@@ -61,7 +61,7 @@ export default function CookieConsent() {
         <>
           <div className="cookie-banner-text">
             <b>Your Privacy Choices</b>
-            <p>With your permission, Google Analytics measures website use and Microsoft Clarity provides heatmaps and session recordings. Enquiry content is masked and recording stops when you enter a form or open project chat. Advertising consent stays off. <a href="/cookie-policy">Cookie Policy</a> · <a href="/privacy-policy">Privacy Policy</a></p>
+            <p>With your permission, Google Analytics measures visits and Microsoft Clarity records browsing interactions. Enquiry content is masked; advertising stays off. <a href="/cookie-policy">Cookie Policy</a> · <a href="/privacy-policy">Privacy Policy</a></p>
             {privacySignal && <p>Your browser privacy signal is enabled. Analytics stays off.</p>}
           </div>
           <div className="cookie-banner-actions">
