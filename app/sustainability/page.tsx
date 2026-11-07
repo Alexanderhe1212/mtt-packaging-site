@@ -121,6 +121,16 @@ export default function SustainabilityPage() {
           <li>Assess disposal instructions for the destination market, including components the customer must separate.</li>
         </ul></div>
         <p>The <a href="https://fsc.org/en/chain-of-custody">FSC chain-of-custody guidance</a> explains traceability through the supply chain. For US-facing environmental marketing, consult the <a href="https://www.ftc.gov/news-events/topics/truth-advertising/green-guides">FTC Green Guides</a>. Neither source verifies a particular MTT order: the supporting records must match that project.</p>
+        <div className="home-brief-checklist">
+          <h3>Which packaging figures should California buyers ask for?</h3>
+          <p>On November 2, 2026, CalRecycle updated its statewide 2023 baseline for plastic source reduction using producer-reported data. It tracks the weight of plastic in covered material and the number of plastic components. If you sell into California, ask for both figures when comparing two versions of the same pack.</p>
+          <ul>
+            <li><strong>Measure one packed unit.</strong> List the material, piece count and plastic weight in grams for each component. An insert and a removable sleeve need separate rows. When board includes a plastic coating or laminate, ask the supplier for that layer’s weight and how it was estimated.</li>
+            <li><strong>Keep the pack versions comparable.</strong> Record the SKU, drawing revision and sample date. If two 3 g plastic inserts become one 6 g insert, the piece count falls by one while the plastic weight stays at 6 g. Check product fit again on the revised sample.</li>
+            <li><strong>Give the brand an auditable record.</strong> Send the component sheet with the sample. The brand or its reporting adviser can confirm which items are covered, who reports them and which quantities were sold, offered for sale or distributed in California.</li>
+          </ul>
+          <p>CalRecycle assigns the statewide reduction targets to the producer responsibility organization. For reporting scope and definitions, see its <a href="https://calrecycle.ca.gov/packaging/packaging-epr/sourcereduction/">source reduction guidance</a> and <a href="https://www2.calrecycle.ca.gov/Docs/Publications/Details/1782">November 2026 baseline update</a>.</p>
+        </div>
         <p>Send photos of the current pack, the product dimensions and weight, order quantity, destination and the specific change you want to make. We can use that brief to compare material options and identify what the next sample needs to demonstrate.</p>
       </section>
       <aside className="page-cta">
