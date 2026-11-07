@@ -13,7 +13,7 @@
       ],
       [
         "Use a cost model that exposes assumptions",
-        "<p><strong>Order cost = quantity × recurring unit cost + setup/tooling + sampling + packing + delivery costs within the agreed scope.</strong></p><p>For illustration only, a setup charge of 300 currency units contributes 0.60 per box at 500 boxes and 0.30 at 1,000. That calculation says nothing about the actual box price, freight or whether the extra stock is needed. Ask for real quotations at quantities you can use.</p>"
+        "<p><strong>Order cost = quantity × recurring unit cost + setup/tooling + sampling + packing + delivery costs within the agreed scope.</strong></p><p>For illustration only, a setup charge of 300 currency units contributes 0.30 per box at 1,000 boxes and 0.15 at 2,000. This calculation says nothing about the actual box price, freight or whether the additional stock is useful. Ask for comparable quotations at quantities you can use.</p>"
       ],
       [
         "What changes the recurring cost?",
