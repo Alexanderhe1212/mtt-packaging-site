@@ -109,6 +109,10 @@ reviews += json.loads(Path('docs/research/content-quality-review-2026-11-06.json
 sleeve=json.loads(Path('lib/sleeve-fit-guide-november-06.json').read_text())
 updates[sleeve['slug']]=sleeve
 
+voidFill=json.loads(Path('lib/void-fill-guide-november-07.json').read_text())
+updates[voidFill['slug']]=voidFill
+reviews += json.loads(Path('docs/research/content-quality-review-2026-11-07.json').read_text())
+
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__();self.text=[];self.links=[];self.h1=0;self.hidden=0;self.meta={};self.feed(text)

@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "void-fill-vs-fitted-inserts",
+    "keywordId": "KW-0682",
+    "primaryQuery": "void fill vs custom inserts",
+    "searchEvidence": "Existing independently recorded planning keyword. Current GSC and Trends demand unavailable; no volume or trend claim. Comparison not currently published in source.",
+    "customerDecision": "Choose loose fill, fitted restraint or a combined pack based on movement and packout requirements.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Reviewed existing MTT-E0102 image; identifies three compartments without assigning unverified transit performance.",
+      "Read current UPS and FedEx original pages on 2026-11-07; numeric guidance scoped to respective carrier use cases. UPS page contains unrelated inconsistent unit text, excluded from article.",
+      "Illustrative 600 x 15 / 3600 = 2.5 labour hours clearly labelled; no actual cost, rate or savings invented.",
+      "Distinct from existing insert material and outer carton guides; contextual links preserve those pages."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ups.com/us/en/support/shipping-support/packaging-tips",
+      "https://www.fedex.com/en-us/shipping/packing/how-to-pack/breakables.html"
+    ]
+  }
+]
