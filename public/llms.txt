@@ -22,6 +22,7 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Round Rigid Tube Box Packaging: Diameter, Lids and Fit](https://mttpackaging.com/insights/round-rigid-tube-box-fit)
 - [Void Fill vs Custom Inserts: Which Does Your Pack Need?](https://mttpackaging.com/insights/void-fill-vs-fitted-inserts)
 - [Paperboard Sleeve and Tray Fit: Fix Binding Before Production](https://mttpackaging.com/insights/paperboard-sleeve-tray-fit)
 - [Watch Box Cushion Sizing: Fit the Bracelet and the Case](https://mttpackaging.com/insights/watch-box-cushion-sizing)

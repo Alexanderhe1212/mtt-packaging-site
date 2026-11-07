@@ -27,5 +27,35 @@
       "https://www.ups.com/us/en/support/shipping-support/packaging-tips",
       "https://www.fedex.com/en-us/shipping/packing/how-to-pack/breakables.html"
     ]
+  },
+  {
+    "slug": "round-rigid-tube-box-fit",
+    "keywordId": "KW-0683",
+    "primaryQuery": "round rigid tube box packaging",
+    "searchEvidence": "Existing independent planning entry; current GSC/Trends unavailable, no volume or trending claim.",
+    "customerDecision": "Specify a round gift box from finished diameters, usable height, lid engagement and loaded pack.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Inspected MTT-R0309 image and product data: round lid, cream insert, sealed jar. No dimensions, seal performance or completed order inferred.",
+      "Sonoco source used only to distinguish composite container construction from decorative gift boxes; no supplier size/performance transferred to MTT.",
+      "Holmen source supports moisture-related sheet-shape changes, not an assembled-box tolerance.",
+      "Geometry checked: (104-100)/2=2 mm; (102-100)/2=1 mm; 3x110 by 2x110=330x220 mm before clearance. Examples clearly hypothetical.",
+      "Distinct from rectangular lid-fit and insert comparison; existing planned URL reused."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.sonoco.com/na/products/rigid-paper-packaging/rigid-paper-containers/paper-containers-metal-bottoms",
+      "https://www.holmen.com/en/board-and-paper/applications/consumer-goods-packaging/"
+    ]
   }
 ]

@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['round-rigid-tube-box-fit','two-piece-rigid-box-lid-fit','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['single-jar-wellness-gift-round','premium-supplement-tin-round','round-biscuit-tin-gift-round']},
   {articles:['void-fill-vs-fitted-inserts','eva-vs-paperboard-inserts','custom-inserts-product-protection','custom-packaging-sampling-process'],products:['three-compartment-skincare-mailer','custom-corrugated-packaging-set','custom-skincare-duo-auto-bottom']},
   {articles:['paperboard-sleeve-tray-fit','paper-gsm-vs-board-thickness','folding-carton-closure-selection','custom-packaging-sampling-process'],products:['custom-coffee-pouches-sleeve-carton','custom-tea-tin-sleeve-carton','custom-jewelry-pouch-sleeve-carton']},
   {articles:['watch-box-cushion-sizing','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process','rigid-gift-box-shipping-outer-carton'],products:['watch-and-strap-collection-book','single-watch-round-case-round','watch-boutique-presentation-double-door']},
