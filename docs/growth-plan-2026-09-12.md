@@ -10,7 +10,7 @@ Search Console is signed in under Chrome Hugo per the user; read access was veri
 
 ## Delivery sequence
 Month 1: correct availability, navigation, unclear guidance, form handoff, measurement; get real supplier-approved examples and specifications.
-Months 2–3: improve perfume packaging, rigid boxes and inserts pages from actual query data and buyer questions. Publish at most two genuinely useful pages per week, with structure/material options, limitations, sampling and a relevant builder CTA. Avoid overlapping articles; update existing pages when they already answer the topic.
+Months 2–3: improve perfume packaging, rigid boxes and inserts pages from actual query data and buyer questions. Publish when a distinct buyer question, verified evidence and the content quality gate support a genuinely useful page, with structure/material options, limitations, sampling and a relevant CTA. There is no numeric publication cap; avoid overlapping articles and update existing pages when they already answer the topic.
 Months 4–6: expand only proven topics, improve pages with impressions but weak relevance/click-through, add permission-cleared real examples, review enquiry quality and conversion friction.
 
 ## Attract relevant buyers

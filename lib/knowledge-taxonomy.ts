@@ -19,6 +19,7 @@ export const knowledgeTopics = [
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
       "round-rigid-tube-box-fit",
+      "book-style-magnetic-box-design",
       "void-fill-vs-fitted-inserts",
       "paperboard-sleeve-tray-fit",
       "two-piece-rigid-box-lid-fit",

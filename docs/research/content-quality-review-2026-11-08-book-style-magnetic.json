@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "book-style-magnetic-box-design",
+    "keywordId": "KW-0665",
+    "primaryQuery": "book style magnetic box design",
+    "searchEvidence": "Authenticated Search Console exact-query check for 2026-08-26 through 2026-11-05 showed 0 clicks and 0 impressions; Google Trends US five-year view had insufficient query data. This is an uncovered mapped buyer question, not a proven high-volume term.",
+    "customerDecision": "Specify the opening direction, hinged spine, closure registration and insert checks for a book-style magnetic rigid box.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 19,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 94,
+    "reviewEvidence": [
+      "Reviewed public MTT-R0203 product data and image: hinged magnetic book structure, nine equal positions for wrapped chocolates, pearlescent wrap, matte print and restrained spot gloss. Product-specific caliper, dimensions, magnet force and transit-test data are not published and are not inferred.",
+      "Used a separately anonymised quotation-stage record only to show a 24-piece 6 x 4 example and its quoted material stack; states explicitly that dieline, closure and product fit were not approved and it is not a completed production case.",
+      "UNIDO source supports hinged-cover terminology; ISTA sources support keeping distribution testing scoped to the complete packaged-product and its distribution environment.",
+      "Unique page angle is closure/hinge registration and a loaded sample review. It is distinct from the two-piece removable lid fit guide, chocolate secondary-packaging guide and insert-material guides.",
+      "Primary product links, three contextual guide links, one specific quotation CTA, visible author, structured article schema and self-canonical are supplied by the existing article template."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://downloads.unido.org/ot/48/12/4812827/15001-20000_15855.pdf",
+      "https://support.ista.org/portal/en/kb/articles/can-i",
+      "https://ista.org/getting_started_with_design.php",
+      "https://mttpackaging.com/products/chocolate-selection-book",
+      "https://mttpackaging.com/insights/paper-gsm-vs-board-thickness"
+    ]
+  }
+]
