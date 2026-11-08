@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['book-style-magnetic-box-design','two-piece-rigid-box-lid-fit','chocolate-gift-box-secondary-packaging','paper-gsm-vs-board-thickness','custom-packaging-sampling-process'],products:['chocolate-selection-book','skincare-ritual-book','facial-oil-and-stone-book']},
   {articles:['round-rigid-tube-box-fit','two-piece-rigid-box-lid-fit','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['single-jar-wellness-gift-round','premium-supplement-tin-round','round-biscuit-tin-gift-round']},
   {articles:['void-fill-vs-fitted-inserts','eva-vs-paperboard-inserts','custom-inserts-product-protection','custom-packaging-sampling-process'],products:['three-compartment-skincare-mailer','custom-corrugated-packaging-set','custom-skincare-duo-auto-bottom']},
   {articles:['paperboard-sleeve-tray-fit','paper-gsm-vs-board-thickness','folding-carton-closure-selection','custom-packaging-sampling-process'],products:['custom-coffee-pouches-sleeve-carton','custom-tea-tin-sleeve-carton','custom-jewelry-pouch-sleeve-carton']},
@@ -53,6 +54,7 @@ const topics = [
   {articles:['double-door-wine-gift-box-design-review','christmas-drawer-gift-box-packout-review','collectors-packaging-story-material-analysis','tea-gift-box-drawer-analysis','jewelry-packaging-repeat-use-analysis'], products:['twin-wine-double-door-gift-box','four-drawer-christmas-gift-cabinet','coffee-tasting-flight-drawer']},
 ];
 const specificProducts: Record<string,string[]> = {
+  "book-style-magnetic-box-design":["chocolate-selection-book","skincare-ritual-book","facial-oil-and-stone-book"],
   // No equivalent electronics or triangular product is currently catalogued; keep the guide enquiry path.
   "electronics-paperboard-insert-analysis":[],
   "fold-flat-triangular-gift-box-shipping-volume":[],

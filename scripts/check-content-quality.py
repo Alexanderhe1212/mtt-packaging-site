@@ -115,6 +115,9 @@ reviews += json.loads(Path('docs/research/content-quality-review-2026-11-07.json
 
 roundTube=json.loads(Path('lib/round-tube-guide-november-07.json').read_text())
 updates[roundTube['slug']]=roundTube
+magneticBook=json.loads(Path('lib/book-style-magnetic-box-guide-november-08.json').read_text())
+updates[magneticBook['slug']]=magneticBook
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-08-book-style-magnetic.json').read_text())
 
 class Page(HTMLParser):
  def __init__(self,text):
