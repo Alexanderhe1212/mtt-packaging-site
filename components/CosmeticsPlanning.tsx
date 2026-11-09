@@ -17,6 +17,8 @@ export default function CosmeticsPlanning() {
       </tbody></table>
     </div>
     <p><small>Reference guidance: <a href="https://www.cepi.org/paper-based-packaging-recyclability-guidelines/">Cepi on complete paper packaging recyclability</a>; <a href="https://www.ista.org/getting_started_with_design.php">ISTA on selecting tests for the distribution environment</a>. Final suitability requires review of the actual packed product.</small></p>
+    <h3>Plan a cosmetic gift box with your logo.</h3>
+    <p>Share a vector logo and identify the face that should carry it. Compare printed artwork with foil or blind debossing on the intended wrap: fine lines, small lettering and textured paper may reproduce differently, so review the mark on a physical sample at the actual size. If the set also has cartons or a bag, compare the logo position and colour across the finished components under consistent lighting. Ask for any tooling or finish charges to be itemized. The <a href="/insights/blind-debossed-logo-packaging-boxes">blind debossing guide</a> explains the checks for a recessed mark.</p>
     <h3>Prepare a measurable skincare packaging brief.</h3>
     <ul><li>List each container&apos;s maximum dimensions, filled weight and closure position.</li><li>Specify the assortments and quantity per design, including planned refill or seasonal versions.</li><li>Identify surfaces that must not rub, plus leaflets, applicators and other accessories.</li><li>State the delivery route and agree on sample checks before production approval.</li></ul>
     <h3>What quantity and timing should a quote cover?</h3>
