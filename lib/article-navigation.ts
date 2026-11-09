@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['rigid-box-with-window-design','window-carton-presentation-analysis','two-piece-rigid-box-lid-fit','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','window-bakery-folding-carton','custom-tea-sachets-window-tuck']},
   {articles:['book-style-magnetic-box-design','two-piece-rigid-box-lid-fit','chocolate-gift-box-secondary-packaging','paper-gsm-vs-board-thickness','custom-packaging-sampling-process'],products:['chocolate-selection-book','skincare-ritual-book','facial-oil-and-stone-book']},
   {articles:['round-rigid-tube-box-fit','two-piece-rigid-box-lid-fit','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['single-jar-wellness-gift-round','premium-supplement-tin-round','round-biscuit-tin-gift-round']},
   {articles:['void-fill-vs-fitted-inserts','eva-vs-paperboard-inserts','custom-inserts-product-protection','custom-packaging-sampling-process'],products:['three-compartment-skincare-mailer','custom-corrugated-packaging-set','custom-skincare-duo-auto-bottom']},

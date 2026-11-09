@@ -18,6 +18,7 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "rigid-box-with-window-design",
       "round-rigid-tube-box-fit",
       "book-style-magnetic-box-design",
       "void-fill-vs-fitted-inserts",
