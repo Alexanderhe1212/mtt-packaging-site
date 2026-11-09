@@ -1,0 +1,12 @@
+# Page-query follow-up — 9 November 2026
+
+Search Console domain property, Web, all countries and devices; 26 August–7 November 2026. The UI suppresses some queries, so visible query rows do not necessarily add up to page totals. Counts are diagnostic observations, not proof of causation.
+
+- **Dimensions guide:** 215 impressions, 0 clicks, average position 12.0. Visible queries include “internal dimension” (4 impressions, position 10.5) and “external dimensions” (2, position 9.0). Its existing title, worked example and diagram directly answer the measurement problem; do not repeatedly change the title on these small samples.
+- **Paper bag guide:** 134 impressions, 0 clicks, position 20.9. Visible queries include “paper bag size” (3 impressions, position 65) and “how to measure paper bag size” (1, position 7). The existing page covers measurements, a chart and unit conversion. Leave its title pending stronger evidence.
+- **Cosmetic packaging page:** 470 impressions, 1 click, position 43.3. “cosmetic gift box with logo” accounted for 24 impressions, 0 clicks, position 25.6. A buyer-facing logo placement and sample-approval section was added in PR #8. “biotech skincare gift kit packaging” had 129 impressions at position 25.4; do not claim biotech manufacturing expertise without evidence.
+- **GMI article:** 130 impressions, 1 click, position 14.5. “gmi printing” had 35 impressions, 0 clicks, position 7.7. The existing article already explains programme/site verification and colour-approval conditions; a public Google result displayed “GMI Printing & Packaging Colour Control | MTT.” Do not imply MTT or a supplier currently holds certification without verified evidence.
+- **Fragrance page:** 117 impressions, 0 clicks, position 36.1. “scented inserts for cosmetic marketing” had 54 impressions at position 15.1; this does not establish MTT supplies scented inserts. “fragrance overwrap packaging” had 15 impressions at position 62; “perfume carton overwrapper” can refer to machinery. Do not add unsupported capabilities to match those terms.
+- **Packaging hub:** `/packaging` and `/packaging/` each returned HTTP 200 and declared the non-slash canonical on 9 November. This alone does not establish the Google-selected canonical or justify changing routing.
+
+Changes should be evaluated in complete, comparable periods after deployment. Google may rewrite search titles, and neither a metadata change nor a search query establishes future ranking, clicks or enquiries.
