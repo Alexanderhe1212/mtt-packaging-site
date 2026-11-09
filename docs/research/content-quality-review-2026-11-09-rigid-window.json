@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "rigid-box-with-window-design",
+    "keywordId": "KW-0667",
+    "primaryQuery": "rigid box with window design",
+    "searchEvidence": "Existing independent keyword mapping; current search volume and Trends data not verified.",
+    "customerDecision": "Select a window treatment and specify opening, wrapped edges, panel attachment, insert fit and sample checks for a rigid lid.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Distinct from existing folding-carton window guide: this guide addresses wrapped rigid lid, frame, wrap turn-ins and transparent panel attachment.",
+      "Original visual is labeled packaging concept and not represented as a completed order or verified test.",
+      "CEPI guidance applies generally to Europe and does not establish recyclability for a specific box.",
+      "No verified dimensions, customer order, tests or market demand claimed.",
+      "Relevant existing product and guide links and a project-specific quotation prompt are included."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.cepi.org/paper-based-packaging-recyclability-guidelines/",
+      "https://mttpackaging.com/products/signature-perfume-lift-off",
+      "https://mttpackaging.com/insights/window-carton-presentation-analysis"
+    ]
+  }
+]

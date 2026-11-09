@@ -22,6 +22,8 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Rigid Box With Window Design: A Buyer’s Guide](https://mttpackaging.com/insights/rigid-box-with-window-design)
+- [Book-Style Magnetic Box Design: Hinge, Closure and Fit](https://mttpackaging.com/insights/book-style-magnetic-box-design)
 - [Round Rigid Tube Box Packaging: Diameter, Lids and Fit](https://mttpackaging.com/insights/round-rigid-tube-box-fit)
 - [Void Fill vs Custom Inserts: Which Does Your Pack Need?](https://mttpackaging.com/insights/void-fill-vs-fitted-inserts)
 - [Paperboard Sleeve and Tray Fit: Fix Binding Before Production](https://mttpackaging.com/insights/paperboard-sleeve-tray-fit)
