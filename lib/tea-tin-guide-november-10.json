@@ -1,0 +1,41 @@
+{
+  "slug": "custom-tea-tins-buying-guide",
+  "number": "81",
+  "angle": "Tea Packaging",
+  "image": "/products/mtt-r0201-3.webp",
+  "imageAlt": "Design reference showing two tea tins in a plum presentation box",
+  "title": "Custom Tea Tins: A Practical Buying Guide",
+  "seoTitle": "Custom Tea Tins: Size, Lids and Samples | MTT",
+  "summary": "Plan custom tea tins for loose tea or sealed packs: compare capacity, lid fit, food-contact information, decoration and sample checks.",
+  "intro": "A custom tea tin needs to fit the intended tea, filling method and presentation—not just match a target weight on a label. First decide whether loose tea touches the tin or remains in a separately sealed inner pack. Then confirm usable volume, closure and material information with representative samples before approving artwork and a quotation.",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "faq": [],
+  "cta": "Send the tea format, intended fill weight, inner-pack dimensions if used, preferred shape, decoration, quantity per design and destination. MTT can review the metal tin and any separate paper gift packaging for projects of 1,000 pieces per design or more.",
+  "sections": [
+    [
+      "Start with how the tea is packed",
+      "<p>A tin holding individually sealed tea sachets presents a different brief from a tin in direct contact with loose tea. Describe the product, target markets, filling site and the expected storage and handling conditions. If tea is filled into a separate pouch, specify its dimensions after filling and sealing, as well as the space needed to place and remove it.</p><p>The image shows a two-tin gift-set design reference. Its paper presentation box and the tins are separate components; confirm the construction, interior surfaces and intended use of any proposed metal container through supplier documentation and physical sampling. See the existing <a href=\"/products/tea-tin-pairing-lift-off\">tea tin gift box design</a> when planning the outer presentation.</p>"
+    ],
+    [
+      "Convert a target weight into a capacity test",
+      "<p>Tea is often sold by weight, but two teas of the same net weight can occupy different volumes. Leaf size, shape and settling during filling change the space required. Send a representative product sample to the filling partner and measure the filled volume using the proposed filling method; allow for any bag, seal, headspace and lid components. Verify the result on an actual sample rather than adopting a universal gram-to-millilitre conversion.</p><div class=\"article-table-scroll\" role=\"region\" aria-label=\"Tea tin capacity and closure checklist\" tabindex=\"0\"><table><caption>What to agree before approving a tea tin</caption><thead><tr><th scope=\"col\">Decision</th><th scope=\"col\">Provide</th><th scope=\"col\">Review with sample</th></tr></thead><tbody><tr><td>Fill</td><td>Loose leaves or sealed sachets; net weight and filling method</td><td>Actual fill, packing speed and available headspace</td></tr><tr><td>Tin dimensions</td><td>Maximum external size and required usable space</td><td>Internal access, filled contents and lid fitted</td></tr><tr><td>Closure</td><td>Opening method and required product protection</td><td>Fit, repeat opening and specified closure checks</td></tr><tr><td>Interior</td><td>Product contact conditions and intended market</td><td>Applicable material evidence and proposed surface</td></tr><tr><td>Gift pack</td><td>Number of tins and presentation sequence</td><td>Spacing, removal and completed outer-box fit</td></tr></tbody></table></div><p>For a paper sleeve around an already closed tin, see the <a href=\"/products/custom-tea-tin-sleeve-carton\">tea tin sleeve and tray</a>. That outer paper component does not establish the tin’s own capacity or closure.</p>"
+    ],
+    [
+      "Review the lid as a working component",
+      "<p>Clarify whether the buyer wants a slip lid or another closure, whether the consumer should reopen it repeatedly, and whether an inner seal or pouch is part of the specification. Compare representative lids and bodies from the proposed production route. Check how the lid seats, whether the decoration is marked during normal opening and whether the filled package meets the agreed handling and storage requirements.</p><p>Do not describe a tin as airtight or moisture-proof based on appearance. If barrier performance is required, define the complete filled pack, test method and acceptance criteria with the supplier or an appropriate laboratory. A decorative outer tin and a sealed inner pouch may perform different jobs; specify both rather than attributing the pouch’s properties to the tin.</p>"
+    ],
+    [
+      "Document the interior and food-contact conditions",
+      "<p>The European Commission explains that food-contact materials can include direct and reasonably foreseeable indirect contact; the applicable assessment depends on the materials and use.<sup><a href=\"#source-1\">[1]</a></sup> The US FDA advises checking relevant food-contact substances and their conditions of use.<sup><a href=\"#source-2\">[2]</a></sup> Neither source establishes compliance for an unspecified tin.</p><p>Identify the metal, interior coating or liner where proposed, and the food-contact conditions. Tell the supplier whether loose tea touches the interior, the tea type, target market, contact duration and expected storage temperature. Request relevant documentation for the actual material and use. A generic “food grade” statement, a tin photograph or an outer paper box is not by itself proof of the complete packaging’s suitability. Review the applicable evidence with the responsible operator before approval.</p>"
+    ],
+    [
+      "Compare like-for-like quotations",
+      "<p>Ask suppliers to separate the tin body, lid, interior treatment, artwork and decoration, inner pouch if included, any outer box or insert, samples, tooling and delivery. State the quantity per design and the number of artwork variants. Confirm whether quoted dimensions are internal or external and whether the capacity includes the lid area.</p><p>Before placing a repeat order, retain the approved drawing revision, physical reference, material and interior details, lid sample and packing arrangement. Approve any proposed material or tool change before production. For the broader metal-container brief use <a href=\"/packaging/custom-metal-tins\">custom metal tin options</a>; this guide focuses on the tea-specific filling and buyer decisions. Coordinate the sample review using the <a href=\"/insights/custom-packaging-sampling-process\">packaging sampling guide</a>.</p>"
+    ],
+    [
+      "Sources",
+      "<ol><li id=\"source-1\"><a href=\"https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials/general-information-and-contacts_en\" target=\"_blank\" rel=\"noopener noreferrer\">European Commission: food contact materials — general information</a>, reviewed 10 November 2026. EU scope and requirements depend on the actual materials and conditions.</li><li id=\"source-2\"><a href=\"https://www.fda.gov/food/packaging-food-contact-substances-fcs/determining-regulatory-status-components-food-contact-material\" target=\"_blank\" rel=\"noopener noreferrer\">US FDA: determining the regulatory status of components of a food contact material</a>, reviewed 10 November 2026. This source addresses US requirements and is not a project-specific approval.</li></ol>"
+    ]
+  ]
+}

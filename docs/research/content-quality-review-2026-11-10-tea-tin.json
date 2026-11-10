@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "custom-tea-tins-buying-guide",
+    "keywordId": "KW-0702",
+    "primaryQuery": "custom tea tins",
+    "searchEvidence": "Existing keyword mapping; independent search volume not verified.",
+    "customerDecision": "Specify tea filling, usable capacity, lid, interior documentation and optional outer packaging before ordering.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Distinct from general metal-tin service and paper outer-box product: tea fill weight, capacity and contact conditions.",
+      "Two-tin image described as design reference, with no unverified order or test claim.",
+      "EU and US sources distinguish market and intended conditions; no blanket food-contact compliance claim.",
+      "Specific supplier questions, working lid checks and comparable quote checklist included."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials/general-information-and-contacts_en",
+      "https://www.fda.gov/food/packaging-food-contact-substances-fcs/determining-regulatory-status-components-food-contact-material",
+      "https://mttpackaging.com/packaging/custom-metal-tins"
+    ]
+  }
+]
