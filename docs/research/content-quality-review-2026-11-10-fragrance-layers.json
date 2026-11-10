@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "two-tier-fragrance-layering-set-packaging",
+    "keywordId": "KW-0060",
+    "primaryQuery": "fragrance layering set two-tier lift-off box",
+    "searchEvidence": "Existing keyword mapping; current independent demand and search volume not verified.",
+    "customerDecision": "Choose a two-tier bottle and vial pack, specify layer access and fit, and compare sampling and transport requirements.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Distinct from discovery set article: stacked full-size bottle and vials, removable layer interface, lid clearance and quote comparison.",
+      "Illustrative 80 mm excludes tray bases, lid engagement and clearances; it is not a finished size.",
+      "Existing product image is identified as a design reference; no customer, test or performance claim.",
+      "ISTA guidance applies to packaged-product testing, not certification of material.",
+      "Project-specific quote prompt and existing product/guide links supplied."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://support.ista.org/portal/en/kb/articles/can-i",
+      "https://www.ista.org/getting_started_with_design.php",
+      "https://mttpackaging.com/products/fragrance-layering-set-tiered"
+    ]
+  }
+]
