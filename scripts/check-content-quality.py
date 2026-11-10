@@ -119,6 +119,10 @@ rigidWindow=json.loads(Path('lib/rigid-window-guide-november-09.json').read_text
 updates[rigidWindow['slug']]=rigidWindow
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-09-rigid-window.json').read_text())
 
+teaTin=json.loads(Path('lib/tea-tin-guide-november-10.json').read_text())
+updates[teaTin['slug']]=teaTin
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-10-tea-tin.json').read_text())
+
 layers=json.loads(Path('lib/fragrance-layering-guide-november-10.json').read_text())
 updates[layers['slug']]=layers
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-10-fragrance-layers.json').read_text())
