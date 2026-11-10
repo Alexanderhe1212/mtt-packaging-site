@@ -50,6 +50,7 @@ export const knowledgeTopics = [
     "slugs": [
       "chocolate-gift-box-secondary-packaging",
       "candle-box-glass-jar-protection",
+      "two-tier-fragrance-layering-set-packaging",
       "perfume-discovery-set-packaging",
       "perfume-box-and-bag-packaging",
       "shared-box-multiple-cosmetic-skus",

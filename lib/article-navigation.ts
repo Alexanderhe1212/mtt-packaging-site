@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['two-tier-fragrance-layering-set-packaging','perfume-discovery-set-packaging','perfume-box-inserts','custom-packaging-sampling-process'],products:['fragrance-layering-set-tiered','signature-perfume-lift-off','travel-fragrance-trio-drawer']},
   {articles:['rigid-box-with-window-design','window-carton-presentation-analysis','two-piece-rigid-box-lid-fit','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','window-bakery-folding-carton','custom-tea-sachets-window-tuck']},
   {articles:['book-style-magnetic-box-design','two-piece-rigid-box-lid-fit','chocolate-gift-box-secondary-packaging','paper-gsm-vs-board-thickness','custom-packaging-sampling-process'],products:['chocolate-selection-book','skincare-ritual-book','facial-oil-and-stone-book']},
   {articles:['round-rigid-tube-box-fit','two-piece-rigid-box-lid-fit','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['single-jar-wellness-gift-round','premium-supplement-tin-round','round-biscuit-tin-gift-round']},
@@ -76,6 +77,7 @@ const specificProducts: Record<string,string[]> = {
   'kraft-paper-recycled-content-strength':['custom-skincare-duo-auto-bottom','custom-reed-diffuser-tuck','custom-tea-sachets-corr-sleeve'],
   'verify-custom-packaging-supplier-china':['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer'],
   'rigid-box-vs-folding-carton':['signature-perfume-lift-off','custom-skincare-duo-auto-bottom','custom-corrugated-packaging-set'],
+  'two-tier-fragrance-layering-set-packaging':['fragrance-layering-set-tiered','signature-perfume-lift-off','travel-fragrance-trio-drawer'],
   'perfume-discovery-set-packaging':['perfume-discovery-library-double-door','travel-fragrance-trio-drawer','signature-perfume-lift-off'],
   'jewelry-packaging-repeat-use-analysis':['engagement-ring-keepsake-lift-off','pendant-presentation-drawer','watch-and-strap-collection-book'],
   'tea-gift-box-drawer-analysis':['tea-and-honey-pairing-stacked-drawers','tea-tin-pairing-lift-off','tea-ceremony-collection-double-door'],
