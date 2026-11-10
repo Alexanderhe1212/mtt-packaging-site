@@ -170,7 +170,7 @@ export default function CustomRigidBoxesPage() {
       <aside className="page-cta">
         <p>Have a packaging project?</p>
         <h2>Send your product details for a rigid box recommendation.</h2>
-        <a className="button" href="/request-a-quote">Request a Quote →</a>
+        <a className="button" href="/request-a-quote?product_family=rigid">Request a Quote →</a>
       </aside>
 
       <PackagingDetailNotes kind="rigid"/><RelatedPackagingStudies ids={["fragrance", "tea", "collector"]}/><SiteFooter />
