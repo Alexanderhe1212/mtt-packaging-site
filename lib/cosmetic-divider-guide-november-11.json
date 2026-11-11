@@ -1,0 +1,41 @@
+{
+  "slug": "cosmetic-gift-box-paperboard-dividers",
+  "number": "83",
+  "angle": "Cosmetic Packaging",
+  "image": "/products/mtt-r1203.webp",
+  "imageAlt": "Skincare set packaging design with separate jar and serum positions",
+  "title": "Cosmetic Gift Box Dividers: A Buyer’s Guide",
+  "seoTitle": "Cosmetic Gift Box Dividers and Inserts | MTT",
+  "summary": "Plan paperboard dividers for a cosmetic gift box: product measurements, cell sizes, removal access, sampling and a quote checklist.",
+  "intro": "A cosmetic gift box divider separates the items in a set, but it does not automatically hold a bottle or protect a jar in transit. Start with the actual packed products, choose the support each item needs, then review the divider and outer box together on a physical sample.",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
+  "faq": [],
+  "cta": "Send the dimensions and filled weights of each item, the intended set layout, quantity per design and destination. MTT can review divider and insert options for orders of 1,000 pieces per design or more.",
+  "sections": [
+    [
+      "Start with the actual set",
+      "<p>List every jar, bottle, cap, carton and card included in one set. Measure the widest point and finished height with closures fitted; record filled weights and surfaces that must not rub. Arrange items in the intended opening orientation before setting the box size. A jar and a tall pump can need different support heights.</p><p>The <a href=\"/products/skincare-ritual-collapsible-magnetic-rigid-box\">skincare ritual gift-box design</a> shows separate positions for a jar and serum. It is a visual reference for organising a set; the pictured insert is not evidence of a divider specification or transit test.</p><figure><img src=\"/products/mtt-r1203.webp\" width=\"500\" height=\"500\" loading=\"lazy\" alt=\"Skincare gift-box design with separate jar and serum positions\"/><figcaption>Design reference: check the position and removal of each item on a physical sample.</figcaption></figure>"
+    ],
+    [
+      "Choose the job before choosing the board",
+      "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Divider and insert comparison\" tabindex=\"0\"><table><caption>Compare the support required for each item</caption><thead><tr><th scope=\"col\">Option</th><th scope=\"col\">Useful question</th><th scope=\"col\">Check on sample</th></tr></thead><tbody><tr><td>Interlocking partitions</td><td>Do items need separate cells?</td><td>Joint stability, cell clearance and pack-out sequence</td></tr><tr><td>Folded paperboard platform</td><td>Does the item need a defined visible position?</td><td>Support underneath, finger access and board deflection</td></tr><tr><td>Shaped insert</td><td>Does the item need support around a particular shape?</td><td>Contact points, surface marking and insertion force</td></tr></tbody></table></div><p>The right combination depends on item geometry, weight, finish and distribution. Compare <a href=\"/packaging/custom-inserts\">custom insert options</a> and ask for a sample suited to your set.</p>"
+    ],
+    [
+      "Calculate clear cells, then confirm the actual fit",
+      "<p>As an illustrative calculation, three cells with clear widths of 55 mm, 45 mm and 35 mm separated by two 1 mm dividers require 137 mm inside width: 55 + 45 + 35 + 1 + 1. This excludes perimeter walls and clearance for assembly, product variation and wrapping. It is not a production tolerance or an MTT quotation.</p><p>Define which measurements are clear internal dimensions and which include board thickness. Allow space for caps and finger access; ask the supplier to review slots, board caliper and the final cutting layout. Confirm dimensions and retention with actual filled products rather than relying on nominal bottle volume.</p>"
+    ],
+    [
+      "Sample the packing sequence and the complete shipper",
+      "<p>Load the heaviest item, close and reopen the box, and check whether partitions remain seated and each item can be removed without pulling a pump or decorative cap. Inspect sensitive surfaces for rub. Agree the sample type, sample charges and approval record before production.</p><p>For parcel shipments, review an outer shipping box and cushioning separately. FedEx recommends individual cushioning for fragile items and a protective outer box for gift boxes; the applicable packing method depends on the carrier and shipment.<sup><a href=\"#source-1\">[1]</a></sup> ISTA explains that its procedures apply to a specific packaged-product system, not certification of an individual material.<sup><a href=\"#source-2\">[2]</a></sup> Agree any route-specific testing separately; appearance alone does not demonstrate protection.</p>"
+    ],
+    [
+      "Prepare a useful supplier brief",
+      "<p>Send item dimensions and filled weights, the number of units in each set, intended layout, outer box size if known, expected order quantity per design and delivery country. Identify label or finish sensitivities and provide representative products or drawings. Ask whether the quote includes the divider, assembly, samples, tooling, export packing and freight, and compare the same scope between suppliers. See the <a href=\"/insights/custom-packaging-sampling-process\">sampling process guide</a> for approval steps.</p>"
+    ],
+    [
+      "Sources",
+      "<ol><li id=\"source-1\"><a href=\"https://www.fedex.com/content/fedex-com/global/en_ca/resources-tools/pack.html\">FedEx Canada: Learn to Pack and Order Supplies</a>, accessed 11 November 2026. Carrier guidance depends on service and market.</li><li id=\"source-2\"><a href=\"https://support.ista.org/portal/en/kb/articles/can-i\">ISTA: Can I certify an individual packaging material?</a>, accessed 11 November 2026. Testing concerns a specific packaged-product system.</li></ol>"
+    ]
+  ]
+}

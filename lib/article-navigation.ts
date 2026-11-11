@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['cosmetic-gift-box-paperboard-dividers','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process','perfume-box-insert-design'],products:['skincare-ritual-collapsible-magnetic-rigid-box','custom-skincare-duo-auto-bottom','perfume-and-refill-lift-off']},
   {articles:['perfume-refill-set-box-packaging-guide','perfume-box-inserts','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['perfume-and-refill-lift-off','signature-perfume-lift-off','travel-fragrance-trio-drawer']},
   {articles:['custom-tea-tins-buying-guide','custom-packaging-sampling-process','stock-vs-custom-packaging-total-cost','tea-gift-box-drawer-analysis'],products:['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer']},
   {articles:['two-tier-fragrance-layering-set-packaging','perfume-discovery-set-packaging','perfume-box-inserts','custom-packaging-sampling-process'],products:['fragrance-layering-set-tiered','signature-perfume-lift-off','travel-fragrance-trio-drawer']},

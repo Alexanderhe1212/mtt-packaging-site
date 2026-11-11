@@ -119,6 +119,10 @@ rigidWindow=json.loads(Path('lib/rigid-window-guide-november-09.json').read_text
 updates[rigidWindow['slug']]=rigidWindow
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-09-rigid-window.json').read_text())
 
+divider=json.loads(Path('lib/cosmetic-divider-guide-november-11.json').read_text())
+updates[divider['slug']]=divider
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-11-cosmetic-divider.json').read_text())
+
 refill=json.loads(Path('lib/perfume-refill-guide-november-11.json').read_text())
 updates[refill['slug']]=refill
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-11-perfume-refill.json').read_text())
