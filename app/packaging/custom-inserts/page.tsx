@@ -66,6 +66,15 @@ export default function CustomInsertsPage() {
           ))}
         </div><p className="insert-image-note">Illustrative material examples. Final shape, density, finish and product fit are confirmed through specification review and physical sampling.</p>
       </section>
+      <section className="purchase-guide" aria-labelledby="cosmetic-set-inserts">
+        <h2 id="cosmetic-set-inserts">Choosing an insert for a cosmetic gift set</h2>
+        <p>For a set containing a jar, bottle and accessories, start with the actual filled products. Measure each item’s widest point, height and weight; include caps, pumps and labels. Decide which items must stay upright and how a customer can remove them without pulling a fragile part.</p>
+        <h3>Molded pulp, paperboard or foam?</h3>
+        <p>A molded pulp insert can be considered for shaped cavities; confirm the proposed material, surface finish, tooling and sample cost for the design. A folded paperboard platform can separate products and leave space beneath them. Foam offers another cavity option; compare its density and appearance against the product’s weight and finish. The <a href="/insights/eva-vs-paperboard-inserts">paperboard and EVA comparison</a> explains the tradeoffs.</p>
+        <h3>What should a sample check?</h3>
+        <p>Check lid clearance, cavity fit, finger access and contact with decorated surfaces using representative products. Review the complete inner and shipping pack for the intended distribution method; an attractive insert alone does not establish transit protection. See the <a href="/products/skincare-ritual-collapsible-magnetic-rigid-box">skincare set packaging example</a> for a multi-item presentation.</p>
+        <p>For a quote, share product measurements, item count, box dimensions if known, quantity per design and delivery country. The minimum order is 1,000 pieces per design; tooling, sampling and shipping are confirmed for each project. <a href="/request-a-quote">Send your insert brief →</a></p>
+      </section>
       <section className="industry-priorities">
         <div><p className="section-kicker light">Engineering</p><h2>Designed around your product.</h2></div>
         <div>
