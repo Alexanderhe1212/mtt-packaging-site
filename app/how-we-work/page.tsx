@@ -156,6 +156,9 @@ export default function ProcessPage() {
           <li>A new finish or artwork position may need a decorated sample before it can be approved.</li>
         </ul></div>
         <p>If something changes after approval, identify the affected drawing, material or artwork revision and reconfirm cost and timing before proceeding. Keep one current approval record rather than combining instructions from several email versions.</p>
+        <h3>Planning a prototype or first production order?</h3>
+        <p>A plain structural prototype helps check the opening, product fit and insert access. A decorated sample is used to review artwork placement and the proposed finish; confirm with your project contact which materials and processes it represents. Neither replaces a review of the complete packed shipment.</p>
+        <p>For a first launch, plan for a minimum of 1,000 pieces per design and share the product dimensions, quantity, destination and target date. Ask what the sample and any tooling include, their charges and approval timing before proceeding. <a className="ed-text-link" href="/insights/custom-packaging-sampling-process">Read the sampling process guide</a> or <a className="ed-text-link" href="/request-a-quote">send your project brief</a>.</p>
         <p>For the acceptance details, review our <a className="ed-text-link" href="/quality-control">packaging quality-control stages</a>. Freight and production timing remain tied to the confirmed specification; an early estimate should be revisited when the packed configuration changes.</p>
       </section>
       <aside className="page-cta">

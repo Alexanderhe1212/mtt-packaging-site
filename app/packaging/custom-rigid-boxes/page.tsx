@@ -124,6 +124,11 @@ export default function CustomRigidBoxesPage() {
         <h2>Compare a single-bottle box with a mixed skincare set</h2>
         <p>For a single fragrance bottle, the <a href="/products/signature-perfume-lift-off">perfume lift-off lid design</a> focuses on a removable cap, bottle access and the fit between lid and base. Compare these checks before choosing the exterior finish.</p>
         <p>For a jar-and-serum set, the <a href="/products/skincare-ritual-collapsible-magnetic-rigid-box">collapsible skincare gift box</a> adds different support heights and packing-site assembly. A flat shell does not establish freight savings: compare the inserts and complete carton plan too.</p>
+        <h3>Choosing a structure for a custom order</h3>
+        <p><strong>Magnetic gift boxes:</strong> check where the magnets sit, how the lid closes around the insert and whether a fold-flat shell will be assembled at your packing site. Review the <a href="/insights/book-style-magnetic-box-design">magnetic box design guide</a> before approving a sample.</p>
+        <p><strong>Drawer packaging:</strong> check tray clearance with the wrapped board, the force needed to pull the drawer and whether the pull remains accessible once packed. Our <a href="/insights/drawer-box-clearance-ribbon-pull">drawer clearance guide</a> covers these choices.</p>
+        <p><strong>Shaped rigid boxes:</strong> provide a drawing or reference with the internal dimensions and product weight. Angled corners, separate lids and inserts need a physical fit check before the shape and wrapping details are approved.</p>
+        <p>For wholesale orders and new brands alike, the minimum is 1,000 pieces per design. Send the quantity per design, product dimensions and destination for a <a href="/request-a-quote?product_family=rigid">project-specific quote</a>; sample, tooling and shipping terms are confirmed separately.</p>
       </section>
       <FamilyProductDirectory family="rigid" />
       <BuyerPlanning kind="rigid" />
