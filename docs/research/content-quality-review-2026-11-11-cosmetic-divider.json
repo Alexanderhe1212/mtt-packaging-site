@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "cosmetic-gift-box-paperboard-dividers",
+    "keywordId": "KW-0716",
+    "primaryQuery": "cosmetic packaging box partitions manufacturer",
+    "searchEvidence": "GSC export 2026-11-08: 2 site impressions, 0 clicks; market volume and query-to-page association unknown.",
+    "customerDecision": "Specify multi-item dividers, cell calculations and sample checks.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Buyer-focused cell calculation and decision table; illustrative example not a project.",
+      "MTT product image is a design reference, not a divider specification.",
+      "Source limits, complete-pack testing and 1,000-piece minimum stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fedex.com/content/fedex-com/global/en_ca/resources-tools/pack.html",
+      "https://support.ista.org/portal/en/kb/articles/can-i",
+      "https://mttpackaging.com/products/skincare-ritual-collapsible-magnetic-rigid-box"
+    ]
+  }
+]
