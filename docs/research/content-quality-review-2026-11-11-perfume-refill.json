@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "perfume-refill-set-box-packaging-guide",
+    "keywordId": "KW-0033",
+    "primaryQuery": "perfume refill set lift-off lid box",
+    "searchEvidence": "Existing independent keyword mapping; current search volume not verified.",
+    "customerDecision": "Specify bottle and refill cavities, removal, sample and carton volume.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "Two-container refill brief and independent removal paths distinct from general insert and two-tier set guides.",
+      "Two distinct product-reference images are marked as design references; no customer order, shipment or test claimed.",
+      "142 mm inside-width and 0.030 m³ carton examples are explicitly hypothetical and calculations checked.",
+      "FedEx and ISTA source scope explained; no universal carrier formula or certification claim.",
+      "Buyer checklist, comparison table and product-specific quote prompt included."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html",
+      "https://support.ista.org/portal/en/kb/articles/can-i",
+      "https://mttpackaging.com/products/perfume-and-refill-lift-off"
+    ]
+  }
+]

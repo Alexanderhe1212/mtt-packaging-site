@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['perfume-refill-set-box-packaging-guide','perfume-box-inserts','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['perfume-and-refill-lift-off','signature-perfume-lift-off','travel-fragrance-trio-drawer']},
   {articles:['custom-tea-tins-buying-guide','custom-packaging-sampling-process','stock-vs-custom-packaging-total-cost','tea-gift-box-drawer-analysis'],products:['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer']},
   {articles:['two-tier-fragrance-layering-set-packaging','perfume-discovery-set-packaging','perfume-box-inserts','custom-packaging-sampling-process'],products:['fragrance-layering-set-tiered','signature-perfume-lift-off','travel-fragrance-trio-drawer']},
   {articles:['rigid-box-with-window-design','window-carton-presentation-analysis','two-piece-rigid-box-lid-fit','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','window-bakery-folding-carton','custom-tea-sachets-window-tuck']},
@@ -57,6 +58,7 @@ const topics = [
   {articles:['double-door-wine-gift-box-design-review','christmas-drawer-gift-box-packout-review','collectors-packaging-story-material-analysis','tea-gift-box-drawer-analysis','jewelry-packaging-repeat-use-analysis'], products:['twin-wine-double-door-gift-box','four-drawer-christmas-gift-cabinet','coffee-tasting-flight-drawer']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'perfume-refill-set-box-packaging-guide':['perfume-and-refill-lift-off','signature-perfume-lift-off','travel-fragrance-trio-drawer'],
   'custom-tea-tins-buying-guide':['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer'],
   "book-style-magnetic-box-design":["chocolate-selection-book","skincare-ritual-book","facial-oil-and-stone-book"],
   // No equivalent electronics or triangular product is currently catalogued; keep the guide enquiry path.
