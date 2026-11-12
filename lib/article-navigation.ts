@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['lipstick-set-drawer-box-buying-guide','drawer-box-clearance-ribbon-pull','cosmetic-gift-box-paperboard-dividers','custom-packaging-sampling-process'],products:['lip-colour-wardrobe-drawer','custom-lipstick-trio-hex-carton','custom-lipstick-trio-rsc']},
+  {articles:['watch-strap-gift-box-insert-planning','watch-box-cushion-sizing','book-style-magnetic-box-design','custom-packaging-sampling-process'],products:['watch-and-strap-collection-book','watch-set-collapsible-magnetic-rigid-box','single-watch-round-case-round']},
   {articles:['cosmetic-gift-box-paperboard-dividers','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process','perfume-box-insert-design'],products:['skincare-ritual-collapsible-magnetic-rigid-box','custom-skincare-duo-auto-bottom','perfume-and-refill-lift-off']},
   {articles:['perfume-refill-set-box-packaging-guide','perfume-box-inserts','measure-packaging-internal-external-dimensions','custom-packaging-sampling-process'],products:['perfume-and-refill-lift-off','signature-perfume-lift-off','travel-fragrance-trio-drawer']},
   {articles:['custom-tea-tins-buying-guide','custom-packaging-sampling-process','stock-vs-custom-packaging-total-cost','tea-gift-box-drawer-analysis'],products:['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer']},

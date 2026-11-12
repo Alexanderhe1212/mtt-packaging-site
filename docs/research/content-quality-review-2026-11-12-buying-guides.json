@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "lipstick-set-drawer-box-buying-guide",
+    "keywordId": "KW-0036",
+    "primaryQuery": "lipstick set drawer box",
+    "searchEvidence": "Existing independent keyword mapping; search volume and current demand not verified.",
+    "customerDecision": "Plan a drawer box for a lipstick collection: measure each tube, choose insert access, review the drawer and sample the full pack.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Distinct product and buyer decision from related existing guides.",
+      "Original calculations are explicitly illustrative, not MTT test or project data.",
+      "Public carrier and ISTA sources; existing product image labeled as design reference."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fedex.com/en-ca/resources-tools/pack.html",
+      "https://support.ista.org/portal/en/kb/articles/can-i"
+    ]
+  },
+  {
+    "slug": "watch-strap-gift-box-insert-planning",
+    "keywordId": "KW-0189",
+    "primaryQuery": "watch strap gift set magnetic book box",
+    "searchEvidence": "Existing independent keyword mapping; search volume and current demand not verified.",
+    "customerDecision": "Specify a magnetic presentation box for a watch and spare strap: fit, contact surfaces, loading sequence, sampling and quotation details.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Distinct product and buyer decision from related existing guides.",
+      "Original calculations are explicitly illustrative, not MTT test or project data.",
+      "Public carrier and ISTA sources; existing product image labeled as design reference."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fedex.com/en-ca/resources-tools/pack.html",
+      "https://support.ista.org/portal/en/kb/articles/can-i"
+    ]
+  }
+]

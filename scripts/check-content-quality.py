@@ -119,6 +119,11 @@ rigidWindow=json.loads(Path('lib/rigid-window-guide-november-09.json').read_text
 updates[rigidWindow['slug']]=rigidWindow
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-09-rigid-window.json').read_text())
 
+for path in ['lib/lipstick-set-drawer-box-buying-guide.json','lib/watch-strap-gift-box-insert-planning.json']:
+ article=json.loads(Path(path).read_text())
+ updates[article['slug']]=article
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-12-buying-guides.json').read_text())
+
 divider=json.loads(Path('lib/cosmetic-divider-guide-november-11.json').read_text())
 updates[divider['slug']]=divider
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-11-cosmetic-divider.json').read_text())

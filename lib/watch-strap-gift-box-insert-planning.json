@@ -1,0 +1,41 @@
+{
+  "slug": "watch-strap-gift-box-insert-planning",
+  "number": "85",
+  "angle": "Watch Packaging",
+  "image": "/products/mtt-r0403-0.webp",
+  "imageAlt": "Magnetic book box design with a watch cushion and a separate strap position",
+  "title": "Watch and Strap Gift Box: Planning the Insert",
+  "seoTitle": "Watch and Strap Gift Box Insert Planning | MTT",
+  "summary": "Specify a magnetic presentation box for a watch and spare strap: fit, contact surfaces, loading sequence, sampling and quotation details.",
+  "intro": "A watch and spare strap have different support needs. Define the cushion, strap position and customer removal sequence before setting the inside dimensions of the magnetic gift box. Measure the watch with its clasp and the spare strap with its buckle, then check the loaded sample and outer shipment separately.",
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "faq": [],
+  "cta": "Send watch case and closed-strap measurements, spare strap dimensions, fragile and decorated surfaces, quantity per design and destination. MTT can review a magnetic presentation box and insert for orders from 1,000 pieces per design.",
+  "sections": [
+    [
+      "Measure the watch and the spare strap separately",
+      "<p>Measure the assembled watch around the intended cushion, including case height, crown, buckle and clasp. Record the watch weight and the surfaces that must not carry pressure. Measure the spare strap in its planned orientation, including buckle and tags. A stated case diameter alone does not define the space needed by the assembled watch.</p><p>The <a href=\"/products/watch-and-strap-collection-book\">watch and strap collection design</a> shows a magnetic book box with a watch cushion and a separate long strap slot. It is a design reference; exact clearances and fit require the actual products.</p><figure><img src=\"/products/mtt-r0403-0.webp\" width=\"500\" height=\"500\" loading=\"lazy\" alt=\"Watch and strap gift-box design with cushion and separate strap slot\"/><figcaption>Design reference: review watch support, strap removal and lid clearance together.</figcaption></figure>"
+    ],
+    [
+      "Define the support and removal path",
+      "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Watch set support decisions\" tabindex=\"0\"><table><caption>What to check for each component</caption><thead><tr><th scope=\"col\">Component</th><th scope=\"col\">Design decision</th><th scope=\"col\">Sample check</th></tr></thead><tbody><tr><td>Watch on cushion</td><td>Cushion size and strap closure</td><td>Contact surfaces, crown clearance and removal</td></tr><tr><td>Spare strap</td><td>Flat channel or separate compartment</td><td>Buckle height, bend and fingertip access</td></tr><tr><td>Magnetic lid</td><td>Hinge and closed height</td><td>No pressure on watch crystal or strap buckle</td></tr></tbody></table></div><p>For cushion sizing itself, consult the <a href=\"/insights/watch-box-cushion-sizing\">watch cushion sizing guide</a>. Here the additional decision is how the spare strap shares the same presentation space and packing sequence.</p>"
+    ],
+    [
+      "Build an inside-width budget",
+      "<p>As an illustrative planning example, a 70 mm watch area, a 50 mm strap area and a 12 mm separation occupy 132 mm across the insert (70 + 50 + 12). Add the actual edge margins, construction thickness and fit allowance before determining the box. These values illustrate arithmetic only; they are not universal clearances, measured dimensions of the pictured box or a production specification.</p><p>Confirm the internal height with the watch on its cushion and the lid closed. If the strap is curved or layered, review its spring-back and whether the buckle can contact the watch or the lid.</p>"
+    ],
+    [
+      "Check the loaded sample and transport arrangement",
+      "<p>Load the watch, cushion and strap as the packing team will; close and open the lid, remove each item and inspect for pressure, movement and surface marks. Record the cushion material, insert revision and approved finish. If the watch or clasp changes, reopen the fit review.</p><p>For shipping, confirm the complete outer carton and cushioning rather than treating the gift box as the parcel shipper. FedEx provides carrier-specific guidance for fragile products.<sup><a href=\"#source-1\">[1]</a></sup> ISTA states that its test procedures concern the actual packaged-product system.<sup><a href=\"#source-2\">[2]</a></sup> Agree any testing and acceptance criteria for the intended route.</p>"
+    ],
+    [
+      "Give suppliers the same brief",
+      "<p>Include measured products, filled weight, strap material, desired removal order, logo and finish references, quantity per design and destination. Ask for box, cushion, insert, tooling, samples and shipping to be identified separately. Compare costs on the same scope and request the <a href=\"/insights/custom-packaging-sampling-process\">sample and approval sequence</a> before production.</p>"
+    ],
+    [
+      "Sources",
+      "<ol><li id=\"source-1\"><a href=\"https://www.fedex.com/en-ca/resources-tools/pack.html\">FedEx Canada: Learn to Pack and Order Supplies</a>, reviewed 12 November 2026. Carrier guidance varies by route and service.</li><li id=\"source-2\"><a href=\"https://support.ista.org/portal/en/kb/articles/can-i\">ISTA: Can I certify an individual packaging material?</a>, reviewed 12 November 2026. Testing relates to a specific packaged-product system.</li></ol>"
+    ]
+  ]
+}
