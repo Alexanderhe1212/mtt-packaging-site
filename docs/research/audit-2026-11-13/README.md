@@ -27,3 +27,11 @@ Safe dependency patch is the only implementation change selected by this audit. 
 ## Verified implementation result
 
 Compatible basic-ftp patch 6.2.3 → 6.2.6 installed with npm ci in this independent worktree. Audit affected-package count reduced from 19 moderate to 10 moderate; zero high/critical before and after. This removes a downstream advisory chain, not nine independent vulnerabilities. Isolated import, TypeScript, complete 601-route export, 598 sitemap-page/search/crawl gates, 87-article quality gates and ten studio behavior tests passed. Lighthouse runner healthcheck passed after dependency change; the six lab scores above belong to the baseline full run. Remaining lint warnings are reported without suppression. No real enquiry submitted.
+
+## Remediation round two
+
+- Scoped minimatch override 11.0.8 only under TypeScript-ESLint eliminates the glob amplification advisory chain. Installed with npm ci; lint and type checks retain compatibility. Moderate affected-package count is now 3 (Satori → @vercel/og → vinext); no high/critical.
+- JSON import now declares its type for supported Node 22+/Vite native configuration loading, removing the configuration compatibility warning.
+- Trial @vercel/og 1.0.3 could not directly render a PNG: `Dynamic require of "fs" is not supported` in its bundled HarfBuzz code. It also introduced an fflate advisory chain. Trial changes were reverted rather than released. No image-generation compatibility claim is made.
+- 71 lint hints each have a disposition in warning-dispositions.csv. These remain visible; reviewed/retained does not mean fixed or warning-free. Full native-image replacement is not a validated remedy in this static-export stack.
+- Complete closure is NOT achieved: three dependency findings need a compatible image-generation-library migration or verified upstream patch. GSC/Bing field data remain a separate evidence gap.
