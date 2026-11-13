@@ -58,6 +58,7 @@ try{
  await page.waitForFunction(()=>{const p=JSON.parse(localStorage.getItem('mtt-public-solution-projects-v1')||'[]')[0];return p?.dimensions.length===210&&p.artworks.some(a=>a.text==='QA design')&&p.artworks.some(a=>a.kind==='image')});
  await page.click('.studio-steps button:nth-child(4)');
  await page.waitForSelector('.quote-form');
+ assert.equal(await page.$eval('input[aria-label="Planned quantity"]',el=>el.value),'1000','new projects should start at 1,000 units');
  assert(await page.$eval('.quote-specs',e=>e.textContent.includes('210 × 130 × 60 mm')));
  const context=await browser.createBrowserContext(),failedPage=await context.newPage();let blockChunks=false;
  await failedPage.setRequestInterception(true);
