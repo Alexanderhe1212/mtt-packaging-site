@@ -28,6 +28,7 @@ try{
  await fallback.setRequestInterception(true);
  fallback.on('request',r=>r.url().includes('/images/studio-structures/')?r.abort():r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
  await fallback.evaluateOnNewDocument(()=>{
+  delete window.IntersectionObserver;
   window.__thumbnailContexts=0;const original=HTMLCanvasElement.prototype.getContext;
   HTMLCanvasElement.prototype.getContext=function(kind,...args){if(/^webgl/.test(kind))window.__thumbnailContexts++;return original.call(this,kind,...args)};
  });
@@ -69,6 +70,22 @@ try{
  await failedPage.click('[role="alert"] button');
  await failedPage.waitForSelector('.structure-tile');assert.equal((await failedPage.$$('.structure-tile')).length,12);
  await context.close();
+ const importContext=await browser.createBrowserContext(),importPage=await importContext.newPage();
+ await importPage.setRequestInterception(true);
+ importPage.on('request',r=>r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
+ const {identifier:importSeed}=await importPage.evaluateOnNewDocument(()=>sessionStorage.setItem('mtt_studio_handoff_v1',JSON.stringify({unit:'mm',packagingType:'rigid',internalL:'190',internalW:'130',internalH:'60',productLength:'180',productWidth:'120',productHeight:'50',clearance:'5',quantity:'1000'})));
+ await importPage.goto(base+'/tools/gift-box-solution-builder/app.html',{waitUntil:'networkidle0'});
+ await importPage.waitForSelector('dialog[open]');
+ assert(await importPage.$eval('dialog',e=>e.textContent.includes('190 × 130 × 60 mm')));
+ await importPage.click('dialog .primary');
+ await importPage.waitForSelector('[aria-label="Product length"]');
+ assert.equal(await importPage.$eval('[aria-label="Product length"]',e=>e.value),'180');
+ assert.equal(await importPage.evaluate(()=>sessionStorage.getItem('mtt_studio_handoff_v1')),null);
+ await importPage.removeScriptToEvaluateOnNewDocument(importSeed);
+ await importPage.evaluate(()=>sessionStorage.setItem('mtt_studio_handoff_v1','invalid JSON'));
+ await importPage.reload({waitUntil:'networkidle0'});
+ await importPage.waitForFunction(()=>document.body.textContent.includes('Calculator data could not be loaded.'));
+ await importContext.close();
  console.log('Startup HTML/JS bytes:',initialBytes);
  console.log('Studio: 12 fixed previews use no WebGL contexts; missing-image fallback shares one context; text/image editing, 3D/folding views, autosave and quote size passed; chunk failure returns safely to chooser; no enquiry sent.');
 }finally{await browser.close()}

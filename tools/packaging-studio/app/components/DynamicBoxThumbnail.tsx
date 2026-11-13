@@ -17,11 +17,11 @@ function getThumbnailRenderer(){
 }
 export default function DynamicBoxThumbnail({type,decorative=false,dimensions,options,label}:ThumbnailProps&{label:string}){
  const cacheKey=JSON.stringify([type,dimensions,options]);
- const [visible,setVisible]=useState(false);
+ const [visible,setVisible]=useState(()=>typeof window!=='undefined'&&!('IntersectionObserver' in window));
  const [preview,setPreview]=useState(()=>({key:cacheKey,src:cache.get(cacheKey)||'',failed:false}));const host=useRef<HTMLDivElement>(null);
  const src=cache.get(cacheKey)||(preview.key===cacheKey?preview.src:'');
  const failed=preview.key===cacheKey&&preview.failed&&!src;
- useEffect(()=>{if(!host.current)return;if(!('IntersectionObserver' in window)){setVisible(true);return}const observer=new IntersectionObserver(([entry])=>{if(entry.isIntersecting){setVisible(true);observer.disconnect()}},{rootMargin:'120px'});observer.observe(host.current);return()=>observer.disconnect()},[]);
+ useEffect(()=>{if(!host.current)return;if(!('IntersectionObserver' in window))return;const observer=new IntersectionObserver(([entry])=>{if(entry.isIntersecting){setVisible(true);observer.disconnect()}},{rootMargin:'120px'});observer.observe(host.current);return()=>observer.disconnect()},[]);
  useEffect(()=>{if(!visible||cache.has(cacheKey))return;let cancelled=false;const timer=setTimeout(()=>{let renderer:THREE.WebGLRenderer|undefined;const scene=new THREE.Scene();try{
  renderer=getThumbnailRenderer();
  scene.background=new THREE.Color('#f4f1ea');scene.add(new THREE.HemisphereLight('#ffffff','#b3aa98',2));const light=new THREE.DirectionalLight('#fff3df',3);light.position.set(-170,380,260);light.castShadow=true;light.shadow.mapSize.set(1024,1024);Object.assign(light.shadow.camera,{left:-350,right:350,top:350,bottom:-350,near:1,far:1000});light.shadow.bias=-.001;scene.add(light);

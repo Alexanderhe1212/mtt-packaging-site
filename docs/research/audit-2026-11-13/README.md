@@ -35,3 +35,7 @@ Compatible basic-ftp patch 6.2.3 → 6.2.6 installed with npm ci in this indepen
 - Trial @vercel/og 1.0.3 could not directly render a PNG: `Dynamic require of "fs" is not supported` in its bundled HarfBuzz code. It also introduced an fflate advisory chain. Trial changes were reverted rather than released. No image-generation compatibility claim is made.
 - 71 lint hints each have a disposition in warning-dispositions.csv. These remain visible; reviewed/retained does not mean fixed or warning-free. Full native-image replacement is not a validated remedy in this static-export stack.
 - Complete closure is NOT achieved: three dependency findings need a compatible image-generation-library migration or verified upstream patch. GSC/Bing field data remain a separate evidence gap.
+
+## Remediation round three
+
+Studio calculator handoff is now read by a lazy bootstrap initializer rather than an effect that updates state after the first paint. Dynamic thumbnails initialize their visibility fallback directly when IntersectionObserver is unavailable, avoiding an extra effect-driven render. Browser regression coverage includes valid calculator import and acceptance, clearing the consumed handoff, malformed JSON feedback, missing fixed images with IntersectionObserver unavailable, shared GPU context, artwork edits, autosave, quote dimensions, and failed-chunk recovery. No live enquiry sent. Full lint: zero errors, 69 warnings. Type check, complete static build and 598-page static/search gates passed. Dependency findings remain three; no claim of complete closure.
