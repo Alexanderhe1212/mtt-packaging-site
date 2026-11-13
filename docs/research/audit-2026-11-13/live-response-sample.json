@@ -1,0 +1,108 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "canonical": "https://mttpackaging.com",
+    "robots": "index, follow",
+    "h1": [
+      "Custom luxury boxes, made around your product."
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/products",
+    "status": 200,
+    "canonical": "https://mttpackaging.com/products",
+    "robots": "index, follow",
+    "h1": [
+      "Find your form."
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/packaging/custom-paper-bags",
+    "status": 200,
+    "canonical": "https://mttpackaging.com/packaging/custom-paper-bags",
+    "robots": "index, follow",
+    "h1": [
+      "Custom Luxury Paper Bags with Your Logo"
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/packaging/custom-metal-tins",
+    "status": 200,
+    "canonical": "https://mttpackaging.com/packaging/custom-metal-tins",
+    "robots": "index, follow",
+    "h1": [
+      "Custom Metal Tins"
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/products/signature-perfume-lift-off",
+    "status": 200,
+    "canonical": "https://mttpackaging.com/products/signature-perfume-lift-off",
+    "robots": "index, follow",
+    "h1": [
+      "Signature perfume \u2014 Lift-off lid"
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/request-a-quote",
+    "status": 200,
+    "canonical": "https://mttpackaging.com/request-a-quote",
+    "robots": "index, follow",
+    "h1": [
+      "Get a Custom Packaging Quote"
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/insights",
+    "status": 200,
+    "canonical": "https://mttpackaging.com/insights",
+    "robots": "index, follow",
+    "h1": [
+      "Packaging knowledge, from product selection to repeat orders."
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "canonical": null,
+    "robots": null,
+    "h1": [],
+    "x_robots": null,
+    "content_type": "text/plain; charset=utf-8"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "canonical": null,
+    "robots": null,
+    "h1": [],
+    "x_robots": null,
+    "content_type": "application/xml"
+  },
+  {
+    "path": "/audit-nonexistent-20261113",
+    "status": 404,
+    "canonical": null,
+    "robots": "noindex, follow",
+    "h1": [
+      "404"
+    ],
+    "x_robots": null,
+    "content_type": "text/html; charset=utf-8"
+  }
+]
