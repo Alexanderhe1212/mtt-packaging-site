@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "food-packaging-small-print-legibility",
+    "keywordId": "KW-0685",
+    "primaryQuery": "packaging typography small print",
+    "searchEvidence": "Existing independent keyword record; current search volume and competition unverified.",
+    "customerDecision": "Reserve and check readable food-gift packaging information at actual printed size.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "European Commission values presented with food-specific scope and 80 cm² threshold.",
+      "X-height distinguished from software point size; final legal responsibility remains with food business.",
+      "GS1 barcode checks are distinct from QR code and legal-text review."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/language-and-presentation-food-information_en",
+      "https://support.gs1.org/support/solutions/articles/43000734141-what-should-i-check-to-ensure-good-quality-barcodes"
+    ]
+  }
+]

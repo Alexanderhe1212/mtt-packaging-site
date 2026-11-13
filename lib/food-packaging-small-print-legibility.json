@@ -1,0 +1,41 @@
+{
+  "slug": "food-packaging-small-print-legibility",
+  "number": "87",
+  "angle": "Artwork Production",
+  "image": "/products/mtt-r0203-0.webp",
+  "imageAlt": "Chocolate gift-box design with chocolates in nine positions",
+  "title": "Food Gift Box Small Print: A Buyer’s Artwork Checklist",
+  "seoTitle": "Food Packaging Small Print: Buyer Checklist | MTT",
+  "summary": "Plan legible small print on food gift packaging: EU x-height rules, artwork placement, finished samples and approval responsibilities.",
+  "intro": "Small text can become difficult to read after artwork is reduced, printed on textured stock or folded around a gift box. For a food product, identify the market and the surface carrying mandatory information before approving the layout. Check the final text at its actual printed size on the proposed material and assembled sample.",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "faq": [],
+  "cta": "Send the destination market, final text supplied by your food business, artwork version, available panel dimensions, box structure and quantity per design. MTT can review print placement and sample requirements for orders from 1,000 pieces per design.",
+  "sections": [
+    [
+      "Identify the consumer-facing information surface",
+      "<p>Decide whether the consumer receives an outer gift box, individual sealed packs or both. Map which surface carries each required statement and whether a sleeve, label, wrap, fold or closure could cover it. Ask the food business responsible for the product to confirm the applicable wording, language and presentation for the destination; the packaging supplier cannot determine compliance from an image.</p><p>The <a href=\"/products/chocolate-selection-book\">chocolate presentation box design</a> shows nine separate chocolate positions. It is a visual design reference, not evidence of approved food labelling or a completed order.</p><figure><img src=\"/products/mtt-r0203-0.webp\" width=\"500\" height=\"500\" loading=\"lazy\" alt=\"Chocolate gift-box design with separately wrapped items\"/><figcaption>Design reference: establish which pack the consumer sees and where its approved information will appear.</figcaption></figure>"
+    ],
+    [
+      "Real reference: EU food information x-height",
+      "<p>The European Commission’s food-information guidance states that, when mandatory particulars under Article 9(1) are printed on packaging or an attached label, the general minimum type <strong>x-height is 1.2 mm</strong>. Where the largest surface area of the packaging or container is <strong>less than 80 cm²</strong>, its guidance specifies a minimum x-height of <strong>0.9 mm</strong>.<sup><a href=\"#source-1\">[1]</a></sup></p><div class=\"article-table-scroll\" role=\"region\" aria-label=\"EU food information x-height reference\" tabindex=\"0\"><table><caption>European Commission guidance: mandatory food information, not all packaging text</caption><thead><tr><th scope=\"col\">Condition</th><th scope=\"col\">Minimum x-height</th><th scope=\"col\">Buyer check</th></tr></thead><tbody><tr><td>General condition described by the Commission</td><td>1.2 mm</td><td>Check the actual printed lowercase x-height, not just the software font-point value.</td></tr><tr><td>Largest packaging surface is less than 80 cm²</td><td>0.9 mm</td><td>Have the responsible food business confirm the applicable surface and current rules.</td></tr></tbody></table></div><p>These figures are for the specified EU food-information context, not a universal font rule for cosmetics or every export market. Other provisions, product-specific requirements and national language rules may apply. The food business and its regulatory adviser should confirm the final artwork.</p>"
+    ],
+    [
+      "Check the finished artwork, not only the screen",
+      "<p>Reserve the information panel before placing large logos or decoration. Measure the physical lowercase x-height on artwork at final size, then review the actual printed sample on the specified substrate. A font point size alone does not guarantee the same x-height across different typefaces.</p><p>Inspect light text over texture, foil, varnish or a busy image; folds, glue areas and adjacent panels can make a technically present statement difficult to read. On a fully assembled sample, check that no ribbon, closure or removable sleeve obscures the intended panel. Keep the approved text and artwork version together.</p>"
+    ],
+    [
+      "Distinguish a barcode scan from the text review",
+      "<p>If a retail barcode is required, reserve space for the actual symbol and its surrounding quiet zones. GS1 advises checking factors including size, quality and contrast for barcode quality.<sup><a href=\"#source-2\">[2]</a></sup> A successful phone scan is not by itself proof of retail barcode verification, and a barcode check does not approve the food wording. Ask the brand or retailer for the applicable symbol specification and verification process.</p><p>The <a href=\"/insights/packaging-artwork-dieline-preflight\">artwork preflight guide</a> covers dieline and file-version checks; the <a href=\"/insights/qr-code-on-packaging-print-test\">QR print test guide</a> addresses a different symbol and should not be used as a substitute for retail barcode requirements.</p>"
+    ],
+    [
+      "Approve one controlled production version",
+      "<p>Before ordering a decorated sample, agree the exact box and label that carry the information, finished dimensions, substrate, colour references and the legal text supplied by the responsible food business. Check the assembled sample under consistent lighting, record any changes and obtain the appropriate content approval before production. If the panel, text or print process changes, repeat the relevant review.</p>"
+    ],
+    [
+      "Sources",
+      "<ol><li id=\"source-1\"><a href=\"https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/language-and-presentation-food-information_en\">European Commission: Language and presentation of food information</a>, accessed 13 November 2026. Scope: the stated EU mandatory food-information requirements.</li><li id=\"source-2\"><a href=\"https://support.gs1.org/support/solutions/articles/43000734141-what-should-i-check-to-ensure-good-quality-barcodes\">GS1: What should I check to ensure good quality barcodes?</a>, accessed 13 November 2026. Barcode verification depends on the relevant symbol and application.</li></ol>"
+    ]
+  ]
+}

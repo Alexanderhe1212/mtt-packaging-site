@@ -1,0 +1,41 @@
+{
+  "slug": "removable-drawer-partitions-fit-sampling",
+  "number": "86",
+  "angle": "Drawer Engineering",
+  "image": "/products/mtt-r0902-0.webp",
+  "imageAlt": "Four-drawer gift cabinet design with individually accessible drawers",
+  "title": "Removable Drawer Partitions: Fit, Board Direction and Sampling",
+  "seoTitle": "Removable Drawer Partitions: Fit & Sampling | MTT",
+  "summary": "Specify removable partitions for a rigid drawer gift box: board direction, slot fit, packing sequence and sample checks.",
+  "intro": "A removable drawer partition should stay seated while a gift box is packed, opened and handled, while still allowing the intended changeover. Start with the actual drawer and filled products, specify board grade and slot direction, then check the assembled sample and complete shipping pack. The measurements and board data below identify their original sources and limitations.",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "faq": [],
+  "cta": "Send the loaded products, drawer internal dimensions if known, number of compartments, whether partitions are installed before shipment, quantity per design and destination. MTT can review the specification and sample scope for orders from 1,000 pieces per design.",
+  "sections": [
+    [
+      "What must the partition do?",
+      "<p>State whether the divider is installed at the production site, inserted by the packing team or removed by the recipient. Each job creates a different handling sequence. Measure the actual wrapped items and identify protruding closures and sensitive surfaces. Decide whether the partition separates positions, supports weight or must also prevent movement; a separating wall alone does not establish retention or transit protection.</p><p>The <a href=\"/products/four-drawer-christmas-gift-cabinet\">four-drawer gift cabinet design</a> illustrates individually accessible drawers. The image is a design reference; it is not a measured sample, completed order or evidence that the pictured contents passed a shipping test.</p><figure><img src=\"/products/mtt-r0902-0.webp\" width=\"500\" height=\"500\" loading=\"lazy\" alt=\"Four-drawer gift cabinet design with separate drawer positions\"/><figcaption>Design reference: confirm the interior configuration and partition removal on an actual sample.</figcaption></figure>"
+    ],
+    [
+      "A real quotation shows why assembly scope matters",
+      "<p>In an anonymised MTT quotation from October 2026, a chocolate presentation box was specified for <strong>24 pieces in a 6 × 4 layout</strong>, with <strong>1,000 assembled boxes</strong> and paperboard lattice dividers installed. The quoted outer box was 240 × 170 × 35 mm. These are quotation-stage specifications, not measurements of a finished shipment; fit and dieline approval remained open.</p><p>That record does not state that the dividers were removable. A quote for a removable divider must separately describe who installs it, how it is supplied and whether a spare part is included. Read the <a href=\"/insights/reduce-shipping-costs-rigid-boxes\">documented quotation case</a> for the assembly and freight assumptions.</p>"
+    ],
+    [
+      "Board direction: compare the same named grade",
+      "<p>For a reference to real published material data—not a claim that MTT used this board—Stora Enso’s July 2026 Tambrite technical sheet reports the following mill values for its named folding-boxboard grades, measured at 23°C and 50% relative humidity. L&amp;W 15° bending resistance is reported in mN; machine direction (MD) and cross direction (CD) are separate measurements.<sup><a href=\"#source-1\">[1]</a></sup></p><div class=\"article-table-scroll\" role=\"region\" aria-label=\"Paperboard reference values\" tabindex=\"0\"><table><caption>Manufacturer data: Tambrite grades, not a specification for the MTT box</caption><thead><tr><th scope=\"col\">Grade</th><th scope=\"col\">Grammage</th><th scope=\"col\">Thickness</th><th scope=\"col\">L&amp;W 15° MD</th><th scope=\"col\">L&amp;W 15° CD</th></tr></thead><tbody><tr><td>TB500</td><td>260 g/m²</td><td>500 µm</td><td>476 mN</td><td>255 mN</td></tr><tr><td>TB600</td><td>300 g/m²</td><td>600 µm</td><td>735 mN</td><td>383 mN</td></tr></tbody></table></div><p>These are published grade-specific values, not divider load ratings. Ask the converter to identify the exact board, grain orientation, slot width and measurement method. The correct direction depends on the partition geometry and how it is handled; do not select a divider by GSM alone. Compare the <a href=\"/insights/paper-gsm-vs-board-thickness\">MTT paper and board quotation case</a>.</p>"
+    ],
+    [
+      "Check joints and pack-out on representative products",
+      "<p>Ask for a physical sample using the proposed board and finished drawer. Check whether the divider can be inserted without buckling the slots, whether intersections remain seated when the drawer slides, and whether the intended user can remove it without tearing the drawer lining. Load every product in its final wrapper and check the fit at the lid and drawer front. Record board grade, grain, artwork and dieline revision with the sample.</p><p>Do not apply a universal clearance from another carton: wrapped board, coatings, die-cutting and assembly method can change the fit. If product size or partition construction changes, review the affected sample again. ISTA notes that changes to a product, packaging or process can require retesting when they may affect performance.<sup><a href=\"#source-2\">[2]</a></sup></p>"
+    ],
+    [
+      "Keep presentation and transit approval separate",
+      "<p>Test the complete product and outer shipping pack for the intended route and agree the acceptance criteria with the supplier and test provider. ISTA explains that its procedures concern a specific packaged-product system rather than certification of one material.<sup><a href=\"#source-3\">[3]</a></sup> The design image and quotation do not establish a passed test.</p><p>Before requesting a price, send the compartment layout, actual product dimensions and weight, expected assembly location, quantity per design, destination and intended distribution method. Ask whether the quotation includes partitions, installation, samples, tooling and outer cartons. The <a href=\"/insights/drawer-box-clearance-ribbon-pull\">drawer clearance guide</a> covers the separate sleeve-to-tray decision.</p>"
+    ],
+    [
+      "Sources",
+      "<ol><li id=\"source-1\"><a href=\"https://www.storaenso.com/-/media/documents/download-center/documents/product-specifications/paperboard-materials/tambrite-en_n.pdf\">Stora Enso, Tambrite technical specification, issued July 2026</a>, reviewed 13 November 2026. Values apply to the named grades and stated measurement conditions; not an MTT material claim.</li><li id=\"source-2\"><a href=\"https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested\">ISTA: When should a packaged-product be retested?</a>, reviewed 13 November 2026.</li><li id=\"source-3\"><a href=\"https://support.ista.org/portal/en/kb/articles/can-i\">ISTA: Can I certify an individual packaging material?</a>, reviewed 13 November 2026.</li></ol>"
+    ]
+  ]
+}
