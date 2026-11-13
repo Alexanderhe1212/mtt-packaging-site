@@ -119,6 +119,14 @@ rigidWindow=json.loads(Path('lib/rigid-window-guide-november-09.json').read_text
 updates[rigidWindow['slug']]=rigidWindow
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-09-rigid-window.json').read_text())
 
+food_print=json.loads(Path('lib/food-packaging-small-print-legibility.json').read_text())
+updates[food_print['slug']]=food_print
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-13-food-print.json').read_text())
+
+drawer_partition=json.loads(Path('lib/removable-drawer-partitions-fit-sampling.json').read_text())
+updates[drawer_partition['slug']]=drawer_partition
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-13-drawer-partitions.json').read_text())
+
 for path in ['lib/lipstick-set-drawer-box-buying-guide.json','lib/watch-strap-gift-box-insert-planning.json']:
  article=json.loads(Path(path).read_text())
  updates[article['slug']]=article

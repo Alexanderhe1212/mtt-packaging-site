@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['food-packaging-small-print-legibility','packaging-artwork-dieline-preflight','qr-code-on-packaging-print-test','chocolate-gift-box-secondary-packaging'],products:['chocolate-selection-book','custom-wrapped-chocolates-diecut-bag','four-drawer-christmas-gift-cabinet']},
+  {articles:['removable-drawer-partitions-fit-sampling','drawer-box-clearance-ribbon-pull','paper-gsm-vs-board-thickness','reduce-shipping-costs-rigid-boxes'],products:['four-drawer-christmas-gift-cabinet','lip-colour-wardrobe-drawer','chocolate-selection-book']},
   {articles:['lipstick-set-drawer-box-buying-guide','drawer-box-clearance-ribbon-pull','cosmetic-gift-box-paperboard-dividers','custom-packaging-sampling-process'],products:['lip-colour-wardrobe-drawer','custom-lipstick-trio-hex-carton','custom-lipstick-trio-rsc']},
   {articles:['watch-strap-gift-box-insert-planning','watch-box-cushion-sizing','book-style-magnetic-box-design','custom-packaging-sampling-process'],products:['watch-and-strap-collection-book','watch-set-collapsible-magnetic-rigid-box','single-watch-round-case-round']},
   {articles:['cosmetic-gift-box-paperboard-dividers','molded-pulp-inserts-cosmetic-packaging','custom-packaging-sampling-process','perfume-box-insert-design'],products:['skincare-ritual-collapsible-magnetic-rigid-box','custom-skincare-duo-auto-bottom','perfume-and-refill-lift-off']},

@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "removable-drawer-partitions-fit-sampling",
+    "keywordId": "KW-0390",
+    "primaryQuery": "removable drawer partitions",
+    "searchEvidence": "Existing independent keyword record; current search volume and competition not verified.",
+    "customerDecision": "Specify removable drawer partition geometry, board direction and sample approval.",
+    "score": {
+      "customer": 10,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 92,
+    "reviewEvidence": [
+      "24-unit 6 by 4 quotation scope checked against existing documented MTT case; no removal claim.",
+      "Two Stora Enso grades quoted as third-party data with named grades, conditions and units.",
+      "Separate removable divider decision and complete-pack testing from existing drawer sliding fit article."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.storaenso.com/-/media/documents/download-center/documents/product-specifications/paperboard-materials/tambrite-en_n.pdf",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested",
+      "https://support.ista.org/portal/en/kb/articles/can-i",
+      "https://mttpackaging.com/insights/reduce-shipping-costs-rigid-boxes"
+    ]
+  }
+]
