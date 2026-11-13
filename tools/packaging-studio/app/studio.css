@@ -14,3 +14,6 @@
 
 .quote-form-link{display:inline-block;padding:12px 0;margin-bottom:8px;text-underline-offset:4px}.quote-form{scroll-margin-top:20px}
 @media(max-width:700px){.size-panel{order:-1}.studio-header-actions{flex-wrap:wrap}.studio-header-actions button{min-height:44px}}
+
+/* Keep long preview controls reachable in short desktop windows. */
+@media(max-height:900px){.design-layout>.preview-card{position:static}}

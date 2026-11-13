@@ -56,6 +56,16 @@ try{
  await page.waitForFunction(()=>[...document.querySelectorAll('canvas')].some(e=>e.width>0&&e.height>0));
  await page.click('.view-tabs button:nth-child(2)');
  await page.waitForFunction(()=>[...document.querySelectorAll('canvas')].some(e=>e.width>0&&e.height>0));
+ await page.waitForSelector('.fold-controls button:nth-child(5)',{visible:true});
+ await page.$eval('.fold-controls button:nth-child(5)',e=>e.scrollIntoView({block:'center'}));
+ await page.locator('.fold-controls button:nth-child(5)').click();
+ assert.equal(await page.$eval('[aria-label="Folding progress"]',e=>e.value),'100');
+ await page.setViewport({width:390,height:844});
+ await page.locator('.fold-controls button:nth-child(6)').click();
+ await page.waitForFunction(()=>{const c=document.querySelector('.fold-demo canvas');return c&&c.width>0&&c.getBoundingClientRect().width<=innerWidth});
+ await page.locator('.fold-controls button:nth-child(3)').click();
+ assert.equal(await page.$eval('[aria-label="Folding progress"]',e=>e.value),'0');
+ await page.setViewport({width:1440,height:1000});
  await page.waitForFunction(()=>{const p=JSON.parse(localStorage.getItem('mtt-public-solution-projects-v1')||'[]')[0];return p?.dimensions.length===210&&p.artworks.some(a=>a.text==='QA design')&&p.artworks.some(a=>a.kind==='image')});
  await page.click('.studio-steps button:nth-child(4)');
  await page.waitForSelector('.quote-form');
