@@ -1,0 +1,5 @@
+# Paper bag buying route — 14 November 2026
+
+The buyer measuring a finished pack can now move directly from the paper-bag sizing guide to the custom bag options and see the existing minimum of 1,000 pieces per design. The custom bag page already links back to the sizing guide. The 13 November Search Console review reported 131 impressions, zero clicks and average position 20.7 for the bag sizing page in the preceding 28 days; exact dates were not recovered. The visible terms had only one or three impressions. These historic page aggregates do not establish a keyword ranking, a cause or a change in performance.
+
+The prior complete editorial review scored 91/100. This update adds only a relevant link and the minimum already published on the destination page. Review: buyer problem 10/10, insight 17/20, technical usefulness 18/20, writing 13/15, SEO 9/10, GEO 9/10, trust 10/10, conversion 5/5: 91/100. This is an editorial judgment, not a performance score; no unresolved factual claim was identified. URLs, title, canonical and claims about load testing are unchanged. Current search data is unavailable.
