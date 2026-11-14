@@ -119,6 +119,9 @@ rigidWindow=json.loads(Path('lib/rigid-window-guide-november-09.json').read_text
 updates[rigidWindow['slug']]=rigidWindow
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-09-rigid-window.json').read_text())
 
+for guide in json.loads(Path('lib/buyer-guides-november-14.json').read_text()):updates[guide['slug']]=guide
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-14.json').read_text())
+
 food_print=json.loads(Path('lib/food-packaging-small-print-legibility.json').read_text())
 updates[food_print['slug']]=food_print
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-13-food-print.json').read_text())

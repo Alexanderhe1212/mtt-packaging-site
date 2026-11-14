@@ -50,6 +50,7 @@ export const knowledgeTopics = [
     "slugs": [
       "chocolate-gift-box-secondary-packaging",
       "candle-box-glass-jar-protection",
+      "coffee-capsule-drawer-box-fit-sampling",
       "food-packaging-small-print-legibility",
       "removable-drawer-partitions-fit-sampling",
       "lipstick-set-drawer-box-buying-guide",
@@ -76,6 +77,7 @@ export const knowledgeTopics = [
     "title": "Materials and finishes",
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
+      "folding-carton-crease-cracking-sample-review",
       "qr-code-on-packaging-print-test",
       "blind-debossed-logo-packaging-boxes",
       "eva-vs-paperboard-inserts",

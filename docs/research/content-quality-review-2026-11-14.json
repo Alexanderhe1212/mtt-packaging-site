@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "coffee-capsule-drawer-box-fit-sampling",
+    "keywordId": "KW-0096",
+    "primaryQuery": "coffee capsule drawer box",
+    "searchEvidence": "Keyword mapping; current search volume not verified. Crease-specific buyer decision distinct from broad carton page.",
+    "customerDecision": "Specify and approve a representative physical sample.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "No fabricated customer order or performance result; product images identified as references.",
+      "Primary sources checked; material performance is project specific.",
+      "Includes buyer comparison table, sample checks and related product and guide links."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://paperbox.org/pick-paperboard-like-a-pro/",
+      "https://paperbox.org/what-is-paperboard-packaging/"
+    ]
+  },
+  {
+    "slug": "folding-carton-crease-cracking-sample-review",
+    "keywordId": "KW-0738",
+    "primaryQuery": "folding carton design",
+    "searchEvidence": "Keyword mapping; current search volume not verified. Crease-specific buyer decision distinct from broad carton page.",
+    "customerDecision": "Specify and approve a representative physical sample.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "No fabricated customer order or performance result; product images identified as references.",
+      "Primary sources checked; material performance is project specific.",
+      "Includes buyer comparison table, sample checks and related product and guide links."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://paperbox.org/pick-paperboard-like-a-pro/",
+      "https://paperbox.org/what-is-paperboard-packaging/"
+    ]
+  }
+]
