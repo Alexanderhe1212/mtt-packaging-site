@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-14",
+  "page": "/industries/cosmetics-skincare-packaging",
+  "change": "Adds a specific existing skincare gift-set product link with fit and sampling checks.",
+  "evidence": "Product /products/skincare-ritual-book describes one jar well beside two bottle wells.",
+  "scores": {
+    "buyer_problem": 9,
+    "original_insight": 17,
+    "technical_usefulness": 18,
+    "writing": 13,
+    "seo": 9,
+    "geo": 8,
+    "claim_safety": 10,
+    "conversion": 4
+  },
+  "editorial_total": 88,
+  "unresolved_factual_claims": [],
+  "search_console_period": "2026-08-26 to 2026-11-10",
+  "search_console_note": "515 impressions, 1 click, mean position 42.7; CTR alone does not diagnose cause."
+}
