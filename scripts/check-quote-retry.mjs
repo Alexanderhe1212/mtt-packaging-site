@@ -41,9 +41,10 @@ const chatbotHandler=chatbotSource.match(/const submitEnquiry = useCallback\((as
 assert(chatbotHandler,'chatbot submission handler must remain covered');
 for(const [ok,result,expected] of [[true,{ok:true},'success'],[true,{ok:false},'error'],[true,null,'error'],[false,{ok:true},'error'],[true,'invalid_json','error']]){
  const steps=[],events=[];
- await vm.runInNewContext(ts.transpileModule(`(${chatbotHandler[1]}\n})()`,{compilerOptions:{target:ts.ScriptTarget.ES2022}}).outputText,{answers:{},setStep:s=>steps.push(s),trackEvent:e=>events.push(e),FORMSPREE_ENDPOINT:'/local-only',fetch:async()=>({ok,json:async()=>{if(result==='invalid_json')throw new SyntaxError('Invalid JSON');return result}})});
+ await vm.runInNewContext(ts.transpileModule(`(${chatbotHandler[1]}\n})()`,{compilerOptions:{target:ts.ScriptTarget.ES2022}}).outputText,{answers:{},setStep:s=>steps.push(s),trackEvent:(...e)=>events.push(e),FORMSPREE_ENDPOINT:'/local-only',fetch:async()=>({ok,json:async()=>{if(result==='invalid_json')throw new SyntaxError('Invalid JSON');return result}})});
  assert.equal(steps.at(-1),expected,'HTTP success without accepted JSON must not confirm a chatbot enquiry');
- assert.equal(events.length,expected==='success'?1:0);
+ assert.equal(events.length,expected==='success'?2:0);
+ if(expected==='success'){assert.equal(events[0][0],'chatbot_submitted');assert.equal(events[1][0],'generate_lead');assert.equal(events[1][1].form_id,'chatbot');}
 }
 console.log('Chatbot accepted-response and rejected/malformed-response event boundaries pass.');
 
