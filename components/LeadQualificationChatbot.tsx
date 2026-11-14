@@ -213,6 +213,7 @@ export default function LeadQualificationChatbot({ hasIntroVideo = false }: { ha
       const result: unknown = await res.json();
       if (res.ok && result && typeof result === 'object' && 'ok' in result && result.ok === true) {
         trackEvent('chatbot_submitted');
+        trackEvent('generate_lead', { form_id: 'chatbot' });
         setStep('success');
       } else {
         setStep('error');

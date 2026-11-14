@@ -84,8 +84,10 @@ try{
  accept=false;forceHttpSuccess=true;await clickChat('Submit Enquiry');
  await page.waitForFunction(()=>[...document.querySelectorAll('.chatbot-widget button')].some(e=>e.textContent.trim()==='Try Again'));
  assert.equal(measurements.filter(e=>e[0]==='event'&&e[1]==='chatbot_submitted').length,0);
+ assert.equal(measurements.filter(e=>e[0]==='event'&&e[1]==='generate_lead').length,1,'rejected chatbot must not add a lead');
  accept=true;await clickChat('Try Again');await page.waitForSelector('.chatbot-success-icon');
  assert.equal(measurements.filter(e=>e[0]==='event'&&e[1]==='chatbot_submitted').length,1);
+ assert.equal(measurements.filter(e=>e[0]==='event'&&e[1]==='generate_lead'&&e[2]?.form_id==='chatbot').length,1,'accepted chatbot must add exactly one lead');
  const chat=JSON.parse(submissionBodies.at(-1));assert.equal(chat.leadSource,'Website Chatbot');assert.equal(chat.email,'local-test@example.com');
  assert(!JSON.stringify(measurements.filter(e=>e[0]==='event')).includes('local-test@example.com'));
  assert.deepEqual(runtimeErrors,[],'quote/chat flow must not produce runtime errors');
