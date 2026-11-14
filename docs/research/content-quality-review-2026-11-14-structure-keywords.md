@@ -1,0 +1,7 @@
+# Rigid packaging buyer routes — 14 November 2026
+
+The user supplied KW-0750 `shoulder neck rigid boxes`, KW-0752 `folding rigid box` and KW-0755 `rigid foldable boxes`. These are independent candidate queries, not verified search volume or evidence that MTT ranks. The existing rigid-box page already covers shoulder-neck and fold-flat structures; MTT-R0615 is an existing shoulder-neck design, and MTT-R1201 is an existing fold-flat magnetic perfume duo concept. Existing related content includes the collapsible rigid-box assembly checklist. No new page is warranted solely for variants. Other supplied brand and ambiguous queries remain research candidates.
+
+The rigid-box page now describes the neck and sample decisions and links to the existing MTT-R0615 design. MTT-R1201 links to the assembly checklist covering its actual packing decisions. The product remains a concept, and no completed project, test, quantified saving or change to the 1,000-piece-per-design minimum is claimed. URLs, canonical and enquiry flow are unchanged.
+
+Editorial assessment: buyer problem 9/10, insight 17/20, technical usefulness 18/20, writing 13/15, SEO 9/10, GEO 8/10, claim safety 10/10, conversion 4/5 = 88/100. This is an editorial judgment, not a search metric. No unresolved factual issue is identified. Candidate keyword-to-page suggestions should be checked against actual queries and ranking data before assigning a unique primary page or creating new content.
