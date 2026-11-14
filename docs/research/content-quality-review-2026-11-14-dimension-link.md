@@ -1,0 +1,5 @@
+# Dimension guide buyer path — 14 November 2026
+
+Buyers measuring a finished box for a matching bag now have a contextual link to the bag measurement and loaded-sample guide, which in turn connects to custom bag purchasing options. The 13 November Search Console review recorded 228 impressions, zero clicks and average position 11.6 in a 28-day period; exact dates were not recovered. One visible query, package dimensions, had four impressions. This historical sample is not a keyword ranking or proof of the reason for low clicks; current Search Console data is unavailable.
+
+The existing full editorial assessment scored 94/100. This update adds a contextual link without new technical, commercial or performance claims. Reviewed against the existing guide's evidence and criteria: customer problem 10/10, insight 19/20, technical usefulness 19/20, writing 14/15, SEO 9/10, GEO 9/10, trust 10/10, conversion 4/5 = 94/100. The score is an editorial judgment; no factual issue remains open. Preserve existing URLs, title, canonical and the 1,000-piece-per-design policy.
