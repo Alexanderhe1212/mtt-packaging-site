@@ -1,0 +1,7 @@
+# Single-bottle perfume buyer path — 15 November 2026
+
+The perfume packaging industry page had 18 impressions, zero clicks and average position 62.44 in a historical 28 September–25 October Search Console web report. This is a small page-level sample, not the ranking or search volume of a specific keyword. Current Search Console access is unavailable. The existing keyword map associates custom perfume packaging with the industry page and custom perfume bottle lift-off lid with MTT-R0101; no new query demand is inferred.
+
+The existing MTT-R0101 product has a separate lid and an illustrative single-bottle cavity. Its buyer guide already explains that lid fit and bottle retention are separate decisions. This change links those decisions to the existing perfume insert-design and two-piece lid-fit guides in English and Chinese. It does not assert physical testing, a customer order, performance, lead time, new dimensions or any change to the 1,000-piece-per-design minimum. URLs, metadata and enquiry handling are unchanged.
+
+Editorial review: buyer problem 10/10; insight 17/20; technical usefulness 18/20; writing 13/15; SEO 9/10; GEO 8/10; claim safety 10/10; conversion 4/5 = 89/100. This is an editorial judgment, not a search-performance score. Existing product fields and linked guides support the descriptive statements; actual fit requires the product and sample. No unresolved factual issue identified.
