@@ -209,13 +209,13 @@ export default function PackagingPage() {
         </div>
         <div className="decision-grid">
           {[
-            ["Magnetic book style", "Launch kits and premium sets.", "/design/magnetic-editorial.webp"],
-            ["Lid & base", "A clean lift-off reveal.", "/design/hero-editorial.webp"],
-            ["Drawer box", "A deliberate sliding reveal.", "/design/customization/ribbon-drawer.webp"],
-            ["Shoulder-neck", "Precise fit and layered color.", "/design/shoulder-editorial.webp"],
-            ["Fold-flat rigid", "Reduced storage volume when suitable.", "/design/fold-flat-editorial.webp"],
-            ["Custom interior", "Retention, protection and reveal.", "/design/insert-editorial.webp"],
-          ].map(([t, c, img], i) => (
+            ["Magnetic book style", "Launch kits and premium sets.", "/design/magnetic-editorial.webp", "/insights/book-style-magnetic-box-design", "Review magnetic book-box design"],
+            ["Lid & base", "A clean lift-off reveal.", "/design/hero-editorial.webp", "/insights/two-piece-rigid-box-lid-fit", "Check lift-off lid fit"],
+            ["Drawer box", "A deliberate sliding reveal.", "/design/customization/ribbon-drawer.webp", "/products/travel-fragrance-trio-drawer", "See a fragrance drawer design"],
+            ["Shoulder-neck", "Precise fit and layered color.", "/design/shoulder-editorial.webp", "/products/boutique-accessory-gift-shoulder", "See a shoulder-neck design"],
+            ["Fold-flat rigid", "Reduced storage volume when suitable.", "/design/fold-flat-editorial.webp", "/insights/collapsible-rigid-box-assembly-checklist", "Review fold-flat assembly"],
+            ["Custom interior", "Retention, protection and reveal.", "/design/insert-editorial.webp", "/packaging/custom-inserts", "Compare custom inserts"],
+          ].map(([t, c, img, href, label], i) => (
             <article key={t}>
               <img
                 src={img as string}
@@ -227,6 +227,7 @@ export default function PackagingPage() {
               <b>0{i + 1}</b>
               <h3>{t}</h3>
               <p>{c}</p>
+              <a href={href}>{label} →</a>
             </article>
           ))}
         </div>
