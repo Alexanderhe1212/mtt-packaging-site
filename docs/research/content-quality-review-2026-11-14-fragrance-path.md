@@ -1,0 +1,5 @@
+# Fragrance buyer path — 14 November 2026
+
+The fragrance packaging page had 18 impressions, zero clicks and average position 62.44 in a historical Search Console web report for 28 September–25 October. The page-level sample is small, is not a keyword ranking, and cannot identify a cause or predict improvement; current Search Console data is unavailable. The related two-tier guide covers a distinct decision for a full-size bottle and vials, with tray access, fit and sampling checks.
+
+The buyer-facing change clarifies the existing minimum of 1,000 pieces per design and connects the industry page to the existing two-tier guide. It adds no claim of a customer project, test, lead time or performance. URL, title and canonical remain unchanged. Editorial review: buyer problem 9/10, insight 17/20, technical usefulness 17/20, writing 13/15, SEO 9/10, GEO 8/10, claim safety 10/10, conversion 4/5 = 87/100. This is an editorial judgment, not a prediction of search performance; no unresolved claim is identified.
