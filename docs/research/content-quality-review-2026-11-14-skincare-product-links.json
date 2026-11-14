@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-14",
+  "page": "/products/skincare-ritual-book",
+  "change": "Links directly to existing multi-SKU planning and pump clearance buyer guides.",
+  "evidence": "MTT-R0103 contains one jar and two bottle wells; target guides address choosing shared boxes and checking pump/lid clearance. Links are conditional buyer guidance.",
+  "scores": {
+    "buyer_problem": 9,
+    "original_insight": 17,
+    "technical_usefulness": 18,
+    "writing": 13,
+    "seo": 9,
+    "geo": 8,
+    "claim_safety": 10,
+    "conversion": 4
+  },
+  "editorial_total": 88,
+  "unresolved_factual_claims": []
+}

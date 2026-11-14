@@ -8,6 +8,7 @@ export default function ProductBuyerGuide({code,zh=false}:{code:string;zh?:boole
     <h3>{zh?'什么时候选它，什么时候比较其他结构？':'When should you choose it or compare alternatives?'}</h3><p>{guide.selection[i]}</p>
     <h3>{zh?'打样前需要确认什么？':'What should you confirm before sampling?'}</h3><p>{guide.review[i]}</p>
     <a href={`/insights/${guide.guide}`}>{zh?'阅读相关选型指南（英文） →':'Read the related selection guide →'}</a>
+    {code==='MTT-R0103' && <p>{zh?'护肤套装采购指南（英文）：':'For a skincare assortment: '}<a href="/insights/shared-box-multiple-cosmetic-skus">{zh?'比较多款产品共用礼盒':'Compare one box for multiple cosmetic SKUs'}</a>{' · '}<a href="/insights/cosmetic-pump-bottle-gift-box-clearance">{zh?'检查泵头与盒盖间隙':'Check pump and lid clearance'}</a></p>}
     {code==='MTT-R1203' && <p><a href="/insights/cosmetic-gift-box-paperboard-dividers">{zh?'礼盒分隔与内托采购指南（英文） →':'Compare dividers and inserts for a cosmetic gift set →'}</a></p>}
   </section>;
 }
