@@ -1,0 +1,7 @@
+# Skincare cord-handle bag buyer guide — 15 November 2026
+
+The paper-bag dimensions guide recorded 131 impressions, zero clicks and average position 20.7 in the 28-day Search Console window reported on 13 November; exact boundaries were not recovered and current query-level data is unavailable. The keyword map and existing product search terms include custom skincare duo packaging and cord-handle paper bag manufacturer. These are candidate buyer intents, not verified search volumes or current rankings.
+
+MTT-B0104 is an existing illustrative gusseted kraft bag with two cotton cord handles and a folded bottom. Its product page had no product-specific buyer guide, while the existing bag sizing article already listed it as a relevant design. This update adds English and Chinese decision and sample checks and a direct link to that guide. It distinguishes the carry bag from an insert or shipping carton, requires a loaded sample, and makes no load rating, certification, customer order, price or lead-time claim. A 1,000-piece minimum per design remains unchanged.
+
+Sources: existing MTT-B0104 product record and design imagery; existing paper-bag dimensions guide cites NIST for unit conversion. Sample checks are conditional purchasing guidance, not completed tests. Editorial review: buyer problem 10/10, original insight 17/20, technical usefulness 18/20, writing 13/15, SEO 9/10, GEO 8/10, trust 10/10, conversion 5/5 = 90/100. The score is editorial judgment, not a search-performance metric. No unresolved factual issue identified.
