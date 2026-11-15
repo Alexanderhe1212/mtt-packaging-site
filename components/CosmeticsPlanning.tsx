@@ -11,9 +11,9 @@ export default function CosmeticsPlanning() {
     <h3>Compare three packaging routes before requesting a sample.</h3>
     <div style={{overflowX:'auto'}} role="region" aria-label="Cosmetic packaging selection table" tabIndex={0}>
       <table><caption>Selection checks for a cosmetic packaging brief</caption><thead><tr><th scope="col">Route</th><th scope="col">When to consider it</th><th scope="col">Sample approval check</th></tr></thead><tbody>
-        <tr><th scope="row">Serum or cream jar folding carton</th><td>One retail bottle or jar per carton, with artwork and internal support matched to that product.</td><td>Closure engagement, loading direction and movement inside the carton.</td></tr>
-        <tr><th scope="row">Skincare gift box with fitted insert</th><td>A coordinated assortment presented together.</td><td>Each cavity, product removal and lid clearance with every item packed.</td></tr>
-        <tr><th scope="row">Corrugated mailer with dividers</th><td>A set delivered through a parcel network.</td><td>Internal separation and the complete packed system against the agreed shipping conditions.</td></tr>
+        <tr><th scope="row"><a href="/products/custom-carton-packaging-set">Serum or cream jar folding carton</a></th><td>One retail bottle or jar per carton, with artwork and internal support matched to that product.</td><td>Closure engagement, loading direction and movement inside the carton.</td></tr>
+        <tr><th scope="row"><a href="/products/skincare-ritual-book">Skincare gift box with fitted insert</a></th><td>A coordinated assortment presented together.</td><td>Each cavity, product removal and lid clearance with every item packed.</td></tr>
+        <tr><th scope="row"><a href="/products/three-compartment-skincare-mailer">Corrugated mailer with dividers</a></th><td>A set delivered through a parcel network.</td><td>Internal separation and the complete packed system against the agreed shipping conditions.</td></tr>
       </tbody></table>
     </div>
     <p><small>Reference guidance: <a href="https://www.cepi.org/paper-based-packaging-recyclability-guidelines/">Cepi on complete paper packaging recyclability</a>; <a href="https://www.ista.org/getting_started_with_design.php">ISTA on selecting tests for the distribution environment</a>. Final suitability requires review of the actual packed product.</small></p>
