@@ -1,0 +1,7 @@
+# Cosmetic buyer path review — 15 November 2026
+
+Historical evidence: Search Console Web, 28 September–25 October 2026, country/device unspecified, cosmetics/skincare industry page 93 impressions, 0 clicks and average position 57.13. This is page-level historical data, not a current ranking or proof that any particular query led to this page. A separate 11 October–7 November site-wide query export recorded “cosmetic gift box with logo” (24 impressions, average position 25.6); the export does not attribute that query to this page. Current demand and ranking unavailable.
+
+The existing comparison table describes three paths but does not let buyers open the relevant designs directly. Link its rows to existing reference designs: MTT-C0101 bottle carton, MTT-R0103 book-style gift box, and MTT-E0102 three-compartment mailer. Add product-specific guidance links on C0101 and E0102 for fit, creases, dividers and shipping-pack decisions. Design references are not evidence of delivered projects or transit performance. Preserve URLs, existing forms, claims and 1,000 pieces per design minimum.
+
+Editorial assessment: buyer problem 10/10; useful distinction 17/20; technical usefulness 18/20; writing 13/15; SEO 9/10; GEO 9/10; trust 10/10; conversion 5/5 = **91/100**, a human editorial judgment. Existing records verify product structures; packaging suitability depends on the actual packed sample and distribution route. No new numerical claims or certifications. No unresolved factual issues.
