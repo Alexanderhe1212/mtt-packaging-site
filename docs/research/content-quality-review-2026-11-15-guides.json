@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "perfume-gift-box-shipping-brief",
+    "primaryQuery": "perfume gift box shipping",
+    "searchEvidence": "Proposed intent; search volume, page-specific GSC query and current ranking not verified.",
+    "customerDecision": "Assign filled-product shipping and presentation responsibilities",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Reviewed against existing site articles for distinct decision; product imagery labeled as design reference.",
+      "Primary sources support claims, and project decisions are explicitly conditional.",
+      "Includes task handoff, approval checks, relevant internal links and 1000-piece minimum."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://es-us-filexfer.ups.com/us/en/support/shipping-support/shipping-special-care-regulated-items/hazardous-materials-guide/common-hazardous-items",
+      "https://ista.org/getting_started_with_design.php"
+    ]
+  },
+  {
+    "slug": "retail-barcode-placement-gift-boxes",
+    "primaryQuery": "retail barcode placement gift boxes",
+    "searchEvidence": "Proposed intent; search volume, page-specific GSC query and current ranking not verified.",
+    "customerDecision": "Specify and verify the retail symbol on an assembled gift box",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Reviewed against existing site articles for distinct decision; product imagery labeled as design reference.",
+      "Primary sources support claims, and project decisions are explicitly conditional.",
+      "Includes task handoff, approval checks, relevant internal links and 1000-piece minimum."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://support.gs1.org/support/solutions/articles/43000734141-what-should-i-check-to-ensure-good-quality-barcodes",
+      "https://support.gs1.org/support/solutions/articles/43000734152-how-can-i-measure-the-quality-of-my-printed-barcodes-"
+    ]
+  }
+]
