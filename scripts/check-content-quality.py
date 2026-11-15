@@ -121,6 +121,8 @@ reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-09-rigid-
 
 for guide in json.loads(Path('lib/buyer-guides-november-14.json').read_text()):updates[guide['slug']]=guide
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-14.json').read_text())
+for guide in json.loads(Path('lib/buyer-guides-november-15.json').read_text()):updates[guide['slug']]=guide
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-15-guides.json').read_text())
 
 food_print=json.loads(Path('lib/food-packaging-small-print-legibility.json').read_text())
 updates[food_print['slug']]=food_print

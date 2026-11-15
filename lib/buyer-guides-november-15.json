@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "perfume-gift-box-shipping-brief",
+    "number": "90",
+    "angle": "Fragrance Shipping",
+    "image": "/products/mtt-r0101-0.webp",
+    "imageAlt": "Perfume bottle lift-off gift box design reference",
+    "title": "Perfume Gift Box Shipping Brief: What to Confirm Before Quoting",
+    "seoTitle": "Perfume Gift Box Shipping Brief | MTT Packaging",
+    "summary": "Separate presentation, packed-product protection and carrier requirements when briefing a perfume gift box.",
+    "intro": "Before approving a perfume gift box for shipping, identify the filled bottle, the presentation pack, the protective outer pack and the route each shipment will take. Ask the product owner and carrier to determine whether the filled fragrance has transport restrictions. A decorative box or insert alone does not establish transport compliance or protection.",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
+    "faq": [],
+    "cta": "Send the capped bottle dimensions and filled weight, set contents, preferred box, quantity per design, destination and planned shipping route. For projects from 1,000 pieces per design, MTT can review the presentation packaging and sampling brief; the shipper and carrier must confirm transport requirements.",
+    "sections": [
+      [
+        "Start with the filled product and route",
+        "<p>Record the finished bottle dimensions with its cap and atomiser fitted, filled mass, fragile or decorated surfaces and the number of products in each set. State whether completed sets travel in cases to a retailer or individually to customers. Include the countries, intended transport mode and fulfilment location; each can change the information the shipper needs.</p><p>UPS lists perfume among common items that may contain flammable liquids. The classification of a particular product cannot be established from its name or the appearance of its gift box. Ask the responsible product owner for the relevant safety information, and obtain the carrier or qualified dangerous-goods adviser’s route-specific instructions before shipment.<sup><a href=\"#source-1\">[1]</a></sup> Do not assume an empty-box quotation covers shipment of filled perfume.</p>"
+      ],
+      [
+        "Separate the presentation box from its transit pack",
+        "<p>The insert locates the bottle and supports the intended opening. The outer transit package must be assessed with the filled product and complete presentation box inside it. Decide who supplies each layer, who packs the product and whether packing is performed before or after the gift boxes reach the filling site. Use the <a href=\"/insights/perfume-box-inserts\">perfume insert guide</a> for bottle support and the <a href=\"/insights/rigid-gift-box-shipping-outer-carton\">outer carton guide</a> for protecting the presentation pack.</p><p>ISTA describes pre-shipment testing as evaluation of a packaged product in its expected distribution environment. The selected procedure, acceptance criteria and any compliance obligations depend on the actual shipment; an image or individual material is not evidence that a complete package passed a test.<sup><a href=\"#source-2\">[2]</a></sup></p>"
+      ],
+      [
+        "Specify the vulnerable details",
+        "<p>Identify where support contacts the bottle, where the cap and pump need clearance, and whether the recipient can remove the product without pulling a fragile closure. If multiple components share a set, review contact between them as well as contact with the outer box. Check a loaded sample through the intended opening and closing sequence. Protecting a decorative finish and restraining a heavy bottle may require different materials or contact points.</p><p>Compare the physical presentation with the <a href=\"/industries/perfume-fragrance-packaging\">fragrance packaging collection</a>. The pictured lift-off box is a design reference, not an example of a tested perfume shipment.</p>"
+      ],
+      [
+        "Build a handoff checklist",
+        "<ul><li><strong>Product owner:</strong> finished product details and current safety information.</li><li><strong>Box supplier:</strong> drawings, materials, insert construction, assembled external size and sample revision.</li><li><strong>Packer:</strong> packing order, protective materials, completed package weight and measurements.</li><li><strong>Carrier or adviser:</strong> route-specific classification, permitted service, documentation, marking and packing requirements.</li><li><strong>Approver:</strong> acceptance criteria, test method and who authorises changes.</li></ul><p>If the destination, formulation, bottle, insert, cushioning or distribution route changes, assess whether the previous evaluation still applies. Keep approved drawings and photographs with the physical reference; a phone photograph alone is not a test record.</p>"
+      ],
+      [
+        "Compare quotations on the same scope",
+        "<p>Separate empty presentation boxes, inserts, tooling, samples, transport cartons, protective materials and freight. Confirm quantities per design, number of artwork versions and whether the quoted size is internal or external. Avoid comparing an empty-box shipment with an individually packed filled-product shipment as if they were equivalent. Record unresolved carrier requirements as pending, not included by assumption.</p>"
+      ],
+      [
+        "Sources",
+        "<ol><li id=\"source-1\"><a href=\"https://es-us-filexfer.ups.com/us/en/support/shipping-support/shipping-special-care-regulated-items/hazardous-materials-guide/common-hazardous-items\">UPS: common items that may be hazardous</a>, consulted 15 November 2026.</li><li id=\"source-2\"><a href=\"https://ista.org/getting_started_with_design.php\">ISTA: getting started with packaging design and testing</a>, consulted 15 November 2026.</li></ol>"
+      ]
+    ]
+  },
+  {
+    "slug": "retail-barcode-placement-gift-boxes",
+    "number": "91",
+    "angle": "Retail Packaging Artwork",
+    "image": "/products/mtt-c0101-0.webp",
+    "imageAlt": "Printed skincare folding carton design reference",
+    "title": "Retail Barcode Placement on Gift Boxes: An Artwork and Sample Checklist",
+    "seoTitle": "Gift Box Barcode Placement and Sample Checks | MTT",
+    "summary": "Plan a scannable retail barcode on a finished gift box, with clear space, suitable contrast and verification of the printed pack.",
+    "intro": "Reserve the retail barcode on the assembled package early, before decorative artwork and finishing are locked. Confirm the symbol and data with the brand and retailer, leave the required clear space, and assess a printed sample in its final position. A phone scan is useful for a quick check but does not replace the verification required by a retailer.",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
+    "faq": [],
+    "cta": "Share the barcode specification and artwork, final box structure, substrate, finish, target retail channels and quantity per design. MTT can review production and sampling questions for projects from 1,000 pieces per design; the brand and retailer confirm symbol requirements and acceptance.",
+    "sections": [
+      [
+        "Agree what must be scanned",
+        "<p>Ask the brand owner and retailer which product identifier, barcode type and retail scanning environment apply. Do not create or allocate a product identifier from a packaging photograph. Confirm who supplies approved barcode artwork and who checks the encoded data. A consumer-facing QR link and a retail product barcode may serve different purposes; placing one does not automatically satisfy the other. For a marketing QR code, see the <a href=\"/insights/qr-code-on-packaging-print-test\">QR code sample checklist</a>.</p>"
+      ],
+      [
+        "Reserve an accessible flat area",
+        "<p>Choose the barcode position on the assembled box, not just the flat dieline. Check whether a flap, seam, fold, retail sticker or wrapping will cover it, and whether the cashier can reach the symbol without opening the pack. The folding-carton image is a design reference; the actual barcode position must be approved on the project’s artwork and finished sample.</p><p>GS1 identifies clear quiet zones, sufficient contrast, symbol size, placement and print defects as factors in barcode quality.<sup><a href=\"#source-1\">[1]</a></sup> Reserve the clear area for the chosen symbol and application using the applicable specification. Avoid putting a foil border, pattern or dieline fold into that area.</p>"
+      ],
+      [
+        "Proof the actual material and finish",
+        "<p>Dark bars on a light background are a straightforward starting point. Ink, substrate colour and finish can alter the appearance of the printed symbol, so ask the printer to make the review sample using the proposed production route. Test glossy or reflective surfaces under the actual scanner conditions and consider a dedicated light panel or label when a decorative wrap does not provide reliable contrast. Confirm any changes with the brand before altering the artwork.</p><p>Check the smallest version when the same design is adapted across sizes. Resizing artwork can also reduce the barcode and its clear space; keep a controlled barcode layer and confirm the final physical size against the retailer’s requirements. See the <a href=\"/insights/packaging-artwork-dieline-preflight\">artwork preflight guide</a> for the broader approval process.</p>"
+      ],
+      [
+        "Distinguish a scan from verification",
+        "<p>A successful phone or handheld scan shows that one device decoded one example under those conditions. It does not establish print quality across the production run. GS1 describes use of a compliant barcode verifier for measuring print quality.<sup><a href=\"#source-2\">[2]</a></sup> Ask the retailer what verification method, grade and reporting it requires, and arrange that check with the printer or a qualified provider when needed.</p><p>Review several representative samples from the intended production process. Record the artwork version, substrate, finish, position, encoded data, device or verification method, result and corrective action. If the material, print process, scale, finish or placement changes, decide with the retailer and verifier whether to repeat the assessment.</p>"
+      ],
+      [
+        "Add the barcode to the purchase brief",
+        "<ul><li>Product identifier and symbol type supplied by the brand.</li><li>Retail destination, scanning environment and retailer acceptance requirements.</li><li>Final box dimensions, panel position and any film, sleeve or label over the symbol.</li><li>Proposed paper, ink and finish; approval sample and verification responsibility.</li><li>Artwork revision, quantity per design, destination and delivery schedule.</li></ul><p>For a carton structure, use the <a href=\"/products/custom-carton-packaging-set\">skincare folding carton reference</a> to discuss panel layout, then assess the barcode on the actual assembled sample. Keep text legibility and regulatory label review separate from the barcode check.</p>"
+      ],
+      [
+        "Sources",
+        "<ol><li id=\"source-1\"><a href=\"https://support.gs1.org/support/solutions/articles/43000734141-what-should-i-check-to-ensure-good-quality-barcodes\">GS1: checks for good barcode quality</a>, consulted 15 November 2026.</li><li id=\"source-2\"><a href=\"https://support.gs1.org/support/solutions/articles/43000734152-how-can-i-measure-the-quality-of-my-printed-barcodes-\">GS1: measuring printed barcode quality</a>, consulted 15 November 2026.</li></ol>"
+      ]
+    ]
+  }
+]

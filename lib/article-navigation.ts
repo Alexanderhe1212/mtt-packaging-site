@@ -4,6 +4,8 @@ import {products} from './products';
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
   {articles:['coffee-capsule-drawer-box-fit-sampling','drawer-box-clearance-ribbon-pull','removable-drawer-partitions-fit-sampling','paper-gsm-vs-board-thickness'],products:['coffee-capsule-selection-drawer','coffee-tasting-flight-drawer','coffee-and-chocolate-pairing-stacked-drawers']},
+  {articles:['retail-barcode-placement-gift-boxes','packaging-artwork-dieline-preflight','qr-code-on-packaging-print-test','custom-packaging-sampling-process'],products:['custom-carton-packaging-set','custom-skincare-duo-auto-bottom','custom-perfume-bottle-tuck']},
+  {articles:['perfume-gift-box-shipping-brief','perfume-box-inserts','rigid-gift-box-shipping-outer-carton','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','perfume-and-refill-lift-off','travel-fragrance-trio-drawer']},
   {articles:['folding-carton-crease-cracking-sample-review','packaging-artwork-dieline-preflight','paper-gsm-vs-board-thickness','folding-carton-closure-selection'],products:['custom-carton-packaging-set','custom-perfume-bottle-tuck','custom-reed-diffuser-tuck']},
   {articles:['food-packaging-small-print-legibility','packaging-artwork-dieline-preflight','qr-code-on-packaging-print-test','chocolate-gift-box-secondary-packaging'],products:['chocolate-selection-book','custom-wrapped-chocolates-diecut-bag','four-drawer-christmas-gift-cabinet']},
   {articles:['removable-drawer-partitions-fit-sampling','drawer-box-clearance-ribbon-pull','paper-gsm-vs-board-thickness','reduce-shipping-costs-rigid-boxes'],products:['four-drawer-christmas-gift-cabinet','lip-colour-wardrobe-drawer','chocolate-selection-book']},

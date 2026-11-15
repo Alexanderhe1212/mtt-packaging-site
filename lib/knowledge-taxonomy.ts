@@ -56,6 +56,7 @@ export const knowledgeTopics = [
       "lipstick-set-drawer-box-buying-guide",
       "watch-strap-gift-box-insert-planning",
       "cosmetic-gift-box-paperboard-dividers",
+      "perfume-gift-box-shipping-brief",
       "perfume-refill-set-box-packaging-guide",
       "custom-tea-tins-buying-guide",
       "two-tier-fragrance-layering-set-packaging",
@@ -78,6 +79,7 @@ export const knowledgeTopics = [
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
       "folding-carton-crease-cracking-sample-review",
+      "retail-barcode-placement-gift-boxes",
       "qr-code-on-packaging-print-test",
       "blind-debossed-logo-packaging-boxes",
       "eva-vs-paperboard-inserts",
