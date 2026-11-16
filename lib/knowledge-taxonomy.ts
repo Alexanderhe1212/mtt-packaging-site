@@ -48,6 +48,7 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "skincare-gift-box-change-retest-checklist",
       "skincare-jar-serum-gift-box-insert-fit",
       "skincare-gift-box-1000-units-flat-vs-assembled",
       "chocolate-gift-box-secondary-packaging",

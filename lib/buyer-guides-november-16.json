@@ -23,6 +23,22 @@
         "<p>Place the jar where fingers can reach the body without scraping the lid or lifting neighbouring bottles. For the serum, locate support at surfaces the product owner permits, and make it possible to grip the bottle without pulling a delicate dropper. If a leaflet sits over the products, check it does not block access or increase pressure when the lid closes.</p><p>Paperboard dividers, folded platforms and formed inserts solve different geometry and assembly problems. Ask the converter to describe the support under each product as well as the visible opening. Compare the options in the <a href=\"/insights/cosmetic-gift-box-paperboard-dividers\">cosmetic divider guide</a>; the <a href=\"/insights/cosmetic-pump-bottle-gift-box-clearance\">pump clearance guide</a> addresses a specific dispenser problem.</p>"
       ],
       [
+        "Map the load path before choosing a cavity",
+        "<p>A jar and serum bottle do not load the insert in the same way. The jar presents a broad base and a wide cap; a narrow bottle can tip at its shoulder, and a projecting dropper can touch the lid first. Draw the permitted support zones with the brand owner: where can the insert touch, where must it remain clear, and where does the weight travel when the box is lifted?</p><p>With a folded platform, check that supports beneath the jar are continuous and that tabs cannot buckle during loading. For a formed cavity, review the supported height and the shape below the visible opening. If the product sits on a printed label or a coated shoulder, ask the owner to assess abrasion and compatibility. These are design checks, not evidence of a passed transit test.</p>"
+      ],
+      [
+        "Use a tolerance stack, not one nominal measurement",
+        "<p>Measure more than one filled container where available, including the widest cap and tallest fully assembled closure. Ask the container supplier for its specified dimensional range; a handful of samples does not establish that range. Compare the largest permitted product against the smallest permitted insert opening, including manufacturing variation, wrapping and the insert material.</p><p><strong>Illustrative calculation:</strong> if a jar is specified at 70.0–70.8 mm across its lid and an insert opening is specified at 71.0 ± 0.5 mm, the smallest opening is 70.5 mm. That is 0.3 mm smaller than the largest permitted lid before accounting for deformation or other tolerances. The example demonstrates an interference risk, not an MTT measurement or a recommended clearance. Revisit geometry and validate the actual combination with samples.</p>"
+      ],
+      [
+        "Choose a support system by the failure you must avoid",
+        "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Insert support comparison\" tabindex=\"0\"><table><caption>Insert choices for mixed skincare containers</caption><thead><tr><th scope=\"col\">Approach</th><th scope=\"col\">Useful question</th><th scope=\"col\">Sample risk to check</th></tr></thead><tbody><tr><td>Folded paperboard platform</td><td>Can folds support the jar and locate the bottle?</td><td>Buckling, opening edges, assembly order</td></tr><tr><td>Dividers and separate pads</td><td>Can adjacent products stay separated while remaining accessible?</td><td>Divider displacement, lid pressure, movement</td></tr><tr><td>Formed insert</td><td>Do cavity shape and tooling suit the assortment?</td><td>Contact points, removal, tooling revisions</td></tr></tbody></table></div><p>Material alone does not establish protection. Compare the physical sample, the assembly effort and the evidence needed for the complete packaged product.</p>"
+      ],
+      [
+        "Define acceptance before the sample arrives",
+        "<p>Record the product revision, insert drawing, materials, allowed contact zones and pack-out order. Agree how to evaluate removal, contact marks, closure pressure and movement, then document each sample with photographs and the actual filled product. If a container or insert changes in a way that may affect performance, review whether testing must be repeated; ISTA identifies product, package and process changes as relevant to retesting.<sup><a href=\"https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested\">[2]</a></sup></p>"
+      ],
+      [
         "Review a loaded sample in sequence",
         "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Skincare sample review\" tabindex=\"0\"><table><caption>Skincare set sample checks</caption><thead><tr><th scope=\"col\">Step</th><th scope=\"col\">What to check</th><th scope=\"col\">If it fails</th></tr></thead><tbody><tr><td>Loading</td><td>Actual containers enter without forcing labels or closures</td><td>Review openings and assembly order</td></tr><tr><td>Closure</td><td>The highest cap and leaflet clear the closed lid</td><td>Review height, insert depth and lid construction</td></tr><tr><td>Removal</td><td>Fingers reach the jar and bottle bodies</td><td>Add access or change orientation</td></tr><tr><td>Handling</td><td>Products stay separate under the agreed checks</td><td>Revisit support and outer pack</td></tr></tbody></table></div><p>Mark the sample revision and photograph contact marks or displaced parts. The physical result depends on container geometry, board and assembly; do not specify a universal clearance based on a picture.</p>"
       ],
@@ -68,6 +84,22 @@
         "<p>For fold-flat boxes, identify who opens the shell, engages the corners, fits the insert and loads the products. A flat shell may need inserts delivered separately; some insert designs may not fold with it. Record the packing sequence and inspect whether a repeated assembly step marks the wrap or leaves a corner unseated. For preassembled boxes, check stacking, storage and removal from master cartons.</p>"
       ],
       [
+        "Compare landed cost with the same completion point",
+        "<p>Use a common unit: cost per completed set delivered to the same destination under the same agreed trade terms. A practical worksheet is <strong>(shell + insert + tooling allocation + sample allocation + packing materials + assembly and loading + inbound and outbound transport + storage and handling) ÷ accepted finished sets</strong>. Enter verified quotations rather than assumed savings. Separate refundable deposits, taxes and duties according to the actual transaction.</p><p>In an illustrative 1,000-set project, a one-time setup of $500 allocated to 1,000 accepted sets contributes $0.50 per set. If the scope or the number of accepted sets changes, recalculate; this is arithmetic, not an MTT price or guarantee.</p>"
+      ],
+      [
+        "Measure time and yield on the actual packing sequence",
+        "<p>Record each operation separately: unfold the shell, engage corners, insert the platform, load the containers, add literature and close. Observe the proposed packer using representative materials. Note rework, rejected or damaged components and any additional training. One timed sample is a planning indication, not a production-rate commitment; agree how the production team will validate throughput and quality.</p><p>For flat-packed structures, consider whether magnets, adhesive corners or liners have a release liner and who removes it. If inserts arrive separately, count their cartons and storage space. For assembled structures, count how many boxes can be removed without scuffing the wrapped surfaces.</p>"
+      ],
+      [
+        "Calculate billable volume separately from physical volume",
+        "<p>Physical cubic metres are calculated from outside length × width × height for each master carton. Freight billing may instead depend on actual gross weight, volumetric weight, chargeable weight, pallet size or other carrier rules. Ask the forwarder for the applicable conversion and measurement basis; the example above compares physical volume only, so it cannot establish a freight saving.</p><p>Include carton count, pallet overhang, stacking restrictions and destination handling where they apply. If the packer changes carton dimensions or units per carton, recalculate and request a revised freight quote for both alternatives.</p>"
+      ],
+      [
+        "Check the box after the packing route changes",
+        "<p>The approved decorative appearance is only one acceptance criterion. Use the filled products, complete inserts, accessories and outer shipping pack. Identify the intended route and agree damage criteria before choosing a suitable evaluation with the responsible testing party. ISTA explains that tests assess a defined packaged product and distribution environment; it does not certify an individual insert material.<sup><a href=\"https://support.ista.org/portal/en/kb/articles/can-i\">[2]</a></sup></p><p>When product dimensions, box construction, insert material or the distribution process changes, assess whether the previous evidence still covers the revised configuration. Keep box revision, sample approval and transport-test report as separate records.</p>"
+      ],
+      [
         "Approve the sample as a complete system",
         "<p>Use the filled jar, bottle and accessories, not an empty display box. Check lid clearance, cavity removal, fold-flat corner engagement and closure alignment. Ask the packer to assemble and fill the representative sample in the planned sequence. ISTA recommends considering the complete packaged product and its distribution environment when selecting tests.<sup><a href=\"#source-1\">[1]</a></sup> The <a href=\"/insights/collapsible-rigid-box-assembly-checklist\">fold-flat assembly checklist</a> covers the construction separately.</p>"
       ],
@@ -78,6 +110,47 @@
       [
         "Sources",
         "<ol><li id=\"source-1\"><a href=\"https://ista.org/getting_started_with_design.php\">ISTA: packaging design and distribution testing</a>, accessed 16 November 2026.</li></ol>"
+      ]
+    ]
+  },
+  {
+    "slug": "skincare-gift-box-change-retest-checklist",
+    "number": "94",
+    "angle": "Skincare Packaging Quality",
+    "image": "/products/mtt-r0103-0.webp",
+    "imageAlt": "Skincare box design reference with a jar and bottles in separate positions",
+    "title": "Skincare Gift Box Changes: When to Recheck Fit and Shipping",
+    "seoTitle": "Skincare Gift Box Changes: Retest Checklist | MTT",
+    "summary": "Assess container, insert and shipping changes before reusing a skincare gift-box sample or transit test.",
+    "intro": "A change to the jar, serum bottle, insert or packing route can affect a previously approved skincare gift set. Compare the exact old and new configurations before reusing any fit or shipping evidence. The decision depends on what changed, the complete packed product and the agreed acceptance criteria; a visually similar component is not automatically equivalent.",
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "faq": [],
+    "cta": "Send the previous and proposed product dimensions, packaging revisions, pack-out method, quantity per design and destination. MTT can review the packaging brief for orders starting at 1,000 pieces per design.",
+    "sections": [
+      [
+        "Start with a controlled before-and-after record",
+        "<p>List each product and closure, the gift-box shell, wrap, insert, accessories, master carton and packing orientation. Identify the previous approved revision and the proposed revision. Note the product weight when filled, its sensitive finishes, and who assembles and ships the set. A supplier drawing or an approved sample is stronger evidence than a product photograph.</p><p>This guide addresses change control after an initial design has been evaluated. For designing the first insert, use the <a href=\"/insights/skincare-jar-serum-gift-box-insert-fit\">cream jar and serum insert guide</a>. The pictured <a href=\"/products/skincare-ritual-book\">book-style box</a> is a design reference, not a documented MTT test result.</p>"
+      ],
+      [
+        "Four changes that require an engineering review",
+        "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Change review table\" tabindex=\"0\"><table><caption>Compare old and proposed packaged sets</caption><thead><tr><th scope=\"col\">Change</th><th scope=\"col\">Possible effect</th><th scope=\"col\">Check with the new revision</th></tr></thead><tbody><tr><td>Taller dropper or pump</td><td>Closure may contact the lid before the box fully closes</td><td>Loaded lid clearance and normal closing</td></tr><tr><td>Wider jar lid</td><td>Opening can interfere while the body still fits</td><td>Largest permitted lid against smallest opening and removal access</td></tr><tr><td>New insert material or fold</td><td>Support, surface contact and assembly can change</td><td>Loaded fit, contact marks, assembly and removal</td></tr><tr><td>New outer carton or parcel route</td><td>The complete set experiences a different handling environment</td><td>Pack-out, orientation and an appropriate distribution evaluation</td></tr></tbody></table></div><p>The table identifies possible effects for review, not universal test outcomes. Ask the product owner which marks, leaks, breakage or cosmetic changes are unacceptable before judging a sample.</p>"
+      ],
+      [
+        "Fit checks and transport tests answer different questions",
+        "<p>A loaded appearance sample can show whether products fit, are accessible and permit the lid to close. It does not establish performance through a parcel or wholesale distribution network. Define the finished pack, the delivery route and the failure criteria with the party responsible for distribution; select an appropriate evaluation for that packaged product.</p><p>ISTA describes its procedures as tests of a specific packaged-product system, not certification of an individual material.<sup><a href=\"#source-1\">[1]</a></sup> Its guidance also identifies product, packaging and process changes as factors in determining whether testing should be repeated.<sup><a href=\"#source-2\">[2]</a></sup> Whether a particular change affects performance depends on the documented configuration and test requirements.</p>"
+      ],
+      [
+        "An illustrative change-control example",
+        "<p><strong>Example only:</strong> an approved set contains a cream jar and a capped serum bottle. A new marketing campaign keeps the box artwork but replaces the bottle cap with a taller dropper. The original insert drawing and box image do not establish clearance for the new closure. Measure the actual assembled bottle, review the tallest specified dimension, and close a revised loaded sample with the card and any protective layers in place.</p><p>If the new dropper changes the contact point or the loaded set, discuss the impact on the previous transport evaluation with the responsible test provider. This scenario is invented to show the decision process; it is not an MTT customer case or measured failure.</p>"
+      ],
+      [
+        "Keep the approval and quotation records separate",
+        "<p>Record the drawing and component revisions, sample owner, fit observations and approved or rejected actions. Maintain any distribution-test report as its own record, with the tested configuration and route. A packaging quotation should separately identify shell, insert, tooling, samples, assembly and freight, along with quantities by design. An approved look does not by itself approve the changed product fit, delivery route or production schedule.</p><p>For a 1,000-piece project, compare the complete assembly route in the <a href=\"/insights/skincare-gift-box-1000-units-flat-vs-assembled\">fold-flat versus assembled packing guide</a>, then review the <a href=\"/packaging/custom-skincare-gift-set-boxes\">skincare gift box options</a> with the actual products.</p>"
+      ],
+      [
+        "Sources",
+        "<ol><li id=\"source-1\"><a href=\"https://support.ista.org/portal/en/kb/articles/can-i\">ISTA: testing a packaged product rather than certifying an individual material</a>, accessed 16 November 2026.</li><li id=\"source-2\"><a href=\"https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested\">ISTA: when a packaged product should be retested</a>, accessed 16 November 2026.</li></ol>"
       ]
     ]
   }
