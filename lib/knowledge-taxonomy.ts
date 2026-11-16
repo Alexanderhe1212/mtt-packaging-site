@@ -20,6 +20,7 @@ export const knowledgeTopics = [
     "slugs": [
       "rigid-box-with-window-design",
       "round-rigid-tube-box-fit",
+      "magnetic-gift-box-lid-not-closing-sample-checks",
       "book-style-magnetic-box-design",
       "void-fill-vs-fitted-inserts",
       "paperboard-sleeve-tray-fit",
@@ -48,6 +49,7 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "perfume-discovery-set-packout-scent-identification",
       "skincare-gift-box-change-retest-checklist",
       "skincare-jar-serum-gift-box-insert-fit",
       "skincare-gift-box-1000-units-flat-vs-assembled",
