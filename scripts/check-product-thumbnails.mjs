@@ -27,3 +27,12 @@ for(const width of [54,108]){
  assert.equal((await sharp(file).metadata()).width,width);
  assert((await fs.stat(file)).size<(await fs.stat('dist/client/brand/mtt-gold-triangle.webp')).size);
 }
+
+// Each accessory card has a generated 3x display image and keeps its original.
+for(const name of ['bag','card','cloth','pouch','ribbon','sleeve','tag','tissue']){
+ const file=`dist/client/accessories/responsive/${name}.webp`;
+ const meta=await sharp(file).metadata();
+ assert(meta.width<=288&&meta.height<=288, name);
+ assert((await fs.stat(file)).size<(await fs.stat(`dist/client/accessories/${name}.jpg`)).size, name);
+}
+console.log('8 responsive accessory previews and originals validated.');
