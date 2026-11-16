@@ -1,0 +1,5 @@
+# Buyer-focused narrative review — 16 November 2026
+
+Reviewed three existing buying guides: the double-door wine box, four-drawer Christmas cabinet, and cream-jar/serum insert. Their earlier openings described the decisions accurately but offered little sense of the recipient or packing sequence. Each introduction now uses MTT's proposed design-review perspective (we start / we would), with a concrete situation and a direct explanation of the decision. The hypothetical wording does not claim that MTT conducted a project, test or client engagement. Existing detailed checks, references, URLs, product references and commercial terms remain in place.
+
+Editorial judgement for each revised article: buyer problem 10/10; insight 17/20; technical value 18/20; writing 14/15; SEO 9/10; GEO 9/10; claim safety 10/10; conversion 5/5 = 92/100. No new factual, numerical, certification or performance claims; no unresolved issues. Current public examples remain labelled as design references. Broader article review remains a continuing task, not an assertion that all articles have been rewritten.
