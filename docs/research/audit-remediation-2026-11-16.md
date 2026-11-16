@@ -20,6 +20,7 @@ Production baseline: e2e3062f26eb5bf7d08acb0d3c7d02a0aa42b75b. Scope: isolated s
 - External GEO Tool Check on 16 November: homepage, R0105 and the new fit guide returned HTTP 200, readable HTML and self-referencing canonical. robots.txt was reported as allowing selected AI crawlers. Third-party heuristic scores and suggestions are not verified rankings, citations or proof of indexing. Earlier Google live inspection returned a Next error page and Soft 404 for the guide; a later generic fetch does not establish what Google currently receives or explain the earlier result. Search Console live reinspection remains necessary.
 - Dependency audit: 3 moderate affected packages in the satori / @vercel/og / vinext dependency chain; no high/critical findings. Earlier direct @vercel/og trial failed image generation, so a forced major upgrade is not a verified fix. Investigate compatibility separately.
 - Lint baseline: 72 warnings, no errors; most are framework image hints or effect warnings. They are not automatically runtime defects and are not silently suppressed.
+- The homepage, enquiry and thank-you pages state a 24-hour response commitment. This audit did not verify actual staffing or response-time records; confirm the commitment before changing it or treating it as measured performance.
 - Search Console UI failed to open in this audit; current page/query data and Google live indexing status could not be retrieved. Real form-delivery/inbox evidence and real-user Core Web Vitals were not established here. No real enquiry or external outreach was sent.
 
 Record test, release and post-deployment results separately; inclusion in Google and actual enquiries remain separate outcomes.
@@ -27,3 +28,7 @@ Record test, release and post-deployment results separately; inclusion in Google
 ## Local verification for this change
 
 Full static build, release checks, TypeScript and lint completed; lint reports 0 errors and 72 existing warnings. A separate scan checked same-origin anchor destinations on all 611 sitemap pages and found no missing static target. Targeted EN/ZH output checks found both contextual links and the 1,000-piece notice. The catalogue browser suite passed at 390 and 1440 pixels, including filtering, product galleries, quote links and accessibility checks. The enquiry suite passed mocked accepted/rejected/retry cases and 390/1280 layouts; no live enquiry was sent. The optional lychee link checker was unavailable; the independent static scan above was used instead.
+
+## Keyboard focus remediation
+
+The English enquiry form removed focus outlines from nine controls. Browser inspection reproduced a focused name input with no outline or shadow. Removed the inline suppression so the existing site focus style applies. A regression check covers all nine controls and separates its focus events from later analytics assertions.
