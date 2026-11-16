@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['skincare-jar-serum-gift-box-insert-fit','cosmetic-gift-box-paperboard-dividers','cosmetic-pump-bottle-gift-box-clearance','custom-packaging-sampling-process'],products:['skincare-ritual-book','skincare-ritual-collapsible-magnetic-rigid-box','custom-skincare-duo-auto-bottom']},
+  {articles:['skincare-gift-box-1000-units-flat-vs-assembled','collapsible-rigid-box-assembly-checklist','reduce-shipping-costs-rigid-boxes','custom-packaging-sampling-process'],products:['skincare-ritual-collapsible-magnetic-rigid-box','skincare-ritual-book','custom-skincare-duo-auto-bottom']},
   {articles:['coffee-capsule-drawer-box-fit-sampling','drawer-box-clearance-ribbon-pull','removable-drawer-partitions-fit-sampling','paper-gsm-vs-board-thickness'],products:['coffee-capsule-selection-drawer','coffee-tasting-flight-drawer','coffee-and-chocolate-pairing-stacked-drawers']},
   {articles:['retail-barcode-placement-gift-boxes','packaging-artwork-dieline-preflight','qr-code-on-packaging-print-test','custom-packaging-sampling-process'],products:['custom-carton-packaging-set','custom-skincare-duo-auto-bottom','custom-perfume-bottle-tuck']},
   {articles:['perfume-gift-box-shipping-brief','perfume-box-inserts','rigid-gift-box-shipping-outer-carton','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','perfume-and-refill-lift-off','travel-fragrance-trio-drawer']},
