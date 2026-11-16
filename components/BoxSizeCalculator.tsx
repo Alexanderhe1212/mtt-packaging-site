@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback, type FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
 import {
   calculate,
   toMm,
@@ -44,6 +45,7 @@ const EMPTY_FIELDS = {
 };
 
 export default function BoxSizeCalculator() {
+  const router = useRouter();
   const [fields, setFields] = useState(EMPTY_FIELDS);
   const [unit, setUnit] = useState<Unit>('mm');
   const [customDefaults, setCustomDefaults] = useState({clearance:false,boardThickness:false});
@@ -121,7 +123,7 @@ export default function BoxSizeCalculator() {
     if (!result) return;
     try {
       sessionStorage.setItem('mtt_studio_handoff_v1', JSON.stringify({...buildHandoffData(),productLength:fields.length,productWidth:fields.width,productHeight:fields.height,internalL:String(result.internal.l),internalW:String(result.internal.w),internalH:String(result.internal.h)}));
-      window.location.assign('/tools/gift-box-solution-builder?source=calculator');
+      router.push('/tools/gift-box-solution-builder?source=calculator');
     } catch {
       setError('Your browser could not transfer this plan. Copy the dimensions, then open Design Your Box from Tools.');
     }
@@ -212,7 +214,7 @@ export default function BoxSizeCalculator() {
     try {
       sessionStorage.setItem(CALC_HANDOFF_KEY, JSON.stringify(handoff));
     } catch {}
-    window.location.assign('/request-a-quote?source=calculator');
+    router.push('/request-a-quote?source=calculator');
   };
 
   // Sheet layout handler
