@@ -1,4 +1,34 @@
 {
+  "MTT-R0112": {
+    "answer": [
+      "A rigid sleeve and sliding tray present a five-piece lip colour assortment in the illustrated design. The five openings are a visual starting point; the insert must be adapted to your actual tubes and closures.",
+      "图示为硬质外套和可抽拉托盘，展示五支唇妆产品。五个开槽仅供设计参考；内托应根据实际管身及盖子调整。"
+    ],
+    "selection": [
+      "Choose a drawer when you want the assortment revealed as one tray. Compare an attached-lid box if the display needs to stay open on a counter. Check how much of each tube remains visible and whether fingers can remove it without pulling a neighbouring product.",
+      "如希望整盘抽出并展示产品，可考虑抽屉结构；如需展示时盒盖保持连接，可比较书型盒。检查每支产品的露出范围，以及手指取放时是否碰到相邻产品。"
+    ],
+    "review": [
+      "Provide the capped tube dimensions, filled weights and intended product sequence. Test cavity retention, removal access and loaded drawer travel with the intended wrap and insert. Review contact marks and the complete transit pack separately; a drawing or image does not prove transport performance.",
+      "提供带盖管体尺寸、装好后的重量和产品排列顺序。使用计划采用的裱纸和内托，检查卡位、取放空间及装载后的抽拉顺畅度；另行审核表面接触痕迹和完整运输包装，图纸或图片不能证明运输性能。"
+    ],
+    "guide": "lipstick-set-drawer-box-buying-guide"
+  },
+  "MTT-B0128": {
+    "answer": [
+      "An open-top, ribbon-handle paper carry bag for an illustrated festive confectionery assortment. The image is a design reference; the bag, contents and any protective inner packaging are specified separately.",
+      "用于节日糖果组合展示的敞口丝带提手纸袋。图片仅供设计参考；纸袋、内装产品及保护性内包装需分别确认。"
+    ],
+    "selection": [
+      "Size the width and gusset around the finished closed packs and their loading orientation. Compare a box or a divided insert when items need separation; a soft carry bag alone does not restrain individual products or replace parcel-shipping protection.",
+      "按已封装产品的外尺寸和装入方向确定袋宽及侧褶；如物品需要分隔，可比较礼盒或分隔内托。柔软手提袋本身不能固定单件产品，也不能替代快递运输保护。"
+    ],
+    "review": [
+      "Share the total packed weight, largest component size, planned carry use and artwork. Check loaded handle attachments, top fold, bottom support and insertion access on a sample. Keep direct food-contact requirements separate and confirm suitable materials with the responsible supplier.",
+      "提供装载总重量、最大单件尺寸、计划提携场景和印刷稿。用装好产品的样品检查提手连接、袋口折边、袋底支撑和装入空间。直接接触食品的要求需单独提出，并与相关供应商确认适用材料。"
+    ],
+    "guide": "paper-bag-size-handles-load-check"
+  },
   "MTT-R0105": {
     "answer": [
       "A shoulder-neck presentation box for a face cream jar, with a separate lid and a central insert position. The illustrated design is a reference; dimensions and the insert are developed around the actual jar.",
