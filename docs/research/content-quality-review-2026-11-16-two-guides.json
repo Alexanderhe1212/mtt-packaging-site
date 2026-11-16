@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "perfume-discovery-set-packout-scent-identification",
+    "primaryQuery": "Perfume Discovery Set Pack-Out: Keep Scent Names and Vials Matched",
+    "searchEvidence": "Distinct buyer problem connected to existing fragrance and magnetic box keyword map; search volume unverified.",
+    "customerDecision": "Reduce incorrect scent-to-card and vial-to-position matching",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Distinct decision from existing general buying and box construction guides.",
+      "Design image is a reference, not proof of customer work or testing.",
+      "Hypothetical example is labelled and sources distinguish general guidance from project evidence."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ref.gs1.org/guidelines/2d-in-retail/1.1.0/"
+    ]
+  },
+  {
+    "slug": "magnetic-gift-box-lid-not-closing-sample-checks",
+    "primaryQuery": "Magnetic Gift Box Lid Not Closing Flush? A Sample Troubleshooting Guide",
+    "searchEvidence": "Distinct buyer problem connected to existing fragrance and magnetic box keyword map; search volume unverified.",
+    "customerDecision": "Diagnose loaded and unloaded magnetic lid fit before changing components",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Distinct decision from existing general buying and box construction guides.",
+      "Design image is a reference, not proof of customer work or testing.",
+      "Hypothetical example is labelled and sources distinguish general guidance from project evidence."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.supermagnete.de/eng/faq/What-factors-affect-the-adhesive-force-and-strength-of-a-magnet"
+    ]
+  }
+]

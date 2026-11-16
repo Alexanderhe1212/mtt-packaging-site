@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "perfume-discovery-set-packout-scent-identification",
+    "number": "95",
+    "angle": "Fragrance Procurement",
+    "image": "/products/mtt-r0104-0.webp",
+    "imageAlt": "Six-vial discovery set box design reference with individual channels",
+    "title": "Perfume Discovery Set Pack-Out: Keep Scent Names and Vials Matched",
+    "seoTitle": "Perfume Discovery Set Pack-Out Checklist | MTT",
+    "summary": "Plan vial identification, insert positions and card revisions before a fragrance discovery set is packed.",
+    "intro": "We start a perfume discovery set by laying the filled vials beside the scent card. If two labels look alike, the person packing the set needs a reliable way to match each vial to its position, and the customer needs to identify it after removal. Agree the identification system, physical layout and pack-out checks before approving the final box and artwork.",
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "faq": [],
+    "cta": "Send your vial list, capped dimensions, scent names, card artwork, quantity by design and packing location. MTT can review the packaging brief for projects from 1,000 boxes per design.",
+    "sections": [
+      [
+        "Separate the three pieces of information",
+        "<p>A set can carry a fragrance name on the vial, beside its cavity and on a separate scent card. Decide what the customer sees while the vial is in the tray and what remains identifiable after it is removed. A number on the tray cannot identify an unmarked vial once several vials are outside the box.</p><p>We would ask the brand to approve one master list linking each scent name, item code, tray position and card description. The <a href=\"/products/perfume-discovery-library-double-door\">six-channel double-door box</a> is a design reference for discussing positions, not evidence of a particular customer packing operation.</p>"
+      ],
+      [
+        "Give the packer a position map",
+        "<p>Define a fixed orientation: for example, doors open toward the operator and position 1 begins at the left. Number the drawing in the same direction as the physical tray. Document which vials, insert and card belong to each set version; a visual colour cue can help but should not be the only identification method when colours or lighting are similar.</p><p><strong>Illustrative scenario:</strong> a six-vial collection is offered in two combinations that share four scents. The outer boxes look identical but the last two positions and cards differ. Keep separate packing maps and version identifiers; trial each combination before approving production. This is an example, not an MTT customer order.</p>"
+      ],
+      [
+        "Test readability on the actual assembled set",
+        "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Vial identification review\" tabindex=\"0\"><table><caption>Sample-stage identification checks</caption><thead><tr><th scope=\"col\">Point in use</th><th scope=\"col\">Question to answer</th><th scope=\"col\">Record</th></tr></thead><tbody><tr><td>Before loading</td><td>Can the packer distinguish similar vials and version labels?</td><td>Approved component list</td></tr><tr><td>In the tray</td><td>Are names or position numbers visible without turning the vial?</td><td>Loaded sample photo and orientation</td></tr><tr><td>After removal</td><td>Can each vial still be identified and returned?</td><td>Label and card revision</td></tr><tr><td>At dispatch</td><td>Does the outer identifier match the set inside?</td><td>Version and pack-out record</td></tr></tbody></table></div><p>If barcode or QR identification is part of the agreed system, test the printed symbol on the finished material in the actual position. GS1 notes that contrast, quiet zones, surface curvature and sheen can affect scanning.<sup><a href=\"#source-1\">[1]</a></sup> A successful phone scan alone is not a formal barcode verification grade.</p>"
+      ],
+      [
+        "Check fit without hiding the identification",
+        "<p>The vial, label and cap must be represented in the structural sample. A tight opening can conceal a name or rub a label when a vial is removed. Check access to each vial without relying on the cap as the only grip, and keep the card from pressing on closures when the lid shuts. Compare the initial layout in the <a href=\"/insights/perfume-discovery-set-packaging\">discovery set design guide</a>.</p>"
+      ],
+      [
+        "Ask for a comparable production brief",
+        "<p>State who supplies and fills the vials, who applies labels and who packs the set. Quote the box, insert, card, version changes, sampling and shipping separately. A shared outer box may still require separate inserts or cards. Confirm the exact component revisions and quantities for each design, starting at 1,000 boxes per design. Review <a href=\"/packaging/custom-perfume-discovery-set-boxes\">discovery set box formats</a> before selecting the opening.</p>"
+      ],
+      [
+        "Sources",
+        "<ol><li id=\"source-1\"><a href=\"https://ref.gs1.org/guidelines/2d-in-retail/1.1.0/\">GS1: 2D barcodes in retail, print and placement considerations</a>, accessed 16 November 2026.</li></ol>"
+      ]
+    ]
+  },
+  {
+    "slug": "magnetic-gift-box-lid-not-closing-sample-checks",
+    "number": "96",
+    "angle": "Rigid Box Engineering",
+    "image": "/products/mtt-r0103-0.webp",
+    "imageAlt": "Magnetic skincare gift box design reference with a hinged lid",
+    "title": "Magnetic Gift Box Lid Not Closing Flush? A Sample Troubleshooting Guide",
+    "seoTitle": "Magnetic Box Lid Not Closing: Sample Checks | MTT",
+    "summary": "Diagnose a magnetic rigid box lid that lifts, catches or closes unevenly using the finished loaded sample.",
+    "intro": "We close the magnetic gift box with the intended insert and filled products in place. If the lid stands proud or one corner lifts, we first look for physical interference and alignment before changing the magnets. Compare the empty and loaded sample, inspect the hinge and wrapped surfaces, and record the configuration so the converter can investigate the right cause.",
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "faq": [],
+    "cta": "Send the box drawing, filled product dimensions, insert layout, closure photos and quantity per design. MTT can review a magnetic-box sample brief for orders from 1,000 pieces per design.",
+    "sections": [
+      [
+        "First separate loaded interference from shell geometry",
+        "<p>Close the empty shell on a flat surface, then add the insert, product and card one at a time. Note when the lid changes position. A tall pump, raised insert edge or folded leaflet can touch the lid before the closure faces meet. If the empty shell also sits unevenly, inspect hinge movement, panel shape and the wrapped edges. Do not press a sample flat and treat that as approval.</p><p>The <a href=\"/products/skincare-ritual-book\">skincare book-style box</a> shows a hinged presentation layout. It is a design reference, not evidence that any other product fits or that its closure has been tested.</p>"
+      ],
+      [
+        "Read the symptom without assuming a single cause",
+        "<div class=\"article-table-scroll\" role=\"region\" aria-label=\"Magnetic box troubleshooting\" tabindex=\"0\"><table><caption>What to compare on the finished sample</caption><thead><tr><th scope=\"col\">Observation</th><th scope=\"col\">Investigate</th><th scope=\"col\">Next comparison</th></tr></thead><tbody><tr><td>Only loaded box lifts</td><td>Product or insert contact with lid</td><td>Add components one at a time</td></tr><tr><td>One corner lifts when empty</td><td>Hinge, panel, wrap or closure position</td><td>Compare a second finished sample</td></tr><tr><td>Lid shifts sideways</td><td>Closure alignment and hinge position</td><td>Mark positions on approved drawing</td></tr><tr><td>Closure weak through finish</td><td>Magnet pairing, intervening layers and geometry</td><td>Compare complete finished constructions</td></tr></tbody></table></div><p>These are investigation routes, not proof of a root cause. Humidity, materials and production variation also need project-specific review.</p>"
+      ],
+      [
+        "Why the finished material stack matters",
+        "<p>Magnet performance depends on the actual pairing and separation. The magnet supplier Supermagnete explains that attractive force drops as separation increases and that surface conditions matter.<sup><a href=\"#source-1\">[1]</a></sup> In a wrapped box, the board recess, cover, lining and alignment all form part of the finished construction to review. Its published measurements are not specifications or test results for an MTT box.</p><p>Ask the converter to identify the closure arrangement and drawing revision. Compare alternatives on finished samples with the same wrap, insert and contents; a stronger magnet can change opening feel and does not fix a product physically pushing the lid away.</p>"
+      ],
+      [
+        "Make acceptance observable",
+        "<p>Agree which orientation, contents and surface are used when checking closure. Record edge alignment, visible lifting, opening and closing feel, and any movement after normal handling. Ask the responsible parties to define a project-specific method and acceptance range; there is no universal lid gap or magnet force stated here. Compare several representative samples where feasible and keep any measurements with their sample IDs.</p><p><strong>Illustrative example:</strong> if an empty sample closes normally but lifts only when a serum with its dropper is installed, measure the complete closed product and lid clearance before changing the magnets. This is an engineering example, not a reported customer defect.</p>"
+      ],
+      [
+        "Confirm the complete delivery scope",
+        "<p>Provide the filled products, artwork and insert revision, quantity per design and destination. Ask what is included in shell, insert, magnet, sampling and tooling charges. If the box will be shipped as a filled set, agree the outer packaging and distribution test separately: a magnetic snap is not a shipping certification. See the <a href=\"/insights/book-style-magnetic-box-design\">book-style construction guide</a> and <a href=\"/insights/skincare-gift-box-change-retest-checklist\">change and retest checklist</a>.</p>"
+      ],
+      [
+        "Sources",
+        "<ol><li id=\"source-1\"><a href=\"https://www.supermagnete.de/eng/faq/What-factors-affect-the-adhesive-force-and-strength-of-a-magnet\">Supermagnete: factors affecting magnetic holding force</a>, accessed 16 November 2026.</li></ol>"
+      ]
+    ]
+  }
+]
