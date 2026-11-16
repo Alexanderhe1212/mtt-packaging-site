@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "face-cream-jar-shoulder-neck-box-fit-checklist",
+    "primaryQuery": "Face Cream Jar Shoulder-Neck Box: Lid Fit and Jar Removal",
+    "searchEvidence": "Candidate buyer phrase related to existing MTT product keyword map; search volume not verified.",
+    "customerDecision": "Approve lid fit and safe jar removal for the mapped shoulder-neck jar design",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Existing image is identified as a design reference; no fabricated project or test.",
+      "The hypothetical example is labelled and authoritative source is linked.",
+      "Focused decision differs from broader existing structure and bag planning guides."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/docs/2020_ISTA_Guidelines.pdf"
+    ]
+  },
+  {
+    "slug": "perfume-gift-bag-handle-base-load-checks",
+    "primaryQuery": "Perfume Gift Bag Handles: Check the Loaded Box, Anchors and Base",
+    "searchEvidence": "Candidate buyer phrase related to existing MTT product keyword map; search volume not verified.",
+    "customerDecision": "Specify and evaluate a loaded matching perfume gift bag",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Existing image is identified as a design reference; no fabricated project or test.",
+      "The hypothetical example is labelled and authoritative source is linked.",
+      "Focused decision differs from broader existing structure and bag planning guides."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.eurosac.org/fileadmin/pdf/eurosac_publications/2023_01_Industry_Guidelines_HQ_paper_bags.pdf"
+    ]
+  }
+]

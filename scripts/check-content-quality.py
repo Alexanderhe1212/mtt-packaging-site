@@ -123,6 +123,8 @@ for guide in json.loads(Path('lib/buyer-guides-november-14.json').read_text()):u
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-14.json').read_text())
 for guide in json.loads(Path('lib/buyer-guides-november-16.json').read_text()):updates[guide['slug']]=guide
 for guide in json.loads(Path('lib/buyer-guides-november-16b.json').read_text()):updates[guide['slug']]=guide
+for guide in json.loads(Path('lib/buyer-guides-november-16c.json').read_text()):updates[guide['slug']]=guide
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-16-shoulder-bag.json').read_text())
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-16-two-guides.json').read_text())
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-16-skincare.json').read_text())
 for guide in json.loads(Path('lib/buyer-guides-november-15.json').read_text()):updates[guide['slug']]=guide

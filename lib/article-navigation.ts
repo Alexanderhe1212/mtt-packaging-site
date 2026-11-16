@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['face-cream-jar-shoulder-neck-box-fit-checklist','two-piece-rigid-box-lid-fit','skincare-jar-serum-gift-box-insert-fit','custom-packaging-sampling-process'],products:['face-cream-presentation-shoulder','skincare-ritual-book','single-jar-wellness-gift-round']},
+  {articles:['perfume-gift-bag-handle-base-load-checks','perfume-box-and-bag-packaging','paper-bag-size-handles-load-check','custom-packaging-sampling-process'],products:['signature-perfume-lift-off','custom-beauty-discovery-set-cord-bag','travel-fragrance-trio-drawer']},
   {articles:['perfume-discovery-set-packout-scent-identification','perfume-discovery-set-packaging','qr-code-on-packaging-print-test','custom-packaging-sampling-process'],products:['perfume-discovery-library-double-door','travel-fragrance-trio-drawer','travel-fragrance-collapsible-magnetic-rigid-box']},
   {articles:['magnetic-gift-box-lid-not-closing-sample-checks','book-style-magnetic-box-design','skincare-gift-box-change-retest-checklist','custom-packaging-sampling-process'],products:['skincare-ritual-book','chocolate-selection-book','skincare-ritual-collapsible-magnetic-rigid-box']},
   {articles:['skincare-gift-box-change-retest-checklist','skincare-jar-serum-gift-box-insert-fit','cosmetic-gift-box-paperboard-dividers','cosmetic-pump-bottle-gift-box-clearance','custom-packaging-sampling-process'],products:['skincare-ritual-book','skincare-ritual-collapsible-magnetic-rigid-box','custom-skincare-duo-auto-bottom']},
