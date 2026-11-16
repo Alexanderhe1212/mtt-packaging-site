@@ -106,7 +106,7 @@
     "angle": "Process",
     "title": "Packaging Sample Approval: An MTT Drawer Box Checklist",
     "summary": "Use a real MTT 24-truffle box quotation to build a packaging sample approval checklist for fit, liners, artwork and written production release.",
-    "intro": "A custom packaging sample approval checklist should identify the exact sample, the contents used for checking, the approved specification and every unresolved item. In an MTT quotation for a 24-truffle drawer box, the external size was recorded as 220 \u00d7 160 \u00d7 30 mm, but insert fit, liners, drawer clearance and decoration still needed approval. Those open decisions belong on the release record before production is authorized.",
+    "intro": "A custom packaging sample approval checklist should identify the exact sample, the contents used for checking, the approved specification and every unresolved item. In an MTT quotation for a 24-truffle drawer box, the external size was recorded as 220 × 160 × 30 mm, but insert fit, liners, drawer clearance and decoration still needed approval. Those open decisions belong on the release record before production is authorized.",
     "dateModified": "2026-10-28",
     "faq": [],
     "sections": [
@@ -116,7 +116,7 @@
       ],
       [
         "Build the sample approval checklist from the open decisions",
-        "<p>The checklist below is an editorial review plan derived from that quotation. Its final column states the evidence to request, not a result already obtained.</p><div class=\"knowledge-table-wrap\"><table class=\"knowledge-table\"><caption>Review plan for the quoted 24-truffle drawer box</caption><thead><tr><th scope=\"col\">Decision</th><th scope=\"col\">Recorded scope</th><th scope=\"col\">Evidence needed before release</th></tr></thead><tbody><tr><th scope=\"row\">Product fit</th><td>24 truffles; 220 \u00d7 160 \u00d7 30 mm outside</td><td>Loaded sample with agreed truffle dimensions and liners; usable space checked</td></tr><tr><th scope=\"row\">Insert and liners</th><td>Paperboard insert; grade and cavities pending</td><td>Identified insert specification and approved liner or barrier arrangement</td></tr><tr><th scope=\"row\">Drawer opening</th><td>Sleeve, tray and fabric pull</td><td>Loaded opening and removal checks; approved pull attachment</td></tr><tr><th scope=\"row\">Appearance</th><td>Gloss laminate; gold foil and emboss</td><td>Physical appearance reference linked to the artwork revision</td></tr><tr><th scope=\"row\">Production release</th><td>Approval required before production</td><td>Dated written release identifying sample, revisions and resolved changes</td></tr></tbody></table></div><p>Assign a reviewer to each open item. If the product team changes a liner while the design team approves the artwork, the packer still needs to check the combined assembly.</p>"
+        "<p>The checklist below is an editorial review plan derived from that quotation. Its final column states the evidence to request, not a result already obtained.</p><div class=\"knowledge-table-wrap\"><table class=\"knowledge-table\"><caption>Review plan for the quoted 24-truffle drawer box</caption><thead><tr><th scope=\"col\">Decision</th><th scope=\"col\">Recorded scope</th><th scope=\"col\">Evidence needed before release</th></tr></thead><tbody><tr><th scope=\"row\">Product fit</th><td>24 truffles; 220 × 160 × 30 mm outside</td><td>Loaded sample with agreed truffle dimensions and liners; usable space checked</td></tr><tr><th scope=\"row\">Insert and liners</th><td>Paperboard insert; grade and cavities pending</td><td>Identified insert specification and approved liner or barrier arrangement</td></tr><tr><th scope=\"row\">Drawer opening</th><td>Sleeve, tray and fabric pull</td><td>Loaded opening and removal checks; approved pull attachment</td></tr><tr><th scope=\"row\">Appearance</th><td>Gloss laminate; gold foil and emboss</td><td>Physical appearance reference linked to the artwork revision</td></tr><tr><th scope=\"row\">Production release</th><td>Approval required before production</td><td>Dated written release identifying sample, revisions and resolved changes</td></tr></tbody></table></div><p>Assign a reviewer to each open item. If the product team changes a liner while the design team approves the artwork, the packer still needs to check the combined assembly.</p>"
       ],
       [
         "Check a fully loaded sample before signing off the outside size",
@@ -409,8 +409,8 @@
     "angle": "Design Analysis",
     "title": "Custom Wine Gift Boxes: Double-Door Structure, Inserts and Sample Checks",
     "summary": "A twin-bottle packaging design review: compare double-door and lift-off boxes, plan bottle removal, specify matching bags and prepare a comparable supplier quote.",
-    "intro": "A double-door wine gift box is worth considering when the opening should reveal the bottles together. Before choosing it, check bottle removal, loaded stability, door travel and the central seam. Size any matching bag from the finished outer box. The presentation shell still needs an assessed transport arrangement; door style alone does not establish protection.",
-    "dateModified": "2026-09-15",
+    "intro": "We start a double-door wine gift box by imagining the recipient opening both doors and reaching for the first bottle. Before settling on that presentation, we would check how the filled bottles lift out, whether the loaded box remains stable and how the doors meet. A matching bag is sized from the finished box, while shipping protection needs a separate review of the complete packed set.",
+    "dateModified": "2026-11-16",
     "sections": [
       [
         "The decision: opening experience or simpler access?",
@@ -450,8 +450,8 @@
     "angle": "Design Analysis",
     "title": "Christmas Gift Box Packaging: Four-Drawer Design and Pack-Out Checklist",
     "summary": "Review a four-drawer Christmas gift box for mixed gifts: compartment sizing, loading order, ribbon access, artwork versions and the details needed for a supplier quote.",
-    "intro": "For a multi-drawer Christmas gift box, start with the contents and packing map rather than identical cavities. Each drawer needs usable access, appropriate support and a clear place in the sequence. Trial the loaded cabinet with the packing team. Shared exterior decoration can coexist with different interior layouts, but every gift combination must remain identifiable during packing.",
-    "dateModified": "2026-11-08",
+    "intro": "We begin a four-drawer Christmas gift box with a simple packing question: what goes into each drawer, and what will the recipient find when they pull it open? Different gifts may need different support even when the drawer fronts look identical. We would map the contents, access and loading order, then ask the packing team to review a representative filled sample before the layout is approved.",
+    "dateModified": "2026-11-16",
     "sections": [
       [
         "Start with four gift groups, not four identical-looking cavities",
