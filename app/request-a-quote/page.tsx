@@ -131,21 +131,21 @@ export default function RequestAQuotePage() {
               <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Full Name <span style={{ color: "#cc4444" }}>*</span></span>
-                  <input name="name" autoComplete="name" type="text" required placeholder="Your name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="name" autoComplete="name" type="text" required placeholder="Your name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Business Email <span style={{ color: "#cc4444" }}>*</span></span>
-                  <input name="email" autoComplete="email" type="email" required placeholder="you@company.com" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="email" autoComplete="email" type="email" required placeholder="you@company.com" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
               </div>
               <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Company / Brand</span>
-                  <input name="company" autoComplete="organization" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="company" autoComplete="organization" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Country <span style={{ color: "#cc4444" }}>*</span></span>
-                  <input name="country" autoComplete="country-name" type="text" required placeholder="e.g. United States" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="country" autoComplete="country-name" type="text" required placeholder="e.g. United States" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
               </div>
             </fieldset>
@@ -157,7 +157,7 @@ export default function RequestAQuotePage() {
               <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Packaging Type <span style={{ color: "#cc4444" }}>*</span></span>
-                  <select name="packagingType" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
+                  <select name="packagingType" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", cursor: "pointer" }}>
                     <option value="">Select type</option>
                     <option value="Rigid Box">Rigid Box</option>
                     <option value="Magnetic Closure Box">Magnetic Closure Box</option>
@@ -174,7 +174,7 @@ export default function RequestAQuotePage() {
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Estimated Quantity <span style={{ color: "#cc4444" }}>*</span></span>
-                  <select name="quantity" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", cursor: "pointer" }}>
+                  <select name="quantity" required style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", cursor: "pointer" }}>
                     <option value="">Select quantity</option>
                     <option value="Not sure - planning stage">Not sure yet — planning stage</option>
                     <option value="1,000-2,999">1,000–2,999</option>
@@ -187,11 +187,11 @@ export default function RequestAQuotePage() {
               <div className="rfq-grid-2">
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Finished Internal Box Dimensions (L × W × H)</span>
-                  <input name="boxDimensions" type="text" placeholder="e.g. 200 × 150 × 80 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="boxDimensions" type="text" placeholder="e.g. 200 × 150 × 80 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                   <span>Product Dimensions</span>
-                  <input name="productDimensions" type="text" placeholder="e.g. 180 × 130 × 60 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none" }} />
+                  <input name="productDimensions" type="text" placeholder="e.g. 180 × 130 × 60 mm" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
               </div>
             </fieldset>
@@ -205,7 +205,7 @@ export default function RequestAQuotePage() {
               </legend>
               <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Message / Project Details</span>
-                <textarea name="message" rows={5} placeholder="Describe your packaging project: materials, finishes, insert requirements, target delivery date, budget range." style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", outline: "none", resize: "vertical" }} />
+                <textarea name="message" rows={5} placeholder="Describe your packaging project: materials, finishes, insert requirements, target delivery date, budget range." style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", resize: "vertical" }} />
               </label>
               <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Reference image or artwork link (optional)</span>

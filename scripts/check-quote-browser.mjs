@@ -27,6 +27,13 @@ const key=fs.readFileSync('lib/box-calculator.ts','utf8').match(/CALC_HANDOFF_KE
 try{
  await page.setViewport({width:390,height:844});
  await page.goto(base+'/request-a-quote/',{waitUntil:'networkidle0'});
+ // Keyboard users need a visible focus indicator on each primary quote field.
+ for (const name of ['name','email','company','country','packagingType','quantity','boxDimensions','productDimensions','message']) {
+  await page.focus(`[name=${name}]`);
+  const visible=await page.$eval(`[name=${name}]`,e=>{const s=getComputedStyle(e);return (s.outlineStyle!=='none' && parseFloat(s.outlineWidth)>0)||s.boxShadow!=='none'});
+  assert(visible,`keyboard focus indicator missing on ${name}`);
+ }
+ measurements.length=0;
  // Corrupt or empty calculator storage must not block an otherwise usable quote form.
  for(const raw of ['', 'null', '{broken']){
   await page.evaluate((key,raw)=>sessionStorage.setItem(key,raw),key,raw);
