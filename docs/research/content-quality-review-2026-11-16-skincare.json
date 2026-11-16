@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "skincare-jar-serum-gift-box-insert-fit",
+    "primaryQuery": "cream jar and serum gift box insert",
+    "searchEvidence": "Proposed buyer phrase, search volume and page-level ranking not verified. Existing MTT keyword map includes custom skincare set packaging and skincare ritual collapsible rigid box.",
+    "customerDecision": "Approve support and removal for a mixed jar and serum set",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Product images are design references; no invented customer case or tests.",
+      "ISTA supports testing the complete packaged product; comparative dimensions are explicitly illustrative.",
+      "Distinct from existing pump-only and fold-flat assembly guides."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php"
+    ]
+  },
+  {
+    "slug": "skincare-gift-box-1000-units-flat-vs-assembled",
+    "primaryQuery": "1000 skincare gift boxes fold flat vs assembled",
+    "searchEvidence": "Proposed buyer phrase, search volume and page-level ranking not verified. Existing MTT keyword map includes custom skincare set packaging and skincare ritual collapsible rigid box.",
+    "customerDecision": "Compare two 1000-unit packing and assembly scenarios",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Product images are design references; no invented customer case or tests.",
+      "ISTA supports testing the complete packaged product; comparative dimensions are explicitly illustrative.",
+      "Distinct from existing pump-only and fold-flat assembly guides."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php"
+    ]
+  }
+]

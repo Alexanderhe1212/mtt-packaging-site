@@ -613,3 +613,6 @@ body:has(.hugo-widget),body:has(.chatbot-open){padding-bottom:80px}
 /* Keep consent choices accessible without covering the mobile shopping view. */
 @media(max-width:700px){.cookie-banner{gap:10px;padding:14px 16px;max-height:80dvh;overflow-y:auto}.cookie-banner-text p{font-size:12px;line-height:1.45}.cookie-banner-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.cookie-banner-actions .cookie-btn{padding:10px 8px;min-height:44px;font-size:12px}.cookie-banner-actions .cookie-btn-manage{grid-column:1/-1;min-height:36px;padding:6px}.cookie-banner-text b{margin-bottom:4px}}
 .product-quote-checklist{border-block:1px solid var(--line);margin:24px 0;padding:16px 0}.product-quote-checklist>summary{cursor:pointer;font-weight:600;min-height:44px;display:list-item}.product-quote-checklist>summary:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+
+.product-accessories img {width:96px;height:96px;object-fit:cover;border-radius:6px;background:#f7f0e7;flex:none;}
+.product-accessories label:focus-within {outline:2px solid #344b3e;outline-offset:2px;}
