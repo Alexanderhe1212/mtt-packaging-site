@@ -28,3 +28,11 @@ console.log(`${products.length} responsive catalogue images prepared.`);
 // Small navigation marks retain the full-size source for larger placements.
 await fs.mkdir('public/brand/responsive',{recursive:true});
 for(const width of [54,108])await sharp(await fs.readFile('public/brand/mtt-gold-triangle.webp')).resize(width,width).webp({quality:88}).toFile(`public/brand/responsive/mtt-gold-triangle-${width}.webp`);
+
+// Accessory choice cards display at 96 CSS pixels; 288px retains detail on 3x screens.
+await fs.mkdir('public/accessories/responsive',{recursive:true});
+for(const name of ['bag','card','cloth','pouch','ribbon','sleeve','tag','tissue']){
+ const input=await fs.readFile(`public/accessories/${name}.jpg`);
+ await sharp(input).resize({width:288,height:288,fit:'inside',withoutEnlargement:true}).webp({quality:82}).toFile(`public/accessories/responsive/${name}.webp`);
+}
+console.log('8 responsive accessory previews prepared; originals preserved.');
