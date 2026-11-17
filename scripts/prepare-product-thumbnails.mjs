@@ -3,7 +3,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-const products=(await Promise.all(['lib/products.json','lib/products-expanded.json','lib/products-november-17.json'].map(async p=>JSON.parse(await fs.readFile(p,'utf8'))))).flat();
+const products=(await Promise.all(['lib/products.json','lib/products-expanded.json','lib/products-november-17.json','lib/products-november-18.json'].map(async p=>JSON.parse(await fs.readFile(p,'utf8'))))).flat();
 await fs.mkdir('public/products/thumbs',{recursive:true});
 let count=0;
 for(const p of products) for(let view=0;view<(p.conceptSingleView?1:p.structure==='fold-flat'?6:5);view++){

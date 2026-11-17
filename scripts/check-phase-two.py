@@ -21,7 +21,7 @@ class Page(HTMLParser):
         else:self.text.append(text)
 root=Path('dist/client')
 guides=json.loads(Path('lib/product-buyer-guides.json').read_text())
-products=json.loads(Path('lib/products.json').read_text())+json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())
+products=json.loads(Path('lib/products.json').read_text())+json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())+json.loads(Path('lib/products-november-18.json').read_text())
 updates=json.loads(Path('lib/buyer-article-updates.json').read_text())
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 sm={e.find('s:loc',ns).text:(e.find('s:lastmod',ns).text if e.find('s:lastmod',ns) is not None else None) for e in ET.parse(root/'sitemap.xml').getroot()}

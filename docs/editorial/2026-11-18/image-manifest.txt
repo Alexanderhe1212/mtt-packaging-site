@@ -1,0 +1,22 @@
+mtt-r1301 1 exec-4c9b4031-3026-4331-a146-1a2d3368a236.png
+mtt-r1301 2 exec-9c60df45-88ea-4569-84d8-f9dc970a75ce.png
+mtt-r1301 3 exec-40564738-6b59-485c-92e3-4bf7518a58cf.png
+mtt-r1301 4 exec-95a748f1-5a58-42ab-ad12-e1d4413839ef.png
+mtt-r1302 1 exec-162b89c5-003c-499d-9513-c6573d2bf571.png
+mtt-r1302 2 exec-e98d1134-4ef7-406f-a7e8-c5b11d13d1e6.png
+mtt-r1302 3 exec-acecb5ac-b7ce-4348-84d2-b43d6890b1f8.png
+mtt-r1302 4 exec-ef4f267c-239c-469f-afb5-b0f58fd90cc3.png
+mtt-r1303 0 exec-c2b332b1-da68-478c-bc7f-65b946f783e0.png
+mtt-r1303 1 exec-17f33d10-16ad-4056-aad2-ecfd3e9adecd.png
+mtt-r1303 2 exec-c57fb762-e3dc-4a20-b030-d7079cb5c449.png
+mtt-r1303 3 exec-49c8c358-c232-45e4-a250-79b633252dcc.png
+mtt-r1303 4 exec-65c4d876-716c-4fb3-bca6-b3897054a1a0.png
+mtt-c0131 0 exec-a84e21d7-f292-4606-9757-c44dab1f759e.png
+mtt-c0131 1 exec-256173e1-5cde-4db9-98b0-8afdf8d10789.png
+mtt-c0131 2 exec-3dbdac25-06bd-4810-bebe-5ae68e7460c0.png
+mtt-c0131 3 exec-a5e7cbfd-3b11-4f90-a1a8-05d4ccaff0e8.png
+mtt-c0131 4 exec-507bba11-c402-42c9-bc0d-91e252954215.png
+
+Visual review: all are AI-generated references, not photographs of production samples. Four-vial drawer uses the four-vial close view; a generated six-vial variant was rejected. A jewellery rear view showing an unconfirmed metal hinge was rejected and replaced with the paper-hinge concept. Confirm all dimensions, materials, finish and real product fit by physical sampling. Accessory previews are separate reference images, not a composited picture of the actual assembled set.
+
+Second 6-vial side concept reviewed and substituted: exec-5d2c80f9-a0ef-40d1-a6bd-7ad30dfc1534.png
