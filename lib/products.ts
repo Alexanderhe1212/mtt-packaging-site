@@ -1,7 +1,8 @@
 import records from './products.json';
 import expanded from './products-expanded.json';
-export const products=[...records,...expanded];
-export type PackagingProduct=typeof records[number];
+import concepts from './products-november-17.json';
+export type PackagingProduct=typeof records[number] & {conceptSingleView?:boolean};
+export const products: PackagingProduct[]=[...records,...expanded,...concepts];
 export const productBySlug=(slug:string)=>products.find(p=>p.slug===slug);
 export const categories=[...new Map(products.map(p=>[p.category,{id:p.category,en:p.categoryName,zh:p.categoryZh}])).values()];
 export const structures=[...new Map(products.map(p=>[p.structure,{id:p.structure,en:p.structure==='stacked-drawers'?'Multi-drawer box':p.structure==='tuck'?'Tuck-end carton':p.structure==='mailer'?'Roll-end mailer':p.structureName,zh:p.structure==='stacked-drawers'?'多抽屉盒':p.structure==='tuck'?'插口卡纸盒':p.structure==='mailer'?'飞机盒':p.structureZh}])).values()];

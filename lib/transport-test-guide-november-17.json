@@ -1,0 +1,41 @@
+{
+  "slug": "gift-box-transit-test-plan-acceptance-criteria",
+  "number": "99",
+  "angle": "Distribution Testing",
+  "image": "/products/mtt-r0101-0.webp",
+  "imageAlt": "Illustrative perfume presentation box design reference; transport pack and test configuration are project-specific",
+  "title": "Gift Box Transit Testing: What to Agree Before a Lab Test",
+  "seoTitle": "Gift Box Transit Test Plan and Criteria | MTT",
+  "summary": "Prepare a complete packaged-product test brief, distribution scenario and acceptance criteria before selecting a laboratory procedure.",
+  "intro": "A perfect presentation sample does not establish how the filled product and its outer pack will perform during distribution. Define the complete test specimen, intended route, inspection method and acceptable damage with the brand and laboratory before testing. Record the exact configuration so a later change can be evaluated against it.",
+  "datePublished": "2026-11-17",
+  "dateModified": "2026-11-17",
+  "faq": [],
+  "cta": "Send the capped product dimensions, filled weight, expected packing route and destination, and quantity per design. MTT can review a packaging brief for projects from 1,000 boxes per design.",
+  "sections": [
+    [
+      "Start with the shipment, not the presentation box alone",
+      "<p>Imagine a brand ordering 1,000 perfume gift boxes per design. The bottle is filled and labelled at one site, placed into a fitted insert at another and later sent to consumers by parcel. The visual sample was approved with an empty bottle; the shipping test needs a representative filled product or an agreed substitute. This is an illustrative scenario, not an MTT customer project.</p><p>List the components in the order they are packed: bottle and closure, label or decoration, insert, presentation box, protective layers and outer shipping carton. Note which parts are production-equivalent and which are substitutes. Record each component's version, dimensions, mass and orientation; photograph the assembled sample before it is sealed. An attractive empty box cannot establish the protection offered by a fully loaded pack.</p>"
+    ],
+    [
+      "Choose the distribution scenario before the procedure",
+      "<p>A carton of multiple gift sets shipped on a pallet and a single set sent through a parcel network face different handling sequences. Tell the laboratory the shipment configuration, intended route, handling method and number of packages. Provide the destination and channel without assuming that one standard automatically represents every shipment.</p><p>ISTA distinguishes non-simulation screening procedures from general simulations and enhanced simulations. A screening procedure can be useful during development, but its choice and interpretation depend on the problem being assessed. Ask the laboratory to explain why a procedure fits the actual distribution scenario rather than treating a test name as a universal guarantee.<sup><a href=\"#source-1\">[1]</a></sup></p>"
+    ],
+    [
+      "Define acceptable results before sending samples",
+      "<p>The brand, packer and other parties should agree what will be checked and what outcome is acceptable. ISTA states that pass/fail determinations depend on the product, package, distribution system and other factors, and should be agreed among the parties concerned.<sup><a href=\"#source-2\">[2]</a></sup></p><div class=\"article-table-scroll\" role=\"region\" aria-label=\"Test acceptance criteria\" tabindex=\"0\"><table><caption>Agree acceptance criteria before testing</caption></table></div><p>These are questions for a project-specific specification, not default tolerances. For a scented glass bottle, agree how leakage and spray function will be inspected and who has authority to assess the filled product.</p>"
+    ],
+    [
+      "Control changes after a test",
+      "<p>Keep the report together with the component list, drawings and photographs. If the bottle shape, filled weight, insert, board grade, closure, carton or packing sequence changes, compare the new configuration with the tested specimen. The responsible brand and laboratory should decide whether additional assessment is needed; a previous report does not automatically validate a changed pack.</p><p>ISTA describes its procedures as tests of a specific packaged product, rather than certification of an individual packaging material.<sup><a href=\"#source-3\">[3]</a></sup> For example, an insert material's supplier data does not certify a complete perfume kit.</p>"
+    ],
+    [
+      "What to send MTT",
+      "<p>Send the capped product dimensions, filled weight, intended quantity per design, photos of delicate surfaces, proposed insert and box format, packing location, destination and shipping channel. Tell us who will supply the filled products, who chooses the test laboratory and what result your customer needs. MTT can review the packaging brief and prepare a project-specific quotation for orders from 1,000 pieces per design. Confirm laboratory scope and any test costs separately.</p>"
+    ],
+    [
+      "Sources",
+      "<ol><li id=\"source-1\">International Safe Transit Association, <a href=\"https://www.ista.org/test_procedures.php\">Test Procedures</a>, accessed 17 November 2026. Distinguishes screening and simulation procedure families.</li><li id=\"source-2\">International Safe Transit Association, <a href=\"https://support.ista.org/portal/en/kb/articles/who-determines-pass-or-fail-of-testing-results\">Who determines pass or fail?</a>, accessed 17 November 2026.</li><li id=\"source-3\">International Safe Transit Association, <a href=\"https://support.ista.org/portal/en/kb/articles/can-i\">Can I certify an individual packaging material?</a>, accessed 17 November 2026.</li></ol>"
+    ]
+  ]
+}

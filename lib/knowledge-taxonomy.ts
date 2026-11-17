@@ -18,6 +18,8 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "gift-box-transit-test-plan-acceptance-criteria",
+      "ista-screening-vs-distribution-simulation-gift-box",
       "rigid-box-with-window-design",
       "round-rigid-tube-box-fit",
       "magnetic-gift-box-lid-not-closing-sample-checks",
@@ -49,6 +51,8 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "pump-refill-pouch-gift-box-fit-brief",
+      "four-vial-drawer-card-pocket-fit",
       "face-cream-jar-shoulder-neck-box-fit-checklist",
       "perfume-gift-bag-handle-base-load-checks",
       "perfume-discovery-set-packout-scent-identification",
@@ -85,6 +89,7 @@ export const knowledgeTopics = [
     "title": "Materials and finishes",
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
+      "round-packaging-barcode-curvature-review",
       "folding-carton-crease-cracking-sample-review",
       "retail-barcode-placement-gift-boxes",
       "qr-code-on-packaging-print-test",

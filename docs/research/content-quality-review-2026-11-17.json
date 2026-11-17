@@ -1,0 +1,136 @@
+[
+  {
+    "slug": "gift-box-transit-test-plan-acceptance-criteria",
+    "primaryQuery": "Gift Box Transit Testing: What to Agree Before a Lab Test",
+    "searchEvidence": "Buyer-intent candidate related to the existing product and knowledge map; search volume not verified.",
+    "customerDecision": "Prepare a complete packaged-product test brief, distribution scenario and acceptance criteria before selecting a laboratory procedure.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Distinct buyer decision checked against related existing guides and linked to them.",
+      "Product concepts and hypothetical scenarios are identified; no customer outcome or successful test is represented.",
+      "Project-specific sample, procurement and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ista.org/test_procedures.php",
+      "https://support.ista.org/portal/en/kb/articles/who-determines-pass-or-fail-of-testing-results",
+      "https://support.ista.org/portal/en/kb/articles/can-i"
+    ]
+  },
+  {
+    "slug": "pump-refill-pouch-gift-box-fit-brief",
+    "primaryQuery": "Pump Bottle and Refill Pouch Gift Box: Fit Before Artwork",
+    "searchEvidence": "Buyer-intent candidate related to the existing product and knowledge map; search volume not verified.",
+    "customerDecision": "Plan a book-style gift box around the filled pouch, capped pump, insert and information card.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Distinct buyer decision checked against related existing guides and linked to them.",
+      "Product concepts and hypothetical scenarios are identified; no customer outcome or successful test is represented.",
+      "Project-specific sample, procurement and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ista.org/test_procedures.php"
+    ]
+  },
+  {
+    "slug": "four-vial-drawer-card-pocket-fit",
+    "primaryQuery": "Four-Vial Perfume Drawer Box: Size the Card Pocket and Tray",
+    "searchEvidence": "Buyer-intent candidate related to the existing product and knowledge map; search volume not verified.",
+    "customerDecision": "Plan vial channels, card thickness and drawer travel together before approving a fragrance discovery set.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Distinct buyer decision checked against related existing guides and linked to them.",
+      "Product concepts and hypothetical scenarios are identified; no customer outcome or successful test is represented.",
+      "Project-specific sample, procurement and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://support.ista.org/portal/en/kb/articles/can-i"
+    ]
+  },
+  {
+    "slug": "round-packaging-barcode-curvature-review",
+    "primaryQuery": "Barcode on a Round Gift Tube: Review Curvature Before Print",
+    "searchEvidence": "Buyer-intent candidate related to the existing product and knowledge map; search volume not verified.",
+    "customerDecision": "Choose a barcode position and verify the finished curved pack for the intended scanner and retailer.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Distinct buyer decision checked against related existing guides and linked to them.",
+      "Product concepts and hypothetical scenarios are identified; no customer outcome or successful test is represented.",
+      "Project-specific sample, procurement and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ref.gs1.org/standards/genspecs/",
+      "https://ref.gs1.org/guidelines/2d-in-retail/1.1.0/"
+    ]
+  },
+  {
+    "slug": "ista-screening-vs-distribution-simulation-gift-box",
+    "primaryQuery": "Gift Box Testing: Screening or Distribution Simulation?",
+    "searchEvidence": "Buyer-intent candidate related to the existing product and knowledge map; search volume not verified.",
+    "customerDecision": "Compare an early integrity screen and a distribution simulation before selecting a test plan.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Distinct buyer decision checked against related existing guides and linked to them.",
+      "Product concepts and hypothetical scenarios are identified; no customer outcome or successful test is represented.",
+      "Project-specific sample, procurement and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ista.org/test_procedures.php",
+      "https://ista.org/docs/1Aoverview.pdf"
+    ]
+  }
+]
