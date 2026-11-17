@@ -19,7 +19,7 @@ class Page(HTMLParser):
         if tag=='script' and self.ld:self.schemas.append(json.loads(self.data));self.ld=False
 
 root=Path('dist/client')
-products=json.loads(Path('lib/products.json').read_text())+json.loads(Path('lib/products-expanded.json').read_text())
+products=json.loads(Path('lib/products.json').read_text())+json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 dates={n.find('s:loc',ns).text:n.findtext('s:lastmod',None,ns) for n in ET.parse(root/'sitemap.xml').getroot()}
 for p in products:
@@ -29,7 +29,7 @@ for p in products:
         assert not any(n.get('@type')=='Product' for n in nodes),path
         web=next(n for n in nodes if n.get('@type')=='WebPage' and n.get('identifier')==p['code'])
         assert web['url']=='https://mttpackaging.com/'+path,path
-        assert len(web['image'])==(6 if p['structure']=='fold-flat' else 5),path
+        assert len(web['image'])==(1 if p.get('conceptSingleView') else 6 if p['structure']=='fold-flat' else 5),path
         if p['structure']=='fold-flat': assert web['image'][-1].endswith('-5.webp'),path
         assert web['inLanguage']==('zh-Hans' if prefix.startswith('zh') else 'en'),path
         trail=next(n for n in nodes if n.get('@type')=='BreadcrumbList')

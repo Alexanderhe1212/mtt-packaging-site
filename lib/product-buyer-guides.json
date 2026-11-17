@@ -1088,5 +1088,35 @@
       "请提供装液瓶器带盖后的尺寸和重量，以及香薰棒束的长度与厚度。检查瓶身支撑、瓶盖间隙和手指取放空间，确保满载抽匣开合时香薰棒不会移向瓶器。用同一瓶器比较内托结构，并在内托装入后检查抽匣与外套的摩擦。礼盒样品不能证明装液产品的运输保护；须与负责发运方确认完整外包装和运输路线。"
     ],
     "guide": "eva-vs-paperboard-inserts"
+  },
+  "MTT-R1301": {
+    "answer": [
+      "This illustrative hinged presentation box separates a pump bottle, a refill pouch and a card; the insert and closure are designed around your actual products.",
+      "图示书型礼盒分别展示泵瓶、补充袋与卡片位置；内托和闭合结构需按实际产品设计。"
+    ],
+    "selection": [
+      "Choose a hinged presentation when the set should open together. Compare a carton for a different packing or storage requirement, and assess each complete option.",
+      "需要整套打开展示时可考虑书型结构；若包装或仓储方式不同，可与卡纸盒比较完整方案。"
+    ],
+    "review": [
+      "Measure the filled pouch including its spout and the bottle with pump locked. Check safe removal, lid clearance and the complete outer shipping pack.",
+      "测量满装补充袋及其袋嘴、锁定泵头后的瓶器；检查取放、闭盖空间和完整外层运输包装。"
+    ],
+    "guide": "pump-refill-pouch-gift-box-fit-brief"
+  },
+  "MTT-R1302": {
+    "answer": [
+      "This concept displays four capped perfume vials and a separate card stack in a sliding tray; final insert positions follow the actual items.",
+      "图示抽屉盒展示四支带盖试香瓶和独立卡片位；最终内托依据实际产品设计。"
+    ],
+    "selection": [
+      "Choose a drawer for a tray reveal; compare a hinged or double-door format for another opening experience. Test the assembled set before deciding.",
+      "希望整盘抽出时可考虑抽屉结构；也可比较书型或双开门形式，并以实物样品确认。"
+    ],
+    "review": [
+      "Provide capped vial measurements, label positions and full card-stack thickness. Check drawer travel, removal and the packed shipping configuration.",
+      "提供带盖瓶器尺寸、标签位置和整叠卡片厚度，检查抽拉、取放与完整运输包装。"
+    ],
+    "guide": "four-vial-drawer-card-pocket-fit"
   }
 }
