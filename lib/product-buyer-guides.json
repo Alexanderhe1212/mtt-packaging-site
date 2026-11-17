@@ -1118,5 +1118,35 @@
       "提供带盖瓶器尺寸、标签位置和整叠卡片厚度，检查抽拉、取放与完整运输包装。"
     ],
     "guide": "four-vial-drawer-card-pocket-fit"
+  },
+  "MTT-R1303": {
+    "answer": [
+      "This illustrative jewellery box presents a removable earring card; post clearance depends on the actual earrings and backs.",
+      "图示首饰礼盒展示可取出的耳钉卡；针脚空间取决于实际耳钉和耳堵。"
+    ],
+    "selection": [
+      "A hinged box presents the card when opened. Compare a drawer if you prefer a sliding reveal, and check the loaded samples.",
+      "书型盒打开后展示卡片；如需要抽拉方式，可比较抽屉盒并检查装载样品。"
+    ],
+    "review": [
+      "Provide actual post and backing dimensions. Confirm card retention, removal, lid clearance and the complete outer shipping pack.",
+      "提供针脚和耳堵的实际尺寸，确认卡片固定、取放、盒盖间隙及完整运输包装。"
+    ],
+    "guide": "earring-card-post-clearance-gift-box"
+  },
+  "MTT-C0131": {
+    "answer": [
+      "The illustrative paperboard sleeve and tray shows six vial positions and a card space; the insert must be fitted to the actual products.",
+      "图示卡纸套筒抽拉盒展示六支试香瓶位和卡片空间；内托需按实际产品配合。"
+    ],
+    "selection": [
+      "Compare the assembled paperboard sample with a rigid drawer using the same vials, packing scope and destination.",
+      "使用相同瓶器、装配范围和目的地，比较卡纸与硬盒抽屉样品。"
+    ],
+    "review": [
+      "Supply capped vial dimensions and the card stack. Check folded corners, loaded sliding travel, removal and the outer shipping pack.",
+      "提供带盖瓶器尺寸和卡片厚度，检查折角、装载后抽拉、取放及外层运输包装。"
+    ],
+    "guide": "six-vial-paperboard-sleeve-tray-fit"
   }
 }

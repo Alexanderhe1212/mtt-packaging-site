@@ -7,7 +7,7 @@ import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
 const base=process.env.MTT_TEST_ORIGIN||'http://127.0.0.1:4217';
 assert(['localhost','127.0.0.1'].includes(new URL(base).hostname));
-const all=[...JSON.parse(fs.readFileSync('lib/products.json')),...JSON.parse(fs.readFileSync('lib/products-expanded.json')),...JSON.parse(fs.readFileSync('lib/products-november-17.json'))];
+const all=[...JSON.parse(fs.readFileSync('lib/products.json')),...JSON.parse(fs.readFileSync('lib/products-expanded.json')),...JSON.parse(fs.readFileSync('lib/products-november-17.json')),...JSON.parse(fs.readFileSync('lib/products-november-18.json'))];
 const browser=await puppeteer.launch({executablePath:Launcher.getInstallations()[0],headless:true});
 const results=[],errors=[];
 try {

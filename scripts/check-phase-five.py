@@ -11,7 +11,7 @@ class Links(HTMLParser):
         if tag=='a':
             self.links.append(a.get('href',''))
             if a.get('class')=='button' and 'request-a-quote?product=' in a.get('href',''):self.ctas.append(a['href'])
-products=json.loads(Path('lib/products.json').read_text())+json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())
+products=json.loads(Path('lib/products.json').read_text())+json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())+json.loads(Path('lib/products-november-18.json').read_text())
 guides={'rigid':'custom-rigid-boxes','carton':'folding-cartons','corrugated':'corrugated-boxes','bag':'custom-paper-bags'}
 root=Path('dist/client')
 for p in products:

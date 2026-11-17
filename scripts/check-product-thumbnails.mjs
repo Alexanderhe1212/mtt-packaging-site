@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-const products=(await Promise.all(['lib/products.json','lib/products-expanded.json','lib/products-november-17.json'].map(async p=>JSON.parse(await fs.readFile(p,'utf8'))))).flat();
+const products=(await Promise.all(['lib/products.json','lib/products-expanded.json','lib/products-november-17.json','lib/products-november-18.json'].map(async p=>JSON.parse(await fs.readFile(p,'utf8'))))).flat();
 let originalBytes=0,thumbnailBytes=0;
 for(const p of products){
  const card='dist/client/products/cards/'+path.basename(p.image.replace('.webp','-0.webp'));

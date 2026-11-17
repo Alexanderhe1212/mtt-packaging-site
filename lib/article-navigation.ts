@@ -3,6 +3,9 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['earring-card-post-clearance-gift-box','jewelry-box-and-earring-card-logo-alignment','necklace-packaging-chain-management','custom-packaging-sampling-process'],products:['earring-display-card-book-gift-box','pendant-presentation-drawer','pearl-necklace-presentation-book']},
+  {articles:['six-vial-paperboard-sleeve-tray-fit','six-vial-discovery-folding-vs-rigid-box','perfume-discovery-set-packout-scent-identification','paperboard-sleeve-tray-fit'],products:['six-vial-paperboard-discovery-sleeve-tray','four-vial-perfume-discovery-drawer-card-pocket','perfume-discovery-library-double-door']},
+  {articles:['scented-cards-cosmetic-gift-box-supplier-brief','perfume-discovery-set-packout-scent-identification','skincare-jar-serum-gift-box-insert-fit','custom-packaging-sampling-process'],products:['skincare-pump-refill-pouch-book-box','skincare-ritual-book','four-vial-perfume-discovery-drawer-card-pocket']},
   {articles:['pump-refill-pouch-gift-box-fit-brief','skincare-jar-serum-gift-box-insert-fit','skincare-gift-box-change-retest-checklist','custom-packaging-sampling-process'],products:['skincare-pump-refill-pouch-book-box','skincare-ritual-book','custom-skincare-duo-auto-bottom']},
   {articles:['four-vial-drawer-card-pocket-fit','perfume-discovery-set-packout-scent-identification','drawer-box-clearance-ribbon-pull','perfume-discovery-set-packaging'],products:['four-vial-perfume-discovery-drawer-card-pocket','perfume-discovery-library-double-door','travel-fragrance-trio-drawer']},
   {articles:['round-packaging-barcode-curvature-review','retail-barcode-placement-gift-boxes','qr-code-on-packaging-print-test','round-rigid-tube-box-fit'],products:['signature-perfume-lift-off','single-jar-wellness-gift-round','solid-perfume-keepsake-round']},

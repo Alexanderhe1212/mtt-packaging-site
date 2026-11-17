@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "earring-card-post-clearance-gift-box",
+    "primaryQuery": "Earring Card in a Gift Box: Protect Posts and Make Removal Easy",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Plan the earring card, post clearance and customer removal before approving a presentation box.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 88,
+    "reviewEvidence": [
+      "Differentiates post and backing clearance from the existing necklace chain guide; includes a sample record and a labelled hypothetical.",
+      "Illustrative images and examples are identified; no MTT customer, test or certification is invented.",
+      "Procurement inputs, supplier responsibilities and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ista.org/test_procedures.php"
+    ]
+  },
+  {
+    "slug": "six-vial-paperboard-sleeve-tray-fit",
+    "primaryQuery": "Six-Vial Paperboard Sleeve and Tray: Fit and Pack-Out",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Design a folding paperboard sleeve, vial tray and card space around the capped samples and packing sequence.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 88,
+    "reviewEvidence": [
+      "Reviews the loaded six-vial folding tray, crease and card stack; links the distinct rigid-drawer and scent-identification pages.",
+      "Illustrative images and examples are identified; no MTT customer, test or certification is invented.",
+      "Procurement inputs, supplier responsibilities and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.holmen.com/en/board-and-paper/insights/paper-academy/paperboard-creasing-and-folding/"
+    ]
+  },
+  {
+    "slug": "scented-cards-cosmetic-gift-box-supplier-brief",
+    "primaryQuery": "Scented Cards in Cosmetic Gift Boxes: A Supplier Coordination Brief",
+    "searchEvidence": "Search Console Web query scented inserts for cosmetic marketing, 59 impressions, 0 clicks, average position 14.8, 26 August–15 November 2026. MTT supply of scented components remains unverified.",
+    "customerDecision": "Separate scent formulation, card finishing and presentation-box responsibilities before planning a scented insert.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Separates fragrance supplier responsibilities from packaging and explicitly does not claim MTT supplies scented treatment or holds an IFRA certification.",
+      "Illustrative images and examples are identified; no MTT customer, test or certification is invented.",
+      "Procurement inputs, supplier responsibilities and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ifrafragrance.org/using-the-standards"
+    ]
+  },
+  {
+    "slug": "jewelry-box-and-earring-card-logo-alignment",
+    "primaryQuery": "Jewellery Box and Earring Card: Align a Custom Logo Before Print",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Coordinate artwork, material and proof approval for a jewellery box and its removable display card.",
+    "score": {
+      "customer": 9,
+      "insight": 15,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Covers box-and-card logo placement and proof handoff, distinct from the general blind-deboss process guide.",
+      "Illustrative images and examples are identified; no MTT customer, test or certification is invented.",
+      "Procurement inputs, supplier responsibilities and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ref.gs1.org/guidelines/2d-in-retail/1.1.0/"
+    ]
+  },
+  {
+    "slug": "six-vial-discovery-folding-vs-rigid-box",
+    "primaryQuery": "Six-Vial Discovery Sets: Compare Folding Paperboard and Rigid Boxes",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Compare the complete six-vial pack, assembly and freight scope before selecting a presentation structure.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Uses a matched six-vial quotation scope, an explicitly hypothetical assembly count and a freight-input checklist, beyond the general structure comparison.",
+      "Illustrative images and examples are identified; no MTT customer, test or certification is invented.",
+      "Procurement inputs, supplier responsibilities and 1,000-piece minimum are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.ista.org/test_procedures.php"
+    ]
+  }
+]

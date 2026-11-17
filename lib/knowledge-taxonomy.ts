@@ -53,6 +53,10 @@ export const knowledgeTopics = [
     "slugs": [
       "pump-refill-pouch-gift-box-fit-brief",
       "four-vial-drawer-card-pocket-fit",
+      "earring-card-post-clearance-gift-box",
+      "six-vial-paperboard-sleeve-tray-fit",
+      "scented-cards-cosmetic-gift-box-supplier-brief",
+      "six-vial-discovery-folding-vs-rigid-box",
       "face-cream-jar-shoulder-neck-box-fit-checklist",
       "perfume-gift-bag-handle-base-load-checks",
       "perfume-discovery-set-packout-scent-identification",
@@ -90,6 +94,7 @@ export const knowledgeTopics = [
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
       "round-packaging-barcode-curvature-review",
+      "jewelry-box-and-earring-card-logo-alignment",
       "folding-carton-crease-cracking-sample-review",
       "retail-barcode-placement-gift-boxes",
       "qr-code-on-packaging-print-test",

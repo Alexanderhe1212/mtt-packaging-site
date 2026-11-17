@@ -49,6 +49,7 @@ jobs:
             sleep 1
           done
           npm run audit:enquiry
+          node scripts/check-accessory-selection.mjs
           node scripts/check-calculator-navigation.mjs
           npm run audit:guides
           npm run audit:optional-chunks
