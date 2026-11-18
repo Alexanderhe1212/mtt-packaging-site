@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {inspectAudit} from './audit-dependencies.mjs';
+const url='https://github.com/advisories/GHSA-fc5q-39xc-vjpf';
+const audit={metadata:{vulnerabilities:{high:2,critical:0}},vulnerabilities:{picomatch:{severity:'high',via:[{severity:'high',url}]},vite:{severity:'high',via:['picomatch']}}};
+test('accepts only a directly verified withdrawn advisory and its dependants',()=>{assert.equal(inspectAudit(audit,{ghsa_id:'GHSA-fc5q-39xc-vjpf',withdrawn_at:'2026-11-18T15:38:56Z'}).ok,true)});
+test('fails closed if advisory remains active or the response is missing',()=>{for(const x of [null,{ghsa_id:'GHSA-fc5q-39xc-vjpf',withdrawn_at:null},{ghsa_id:'other',withdrawn_at:'2026-11-18'}])assert.equal(inspectAudit(audit,x).ok,false)});
+test('rejects a separate high advisory, unknown paths and criticals',()=>{for(const x of [{...audit,vulnerabilities:{...audit.vulnerabilities,other:{severity:'high',via:[{severity:'high',url:'https://github.com/advisories/GHSA-other'}]}}},{...audit,vulnerabilities:{...audit.vulnerabilities,vite:{severity:'high',via:['missing']}}},{...audit,vulnerabilities:{...audit.vulnerabilities,other:{severity:'critical',via:[{severity:'critical',url}]}}}])assert.equal(inspectAudit(x,{ghsa_id:'GHSA-fc5q-39xc-vjpf',withdrawn_at:'2026-11-18'}).ok,false)});
+test('rejects malformed audit and circular dependency paths',()=>{assert.equal(inspectAudit({},null).ok,false);assert.equal(inspectAudit({metadata:{vulnerabilities:{high:1,critical:0}},vulnerabilities:{x:{severity:'high',via:['y']},y:{severity:'high',via:['x']}}},{ghsa_id:'GHSA-fc5q-39xc-vjpf',withdrawn_at:'2026-11-18'}).ok,false)});
+
+test('handles a moderate transitive dependency while still requiring a high path',()=>{const x={...audit,vulnerabilities:{...audit.vulnerabilities,moderate:{severity:'moderate',via:[{severity:'moderate',url:'moderate'}]},vite:{severity:'high',via:['picomatch','moderate']}}};assert.equal(inspectAudit(x,{ghsa_id:'GHSA-fc5q-39xc-vjpf',withdrawn_at:'2026-11-18'}).ok,true); x.vulnerabilities.vite.via.push({url:'unknown'});assert.equal(inspectAudit(x,{ghsa_id:'GHSA-fc5q-39xc-vjpf',withdrawn_at:'2026-11-18'}).ok,false)});
