@@ -23,7 +23,7 @@
     "check:types": "tsc --noEmit --incremental false",
     "audit:studio": "node scripts/check-studio-browser.mjs",
     "generate:studio-thumbnails": "node scripts/generate-studio-thumbnails.mjs",
-    "audit:dependencies": "npm audit --audit-level=high",
+    "audit:dependencies": "node --test scripts/audit-dependencies.test.mjs && node scripts/audit-dependencies.mjs",
     "audit:optional-chunks": "node scripts/check-optional-chunks.mjs"
   },
   "dependencies": {
