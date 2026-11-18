@@ -128,5 +128,83 @@
     "sources": [
       "https://www.ista.org/test_procedures.php"
     ]
+  },
+  {
+    "slug": "hinged-hexagonal-box-radial-insert-fit",
+    "primaryQuery": "hinged hexagonal gift box radial insert",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Specify radial recess fit, removal and lid clearance.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Describes a distinct buyer decision, measurements and practical sample checks.",
+      "Images are illustrative AI concepts, and no customer project, material certification or test results are claimed.",
+      "The article gives an itemised project brief and specifies 1,000 pieces per design."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/test_procedures.php"
+    ]
+  },
+  {
+    "slug": "half-moon-gift-box-lid-curved-wall-fit",
+    "primaryQuery": "custom half moon two piece rigid gift box",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Review curved wall and separate cover fit.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Describes a distinct buyer decision, measurements and practical sample checks.",
+      "Images are illustrative AI concepts, and no customer project, material certification or test results are claimed.",
+      "The article gives an itemised project brief and specifies 1,000 pieces per design."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/test_procedures.php"
+    ]
+  },
+  {
+    "slug": "shaped-rigid-box-supplier-quote-comparison",
+    "primaryQuery": "custom shaped rigid box quotation specifications",
+    "searchEvidence": "Candidate buyer phrase; search volume not verified.",
+    "customerDecision": "Compare structure, specification and quote scope.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 8,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Describes a distinct buyer decision, measurements and practical sample checks.",
+      "Images are illustrative AI concepts, and no customer project, material certification or test results are claimed.",
+      "The article gives an itemised project brief and specifies 1,000 pieces per design."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.iggesund.com/insights/paperboard-know-how/paperboard-manual/paperboard-manual-publication/printing-and-converting-performance/die-cutting-and-creasing/"
+    ]
   }
 ]

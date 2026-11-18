@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next';
 import { articles } from '../lib/articles';
 import { industries } from '../lib/industries';
 import { siteUrl } from '../lib/seo';
-const november18Products = new Set(['skincare-pump-refill-pouch-book-box','four-vial-perfume-discovery-drawer-card-pocket','earring-display-card-book-gift-box','six-vial-paperboard-discovery-sleeve-tray'].flatMap(slug=>['products/'+slug,'zh/products/'+slug]));
+const november18Products = new Set(['skincare-pump-refill-pouch-book-box','four-vial-perfume-discovery-drawer-card-pocket','earring-display-card-book-gift-box','six-vial-paperboard-discovery-sleeve-tray','hinged-hexagonal-radial-insert-gift-box','half-moon-two-piece-rigid-gift-box'].flatMap(slug=>['products/'+slug,'zh/products/'+slug]));
 const updatedProducts = new Set(products.flatMap(p=>['products/'+p.slug,'zh/products/'+p.slug]));
 export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
