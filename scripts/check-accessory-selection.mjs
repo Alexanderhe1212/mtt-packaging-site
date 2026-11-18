@@ -7,7 +7,7 @@ assert(['127.0.0.1','localhost'].includes(new URL(base).hostname));
 const browser=await puppeteer.launch({executablePath:Launcher.getInstallations()[0],headless:true,args:['--no-sandbox']});
 try{
  const page=await browser.newPage();await page.setRequestInterception(true);page.on('request',r=>r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
- for(const width of [390,1280])for(const [slug,code] of [['skincare-pump-refill-pouch-book-box','MTT-R1301'],['four-vial-perfume-discovery-drawer-card-pocket','MTT-R1302'],['earring-display-card-book-gift-box','MTT-R1303'],['six-vial-paperboard-discovery-sleeve-tray','MTT-C0131']]){
+ for(const width of [390,1280])for(const [slug,code] of [['skincare-pump-refill-pouch-book-box','MTT-R1301'],['four-vial-perfume-discovery-drawer-card-pocket','MTT-R1302'],['earring-display-card-book-gift-box','MTT-R1303'],['six-vial-paperboard-discovery-sleeve-tray','MTT-C0131'],['hinged-hexagonal-radial-insert-gift-box','MTT-R1304'],['half-moon-two-piece-rigid-gift-box','MTT-R1305']]){
   await page.setViewport({width,height:844});await page.goto(base+'/products/'+slug+'/',{waitUntil:'networkidle0'});
   await page.waitForSelector('[data-testid="selected-set"]');assert((await page.$eval('[data-testid="selected-set"]',e=>e.innerText)).includes('No accessories selected'));
   assert.equal(await page.$$eval('.product-thumbs button',e=>e.length),5,code+' needs five views');
@@ -25,5 +25,5 @@ try{
  assert((await page.$eval('[data-testid=selected-set]',e=>e.innerText)).includes('定制贺卡'));
  const zhHref=await page.$eval('.product-accessories a[href*="request-a-quote"]',e=>e.href);assert.equal(new URL(zhHref).searchParams.get('accessories'),'定制贺卡');
  await page.goto(zhHref,{waitUntil:'networkidle0'});await page.waitForFunction(()=>document.querySelector('[name=selected_accessories]')?.value==='定制贺卡');
- console.log('Four product galleries and selected-accessory previews, deselection and quote handoff pass at 390/1280; no enquiry sent.');
+ console.log('Six product galleries and selected-accessory previews, deselection and quote handoff pass at 390/1280; no enquiry sent.');
 }finally{await browser.close()}

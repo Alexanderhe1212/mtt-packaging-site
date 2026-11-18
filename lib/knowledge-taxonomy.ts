@@ -4,6 +4,8 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "hinged-hexagonal-box-radial-insert-fit",
+      "half-moon-gift-box-lid-curved-wall-fit",
       "rigid-box-vs-folding-carton",
       "folding-carton-closure-selection",
       "corrugated-mailer-shipping-box-specification",
@@ -123,6 +125,7 @@ export const knowledgeTopics = [
     "title": "Procurement and delivery",
     "description": "Prepare the brief, compare costs, approve samples and keep repeat orders consistent.",
     "slugs": [
+      "shaped-rigid-box-supplier-quote-comparison",
       "holiday-packaging-production-planning",
       "stock-vs-custom-packaging-total-cost",
       "verify-custom-packaging-supplier-china",
