@@ -336,5 +336,140 @@
     "sources": [
       "https://www.fedex.com/en-us/shipping/packaging/search-test-types.html"
     ]
+  },
+  {
+    "slug": "nail-wrap-carton-window-registration",
+    "primaryQuery": "nail wrap carton window registration",
+    "searchEvidence": "Procurement scenario; query volume unverified.",
+    "customerDecision": "How to Keep the Right Nail Wrap Visible Through a Carton Window",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Start with the motif the shopper must see",
+      "Trace the movement envelope",
+      "Separate visibility from product protection",
+      "Give the converter two controlled files"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.gukapackaging.com/industry/cosmetic-skincare-packaging-boxes"
+    ]
+  },
+  {
+    "slug": "paired-airless-pumps-carton-variant-fit",
+    "primaryQuery": "shared carton insert for two airless pump sizes",
+    "searchEvidence": "Procurement scenario; query volume unverified.",
+    "customerDecision": "Can Two Airless Pump Sizes Share One Carton Insert?",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Build a variant matrix from finished packs",
+      "Test the opposing limits",
+      "Price the insert decision separately",
+      "Approve a loading instruction"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.gukapackaging.com/industry/cosmetic-skincare-packaging-boxes"
+    ]
+  },
+  {
+    "slug": "skincare-gift-kit-filled-weight-quote",
+    "primaryQuery": "filled weight for skincare gift kit quotation",
+    "searchEvidence": "Procurement scenario; query volume unverified.",
+    "customerDecision": "Quoting a Skincare Kit When Only Empty Containers Are Available",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Keep geometry and loading on separate lines",
+      "Use a surrogate for a limited question",
+      "Ask what would change the quote",
+      "Define the release point"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.gukapackaging.com/industry/cosmetic-skincare-packaging-boxes"
+    ]
+  },
+  {
+    "slug": "shade-assortment-envelope-carton-packing",
+    "primaryQuery": "multi shade nail wrap envelope carton packing",
+    "searchEvidence": "Procurement scenario; query volume unverified.",
+    "customerDecision": "One Carton for Several Nail Wrap Shades: How to Prevent Packing Mix-Ups",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Simulate one line change",
+      "Compare common and dedicated print",
+      "Set a reading position",
+      "Write the sign-off in packing order"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.gukapackaging.com/industry/cosmetic-skincare-packaging-boxes"
+    ]
+  },
+  {
+    "slug": "skincare-insert-label-scuff-sample",
+    "primaryQuery": "skincare gift box insert label scuff sample",
+    "searchEvidence": "Procurement scenario; query volume unverified.",
+    "customerDecision": "How to Locate Label Scuffing in a Skincare Gift Kit Sample",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 5
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Mark the contact map",
+      "Change one movement at a time",
+      "Compare two fixes with different costs",
+      "Agree what counts as a defect"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.gukapackaging.com/industry/cosmetic-skincare-packaging-boxes"
+    ]
   }
 ]
