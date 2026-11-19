@@ -1208,5 +1208,20 @@
       "用实际装满的产品检查支撑、取放和两扇门的闭合路径。"
     ],
     "guide": "upright-double-door-box-support-frame-design"
+  },
+  "MTT-R0612": {
+    "answer": [
+      "For conference welcome kits, this drawer presents one badge and two gifts. Decide whether staff will insert named badges before delivery or at registration.",
+      "这款会议欢迎套装抽屉盒设一个胸牌位和两个礼品仓。先决定由装盒人员提前放入实名胸牌，还是在签到台现场配发。"
+    ],
+    "selection": [
+      "If gifts are packed in advance, check that staff can reach the badge well without lifting either gift.",
+      "若两件礼品提前装盒，应确认工作人员无需移走礼品即可放入胸牌。"
+    ],
+    "review": [
+      "Send the badge in its holder, the folded lanyard and both packed gifts for fit review. On the loaded sample, check whether the clip catches the sleeve and whether the drawer closes after the badge is added.",
+      "提供带卡套的胸牌、折叠后的挂绳和两件带包装礼品以核对尺寸。用装载样检查卡夹是否刮碰外套，以及放入胸牌后抽屉能否顺畅闭合。"
+    ],
+    "guide": "pr-kit-packaging-packout-checklist"
   }
 }
