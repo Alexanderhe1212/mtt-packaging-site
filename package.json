@@ -76,6 +76,12 @@
     },
     "@typescript-eslint/typescript-estree": {
       "minimatch": "11.0.8"
+    },
+    "@vercel/og": {
+      "satori": {
+        ".": "0.33.5",
+        "fflate": "0.7.5"
+      }
     }
   }
 }
