@@ -1148,5 +1148,65 @@
       "提供带盖瓶器尺寸和卡片厚度，检查折角、装载后抽拉、取放及外层运输包装。"
     ],
     "guide": "six-vial-paperboard-sleeve-tray-fit"
+  },
+  "MTT-R1304": {
+    "answer": [
+      "The attached lid reveals a radial insert for a gift assortment.",
+      "连盖打开后展示放射状分格，适合组合礼品。"
+    ],
+    "selection": [
+      "Compare a rectangular tray if the items need straight channels.",
+      "如果产品需要直槽，可对比矩形内托。"
+    ],
+    "review": [
+      "Check the largest wrapped item, finger access and lid clearance on a loaded sample.",
+      "用装载样品检查最大单件、手指取放空间和盒盖间隙。"
+    ],
+    "guide": "hinged-hexagonal-box-radial-insert-fit"
+  },
+  "MTT-R1305": {
+    "answer": [
+      "This half-moon concept uses a separate lift-off cover and a curved front.",
+      "这款半月形礼盒概念采用独立天地盖和弧形前壁。"
+    ],
+    "selection": [
+      "Compare a rectangular box if your insert needs more corner space.",
+      "若内托需要更多角部空间，可对比矩形礼盒。"
+    ],
+    "review": [
+      "Check the cover along the curved edge and straight edge, then test removal with the contents in place.",
+      "分别检查弧边和直边配合，再带实际产品检查取放。"
+    ],
+    "guide": "half-moon-gift-box-lid-curved-wall-fit"
+  },
+  "MTT-R1306": {
+    "answer": [
+      "The upper compartment presents the main items while the lower drawer gives separate access to accessories or cards.",
+      "上层展示主要产品，下层抽屉可单独存放配件或卡片。"
+    ],
+    "selection": [
+      "Compare a single tray if every component should be visible as soon as the lid opens.",
+      "若开盖时需要同时看到所有组件，可对比单层内托。"
+    ],
+    "review": [
+      "Load both levels and check lid clearance, drawer travel and packing order together.",
+      "上下两层都装入实际物品后，一并检查开盖间隙、抽屉行程和装盒顺序。"
+    ],
+    "guide": "hinged-lid-bottom-drawer-gift-box-sample-review"
+  },
+  "MTT-R1307": {
+    "answer": [
+      "Two outward-opening doors reveal an upright support frame.",
+      "两扇门向外打开，露出立式支撑内框。"
+    ],
+    "selection": [
+      "Compare a lift-off lid if the display area leaves little space beside the box.",
+      "若陈列位置两侧空间有限，可对比天地盖结构。"
+    ],
+    "review": [
+      "Check product support, removal and both doors’ closing paths with the actual filled product.",
+      "用实际装满的产品检查支撑、取放和两扇门的闭合路径。"
+    ],
+    "guide": "upright-double-door-box-support-frame-design"
   }
 }
