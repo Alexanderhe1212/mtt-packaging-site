@@ -1223,5 +1223,20 @@
       "提供带卡套的胸牌、折叠后的挂绳和两件带包装礼品以核对尺寸。用装载样检查卡夹是否刮碰外套，以及放入胸牌后抽屉能否顺畅闭合。"
     ],
     "guide": "pr-kit-packaging-packout-checklist"
+  },
+  "MTT-R0113": {
+    "answer": [
+      "This custom face oil box pairs a capped bottle with an oval facial tool in separate wells. Size the bottle well around the widest part, including the closure.",
+      "这款面部精油礼盒为带盖瓶与椭圆按摩工具分别设槽。瓶槽需按含瓶盖在内的最宽部位确定。"
+    ],
+    "selection": [
+      "Choose the two-well layout for a bottle and tool sold as a set. For a bottle sold alone, request a single-bottle layout so the buyer can compare the packed size and insert cost.",
+      "瓶与工具成套销售时可选双槽。若仅售单瓶，可要求单瓶布局，以便比较装盒尺寸与内托成本。"
+    ],
+    "review": [
+      "Send the filled, closed bottle and the actual stone. With the sample closed, check whether the stone can leave its well and contact the glass. Then lift each item out separately and inspect the bottle label for rubbing.",
+      "提供灌装封盖后的实瓶和实际按摩石。合盖试装时检查按摩石能否脱槽碰到玻璃瓶，再分别取出两件产品，查看瓶标有无擦痕。"
+    ],
+    "guide": "custom-inserts-product-protection"
   }
 }
