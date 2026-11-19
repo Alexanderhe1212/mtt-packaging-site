@@ -44,7 +44,7 @@ export default function ThankYouPage() {
           <div className="ty-card">
             <h2>While you wait</h2>
             <ul>{guides.map(([title, href]) => <li key={href}><a href={href}>{title} →</a></li>)}</ul>
-            <a className="ed-text-link" href="/products">Browse 240 packaging designs →</a>
+            <a className="ed-text-link" href="/products">Browse packaging designs →</a>
           </div>
         </aside>
       </section>
