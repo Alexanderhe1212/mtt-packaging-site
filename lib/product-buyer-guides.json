@@ -1238,5 +1238,35 @@
       "提供灌装封盖后的实瓶和实际按摩石。合盖试装时检查按摩石能否脱槽碰到玻璃瓶，再分别取出两件产品，查看瓶标有无擦痕。"
     ],
     "guide": "custom-inserts-product-protection"
+  },
+  "MTT-C0132": {
+    "answer": [
+      "A flat sheet slides behind a front aperture; a folded flap closes the rear.",
+      "片材从背后插入，正面开窗，背面折盖闭合。"
+    ],
+    "selection": [
+      "Choose an envelope when a flat sheet needs shelf visibility. Compare a closed sleeve if the primary pack must be shielded from light or handling.",
+      "平整底卡需要露出图案时可选信封盒；需遮光或减少接触时可比较封闭套筒。"
+    ],
+    "review": [
+      "Check the smallest motif against the opening at both limits of carrier movement. Review exposed edges and use a sealed primary pouch where required.",
+      "将底卡推至两端检查图案是否仍处于窗口内，确认边缘和独立密封袋需求。"
+    ],
+    "guide": "nail-wrap-carton-window-registration"
+  },
+  "MTT-C0133": {
+    "answer": [
+      "Two upright capped pumps sit in separate pockets with body support and head clearance.",
+      "两支带盖泵瓶独立直立放置，托住瓶身，泵头上方留空。"
+    ],
+    "selection": [
+      "Choose the folded cradle when both bottles can be supported at the body. Compare separate insert versions if the narrowest bottle can rock in the wider pocket.",
+      "两瓶均可从瓶身支撑时可选折叠卡托。若窄瓶容易晃动，应比较独立内托版本。"
+    ],
+    "review": [
+      "Pack the two heaviest filled variants together. Check base deflection, cap clearance and one-handed removal with the adjacent bottle still seated.",
+      "装入最重的两支满瓶，检查底托变形、盖顶间隙和逐支取出。"
+    ],
+    "guide": "paired-airless-pumps-carton-variant-fit"
   }
 }

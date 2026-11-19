@@ -4,6 +4,11 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "skincare-insert-label-scuff-sample",
+      "shade-assortment-envelope-carton-packing",
+      "skincare-gift-kit-filled-weight-quote",
+      "paired-airless-pumps-carton-variant-fit",
+      "nail-wrap-carton-window-registration",
       "hinged-hexagonal-box-radial-insert-fit",
       "half-moon-gift-box-lid-curved-wall-fit",
       "rigid-box-vs-folding-carton",

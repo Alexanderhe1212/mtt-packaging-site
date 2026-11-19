@@ -17,6 +17,7 @@ export function engineeringChecks(p:PackagingProduct,zh=false){
  const extra: Record<string,[string,string]> = {
  tuck:['Check tuck retention, dust-flap clearance, crease cracking and glued seam with the actual contents.','装入实物后检查插舌、防尘翼、压痕爆线和糊口。'],
  'auto-bottom':['Check bottom-lock engagement, glue pattern, squareness and loaded bottom support; also review top tuck retention.','检查锁底咬合、胶位、方正度和装载承托，同时检查顶插舌保持力。'],
+ 'envelope-carton':['Slide the finished carrier to each stop and check motif alignment, flap retention and insertion without snagging the pouch.','将成品底卡推至各限位，检查开窗图案对位、封舌保持力与装袋时是否刮碰。'],
  'window-tuck':['Check window border strength, film attachment, product clearance and tuck retention.','检查开窗边框强度、胶片固定、产品间隙与插舌保持力。'],
  'sleeve-carton':['Check thin-board tray creases, sleeve clearance and loaded sliding; this is folded paperboard, not wrapped greyboard.','检查薄卡托盘压痕、套筒间隙及装载抽拉；本款是折叠卡纸，不是裱灰板。'],
  pillow:['Check curved end-flap overlap, crease quality and available internal space with the actual product.','检查弧形端翼叠合、压痕及装入实物后的内部空间。'],
