@@ -20,6 +20,11 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "hinged-lid-bottom-drawer-gift-box-sample-review",
+      "upright-double-door-box-support-frame-design",
+      "rigid-box-ribbon-lid-stay-sample-checks",
+      "two-level-gift-box-packout-order-version-control",
+      "double-door-gift-box-sample-approval-checklist",
       "gift-box-transit-test-plan-acceptance-criteria",
       "ista-screening-vs-distribution-simulation-gift-box",
       "rigid-box-with-window-design",

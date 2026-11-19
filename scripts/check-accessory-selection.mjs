@@ -7,7 +7,7 @@ assert(['127.0.0.1','localhost'].includes(new URL(base).hostname));
 const browser=await puppeteer.launch({executablePath:Launcher.getInstallations()[0],headless:true,args:['--no-sandbox']});
 try{
  const page=await browser.newPage();await page.setRequestInterception(true);page.on('request',r=>r.url().startsWith(base)||r.url().startsWith('data:')?r.continue():r.abort());
- for(const width of [390,1280])for(const [slug,code] of [['skincare-pump-refill-pouch-book-box','MTT-R1301'],['four-vial-perfume-discovery-drawer-card-pocket','MTT-R1302'],['earring-display-card-book-gift-box','MTT-R1303'],['six-vial-paperboard-discovery-sleeve-tray','MTT-C0131'],['hinged-hexagonal-radial-insert-gift-box','MTT-R1304'],['half-moon-two-piece-rigid-gift-box','MTT-R1305']]){
+ for(const width of [390,1280])for(const [slug,code] of [['skincare-pump-refill-pouch-book-box','MTT-R1301'],['four-vial-perfume-discovery-drawer-card-pocket','MTT-R1302'],['earring-display-card-book-gift-box','MTT-R1303'],['six-vial-paperboard-discovery-sleeve-tray','MTT-C0131'],['hinged-hexagonal-radial-insert-gift-box','MTT-R1304'],['half-moon-two-piece-rigid-gift-box','MTT-R1305'],['hinged-lid-drawer-two-tier-gift-box','MTT-R1306'],['double-door-upright-frame-gift-box','MTT-R1307']]){
   await page.setViewport({width,height:844});await page.goto(base+'/products/'+slug+'/',{waitUntil:'networkidle0'});
   await page.waitForSelector('[data-testid="selected-set"]');assert((await page.$eval('[data-testid="selected-set"]',e=>e.innerText)).includes('No accessories selected'));
   assert.equal(await page.$$eval('.product-thumbs button',e=>e.length),5,code+' needs five views');
