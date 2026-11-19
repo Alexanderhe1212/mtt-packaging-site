@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:["hinged-lid-bottom-drawer-gift-box-sample-review", "upright-double-door-box-support-frame-design", "rigid-box-ribbon-lid-stay-sample-checks", "two-level-gift-box-packout-order-version-control", "double-door-gift-box-sample-approval-checklist"],products:["hinged-lid-drawer-two-tier-gift-box","double-door-upright-frame-gift-box","fragrance-layering-set-tiered"]},
   {articles:['hinged-hexagonal-box-radial-insert-fit','half-moon-gift-box-lid-curved-wall-fit','shaped-rigid-box-supplier-quote-comparison','hexagonal-rigid-gift-box-structure-analysis'],products:['hinged-hexagonal-radial-insert-gift-box','half-moon-two-piece-rigid-gift-box','festival-sweets-collection-hexagonal']},
   {articles:['earring-card-post-clearance-gift-box','jewelry-box-and-earring-card-logo-alignment','necklace-packaging-chain-management','custom-packaging-sampling-process'],products:['earring-display-card-book-gift-box','pendant-presentation-drawer','pearl-necklace-presentation-book']},
   {articles:['six-vial-paperboard-sleeve-tray-fit','six-vial-discovery-folding-vs-rigid-box','perfume-discovery-set-packout-scent-identification','paperboard-sleeve-tray-fit'],products:['six-vial-paperboard-discovery-sleeve-tray','four-vial-perfume-discovery-drawer-card-pocket','perfume-discovery-library-double-door']},
