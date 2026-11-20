@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['roller-bottle-drawer-insert-removal','three-vial-card-order-and-drawer-packout','drawer-box-sleeve-fit-loaded-sample','drawer-box-clearance-ribbon-pull'],products:['three-roller-perfume-drawer-card-box','travel-fragrance-trio-drawer','four-vial-perfume-discovery-drawer-card-pocket']},
+  {articles:['two-cream-jars-insert-removal-order','cosmetic-spatula-pocket-packaging-brief','skincare-jar-serum-gift-box-insert-fit','custom-packaging-sampling-process'],products:['two-cream-jars-spatula-book-gift-box','skincare-ritual-book','face-cream-presentation-shoulder']},
   {articles:['nail-wrap-carton-window-registration','shade-assortment-envelope-carton-packing','retail-barcode-placement-gift-boxes','rigid-box-with-window-design'],products:['window-envelope-carton-nail-wrap-sheets','custom-carton-packaging-set','six-vial-paperboard-discovery-sleeve-tray']},
   {articles:['paired-airless-pumps-carton-variant-fit','skincare-gift-kit-filled-weight-quote','skincare-insert-label-scuff-sample','skincare-jar-serum-gift-box-insert-fit'],products:['twin-airless-pump-carton-paperboard-cradle','skincare-ritual-book','facial-oil-and-stone-book']},
   {articles:["hinged-lid-bottom-drawer-gift-box-sample-review", "upright-double-door-box-support-frame-design", "rigid-box-ribbon-lid-stay-sample-checks", "two-level-gift-box-packout-order-version-control", "double-door-gift-box-sample-approval-checklist"],products:["hinged-lid-drawer-two-tier-gift-box","double-door-upright-frame-gift-box","fragrance-layering-set-tiered"]},

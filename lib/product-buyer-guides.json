@@ -1268,5 +1268,35 @@
       "装入最重的两支满瓶，检查底托变形、盖顶间隙和逐支取出。"
     ],
     "guide": "paired-airless-pumps-carton-variant-fit"
+  },
+  "MTT-R1308": {
+    "answer": [
+      "An illustrative rigid drawer box holds three roller bottles and a separate card. Size, artwork, insert material and the sample logo can be customized to the project.",
+      "硬质抽屉礼盒概念可放置三支滚珠瓶和独立卡片。尺寸、图案、内托材料及示例标识可按项目定制。"
+    ],
+    "selection": [
+      "Use a drawer where the buyer wants to reveal the bottles together. Confirm the final sample against the actual bottle, cap and card rather than treating the illustration as a production drawing.",
+      "需要同时抽出展示三支瓶器时可考虑抽屉结构。请用实际瓶器、瓶盖和卡片核对样品。"
+    ],
+    "review": [
+      "Provide filled bottle length, widest diameter, cap profile, weight and decoration surfaces for each variant. Check base and shoulder support, removal access and whether the card moves when the loaded drawer is opened. Review the sleeve fit and complete shipping pack with physical samples.",
+      "提供每种满装瓶器的长度、最大直径、瓶盖外形、重量和装饰表面。检查瓶底及瓶肩支撑、取放空间与抽拉时卡片是否移动，并用实物样品审核抽屉、外套和完整运输包装。"
+    ],
+    "guide": "drawer-box-clearance-ribbon-pull"
+  },
+  "MTT-R1309": {
+    "answer": [
+      "An illustrative hinged rigid box presents two different-size skincare jars and a spatula. The example colours, paper and logo can be customized after the actual products are measured.",
+      "书型硬盒概念展示不同尺寸的两只护肤罐及挖勺。测量实际产品后可定制示例颜色、纸张和标识。"
+    ],
+    "selection": [
+      "A hinged presentation keeps the complete set visible when open. The two jar pockets and spatula slot must be designed around the finished items; confirm closure type and materials in the sample.",
+      "书型结构打开后可同时展示整套产品。两个罐位和挖勺槽需按成品设计，闭合方式和材料以样品确认。"
+    ],
+    "review": [
+      "Provide the widest diameter of each closed jar, filled weight, label details and the full spatula dimensions including any protective wrapper. Check finger access with both jars loaded, lid clearance, spatula retention and the completed outer pack. Confirm any product-contact or hygiene requirements with the product owner.",
+      "提供两个带盖罐的最大直径、装满重量、标签细节以及含保护包装的挖勺尺寸。装入双罐后检查手指取放、合盖空间、挖勺定位和完整外包装。产品接触或卫生要求由产品责任方确认。"
+    ],
+    "guide": "skincare-jar-serum-gift-box-insert-fit"
   }
 }

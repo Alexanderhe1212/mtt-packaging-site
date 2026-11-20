@@ -63,6 +63,11 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "roller-bottle-drawer-insert-removal",
+      "three-vial-card-order-and-drawer-packout",
+      "two-cream-jars-insert-removal-order",
+      "cosmetic-spatula-pocket-packaging-brief",
+      "drawer-box-sleeve-fit-loaded-sample",
       "pump-refill-pouch-gift-box-fit-brief",
       "four-vial-drawer-card-pocket-fit",
       "earring-card-post-clearance-gift-box",
