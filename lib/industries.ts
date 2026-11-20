@@ -18,7 +18,7 @@ export type Industry = {
 export const industries: Industry[] = [
   {
     structureImages: ["/design/industry-structures/perfume-shoulder.webp", "/design/rigid-structures/magnetic.webp", "/products/mtt-r0101-0.webp", "/products/mtt-r0102-0.webp"],
-    guides: [["Perfume discovery set spacing and presentation", "perfume-discovery-set-packaging"], ["Coordinate perfume boxes and paper bags", "perfume-box-and-bag-packaging"], ["Approve foil across boxes and bags", "match-gold-foil-perfume-box-paper-bag"]],
+    guides: [["Perfume discovery set spacing and presentation", "perfume-discovery-set-packaging"], ["Plan book-style magnetic box construction", "book-style-magnetic-box-design"], ["Coordinate perfume boxes and paper bags", "perfume-box-and-bag-packaging"], ["Approve foil across boxes and bags", "match-gold-foil-perfume-box-paper-bag"]],
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
     image: "/design/fragrance-premium.webp", imageAlt: "Concept: ivory fragrance box with deep blue insert for a bottle and three travel sprays",
     seoTitle: 'Custom Perfume Packaging: Boxes & Inserts | MTT Packaging',
