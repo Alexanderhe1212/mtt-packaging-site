@@ -44,3 +44,17 @@ for(const locale of ['', 'zh/']){
  const first=grid.match(/<img\b[^>]*>/)?.[0]||'';
  assert(/loading="eager"/.test(first)&&/fetchpriority="high"/i.test(first), `${locale}first catalogue image must be eagerly prioritized`);
 }
+
+for(const locale of ['', 'zh/']){
+ const html=await fs.readFile(`dist/client/${locale}products.html`,'utf8');
+ const grid=html.split('class="product-grid"')[1];
+ const first=grid.match(/<img\b[^>]*>/)?.[0]||'';
+ assert(/width="500"/.test(first)&&/height="500"/.test(first), `${locale}catalogue card must provide its square image dimensions`);
+}
+for(const locale of ['', 'zh/']){
+ const html=await fs.readFile(`dist/client/${locale}products.html`,'utf8');
+ const grid=html.split('class="product-grid"')[1].split('class="catalogue-empty"')[0];
+ const cards=[...grid.matchAll(/<span class="product-view"><img\b[^>]*>/g)].map(m=>m[0]);
+ assert.equal(cards.length,products.length,`${locale}catalogue image count`);
+ assert(cards.every(img=>/width="500"/.test(img)&&/height="500"/.test(img)),`${locale}all catalogue cards have image dimensions`);
+}

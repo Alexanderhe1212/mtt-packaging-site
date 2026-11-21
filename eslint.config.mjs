@@ -5,8 +5,10 @@ import nextTs from 'eslint-config-next/typescript';
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  // GitHub Pages serves static HTML; native anchors are intentional crawlable navigation.
-  { rules: { '@next/next/no-html-link-for-pages': 'off' } },
+  // GitHub Pages uses vinext static export, not Next's image optimization server.
+  // Native responsive images are validated by validate-static.py and check-product-thumbnails.mjs.
+  // Native anchors also preserve crawlable navigation on the static host.
+  { rules: { '@next/next/no-html-link-for-pages': 'off', '@next/next/no-img-element': 'off' } },
   // Review browser-only storage/URL/GPU synchronization as warnings; keep the rule visible.
   {
     files: [
