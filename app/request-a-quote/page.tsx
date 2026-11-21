@@ -75,7 +75,7 @@ export default function RequestAQuotePage() {
             Get a Custom Packaging Quote
           </h1>
           <p style={{ fontSize: "17px", lineHeight: 1.65, color: "#5f6961", maxWidth: "660px" }}>
-            Send your product details and requirements. Not sure about the structure or quantity yet? Ask for a recommendation. Final pricing follows a review of your specification.
+            Tell us about your premium custom packaging project. Our minimum is 1,000 pieces per design and US$2,000 in product value per order, excluding freight, sample charges and other fees. If the structure is undecided, ask for a recommendation. Final pricing follows a review of your specification.
           </p>
           <a className="button" href="#quote-details">Start your packaging enquiry →</a>
         </div>

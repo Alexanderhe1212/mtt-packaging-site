@@ -22,7 +22,7 @@ const packagingChoices = [
 
 const whatsapp = 'https://wa.me/8617207110964?text=Hi%20Hugo%2C%20I%20have%20a%20custom%20packaging%20project.';
 const faqs = [
-  ['What is the minimum order quantity?', 'The minimum order quantity is 1,000 pieces per design. The final specification and quotation depend on the structure, materials, finishes and production method.'],
+  ['What is the minimum order quantity?', 'Our premium custom packaging orders start at 1,000 pieces per design and US$2,000 in product value per order. Freight, sample charges and other fees are excluded. Final pricing depends on the structure, materials, finishes and production method.'],
   ['Can you develop a custom structure?', 'Yes. Share the product dimensions, weight, presentation target, quantity and delivery country so the structure can be evaluated before formal pricing.'],
   ['Can I approve a sample before production?', 'Yes. Structural and printed sampling is recommended before mass production. Sampling cost and timing depend on the construction and finishes.'],
   ['Can MTT Packaging arrange international shipping?', 'Yes. Export packing and shipping terms can be planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms.'],

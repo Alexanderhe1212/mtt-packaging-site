@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   ["What types of custom packaging do you offer?", "MTT Packaging coordinates production of custom rigid boxes (magnetic, lift-off lid, drawer, shoulder-neck), premium folding cartons, bespoke paper bags and precision inserts in paper, molded pulp, EVA and fabric-covered materials."],
-  ["What is the minimum order quantity?", "The minimum order quantity is 1,000 pieces per design. The final specification and quotation depend on the structure, materials, finishes and production method."],
+  ["What is the minimum order quantity?", "Our premium custom packaging orders start at 1,000 pieces per design and US$2,000 in product value per order. Freight, sample charges and other fees are excluded. Final pricing depends on the structure, materials, finishes and production method."],
   ["Can I get a sample before placing an order?", "Yes. Physical sampling is recommended before mass production. A structural or printed sample is produced for your approval. Sampling cost depends on the structure and finishes."],
   ["What information do I need to provide for a quote?", "Provide the maximum product dimensions (L × W × H in mm), product weight, desired structure, quantity, finish preferences, insert material, delivery country and target budget range."],
   ["Do you ship internationally?", "Yes. Export packing and shipping terms are planned for the destination. Freight is confirmed from the final carton count, CBM, weight and agreed trade terms."],

@@ -36,3 +36,11 @@ for(const name of ['bag','card','cloth','pouch','ribbon','sleeve','tag','tissue'
  assert((await fs.stat(file)).size<(await fs.stat(`dist/client/accessories/${name}.jpg`)).size, name);
 }
 console.log('8 responsive accessory previews and originals validated.');
+
+for(const locale of ['', 'zh/']){
+ const html=await fs.readFile(`dist/client/${locale}products.html`,'utf8');
+ const grid=html.split('class="product-grid"')[1];
+ assert(grid, `${locale}catalogue grid`);
+ const first=grid.match(/<img\b[^>]*>/)?.[0]||'';
+ assert(/loading="eager"/.test(first)&&/fetchpriority="high"/i.test(first), `${locale}first catalogue image must be eagerly prioritized`);
+}
