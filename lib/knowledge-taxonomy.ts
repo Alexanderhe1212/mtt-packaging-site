@@ -25,6 +25,11 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "perfume-bottle-travel-spray-book-box-fit",
+      "two-candle-jars-drawer-box-insert-fit",
+      "candle-accessory-channel-packout-check",
+      "perfume-travel-spray-label-scuff-insert-review",
+      "luxury-gift-box-sample-approval-witness-marks",
       "hinged-lid-bottom-drawer-gift-box-sample-review",
       "upright-double-door-box-support-frame-design",
       "rigid-box-ribbon-lid-stay-sample-checks",

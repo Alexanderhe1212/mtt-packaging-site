@@ -85,8 +85,16 @@ const topics = [
   {articles:['packaging-material-selection','packaging-materials-guide','printing-finishing-guide','ppwr-packaging-requirements','molded-pulp-inserts-cosmetic-packaging'], products:['signature-perfume-lift-off','custom-carton-packaging-set','custom-bag-packaging-set']},
   {articles:['5-things-before-ordering-custom-packaging','how-to-write-a-packaging-brief','custom-packaging-sampling-process','packaging-design-to-production-china','reduce-packaging-sampling-rounds'], products:['custom-wine-packaging-set','custom-skincare-duo-auto-bottom','custom-bag-packaging-set']},
   {articles:['double-door-wine-gift-box-design-review','christmas-drawer-gift-box-packout-review','collectors-packaging-story-material-analysis','tea-gift-box-drawer-analysis','jewelry-packaging-repeat-use-analysis'], products:['twin-wine-double-door-gift-box','four-drawer-christmas-gift-cabinet','coffee-tasting-flight-drawer']},
+  {articles:['perfume-bottle-travel-spray-book-box-fit','perfume-travel-spray-label-scuff-insert-review','luxury-gift-box-sample-approval-witness-marks','perfume-refill-set-box-packaging-guide','custom-packaging-sampling-process'],products:['perfume-bottle-travel-spray-book-box','perfume-and-refill-lift-off','signature-perfume-lift-off']},
+  {articles:['two-candle-jars-drawer-box-insert-fit','candle-accessory-channel-packout-check','luxury-gift-box-sample-approval-witness-marks','candle-box-glass-jar-protection','custom-inserts-product-protection'],products:['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'perfume-bottle-travel-spray-book-box-fit':['perfume-bottle-travel-spray-book-box','perfume-and-refill-lift-off','signature-perfume-lift-off'],
+  'two-candle-jars-drawer-box-insert-fit':['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box'],
+  'candle-accessory-channel-packout-check':['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box'],
+  'perfume-travel-spray-label-scuff-insert-review':['perfume-bottle-travel-spray-book-box','perfume-and-refill-lift-off','signature-perfume-lift-off'],
+  'luxury-gift-box-sample-approval-witness-marks':['perfume-bottle-travel-spray-book-box','perfume-and-refill-lift-off','signature-perfume-lift-off'],
+
   'perfume-refill-set-box-packaging-guide':['perfume-and-refill-lift-off','signature-perfume-lift-off','travel-fragrance-trio-drawer'],
   'custom-tea-tins-buying-guide':['tea-tin-pairing-lift-off','custom-tea-tin-sleeve-carton','custom-tea-tin-mailer'],
   "book-style-magnetic-box-design":["chocolate-selection-book","skincare-ritual-book","facial-oil-and-stone-book"],

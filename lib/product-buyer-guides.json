@@ -1298,5 +1298,35 @@
       "提供两个带盖罐的最大直径、装满重量、标签细节以及含保护包装的挖勺尺寸。装入双罐后检查手指取放、合盖空间、挖勺定位和完整外包装。产品接触或卫生要求由产品责任方确认。"
     ],
     "guide": "skincare-jar-serum-gift-box-insert-fit"
+  },
+  "MTT-R1310": {
+    "answer": [
+      "A book-style rigid box concept for a full-size perfume bottle and a travel spray, with separate illustrated positions.",
+      "书型硬盒概念，正装香水与随行喷雾分别放置。"
+    ],
+    "selection": [
+      "Compare the book opening with a separate-lid box if the cover must stay attached. Check the bottle and spray removal paths separately.",
+      "如需盒盖保持连接，可对比天地盖。分别检查瓶器和喷雾的取放路径。"
+    ],
+    "review": [
+      "Supply capped dimensions, filled weights and sensitive label areas. Confirm insert support, lid clearance, closure and complete shipping pack on physical samples.",
+      "提供带盖尺寸、装满重量和标签敏感区域。以实物样品确认内托支撑、盒盖间隙、闭合及完整运输包装。"
+    ],
+    "guide": "perfume-bottle-travel-spray-book-box-fit"
+  },
+  "MTT-R1311": {
+    "answer": [
+      "A drawer-style gift box concept for two candle jars and a separately retained wick tool.",
+      "双蜡烛罐与独立烛芯工具位置的抽屉礼盒概念。"
+    ],
+    "selection": [
+      "Compare this sliding tray with a hinged gift box. Check whether the packed jars remain supported throughout drawer travel.",
+      "对比抽屉盒与书型礼盒，检查瓶罐装入后整个抽拉过程中的支撑。"
+    ],
+    "review": [
+      "Provide capped jar dimensions and filled weights, plus the actual tool. Review label contact, tool separation, tray base and loaded drawer travel on a physical sample.",
+      "提供带盖罐体尺寸、装满重量与实际工具，打样检查标签接触、工具分隔、托盘底部和装载后抽拉。"
+    ],
+    "guide": "two-candle-jars-drawer-box-insert-fit"
   }
 }

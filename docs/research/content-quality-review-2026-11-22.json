@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "perfume-bottle-travel-spray-book-box-fit",
+    "primaryQuery": "custom perfume bottle and travel spray gift box",
+    "searchEvidence": "Candidate buyer-intent phrase; exact volume, rank and demand not verified.",
+    "customerDecision": "A capped full-size bottle and a slim travel spray can look like a matched pair while behaving very differently in an insert. Record maximum body and cap dimensions, filled weights and label boundaries for each. Mark where the product may touch the support and where it must not: a decorated cap, sprayed label or loose collar may be unsuitable as the primary grip. Supply representative physical components before freezing the cavity drawing.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Buyer decision, failure modes, alternative approaches and sample-version checklist examined.",
+      "Illustrative scenarios and concept artwork are identified; no fabricated customer or test outcomes.",
+      "Both confirmed order minimums and exclusions are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  },
+  {
+    "slug": "two-candle-jars-drawer-box-insert-fit",
+    "primaryQuery": "two candle jar drawer gift box packaging",
+    "searchEvidence": "Candidate buyer-intent phrase; exact volume, rank and demand not verified.",
+    "customerDecision": "Begin with the filled, capped jars, not a nominal capacity. Compare the largest body, lid and label envelope for every scent, and weigh each finished component. Record whether lid edges, decorated glass or labels may contact an insert. A heavier variant can alter the drawer load even when the outside diameter is unchanged.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Buyer decision, failure modes, alternative approaches and sample-version checklist examined.",
+      "Illustrative scenarios and concept artwork are identified; no fabricated customer or test outcomes.",
+      "Both confirmed order minimums and exclusions are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  },
+  {
+    "slug": "candle-accessory-channel-packout-check",
+    "primaryQuery": "candle gift box wick tool insert packaging",
+    "searchEvidence": "Candidate buyer-intent phrase; exact volume, rank and demand not verified.",
+    "customerDecision": "Measure the complete tool in its packed condition, including loops, hinges, sleeves or a protective cover. Note any surface that can scratch glass, ink or foil. Confirm which party supplies and packs the tool. A rendered accessory illustrates a possible layout; the customer’s actual object controls the recess.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Buyer decision, failure modes, alternative approaches and sample-version checklist examined.",
+      "Illustrative scenarios and concept artwork are identified; no fabricated customer or test outcomes.",
+      "Both confirmed order minimums and exclusions are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  },
+  {
+    "slug": "perfume-travel-spray-label-scuff-insert-review",
+    "primaryQuery": "travel perfume spray gift box insert label protection",
+    "searchEvidence": "Candidate buyer-intent phrase; exact volume, rank and demand not verified.",
+    "customerDecision": "A slim spray may pass a simple fit check and still pick up marks when it is rotated out of a snug cavity. Show the printed or labelled zone, seam, cap and any fragile coating on a physical component. Confirm with the product owner which areas are suitable for contact, including the difference between an empty container and the finished labelled unit.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Buyer decision, failure modes, alternative approaches and sample-version checklist examined.",
+      "Illustrative scenarios and concept artwork are identified; no fabricated customer or test outcomes.",
+      "Both confirmed order minimums and exclusions are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  },
+  {
+    "slug": "luxury-gift-box-sample-approval-witness-marks",
+    "primaryQuery": "luxury gift box sample fit witness marks",
+    "searchEvidence": "Candidate buyer-intent phrase; exact volume, rank and demand not verified.",
+    "customerDecision": "A buyer says a gift box is too tight. Before changing dimensions, identify whether the issue occurs at lid entry, final closure, drawer travel or product removal. Record the sample number, fully assembled components, orientation and the exact point where resistance begins. An empty shell and a loaded set can behave differently.",
+    "score": {
+      "customer": 9,
+      "insight": 16,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 5
+    },
+    "total": 87,
+    "reviewEvidence": [
+      "Buyer decision, failure modes, alternative approaches and sample-version checklist examined.",
+      "Illustrative scenarios and concept artwork are identified; no fabricated customer or test outcomes.",
+      "Both confirmed order minimums and exclusions are stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://ista.org/getting_started_with_design.php",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  }
+]
