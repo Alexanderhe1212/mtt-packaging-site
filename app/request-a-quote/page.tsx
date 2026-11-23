@@ -47,11 +47,11 @@ export default function RequestAQuotePage() {
       <header
         className="rfq-header"
         style={{
-          padding: "64px 7vw",
-          display: "grid",
+          padding: "32px 7vw",
+          display: "block",
           gap: "6vw",
           alignItems: "center",
-          minHeight: "520px",
+          
         }}
       >
         <div>
@@ -75,33 +75,12 @@ export default function RequestAQuotePage() {
             Get a Custom Packaging Quote
           </h1>
           <p style={{ fontSize: "17px", lineHeight: 1.65, color: "#5f6961", maxWidth: "660px" }}>
-            Tell us about your premium custom packaging project. Our minimum is 1,000 pieces per design and US$2,000 in product value per order, excluding freight, sample charges and other fees. If the structure is undecided, ask for a recommendation. Final pricing follows a review of your specification.
+            Tell us what you are packing, how many you need and where the order will ship. Our minimum is 1,000 pieces per design and US$2,000 in product value per order, excluding freight, sample charges and other fees. If the structure is undecided, ask for a recommendation. Final pricing follows a review of your specification.
           </p>
-          <a className="button" href="#quote-details">Start your packaging enquiry →</a>
-        </div>
-        <div className="rfq-trust">
-          {[
-            ["24h", "Response time"],
-            ["1,000 pieces", "Minimum order per design"],
-            ["Physical", "Sample"],
-          ].map(([num, label]) => (
-            <div
-              key={num}
-              style={{
-                padding: "16px",
-                background: "#f0ede5",
-                borderRadius: "6px",
-                textAlign: "center",
-              }}
-            >
-              <b style={{ display: "block", font: "600 28px/1 Arial,Helvetica,sans-serif", color: "#172019" }}>
-                {num}
-              </b>
-              <span style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: ".1em", color: "#4a524b" }}>
-                {label}
-              </span>
-            </div>
-          ))}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px 20px", alignItems: "center" }}>
+            <a className="button" href="#quote-details">Start your packaging enquiry →</a>
+            <a href="https://wa.me/8617207110964" target="_blank" rel="noreferrer">Discuss your project on WhatsApp</a>
+          </div>
         </div>
       </header>
 
@@ -144,7 +123,7 @@ export default function RequestAQuotePage() {
                   <input name="company" autoComplete="organization" type="text" placeholder="Company name" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
                 <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
-                  <span>Country <span style={{ color: "#cc4444" }}>*</span></span>
+                  <span>Delivery country <span style={{ color: "#cc4444" }}>*</span></span>
                   <input name="country" autoComplete="country-name" type="text" required placeholder="e.g. United States" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial" }} />
                 </label>
               </div>
@@ -205,7 +184,7 @@ export default function RequestAQuotePage() {
               </legend>
               <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Message / Project Details</span>
-                <textarea name="message" rows={5} placeholder="Describe your packaging project: materials, finishes, insert requirements, target delivery date, budget range." style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", resize: "vertical" }} />
+                <textarea name="message" rows={5} placeholder="What will go inside? Include the item size and weight, any protection needed and your target delivery date." style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", resize: "vertical" }} />
               </label>
               <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
                 <span>Reference image or artwork link (optional)</span>
@@ -236,7 +215,7 @@ export default function RequestAQuotePage() {
                 Submit Quote Request →
               </button>
               <p style={{ fontSize: "13px", color: "#4a524b", lineHeight: 1.6, marginTop: "16px", maxWidth: "500px", marginLeft: "auto", marginRight: "auto" }}>
-                Your project details are handled confidentially. Hugo will respond within 24 hours.
+                Your project details are handled confidentially. We will review your requirements and contact you by email.
               </p>
               <p style={{ fontSize: "13px", color: "#4a524b", marginTop: "12px" }}>
                 Prefer to discuss directly?{" "}
