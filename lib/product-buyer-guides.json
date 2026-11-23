@@ -1373,5 +1373,80 @@
       "用装入实物的样盒确认中央合缝。先分别合上两扇门，再放入卡片一起闭合。若有回弹，先取出卡片复试，再检查瓶体或门扇装配。跨缝图案请提供完整画面，并在校样上标出分割位置。"
     ],
     "guide": "perfume-box-insert-design"
+  },
+  "MTT-R1401": {
+    "answer": [
+      "Deep teal secondary packaging concept with handle cradle, connector pocket and broad cable bay. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "深青色外包装定制概念，配手柄支撑槽、接头位与宽线缆仓。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "The connector can swing back towards the head even when the handle stays seated. Try the complete packout with the cable relaxed. Compare a separate pocket with a removable cable divider: the pocket simplifies counting, while the divider may accommodate another cable length without changing the head cradle. Reject a layout that relies on pushing the connector under the probe.",
+      "探头面避空，先确认手柄允许受力区及线缆出线方向。装入实际说明书，合盖后检查接头是否移位。"
+    ],
+    "review": [
+      "Load the approved protective cover, cable and actual document pouch. Close the lid without pressing it down and reopen it. Inspect for displacement and ask the device team to check face clearance with a suitable surrogate. For clinic-to-clinic transport follow the original equipment instructions and any specified case. This presentation design is for new equipment; used probe returns require a separate process.",
+      "探头面避空，先确认手柄允许受力区及线缆出线方向。装入实际说明书，合盖后检查接头是否移位。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "ultrasound-probe-packaging-insert-cable-routing"
+  },
+  "MTT-R1402": {
+    "answer": [
+      "Deep blue secondary packaging concept with side supports and a relieved optical-head pocket. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "深蓝色外包装定制概念，配两侧支撑与光学头避空位。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A deep nest may stop the instrument leaning yet force the user to grasp the optical assembly. On a dummy load, try lifting from both sides of the base. If fingers cannot reach, compare side recesses with a removable platform supported under the chassis. Test the platform with the actual mass before choosing it.",
+      "由设备方标注机身受力面和光学头避空区，以带盖最高状态核对净空，并验证能从底座取出。"
+    ],
+    "review": [
+      "Specify the outer shipper and orientation separately from the presentation box. Ask the device owner to define the inspection or functional comparison after transport. The NHANES manual documents a model-specific packing sequence; obtain the equivalent for your unit before reproducing a fixture. Record model revision, cap configuration and sample photos with the approved drawing.",
+      "由设备方标注机身受力面和光学头避空区，以带盖最高状态核对净空，并验证能从底座取出。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "lensmeter-packaging-optical-head-clearance"
+  },
+  "MTT-R1403": {
+    "answer": [
+      "Burgundy secondary packaging concept with recorder recess and separate labelled lead sleeve. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "酒红色外包装定制概念，配记录仪定位槽与独立导联线标识袋。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A printed outline cannot distinguish two similar cables. Place the supplier label face up, or give the sleeve a window that exposes the existing identifier without altering the device packaging. Ask a second person to identify the variant with the recorder still seated. If they have to unpack it, change the label position before artwork approval.",
+      "提供各版本物料清单与导联线料号。标签就位后仍可读取，并分别检查最厚和最薄配置的抽拉。"
+    ],
+    "review": [
+      "The thickest folded harness can catch the sleeve mouth. The thinnest can move into the recorder cavity if a common divider stops short. Trial both configurations using their actual folded leads and inserts. Record loaded drawer travel and whether the identifier stays visible after normal handling. Quote common tooling and a variant-specific divider separately, including packing labour.",
+      "提供各版本物料清单与导联线料号。标签就位后仍可读取，并分别检查最厚和最薄配置的抽拉。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "holter-recorder-kit-packaging-lead-set-identification"
+  },
+  "MTT-R1404": {
+    "answer": [
+      "Slate green secondary packaging concept with separate straight probe channel and readout cavity. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "灰绿色外包装定制概念，配直线探杆槽与独立读数仪槽。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "Try loading and removing the readout with the probe already seated. A finger notch on the wrong side encourages the operator to lever against the stem. Give the readout its own pickup edge and check that its divider remains upright under the intended packing and distribution conditions. Agree the probe removal sequence with the service team.",
+      "按实际保护管及尾端过渡区尺寸设计。验收包含端部避空、独立取放及设备方规定的到货核验。"
+    ],
+    "review": [
+      "A visually straight probe does not establish calibration status. The device owner should specify receipt checks and any required verification before use. Ask the calibration provider whether it needs the probe alone or the full set. If both routes are common, compare a removable inner probe carrier against two separate pack configurations before buying tooling.",
+      "按实际保护管及尾端过渡区尺寸设计。验收包含端部避空、独立取放及设备方规定的到货核验。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "reference-thermometer-probe-packaging-tip-clearance"
+  },
+  "MTT-R1405": {
+    "answer": [
+      "Indigo secondary packaging concept with reader pocket and separate wrapped sensor compartment. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "靛蓝色外包装定制概念，配主机槽与独立带袋传感器仓。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A close recess gives a tidy display for one stable pouch size. A broader compartment with a removable retaining card can accommodate approved alternatives, provided it does not pinch a seal or obscure identification. Put the bulkiest version into a prototype, add the leaflet and close it. Repeat with the smallest version to check migration toward the reader screen.",
+      "用原装传感器袋打样，核对封边、连接头高度和型号标签；最小版本也不得滑向显示屏。"
+    ],
+    "review": [
+      "Ask a person unfamiliar with the packing layout to identify the sensor model and remove the bag without tugging the lead. Examine the packaging and ask the device owner to define any functional checks. Nonin describes unpacking and inspection for its own sensor; that example does not establish requirements for another model. Obtain its current instructions before signing off.",
+      "用原装传感器袋打样，核对封边、连接头高度和型号标签；最小版本也不得滑向显示屏。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "pulse-oximeter-sensor-kit-packaging-pouch-fit"
   }
 }

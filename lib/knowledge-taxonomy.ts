@@ -4,6 +4,12 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "ultrasound-probe-packaging-insert-cable-routing",
+      "lensmeter-packaging-optical-head-clearance",
+      "holter-recorder-kit-packaging-lead-set-identification",
+      "reference-thermometer-probe-packaging-tip-clearance",
+      "pulse-oximeter-sensor-kit-packaging-pouch-fit",
+
       "skincare-insert-label-scuff-sample",
       "shade-assortment-envelope-carton-packing",
       "skincare-gift-kit-filled-weight-quote",

@@ -52,5 +52,140 @@
       "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers",
       "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
     ]
+  },
+  {
+    "slug": "ultrasound-probe-packaging-insert-cable-routing",
+    "primaryQuery": "ultrasound probe packaging insert cable routing",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Give the connector a parking place",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Trace the cable exit before the outside perimeter",
+      "Give the connector a parking place",
+      "Check the lid with the paperwork installed",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.philips.com/c-dam/b2bhc/master/sites/lumify/care-and-cleaning-of-ultrasound-systems-and-transducers-en-us.pdf"
+    ]
+  },
+  {
+    "slug": "lensmeter-packaging-optical-head-clearance",
+    "primaryQuery": "lensmeter packaging optical head clearance",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Test the hand path before approving the shoulder",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Draw the forbidden contact area in section",
+      "Test the hand path before approving the shoulder",
+      "Decide who signs off after transit",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://wwwn.cdc.gov/nchs/data/nhanes/public/2019/manuals/2020-Balance-Procedures-Manual-508.pdf"
+    ]
+  },
+  {
+    "slug": "holter-recorder-kit-packaging-lead-set-identification",
+    "primaryQuery": "Holter recorder kit packaging lead set identification",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Show the identifier while the sleeve is seated",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Build the packing list around the sellable kit",
+      "Show the identifier while the sleeve is seated",
+      "Load both extremes and operate the drawer",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.midmark.com/docs/default-source/legal-documents/2018-medical-guide-book-mkt00176-9-18-interactive.pdf"
+    ]
+  },
+  {
+    "slug": "reference-thermometer-probe-packaging-tip-clearance",
+    "primaryQuery": "reference thermometer probe packaging tip clearance",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Separate the readout mass from the slender probe",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Measure three lengths separately",
+      "Separate the readout mass from the slender probe",
+      "Define a post-shipment decision",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://media.fluke.com/0e9f45b4-b9a2-4818-b7ca-b3080178a803_original%20file.pdf"
+    ]
+  },
+  {
+    "slug": "pulse-oximeter-sensor-kit-packaging-pouch-fit",
+    "primaryQuery": "pulse oximeter sensor kit packaging pouch fit",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Choose a bay based on the pouch variation",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Measure the accessory as received",
+      "Choose a bay based on the pouch variation",
+      "Make receiving inspection possible",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.nonin.com/wp-content/uploads/2018/09/8100S-Operators-Manual.pdf"
+    ]
   }
 ]

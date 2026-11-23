@@ -22,6 +22,11 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Pulse Oximeter Kits: Size the Sensor Bay Around the Supplied Pouch](https://mttpackaging.com/insights/pulse-oximeter-sensor-kit-packaging-pouch-fit)
+- [Reference Thermometer Packaging: Keep End Loads off the Probe Tip](https://mttpackaging.com/insights/reference-thermometer-probe-packaging-tip-clearance)
+- [Holter Recorder Kits: How to Keep Lead Sets with the Right Recorder](https://mttpackaging.com/insights/holter-recorder-kit-packaging-lead-set-identification)
+- [Packing a Lensmeter: How to Specify Optical Head Clearance](https://mttpackaging.com/insights/lensmeter-packaging-optical-head-clearance)
+- [Ultrasound Probe Inserts: Where Should the Cable Leave the Cradle?](https://mttpackaging.com/insights/ultrasound-probe-packaging-insert-cable-routing)
 - [Two Tea Tins and a Scoop Gift Box: Plan the Insert and Packout](https://mttpackaging.com/insights/two-tea-tins-scoop-gift-box-insert)
 - [Drip Coffee Sachet Drawer Box: Size Dividers for Real Packout](https://mttpackaging.com/insights/drip-coffee-sachet-drawer-divider-fit)
 - [Perfume Bottle and Travel Spray in a Book-Style Box: Plan Fit and Removal](https://mttpackaging.com/insights/perfume-bottle-travel-spray-book-box-fit)

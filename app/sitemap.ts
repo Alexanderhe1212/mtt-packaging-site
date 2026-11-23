@@ -1,4 +1,4 @@
-const november23Paths = new Set(['products','zh/products',...['two-tea-tins-scoop-book-gift-box','drip-coffee-sachet-divider-drawer-box'].flatMap(slug=>['products/'+slug,'zh/products/'+slug])]);
+const november23Paths = new Set(['products','zh/products',...['ultrasound-transducer-and-cable-presentation-box','portable-lensmeter-lift-off-presentation-box','holter-ecg-recorder-and-lead-set-drawer-box','reference-thermometer-probe-and-readout-box','handheld-pulse-oximeter-and-sensor-kit-box','two-tea-tins-scoop-book-gift-box','drip-coffee-sachet-divider-drawer-box'].flatMap(slug=>['products/'+slug,'zh/products/'+slug])]);
 import {products} from '../lib/products';
 import type { MetadataRoute } from 'next';
 import { articles } from '../lib/articles';
