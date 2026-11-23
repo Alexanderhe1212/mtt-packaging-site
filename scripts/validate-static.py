@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import xml.etree.ElementTree as ET
 import re
+import json
 root=Path('dist/client')
 class Page(HTMLParser):
  def __init__(self): super().__init__(); self.refs=[]; self.h1=0; self.robots=[]; self.canonical=[]; self.image_issues=[]; self.title=''; self.in_title=False
@@ -54,6 +55,19 @@ assert 'Isolated design preview' not in Path('public/tools/gift-box-solution-bui
 print(f'Checked {count} sitemap pages; {len(errors)} errors')
 for e in errors: print(e)
 assert not errors
+
+# The owner confirmed the factory city. Verify the published entity as well as visible copy.
+for route in ('index.html', 'about/index.html', 'zh/index.html'):
+ html=(root/route).read_text()
+ scripts=re.findall(r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>',html,re.S)
+ nodes=[node for script in scripts for data in [json.loads(script)] for node in data.get('@graph',[data])]
+ entities=[node for node in nodes if node.get('@type')=='Organization' and node.get('name')=='MTT Packaging']
+ assert entities, ('Missing organization on factory information page',route)
+ for entity in entities:
+  address=entity.get('location',{}).get('address',{})
+  assert (address.get('addressLocality'),address.get('addressRegion'),address.get('addressCountry')) == ('Changzhou','Jiangsu','CN'), ('Incorrect factory location',route)
+ visible=re.sub(r'<script\b[^>]*>.*?</script>', '',html,flags=re.S)
+ assert ('江苏常州' if route.startswith('zh/') else 'Changzhou') in visible, ('Missing visible factory city',route)
 
 # Missing URLs must not inherit the homepage canonical or conflicting index directives.
 error_page=Page();error_page.feed((root/'404.html').read_text())

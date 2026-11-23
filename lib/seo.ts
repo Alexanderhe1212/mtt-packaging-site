@@ -1,6 +1,6 @@
 export const siteUrl = 'https://mttpackaging.com';
 
-export const businessSummary = 'MTT Packaging is a custom packaging development and manufacturing partner in China, coordinating rigid boxes, folding cartons, corrugated packaging, paper bags and custom inserts for international brands.';
+export const businessSummary = 'MTT Packaging is a custom packaging development and manufacturing partner with a factory in Changzhou, Jiangsu, China, coordinating rigid boxes, folding cartons, corrugated packaging, paper bags and custom inserts for international brands.';
 
 export const organization = {
   '@type': 'Organization',
@@ -13,7 +13,10 @@ export const organization = {
   email: 'info@mttpackaging.com',
   telephone: '+86 17207110964',
   // Entity facts below repeat what the About, Quality Control and FAQ pages already state.
-  address: { '@type': 'PostalAddress', addressLocality: 'Shenzhen', addressRegion: 'Guangdong', addressCountry: 'CN' },
+  location: {
+    '@type': 'Place', name: 'MTT Packaging factory',
+    address: { '@type': 'PostalAddress', addressLocality: 'Changzhou', addressRegion: 'Jiangsu', addressCountry: 'CN' },
+  },
   areaServed: 'Worldwide',
   knowsAbout: ['Custom rigid boxes', 'Magnetic closure boxes', 'Drawer boxes', 'Folding cartons', 'Corrugated mailer boxes', 'Custom paper bags', 'Custom packaging inserts', 'Perfume packaging', 'Cosmetic packaging', 'Jewelry and watch packaging', 'Gift set packaging', 'Packaging sampling and quality control'],
   hasOfferCatalog: {

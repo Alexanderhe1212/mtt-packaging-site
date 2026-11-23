@@ -86,7 +86,7 @@ export default function Home() {
     <SiteNav />
     <section className="ed-hero" id="top">
       <div className="ed-hero-copy">
-        <p className="ed-eyebrow">Custom packaging supplier · Shenzhen, China</p>
+        <p className="ed-eyebrow">Custom packaging · Factory in Changzhou, China</p>
         <h1>Custom luxury boxes, made around your product.</h1>
         <p className="ed-lead">Rigid gift boxes, folding cartons, mailers, paper bags and fitted inserts for perfume, cosmetics, jewelry and gift brands. Developed, sampled and produced in China, shipped worldwide.</p>
         <div className="ed-actions"><a className="button" href="/request-a-quote">Get a Quote <span aria-hidden="true">→</span></a><a className="ed-text-link" href="/products">Browse packaging designs</a></div>
@@ -143,7 +143,7 @@ export default function Home() {
       <div className="hp-why-copy">
         <p className="hp-kicker">Why MTT Packaging</p>
         <h2 id="why-mtt-title">One accountable contact, from brief to delivery.</h2>
-        <p>MTT Packaging is based in Shenzhen, China. One direct contact coordinates specification, sampling, production and delivery details, so structure, print, insert and packing decisions stay in one place.</p>
+        <p>Our packaging factory is in Changzhou, Jiangsu, China. One direct contact coordinates specification, sampling, production and delivery details, so structure, print, insert and packing decisions stay in one place.</p>
         <ul>
           <li><b>Structure and insert engineering</b><span>Magnetic, lift-off, drawer, shoulder-neck and carton structures in custom dimensions, with paper, molded pulp, EVA or fabric-covered inserts.</span></li>
           <li><b>Materials and finishes</b><span>Board, wrapping paper, foil, embossing, spot UV and lamination specified per component and confirmed on a physical sample.</span></li>

@@ -11,6 +11,14 @@ const mixed=products.filter(p=>!displayOrder.includes(p.code)).sort((a,b)=>{
 });
 const catalogueProducts=[...mixed];
 displayOrder.forEach((code,i)=>{const p=products.find(p=>p.code===code);if(p)catalogueProducts.splice(i*7,0,p)});
+// Search across the design's specification fields, regardless of the buyer's word order.
+const searchTextByCode = new Map(products.map(p => [
+ p.code,
+ [p.name, p.nameZh, p.code, p.familyName, p.familyZh, p.categoryName, p.categoryZh,
+  p.structureName, p.structureZh, p.material, p.materialZh, p.wrap, p.wrapZh,
+  p.finish, p.finishZh, p.contents, p.contentsZh, p.insert, p.insertZh, ...p.searchTerms]
+  .join(' ').normalize('NFKC').toLowerCase()
+]));
 function subscribeSearch(listener:()=>void){
  window.addEventListener('popstate',listener);window.addEventListener('mtt:catalogue-filter',listener);
  return()=>{window.removeEventListener('popstate',listener);window.removeEventListener('mtt:catalogue-filter',listener)}
@@ -92,7 +100,13 @@ export default function ProductCatalogue({zh=false,compact=false}:{zh?:boolean;c
  function button(action: FilterAction, value='') {
    return {'data-filter-action':action,value,onClick:()=>applyFilters([[action,value]])};
  }
- const found=catalogueProducts.filter(p=>(!jarTin||jarTinProductCodes.has(p.code))&&(!family||p.family===family)&&(!category||p.category===category)&&(!structure||p.structure===structure)&&(!wrap||p.wrap===wrap)&&[p.name,p.nameZh,p.code,p.categoryName,p.categoryZh,p.structureName,p.structureZh,p.material,p.materialZh,p.wrap,p.wrapZh,p.finish,p.finishZh,p.contents,p.contentsZh,p.insert,p.insertZh,...p.searchTerms].join(' ').toLowerCase().includes(query.toLowerCase().trim()));
+ const terms = query.normalize('NFKC').toLowerCase().trim().split(/\s+/u).filter(Boolean);
+ const found = catalogueProducts.filter(p =>
+   (!jarTin || jarTinProductCodes.has(p.code)) &&
+   (!family || p.family === family) && (!category || p.category === category) &&
+   (!structure || p.structure === structure) && (!wrap || p.wrap === wrap) &&
+   terms.every(term => searchTextByCode.get(p.code)!.includes(term))
+ );
  return <div ref={rootRef} className={compact?"pf-compact-catalogue":undefined}>
  <script dangerouslySetInnerHTML={{__html:captureEarlyFilters}}/>
  <span hidden suppressHydrationWarning role="status" data-early-filter-status>{zh?'正在载入筛选结果…':'Loading your filtered results…'}</span>

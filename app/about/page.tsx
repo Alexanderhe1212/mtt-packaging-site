@@ -24,7 +24,7 @@ const structuredData = {
       "@type": "AboutPage",
       name: "About MTT Packaging",
       description:
-        "MTT Packaging is a packaging development and manufacturing partner in Shenzhen, China.",
+        "MTT Packaging develops custom packaging with a factory in Changzhou, Jiangsu, China.",
       url: `${siteUrl}/about`,
       about: {"@id": organization["@id"]},
     },
@@ -94,7 +94,7 @@ export default function AboutPage() {
         <div>
           <p>
             MTT Packaging is a packaging development and manufacturing partner
-            based in Shenzhen, China. We work with international brands to develop packaging
+            with a factory in Changzhou, Jiangsu, China. We work with international brands to develop packaging
             structures, materials, finishes and inserts as one integrated system.
           </p>
           <p>

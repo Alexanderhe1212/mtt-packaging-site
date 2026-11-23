@@ -23,6 +23,14 @@ try {
  assert.deepEqual(familyLinks,[['Luxury Rigid Boxes','/packaging/custom-rigid-boxes'],['Premium Folding Cartons','/packaging/folding-cartons'],['Bespoke Paper Bags','/packaging/custom-paper-bags'],['Custom Inserts','/packaging/custom-inserts']]);
  assert(await page.$('.page-hero a[href="/request-a-quote"]'));
  assert(await page.$('.page-hero a[href="/products"]'));
+ // Buyers can combine a model code with a specification, in either language.
+ for (const [route, query, slug] of [
+  ['/products/', 'scoop MTT-R1312', 'two-tea-tins-scoop-book-gift-box'],
+  ['/zh/products/', 'MTT-R1313 咖啡', 'drip-coffee-sachet-divider-drawer-box'],
+ ]) {
+  await page.goto(base + route + '?q=' + encodeURIComponent(query), {waitUntil:'networkidle0'});
+  assert.deepEqual(await page.$$eval('.product-card', cards => cards.map(card => new URL(card.href).pathname)), [route + slug]);
+ }
  // Jar/tin collection keeps existing product URLs and composes with family filters.
  for(const prefix of ['', '/zh']){
   await page.goto(base+prefix+'/products/',{waitUntil:'networkidle0'});
