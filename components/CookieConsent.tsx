@@ -1,27 +1,32 @@
 'use client';
 import { useEffect, useState } from 'react';
 
+import { useBrowserReady } from './useBrowserReady';
+
 // A prior GA-only choice must not silently authorize session recordings.
 const STORAGE_KEY = 'mtt_cookie_consent_v2';
 
 export default function CookieConsent() {
-  const [visible, setVisible] = useState(false);
+  return useBrowserReady() ? <BrowserConsent /> : null;
+}
+
+function BrowserConsent() {
+  const [stored] = useState(() => {
+    try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+  });
+  const gpc = Boolean((navigator as Navigator & { globalPrivacyControl?: boolean }).globalPrivacyControl);
+  const privacySignal = gpc;
+  const [visible, setVisible] = useState(!stored);
   const [showPrefs, setShowPrefs] = useState(false);
-  const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
-  const [privacySignal, setPrivacySignal] = useState(false);
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(stored === 'granted' && !gpc);
 
   useEffect(() => {
-    let stored: string | null = null;
-    try { stored = localStorage.getItem(STORAGE_KEY); } catch { /* Storage optional. */ }
-    const gpc = Boolean((navigator as Navigator & { globalPrivacyControl?: boolean }).globalPrivacyControl);
-    setPrivacySignal(gpc);
-    setAnalyticsEnabled(stored === 'granted' && !gpc);
-    if (stored === 'granted') {
+    if (stored === 'granted' && !gpc) {
       if (typeof window !== 'undefined' && 'mttGrantAnalytics' in window) {
         (window as unknown as { mttGrantAnalytics: () => void }).mttGrantAnalytics();
       }
     }
-    if (!stored) setVisible(true);
+
 
     const reopen = () => { setVisible(true); setShowPrefs(true); };
     const syncChoice = (event: StorageEvent) => {
@@ -32,7 +37,7 @@ export default function CookieConsent() {
     window.addEventListener('reopen-cookie-consent', reopen);
     window.addEventListener('storage', syncChoice);
     return () => { window.removeEventListener('reopen-cookie-consent', reopen); window.removeEventListener('storage', syncChoice); };
-  }, []);
+  }, [stored, gpc]);
 
   const accept = () => {
     if ((navigator as Navigator & { globalPrivacyControl?: boolean }).globalPrivacyControl) { reject(); return; }

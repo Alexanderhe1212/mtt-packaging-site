@@ -5,13 +5,16 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {applyPreviewArtwork,type PreviewArtwork,type PreviewSurface} from '../lib/preview-artwork';
 import {createFoldModel} from '../lib/fold-scene.mjs';
 type BoxData=ReturnType<typeof import('../lib/packaging.mjs').buildBox>;
-export default function FoldingPreview({box,visualOptions,artworks=[]}:{box:BoxData;artworks?:PreviewArtwork[];visualOptions?:{paperColor:string;surface:string}}){
+const emptyArtwork: PreviewArtwork[] = [];
+export default function FoldingPreview({box,visualOptions,artworks=emptyArtwork}:{box:BoxData;artworks?:PreviewArtwork[];visualOptions?:{paperColor:string;surface:string}}){
  const host=useRef<HTMLDivElement>(null),progress=useRef(0),play=useRef(false),resetView=useRef<()=>void>(()=>{});
  const [value,setValue]=useState(0),[playing,setPlaying]=useState(false),[error,setError]=useState('');
  const [artworkWarning,setArtworkWarning]=useState('');
  const stage=value===0?'Flat reference panels':value<64?'Fold panels':value<94?'Assemble components':'Assembled box';
  useEffect(()=>{
   if(!host.current)return;const element=host.current;let renderer:THREE.WebGLRenderer|undefined,frame=0,observer:ResizeObserver|undefined,controls:OrbitControls|undefined;const scene=new THREE.Scene(),textures:THREE.Texture[]=[];let alive=true;let captureListener:((e:Event)=>void)|undefined;
+  // Allocate WebGL resources on the next frame, after the container is mounted.
+  const setupFrame=requestAnimationFrame(()=>{
   progress.current=0;play.current=false;setValue(0);setPlaying(false);setError('');setArtworkWarning('');
   try{
    renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;renderer.shadowMap.enabled=true;element.appendChild(renderer.domElement);renderer.domElement.setAttribute('aria-label',`${box.id} flat-to-assembled animation`);
@@ -31,7 +34,8 @@ export default function FoldingPreview({box,visualOptions,artworks=[]}:{box:BoxD
     controls?.update();renderer?.render(scene,camera);
    };frame=requestAnimationFrame(animate);
   }catch{setError('Animation is unavailable in this browser. The dimensioned flat layout is still available.');}
-  return()=>{if(captureListener)window.removeEventListener('mtt-capture-preview',captureListener);alive=false;textures.forEach(t=>t.dispose());cancelAnimationFrame(frame);observer?.disconnect();controls?.dispose();scene.traverse(o=>{const m=o as THREE.Mesh;m.geometry?.dispose();if(m.material)(Array.isArray(m.material)?m.material:[m.material]).forEach(x=>x.dispose())});renderer?.dispose();renderer?.forceContextLoss();renderer?.domElement.remove();resetView.current=()=>{}};
+  });
+  return()=>{cancelAnimationFrame(setupFrame);if(captureListener)window.removeEventListener('mtt-capture-preview',captureListener);alive=false;textures.forEach(t=>t.dispose());cancelAnimationFrame(frame);observer?.disconnect();controls?.dispose();scene.traverse(o=>{const m=o as THREE.Mesh;m.geometry?.dispose();if(m.material)(Array.isArray(m.material)?m.material:[m.material]).forEach(x=>x.dispose())});renderer?.dispose();renderer?.forceContextLoss();renderer?.domElement.remove();resetView.current=()=>{}};
  },[box,artworks,visualOptions?.paperColor,visualOptions?.surface]);
  function seek(n:number){play.current=false;setPlaying(false);progress.current=n;setValue(n);resetView.current()}
  function toggle(){if(progress.current===100)seek(0);play.current=!play.current;setPlaying(play.current)}
