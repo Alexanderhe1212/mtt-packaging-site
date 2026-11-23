@@ -1448,5 +1448,80 @@
       "用原装传感器袋打样，核对封边、连接头高度和型号标签；最小版本也不得滑向显示屏。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
     ],
     "guide": "pulse-oximeter-sensor-kit-packaging-pouch-fit"
+  },
+  "MTT-R1406": {
+    "answer": [
+      "Navy secondary packaging concept with central instrument mount behind two hinged front panels. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "海军蓝外包装定制概念，配双门内的居中仪器支撑座。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "HEINE lists several otoscope kits with different handle and charging options. Ask for the exact sellable configuration and its packed photographs. If the head travels separately, its own recess needs finger access. If assembled as approved by the device owner, a mount under the handle must also keep the head clear of the doors. Do not assume a display pose is an approved shipping orientation.",
+      "请提供货架净宽、深度和相邻陈列物位置；用实物模型核对开门轨迹、取柄空间与装载后的中缝。"
+    ],
+    "review": [
+      "Close one door and then the other on the loaded dummy. A centre gap that changes when the instrument is removed points to a clearance problem; one that remains calls for a hinge and wrap inspection. Record front and side views with the sample on the intended shelf. Add artwork crossing the seam only after both leaves meet consistently.",
+      "请提供货架净宽、深度和相邻陈列物位置；用实物模型核对开门轨迹、取柄空间与装载后的中缝。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "otoscope-display-box-door-clearance"
+  },
+  "MTT-R1407": {
+    "answer": [
+      "Terracotta and ivory secondary packaging concept with removable instrument tray above an independent dock bay. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "陶红与象牙白外包装定制概念，配上层可提仪器托盘与下层充电座仓。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A pull tab at one end can tip the instrument toward the opposite wall. Try the full upper tray with two hands and then with one hand while the box sits on a counter. Compare opposing tabs with side finger cutouts. Reject a design that makes the buyer grasp the optical face or hold a loaded tray in mid-air while looking for the cable.",
+      "空仓和满仓分别测试托盘承托位置；确认提手平衡、线束最高点与不同地区适配器的占位。"
+    ],
+    "review": [
+      "Remove the dock and repeat the seating check. Replace it with the approved regional adapter and confirm the cable bundle cannot spring above the ledge. Specify which components the packer installs first, where the tray can be set down, and whether different regional kits share tooling. A photograph of the closed box cannot settle any of these decisions.",
+      "空仓和满仓分别测试托盘承托位置；确认提手平衡、线束最高点与不同地区适配器的占位。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "dermatoscope-kit-removable-tray-load-support"
+  },
+  "MTT-R1408": {
+    "answer": [
+      "Forest green secondary packaging concept with circular insert with two capped eyepiece wells. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "森林绿外包装定制概念，配圆形内托与两个独立带帽目镜位。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A deep slip lid may turn slightly as it comes off. On a surrogate mark the angular position of the tray, close the box, then remove the lid as a recipient would. If the insert turns, decide whether a keyed underside or a fixed base label is more appropriate. Increasing friction at the instrument itself can make removal worse.",
+      "先确认目镜是否需区分序列号，再核对内托旋转、镜帽净空和单只取出时另一只的稳定性。"
+    ],
+    "review": [
+      "Haag-Streit documents adjustable ocular rings for its BI 900. Obtain the actual model drawing and approved barrel contact points. Sample the tallest capped item and the smallest barrel in each well. Check that fingers can grip an approved surface and that removing the first item leaves the other seated. Quote the drum and a rectangular two-well alternative against the same packed parts and shipper footprint.",
+      "先确认目镜是否需区分序列号，再核对内托旋转、镜帽净空和单只取出时另一只的稳定性。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "paired-eyepiece-drum-box-insert-rotation"
+  },
+  "MTT-R1409": {
+    "answer": [
+      "Kraft and blue secondary packaging concept with folded board partition between headset and control unit. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "牛皮纸与蓝色外包装定制概念，配耳机与主机之间的折叠瓦楞隔仓。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "Fold the roll ends, install the divider and load the components in the proposed bench sequence. Watch the leading edge of each locking wing as the lid closes. A wing can catch a cable even if everything sits below the lid line. Try removing the unit first and the headset first. Record which sequence gives the packer a clear view of the plug.",
+      "以耳机自然放置状态量尺，检查锁翼运动是否夹线，并区分展示外盒与原厂指定售后运输包装。"
+    ],
+    "review": [
+      "Interacoustics gives model-specific instructions to retain the AS608 shipping carton for service returns. A printed demo mailer does not supersede that instruction. Ask whether the intended use is hand delivery, a secondary pack inside an approved shipper or a proposed new distribution system. Cost the master carton and validation separately when the route changes.",
+      "以耳机自然放置状态量尺，检查锁翼运动是否夹线，并区分展示外盒与原厂指定售后运输包装。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "audiometer-headset-mailer-partition-sizing"
+  },
+  "MTT-R1410": {
+    "answer": [
+      "Plum secondary packaging concept with six individual rim-support slots in a hexagonal base. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "深梅紫外包装定制概念，配六角底座配六道镜圈支撑槽。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "Ask the owner to supply the six identifiers exactly as they should appear. OCULUS documents multiple lens groups and optional modules in its larger trial sets. A six-piece demonstration selection needs its own contents list. With the case on a desk, ask a second person to identify one specified piece and lift it by its approved contact area without moving its neighbours.",
+      "以实际镜圈及手柄尺寸排槽，核对端部槽与斜边干涉、标记可读性和取片净空。"
+    ],
+    "review": [
+      "Trial the thickest rim and the smallest rim rather than sizing every groove to an average. Inspect for contact on the optical surface and test whether the lid disturbs the handle position. Mark the intended front on the inner tray and the base. On the illustrated hinged case, check the rear row as the lid sweeps open. Place the tallest handle there for the clearance trial and record the angle at which a user can lift it free.",
+      "以实际镜圈及手柄尺寸排槽，核对端部槽与斜边干涉、标记可读性和取片净空。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
+    ],
+    "guide": "six-trial-lens-sample-case-slot-spacing"
   }
 }

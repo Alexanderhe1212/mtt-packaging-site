@@ -22,6 +22,11 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Six Trial Lenses in a Hexagonal Case: Lay Out the Slots Before the Logo](https://mttpackaging.com/insights/six-trial-lens-sample-case-slot-spacing)
+- [Sizing an Audiometer Mailer Around the Headset and Control Unit](https://mttpackaging.com/insights/audiometer-headset-mailer-partition-sizing)
+- [Two Eyepieces in a Drum Box: How to Control Insert Rotation](https://mttpackaging.com/insights/paired-eyepiece-drum-box-insert-rotation)
+- [Dermatoscope and Dock Kits: What Carries the Upper Tray?](https://mttpackaging.com/insights/dermatoscope-kit-removable-tray-load-support)
+- [Otoscope Display Boxes: Will Both Doors Open on the Dealer’s Shelf?](https://mttpackaging.com/insights/otoscope-display-box-door-clearance)
 - [Pulse Oximeter Kits: Size the Sensor Bay Around the Supplied Pouch](https://mttpackaging.com/insights/pulse-oximeter-sensor-kit-packaging-pouch-fit)
 - [Reference Thermometer Packaging: Keep End Loads off the Probe Tip](https://mttpackaging.com/insights/reference-thermometer-probe-packaging-tip-clearance)
 - [Holter Recorder Kits: How to Keep Lead Sets with the Right Recorder](https://mttpackaging.com/insights/holter-recorder-kit-packaging-lead-set-identification)

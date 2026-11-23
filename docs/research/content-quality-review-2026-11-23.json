@@ -187,5 +187,140 @@
     "sources": [
       "https://www.nonin.com/wp-content/uploads/2018/09/8100S-Operators-Manual.pdf"
     ]
+  },
+  {
+    "slug": "otoscope-display-box-door-clearance",
+    "primaryQuery": "otoscope display box door clearance",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Agree how the head and handle arrive",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Test the opening where the box will stand",
+      "Agree how the head and handle arrive",
+      "Approve the seam after loading",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.heine.com/fileadmin/en_GB/Documents/Catalogue/2024/HEINE-Gesamtkatalog-2024-V3-DE.pdf"
+    ]
+  },
+  {
+    "slug": "dermatoscope-kit-removable-tray-load-support",
+    "primaryQuery": "dermatoscope kit removable tray load support",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Lift it as the recipient would",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Separate the component list from the support drawing",
+      "Lift it as the recipient would",
+      "Quote the lower compartment in both configurations",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://dermlite.com/pages/comparison-table"
+    ]
+  },
+  {
+    "slug": "paired-eyepiece-drum-box-insert-rotation",
+    "primaryQuery": "paired eyepiece drum box insert rotation",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Keep the lid from acting as a wrench",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Choose a reference the packer can see",
+      "Keep the lid from acting as a wrench",
+      "Inspect the two wells independently",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://de.haag-streit.com/2%20Products/General%20diagnostics/Slit%20lamps/BI%20900/Instructions%20for%20use/English/1500_7220505_04070_IFU_BI_900_01_en_web.pdf"
+    ]
+  },
+  {
+    "slug": "audiometer-headset-mailer-partition-sizing",
+    "primaryQuery": "audiometer headset mailer partition sizing",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Check the locking sequence on a loaded sample",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Build the divider around the resting headset",
+      "Check the locking sequence on a loaded sample",
+      "Distinguish a sales kit from a service shipper",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://download.interacoustics.com/archive/as608/operation-manual-as608-en-06-2009.pdf"
+    ]
+  },
+  {
+    "slug": "six-trial-lens-sample-case-slot-spacing",
+    "primaryQuery": "six trial lens sample case slot spacing",
+    "searchEvidence": "New medical-instruments branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Read the label before taking out the lens",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Find the narrowest section of the hexagon",
+      "Read the label before taking out the lens",
+      "Approve the rim support and the lid together",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.oculus.de/en/wp-content/uploads/sites/12/2024/07/Trial_Lens_Cases_en_2402.pdf"
+    ]
   }
 ]
