@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="baidu-site-verification" content="codeva-615dGJwySH" />
+        <meta name="baidu-site-verification" content="codeva-6vlrcVggsJ" />
         <meta httpEquiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests" />
         <script dangerouslySetInnerHTML={{__html:analyticsBootstrap}} />
       </head>
