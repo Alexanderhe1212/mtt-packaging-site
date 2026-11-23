@@ -1234,8 +1234,8 @@
       "瓶与工具成套销售时可选双槽。若仅售单瓶，可要求单瓶布局，以便比较装盒尺寸与内托成本。"
     ],
     "review": [
-      "Send the filled, closed bottle and the actual stone. With the sample closed, check whether the stone can leave its well and contact the glass. Then lift each item out separately and inspect the bottle label for rubbing.",
-      "提供灌装封盖后的实瓶和实际按摩石。合盖试装时检查按摩石能否脱槽碰到玻璃瓶，再分别取出两件产品，查看瓶标有无擦痕。"
+      "Send the filled, closed bottle and the actual stone. With the sample closed, check whether the stone can leave its well and contact the glass. Then lift each item out separately and inspect the bottle label for rubbing. If the stone varies in outline, include the smallest and largest pieces you intend to pack. Use the smaller piece to check retention and the larger one to check finger access and lid clearance. List single-bottle and bottle-plus-tool quantities separately in the quote brief.",
+      "提供灌装封盖后的实瓶和实际按摩石。合盖试装时检查按摩石能否脱槽碰到玻璃瓶，再分别取出两件产品，查看瓶标有无擦痕。 若按摩石外形有差异，请同时提供计划装盒的最小件和最大件。用最小件检查是否容易脱槽，用最大件确认手指取出空间和合盖净空。询价时分别列明单瓶装与瓶石套装数量。"
     ],
     "guide": "custom-inserts-product-protection"
   },
@@ -1358,5 +1358,20 @@
       "提供密封咖啡包、厚度差异、每套数量及卡片尺寸；检查分隔强度、手指取放和装载后抽拉。"
     ],
     "guide": "drip-coffee-sachet-drawer-divider-fit"
+  },
+  "MTT-R0114": {
+    "answer": [
+      "This double-hinged perfume box presents one bottle behind two side-hinged doors. The doors meet in the centre, and a separate channel holds a presentation card. Send the capped bottle and the finished card together: a thick envelope or raised seal can change how the doors meet.",
+      "这款双开门香水盒的两扇硬质门从左右向中央闭合，内托设一个瓶槽和独立卡槽。请同时提供带盖香水瓶和最终用卡；厚信封或凸起的封贴都可能占用门扇闭合空间。"
+    ],
+    "selection": [
+      "Choose the double-door format if both panels can swing clear on the display shelf. Give the supplier the usable shelf width as well as the closed-box dimensions. If the box will be handed over in a bag, check the opening sequence again with the box removed and supported in one hand.",
+      "若用于陈列，请同时提供货架可用宽度和闭盒尺寸，核实两侧有足够空间开门。若配手提袋交付，请把样盒取出，以单手托住盒底的方式试开一次。"
+    ],
+    "review": [
+      "Approve the centre seam on a loaded sample. Close each door independently, then close both with the card in place. If a door springs back, repeat without the card to distinguish interference from the bottle or the door assembly. For artwork spanning the seam, send one continuous visual and mark the intended split on the proof.",
+      "用装入实物的样盒确认中央合缝。先分别合上两扇门，再放入卡片一起闭合。若有回弹，先取出卡片复试，再检查瓶体或门扇装配。跨缝图案请提供完整画面，并在校样上标出分割位置。"
+    ],
+    "guide": "perfume-box-insert-design"
   }
 }
