@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "two-tea-tins-scoop-gift-box-insert",
+    "primaryQuery": "two tea tins scoop gift box insert",
+    "searchEvidence": "Candidate buyer-intent phrase; volume and ranking not verified.",
+    "customerDecision": "Two sealed tins and a scoop need three separate decisions: how the tins are supported, where the scoop can be lifted, and how the filled assembly closes and travels. Measure the finished tins with lids and labels and provide the scoop in its intended protective wrapper. A book-style box can display the complete set, but real fit, closure and transport performance must be checked on representative samples.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Buyer measurement, support, sample checks, packout and quotation boundaries covered.",
+      "Concept image and food contact limitations disclosed; no completed customer outcomes claimed.",
+      "Minimum order requirements included."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  },
+  {
+    "slug": "drip-coffee-sachet-drawer-divider-fit",
+    "primaryQuery": "drip coffee sachet drawer divider fit",
+    "searchEvidence": "Candidate buyer-intent phrase; volume and ranking not verified.",
+    "customerDecision": "A divided drawer should hold the actual sealed sachets without forcing seals, allow a customer to remove one and slide smoothly when loaded. Measure the filled sachets across their full width, seal margins and thickness range, not just the flat artwork. Compare divider layout, card position and packout order with real components before approving the sample.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Buyer measurement, support, sample checks, packout and quotation boundaries covered.",
+      "Concept image and food contact limitations disclosed; no completed customer outcomes claimed.",
+      "Minimum order requirements included."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  }
+]

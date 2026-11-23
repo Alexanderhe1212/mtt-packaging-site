@@ -25,6 +25,8 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "two-tea-tins-scoop-gift-box-insert",
+      "drip-coffee-sachet-drawer-divider-fit",
       "perfume-bottle-travel-spray-book-box-fit",
       "two-candle-jars-drawer-box-insert-fit",
       "candle-accessory-channel-packout-check",

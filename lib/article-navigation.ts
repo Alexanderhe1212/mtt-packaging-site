@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:['two-tea-tins-scoop-gift-box-insert','custom-tea-tins-buying-guide','tea-gift-box-drawer-analysis','stock-vs-custom-packaging-total-cost'],products:['two-tea-tins-scoop-book-gift-box','tea-tin-pairing-lift-off','tea-ceremony-collection-double-door']},
+  {articles:['drip-coffee-sachet-drawer-divider-fit','drawer-box-clearance-ribbon-pull','drawer-box-sleeve-fit-loaded-sample','custom-packaging-sampling-process'],products:['drip-coffee-sachet-divider-drawer-box','coffee-drip-bag-wardrobe-stacked-drawers','coffee-tasting-flight-drawer']},
   {articles:['roller-bottle-drawer-insert-removal','three-vial-card-order-and-drawer-packout','drawer-box-sleeve-fit-loaded-sample','drawer-box-clearance-ribbon-pull'],products:['three-roller-perfume-drawer-card-box','travel-fragrance-trio-drawer','four-vial-perfume-discovery-drawer-card-pocket']},
   {articles:['two-cream-jars-insert-removal-order','cosmetic-spatula-pocket-packaging-brief','skincare-jar-serum-gift-box-insert-fit','custom-packaging-sampling-process'],products:['two-cream-jars-spatula-book-gift-box','skincare-ritual-book','face-cream-presentation-shoulder']},
   {articles:['nail-wrap-carton-window-registration','shade-assortment-envelope-carton-packing','retail-barcode-placement-gift-boxes','rigid-box-with-window-design'],products:['window-envelope-carton-nail-wrap-sheets','custom-carton-packaging-set','six-vial-paperboard-discovery-sleeve-tray']},

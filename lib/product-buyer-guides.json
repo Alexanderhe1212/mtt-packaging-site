@@ -1328,5 +1328,35 @@
       "提供带盖罐体尺寸、装满重量与实际工具，打样检查标签接触、工具分隔、托盘底部和装载后抽拉。"
     ],
     "guide": "two-candle-jars-drawer-box-insert-fit"
+  },
+  "MTT-R1312": {
+    "answer": [
+      "A book-style concept for two sealed tea tins with a separately positioned scoop.",
+      "双密封茶罐与独立茶匙槽的书型礼盒概念。"
+    ],
+    "selection": [
+      "Compare attached-cover presentation with a separate-lid box; plan access to both tins and the scoop.",
+      "对比连盖与天地盖展示；规划双罐及茶匙的取放。"
+    ],
+    "review": [
+      "Provide closed-tin dimensions and filled weights and a wrapped scoop sample. Review contact points, removal, cover clearance, packout and shipping with physical samples.",
+      "提供带盖茶罐尺寸和装满重量，以及包装后的茶匙样品；检查接触点、取放、合盖、装配和运输。"
+    ],
+    "guide": "two-tea-tins-scoop-gift-box-insert"
+  },
+  "MTT-R1313": {
+    "answer": [
+      "A drawer-box concept for separately sealed drip-coffee sachets, dividers and a card.",
+      "独立密封挂耳咖啡包、分隔及卡片的抽屉礼盒概念。"
+    ],
+    "selection": [
+      "Compare a single divided drawer with a two-drawer display; test removal of the thinnest and thickest sachet.",
+      "比较单层分隔抽屉与双层抽屉；检查最薄和最厚咖啡包的取放。"
+    ],
+    "review": [
+      "Provide sealed sachets, thickness variation, number per set and card dimensions. Review divider stiffness, finger access and loaded drawer travel.",
+      "提供密封咖啡包、厚度差异、每套数量及卡片尺寸；检查分隔强度、手指取放和装载后抽拉。"
+    ],
+    "guide": "drip-coffee-sachet-drawer-divider-fit"
   }
 }
