@@ -4,6 +4,12 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "digital-caliper-packaging-insert-jaw-clearance",
+      "micrometer-drawer-box-setting-standard-retention",
+      "dial-indicator-box-insert-rear-lug-clearance",
+      "microscope-objective-set-packaging-capped-well-sizing",
+      "machinist-level-mailer-vial-clearance",
+
       "otoscope-display-box-door-clearance",
       "dermatoscope-kit-removable-tray-load-support",
       "paired-eyepiece-drum-box-insert-rotation",

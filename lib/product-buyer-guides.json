@@ -1523,5 +1523,80 @@
       "以实际镜圈及手柄尺寸排槽，核对端部槽与斜边干涉、标记可读性和取片净空。该概念未经无菌屏障或运输验证，不用于使用后设备回收。"
     ],
     "guide": "six-trial-lens-sample-case-slot-spacing"
+  },
+  "MTT-R1411": {
+    "answer": [
+      "Forest green secondary packaging concept with beam supports with relieved jaw and depth-bar pockets. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "森林绿外包装定制概念，配尺身支撑座及量爪、深度杆避空槽。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "On the sample drawing shade the approved support areas on the beam and identify the display, controls and measuring edges as clearance zones. Compare a pair of short supports with a continuous channel. Short supports make it easier to lift the beam, while a channel can limit sideways travel. Either design needs a finger recess deep enough for a user to lift the tool without levering against the jaw tips.",
+      "提供卡尺装盒位置、尺身截面和深度杆伸出尺寸，用模型核对量爪避空、显示屏上方净空及取尺手位。"
+    ],
+    "review": [
+      "Check the sweep near the hinge and the height above the display with the liner, documents and any customer-supplied sleeve in place. If a brochure presses on the slider, place it in a separate pocket and repeat the closure check. Ask the buyer to photograph the final pack position from both ends and record the instrument revision alongside the approved insert drawing.",
+      "提供卡尺装盒位置、尺身截面和深度杆伸出尺寸，用模型核对量爪避空、显示屏上方净空及取尺手位。运输性能需另行验证。"
+    ],
+    "guide": "digital-caliper-packaging-insert-jaw-clearance"
+  },
+  "MTT-R1412": {
+    "answer": [
+      "Ochre secondary packaging concept with frame cradle and separate setting-standard channel. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "赭黄色外包装定制概念，配尺架支撑槽与独立校对杆位。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "Place the heavier frame near the supported area of the drawer and trial the layout in the direction the customer will pull. Give the standard its own channel with end restraint against an approved surface. Leave a lifting notch that exposes the middle of the bar. An overly narrow notch invites the user to pry an end free with the wrench. A wider notch can reduce lateral support and needs another loaded trial.",
+      "按实际量程确认校对杆、扳手和保护套，核对抽屉拉出末段的重心、限位与取杆手位。"
+    ],
+    "review": [
+      "Cycle a representative loaded drawer on the actual counter surface and check the last portion of its travel. Inspect the insert for lift, the sleeve for rubbing and each component for movement. If the tray can leave the sleeve entirely, agree whether that is desirable at a demonstration bench. Include the selected stop or removable-drawer arrangement on the signed sample sheet.",
+      "按实际量程确认校对杆、扳手和保护套，核对抽屉拉出末段的重心、限位与取杆手位。运输性能需另行验证。"
+    ],
+    "guide": "micrometer-drawer-box-setting-standard-retention"
+  },
+  "MTT-R1413": {
+    "answer": [
+      "Burgundy secondary packaging concept with body nest with relief for the rear lug and plunger tip. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "酒红色外包装定制概念，配表体支撑位及后耳、测头避空位。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "Use an owner-approved body surface as the support datum and add a deeper relief for the lug. An insert cut straight through to clear the lug may leave too little floor beneath it. Compare a laminated stepped recess with a taller tray, including the extra box height and change in finished outer dimensions. Fit the longest approved tip without making it carry the instrument.",
+      "提供装箱时使用的表背、测头及备用表背尺寸；检查表体是否平稳落座、后耳是否触底以及上盖净空。"
+    ],
+    "review": [
+      "Seat a dimensionally representative dummy and lightly alternate pressure at the approved body supports. Rocking calls for an underside inspection before adding a lid pad. Trial the spare back in a separate pocket, then close and lift off the lid. Sign off the section drawing only after the crystal, bezel and plunger have the agreed clearance and fingers can reach the body.",
+      "提供装箱时使用的表背、测头及备用表背尺寸；检查表体是否平稳落座、后耳是否触底以及上盖净空。运输性能需另行验证。"
+    ],
+    "guide": "dial-indicator-box-insert-rear-lug-clearance"
+  },
+  "MTT-R1414": {
+    "answer": [
+      "Indigo secondary packaging concept with keyed disc tray with three individually sized capped-objective wells. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "靛蓝色外包装定制概念，配带定位结构的圆托及三处独立带帽物镜槽。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A printed lid legend is easy to read in a mock-up, but a loose circular lid can be replaced at any angle. Put each identifier on the tray beside its well, or key both the legend and tray to a common feature. Lay out the largest capsule first. Check that a hand removing it avoids the neighbouring cap and can still read the other two identifiers.",
+      "提供三支物镜各自带帽后的尺寸、抓取部位及编号，测试圆托旋转后标签是否仍对应正确槽位。"
+    ],
+    "review": [
+      "Load the intended three parts and ask a colleague to retrieve a specified item using only the approved labels. Repeat with one pocket empty and reinsert the tray after turning it. If the identifiers can point to a different well, move the labels before tooling. Record permitted substitutions by packed diameter and height, with a separate approval for any change of protective capsule.",
+      "提供三支物镜各自带帽后的尺寸、抓取部位及编号，测试圆托旋转后标签是否仍对应正确槽位。运输性能需另行验证。"
+    ],
+    "guide": "microscope-objective-set-packaging-capped-well-sizing"
+  },
+  "MTT-R1415": {
+    "answer": [
+      "Copper secondary packaging concept with opposed folded supports with a clear bridge over the vial. For new equipment supplied by the device owner. Illustrations show one possible layout.",
+      "铜棕色外包装定制概念，配相对折叠支座与水准泡上方避空桥位。仅展示新设备的装盒方案，图示设备不随包装提供。"
+    ],
+    "selection": [
+      "A flat dieline hides several layers at the ends. Fold a production-intent board sample, install the end saddles and add the actual liner. Inspect the space above both vial covers with all flaps tucked. If an end flap intrudes, compare shortening the tuck with moving the saddle inward. The first can change closure security and the second can change bending or end restraint.",
+      "提供仪器重量、纵横水准泡高度和允许受力面；按实际纸板折合检查端部支撑、插舌干涉与运输外箱。"
+    ],
+    "review": [
+      "Use a representative weighted dummy for early handling checks. Look for end migration, saddle collapse and evidence of lid contact. Record the board grade, fold direction and outer carton used for the trial. Ask the instrument owner to define transport testing and post-transit functional acceptance before approving a shipping claim. A successful counter demonstration only answers the packout question.",
+      "提供仪器重量、纵横水准泡高度和允许受力面；按实际纸板折合检查端部支撑、插舌干涉与运输外箱。运输性能需另行验证。"
+    ],
+    "guide": "machinist-level-mailer-vial-clearance"
   }
 }

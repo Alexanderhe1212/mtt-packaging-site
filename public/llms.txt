@@ -22,6 +22,11 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Quoting a Machinist Level Mailer Without Loading the Vial](https://mttpackaging.com/insights/machinist-level-mailer-vial-clearance)
+- [Sizing Three Wells for a Capped Microscope Objective Set](https://mttpackaging.com/insights/microscope-objective-set-packaging-capped-well-sizing)
+- [Dial Indicator Boxes: A Rear Lug Can Change the Whole Insert](https://mttpackaging.com/insights/dial-indicator-box-insert-rear-lug-clearance)
+- [A Micrometer Drawer That Keeps the Setting Standard in Its Place](https://mttpackaging.com/insights/micrometer-drawer-box-setting-standard-retention)
+- [Digital Caliper Inserts: Where Should the Jaws Sit?](https://mttpackaging.com/insights/digital-caliper-packaging-insert-jaw-clearance)
 - [Six Trial Lenses in a Hexagonal Case: Lay Out the Slots Before the Logo](https://mttpackaging.com/insights/six-trial-lens-sample-case-slot-spacing)
 - [Sizing an Audiometer Mailer Around the Headset and Control Unit](https://mttpackaging.com/insights/audiometer-headset-mailer-partition-sizing)
 - [Two Eyepieces in a Drum Box: How to Control Insert Rotation](https://mttpackaging.com/insights/paired-eyepiece-drum-box-insert-rotation)
