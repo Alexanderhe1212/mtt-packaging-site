@@ -133,5 +133,140 @@
     "sources": [
       "https://www.starrett.com/products/precision-measuring-tools/precision-hand-tools/machinists-levels/98-8"
     ]
+  },
+  {
+    "slug": "bayonet-lens-hood-packaging-insert-clearance",
+    "primaryQuery": "bayonet lens hood packaging insert clearance",
+    "searchEvidence": "New camera-accessories branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Try a saddle before specifying a full ring",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Mark the mount on a side elevation",
+      "Try a saddle before specifying a full ring",
+      "Inspect the hinge side after closure",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.nikonusa.com/p/hb-90-bayonet-lens-hood/4205"
+    ]
+  },
+  {
+    "slug": "camera-filter-kit-drawer-box-slot-sizing",
+    "primaryQuery": "camera filter kit drawer box slot sizing",
+    "searchEvidence": "New camera-accessories branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Decide which case the buyer can lift first",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Measure each closed case at the thickest point",
+      "Decide which case the buyer can lift first",
+      "Set a sign-off condition for mixed sets",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.nikonusa.com/accessories/dslr-lens-accessories"
+    ]
+  },
+  {
+    "slug": "camera-l-bracket-packaging-screw-retention",
+    "primaryQuery": "camera L bracket packaging screw retention",
+    "searchEvidence": "New camera-accessories branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Give the upright its own clearance",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Identify captive and loose parts on the packing list",
+      "Give the upright its own clearance",
+      "Count the hardware without tipping the tray",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://kb.reallyrightstuff.com/knowledge/camera-plate-manuals"
+    ]
+  },
+  {
+    "slug": "camera-strap-packaging-tube-buckle-separation",
+    "primaryQuery": "camera strap packaging tube buckle separation",
+    "searchEvidence": "New camera-accessories branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Keep metal hardware away from the visible textile",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Set the adjustment before rolling",
+      "Keep metal hardware away from the visible textile",
+      "Check withdrawal with a finished liner",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.peakdesign.com/global/products/slide-lite"
+    ]
+  },
+  {
+    "slug": "folded-photography-grey-target-mailer-depth",
+    "primaryQuery": "folded photography grey target mailer depth",
+    "searchEvidence": "New camera-accessories branch of the keyword map. Editorial candidate; GSC demand and volume unverified.",
+    "customerDecision": "Keep closure flaps away from the working face",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 86,
+    "reviewEvidence": [
+      "Measure the target after it has settled",
+      "Keep closure flaps away from the working face",
+      "Approve the arrival inspection with the target owner",
+      "OEM or institutional documentation linked; sample decisions remain conditional."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.manfrotto.com/global-uk/ezybalance-75cm-18-grey-white-ll-lr3050/"
+    ]
   }
 ]

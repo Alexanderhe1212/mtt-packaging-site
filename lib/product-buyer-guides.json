@@ -1598,5 +1598,80 @@
       "提供仪器重量、纵横水准泡高度和允许受力面；按实际纸板折合检查端部支撑、插舌干涉与运输外箱。运输性能需另行验证。"
     ],
     "guide": "machinist-level-mailer-vial-clearance"
+  },
+  "MTT-R1416": {
+    "answer": [
+      "Specify a custom hinged box for a bayonet lens hood. Colours, artwork and insert dimensions are developed to your brief. Product shown is an illustrative concept.",
+      "午夜蓝定制包装概念，内配双支撑座与卡口避空槽。图案、标识、颜色与尺寸均按客户要求定制，图示配件仅用于说明装盒方式。"
+    ],
+    "selection": [
+      "A continuous ring can present a tidy opening but leaves little room for fingers. Two saddles can expose the base for removal. Their spacing matters: rotate a dummy through every position the packer can load and check whether a tab can come to rest directly on either saddle. Key the insert only if orientation matters and operators can identify the index.",
+      "按卡口凸耳、罩体受力带及最高花瓣分别标注。用模型检查转动后凸耳是否落在支撑座上，并核对合盖净空。"
+    ],
+    "review": [
+      "Place plain witness tissue over a dummy at its highest point and cycle the lid with the literature installed. A crease flags possible contact for closer inspection. Compare relocating the literature with lowering the saddles, then confirm the revised sample still leaves enough base exposed for removal. Record the orientation on the packout sheet.",
+      "按卡口凸耳、罩体受力带及最高花瓣分别标注。用模型检查转动后凸耳是否落在支撑座上，并核对合盖净空。运输性能需另行验证。"
+    ],
+    "guide": "bayonet-lens-hood-packaging-insert-clearance"
+  },
+  "MTT-R1417": {
+    "answer": [
+      "Quote a custom drawer box for three cased camera filters. Colours, artwork and insert dimensions are developed to your brief. Product shown is an illustrative concept.",
+      "陶土色定制包装概念，内配三个带标识的滤镜保护盒插槽。图案、标识、颜色与尺寸均按客户要求定制，图示配件仅用于说明装盒方式。"
+    ],
+    "selection": [
+      "Test removal of the middle case while the two outer cases remain loaded. A deep divider supports the cases yet can hide their labels or block a pinch grip. Try scalloping the divider near the label while retaining full support lower down. Compare the result with shorter dividers using the same three loaded cases.",
+      "按保护盒铰链和锁扣最大厚度定槽宽。满载时单独取出中间一盒，核对标签、夹取手位和抽屉行程。"
+    ],
+    "review": [
+      "If two versions share one carton, photograph both packouts with the drawer partly open. Ask a second person to identify each filter without opening its case. Then pull the drawer to its normal limit and check for case tilt and sleeve contact. Quote a keyed divider separately if a shared layout permits a part to be loaded in the wrong position.",
+      "按保护盒铰链和锁扣最大厚度定槽宽。满载时单独取出中间一盒，核对标签、夹取手位和抽屉行程。运输性能需另行验证。"
+    ],
+    "guide": "camera-filter-kit-drawer-box-slot-sizing"
+  },
+  "MTT-R1418": {
+    "answer": [
+      "Specify a lift-off camera L-bracket box with a stepped insert and separate screw envelope. Colours, artwork and insert dimensions are developed to your brief. Product shown is an illustrative concept.",
+      "鼠尾草绿定制包装概念，内配阶梯式板体托与独立螺件袋。图案、标识、颜色与尺寸均按客户要求定制，图示配件仅用于说明装盒方式。"
+    ],
+    "selection": [
+      "A bracket standing on its narrow edge may overturn during loading. Lay the broad section in a stepped pocket and mark the unrestrained side arm in section. A taller inner shoulder can keep the lid skirt away from the metal edge but can make the bracket hard to lift. Give the operator a grip on the broad body and try unloading with the lid fully removed.",
+      "按实际装配状态核对螺钉头高度和侧板位置。独立螺件袋需方便清点，板体能直接取出。"
+    ],
+    "review": [
+      "Fit a labelled envelope alongside the bracket with its opening clear of the extraction path. Ask a packer to distinguish a full kit from a deliberately incomplete dummy kit using the agreed count process. After handling the loaded sample, reopen it over clean paper and check the envelope closure and bracket finish before releasing the layout.",
+      "按实际装配状态核对螺钉头高度和侧板位置。独立螺件袋需方便清点，板体能直接取出。运输性能需另行验证。"
+    ],
+    "guide": "camera-l-bracket-packaging-screw-retention"
+  },
+  "MTT-R1419": {
+    "answer": [
+      "Develop a custom camera neck strap tube with room for the rolled webbing and hardware pouch. Colours, artwork and insert dimensions are developed to your brief. Product shown is an illustrative concept.",
+      "赭石色定制包装概念，内配卷绕背带托与独立五金袋。图案、标识、颜色与尺寸均按客户要求定制，图示配件仅用于说明装盒方式。"
+    ],
+    "selection": [
+      "Compare placing detachable hardware in a small pouch above the roll with wrapping it inside the centre. An upper pouch makes counting easier but adds height and may compress the webbing under the lid. Centre storage can hide a missing part. Test both arrangements with the widest webbing and the largest accessory bag intended for the same tube.",
+      "先固定调节扣位置与卷绕方向，再量带束圈的回弹直径。用实际内衬测试抽取，并独立清点五金袋。"
+    ],
+    "review": [
+      "A plain board prototype can feel different from the finished inner wrap. Have another person close, open and withdraw the roll using the proposed paper band. Check for snagged stitching, a loose band or a buckle dragged along the tube wall. If the roll jams, revisit the winding method and liner seam before increasing every tube dimension.",
+      "先固定调节扣位置与卷绕方向，再量带束圈的回弹直径。用实际内衬测试抽取，并独立清点五金袋。运输性能需另行验证。"
+    ],
+    "guide": "camera-strap-packaging-tube-buckle-separation"
+  },
+  "MTT-R1420": {
+    "answer": [
+      "Specify a custom mailer for a folded photography grey target. Colours, artwork and insert dimensions are developed to your brief. Product shown is an illustrative concept.",
+      "海蓝色定制包装概念，内配平放纸套、提拉片与护边。图案、标识、颜色与尺寸均按客户要求定制，图示配件仅用于说明装盒方式。"
+    ],
+    "selection": [
+      "Draw the closed mailer in section at the thickest point, including the sleeve seam and rolled corrugated side walls. Try placing the pull tab at the pouch edge. A tab beneath bare fabric may drag across the face on withdrawal. Compare a wider sleeve opening with a longer tab if the customer has to push the target out with a thumb.",
+      "按折叠并入套后的最高叠层定盒深。核对锁舌避空、拉片受力位置及灰面展开后的验收方式。"
+    ],
+    "review": [
+      "Pack a representative target and its leaflet, then reopen the shipper in the intended sequence. Inspect for contact marks, creases and transferred ink using the owner's agreed criteria. Ask the owner to assess the opened target separately if optical acceptance is required. Record the selected shipping outer and distribution test before promising protection for a parcel route.",
+      "按折叠并入套后的最高叠层定盒深。核对锁舌避空、拉片受力位置及灰面展开后的验收方式。运输性能需另行验证。"
+    ],
+    "guide": "folded-photography-grey-target-mailer-depth"
   }
 }

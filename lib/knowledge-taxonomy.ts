@@ -4,6 +4,12 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "bayonet-lens-hood-packaging-insert-clearance",
+      "camera-filter-kit-drawer-box-slot-sizing",
+      "camera-l-bracket-packaging-screw-retention",
+      "camera-strap-packaging-tube-buckle-separation",
+      "folded-photography-grey-target-mailer-depth",
+
       "digital-caliper-packaging-insert-jaw-clearance",
       "micrometer-drawer-box-setting-standard-retention",
       "dial-indicator-box-insert-rear-lug-clearance",
