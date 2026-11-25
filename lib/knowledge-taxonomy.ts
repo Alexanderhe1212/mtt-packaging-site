@@ -4,6 +4,12 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "harmonica-gift-box-insert-snapcase-clearance",
+      "glass-guitar-slide-set-packaging-divider-fit",
+      "spring-capo-packaging-insert-handle-clearance",
+      "guitar-pick-assortment-packaging-gauge-identification",
+      "clip-on-tuner-packaging-display-hinge-clearance",
+
       "bayonet-lens-hood-packaging-insert-clearance",
       "camera-filter-kit-drawer-box-slot-sizing",
       "camera-l-bracket-packaging-screw-retention",
