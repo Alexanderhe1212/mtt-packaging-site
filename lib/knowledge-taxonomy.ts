@@ -76,6 +76,8 @@ export const knowledgeTopics = [
       "void-fill-vs-fitted-inserts",
       "paperboard-sleeve-tray-fit",
       "two-piece-rigid-box-lid-fit",
+      "magnetic-rigid-box-magnet-strength-sizing",
+      "dropper-serum-shoulder-neck-box-fit",
       "pr-kit-packaging-packout-checklist",
       "drawer-box-clearance-ribbon-pull",
       "rigid-gift-box-shipping-outer-carton",
@@ -101,6 +103,7 @@ export const knowledgeTopics = [
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
       "apparel-gift-box-paper-bag-set",
+      "reed-diffuser-room-spray-gift-box-insert",
       "roller-bottle-drawer-insert-removal",
       "three-vial-card-order-and-drawer-packout",
       "two-cream-jars-insert-removal-order",
@@ -160,6 +163,7 @@ export const knowledgeTopics = [
       "packaging-materials-guide",
       "packaging-material-selection",
       "printing-finishing-guide",
+      "packaging-typography-small-print",
       "matte-vs-gloss-packaging-scuffing",
       "packaging-artwork-dieline-preflight",
       "match-gold-foil-perfume-box-paper-bag",
@@ -179,6 +183,7 @@ export const knowledgeTopics = [
     "description": "Prepare the brief, compare costs, approve samples and keep repeat orders consistent.",
     "slugs": [
       "shaped-rigid-box-supplier-quote-comparison",
+      "compare-custom-packaging-supplier-quotes",
       "holiday-packaging-production-planning",
       "stock-vs-custom-packaging-total-cost",
       "verify-custom-packaging-supplier-china",

@@ -1748,5 +1748,35 @@
       "由品牌确认屏幕装盒角度，从侧面检查最高点和锁舌运动路径。核对折卡对夹体的支撑位置及按键净空。运输性能需另行验证。"
     ],
     "guide": "clip-on-tuner-packaging-display-hinge-clearance"
+  },
+  "MTT-R1426": {
+    "answer": [
+      "Specify a custom magnetic book-style rigid box for a reed diffuser bottle, reed sticks and room spray. Separate both glass bottles with an isolated center reed channel and verify magnet pull on a loaded sample.",
+      "针对无火香薰瓶、藤条束与室内喷雾的三件套，采用磁吸书型硬盒配三分区隔离内托，避免玻璃瓶碰撞并固定藤条位置。"
+    ],
+    "selection": [
+      "Choose a magnetic book box when the three-piece set should present flat in a single reveal on retail shelves or gifting unboxing. Compare with a drawer box or folding carton if shelf display height or flat-pack shipping volume drives the project.",
+      "希望开盒即完整展示香薰瓶、藤条与喷雾三件套时选书型磁吸盒；若更关注单品陈列或压缩空盒运输体积，可对比抽屉盒或卡纸盒。"
+    ],
+    "review": [
+      "Confirm the filled diffuser bottle diameter, collar height, tied reed length and room spray atomizer height with caps fitted. Test magnet closure force across the wrapped board thickness and verify outer carton drop protection.",
+      "提供装液配盖后的香薰瓶、喷雾瓶实测尺寸与捆扎藤条总长；打样时实测磁铁隔纸吸力、瓶间壁厚与外箱运输保护。"
+    ],
+    "guide": "reed-diffuser-room-spray-gift-box-insert"
+  },
+  "MTT-R1427": {
+    "answer": [
+      "Specify a custom shoulder-neck rigid box for a glass dropper serum bottle and matching refill bottle, keeping compression off the rubber pipette bulb and adding finger-lift notches for smooth removal.",
+      "针对玻璃滴管精华与旋盖补充瓶组合，采用露肩围边天地盖与带指抠槽的内托结构，保护滴管胶头并控制开盖阻尼。"
+    ],
+    "selection": [
+      "Choose a shoulder-neck rigid box when a visible contrast neck and controlled lift-off reveal suit a luxury serum or refillable skincare launch. Compare with a folding carton or magnetic book box for lower unit cost or flat-pack shipping.",
+      "适合高端精华液或正装加补充装礼盒，通过露肩色差与可控阻尼提升开盒质感；若预算或仓储受限，可对比卡纸盒或折叠磁吸盒。"
+    ],
+    "review": [
+      "Measure the bottle with the dropper collar and rubber bulb installed, define the acceptable contact surfaces on frosted glass and confirm shoulder friction and lid seating on a loaded physical sample.",
+      "测量装好滴管肩套与胶头后的总高，确认磨砂瓶身可接触区域，并在实装样品上核对围边摩擦阻尼与盒盖落位。"
+    ],
+    "guide": "dropper-serum-shoulder-neck-box-fit"
   }
 }

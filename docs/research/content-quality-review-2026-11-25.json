@@ -160,5 +160,139 @@
       "https://www.iggesund.com/insights/paperboard-know-how/paperboard-manual/paperboard-manual-publication/printing-and-converting-performance/the-packaging-operation/",
       "https://www.kurz-graphics.com/hot-stamping/faq-hot-stamping/"
     ]
+  },
+  {
+    "slug": "packaging-typography-small-print",
+    "primaryQuery": "packaging typography small print",
+    "searchEvidence": "Mapped item N26 (KW-0685) in 关键词页面表.csv; buyer-intent candidate, exact search volume unverified.",
+    "customerDecision": "Separate functional small print from decorative finishes, match positive and knockout stroke weights to substrate absorbency, and check 1:1 proofs on production stock.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Covers positive vs knockout type risks, 4-plate CMYK halo vs single spot ink, hot-foil and deboss limitations, and 3 mm crease clearance.",
+      "Includes comparison table, inline SVG prepress diagram, FAQs and actionable brief checklist.",
+      "Primary KURZ hot-stamping and Holmen Iggesund creasing references verified HTTP 200; MOQ 1,000 pieces/design and US$2,000 order value stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.kurz-graphics.com/hot-stamping/faq-hot-stamping/",
+      "https://www.iggesund.com/insights/paperboard-know-how/paperboard-manual/paperboard-manual-publication/printing-and-converting-performance/die-cutting-and-creasing/"
+    ]
+  },
+  {
+    "slug": "reed-diffuser-room-spray-gift-box-insert",
+    "primaryQuery": "reed diffuser and room spray gift box insert",
+    "searchEvidence": "Home-fragrance cluster aligned with MTT-topic-map-2026-11-20.csv and new product MTT-R1426; exact search volume unverified.",
+    "customerDecision": "Isolate glass diffuser and room spray bottles with a center reed-stick channel buffer, verify reed straightness and overcap height, and confirm outer transit protection.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Addresses filled-bottle collar/atomizer heights, reed-channel glass-separation geometry, EVA vs paperboard vs drawer tradeoffs and leakage containment.",
+      "Includes comparison table, inline SVG three-compartment plan diagram, FAQs and product link to MTT-R1426.",
+      "FedEx, ISTA and IFRA primary links verified HTTP 200; MOQ 1,000 pieces/design and US$2,000 order value stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fedex.com/en-us/shipping/packaging/search-test-types.html",
+      "https://ista.org/getting_started_with_design.php",
+      "https://ifrafragrance.org/using-the-standards"
+    ]
+  },
+  {
+    "slug": "dropper-serum-shoulder-neck-box-fit",
+    "primaryQuery": "dropper serum bottle shoulder neck rigid box",
+    "searchEvidence": "Core skincare/fragrance cluster aligned with new product MTT-R1427; exact search volume unverified.",
+    "customerDecision": "Support the rigid glass body rather than the rubber pipette bulb, add finger-lift notches for frosted bottles, and balance shoulder-neck lid overlap with friction.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Explains glass-collar-bulb axis mechanics, finger-notch extraction, shoulder reveal vs lid overlap, and loaded sample friction checks.",
+      "Includes structure comparison table, inline SVG section diagram, FAQs and product link to MTT-R1427.",
+      "Holmen Iggesund and ISTA retesting references verified HTTP 200; MOQ 1,000 pieces/design and US$2,000 order value stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.iggesund.com/insights/paperboard-know-how/paperboard-manual/paperboard-manual-publication/printing-and-converting-performance/the-packaging-operation/",
+      "https://support.ista.org/portal/en/kb/articles/when-should-a-packaged-product-be-retested"
+    ]
+  },
+  {
+    "slug": "magnetic-rigid-box-magnet-strength-sizing",
+    "primaryQuery": "magnetic rigid box magnet size and placement",
+    "searchEvidence": "Core magnetic rigid box cluster in 90-day operating plan; distinct from hinge design and lid troubleshooting guides.",
+    "customerDecision": "Account for wrap-paper and glue air-gap pull loss, choose magnet-to-steel vs magnet-to-magnet pairs, avoid sunken magnet pockets and test loaded closure force.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Explains air-gap attenuation across double wrap paper and adhesive, strike-plate vs dual-magnet assembly risks, sunken pocket defects and hinge spring-back.",
+      "Includes configuration comparison table, inline SVG cross-section diagram, FAQs and loaded sample checklist.",
+      "Arnold Magnetic Technologies engineering reference verified HTTP 200; MOQ 1,000 pieces/design and US$2,000 order value stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.arnoldmagnetics.com/resources/"
+    ]
+  },
+  {
+    "slug": "compare-custom-packaging-supplier-quotes",
+    "primaryQuery": "how to compare custom packaging supplier quotes",
+    "searchEvidence": "Aligned with 21–27 Nov milestone in docs/seo-geo-operations-2026-11-07.md; distinct from general cost drivers and shaped box quote guides.",
+    "customerDecision": "Normalize greyboard gsm/thickness, insert kitting, one-off dies/samples, export carton specs and EXW/FOB/DDP Incoterms before benchmarking two supplier quotes.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Normalizes hidden quotation differences: board gsm vs mm, unquoted insert assembly, tooling amortization, sample fee terms and EXW/FOB/DDP scope.",
+      "Includes explicitly labeled illustrative line-item comparison table, inline SVG Incoterms diagram and FAQs.",
+      "ICC Incoterms 2020 official reference verified HTTP 200; MOQ 1,000 pieces/design and US$2,000 order value stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/"
+    ]
   }
 ]
