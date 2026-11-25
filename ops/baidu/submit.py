@@ -4,7 +4,6 @@ import json
 import os
 import re
 import socket
-import ssl
 import subprocess
 import sys
 from pathlib import Path
@@ -43,11 +42,12 @@ def main():
     save(rows)
     queue = sorted((u for u in live if rows[u] == "pending"), key=lambda u: (u != FIRST, u))
     for url in queue:
-        conn = http.client.HTTPSConnection(HOST, timeout=30)
+        # Baidu Search Resource URL push endpoint is documented over HTTP; its TLS cert covers *.baidu.com only.
+        conn = http.client.HTTPConnection(HOST, timeout=30)
         try:
             conn.connect()
-        except (ssl.SSLError, socket.error) as error:
-            sys.exit("Baidu HTTPS connection failed before credential transmission: " + str(error))
+        except (OSError, socket.error) as error:
+            sys.exit("Baidu HTTP connection failed before credential transmission: " + str(error))
         rows[url] = "outcome unknown"
         save(rows)
         try:

@@ -14,7 +14,7 @@
     "name": "Earring display card book gift box",
     "nameZh": "耳钉展示卡书型礼盒",
     "description": "Illustrative hinged jewellery gift box with a removable earring display card and space for a care card. Final closure, post clearance and materials require sampling.",
-    "descriptionZh": "书型首饰礼盒概念，展示可取出的耳钉卡和护理卡空间。最终闭合方式、针脚间隙与材料需通过实物样品确认。",
+    "descriptionZh": "书型首饰礼盒概念，展示可取出的耳钉卡和护理卡空间。最终闭合方式、针脚间隙与材料需通过实物样品确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid greyboard",
     "materialZh": "裱纸硬质灰板",
     "board": "Rigid greyboard; thickness determined during sampling",
@@ -59,7 +59,7 @@
     "name": "Six-vial fragrance discovery paperboard sleeve and tray",
     "nameZh": "六支香水试香卡纸套筒抽拉盒",
     "description": "Illustrative thin folding paperboard sleeve and sliding tray with six sample-vial positions and a separate card space. Actual board, folding, fit and artwork require sampling.",
-    "descriptionZh": "薄卡纸套筒和抽拉托盘概念，展示六支试香瓶位与独立卡片空间。实际纸材、折叠、贴合和图案以样品确认。",
+    "descriptionZh": "薄卡纸套筒和抽拉托盘概念，展示六支试香瓶位与独立卡片空间。实际纸材、折叠、贴合和图案以样品确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Folding paperboard; grade confirmed by sample",
     "materialZh": "折叠卡纸；纸材按样品确认",
     "board": "Folding paperboard; grade and thickness confirmed by sample",
@@ -368,7 +368,7 @@
     "name": "Three roller perfume drawer box with card",
     "nameZh": "三支滚珠香水抽屉卡片礼盒",
     "description": "Illustrative forest-green drawer box with three roller bottle positions and a separate card recess. Bottle fit, insert materials and artwork require sampling.",
-    "descriptionZh": "深绿色抽屉盒概念，展示三支滚珠瓶位置与独立卡片位。瓶器贴合、内托材料和图案需经打样确认。",
+    "descriptionZh": "深绿色抽屉盒概念，展示三支滚珠瓶位置与独立卡片位。瓶器贴合、内托材料和图案需经打样确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -412,7 +412,7 @@
     "name": "Two cream jars and spatula book gift box",
     "nameZh": "双面霜罐与挖勺书型礼盒",
     "description": "Illustrative terracotta hinged gift box for two different-sized skincare jars and a separate spatula position. Actual dimensions and insert require sampling.",
-    "descriptionZh": "赤陶色书型礼盒概念，展示不同尺寸的两只护肤罐与独立挖勺位置。实际尺寸和内托需经打样确认。",
+    "descriptionZh": "赤陶色书型礼盒概念，展示不同尺寸的两只护肤罐与独立挖勺位置。实际尺寸和内托需经打样确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -456,7 +456,7 @@
     "name": "Perfume bottle and travel spray book box",
     "nameZh": "香水正装与随行喷雾书型礼盒",
     "description": "Illustrative burgundy book-style box with a full-size perfume bottle and separate travel spray position. Actual closure, insert material and fit require sampling.",
-    "descriptionZh": "酒红色书型礼盒概念，展示香水正装及随行喷雾独立位置。实际闭合方式、内托材料和贴合需经打样确认。",
+    "descriptionZh": "酒红色书型礼盒概念，展示香水正装及随行喷雾独立位置。实际闭合方式、内托材料和贴合需经打样确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -500,7 +500,7 @@
     "name": "Two candle jars and wick tool drawer gift box",
     "nameZh": "双蜡烛罐与烛芯工具抽屉礼盒",
     "description": "Illustrative forest-green drawer gift box with two candle jar positions and a separate wick-tool recess. Actual box structure, insert and fit require sampling.",
-    "descriptionZh": "深绿色抽屉礼盒概念，展示两只蜡烛罐与独立烛芯工具槽。盒体结构、内托及贴合需经实物打样确认。",
+    "descriptionZh": "深绿色抽屉礼盒概念，展示两只蜡烛罐与独立烛芯工具槽。盒体结构、内托及贴合需经实物打样确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -544,7 +544,7 @@
     "name": "Two tea tins and scoop book gift box",
     "nameZh": "双茶罐与茶匙书型礼盒",
     "description": "Illustrative forest-green book-style gift box with two sealed tea tin positions and a separate scoop channel. Insert and closure require sampling.",
-    "descriptionZh": "墨绿色书型礼盒概念，展示双密封茶罐位置和独立茶匙槽；内托与闭合方式需经打样确认。",
+    "descriptionZh": "墨绿色书型礼盒概念，展示双密封茶罐位置和独立茶匙槽；内托与闭合方式需经打样确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -588,7 +588,7 @@
     "name": "Drip coffee sachet divider drawer box",
     "nameZh": "挂耳咖啡分隔内托抽屉礼盒",
     "description": "Illustrative burgundy drawer box for individually sealed drip-coffee sachets, with dividers and a separate information-card position. Sample the packed layout.",
-    "descriptionZh": "酒红色抽屉礼盒概念，展示独立密封挂耳咖啡包分隔位和信息卡位；装配效果需通过实物打样确认。",
+    "descriptionZh": "酒红色抽屉礼盒概念，展示独立密封挂耳咖啡包分隔位和信息卡位；装配效果需通过实物打样确认。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -657,7 +657,7 @@
     "searchTerms": [
       "custom ultrasound transducer and cable presentation box"
     ],
-    "seoDescription": "Request ultrasound transducer and cable presentation box with handle cradle, connector pocket and broad cable bay. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request ultrasound transducer and cable presentation box with handle cradle, connector pocket and broad cable bay. Sample review with MTT.",
     "searchUse": "Ultrasound transducer and cable presentation box"
   },
   {
@@ -675,7 +675,7 @@
     "name": "Portable lensmeter lift-off presentation box",
     "nameZh": "便携式焦度计天地盖展示盒",
     "description": "Deep blue secondary packaging concept with side supports and a relieved optical-head pocket. For new equipment supplied by the device owner. Illustrations show one possible layout.",
-    "descriptionZh": "深蓝色外包装定制概念，配两侧支撑与光学头避空位。仅展示新设备的装盒方案，图示设备不随包装提供。",
+    "descriptionZh": "深蓝色外包装定制概念，配两侧支撑与光学头避空位。仅展示新设备的装盒方案，图示设备不随包装提供。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -700,7 +700,7 @@
     "searchTerms": [
       "custom portable lensmeter lift-off presentation box"
     ],
-    "seoDescription": "Request portable lensmeter lift-off presentation box with side supports and a relieved optical-head pocket. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request portable lensmeter lift-off presentation box with side supports and a relieved optical-head pocket. Confirm insert support and sample fit with MTT.",
     "searchUse": "Portable lensmeter lift-off presentation box"
   },
   {
@@ -743,7 +743,7 @@
     "searchTerms": [
       "custom holter ecg recorder and lead-set drawer box"
     ],
-    "seoDescription": "Request holter ecg recorder and lead-set drawer box with recorder recess and separate labelled lead sleeve. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request holter ecg recorder and lead-set drawer box with recorder recess and separate labelled lead sleeve. Confirm insert support and sample fit with MTT.",
     "searchUse": "Holter ECG recorder and lead-set drawer box"
   },
   {
@@ -761,7 +761,7 @@
     "name": "Reference thermometer probe and readout box",
     "nameZh": "参考温度计探杆与读数仪套盒",
     "description": "Slate green secondary packaging concept with separate straight probe channel and readout cavity. For new equipment supplied by the device owner. Illustrations show one possible layout.",
-    "descriptionZh": "灰绿色外包装定制概念，配直线探杆槽与独立读数仪槽。仅展示新设备的装盒方案，图示设备不随包装提供。",
+    "descriptionZh": "灰绿色外包装定制概念，配直线探杆槽与独立读数仪槽。仅展示新设备的装盒方案，图示设备不随包装提供。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -786,7 +786,7 @@
     "searchTerms": [
       "custom reference thermometer probe and readout box"
     ],
-    "seoDescription": "Request reference thermometer probe and readout box with separate straight probe channel and readout cavity. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request reference thermometer probe and readout box with separate straight probe channel and readout cavity. Confirm insert support and sample fit with MTT.",
     "searchUse": "Reference thermometer probe and readout box"
   },
   {
@@ -804,7 +804,7 @@
     "name": "Handheld pulse oximeter and sensor kit box",
     "nameZh": "手持血氧仪与传感器套盒",
     "description": "Indigo secondary packaging concept with reader pocket and separate wrapped sensor compartment. For new equipment supplied by the device owner. Illustrations show one possible layout.",
-    "descriptionZh": "靛蓝色外包装定制概念，配主机槽与独立带袋传感器仓。仅展示新设备的装盒方案，图示设备不随包装提供。",
+    "descriptionZh": "靛蓝色外包装定制概念，配主机槽与独立带袋传感器仓。仅展示新设备的装盒方案，图示设备不随包装提供。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -829,7 +829,7 @@
     "searchTerms": [
       "custom handheld pulse oximeter and sensor kit box"
     ],
-    "seoDescription": "Request handheld pulse oximeter and sensor kit box with reader pocket and separate wrapped sensor compartment. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request handheld pulse oximeter and sensor kit box with reader pocket and separate wrapped sensor compartment. Confirm insert support and sample fit with MTT.",
     "searchUse": "Handheld pulse oximeter and sensor kit box"
   },
   {
@@ -847,7 +847,7 @@
     "name": "Otoscope double-door display box",
     "nameZh": "耳镜双开门展示盒",
     "description": "Navy secondary packaging concept with central instrument mount behind two hinged front panels. For new equipment supplied by the device owner. Illustrations show one possible layout.",
-    "descriptionZh": "海军蓝外包装定制概念，配双门内的居中仪器支撑座。仅展示新设备的装盒方案，图示设备不随包装提供。",
+    "descriptionZh": "海军蓝外包装定制概念，配双门内的居中仪器支撑座。仅展示新设备的装盒方案，图示设备不随包装提供。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",
@@ -872,7 +872,7 @@
     "searchTerms": [
       "custom otoscope double-door display box"
     ],
-    "seoDescription": "Request otoscope double-door display box with central instrument mount behind two hinged front panels. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request otoscope double-door display box with central instrument mount behind two hinged front panels. Confirm insert support and sample fit with MTT.",
     "searchUse": "Otoscope double-door display box"
   },
   {
@@ -915,7 +915,7 @@
     "searchTerms": [
       "custom dermatoscope and dock two-tier box"
     ],
-    "seoDescription": "Request dermatoscope and dock two-tier box with removable instrument tray above an independent dock bay. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request dermatoscope and dock two-tier box with removable instrument tray above an independent dock bay. Confirm insert support and sample fit with MTT.",
     "searchUse": "Dermatoscope and dock two-tier box"
   },
   {
@@ -958,7 +958,7 @@
     "searchTerms": [
       "custom slit lamp eyepiece pair drum box"
     ],
-    "seoDescription": "Request slit lamp eyepiece pair drum box with circular insert with two capped eyepiece wells. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request slit lamp eyepiece pair drum box with circular insert with two capped eyepiece wells. Confirm insert support and sample fit with MTT.",
     "searchUse": "Slit lamp eyepiece pair drum box"
   },
   {
@@ -1001,7 +1001,7 @@
     "searchTerms": [
       "custom portable audiometer headset roll-end mailer"
     ],
-    "seoDescription": "Request portable audiometer headset roll-end mailer with folded board partition between headset and control unit. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request portable audiometer headset roll-end mailer with folded board partition between headset and control unit. Sample review with MTT.",
     "searchUse": "Portable audiometer headset roll-end mailer"
   },
   {
@@ -1019,7 +1019,7 @@
     "name": "Six trial lens hexagonal presentation case",
     "nameZh": "六片验光试镜片六角展示盒",
     "description": "Plum secondary packaging concept with six individual rim-support slots in a hexagonal base. For new equipment supplied by the device owner. Illustrations show one possible layout.",
-    "descriptionZh": "深梅紫外包装定制概念，配六角底座配六道镜圈支撑槽。仅展示新设备的装盒方案，图示设备不随包装提供。",
+    "descriptionZh": "深梅紫外包装定制概念，配六角底座配六道镜圈支撑槽。仅展示新设备的装盒方案，图示设备不随包装提供。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Kraft-faced corrugated board",
     "materialZh": "牛皮面瓦楞纸板",
     "board": "Kraft-faced corrugated board; grade confirmed during sampling",
@@ -1044,7 +1044,7 @@
     "searchTerms": [
       "custom six trial lens hexagonal presentation case"
     ],
-    "seoDescription": "Request six trial lens hexagonal presentation case with six individual rim-support slots in a hexagonal base. Custom secondary packaging; confirm support points and packing instructions on a sample.",
+    "seoDescription": "Request six trial lens hexagonal presentation case with six individual rim-support slots in a hexagonal base. Confirm insert support and sample fit with MTT.",
     "searchUse": "Six trial lens hexagonal presentation case"
   },
   {
@@ -1105,7 +1105,7 @@
     "name": "Outside micrometer and standard drawer box",
     "nameZh": "外径千分尺与校对杆抽屉盒",
     "description": "Ochre secondary packaging concept with frame cradle and separate setting-standard channel. For new equipment supplied by the device owner. Illustrations show one possible layout.",
-    "descriptionZh": "赭黄色外包装定制概念，配尺架支撑槽与独立校对杆位。仅展示新设备的装盒方案，图示设备不随包装提供。",
+    "descriptionZh": "赭黄色外包装定制概念，配尺架支撑槽与独立校对杆位。仅展示新设备的装盒方案，图示设备不随包装提供。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid board; confirmed by sample",
     "materialZh": "裱纸硬板，按样品确认",
     "board": "Rigid board; grade and thickness by sample",

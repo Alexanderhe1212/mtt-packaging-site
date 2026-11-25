@@ -2,7 +2,7 @@ import { organization, siteUrl } from '../../lib/seo';
 import ZhFeatureDirectory from '../../components/ZhFeatureDirectory';
 import ZhNav from '../../components/ZhNav';
 export const metadata={
-  openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/zh', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },title:'高端定制包装与整套配套方案 | MTT Packaging',description:'定制精品盒、卡纸盒、瓦楞包装、纸袋与内托，统一沟通材料、印刷、工艺和配套需求。',alternates:{canonical:'https://mttpackaging.com/zh',languages:{en:'/', 'zh-Hans':'/zh','x-default':'/'}}};
+  openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/zh', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },title:'高端定制包装与整套配套方案 | MTT Packaging',description:'定制精品硬盒、卡纸盒、瓦楞包装、纸袋与内托，江苏常州工厂承接每款 1,000 件起订，支持实物打样、印刷工艺协调与出口包装交付。',alternates:{canonical:'https://mttpackaging.com/zh',languages:{en:'/', 'zh-Hans':'/zh','x-default':'/'}}};
 const zhFaqs = [
   ['定制包装的最低起订量是多少？', '每款设计最低起订量为 1,000 件，且每订单产品货值至少 2,000 美元，不含运费、样品费及其他费用。'],
   ['大货生产前可以先打实物样品吗？', '可以。我们建议在确认量产前制作结构或印刷实物样，用来核对尺寸贴合、磁吸/开合手感、印刷色差和工艺表现。样品费用与打样周期按具体结构确认。'],

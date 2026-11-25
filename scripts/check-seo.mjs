@@ -69,7 +69,11 @@ function checkGuides(errors, modifiedFiles) {
     const title = (g.seoTitle || `${g.title} | MTT Packaging`).trim();
     if (!g.title?.trim()) errors.push(`${slug}: missing H1 title`);
     if (title.length >= 70) errors.push(`${slug}: SEO title length ${title.length} >= 70`);
-    if (!g.summary?.trim()) errors.push(`${slug}: missing meta description (summary)`);
+    const summaryLen = (g.summary || '').trim().length;
+    if (!summaryLen) errors.push(`${slug}: missing meta description (summary)`);
+    else if (summaryLen < 50 || summaryLen > 160) {
+      errors.push(`${slug}: meta description length ${summaryLen} outside 50..160`);
+    }
     if (seenTitles.has(g.title)) errors.push(`${slug}: duplicate title`);
     if (seenSummaries.has(g.summary)) errors.push(`${slug}: duplicate summary`);
     seenTitles.add(g.title);
@@ -141,7 +145,16 @@ function checkProducts(errors) {
       if (!seoTitle || seoTitle.length >= 70) {
         errors.push(`${p.code}: seoTitle length ${seoTitle.length} outside 1..69`);
       }
-      if (!p.seoDescription?.trim()) errors.push(`${p.code}: missing seoDescription`);
+      const seoDescLen = (p.seoDescription || '').trim().length;
+      if (!seoDescLen) errors.push(`${p.code}: missing seoDescription`);
+      else if (seoDescLen < 50 || seoDescLen > 160) {
+        errors.push(`${p.code}: seoDescription length ${seoDescLen} outside 50..160`);
+      }
+      const zhDescLen = (p.descriptionZh || '').trim().length;
+      if (!zhDescLen) errors.push(`${p.code}: missing descriptionZh`);
+      else if (zhDescLen < 50 || zhDescLen > 160) {
+        errors.push(`${p.code}: descriptionZh length ${zhDescLen} outside 50..160`);
+      }
 
       const indices = p.conceptSingleView
         ? [0]

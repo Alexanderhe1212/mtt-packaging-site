@@ -14,7 +14,7 @@
     "name": "Single wine bottle gift box",
     "nameZh": "单瓶红酒礼盒",
     "description": "Single wine bottle gift box in burgundy and ivory, with shaped fibre bottle insert. A fully removable lid sits separately from the rigid base; no hinge.",
-    "descriptionZh": "单瓶红酒礼盒，采用酒红与象牙白配色，配置成型纤维瓶托。上盖与硬质底盒完全分离，无铰链。",
+    "descriptionZh": "单瓶红酒礼盒，采用酒红与象牙白配色，配置成型纤维瓶托。上盖与硬质底盒完全分离，无铰链。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid greyboard",
     "materialZh": "裱纸硬质灰板",
     "board": "Paper-wrapped rigid greyboard; grade confirmed during sampling",
@@ -41,7 +41,7 @@
       "lift-off lid manufacturer",
       "custom rigid gift boxes"
     ],
-    "seoDescription": "Single wine bottle gift box in burgundy and ivory, with shaped fibre bottle insert. A fully removable lid sits separately from the rigid base; no hinge. Customize size and quantities with MTT.",
+    "seoDescription": "Single wine bottle gift box in burgundy and ivory, with shaped fibre bottle insert. A fully removable lid sits separately from the rigid base; no hinge.",
     "searchUse": "single wine bottle gift box"
   },
   {
@@ -87,7 +87,7 @@
       "custom rigid gift boxes",
       "custom reed diffuser boxes"
     ],
-    "seoDescription": "Reed diffuser and sticks gift box in sage and ivory, with separate bottle and reed-stick recesses. The tray slides from its outer sleeve; bottle and sticks have separate positions. Customize size and quantities with MTT.",
+    "seoDescription": "Reed diffuser and sticks gift box in sage and ivory, with separate bottle and reed-stick recesses. Custom size and finishes with MTT.",
     "searchUse": "reed diffuser and sticks gift box"
   },
   {
@@ -105,7 +105,7 @@
     "name": "Amber candle jar presentation box",
     "nameZh": "琥珀蜡烛杯礼盒",
     "description": "Amber candle jar presentation box in ivory and terracotta, with paperboard insert around candle jar. A separate lid fits over a raised shoulder; it is not hinged.",
-    "descriptionZh": "琥珀蜡烛杯礼盒，采用象牙白与陶土色配色，配置蜡烛杯纸卡定位内托。独立上盖套合凸起围边，无翻盖连接。",
+    "descriptionZh": "琥珀蜡烛杯礼盒，采用象牙白与陶土色配色，配置蜡烛杯纸卡定位内托。独立上盖套合凸起围边，无翻盖连接。支持按产品尺寸定制结构、面纸与工艺。",
     "material": "Paper-wrapped rigid greyboard",
     "materialZh": "裱纸硬质灰板",
     "board": "Paper-wrapped rigid greyboard; grade confirmed during sampling",
@@ -132,7 +132,7 @@
       "shoulder-neck box manufacturer",
       "custom rigid gift boxes"
     ],
-    "seoDescription": "Amber candle jar presentation box in ivory and terracotta, with paperboard insert around candle jar. A separate lid fits over a raised shoulder; it is not hinged. Customize size and quantities with MTT.",
+    "seoDescription": "Amber candle jar presentation box in ivory and terracotta, with paperboard insert around candle jar. Custom size and finishes with MTT.",
     "searchUse": "amber candle jar presentation box"
   },
   {
@@ -177,7 +177,7 @@
       "magnetic book box manufacturer",
       "custom rigid gift boxes"
     ],
-    "seoDescription": "Christmas corporate gift set in midnight blue and red, with two compartments for wrapped gifts. One cover turns on its rear spine; concealed magnets close the cover. Customize size and quantities with MTT.",
+    "seoDescription": "Christmas corporate gift set in midnight blue and red, with two compartments for wrapped gifts. Custom size and finishes with MTT.",
     "searchUse": "christmas corporate gift set"
   },
   {
@@ -222,7 +222,7 @@
       "tuck-end carton manufacturer",
       "custom folding cartons"
     ],
-    "seoDescription": "Skincare bottle folding carton in sage and ivory, with folded paperboard bottle support. Thin creased paperboard with a top tuck flap, dust flaps and a glued side seam. Customize size and quantities with MTT.",
+    "seoDescription": "Skincare bottle folding carton in sage and ivory, with folded paperboard bottle support. Custom size and finishes with MTT.",
     "searchUse": "skincare bottle folding carton"
   },
   {
@@ -267,7 +267,7 @@
       "roll-end mailer manufacturer",
       "custom corrugated packaging"
     ],
-    "seoDescription": "Kraft product mailer with thank-you card in natural kraft and black, with paper insert; protection reviewed with contents. Integrated hinged lid and locking side wings form a corrugated mailer; no magnets. Customize size and quantities with MTT.",
+    "seoDescription": "Kraft product mailer with thank-you card in natural kraft and black, with paper insert; protection reviewed with contents. Custom size and finishes with MTT.",
     "searchUse": "kraft product mailer with thank-you card"
   },
   {
@@ -312,7 +312,7 @@
       "ribbon-handle bag manufacturer",
       "custom custom paper bags"
     ],
-    "seoDescription": "Burgundy ribbon-handle gift bag in burgundy and gold, with reinforced base and handle attachment. Side gussets and a rectangular reinforced bottom; ribbon handles fixed at the top. Customize size and quantities with MTT.",
+    "seoDescription": "Burgundy ribbon-handle gift bag in burgundy and gold, with reinforced base and handle attachment. Custom size and finishes with MTT.",
     "searchUse": "burgundy ribbon-handle gift bag"
   },
   {
@@ -357,7 +357,7 @@
       "double-door rigid box manufacturer",
       "two fitted bottle cavities"
     ],
-    "seoDescription": "Twin wine double-door gift box with two fitted bottle cavities and fine gold geometric foil border. Customize dimensions, artwork and optional accessories with MTT.",
+    "seoDescription": "Twin wine double-door gift box with two fitted bottle cavities and fine gold geometric foil border. Customise size with MTT.",
     "searchUse": "twin wine double-door gift box"
   },
   {
@@ -402,7 +402,7 @@
       "hexagonal lift-off box manufacturer",
       "bottle cavity and separate reed channel"
     ],
-    "seoDescription": "Hexagonal diffuser presentation box with bottle cavity and separate reed channel and copper foil line accents. Customize dimensions, artwork and optional accessories with MTT.",
+    "seoDescription": "Hexagonal diffuser presentation box with bottle cavity and separate reed channel and copper foil line accents. Customise size with MTT.",
     "searchUse": "hexagonal diffuser presentation box"
   },
   {
@@ -492,7 +492,7 @@
       "window tuck-end carton manufacturer",
       "folded paper platform"
     ],
-    "seoDescription": "Window bakery gift carton with folded paper platform and printed border and transparent window patch. Customize dimensions, artwork and optional accessories with MTT.",
+    "seoDescription": "Window bakery gift carton with folded paper platform and printed border and transparent window patch. Customise size with MTT.",
     "searchUse": "window bakery gift carton"
   },
   {
@@ -537,7 +537,7 @@
       "divided roll-end mailer manufacturer",
       "three paperboard compartments"
     ],
-    "seoDescription": "Three-compartment skincare mailer with three paperboard compartments and blue interior printing. Customize dimensions, artwork and optional accessories with MTT.",
+    "seoDescription": "Three-compartment skincare mailer with three paperboard compartments and blue interior printing. Customise size with MTT.",
     "searchUse": "three-compartment skincare mailer"
   },
   {
@@ -582,7 +582,7 @@
       "cotton-handle bottle bag manufacturer",
       "reinforced rectangular bottom and folded top"
     ],
-    "seoDescription": "Single wine cotton-handle paper bag with reinforced rectangular bottom and folded top and small copper foil grape motif. Customize dimensions, artwork and optional accessories with MTT.",
+    "seoDescription": "Single wine cotton-handle paper bag with reinforced rectangular bottom and folded top and small copper foil grape motif. Customise size with MTT.",
     "searchUse": "single wine cotton-handle paper bag"
   },
   {
@@ -628,7 +628,7 @@
       "tuck-end carton manufacturer",
       "coated folding boxboard"
     ],
-    "seoDescription": "Custom perfume bottle packaging with tuck-end carton construction, coated folding boxboard and gloss varnish and vivid colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom perfume bottle in tuck-end carton, coated folding boxboard and gloss varnish and vivid colour printing. Custom size & print with MTT.",
     "searchUse": "perfume bottle"
   },
   {
@@ -720,7 +720,7 @@
       "window tuck carton manufacturer",
       "pearlescent paperboard"
     ],
-    "seoDescription": "Custom tea sachets packaging with window tuck carton construction, pearlescent paperboard and pearlescent sheen with silver foil. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tea sachets in window tuck carton, pearlescent paperboard and pearlescent sheen with silver foil. Custom size & print with MTT.",
     "searchUse": "tea sachets"
   },
   {
@@ -766,7 +766,7 @@
       "paperboard sleeve and tray manufacturer",
       "white paperboard"
     ],
-    "seoDescription": "Custom coffee pouches packaging with paperboard sleeve and tray construction, white paperboard and matte coating with selective gloss uv. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom coffee pouches in paperboard sleeve and tray, white paperboard and matte coating with selective gloss uv. Custom size & print with MTT.",
     "searchUse": "coffee pouches"
   },
   {
@@ -812,7 +812,7 @@
       "pillow carton manufacturer",
       "metallic laminated paperboard"
     ],
-    "seoDescription": "Custom wrapped chocolates packaging with pillow carton construction, metallic laminated paperboard and opaque colour printing over metallic base. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped chocolates in pillow carton, metallic laminated paperboard and opaque colour printing over metallic base. Custom size & print with MTT.",
     "searchUse": "wrapped chocolates"
   },
   {
@@ -858,7 +858,7 @@
       "gable-top carton manufacturer",
       "fine-textured paperboard"
     ],
-    "seoDescription": "Custom sealed supplement bottle packaging with gable-top carton construction, fine-textured paperboard and debossed motif and spot-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed supplement bottle in gable-top carton, fine-textured paperboard and debossed motif and spot-colour printing. Custom size & print with MTT.",
     "searchUse": "sealed supplement bottle"
   },
   {
@@ -904,7 +904,7 @@
       "hexagonal tuck carton manufacturer",
       "coated folding boxboard"
     ],
-    "seoDescription": "Custom candle jar packaging with hexagonal tuck carton construction, coated folding boxboard and gloss varnish and vivid colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom candle jar in hexagonal tuck carton, coated folding boxboard and gloss varnish and vivid colour printing. Custom size & print with MTT.",
     "searchUse": "candle jar"
   },
   {
@@ -950,7 +950,7 @@
       "tuck-end carton manufacturer",
       "uncoated kraft paperboard"
     ],
-    "seoDescription": "Custom reed diffuser packaging with tuck-end carton construction, uncoated kraft paperboard and opaque colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom reed diffuser in tuck-end carton, uncoated kraft paperboard and opaque colour printing. Custom size & print with MTT.",
     "searchUse": "reed diffuser"
   },
   {
@@ -996,7 +996,7 @@
       "crash-lock bottom carton manufacturer",
       "pearlescent paperboard"
     ],
-    "seoDescription": "Custom wrapped cookies packaging with crash-lock bottom carton construction, pearlescent paperboard and pearlescent sheen with silver foil. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped cookies in crash-lock bottom carton, pearlescent paperboard and pearlescent sheen with silver foil. Custom size & print with MTT.",
     "searchUse": "wrapped cookies"
   },
   {
@@ -1088,7 +1088,7 @@
       "paperboard sleeve and tray manufacturer",
       "metallic laminated paperboard"
     ],
-    "seoDescription": "Custom jewelry pouch packaging with paperboard sleeve and tray construction, metallic laminated paperboard and opaque colour printing over metallic base. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom jewelry pouch in paperboard sleeve and tray, metallic laminated paperboard and opaque colour printing over metallic base. Custom size & print with MTT.",
     "searchUse": "jewelry pouch"
   },
   {
@@ -1134,7 +1134,7 @@
       "pillow carton manufacturer",
       "fine-textured paperboard"
     ],
-    "seoDescription": "Custom silk scarf packaging with pillow carton construction, fine-textured paperboard and debossed motif and spot-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom silk scarf in pillow carton, fine-textured paperboard and debossed motif and spot-colour printing. Custom size & print with MTT.",
     "searchUse": "silk scarf"
   },
   {
@@ -1180,7 +1180,7 @@
       "gable-top carton manufacturer",
       "coated folding boxboard"
     ],
-    "seoDescription": "Custom soap bars packaging with gable-top carton construction, coated folding boxboard and gloss varnish and vivid colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom soap bars in gable-top carton, coated folding boxboard and gloss varnish and vivid colour printing. Custom size & print with MTT.",
     "searchUse": "soap bars"
   },
   {
@@ -1226,7 +1226,7 @@
       "hexagonal tuck carton manufacturer",
       "uncoated kraft paperboard"
     ],
-    "seoDescription": "Custom lipstick trio packaging with hexagonal tuck carton construction, uncoated kraft paperboard and opaque colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom lipstick trio in hexagonal tuck carton, uncoated kraft paperboard and opaque colour printing. Custom size & print with MTT.",
     "searchUse": "lipstick trio"
   },
   {
@@ -1272,7 +1272,7 @@
       "tuck-end carton manufacturer",
       "pearlescent paperboard"
     ],
-    "seoDescription": "Custom stationery set packaging with tuck-end carton construction, pearlescent paperboard and pearlescent sheen with silver foil. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom stationery set in tuck-end carton, pearlescent paperboard and pearlescent sheen with silver foil. Custom size & print with MTT.",
     "searchUse": "stationery set"
   },
   {
@@ -1318,7 +1318,7 @@
       "crash-lock bottom carton manufacturer",
       "white paperboard"
     ],
-    "seoDescription": "Custom Christmas ornaments packaging with crash-lock bottom carton construction, white paperboard and matte coating with selective gloss uv. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom Christmas ornaments in crash-lock bottom carton, white paperboard and matte coating with selective gloss uv. Custom size & print with MTT.",
     "searchUse": "Christmas ornaments"
   },
   {
@@ -1410,7 +1410,7 @@
       "paperboard sleeve and tray manufacturer",
       "fine-textured paperboard"
     ],
-    "seoDescription": "Custom honey jar packaging with paperboard sleeve and tray construction, fine-textured paperboard and debossed motif and spot-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom honey jar in paperboard sleeve and tray, fine-textured paperboard and debossed motif and spot-colour printing. Custom size & print with MTT.",
     "searchUse": "honey jar"
   },
   {
@@ -1456,7 +1456,7 @@
       "pillow carton manufacturer",
       "coated folding boxboard"
     ],
-    "seoDescription": "Custom hand cream duo packaging with pillow carton construction, coated folding boxboard and gloss varnish and vivid colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom hand cream duo in pillow carton, coated folding boxboard and gloss varnish and vivid colour printing. Custom size & print with MTT.",
     "searchUse": "hand cream duo"
   },
   {
@@ -1502,7 +1502,7 @@
       "gable-top carton manufacturer",
       "uncoated kraft paperboard"
     ],
-    "seoDescription": "Custom socks gift packaging with gable-top carton construction, uncoated kraft paperboard and opaque colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom socks gift in gable-top carton, uncoated kraft paperboard and opaque colour printing. Custom size & print with MTT.",
     "searchUse": "socks gift"
   },
   {
@@ -1548,7 +1548,7 @@
       "hexagonal tuck carton manufacturer",
       "pearlescent paperboard"
     ],
-    "seoDescription": "Custom miniature fragrance packaging with hexagonal tuck carton construction, pearlescent paperboard and pearlescent sheen with silver foil. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom miniature fragrance in hexagonal tuck carton, pearlescent paperboard and pearlescent sheen with silver foil. Custom size & print with MTT.",
     "searchUse": "miniature fragrance"
   },
   {
@@ -1594,7 +1594,7 @@
       "tuck-end carton manufacturer",
       "white paperboard"
     ],
-    "seoDescription": "Custom sealed granola pouch packaging with tuck-end carton construction, white paperboard and matte coating with selective gloss uv. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed granola pouch in tuck-end carton, white paperboard and matte coating with selective gloss uv. Custom size & print with MTT.",
     "searchUse": "sealed granola pouch"
   },
   {
@@ -1640,7 +1640,7 @@
       "crash-lock bottom carton manufacturer",
       "metallic laminated paperboard"
     ],
-    "seoDescription": "Custom travel accessories packaging with crash-lock bottom carton construction, metallic laminated paperboard and opaque colour printing over metallic base. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom travel accessories in crash-lock bottom carton, metallic laminated paperboard and opaque colour printing over metallic base.",
     "searchUse": "travel accessories"
   },
   {
@@ -1686,7 +1686,7 @@
       "window tuck carton manufacturer",
       "fine-textured paperboard"
     ],
-    "seoDescription": "Custom tumbler packaging with window tuck carton construction, fine-textured paperboard and debossed motif and spot-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tumbler in window tuck carton, fine-textured paperboard and debossed motif and spot-colour printing. Custom size & print with MTT.",
     "searchUse": "tumbler"
   },
   {
@@ -1732,7 +1732,7 @@
       "paperboard sleeve and tray manufacturer",
       "coated folding boxboard"
     ],
-    "seoDescription": "Custom tea tin packaging with paperboard sleeve and tray construction, coated folding boxboard and gloss varnish and vivid colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tea tin in paperboard sleeve and tray, coated folding boxboard and gloss varnish and vivid colour printing. Custom size & print with MTT.",
     "searchUse": "tea tin"
   },
   {
@@ -1824,7 +1824,7 @@
       "gable-top carton manufacturer",
       "pearlescent paperboard"
     ],
-    "seoDescription": "Custom beauty discovery set packaging with gable-top carton construction, pearlescent paperboard and pearlescent sheen with silver foil. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom beauty discovery set in gable-top carton, pearlescent paperboard and pearlescent sheen with silver foil. Custom size & print with MTT.",
     "searchUse": "beauty discovery set"
   },
   {
@@ -1870,7 +1870,7 @@
       "hexagonal tuck carton manufacturer",
       "white paperboard"
     ],
-    "seoDescription": "Custom client welcome kit packaging with hexagonal tuck carton construction, white paperboard and matte coating with selective gloss uv. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom client welcome kit in hexagonal tuck carton, white paperboard and matte coating with selective gloss uv. Custom size & print with MTT.",
     "searchUse": "client welcome kit"
   },
   {
@@ -2008,7 +2008,7 @@
       "corrugated sleeve and tray manufacturer",
       "litho-laminated corrugated board"
     ],
-    "seoDescription": "Custom tea sachets packaging with corrugated sleeve and tray construction, litho-laminated corrugated board and matte lamination on printed liner. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tea sachets in corrugated sleeve and tray, litho-laminated corrugated board and matte lamination on printed liner. Custom size & print with MTT.",
     "searchUse": "tea sachets"
   },
   {
@@ -2054,7 +2054,7 @@
       "divided roll-end mailer manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom coffee pouches packaging with divided roll-end mailer construction, white-lined corrugated board and colour printing with selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom coffee pouches in divided roll-end mailer, white-lined corrugated board and colour printing with selective gloss. Custom size & print with MTT.",
     "searchUse": "coffee pouches"
   },
   {
@@ -2100,7 +2100,7 @@
       "roll-end mailer manufacturer",
       "printed kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom wrapped chocolates packaging with roll-end mailer construction, printed kraft-lined corrugated board and opaque bright ink and dark accents. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped chocolates in roll-end mailer, printed kraft-lined corrugated board and opaque bright ink and dark accents. Custom size & print with MTT.",
     "searchUse": "wrapped chocolates"
   },
   {
@@ -2146,7 +2146,7 @@
       "four-flap shipping carton manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom sealed supplement bottle packaging with four-flap shipping carton construction, white-lined corrugated board and colour printing and gloss varnish. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed supplement bottle in four-flap shipping carton, white-lined corrugated board and colour printing and gloss varnish. Custom size & print with MTT.",
     "searchUse": "sealed supplement bottle"
   },
   {
@@ -2192,7 +2192,7 @@
       "corrugated sleeve and tray manufacturer",
       "kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom candle jar packaging with corrugated sleeve and tray construction, kraft-lined corrugated board and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom candle jar in corrugated sleeve and tray, kraft-lined corrugated board and two-colour printing. Custom size & print with MTT.",
     "searchUse": "candle jar"
   },
   {
@@ -2238,7 +2238,7 @@
       "divided roll-end mailer manufacturer",
       "litho-laminated corrugated board"
     ],
-    "seoDescription": "Custom reed diffuser packaging with divided roll-end mailer construction, litho-laminated corrugated board and matte lamination on printed liner. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom reed diffuser in divided roll-end mailer, litho-laminated corrugated board and matte lamination on printed liner. Custom size & print with MTT.",
     "searchUse": "reed diffuser"
   },
   {
@@ -2284,7 +2284,7 @@
       "roll-end mailer manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom wrapped cookies packaging with roll-end mailer construction, white-lined corrugated board and colour printing with selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped cookies in roll-end mailer, white-lined corrugated board and colour printing with selective gloss. Custom size & print with MTT.",
     "searchUse": "wrapped cookies"
   },
   {
@@ -2330,7 +2330,7 @@
       "four-flap shipping carton manufacturer",
       "printed kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom sealed macarons packaging with four-flap shipping carton construction, printed kraft-lined corrugated board and opaque bright ink and dark accents. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed macarons in four-flap shipping carton, printed kraft-lined corrugated board and opaque bright ink and dark accents. Custom size & print with MTT.",
     "searchUse": "sealed macarons"
   },
   {
@@ -2376,7 +2376,7 @@
       "corrugated sleeve and tray manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom jewelry pouch packaging with corrugated sleeve and tray construction, white-lined corrugated board and colour printing and gloss varnish. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom jewelry pouch in corrugated sleeve and tray, white-lined corrugated board and colour printing and gloss varnish. Custom size & print with MTT.",
     "searchUse": "jewelry pouch"
   },
   {
@@ -2422,7 +2422,7 @@
       "divided roll-end mailer manufacturer",
       "kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom silk scarf packaging with divided roll-end mailer construction, kraft-lined corrugated board and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom silk scarf in divided roll-end mailer, kraft-lined corrugated board and two-colour printing. Custom size & print with MTT.",
     "searchUse": "silk scarf"
   },
   {
@@ -2468,7 +2468,7 @@
       "roll-end mailer manufacturer",
       "litho-laminated corrugated board"
     ],
-    "seoDescription": "Custom soap bars packaging with roll-end mailer construction, litho-laminated corrugated board and matte lamination on printed liner. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom soap bars in roll-end mailer, litho-laminated corrugated board and matte lamination on printed liner. Custom size & print with MTT.",
     "searchUse": "soap bars"
   },
   {
@@ -2514,7 +2514,7 @@
       "four-flap shipping carton manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom lipstick trio packaging with four-flap shipping carton construction, white-lined corrugated board and colour printing with selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom lipstick trio in four-flap shipping carton, white-lined corrugated board and colour printing with selective gloss. Custom size & print with MTT.",
     "searchUse": "lipstick trio"
   },
   {
@@ -2560,7 +2560,7 @@
       "corrugated sleeve and tray manufacturer",
       "printed kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom stationery set packaging with corrugated sleeve and tray construction, printed kraft-lined corrugated board and opaque bright ink and dark accents. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom stationery set in corrugated sleeve and tray, printed kraft-lined corrugated board and opaque bright ink and dark accents. Custom size & print with MTT.",
     "searchUse": "stationery set"
   },
   {
@@ -2606,7 +2606,7 @@
       "divided roll-end mailer manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom Christmas ornaments packaging with divided roll-end mailer construction, white-lined corrugated board and colour printing and gloss varnish. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom Christmas ornaments in divided roll-end mailer, white-lined corrugated board and colour printing and gloss varnish. Custom size & print with MTT.",
     "searchUse": "Christmas ornaments"
   },
   {
@@ -2652,7 +2652,7 @@
       "roll-end mailer manufacturer",
       "kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom wrapped mooncakes packaging with roll-end mailer construction, kraft-lined corrugated board and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped mooncakes in roll-end mailer, kraft-lined corrugated board and two-colour printing. Custom size & print with MTT.",
     "searchUse": "wrapped mooncakes"
   },
   {
@@ -2698,7 +2698,7 @@
       "four-flap shipping carton manufacturer",
       "litho-laminated corrugated board"
     ],
-    "seoDescription": "Custom honey jar packaging with four-flap shipping carton construction, litho-laminated corrugated board and matte lamination on printed liner. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom honey jar in four-flap shipping carton, litho-laminated corrugated board and matte lamination on printed liner. Custom size & print with MTT.",
     "searchUse": "honey jar"
   },
   {
@@ -2744,7 +2744,7 @@
       "corrugated sleeve and tray manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom hand cream duo packaging with corrugated sleeve and tray construction, white-lined corrugated board and colour printing with selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom hand cream duo in corrugated sleeve and tray, white-lined corrugated board and colour printing with selective gloss. Custom size & print with MTT.",
     "searchUse": "hand cream duo"
   },
   {
@@ -2790,7 +2790,7 @@
       "divided roll-end mailer manufacturer",
       "printed kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom socks gift packaging with divided roll-end mailer construction, printed kraft-lined corrugated board and opaque bright ink and dark accents. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom socks gift in divided roll-end mailer, printed kraft-lined corrugated board and opaque bright ink and dark accents. Custom size & print with MTT.",
     "searchUse": "socks gift"
   },
   {
@@ -2836,7 +2836,7 @@
       "roll-end mailer manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom miniature fragrance packaging with roll-end mailer construction, white-lined corrugated board and colour printing and gloss varnish. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom miniature fragrance in roll-end mailer, white-lined corrugated board and colour printing and gloss varnish. Custom size & print with MTT.",
     "searchUse": "miniature fragrance"
   },
   {
@@ -2882,7 +2882,7 @@
       "four-flap shipping carton manufacturer",
       "kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom sealed granola pouch packaging with four-flap shipping carton construction, kraft-lined corrugated board and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed granola pouch in four-flap shipping carton, kraft-lined corrugated board and two-colour printing. Custom size & print with MTT.",
     "searchUse": "sealed granola pouch"
   },
   {
@@ -2928,7 +2928,7 @@
       "corrugated sleeve and tray manufacturer",
       "litho-laminated corrugated board"
     ],
-    "seoDescription": "Custom travel accessories packaging with corrugated sleeve and tray construction, litho-laminated corrugated board and matte lamination on printed liner. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom travel accessories in corrugated sleeve and tray, litho-laminated corrugated board and matte lamination on printed liner. Custom size & print with MTT.",
     "searchUse": "travel accessories"
   },
   {
@@ -2974,7 +2974,7 @@
       "divided roll-end mailer manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom tumbler packaging with divided roll-end mailer construction, white-lined corrugated board and colour printing with selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tumbler in divided roll-end mailer, white-lined corrugated board and colour printing with selective gloss. Custom size & print with MTT.",
     "searchUse": "tumbler"
   },
   {
@@ -3020,7 +3020,7 @@
       "roll-end mailer manufacturer",
       "printed kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom tea tin packaging with roll-end mailer construction, printed kraft-lined corrugated board and opaque bright ink and dark accents. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tea tin in roll-end mailer, printed kraft-lined corrugated board and opaque bright ink and dark accents. Custom size & print with MTT.",
     "searchUse": "tea tin"
   },
   {
@@ -3066,7 +3066,7 @@
       "four-flap shipping carton manufacturer",
       "white-lined corrugated board"
     ],
-    "seoDescription": "Custom festive confectionery packaging with four-flap shipping carton construction, white-lined corrugated board and colour printing and gloss varnish. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom festive confectionery in four-flap shipping carton, white-lined corrugated board and colour printing and gloss varnish. Custom size & print with MTT.",
     "searchUse": "festive confectionery"
   },
   {
@@ -3112,7 +3112,7 @@
       "corrugated sleeve and tray manufacturer",
       "kraft-lined corrugated board"
     ],
-    "seoDescription": "Custom beauty discovery set packaging with corrugated sleeve and tray construction, kraft-lined corrugated board and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom beauty discovery set in corrugated sleeve and tray, kraft-lined corrugated board and two-colour printing. Custom size & print with MTT.",
     "searchUse": "beauty discovery set"
   },
   {
@@ -3158,7 +3158,7 @@
       "divided roll-end mailer manufacturer",
       "litho-laminated corrugated board"
     ],
-    "seoDescription": "Custom client welcome kit packaging with divided roll-end mailer construction, litho-laminated corrugated board and matte lamination on printed liner. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom client welcome kit in divided roll-end mailer, litho-laminated corrugated board and matte lamination on printed liner. Custom size & print with MTT.",
     "searchUse": "client welcome kit"
   },
   {
@@ -3204,7 +3204,7 @@
       "ribbon-handle paper bag manufacturer",
       "coated shopping-bag paper"
     ],
-    "seoDescription": "Custom perfume bottle packaging with ribbon-handle paper bag construction, coated shopping-bag paper and gloss lamination and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom perfume bottle in ribbon-handle paper bag, coated bag paper and gloss lamination and colour printing. Custom size & print with MTT.",
     "searchUse": "perfume bottle"
   },
   {
@@ -3250,7 +3250,7 @@
       "cord-handle paper bag manufacturer",
       "kraft shopping-bag paper"
     ],
-    "seoDescription": "Custom skincare duo packaging with cord-handle paper bag construction, kraft shopping-bag paper and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom skincare duo in cord-handle paper bag, kraft bag paper and two-colour printing. Custom size & print with MTT.",
     "searchUse": "skincare duo"
   },
   {
@@ -3296,7 +3296,7 @@
       "twisted-paper handle bag manufacturer",
       "fine-textured shopping-bag paper"
     ],
-    "seoDescription": "Custom tea sachets packaging with twisted-paper handle bag construction, fine-textured shopping-bag paper and spot-colour printing and foil accent. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tea sachets in twisted-paper handle bag, fine-textured bag paper and spot-colour printing and foil accent. Custom size & print with MTT.",
     "searchUse": "tea sachets"
   },
   {
@@ -3342,7 +3342,7 @@
       "flat-paper handle bag manufacturer",
       "white shopping-bag paper"
     ],
-    "seoDescription": "Custom coffee pouches packaging with flat-paper handle bag construction, white shopping-bag paper and matte lamination and selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom coffee pouches in flat-paper handle bag, white bag paper and matte lamination and selective gloss. Custom size & print with MTT.",
     "searchUse": "coffee pouches"
   },
   {
@@ -3388,7 +3388,7 @@
       "die-cut handle paper bag manufacturer",
       "pearlescent shopping-bag paper"
     ],
-    "seoDescription": "Custom wrapped chocolates packaging with die-cut handle paper bag construction, pearlescent shopping-bag paper and pearlescent sheen and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped chocolates in die-cut handle paper bag, pearlescent bag paper and pearlescent sheen and colour printing. Custom size & print with MTT.",
     "searchUse": "wrapped chocolates"
   },
   {
@@ -3434,7 +3434,7 @@
       "ribbon-handle paper bag manufacturer",
       "dyed shopping-bag paper"
     ],
-    "seoDescription": "Custom sealed supplement bottle packaging with ribbon-handle paper bag construction, dyed shopping-bag paper and debossing and small foil motif. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed supplement bottle in ribbon-handle paper bag, dyed bag paper and debossing and small foil motif. Custom size & print with MTT.",
     "searchUse": "sealed supplement bottle"
   },
   {
@@ -3480,7 +3480,7 @@
       "cord-handle paper bag manufacturer",
       "coated shopping-bag paper"
     ],
-    "seoDescription": "Custom candle jar packaging with cord-handle paper bag construction, coated shopping-bag paper and gloss lamination and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom candle jar in cord-handle paper bag, coated bag paper and gloss lamination and colour printing. Custom size & print with MTT.",
     "searchUse": "candle jar"
   },
   {
@@ -3572,7 +3572,7 @@
       "flat-paper handle bag manufacturer",
       "fine-textured shopping-bag paper"
     ],
-    "seoDescription": "Custom wrapped cookies packaging with flat-paper handle bag construction, fine-textured shopping-bag paper and spot-colour printing and foil accent. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped cookies in flat-paper handle bag, fine-textured bag paper and spot-colour printing and foil accent. Custom size & print with MTT.",
     "searchUse": "wrapped cookies"
   },
   {
@@ -3618,7 +3618,7 @@
       "die-cut handle paper bag manufacturer",
       "white shopping-bag paper"
     ],
-    "seoDescription": "Custom sealed macarons packaging with die-cut handle paper bag construction, white shopping-bag paper and matte lamination and selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed macarons in die-cut handle paper bag, white bag paper and matte lamination and selective gloss. Custom size & print with MTT.",
     "searchUse": "sealed macarons"
   },
   {
@@ -3664,7 +3664,7 @@
       "ribbon-handle paper bag manufacturer",
       "pearlescent shopping-bag paper"
     ],
-    "seoDescription": "Custom jewelry pouch packaging with ribbon-handle paper bag construction, pearlescent shopping-bag paper and pearlescent sheen and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom jewelry pouch in ribbon-handle paper bag, pearlescent bag paper and pearlescent sheen and colour printing. Custom size & print with MTT.",
     "searchUse": "jewelry pouch"
   },
   {
@@ -3710,7 +3710,7 @@
       "cord-handle paper bag manufacturer",
       "dyed shopping-bag paper"
     ],
-    "seoDescription": "Custom silk scarf packaging with cord-handle paper bag construction, dyed shopping-bag paper and debossing and small foil motif. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom silk scarf in cord-handle paper bag, dyed bag paper and debossing and small foil motif. Custom size & print with MTT.",
     "searchUse": "silk scarf"
   },
   {
@@ -3756,7 +3756,7 @@
       "twisted-paper handle bag manufacturer",
       "coated shopping-bag paper"
     ],
-    "seoDescription": "Custom soap bars packaging with twisted-paper handle bag construction, coated shopping-bag paper and gloss lamination and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom soap bars in twisted-paper handle bag, coated bag paper and gloss lamination and colour printing. Custom size & print with MTT.",
     "searchUse": "soap bars"
   },
   {
@@ -3802,7 +3802,7 @@
       "flat-paper handle bag manufacturer",
       "kraft shopping-bag paper"
     ],
-    "seoDescription": "Custom lipstick trio packaging with flat-paper handle bag construction, kraft shopping-bag paper and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom lipstick trio in flat-paper handle bag, kraft bag paper and two-colour printing. Custom size & print with MTT.",
     "searchUse": "lipstick trio"
   },
   {
@@ -3848,7 +3848,7 @@
       "die-cut handle paper bag manufacturer",
       "fine-textured shopping-bag paper"
     ],
-    "seoDescription": "Custom stationery set packaging with die-cut handle paper bag construction, fine-textured shopping-bag paper and spot-colour printing and foil accent. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom stationery set in die-cut handle paper bag, fine-textured bag paper and spot-colour printing and foil accent. Custom size & print with MTT.",
     "searchUse": "stationery set"
   },
   {
@@ -3894,7 +3894,7 @@
       "ribbon-handle paper bag manufacturer",
       "white shopping-bag paper"
     ],
-    "seoDescription": "Custom Christmas ornaments packaging with ribbon-handle paper bag construction, white shopping-bag paper and matte lamination and selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom Christmas ornaments in ribbon-handle paper bag, white bag paper and matte lamination and selective gloss. Custom size & print with MTT.",
     "searchUse": "Christmas ornaments"
   },
   {
@@ -3940,7 +3940,7 @@
       "cord-handle paper bag manufacturer",
       "pearlescent shopping-bag paper"
     ],
-    "seoDescription": "Custom wrapped mooncakes packaging with cord-handle paper bag construction, pearlescent shopping-bag paper and pearlescent sheen and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom wrapped mooncakes in cord-handle paper bag, pearlescent bag paper and pearlescent sheen and colour printing. Custom size & print with MTT.",
     "searchUse": "wrapped mooncakes"
   },
   {
@@ -3986,7 +3986,7 @@
       "twisted-paper handle bag manufacturer",
       "dyed shopping-bag paper"
     ],
-    "seoDescription": "Custom honey jar packaging with twisted-paper handle bag construction, dyed shopping-bag paper and debossing and small foil motif. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom honey jar in twisted-paper handle bag, dyed bag paper and debossing and small foil motif. Custom size & print with MTT.",
     "searchUse": "honey jar"
   },
   {
@@ -4032,7 +4032,7 @@
       "flat-paper handle bag manufacturer",
       "coated shopping-bag paper"
     ],
-    "seoDescription": "Custom hand cream duo packaging with flat-paper handle bag construction, coated shopping-bag paper and gloss lamination and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom hand cream duo in flat-paper handle bag, coated bag paper and gloss lamination and colour printing. Custom size & print with MTT.",
     "searchUse": "hand cream duo"
   },
   {
@@ -4078,7 +4078,7 @@
       "die-cut handle paper bag manufacturer",
       "kraft shopping-bag paper"
     ],
-    "seoDescription": "Custom socks gift packaging with die-cut handle paper bag construction, kraft shopping-bag paper and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom socks gift in die-cut handle paper bag, kraft bag paper and two-colour printing. Custom size & print with MTT.",
     "searchUse": "socks gift"
   },
   {
@@ -4124,7 +4124,7 @@
       "ribbon-handle paper bag manufacturer",
       "fine-textured shopping-bag paper"
     ],
-    "seoDescription": "Custom miniature fragrance packaging with ribbon-handle paper bag construction, fine-textured shopping-bag paper and spot-colour printing and foil accent. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom miniature fragrance in ribbon-handle paper bag, fine-textured bag paper and spot-colour printing and foil accent. Custom size & print with MTT.",
     "searchUse": "miniature fragrance"
   },
   {
@@ -4170,7 +4170,7 @@
       "cord-handle paper bag manufacturer",
       "white shopping-bag paper"
     ],
-    "seoDescription": "Custom sealed granola pouch packaging with cord-handle paper bag construction, white shopping-bag paper and matte lamination and selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom sealed granola pouch in cord-handle paper bag, white bag paper and matte lamination and selective gloss. Custom size & print with MTT.",
     "searchUse": "sealed granola pouch"
   },
   {
@@ -4216,7 +4216,7 @@
       "twisted-paper handle bag manufacturer",
       "pearlescent shopping-bag paper"
     ],
-    "seoDescription": "Custom travel accessories packaging with twisted-paper handle bag construction, pearlescent shopping-bag paper and pearlescent sheen and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom travel accessories in twisted-paper handle bag, pearlescent bag paper and pearlescent sheen and colour printing. Custom size & print with MTT.",
     "searchUse": "travel accessories"
   },
   {
@@ -4262,7 +4262,7 @@
       "flat-paper handle bag manufacturer",
       "dyed shopping-bag paper"
     ],
-    "seoDescription": "Custom tumbler packaging with flat-paper handle bag construction, dyed shopping-bag paper and debossing and small foil motif. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tumbler in flat-paper handle bag, dyed bag paper and debossing and small foil motif. Custom size & print with MTT.",
     "searchUse": "tumbler"
   },
   {
@@ -4308,7 +4308,7 @@
       "die-cut handle paper bag manufacturer",
       "coated shopping-bag paper"
     ],
-    "seoDescription": "Custom tea tin packaging with die-cut handle paper bag construction, coated shopping-bag paper and gloss lamination and colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom tea tin in die-cut handle paper bag, coated bag paper and gloss lamination and colour printing. Custom size & print with MTT.",
     "searchUse": "tea tin"
   },
   {
@@ -4354,7 +4354,7 @@
       "ribbon-handle paper bag manufacturer",
       "kraft shopping-bag paper"
     ],
-    "seoDescription": "Custom festive confectionery packaging with ribbon-handle paper bag construction, kraft shopping-bag paper and two-colour printing. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom festive confectionery in ribbon-handle paper bag, kraft bag paper and two-colour printing. Custom size & print with MTT.",
     "searchUse": "festive confectionery"
   },
   {
@@ -4400,7 +4400,7 @@
       "cord-handle paper bag manufacturer",
       "fine-textured shopping-bag paper"
     ],
-    "seoDescription": "Custom beauty discovery set packaging with cord-handle paper bag construction, fine-textured shopping-bag paper and spot-colour printing and foil accent. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom beauty discovery set in cord-handle paper bag, fine-textured bag paper and spot-colour printing and foil accent. Custom size & print with MTT.",
     "searchUse": "beauty discovery set"
   },
   {
@@ -4446,7 +4446,7 @@
       "twisted-paper handle bag manufacturer",
       "white shopping-bag paper"
     ],
-    "seoDescription": "Custom client welcome kit packaging with twisted-paper handle bag construction, white shopping-bag paper and matte lamination and selective gloss. Tailor size, artwork and quantity with MTT.",
+    "seoDescription": "Custom client welcome kit in twisted-paper handle bag, white bag paper and matte lamination and selective gloss. Custom size & print with MTT.",
     "searchUse": "client welcome kit"
   },
   {
@@ -4492,7 +4492,7 @@
       "perfume duo magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom perfume duo collapsible rigid packaging in cobalt blue and orange. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom perfume duo collapsible rigid packaging in cobalt blue and orange. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "perfume duo"
   },
   {
@@ -4538,7 +4538,7 @@
       "travel fragrance set magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom travel fragrance set collapsible rigid packaging in coral and ivory. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom travel fragrance set collapsible rigid packaging in coral and ivory. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "travel fragrance set"
   },
   {
@@ -4630,7 +4630,7 @@
       "makeup launch kit magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom makeup launch kit collapsible rigid packaging in fuchsia and midnight blue. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom makeup launch kit collapsible rigid packaging in fuchsia and midnight blue. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "makeup launch kit"
   },
   {
@@ -4722,7 +4722,7 @@
       "matcha ceremony kit magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom matcha ceremony kit collapsible rigid packaging in lime and forest green. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom matcha ceremony kit collapsible rigid packaging in lime and forest green. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "matcha ceremony kit"
   },
   {
@@ -4768,7 +4768,7 @@
       "coffee tasting kit magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom coffee tasting kit collapsible rigid packaging in burnt orange and navy. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom coffee tasting kit collapsible rigid packaging in burnt orange and navy. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "coffee tasting kit"
   },
   {
@@ -4814,7 +4814,7 @@
       "chocolate selection magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom chocolate selection collapsible rigid packaging in burgundy and blush. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom chocolate selection collapsible rigid packaging in burgundy and blush. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "chocolate selection"
   },
   {
@@ -4860,7 +4860,7 @@
       "wellness bottle duo magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom wellness bottle duo collapsible rigid packaging in turquoise and white. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom wellness bottle duo collapsible rigid packaging in turquoise and white. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "wellness bottle duo"
   },
   {
@@ -4906,7 +4906,7 @@
       "daily vitamin kit magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom daily vitamin kit collapsible rigid packaging in sunflower yellow and cobalt. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom daily vitamin kit collapsible rigid packaging in sunflower yellow and cobalt. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "daily vitamin kit"
   },
   {
@@ -4998,7 +4998,7 @@
       "jewelry gift set magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom jewelry gift set collapsible rigid packaging in deep violet and champagne. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom jewelry gift set collapsible rigid packaging in deep violet and champagne. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "jewelry gift set"
   },
   {
@@ -5044,7 +5044,7 @@
       "watch and strap set magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom watch and strap set collapsible rigid packaging in royal blue and silver. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom watch and strap set collapsible rigid packaging in royal blue and silver. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "watch and strap set"
   },
   {
@@ -5090,7 +5090,7 @@
       "wedding keepsake set magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom wedding keepsake set collapsible rigid packaging in ivory and coral. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom wedding keepsake set collapsible rigid packaging in ivory and coral. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "wedding keepsake set"
   },
   {
@@ -5136,7 +5136,7 @@
       "cookie gift selection magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom cookie gift selection collapsible rigid packaging in tangerine and cream. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom cookie gift selection collapsible rigid packaging in tangerine and cream. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "cookie gift selection"
   },
   {
@@ -5228,7 +5228,7 @@
       "festive food hamper magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom festive food hamper collapsible rigid packaging in ruby red and cream. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom festive food hamper collapsible rigid packaging in ruby red and cream. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "festive food hamper"
   },
   {
@@ -5274,7 +5274,7 @@
       "executive notebook set magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom executive notebook set collapsible rigid packaging in charcoal and orange. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom executive notebook set collapsible rigid packaging in charcoal and orange. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "executive notebook set"
   },
   {
@@ -5321,7 +5321,7 @@
       "employee welcome kit magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom employee welcome kit collapsible rigid packaging in cobalt and yellow. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom employee welcome kit collapsible rigid packaging in cobalt and yellow. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "employee welcome kit"
   },
   {
@@ -5367,7 +5367,7 @@
       "silk scarf presentation magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom silk scarf presentation collapsible rigid packaging in magenta and cream. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom silk scarf presentation collapsible rigid packaging in magenta and cream. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "silk scarf presentation"
   },
   {
@@ -5413,7 +5413,7 @@
       "wine gift presentation magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom wine gift presentation collapsible rigid packaging in burgundy and gold. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom wine gift presentation collapsible rigid packaging in burgundy and gold. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "wine gift presentation"
   },
   {
@@ -5505,7 +5505,7 @@
       "christmas gift set magnetic gift box",
       "one piece fold flat rigid gift box"
     ],
-    "seoDescription": "Custom christmas gift set collapsible rigid packaging in scarlet and emerald. See magnetic closure, fitted insert, paper finish and flat-pack view. Request a sample.",
+    "seoDescription": "Custom christmas gift set collapsible rigid packaging in scarlet and emerald. Review magnetic closure, fitted insert and flat-pack sample with MTT.",
     "searchUse": "christmas gift set"
   }
 ]

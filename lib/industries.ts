@@ -37,7 +37,7 @@ export const industries: Industry[] = [
     image: "/design/cosmetics-editorial.webp", imageAlt: "Concept: dusty rose skincare presentation box with ivory insert and matching cartons",
     seoTitle: 'Custom Cosmetic Packaging Boxes & Inserts | MTT Packaging',
     title: 'Custom cosmetic packaging boxes for skincare, makeup and gift sets.',
-    summary: 'Plan custom cosmetic packaging boxes, skincare gift sets and fitted inserts. Compare cartons and rigid boxes, then send product dimensions for a packaging review.',
+    summary: 'Plan custom cosmetic packaging boxes, skincare gift sets and fitted inserts. Compare cartons and rigid boxes, then send dimensions for a packaging review.',
     products: ['Serums and droppers', 'Cream jars', 'Makeup palettes', 'Skincare and PR kits'],
     structures: [['Magnetic rigid box', 'A strong option for launch kits, influencer mailers and multi-SKU presentations.'], ['Premium folding carton', 'Efficient for individual retail units while supporting foil, embossing and tactile finishes.'], ['Drawer box', 'Creates a controlled reveal for sets, palettes and accessories.'], ['Multi-level presentation kit', 'Separates products, samples and printed information into an intentional sequence.']],
     priorities: [['Mixed product heights', 'Insert levels and lid clearance should be planned from actual containers, not nominal fill volume.'], ['Surface protection', 'Glass, metallic caps and printed components need separation to reduce rubbing in transit.'], ['Range consistency', 'A shared outer format with adapted inserts can help unify several SKUs.']],
