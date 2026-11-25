@@ -394,5 +394,83 @@
       "https://www.iso.org/certification.html",
       "https://www.iso.org/iso/definitive_expected_outcomes_iso9001.pdf"
     ]
+  },
+  {
+    "slug": "replaceable-flooring-sample-boards-dealer-kits",
+    "primaryQuery": "Replaceable Flooring Sample Boards for Dealer Display Kits",
+    "searchEvidence": "Editorial candidate; existing guide URLs checked for duplication. Search volume unverified.",
+    "customerDecision": "Slide channel, pocket or removable board?",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 88,
+    "reviewEvidence": [
+      "Slide channel, pocket or removable board?",
+      "Count replenishment pieces before comparing quotes",
+      "Run a blind changeover at the counter"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://zyxel.milogroup.de/en/sample-books"
+    ]
+  },
+  {
+    "slug": "fabric-swatch-book-binding-replenishment",
+    "primaryQuery": "Fabric Swatch Book Binding for Midseason Replenishment",
+    "searchEvidence": "Editorial candidate; existing guide URLs checked for duplication. Search volume unverified.",
+    "customerDecision": "Compare the binding at the middle leaf",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 88,
+    "reviewEvidence": [
+      "Compare the binding at the middle leaf",
+      "Size the spine using the actual stack",
+      "Count leaves and check the update in use"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.samplebook.com/"
+    ]
+  },
+  {
+    "slug": "removable-tile-sample-presentation-case",
+    "primaryQuery": "Removable Tile Sample Cases: Protect the Edge and Show the Finish",
+    "searchEvidence": "Editorial candidate; existing guide URLs checked for duplication. Search volume unverified.",
+    "customerDecision": "Compare a fitted recess with a removable tray",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 88,
+    "reviewEvidence": [
+      "Compare a fitted recess with a removable tray",
+      "Work from weighed samples",
+      "Separate showroom handling from parcel approval"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://bdbox.com.tr/en/sample-kits"
+    ]
   }
 ]

@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:["replaceable-flooring-sample-boards-dealer-kits", "fabric-swatch-book-binding-replenishment", "removable-tile-sample-presentation-case", "custom-packaging-sampling-process"],products:["six-trial-lens-hexagonal-presentation-case","camera-filter-trio-drawer-box","bayonet-lens-hood-hinged-box"]},
   {articles:["packaging-typography-small-print", "packaging-artwork-dieline-preflight", "cmyk-vs-spot-colour-packaging", "printing-finishing-guide"],products:["signature-perfume-lift-off", "custom-carton-packaging-set", "custom-perfume-bottle-ribbon-bag"]},
   {articles:["reed-diffuser-room-spray-gift-box-insert", "eva-vs-paperboard-inserts", "candle-box-glass-jar-protection", "magnetic-rigid-box-magnet-strength-sizing"],products:["reed-diffuser-and-room-spray-magnetic-book-box", "custom-diffuser-packaging-set", "custom-reed-diffuser-twisted-bag"]},
   {articles:["dropper-serum-shoulder-neck-box-fit", "face-cream-jar-shoulder-neck-box-fit-checklist", "skincare-jar-serum-gift-box-insert-fit", "two-piece-rigid-box-lid-fit"],products:["dropper-serum-and-refill-shoulder-rigid-box", "face-cream-presentation-shoulder", "skincare-ritual-book"]},
