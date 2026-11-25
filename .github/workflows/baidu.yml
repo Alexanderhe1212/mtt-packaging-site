@@ -1,0 +1,37 @@
+name: Baidu URL submission
+on:
+  workflow_run:
+    workflows: ["Deploy MTT Packaging"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: baidu-url-submission
+  cancel-in-progress: false
+jobs:
+  submit:
+    if: github.ref == 'refs/heads/main' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Load persistent submission ledger
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions[bot]@users.noreply.github.com
+          if git ls-remote --exit-code origin refs/heads/baidu-receipts; then
+            git fetch --depth=1 origin refs/heads/baidu-receipts
+            git worktree add --detach /tmp/baidu-ledger FETCH_HEAD
+          else
+            status=$?
+            test "$status" = 2
+            git worktree add --orphan -b baidu-receipts /tmp/baidu-ledger
+            cp ops/baidu/initial.json /tmp/baidu-ledger/urls.json
+          fi
+      - name: Submit published URLs to Baidu
+        env:
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
+        run: python3 ops/baidu/submit.py
