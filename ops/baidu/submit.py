@@ -27,7 +27,7 @@ def save(rows):
 
 
 def main():
-    token = os.environ.get("BAIDU_PUSH_TOKEN")
+    token = (os.environ.get("BAIDU_PUSH_TOKEN") or "").strip()
     if not token:
         sys.exit("Missing repository secret BAIDU_PUSH_TOKEN")
     print("Baidu credential available", flush=True)
@@ -67,8 +67,12 @@ def main():
         elif body.get("error"):
             rows[url] = "pending"
             save(rows)
-            sys.exit("Baidu rejected the request. HTTP %s, API code %s" %
-                     (response.status, body["error"]))
+            msg = str(body.get("message") or "")
+            if msg == "over quota":
+                print("Baidu daily quota reached; remaining URLs stay pending.", flush=True)
+                break
+            sys.exit("Baidu rejected the request. HTTP %s, API code %s (%s)" %
+                     (response.status, body["error"], msg))
         else:
             sys.exit("Unexpected receipt. URL held for review: " + url)
 
