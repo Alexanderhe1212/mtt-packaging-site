@@ -7,6 +7,7 @@ import CookieConsent from '../components/CookieConsent';
 import './globals.css';
 import './editorial.css';
 import './portfolio-preview.css';
+import './buyer-visual.css';
 import LeadQualificationChatbot from '../components/LeadQualificationChatbot';
 
 
