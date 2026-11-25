@@ -15,8 +15,7 @@
   padding-inline-start: clamp(1rem, 2.5vw, 2rem);
 }
 .mtt-editorial .product-card:focus-within { outline: 2px solid var(--buyer-ink); outline-offset: 2px; }
-.gallery-enlarge { position: relative; display: block; cursor: zoom-in; background: var(--buyer-paper); width: 100%; border: 0; padding: 0; }
-.gallery-enlarge-label { position: absolute; inset: auto .75rem .75rem auto; color: var(--buyer-ink); background: white; border: 1px solid var(--buyer-rule); padding: .35rem .7rem; border-radius: 2rem; }
+.gallery-enlarge { display: block; margin: .5rem auto; min-height: 44px; padding: .4rem 1rem; color: var(--buyer-ink); background: white; border: 1px solid var(--buyer-rule); border-radius: 2rem; cursor: zoom-in; }
 .gallery-dialog { width: min(48rem, 92vw); max-height: 92dvh; overflow: auto; border: 1px solid var(--buyer-rule); padding: 1rem; color: var(--buyer-ink); }
 .gallery-dialog::backdrop { background: rgb(20 20 38 / 70%); }
 .gallery-dialog form { display: flex; justify-content: end; }
@@ -29,4 +28,21 @@
   .mtt-editorial :is(.quote-form,.calc-v2-label,.product-filters) :is(input,select,textarea) { font-size: max(1rem,16px); }
   .mtt-editorial .article-body table { display: block; overflow-x: auto; }
   .mtt-editorial .product-thumbs button { min-height: 44px; }
+}
+.mtt-editorial :is(.about-card, .case-copy, .product-summary, .page-hero, .proof-grid) h2 {
+  line-height: 1.16;
+  text-wrap: balance;
+}
+.mtt-editorial :is(.about-card-link, .case-link, .ed-text-link) {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .22em;
+}
+.mtt-editorial .about-card-image { overflow: hidden; }
+.mtt-editorial :is(.case-copy, .about-section, .page-hero) > p { max-inline-size: 70ch; }
+.mtt-editorial .product-results { font-variant-numeric: tabular-nums; }
+.mtt-editorial .product-filters :is(input,select):focus-visible { outline-offset: 1px; }
+@media (max-width: 760px) {
+  .mtt-editorial :is(.ed-actions,.page-cta) .button { min-height: 44px; }
+  .mtt-editorial :is(.calc-v2-metric-grid,.proof-grid,.about-grid) > * { min-width: 0; }
+  .mtt-editorial .case-copy { overflow-wrap: break-word; }
 }
