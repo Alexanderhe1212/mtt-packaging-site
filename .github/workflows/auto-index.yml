@@ -1,0 +1,52 @@
+name: Auto Index After Deploy
+
+on:
+  workflow_run:
+    workflows: ["Deploy MTT Packaging"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  submit-search-engines:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Download IndexNow receipt from deploy run
+        if: github.event_name == 'workflow_run'
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: indexnow-receipt
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/deploy-receipt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies for GSC & IndexNow scripts
+        run: npm ci --no-audit --no-fund
+
+      - name: Submit changed URLs & sitemaps (IndexNow + GSC)
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -f /tmp/deploy-receipt/indexnow-result.json ]; then
+            cp /tmp/deploy-receipt/indexnow-result.json /tmp/indexnow-result.json
+          fi
+          if [ -z "$GSC_SERVICE_ACCOUNT_JSON" ]; then
+            echo "GSC_SERVICE_ACCOUNT_JSON secret not configured yet; running IndexNow check only."
+            node scripts/submit-index.mjs --dry-run
+          else
+            node scripts/submit-index.mjs
+          fi

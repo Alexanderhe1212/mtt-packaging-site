@@ -26,8 +26,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local environment
+# local environment and credentials
+.env
 .env*
+gsc-key.json
+*service-account*.json
+*.key
 
 # deployment and generated files
 .vercel
