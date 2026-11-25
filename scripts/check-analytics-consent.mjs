@@ -111,6 +111,13 @@ test('AI referrers are classified with domain boundaries and retain consent prot
   h.window.mttRevokeAnalytics();assert.equal(h.window.mttInquiryAttribution(),null);
  }
  const unknown=setup();unknown.window.mttGrantAnalytics();assert.equal(unknown.window.mttInquiryAttribution().source_category,'direct_or_unknown');
+ const utmTests={'chatgpt.com':'chatgpt','perplexity.ai':'perplexity','gemini.google.com':'gemini','claude.ai':'claude','copilot.microsoft.com':'copilot','unknown-site.test':'direct_or_unknown'};
+ for(const [utm,expected] of Object.entries(utmTests)){
+  const u=setup({url:`https://mttpackaging.com/products/example?utm_source=${utm}&email=PRIVATE`});
+  u.window.mttGrantAnalytics();
+  assert.equal(u.window.mttInquiryAttribution().source_category,expected,utm);
+  assert(!u.session.get('mtt_inquiry_attribution_v1').includes('PRIVATE'));
+ }
  const gpc=setup({gpc:true,referrer:'https://chatgpt.com/'});gpc.window.mttGrantAnalytics();assert.equal(gpc.window.mttInquiryAttribution(),null);assert(!gpc.session.has('mtt_inquiry_attribution_v1'));
 });
 console.log(`${cases} total consent and attribution scenarios passed.`);

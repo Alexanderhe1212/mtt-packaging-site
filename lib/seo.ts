@@ -13,6 +13,7 @@ export const organization = {
   email: 'info@mttpackaging.com',
   telephone: '+86 17207110964',
   // Entity facts below repeat what the About, Quality Control and FAQ pages already state.
+  address: { '@type': 'PostalAddress', addressLocality: 'Changzhou', addressRegion: 'Jiangsu', addressCountry: 'CN' },
   location: {
     '@type': 'Place', name: 'MTT Packaging factory',
     address: { '@type': 'PostalAddress', addressLocality: 'Changzhou', addressRegion: 'Jiangsu', addressCountry: 'CN' },

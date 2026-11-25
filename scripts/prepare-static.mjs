@@ -13,11 +13,13 @@ try {
   const { default: manifest } = await server.ssrLoadModule('/app/manifest.ts');
   await writeFile('dist/client/manifest.webmanifest', JSON.stringify(manifest()));
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-  const entries = sitemap().map(entry => `<url><loc>${escape(entry.url)}</loc>${entry.lastModified ? `<lastmod>${escape(entry.lastModified instanceof Date ? entry.lastModified.toISOString() : entry.lastModified)}</lastmod>` : ''}</url>`);
+  const sitemapEntries = sitemap();
+  const lastmodByUrl = new Map(sitemapEntries.filter(e => e.lastModified).map(e => [e.url, e.lastModified instanceof Date ? e.lastModified.toISOString() : String(e.lastModified)]));
+  const entries = sitemapEntries.map(entry => `<url><loc>${escape(entry.url)}</loc>${entry.lastModified ? `<lastmod>${escape(entry.lastModified instanceof Date ? entry.lastModified.toISOString() : entry.lastModified)}</lastmod>` : ''}</url>`);
   await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>\n`);
   await copyFile('public/sitemap.xml', 'dist/client/sitemap.xml');
   const {products}=await server.ssrLoadModule('/lib/products.ts');
-  const productXml='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'+products.flatMap(p=>['/products/','/zh/products/'].map(prefix=>'<url><loc>https://mttpackaging.com'+prefix+p.slug+'</loc>'+(p.conceptSingleView?[0]:[0,1,2,3,4]).map(i=>'<image:image><image:loc>https://mttpackaging.com'+p.image.replace('.webp','-'+i+'.webp')+'</image:loc></image:image>').join('')+'</url>')).join('')+'</urlset>';
+  const productXml='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'+products.flatMap(p=>['/products/','/zh/products/'].map(prefix=>{const url='https://mttpackaging.com'+prefix+p.slug;const lastmod=lastmodByUrl.get(url);return '<url><loc>'+escape(url)+'</loc>'+(lastmod?'<lastmod>'+escape(lastmod)+'</lastmod>':'')+(p.conceptSingleView?[0]:[0,1,2,3,4]).map(i=>'<image:image><image:loc>https://mttpackaging.com'+p.image.replace('.webp','-'+i+'.webp')+'</image:loc></image:image>').join('')+'</url>';})).join('')+'</urlset>';
   await writeFile('public/sitemap-products.xml',productXml);
   await writeFile('dist/client/sitemap-products.xml',productXml);
 } finally { await server.close(); }

@@ -54,7 +54,7 @@ export default function QuoteForm({locale='en',...props}: ComponentProps<'form'>
       if (form.querySelector('[name=calculator_summary]')) {
         try { sessionStorage.removeItem(CALC_HANDOFF_KEY); } catch { /* A storage failure must not invalidate an accepted enquiry. */ }
       }
-      trackEvent('generate_lead', { form_id: location.pathname === '/' ? 'homepage' : 'request_a_quote' });
+      trackEvent('generate_lead', { form_id: location.pathname === '/' ? 'homepage' : 'request_a_quote', ...(attribution ? { entry_source_category: attribution.source_category } : {}) });
       location.assign(locale==='zh'?'/zh/thank-you':'/thank-you');
     } catch {
       trackEvent('quote_error', {form_id:location.pathname==='/'?'homepage':'request_a_quote',error_type:'submission_failed'});

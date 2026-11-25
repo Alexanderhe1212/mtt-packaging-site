@@ -1,8 +1,43 @@
 import type {Metadata} from 'next';
 import GiftBuilderFrame from '../../../components/GiftBuilderFrame';
+import {breadcrumb, organization, siteUrl} from '../../../lib/seo';
 const url='https://mttpackaging.com/tools/gift-box-solution-builder';
+const structuredData={
+ '@context':'https://schema.org',
+ '@graph':[
+  {
+   '@type':'WebApplication',
+   '@id':`${url}#app`,
+   name:'Design Your Box — MTT Packaging Studio',
+   url,
+   description:'Plan internal box dimensions, choose your packaging structure and preview your artwork. Send a complete custom packaging brief to Hugo for engineering review.',
+   applicationCategory:'BusinessApplication',
+   operatingSystem:'Any',
+   offers:{'@type':'Offer',price:'0',priceCurrency:'USD'},
+  },
+  {
+   '@type':'WebPage',
+   '@id':`${url}#webpage`,
+   name:'Design Your Box: Size, Preview & Quote | MTT Packaging',
+   url,
+   description:'Plan internal box dimensions, choose your packaging structure and preview your artwork.',
+   isPartOf:{'@id':`${siteUrl}/#website`},
+   about:{'@id':`${siteUrl}/#organization`},
+  },
+  organization,
+  breadcrumb([['Home','/'],['Tools','/tools'],['Design Your Box','/tools/gift-box-solution-builder']]),
+  {
+   '@type':'FAQPage',
+   mainEntity:[
+    ['What does the size calculation mean?','For each axis, planned internal size equals product size plus the allowance on both sides. A 180 × 120 × 50 mm product with an illustrative 5 mm allowance per side gives 190 × 130 × 60 mm inside. The allowance is editable; it is not a universal tolerance. Inserts, product variation and assembly change what you need.'],
+    ['Which dimensions should you send?','For boxes, use finished internal length × width × height. For paper bags, use width × gusset × height. The studio does not convert internal dimensions into a production-ready external size: board caliper, wrapping, folds and closures require structural review.'],
+    ['What happens after the design?','Send your planned quantity, delivery country and specification to Hugo. MTT reviews material suitability, protection, artwork and sampling requirements before a formal quote. Preview colours and finishes are illustrative. A physical sample and approved dieline establish the production specification.'],
+   ].map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}})),
+  },
+ ],
+};
 export const metadata:Metadata={title:'Design Your Box: Size, Preview & Quote | MTT Packaging',description:'Plan internal box dimensions, choose your packaging structure and preview your artwork. Send a complete custom packaging brief to Hugo for engineering review.',alternates:{canonical:url},openGraph:{ type: 'website' as const, images: ['/og.jpg?v=gold-triangle'],title:'MTT Packaging Studio — Design Your Box',description:'From product dimensions to a custom packaging brief.',url}};
-export default function GiftBuilderPage(){return <main id="main-content" className="studio-page" style={{margin:0,padding:0,maxWidth:'none'}}><h1 style={{position:'absolute',width:1,height:1,padding:0,overflow:'hidden',clipPath:'inset(50%)'}}>Design Your Box — MTT Packaging Studio</h1><style>{`body:has(.studio-page) .hugo-widget{display:none}
+export default function GiftBuilderPage(){return <main id="main-content" className="studio-page" style={{margin:0,padding:0,maxWidth:'none'}}><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/><h1 style={{position:'absolute',width:1,height:1,padding:0,overflow:'hidden',clipPath:'inset(50%)'}}>Design Your Box — MTT Packaging Studio</h1><style>{`body:has(.studio-page) .hugo-widget{display:none}
 .studio-help{padding:0 5%;border-top:1px solid #d6d9ce;font-size:14px;background:#f7f6f1}
 .studio-help summary{cursor:pointer;padding:17px 0;font-weight:600;line-height:1.4;min-height:52px}
 .studio-help summary:focus-visible{outline:2px solid #9b7941;outline-offset:3px}
