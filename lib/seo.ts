@@ -19,7 +19,7 @@ export const organization = {
     address: { '@type': 'PostalAddress', addressLocality: 'Changzhou', addressRegion: 'Jiangsu', addressCountry: 'CN' },
   },
   areaServed: 'Worldwide',
-  knowsAbout: ['Custom rigid boxes', 'Magnetic closure boxes', 'Drawer boxes', 'Folding cartons', 'Corrugated mailer boxes', 'Custom paper bags', 'Custom packaging inserts', 'Perfume packaging', 'Cosmetic packaging', 'Jewelry and watch packaging', 'Gift set packaging', 'Packaging sampling and quality control'],
+  knowsAbout: ['Custom rigid boxes', 'Magnetic rigid gift boxes', 'Shoulder-neck rigid boxes', 'Drawer boxes', 'Folding cartons', 'Corrugated mailer boxes', 'Custom paper bags', 'Custom packaging inserts', 'Perfume packaging', 'Cosmetic packaging', 'Reed diffuser and home fragrance packaging', 'Jewelry and watch packaging', 'Gift set packaging', 'Packaging sampling and quality control'],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Custom packaging',

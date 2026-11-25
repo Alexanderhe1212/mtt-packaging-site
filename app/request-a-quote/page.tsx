@@ -195,6 +195,19 @@ export default function RequestAQuotePage() {
                   {" "}after submitting this form.
                 </small>
               </label>
+              <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "12px", color: "#5f6961" }}>
+                <span>How did you find MTT Packaging? (optional)</span>
+                <select name="how_did_you_hear" style={{ background: "#fff", border: "1px solid #d0c9b8", borderRadius: "6px", color: "#172019", padding: "11px 14px", font: "14px Arial", cursor: "pointer" }}>
+                  <option value="">Select source (optional)</option>
+                  <option value="ChatGPT">ChatGPT</option>
+                  <option value="Google Search">Google Search</option>
+                  <option value="Bing Search">Bing Search</option>
+                  <option value="Perplexity / Gemini / Claude">Perplexity / Gemini / Claude</option>
+                  <option value="YouTube">YouTube</option>
+                  <option value="Referral">Referral / Trade Contact</option>
+                  <option value="Other">Other</option>
+                </select>
+              </label>
             </fieldset>
 
             <div style={{ textAlign: "center", paddingTop: "8px" }}>

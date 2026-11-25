@@ -9,7 +9,7 @@ import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 export const metadata: Metadata = {
   title: "Custom Folding Cartons | Premium Paperboard Packaging | MTT Packaging",
   description:
-    "Custom paperboard cartons: straight tuck end, reverse tuck end, crash-lock bottom, sleeve and tray, window and hang-tab styles. Compare closures and request a tailored quote.",
+    "Custom paperboard cartons: tuck-end, crash-lock bottom, sleeve-and-tray and window styles. MOQ 1,000 pieces per design; request a tailored quote.",
   alternates: { canonical: "/packaging/folding-cartons" },
   openGraph: { type: 'website' as const,
     title: "Custom Folding Cartons | MTT Packaging",

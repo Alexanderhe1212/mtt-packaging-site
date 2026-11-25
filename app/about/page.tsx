@@ -3,16 +3,23 @@ import type { Metadata } from "next";
 import { SiteFooter, SiteNav } from "../../components/SiteNav";
 import { breadcrumb, organization, siteUrl, businessSummary } from "../../lib/seo";
 
+const aboutDescription =
+  "MTT Packaging is a custom packaging partner in Changzhou, China developing rigid boxes, cartons, mailers, bags and inserts from sample to export delivery.";
+
 export const metadata: Metadata = {
   title: "About MTT Packaging | Packaging Manufacturing Partner",
-  description:
-    businessSummary,
+  description: aboutDescription,
   alternates: { canonical: "/about" },
   openGraph: { type: 'website' as const,
     title: "About MTT Packaging | Packaging Manufacturing Partner",
-    description:
-      businessSummary,
+    description: aboutDescription,
     url: "/about",
+    images: ["/design/rigid-editorial.webp"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About MTT Packaging | Packaging Manufacturing Partner",
+    description: aboutDescription,
     images: ["/design/rigid-editorial.webp"],
   },
 };

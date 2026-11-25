@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
   alternates: { canonical: '/', languages: { en: '/', 'zh-Hans': '/zh', 'x-default': '/' } },
   title: 'Custom Luxury Packaging Boxes Supplier in China | MTT Packaging',
-  description: 'Custom rigid boxes, folding cartons, mailers, paper bags and inserts for perfume, cosmetics, jewelry and gift brands. MOQ 1,000 per design, sample first, shipped worldwide.',
+  description: 'Custom rigid boxes, cartons, mailers, bags and inserts for perfume, cosmetics, jewelry and gift brands. MOQ 1,000 per design, sample first, worldwide.',
 };
 
 const packagingChoices = [

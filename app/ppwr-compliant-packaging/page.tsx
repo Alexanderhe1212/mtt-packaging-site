@@ -5,7 +5,7 @@ import { breadcrumb, organization, siteUrl } from "../../lib/seo";
 export const metadata: Metadata = {
   title: "PPWR Compliant Packaging Support for EU Brands | MTT Packaging",
   description:
-    "Custom packaging manufacturing for EU-bound brands with PPWR-ready material documentation, structural guidance and technical support for rigid boxes, cartons, paper bags and inserts.",
+    "Custom packaging for EU brands with PPWR-ready material documentation and structural guidance across rigid boxes, cartons, paper bags and inserts.",
   alternates: { canonical: "/ppwr-compliant-packaging" },
   openGraph: { type: 'website' as const,
     title: "PPWR Compliant Packaging Support for EU Brands | MTT Packaging",

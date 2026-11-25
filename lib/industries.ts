@@ -18,7 +18,7 @@ export type Industry = {
 export const industries: Industry[] = [
   {
     structureImages: ["/design/industry-structures/perfume-shoulder.webp", "/design/rigid-structures/magnetic.webp", "/products/mtt-r0101-0.webp", "/products/mtt-r0102-0.webp"],
-    guides: [["Perfume discovery set spacing and presentation", "perfume-discovery-set-packaging"], ["Plan book-style magnetic box construction", "book-style-magnetic-box-design"], ["Coordinate perfume boxes and paper bags", "perfume-box-and-bag-packaging"], ["Approve foil across boxes and bags", "match-gold-foil-perfume-box-paper-bag"]],
+    guides: [["Perfume discovery set spacing and presentation", "perfume-discovery-set-packaging"], ["Plan book-style magnetic box construction", "book-style-magnetic-box-design"], ["Coordinate perfume boxes and paper bags", "perfume-box-and-bag-packaging"], ["Reed diffuser and room spray inserts", "reed-diffuser-room-spray-gift-box-insert"], ["Approve foil across boxes and bags", "match-gold-foil-perfume-box-paper-bag"]],
     slug: 'perfume-fragrance-packaging', eyebrow: 'Perfume & fragrance',
     image: "/design/fragrance-premium.webp", imageAlt: "Concept: ivory fragrance box with deep blue insert for a bottle and three travel sprays",
     seoTitle: 'Custom Perfume Packaging: Boxes & Inserts | MTT Packaging',
@@ -32,7 +32,7 @@ export const industries: Industry[] = [
   },
   {
     structureImages: ["/products/mtt-r0103-0.webp", "/products/mtt-c0104-0.webp", "/products/mtt-r0112-0.webp", "/products/mtt-r0106-0.webp"],
-    guides: [["Plan one box for multiple cosmetic SKUs", "shared-box-multiple-cosmetic-skus"], ["Choose molded pulp inserts for cosmetics", "molded-pulp-inserts-cosmetic-packaging"], ["Check skincare pump bottle clearance", "cosmetic-pump-bottle-gift-box-clearance"]],
+    guides: [["Plan one box for multiple cosmetic SKUs", "shared-box-multiple-cosmetic-skus"], ["Dropper serum shoulder-neck box fit", "dropper-serum-shoulder-neck-box-fit"], ["Choose molded pulp inserts for cosmetics", "molded-pulp-inserts-cosmetic-packaging"], ["Check skincare pump bottle clearance", "cosmetic-pump-bottle-gift-box-clearance"]],
     slug: 'cosmetics-skincare-packaging', eyebrow: 'Cosmetics & skincare',
     image: "/design/cosmetics-editorial.webp", imageAlt: "Concept: dusty rose skincare presentation box with ivory insert and matching cartons",
     seoTitle: 'Custom Cosmetic Packaging Boxes & Inserts | MTT Packaging',

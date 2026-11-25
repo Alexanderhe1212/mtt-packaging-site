@@ -1,16 +1,68 @@
 import { industries } from '../../lib/industries';
 import { SiteFooter, SiteNav } from '../../components/SiteNav';
+import { breadcrumb, organization, siteUrl } from '../../lib/seo';
+
+const pageTitle = 'Industries | Custom Packaging Solutions | MTT Packaging';
+const pageDescription = 'Custom packaging solutions for perfume, cosmetics, jewelry and premium gift industries.';
 
 export const metadata = {
-  openGraph: { siteName: 'MTT Packaging', type: 'website', url: '/industries', images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }] },
-  title: 'Industries | Custom Packaging Solutions | MTT Packaging',
-  description: 'Custom packaging solutions for perfume, cosmetics, jewelry and premium gift industries.',
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/industries' },
+  openGraph: {
+    siteName: 'MTT Packaging',
+    type: 'website',
+    title: pageTitle,
+    description: pageDescription,
+    url: '/industries',
+    images: [{ url: '/og.jpg?v=gold-triangle', width: 1200, height: 630, alt: 'MTT Packaging custom packaging' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+    images: ['/og.jpg?v=gold-triangle'],
+  },
+};
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'CollectionPage',
+      '@id': `${siteUrl}/industries#webpage`,
+      name: 'Industries We Serve — Custom Packaging Solutions',
+      description: pageDescription,
+      url: `${siteUrl}/industries`,
+      about: { '@id': `${siteUrl}/#organization` },
+      mainEntity: { '@id': `${siteUrl}/industries#list` },
+    },
+    {
+      '@type': 'ItemList',
+      '@id': `${siteUrl}/industries#list`,
+      name: 'Industries served by MTT Packaging',
+      itemListElement: industries.map((item, idx) => ({
+        '@type': 'ListItem',
+        position: idx + 1,
+        item: {
+          '@type': 'WebPage',
+          name: item.eyebrow,
+          url: `${siteUrl}/industries/${item.slug}`,
+        },
+      })),
+    },
+    organization,
+    breadcrumb([
+      ['Home', '/'],
+      ['Industries', '/industries'],
+    ]),
+  ],
 };
 
 export default function IndustriesPage() {
   return (
     <main id="main-content" className="industries-index">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <SiteNav />
       <header className="page-hero" style={{ background: '#fff', gridTemplateColumns: '1fr', minHeight: 0, paddingBottom: '40px' }}>
         <div>
