@@ -47,11 +47,11 @@
     "image": "/design/customization/offset.webp",
     "imageAlt": "Packaging design reference: offset printing for a packaging colour approval brief",
     "title": "GMI Printing Certification: Build a Packaging Colour Approval Brief",
-    "seoTitle": "GMI Printing Certification: What Buyers Should Verify | MTT",
-    "summary": "What is GMI printing certification? Learn what packaging buyers should verify about the print site, colour reference, substrate and finished-pack approval.",
+    "seoTitle": "GMI Printing & Packaging Colour Approval Guide | MTT",
+    "summary": "Verify GMI printing requirements, press-site identity, physical colour masters and substrate approval across rigid boxes, cartons and bags.",
     "intro": "If your packaging brief requires GMI, confirm the exact printer and the customer programme before approving production. Then define the physical colour reference, substrate, finish and measurement conditions for the job. A facility credential cannot replace an agreed artwork and colour approval. For a coordinated box-and-bag range, approve each material separately and compare the finished components together.",
     "datePublished": "2026-10-08",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-25",
     "cta": "Send the retailer’s print requirements, brand colour reference and the box-and-bag components you need. MTT can coordinate partner scope checks and a practical colour approval brief.",
     "faq": [],
     "sections": [
@@ -73,7 +73,7 @@
       ],
       [
         "Carry the approval into production and reorders",
-        "<p>Record the site, process, material grade, artwork version, colour reference and finishing specification in the released brief. Ask the printer to retain the agreed measurement and visual records with the identified production lot. Any reported deviation should identify the affected component and decision owner.</p><p>Define when a change needs renewed approval: paper substitution, press route, coating, artwork, foil or manufacturing site. See <a href=\"/insights/packaging-reorder-specification-change-control\">reorder specification change control</a> for recording those decisions. Where a customer programme applies, its change rules take precedence over an informal “same as last time” instruction.</p><p>MTT can coordinate the packaging brief and partner handoffs. Current programme acceptance remains a matter for the actual printer and relevant customer or programme authority. Shipment release should also include the separate structural and workmanship checks in the <a href=\"/insights/custom-packaging-inspection-checklist\">packaging inspection checklist</a>.</p>"
+        "<p>Record the site, process, material grade, artwork version, colour reference and finishing specification in the released brief. Ask the printer to retain the agreed measurement and visual records with the identified production lot. Any reported deviation should identify the affected component and decision owner.</p><p>Define when a change needs renewed approval: paper substitution, press route, coating, artwork, foil or manufacturing site. See <a href=\"/insights/packaging-reorder-specification-change-control\">reorder specification change control</a> for recording those decisions. Where a customer programme applies, its change rules take precedence over an informal “same as last time” instruction.</p><p>MTT can coordinate the packaging brief and partner handoffs across <a href=\"/packaging/folding-cartons\">printed folding cartons</a> and <a href=\"/industries/cosmetics-skincare-packaging\">cosmetic gift sets</a>. Current programme acceptance remains a matter for the actual printer and relevant customer or programme authority. Shipment release should also include the separate structural and workmanship checks in the <a href=\"/insights/custom-packaging-inspection-checklist\">packaging inspection checklist</a>.</p>"
       ],
       [
         "Sources and evidence boundaries",
@@ -88,11 +88,11 @@
     "image": "/design/customization/paperboard.webp",
     "imageAlt": "Packaging design reference: paperboard used in folding carton development",
     "title": "ISO Certification for Packaging Suppliers: What Buyers Should Verify",
-    "seoTitle": "ISO Packaging Supplier Verification Guide | MTT",
-    "summary": "Verify a packaging supplier’s ISO standard, certificate scope, site and status, then connect quality-system evidence to samples, changes and shipment approval.",
+    "seoTitle": "ISO 9001 Packaging Supplier Verification Guide | MTT",
+    "summary": "Verify a packaging supplier's ISO 9001 standard, site address and scope via IAF CertSearch, then link certificates to samples and lot inspections.",
     "intro": "An ISO logo does not tell you which standard, production site or activity has been certified. Request the actual certificate, verify its current status and compare its scope with your packaging order. If the requirement is a quality management system, identify the applicable standard and edition explicitly. Keep product testing, sample approval and shipment inspection as separate requirements.",
     "datePublished": "2026-10-08",
-    "dateModified": "2026-10-08",
+    "dateModified": "2026-11-25",
     "cta": "Share your supplier qualification requirement and packaging specification. MTT can coordinate the relevant production partner’s documents and identify the quality records your order needs.",
     "faq": [],
     "sections": [
@@ -106,7 +106,7 @@
       ],
       [
         "Translate a quality system into order records",
-        "<p>A quality-management-system certificate should not be presented as certification of the individual box or proof that every delivered item is defect-free. ISO’s expected-outcomes guidance distinguishes system certification from product certification. <a href=\"https://www.iso.org/iso/definitive_expected_outcomes_iso9001.pdf\">Source: ISO/IAF expected outcomes for ISO 9001 certification.</a></p><p>The useful buying question is how the proposed partner will control your specification. Ask for the records that link the commercial order to the physical reference: drawing revision, artwork revision, material identity, approved sample, exceptions and release responsibility. The <a href=\"/insights/how-to-write-a-packaging-brief\">packaging brief guide</a> helps assemble the inputs.</p><p>For a rigid box, identify the approved internal dimensions and insert geometry. For a folding carton, include the closure and packing method. An attractive sample with no revision reference is harder to reproduce or investigate than a controlled sample with clear acceptance notes.</p>"
+        "<p>A quality-management-system certificate should not be presented as certification of the individual box or proof that every delivered item is defect-free. ISO’s expected-outcomes guidance distinguishes system certification from product certification. <a href=\"https://www.iso.org/iso/definitive_expected_outcomes_iso9001.pdf\">Source: ISO/IAF expected outcomes for ISO 9001 certification.</a></p><p>The useful buying question is how the proposed partner will control your specification. Ask for the records that link the commercial order to the physical reference: drawing revision, artwork revision, material identity, approved sample, exceptions and release responsibility. The <a href=\"/insights/how-to-write-a-packaging-brief\">packaging brief guide</a> helps assemble the inputs.</p><p>For a <a href=\"/packaging/custom-rigid-boxes\">custom rigid box</a>, identify the approved internal dimensions and insert geometry. For a folding carton, include the closure and packing method. An attractive sample with no revision reference is harder to reproduce or investigate than a controlled sample with clear acceptance notes.</p>"
       ],
       [
         "Use one change scenario to test the handoff",

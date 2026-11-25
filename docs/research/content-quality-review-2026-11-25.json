@@ -294,5 +294,105 @@
     "sources": [
       "https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/"
     ]
+  },
+  {
+    "slug": "measure-packaging-internal-external-dimensions",
+    "primaryQuery": "internal vs external box dimensions",
+    "searchEvidence": "GSC 207 impressions, 0 clicks, avg position 11.44 (26 Aug–7 Nov 2026); queries include internal dimension and length width height box.",
+    "customerDecision": "Separate product envelope, internal box cavity, external box dimensions and shipping package size, with links to calculator and rigid box hub.",
+    "score": {
+      "customer": 10,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 91,
+    "reviewEvidence": [
+      "Updated seoTitle and meta summary for SERP snippet clarity against L × W × H and internal-vs-external dimension queries.",
+      "Added contextual links to /packaging/custom-rigid-boxes and /industries/cosmetics-skincare-packaging."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.fefco.org/technical-information/fefco-code",
+      "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html"
+    ]
+  },
+  {
+    "slug": "paper-bag-size-handles-load-check",
+    "primaryQuery": "paper bag dimensions mm and inches",
+    "searchEvidence": "GSC 130 impressions, 0 clicks, avg position 19.69 (26 Aug–7 Nov 2026); supports euro tote and custom paper bag queries.",
+    "customerDecision": "Measure finished contents in carrying orientation, convert W × G × H between mm and inches, and test loaded handles on physical samples.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Updated seoTitle and meta summary with mm/inch conversion, handle checks and MOQ 1,000 clarity; added link to fragrance box-and-bag hub."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.nist.gov/pml/owm/si-units-length"
+    ]
+  },
+  {
+    "slug": "gmi-printing-certification-packaging-colour-control",
+    "primaryQuery": "gmi printing",
+    "searchEvidence": "GSC 130 impressions, 1 click, avg position 14.48; gmi printing query at avg position 7.69 (26 Aug–7 Nov 2026).",
+    "customerDecision": "Verify exact print site and programme status, establish retained colour masters and compare substrates across cartons and rigid boxes.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Refined seoTitle and meta summary without claiming GMI certification for MTT; linked to /packaging/folding-cartons and /industries/cosmetics-skincare-packaging."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mm.group/wp-content/uploads/GMI_Cert_1-1.pdf",
+      "https://www.xrite.com/-/media/xrite/files/whitepaper_pdfs/l10-616-tolerancing-whitepaper/l10-616-tolerancing-white-paper-en.pdf"
+    ]
+  },
+  {
+    "slug": "iso-certification-packaging-supplier-verification",
+    "primaryQuery": "iso certified packaging",
+    "searchEvidence": "GSC 84 impressions, 0 clicks, avg position 19.64 (26 Aug–7 Nov 2026); connects certificate verification to sample control.",
+    "customerDecision": "Verify exact ISO 9001 site, scope and active status via IAF CertSearch and tie records to physical rigid box or carton samples.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Refined seoTitle and meta summary with IAF CertSearch verification; linked to /packaging/custom-rigid-boxes."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.iso.org/certification.html",
+      "https://www.iso.org/iso/definitive_expected_outcomes_iso9001.pdf"
+    ]
   }
 ]

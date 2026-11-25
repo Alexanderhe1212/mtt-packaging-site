@@ -9,14 +9,14 @@ import PackagingCustomization from "../../components/PackagingCustomization";
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: "Custom Packaging: Rigid Boxes, Cartons & Bags | MTT Packaging",
+  title: "Custom Packaging Partner: Rigid Boxes, Cartons & Bags | MTT",
   description:
-    "Custom packaging solutions from MTT Packaging: rigid boxes, folding cartons, paper bags and precision inserts. MOQ from 1,000 pcs. Sampling before production.",
+    "Custom rigid boxes, folding cartons, paper bags and fitted inserts from MTT Packaging in Changzhou, China. Physical sampling first. MOQ 1,000 pcs.",
   alternates: { canonical: "/packaging" },
   openGraph: { type: 'website' as const,
-    title: "Custom Packaging Solutions | MTT Packaging",
+    title: "Custom Packaging Partner: Rigid Boxes, Cartons & Bags | MTT",
     description:
-      "Rigid boxes, folding cartons, paper bags and custom inserts for premium brands. MOQ from 1,000 pcs.",
+      "Custom rigid boxes, folding cartons, paper bags and fitted inserts from MTT Packaging in Changzhou, China. Physical sampling first. MOQ 1,000 pcs.",
     url: "/packaging",
     images: ["/design/hero-editorial.webp"],
   },
@@ -72,6 +72,9 @@ export default function PackagingPage() {
             distribution needs. MOQ from 1,000 pcs. Sampling before production.
           </p>
           <div className="ed-actions"><a className="button" href="/products">Browse packaging designs →</a><a className="button" href="/request-a-quote">Discuss your packaging →</a></div>
+          <p style={{ marginTop: "14px", fontSize: "13px" }}>
+            Planning dimensions or sets? Try the <a href="/tools/box-size-calculator">box size &amp; CBM calculator</a> or <a href="/tools/gift-box-solution-builder">3D box builder</a>, or explore <a href="/industries/cosmetics-skincare-packaging">cosmetic packaging</a> and <a href="/industries/perfume-fragrance-packaging">fragrance boxes</a>.
+          </p>
         </div>
         <img
           src="/design/hero-editorial.webp" srcSet="/design/hero-editorial-480.webp 480w, /design/hero-editorial-800.webp 800w, /design/hero-editorial.webp 1440w" sizes="(max-width: 850px) 91vw, 46vw"

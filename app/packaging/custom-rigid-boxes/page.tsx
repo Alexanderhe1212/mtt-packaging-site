@@ -7,14 +7,14 @@ import { SiteFooter, SiteNav } from "../../../components/SiteNav";
 import { breadcrumb, organization, siteUrl } from "../../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Custom Rigid Boxes | Packaging Manufacturing Partner | MTT Packaging",
+  title: "Custom Rigid Boxes: Magnetic, Drawer & Lift-Off | MTT",
   description:
-    "Custom rigid boxes from MTT Packaging: magnetic, lift-off lid, drawer and shoulder-neck structures. Premium materials, foil, embossing. MOQ from 1,000 pcs.",
+    "Custom rigid boxes from MTT Packaging (Changzhou, China): magnetic, drawer, lift-off & fold-flat. Physical sample first. MOQ 1,000 pcs, US$2,000 min.",
   alternates: { canonical: "/packaging/custom-rigid-boxes" },
   openGraph: { type: 'website' as const,
-    title: "Custom Rigid Boxes | MTT Packaging",
+    title: "Custom Rigid Boxes: Magnetic, Drawer & Lift-Off | MTT",
     description:
-      "Magnetic, lift-off lid, drawer and shoulder-neck rigid boxes for premium brands. MOQ from 1,000 pcs.",
+      "Custom rigid boxes from MTT Packaging (Changzhou, China): magnetic, drawer, lift-off & fold-flat. Physical sample first. MOQ 1,000 pcs, US$2,000 min.",
     url: "/packaging/custom-rigid-boxes",
     images: ["/design/rigid-editorial.webp"],
   },
@@ -133,6 +133,51 @@ export default function CustomRigidBoxesPage() {
       </section>
       <FamilyProductDirectory family="rigid" />
       <BuyerPlanning kind="rigid" />
+      <section className="purchase-guide" aria-labelledby="rigid-quote-breakdown">
+        <p className="section-kicker">Quotation transparency</p>
+        <h2 id="rigid-quote-breakdown">How a 1,000-piece custom rigid box quote is structured</h2>
+        <p>Every MTT rigid box order requires at least <strong>1,000 pieces per design</strong> and <strong>US$2,000 in product value per order</strong> (excluding freight, sample charges and other fees). To keep supplier comparisons like-for-like, our quotations separate five independent cost drivers instead of bundling an assumed unit price:</p>
+        <div style={{ overflowX: "auto" }} role="region" aria-label="Custom rigid box quotation structure" tabIndex={0}>
+          <table>
+            <caption>Five separate line items in a custom rigid box quotation</caption>
+            <thead>
+              <tr>
+                <th scope="col">Quotation line item</th>
+                <th scope="col">What determines it</th>
+                <th scope="col">How it is billed &amp; verified</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">01 · Physical sample</th>
+                <td>Plain structural white sample vs printed &amp; foil-stamped production-intent sample.</td>
+                <td>Quoted separately before mass production; confirms lid fit, magnet pull and insert removal.</td>
+              </tr>
+              <tr>
+                <th scope="row">02 · Tooling &amp; dies</th>
+                <td>Cutting dies for rigid greyboard, foil stamping brass/magnesium dies, emboss plates and molded pulp cavities.</td>
+                <td>One-time setup per size or artwork version; separate from per-box unit price.</td>
+              </tr>
+              <tr>
+                <th scope="row">03 · Box &amp; wrap unit cost</th>
+                <td>Internal dimensions (L × W × H), 1.5–3 mm greyboard grade, specialty/coated wrap paper and finish count.</td>
+                <td>Unit price tier at 1,000+ pcs per design; verified against the signed sample specification.</td>
+              </tr>
+              <tr>
+                <th scope="row">04 · Fitted insert &amp; accessories</th>
+                <td>Paperboard partition, EVA foam, fabric wrap or molded pulp, plus matching bags, ribbons or cards.</td>
+                <td>Itemized separately by SKU so multi-assortment insert changes stay transparent.</td>
+              </tr>
+              <tr>
+                <th scope="row">05 · Export packing &amp; freight</th>
+                <td>Assembled vs fold-flat carton dimensions, units per export carton, total CBM, gross weight and Incoterms.</td>
+                <td>Estimated once closed external box dimensions and destination are confirmed; freight billed separately.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Use the <a href="/tools/box-size-calculator">box size &amp; shipping CBM calculator</a> to estimate packed carton volume, or review the <a href="/insights/compare-custom-packaging-supplier-quotes">supplier quote comparison checklist</a> before sending your brief.</p>
+      </section>
       <section className="brief-list">
         <div>
           <p className="section-kicker">Request a quote</p>
