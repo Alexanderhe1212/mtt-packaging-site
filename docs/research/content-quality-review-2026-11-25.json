@@ -133,5 +133,32 @@
     "sources": [
       "https://cdn.korg.com/us/support/download/files/fd3393bf2f809fd17d36ad9981513d16.pdf"
     ]
+  },
+  {
+    "slug": "apparel-gift-box-paper-bag-set",
+    "primaryQuery": "apparel gift box and paper bag",
+    "searchEvidence": "Mapped item N27 (KW-0686) in 关键词页面表.csv; buyer-intent candidate, exact search volume unverified.",
+    "customerDecision": "Measure folded garment bulk under light compression, size the matching paper bag around the finished outer box orientation (flat-base vs upright), and approve colour and foil across box wrap and bag board together.",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 10,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Covers folded garment spring-back, flat-pack collapsible rigid box tradeoffs, flat-base vs upright bag orientation diagram, handle/crease checks, and box-to-bag foil/colour matching.",
+      "Inline SVG measurement guide and comparison table included; concept products clearly labelled as concepts.",
+      "Primary converting and hot-stamping references verified live; MOQ 1,000 pieces/design and US$2,000 order value stated."
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.iggesund.com/insights/paperboard-know-how/paperboard-manual/paperboard-manual-publication/printing-and-converting-performance/the-packaging-operation/",
+      "https://www.kurz-graphics.com/hot-stamping/faq-hot-stamping/"
+    ]
   }
 ]

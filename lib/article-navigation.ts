@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:["apparel-gift-box-paper-bag-set", "paper-bag-size-handles-load-check", "perfume-box-and-bag-packaging", "match-gold-foil-perfume-box-paper-bag"],products:["scarf-gift-collapsible-magnetic-rigid-box", "custom-silk-scarf-cord-bag", "custom-socks-gift-diecut-bag"]},
   {articles:["harmonica-gift-box-insert-snapcase-clearance", "glass-guitar-slide-set-packaging-divider-fit", "custom-packaging-sampling-process", "packaging-reorder-specification-change-control"],products:["cased-harmonica-hinged-presentation-box", "glass-guitar-slide-trio-drawer-box", "guitar-pick-assortment-presentation-tube"]},
   {articles:["glass-guitar-slide-set-packaging-divider-fit", "spring-capo-packaging-insert-handle-clearance", "custom-packaging-sampling-process", "packaging-reorder-specification-change-control"],products:["glass-guitar-slide-trio-drawer-box", "spring-guitar-capo-lift-off-box", "clip-on-tuner-folded-saddle-mailer"]},
   {articles:["spring-capo-packaging-insert-handle-clearance", "guitar-pick-assortment-packaging-gauge-identification", "custom-packaging-sampling-process", "packaging-reorder-specification-change-control"],products:["spring-guitar-capo-lift-off-box", "guitar-pick-assortment-presentation-tube", "cased-harmonica-hinged-presentation-box"]},
