@@ -100,10 +100,21 @@ jobs:
           baseline=()
           if [ -f /tmp/mtt-previous-manifest.json ]; then baseline=(--previous-manifest /tmp/mtt-previous-manifest.json); fi
           python3 scripts/indexnow-submit.py --root _site "${baseline[@]}" --require-baseline --revision "$GITHUB_SHA" --submit --output /tmp/indexnow-result.json
+      - name: Notify Bing Webmaster API (if secret configured)
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+        run: python3 scripts/bing-webmaster-submit.py --indexnow-result /tmp/indexnow-result.json --output /tmp/bing-webmaster-result.json
       - name: Save IndexNow receipt
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: indexnow-receipt
           path: /tmp/indexnow-result.json
+          if-no-files-found: ignore
+      - name: Save Bing Webmaster API receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bing-webmaster-receipt
+          path: /tmp/bing-webmaster-result.json
           if-no-files-found: ignore
