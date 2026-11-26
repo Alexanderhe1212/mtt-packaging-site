@@ -10,8 +10,21 @@
     "summary": "Korg's Pitchclip 2 instructions identify the clip, display and power button and describe adjusting the display angle. Follow the closing flap through its arc.",
     "intro": "A tuner can fit the outline on a drawing and still arrive with its display pressed against a closure flap. The difference is often the angle at which the head was packed. Agree a repeatable position with the brand, sketch it in section and size the saddle around the approved support points on the clip.",
     "datePublished": "2026-11-25",
-    "dateModified": "2026-11-25",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "How should a clip-on tuner sit inside a folded mailer?",
+        "Fix one packed display angle in the assembly drawing so the screen stays below the closing flap arc and does not press against the outer carton."
+      ],
+      [
+        "Should the insert grip the tuner clip jaws?",
+        "No. Support the rigid body housing rather than forcing the rubberized clip pads open during storage."
+      ],
+      [
+        "What is the minimum order quantity for custom tuner mailers?",
+        "MTT Packaging produces custom folding cartons and mailers from 1,000 pieces per design and US$2,000 minimum product value per order."
+      ]
+    ],
     "cta": "Send a side view at the approved screen angle, a packed sample and the leaflet fold for a tuner saddle review. Include quantity and destination. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -29,6 +42,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed accessory or its supplied case. Identify who supplies protective covers, who loads the retail set and who signs off the loaded sample. Compare the <a href=\"/products/clip-on-tuner-folded-saddle-mailer\">clip-on tuner folded saddle mailer concept</a> with the outer carton specified for your distribution route. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://cdn.korg.com/us/support/download/files/fd3393bf2f809fd17d36ad9981513d16.pdf\">Korg Pitchclip 2 owner manual</a>. Model-specific instructions take precedence. The buyer should specify the transport test and arrival inspection separately.</p>"
+      ],
+      [
+        "Clip-on tuner clearance and hinge checklist",
+        "<table class=\"comparison-table\"><thead><tr><th>Check point</th><th>Packed risk</th><th>Sample approval rule</th></tr></thead><tbody><tr><td>Display screen angle</td><td>Swivel display sits proud when folded wrong</td><td>Lock one shipped screen angle in the brief</td></tr><tr><td>Spring clip jaws</td><td>Rubber pads deform against tight board ribs</td><td>Support the body frame without compressing the jaw spring</td></tr><tr><td>Mailer closing flap</td><td>Dust flap sweeps across the display lens</td><td>Leave vertical headroom above the folded screen</td></tr></tbody></table><p>Approve the packed orientation on a physical sample before cutting production mailer tooling.</p>"
       ]
     ]
   },
@@ -43,8 +60,21 @@
     "summary": "Dunlop's standard range includes several gauges and variety packs. Calculate height from full envelopes.",
     "intro": "A musician opening a sampler may want to compare two gauges and return each pick to its place. A tube full of loose picks gives the packer a fast fill but leaves the player sorting them on a table. Build the packaging brief around how the customer will identify and replace a single pick after opening.",
     "datePublished": "2026-11-25",
-    "dateModified": "2026-11-25",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Why can multiplying pick thickness underestimate assortment box depth?",
+        "Sealed polybags, folded header cards, and air pockets add stack height beyond the sum of bare celluloid or nylon pick gauges."
+      ],
+      [
+        "How do you prevent mixed pick gauges from migrating between compartments?",
+        "Seat full-height paperboard or rigid dividers flush against the tray floor with zero bottom gap under the lid."
+      ],
+      [
+        "Can one outer box work for multiple pick gauge assortments?",
+        "Yes, if the outer shell accommodates the thickest pouch stack and the visible insert or window clearly identifies each gauge."
+      ]
+    ],
     "cta": "Send the assortment by gauge and count, a set of filled envelopes and the intended removal sequence for a tube quotation. Include quantity and destination. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -62,6 +92,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed accessory or its supplied case. Identify who supplies protective covers, who loads the retail set and who signs off the loaded sample. Compare the <a href=\"/products/guitar-pick-assortment-presentation-tube\">guitar pick assortment presentation tube concept</a> with the outer carton specified for your distribution route. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.jimdunlop.com/products/guitar-picks/tortex/standard/\">Dunlop pick gauges and variety packs</a>. Model-specific instructions take precedence. The buyer should specify the transport test and arrival inspection separately.</p>"
+      ],
+      [
+        "Gauge visibility and stack-height checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Check point</th><th>What fails at packout</th><th>Sample check</th></tr></thead><tbody><tr><td>Gauge visibility</td><td>Mixed thicknesses look identical once bagged</td><td>Align printed gauge callouts or transparent window facing up</td></tr><tr><td>Envelope stack height</td><td>Filled polybags bulge above nominal pick count</td><td>Measure compressed stack height of full sealed pouches</td></tr><tr><td>Divider separation</td><td>Thin picks slide beneath loose partitions</td><td>Use full-depth slotted dividers seated flush to the floor</td></tr></tbody></table><p>Measure the complete packed pouches rather than multiplying bare pick thickness by quantity.</p>"
       ]
     ]
   },
@@ -76,8 +110,21 @@
     "summary": "Kyser describes its acoustic Quick-Change model as spring-loaded. Let the buyer grip the frame on removal.",
     "intro": "Place a capo on a sheet of paper and trace its outline. The drawing tells you where the part sits, but a tightly cut pocket can press the handles just as a player would. Ask the capo supplier for the approved resting position and the frame areas the pack can support before cutting the first insert.",
     "datePublished": "2026-11-25",
-    "dateModified": "2026-11-25",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Where should a packaging insert hold a spring-loaded guitar capo?",
+        "Support the rigid frame spine and leave clearance around the spring handles so the mechanism is not held under constant compression."
+      ],
+      [
+        "How do you make a spring capo easy to remove from a tight tray?",
+        "Cut finger-lift notches on opposite sides of the frame so the buyer grips the metal body rather than the rubber fret pad."
+      ],
+      [
+        "What should be checked before approving the lid height?",
+        "Place the instruction card or warranty leaflet inside the closed sample to confirm it does not press against the capo handles."
+      ]
+    ],
     "cta": "Send a side view of the resting capo, the card thickness and a marked drawing of the permitted support points for an insert review. Include quantity and destination. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -95,6 +142,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed accessory or its supplied case. Identify who supplies protective covers, who loads the retail set and who signs off the loaded sample. Compare the <a href=\"/products/spring-guitar-capo-lift-off-box\">spring guitar capo lift-off box concept</a> with the outer carton specified for your distribution route. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://kysermusical.com/products/acoustic-guitar-capo\">Kyser spring capo mechanism</a>. Model-specific instructions take precedence. The buyer should specify the transport test and arrival inspection separately.</p>"
+      ],
+      [
+        "Spring capo support and removal checklist",
+        "<table class=\"comparison-table\"><thead><tr><th>Zone</th><th>Permitted support</th><th>Verification step</th></tr></thead><tbody><tr><td>Fixed neck bar</td><td>Primary cradle contact</td><td>Support along the rigid frame spine without pinching pads</td></tr><tr><td>Spring lever handles</td><td>Free clearance cavity</td><td>Ensure handles are not compressed by tight side walls</td></tr><tr><td>Removal grip</td><td>Finger notches around chassis</td><td>Lift capo out without pulling the silicone fret pad</td></tr></tbody></table><p>Verify that the instruction card and closed lid clear the highest handle contour.</p>"
       ]
     ]
   },
@@ -109,8 +160,21 @@
     "summary": "Specify guitar slide box dividers using measured inner diameter, outer diameter and length, with finger access to lift the centre slide first.",
     "intro": "A player's ring size tells them whether a slide fits a finger. It tells a packaging buyer very little about how three slides will sit in a drawer. Ask for the outside profiles, lengths and packed weights, then trial the smallest and largest samples in the same finished divider before approving a common tool.",
     "datePublished": "2026-11-25",
-    "dateModified": "2026-11-25",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "How should pockets be sized for a three-piece glass guitar slide set?",
+        "Measure the maximum outside diameter including any flared lip on each slide, rather than relying on nominal inner ring size."
+      ],
+      [
+        "Which insert material protects glass slides best in a drawer box?",
+        "High-density die-cut EVA foam cushions glass edges well and prevents glass-to-glass contact better than thin single-ply paperboard."
+      ],
+      [
+        "Why test lifting the centre slide first?",
+        "If the middle slide sits flush with no finger relief, buyers cannot grip it cleanly while the outer two slides are still in place."
+      ]
+    ],
     "cta": "Send the smallest and largest slide profiles, set weights and drawer opening direction for a divided-tray quotation. Include quantity and destination. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -128,6 +192,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed accessory or its supplied case. Identify who supplies protective covers, who loads the retail set and who signs off the loaded sample. Compare the <a href=\"/products/glass-guitar-slide-trio-drawer-box\">glass guitar slide trio drawer box concept</a> with the outer carton specified for your distribution route. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.jimdunlop.com/glass-medium-flare-slide/\">Dunlop flared glass slide dimensions</a>. Model-specific instructions take precedence. The buyer should specify the transport test and arrival inspection separately.</p>"
+      ],
+      [
+        "Glass slide pocket sizing and withdrawal checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Measurement</th><th>Why it matters</th><th>Insert rule</th></tr></thead><tbody><tr><td>Maximum OD &amp; flare</td><td>Hand-blown or tapered glass slides vary in diameter</td><td>Size each pocket from the widest flared rim, not nominal ID</td></tr><tr><td>Wall-to-wall divider</td><td>Glass-on-glass contact chips edges in transit</td><td>Keep firm EVA or double-wall board between adjacent slides</td></tr><tr><td>Centre slide access</td><td>Flush pockets trap the middle glass cylinder</td><td>Add a finger recess so the centre slide lifts first</td></tr></tbody></table><p>Test drawer travel with all three glass slides loaded to confirm smooth sliding under full weight.</p>"
       ]
     ]
   },
@@ -142,8 +210,21 @@
     "summary": "Hohner lists a plastic snapcase with its Special 20. Compare one recess with a two-part presentation.",
     "intro": "A retailer wants the instrument visible when the lid opens. The musician wants the carry case after the presentation box goes into storage. Before choosing the window or the lining, decide whether the packer will present an instrument inside its closed case or display both pieces separately. The same footprint rarely serves both arrangements well.",
     "datePublished": "2026-11-25",
-    "dateModified": "2026-11-25",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Can a harmonica gift box hold the instrument inside its original plastic snapcase?",
+        "Yes, provided the insert pocket is measured across the widest hinge and latch protrusions and includes a finger notch or ribbon lift."
+      ],
+      [
+        "What should be tested when adding a ribbon pull to a harmonica insert?",
+        "Thread the ribbon under the actual loaded snapcase and test repeated lifting to confirm the ribbon does not snag on the latch or tear the board slot."
+      ],
+      [
+        "What minimum order quantity applies to custom harmonica gift boxes?",
+        "MTT Packaging supplies custom rigid gift boxes from 1,000 pieces per design and US$2,000 minimum product value per order."
+      ]
+    ],
     "cta": "Send the closed case dimensions across the hinge and latch, plus your preferred presentation layout, for a hinged-box quotation. Include quantity and destination. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -161,6 +242,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed accessory or its supplied case. Identify who supplies protective covers, who loads the retail set and who signs off the loaded sample. Compare the <a href=\"/products/cased-harmonica-hinged-presentation-box\">cased harmonica hinged presentation box concept</a> with the outer carton specified for your distribution route. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://hohner.de/en/instruments/harmonicas/diatonic/progressive/special-20\">Hohner Special 20 snapcase</a>. Model-specific instructions take precedence. The buyer should specify the transport test and arrival inspection separately.</p>"
+      ],
+      [
+        "Snapcase vs. bare-instrument presentation comparison",
+        "<table class=\"comparison-table\"><thead><tr><th>Layout option</th><th>Pros</th><th>Sample check</th></tr></thead><tbody><tr><td>Harmonica inside original snapcase</td><td>Buyer keeps factory protective case</td><td>Measure across protruding hinge and front latch</td></tr><tr><td>Bare harmonica + separate case bay</td><td>Shows comb and cover plates on open</td><td>Verify ribbon pull clears both cavities cleanly</td></tr></tbody></table><p>Confirm whether the ribbon lift sits under the case or harmonica without snagging the latch.</p>"
       ]
     ]
   },
@@ -175,8 +260,21 @@
     "summary": "Manfrotto describes a collapsible grey and white target that packs smaller than its open format. Keep closure flaps away from the working face.",
     "intro": "The open width tells a photographer how much target they can see. A packaging buyer needs a different measurement: the folded, sleeved target at rest, including the edge seam. I would start a mailer sample with that packed profile and agree how the customer can lift it without touching the working face.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Why does a collapsible grey target need extra mailer depth?",
+        "Spring-steel pop-out targets relax slightly after folding, so measuring while hand-squeezed underestimates the resting thickness inside the carton."
+      ],
+      [
+        "How do you protect the calibrated grey surface from carton dust flaps?",
+        "Orient the mailer opening and inner dust flaps away from the working face, or keep the target inside its zip pouch during packout."
+      ],
+      [
+        "Should the target be packed inside its fabric pouch in the mailer?",
+        "Yes, if sold with a pouch, always size and approve the mailer with the target zipped inside that pouch."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a folded photography grey target mailer review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -194,6 +292,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/folded-photography-grey-target-mailer\">folded photography grey target mailer concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.manfrotto.com/global-uk/ezybalance-75cm-18-grey-white-ll-lr3050/\">Manfrotto EzyBalance folded format</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Collapsible target depth and flap-clearance checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Check item</th><th>Common failure</th><th>Sample verification</th></tr></thead><tbody><tr><td>Settled folded thickness</td><td>Spring steel rim expands after folding</td><td>Measure folded height 10 minutes after folding, not squeezed flat</td></tr><tr><td>Flap &amp; tab contact</td><td>Tuck tabs scratch the calibrated grey/white surface</td><td>Orient tuck flaps away from the working target face</td></tr><tr><td>Sleeve/pouch allowance</td><td>Outer nylon pouch adds seam bulk</td><td>Test mailer closure with target inside its protective pouch</td></tr></tbody></table><p>Confirm arrival flatness and surface condition with the target owner after a representative packout check.</p>"
       ]
     ]
   },
@@ -208,8 +310,21 @@
     "summary": "Peak Design's Slide Lite illustrates a strap system with separate anchor connections. Keep metal hardware away from the visible textile.",
     "intro": "Roll a strap twice on the bench and you may get two different diameters. Add a buckle at the outside of one roll and it can catch on the tube wall. I would agree a repeatable packout with the strap supplier before approving a tube diameter or a foil wrap.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "How do you stop metal strap buckles from scuffing webbing inside a paper tube?",
+        "Fix a repeatable rolling method with a protective sleeve or folded paper collar separating metal adjusters from the main textile face."
+      ],
+      [
+        "Why set the strap adjuster to one position before sizing the tube?",
+        "Moving the buckle changes the coil diameter and where rigid hardware sits against the tube wall."
+      ],
+      [
+        "What should be tested with the finished inner liner?",
+        "Insert and withdraw the rolled strap and anchor pouch multiple times to verify smooth removal without snagging on the inner seam."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a camera neck strap presentation tube review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -227,6 +342,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/camera-neck-strap-presentation-tube\">camera neck strap presentation tube concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.peakdesign.com/global/products/slide-lite\">Peak Design strap and anchor configuration</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Tube diameter and hardware-protection checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Component</th><th>Packing risk</th><th>Tube check</th></tr></thead><tbody><tr><td>Metal adjusters &amp; anchors</td><td>Hardware rubs against woven webbing</td><td>Roll with buckle isolated on the outside or inside a sleeve</td></tr><tr><td>Rolled webbing coil</td><td>Tight coil springs open against tube cap</td><td>Standardize strap slider position before rolling</td></tr><tr><td>Inner tube liner</td><td>Rough paperboard snagging nylon weave</td><td>Test withdrawal smoothness with finished inner liner</td></tr></tbody></table><p>Include quick-release anchors in a separate bag or end pocket so they cannot rattle inside the coil.</p>"
       ]
     ]
   },
@@ -241,8 +360,21 @@
     "summary": "Really Right Stuff's installation guide shows how a plate interfaces with the tripod socket. Give the upright its own clearance.",
     "intro": "Lift a sample bracket from a shallow tray and watch what stays behind. A loose screw under the plate can mark the finish, and an envelope hidden beneath the insert can end up in the bin. Start with the fastener inventory and the exact bracket position in which the accessory supplier will deliver it.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "How do you pack a camera L-bracket without losing the mounting screw?",
+        "Place non-captive mounting screws and hex keys in a dedicated sealed pocket or snug press-fit foam slot separate from the main bracket cutout."
+      ],
+      [
+        "Why does an L-bracket need a stepped cavity?",
+        "The base plate and vertical side plate sit at 90 degrees, so a flat cutout leaves the upright unsupported or pressing into the lid."
+      ],
+      [
+        "What should be sent to MTT for an L-bracket box sample?",
+        "Send exact CAD or physical dimensions of the bracket, screw, and hex key, plus quantity from 1,000 pieces per design."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a camera l bracket lift-off box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -260,6 +392,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/camera-l-bracket-lift-off-box\">camera l bracket lift-off box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://kb.reallyrightstuff.com/knowledge/camera-plate-manuals\">Really Right Stuff plate installation guide</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "L-bracket upright clearance and screw-retention checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Part</th><th>Retention risk</th><th>Insert solution</th></tr></thead><tbody><tr><td>Vertical L-arm</td><td>Protruding upright hits closed lid</td><td>Cut a stepped two-depth cavity matching base and upright</td></tr><tr><td>1/4\"-20 mounting screw</td><td>Loose screw falls out when tray tilts</td><td>Use a captive recess or sealed polybag pocket</td></tr><tr><td>Hex key / tool</td><td>Thin wrench slides under foam</td><td>Press-fit slot with finger relief at one end</td></tr></tbody></table><p>Tilt and inspect the loaded tray to verify no loose hardware escapes before lid closure.</p>"
       ]
     ]
   },
@@ -324,8 +460,21 @@
     "summary": "Nikon identifies the HB-90 as a bayonet hood for specific lenses. Try a saddle before specifying a full ring.",
     "intro": "On a packaging drawing a hood looks like a simple ring. Turn the sample over and the small mounting tabs become the first things to inspect. For a hood sold separately, I would establish where the buyer can hold the base and how the insert carries the body before quoting a circular cutout.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Why is a saddle support often better than a full ring for a bayonet lens hood?",
+        "A saddle supports the main cylindrical barrel while leaving the delicate plastic bayonet locking tabs free from radial squeeze."
+      ],
+      [
+        "What must be checked on a hinged box for a petal-shaped lens hood?",
+        "Check the closing arc of the hinged lid against the tallest petal tip so the lid does not clip the hood rim as it closes."
+      ],
+      [
+        "How do packers keep asymmetric petal hoods oriented correctly?",
+        "Add an alignment notch or clear visual orientation guide in the packing instruction and sample record."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a bayonet lens hood hinged box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -343,6 +492,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/bayonet-lens-hood-hinged-box\">bayonet lens hood hinged box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.nikonusa.com/p/hb-90-bayonet-lens-hood/4205\">Nikon HB-90 bayonet hood</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Bayonet tab clearance and saddle-support checklist",
+        "<table class=\"comparison-table\"><thead><tr><th>Check point</th><th>Risk</th><th>Insert decision</th></tr></thead><tbody><tr><td>Bayonet locking tabs</td><td>Tight full-ring cutout stresses plastic tabs</td><td>Use a side saddle supporting the barrel wall, not the tabs</td></tr><tr><td>Flared petal rim</td><td>Asymmetric petals hit box corners</td><td>Verify side elevation and diagonal clearance in closed box</td></tr><tr><td>Hinge-side clearance</td><td>Lid arc clips tall petal edge on closing</td><td>Test hinged lid closure path with hood fully seated</td></tr></tbody></table><p>Confirm orientation marks on the insert so packers seat the petal hood consistently every time.</p>"
       ]
     ]
   },
@@ -357,8 +510,21 @@
     "summary": "Starrett describes its 98-8 with a cross-test vial as well as the main vial. Check the complete folded closure.",
     "intro": "A machinist level can look securely packed from above while the lid bears on the vial cover. I would ask for a side elevation of the closed pack and the packed mass before pricing a folded-board concept. The end supports, the closure flaps and the outer shipping arrangement all affect that decision.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Where should a corrugated mailer insert support a precision machinist level?",
+        "Support the level strictly at its solid machined base ends and leave a relieved cavity around both the main level vial and cross-test vial."
+      ],
+      [
+        "Why check the complete folded mailer closure on a heavy level?",
+        "Corrugated dust flaps and tuck locks can bow inward over long spans, making contact with the top vial window if headroom is tight."
+      ],
+      [
+        "Does a presentation mailer sample replace outer transit testing?",
+        "No. A mailer fit sample confirms dimensions and vial clearance, while parcel shipping requires an outer carton assessment for the full weight."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a machinist level folded-saddle mailer review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -376,6 +542,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/machinist-level-folded-saddle-mailer\">machinist level folded-saddle mailer concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.starrett.com/products/precision-measuring-tools/precision-hand-tools/machinists-levels/98-8\">Starrett 98-8 machinist level</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Machinist level load-path and vial-clearance checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Zone</th><th>Support rule</th><th>Sample check</th></tr></thead><tbody><tr><td>Cast-iron end pads</td><td>Load-bearing board or foam blocks</td><td>Support only at solid machined end lands</td></tr><tr><td>Main &amp; cross-test vials</td><td>Zero contact on glass or housing</td><td>Keep relieved air gap above and beside both vial windows</td></tr><tr><td>Mailer fold closure</td><td>Tuck tab must not bow inward</td><td>Inspect closed mailer cross-section under light compression</td></tr></tbody></table><p>Keep fit approval separate from outer-carton transit qualification for heavy cast-iron levels.</p>"
       ]
     ]
   },
