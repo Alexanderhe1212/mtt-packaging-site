@@ -538,7 +538,7 @@
     "summary": "Before you approve the window die, move the smallest artwork motif to both limits of the carrier pocket.",
     "image": "/products/mtt-c0132-2.webp",
     "imageAlt": "Illustrative nail wrap envelope carton window",
-    "dateModified": "2026-11-20",
+    "dateModified": "2026-11-26",
     "datePublished": "2026-11-20",
     "sections": [
       [
@@ -556,9 +556,22 @@
       [
         "Give the converter two controlled files",
         "<p>Send the carrier print file and carton dieline at the same scale, identify the front face and loading direction, and photograph both travel limits. Ask for separate prices for one common die and any shade-specific changes. Approve the loaded unit under the lighting used for shelf review.</p><p>Review the <a href=\"/products/window-envelope-carton-nail-wrap-sheets\">windowed nail wrap envelope</a> alongside your actual components. See the <a href=\"/industries/cosmetics-skincare-packaging\">cosmetic packaging specification guide</a> for the dimensions and artwork needed for a quotation.</p>"
+      ],
+      [
+        "Control pocket movement and film curl together",
+        "<p>Windowed cartons fail in two ways: the inner nail-wrap sheet slides past the aperture, or the glued PET patch pulls the carton face into a slight bow. Specify a 350 gsm SBS or FBB board with grain running parallel to the longest window edge, and add an internal thumb-stop or folded side-tab inside the sleeve so the sheet cannot drift more than 1.5 mm.</p><p>For related structural checks, review our <a href=\"/packaging/folding-cartons\">window cutout and film sizing guide</a> and <a href=\"/packaging/folding-cartons\">custom folding cartons</a>.</p>"
       ]
     ],
-    "faq": [],
+    "faq": [
+      [
+        "What registration tolerance should we allow for a folding carton die-cut window?",
+        "Standard die-cutting and window patching typically hold ±1.0 mm to ±1.5 mm registration relative to printed graphics. Keep critical nail-wrap motifs or brand logos at least 3 mm inside the window aperture edge so normal press and die-cut drift never clips the design."
+      ],
+      [
+        "What PET window film thickness works best for flat beauty cartons?",
+        "For small-to-medium beauty cartons, 0.15 mm to 0.20 mm clear PET film glued 8–10 mm beyond the aperture perimeter provides crisp transparency without bowing the 300–350 gsm folding carton face."
+      ]
+    ],
     "cta": "Send the sheet, pouch and smallest motif artwork for a window and pocket review. Minimum order: 1,000 pieces per design."
   },
   {
@@ -604,7 +617,7 @@
     "summary": "An empty jar can establish an outline, but it cannot show how far a loaded insert will deflect.",
     "image": "/products/mtt-c0133-1.webp",
     "imageAlt": "Concept gift carton loaded with two capped bottles",
-    "dateModified": "2026-11-20",
+    "dateModified": "2026-11-26",
     "datePublished": "2026-11-20",
     "sections": [
       [
@@ -622,9 +635,22 @@
       [
         "Define the release point",
         "<p>Before ordering, record the actual loaded weight, photos of the closed kit and the approved insert revision. If the loaded jar visibly depresses its platform, change the load path and repeat the check with the adjacent bottles installed. Record shipping-pack approval separately from presentation approval.</p><p>Review the <a href=\"/products/twin-airless-pump-carton-paperboard-cradle\">two-pump folding carton</a> alongside your actual components. See the <a href=\"/industries/cosmetics-skincare-packaging\">cosmetic packaging specification guide</a> for the dimensions and artwork needed for a quotation.</p>"
+      ],
+      [
+        "Specify mass assumptions in your RFQ",
+        "<p>When only empty jars or 3D-printed mockups are ready, list the target net fill volume (for example, 50 ml cream + 30 ml serum + 15 ml eye gel) alongside the container material (heavy-wall flint glass vs. acrylic vs. aluminum). A heavy-wall glass set can weigh 3× as much as empty plastic dummies, changing both the required <a href=\"/insights/packaging-material-selection\">greyboard thickness</a> and the outer master carton flute grade.</p><p>Use our <a href=\"/tools/box-size-calculator\">box size calculator</a> to estimate preliminary outer dimensions and palletization, then schedule a physical sample review once filled units are available.</p>"
       ]
     ],
-    "faq": [],
+    "faq": [
+      [
+        "How much does filled product weight change a rigid box quote?",
+        "A kit jumping from 300 g to over 1.2 kg filled weight often requires upgrading greyboard from 1,000 gsm (1.5 mm) to 1,200–1,400 gsm (2.0–2.2 mm), reinforcing drawer pulls, or switching a paperboard insert to E-flute or high-density EVA. That board and insert upgrade directly affects unit cost and carton gross weight."
+      ],
+      [
+        "Can we lock the outer box dimensions before the final filled bottles arrive?",
+        "You can lock preliminary outer dimensions for freight estimates if the bottle CAD or empty shell is final, but never release mass-production tooling until a filled set is drop-tested in the structural sample to verify insert deflection."
+      ]
+    ],
     "cta": "Share the provisional weights and component drawings so we can identify what remains open in your quotation. Minimum order: 1,000 pieces per design."
   },
   {
@@ -670,7 +696,7 @@
     "summary": "When a decorated bottle picks up a mark, identify the first operation that produces it.",
     "image": "/products/mtt-c0133-0.webp",
     "imageAlt": "Closed teal cosmetic carton concept",
-    "dateModified": "2026-11-20",
+    "dateModified": "2026-11-26",
     "datePublished": "2026-11-20",
     "sections": [
       [
@@ -688,9 +714,22 @@
       [
         "Agree what counts as a defect",
         "<p>Record lighting, viewing angle, reference photographs and the specific visible face that matters. Give the packer a photo of the approved loading orientation. If parcel transport is part of the brief, send the complete shipper for an agreed assessment; a clean hand-loaded presentation sample answers only the handling question.</p><p>Review the <a href=\"/products/twin-airless-pump-carton-paperboard-cradle\">two-pump folding carton</a> alongside your actual components. See the <a href=\"/industries/cosmetics-skincare-packaging\">cosmetic packaging specification guide</a> for the dimensions and artwork needed for a quotation.</p>"
+      ],
+      [
+        "Compare insert materials by surface friction and cost",
+        "<p>Raw 38–45 kg/m³ EVA foam has a relatively grippy cut edge that can rub soft-touch labels when bottles shift 1–2 mm under vibration. Velvet-flocked EVA adds a soft pile barrier at moderate tooling cost, while molded pulp or 350 gsm SBS paperboard cradles contact the bottle only at designated shoulder and base ribs—keeping the decorated label band completely suspended.</p><p>If you must keep a flat paperboard tray, specify an aqueous matte or scuff-resistant varnish on the bottle label itself, or orient the bottle so the seam faces away from the tightest die-cut wall. Compare insert trade-offs in our <a href=\"/insights/eva-vs-paperboard-inserts\">EVA vs. paperboard inserts guide</a> or explore <a href=\"/industries/cosmetics-skincare-packaging\">custom skincare packaging</a>.</p>"
       ]
     ],
-    "faq": [],
+    "faq": [
+      [
+        "Why does a skincare bottle label scuff even when the foam cavity feels snug?",
+        "A snug cavity prevents rattling, but high-friction contact against raw die-cut EVA or uncoated paperboard edges during transit vibration can burnish matte varnish or metallic ink. Adding a 0.5 mm clearance around the label zone or switching to velvet-flocked EVA or soft-touch laminated paperboard reduces abrasion."
+      ],
+      [
+        "Should we test label scuffing with empty or filled skincare bottles?",
+        "Always test with filled retail units. Empty bottles lack the inertial mass (often 120 g to 350 g per glass dropper or serum jar) that drives micro-movement against the insert wall during courier drops and pallet vibration."
+      ]
+    ],
     "cta": "Share reference photos, a decorated sample and the proposed loading sequence for a contact review. Minimum order: 1,000 pieces per design."
   }
 ]

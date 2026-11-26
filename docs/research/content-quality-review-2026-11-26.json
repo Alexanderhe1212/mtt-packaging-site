@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "euro-tote-bags-wholesale-gsm-handle-load-guide",
+    "primaryQuery": "euro tote bags wholesale",
+    "searchEvidence": "Competitor gap US keyword (Vol 1300, KD 8, CPC $6.31). Commercial and informational buyer intent.",
+    "customerDecision": "Select paper GSM, bottom reinforcement, handle type, and gusset clearance for a Euro tote carrying a rigid box",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "210-250 gsm C1S art paper with matte lamination vs 300 gsm uncoated crack risk",
+      "450 gsm turnover top and bottom card reinforcement",
+      "15-20 mm gusset clearance and 35-45 mm handle knot clearance"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-euro-tote-luxury-paper-bag",
+      "https://mttpackaging.com/insights/paper-bag-size-handles-load-check"
+    ]
+  },
+  {
+    "slug": "foam-inserts-eva-vs-epe-vs-pu-packaging-guide",
+    "primaryQuery": "foam inserts",
+    "searchEvidence": "Competitor gap US keyword (Vol 1300, KD 14, CPC $1.90). Informational/commercial insert selection intent.",
+    "customerDecision": "Choose between EVA, EPE, PU foam, and paperboard inserts based on density, die-cut tolerance, and sustainability",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "38-45 kg/m3 closed-cell EVA density and +-0.5 mm die-cut tolerance",
+      "8-10 mm minimum bridge wall and 14-18 mm finger notches",
+      "EU PPWR mono-material paperboard alternative"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-eva-foam-insert-rigid-box",
+      "https://mttpackaging.com/insights/eva-vs-paperboard-inserts"
+    ]
+  },
+  {
+    "slug": "emboss-vs-deboss-rigid-box-tooling-paper-guide",
+    "primaryQuery": "emboss vs deboss",
+    "searchEvidence": "Competitor gap US keyword (Vol 2400, KD 21, CPC $3.62). Commercial and informational finishing intent.",
+    "customerDecision": "Decide between blind debossing and embossing on rigid greyboard boxes vs folding cartons",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Post-wrap blind deboss vs pre-wrap embossed sheet registration",
+      "CNC brass dies vs magnesium dies for sculpted relief",
+      "0.35-0.5 mm minimum positive line weight"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/blind-deboss-logo-rigid-box-paper-selection",
+      "https://mttpackaging.com/insights/printing-finishing-guide"
+    ]
+  },
+  {
+    "slug": "dieline-artwork-setup-folding-carton-rigid-box",
+    "primaryQuery": "dieline",
+    "searchEvidence": "Competitor gap US keyword (Vol 3600, KD 34, CPC $4.52). Pre-press engineering intent.",
+    "customerDecision": "Set up production-ready dieline layers, 3 mm bleed, glue-flap knockouts, and rigid wrap turn-ins",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "Separate spot-colour Dieline_Cut, Dieline_Crease, and Foil_Stamp layers",
+      "3 mm bleed and 15-18 mm rigid box wrap turn-in",
+      "Ink-free and lamination-free glue-flap knockout"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/artwork-preflight-checklist-custom-packaging",
+      "https://mttpackaging.com/tools/box-size-calculator"
+    ]
+  },
+  {
+    "slug": "corrugated-fiberboard-flute-ect-shipping-box-guide",
+    "primaryQuery": "corrugated fiberboard",
+    "searchEvidence": "Competitor gap US keyword (Vol 2900, KD 9, CPC $2.47). Commercial and informational shipping box intent.",
+    "customerDecision": "Match E, B, C, and BC double-wall flute profiles and 32/44 ECT ratings to parcel mailers vs export master cartons",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "E-flute (1.5-1.8 mm), B-flute (2.5-3.0 mm), C-flute (3.5-4.0 mm), BC double-wall (6.0-7.0 mm)",
+      "32 ECT vs 44 ECT stacking strength vs Mullen burst",
+      "Internal (ID) vs external (OD) wall thickness allowance"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/packaging/corrugated-boxes",
+      "https://mttpackaging.com/insights/measure-packaging-internal-external-dimensions"
+    ]
+  }
+]

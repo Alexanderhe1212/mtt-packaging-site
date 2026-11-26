@@ -125,10 +125,12 @@ for guide in json.loads(Path('lib/buyer-guides-november-16.json').read_text()):u
 for guide in json.loads(Path('lib/buyer-guides-november-16b.json').read_text()):updates[guide['slug']]=guide
 for guide in json.loads(Path('lib/buyer-guides-november-16c.json').read_text()):updates[guide['slug']]=guide
 for guide in [json.loads(Path('lib/transport-test-guide-november-17.json').read_text())]+json.loads(Path('lib/buyer-guides-november-17.json').read_text()):updates[guide['slug']]=guide
+for guide in json.loads(Path('lib/buyer-guides-november-26.json').read_text()):updates[guide['slug']]=guide
 for guide in json.loads(Path('lib/buyer-guides-november-25.json').read_text()):updates[guide['slug']]=guide
 for guide in json.loads(Path('lib/buyer-guides-november-23.json').read_text()):updates[guide['slug']]=guide
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-23.json').read_text())
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-24.json').read_text())
+reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-26.json').read_text())
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-25.json').read_text())
 for guide in json.loads(Path('lib/buyer-guides-november-22.json').read_text()):updates[guide['slug']]=guide
 reviews+=json.loads(Path('docs/research/content-quality-review-2026-11-22.json').read_text())

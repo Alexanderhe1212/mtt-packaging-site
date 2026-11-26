@@ -4,6 +4,11 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "euro-tote-bags-wholesale-gsm-handle-load-guide",
+      "foam-inserts-eva-vs-epe-vs-pu-packaging-guide",
+      "emboss-vs-deboss-rigid-box-tooling-paper-guide",
+      "dieline-artwork-setup-folding-carton-rigid-box",
+      "corrugated-fiberboard-flute-ect-shipping-box-guide",
       "harmonica-gift-box-insert-snapcase-clearance",
       "glass-guitar-slide-set-packaging-divider-fit",
       "spring-capo-packaging-insert-handle-clearance",
