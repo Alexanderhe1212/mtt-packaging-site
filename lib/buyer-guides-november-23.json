@@ -274,8 +274,21 @@
     "summary": "Nikon lists screw-on filters by size. Decide which case the buyer can lift first.",
     "intro": "A buyer sends a list of three filter thread sizes. I can start a layout from that list, but I would price the divider after seeing the closed cases. A hinge, latch or raised label can set the slot width even when all three filters have the same nominal diameter.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Should camera filter drawer slots be sized by filter thread diameter or case size?",
+        "Size each slot by the closed protective filter case outer dimensions, including any hinge or latch protrusion, because identical 77 mm filters can ship in cases of different thicknesses."
+      ],
+      [
+        "How do you prevent tall filter cases from catching a drawer sleeve?",
+        "Verify closed drawer headspace with the thickest case fully seated and allow finger clearance at the top edge so cases sit upright without tilting forward."
+      ],
+      [
+        "What insert materials work best for multi-filter drawer boxes?",
+        "High-density die-cut EVA foam or rigid paperboard partitions work well; EVA cushions heavier glass filter cases, while paperboard partitions reduce bulk."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a camera filter trio drawer box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -293,6 +306,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/camera-filter-trio-drawer-box\">camera filter trio drawer box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.nikonusa.com/accessories/dslr-lens-accessories\">Nikon filter size listings</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Filter-case slot sizing matrix",
+        "<table class=\"comparison-table\"><thead><tr><th>Dimension</th><th>What to measure</th><th>Insert sizing rule</th></tr></thead><tbody><tr><td>Case outer thickness</td><td>Clamshell hinge, latch bump and foam pad</td><td>Measure the thickest closed case, not the bare glass filter thread</td></tr><tr><td>Slot pitch &amp; wall width</td><td>Divider thickness between adjacent cases</td><td>Keep rigid board or EVA walls thick enough to resist tearing during removal</td></tr><tr><td>Drawer headspace</td><td>Tallest case top to outer sleeve ceiling</td><td>Leave clearance so tilted cases do not catch the drawer mouth on opening</td></tr></tbody></table><p>When a three-filter kit mixes polarizers and thicker variable ND cases, specify each slot width from the closed protective case rather than nominal millimeter filter thread size.</p>"
       ]
     ]
   },
@@ -736,8 +753,21 @@
     "summary": "Start with the device model and accessory part numbers, then identify items supplied separately. Show the identifier while the sleeve is seated.",
     "intro": "A distributor may order the same recorder housing in several kit configurations. A tray that accepts all of them can still allow the wrong lead set to leave the packing bench. Decide which identifier the operator must see before closure, and sample both the fullest and sparsest kit before approving a shared drawer.",
     "datePublished": "2026-11-23",
-    "dateModified": "2026-11-23",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "How do you prevent Holter lead-set mix-ups inside a kit box?",
+        "Separate the recorder recess from the lead-set sleeve with a full-height divider and position both part-number labels so they remain visible when the drawer opens."
+      ],
+      [
+        "Which lead-set configuration should be used to test drawer clearance?",
+        "Always test drawer opening and closing with the thickest folded harness and pouch installed so the cable bundle cannot catch the outer sleeve mouth."
+      ],
+      [
+        "Does MTT Packaging manufacture sterile-barrier medical pouches?",
+        "No. MTT Packaging supplies custom secondary presentation boxes, drawer kits and protective inserts for new instruments, making no sterile-barrier or clinical-use claims."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a holter ecg recorder and lead-set drawer box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -755,6 +785,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/holter-ecg-recorder-and-lead-set-drawer-box\">holter ecg recorder and lead-set drawer box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.midmark.com/docs/default-source/legal-documents/2018-medical-guide-book-mkt00176-9-18-interactive.pdf\">Midmark Holter kit and recorder contents</a>. Model-specific instructions take precedence. This article addresses secondary packaging for new equipment and makes no sterile-barrier or clinical-use claim.</p>"
+      ],
+      [
+        "Kit identification and drawer-packout checklist",
+        "<table class=\"comparison-table\"><thead><tr><th>Component</th><th>Packing risk</th><th>Sample verification</th></tr></thead><tbody><tr><td>Holter recorder unit</td><td>Similar housing across 3-lead and 5/7-lead models</td><td>Keep model label visible without lifting the unit from its recess</td></tr><tr><td>Patient lead-set sleeve</td><td>Thickest cable bundle jams drawer travel</td><td>Trial drawer slide with the heaviest folded harness seated</td></tr><tr><td>Clips, pouch &amp; guide</td><td>Loose items migrate into recorder bay</td><td>Separate accessory pocket with full-height divider wall</td></tr></tbody></table><p>Confirm part numbers and cable fold dimensions for every lead-set variant before cutting the drawer divider so mixed clinical configurations stay separated in transit.</p>"
       ]
     ]
   },
@@ -769,8 +803,21 @@
     "summary": "An outline viewed from above hides the height of a cap, eyepiece or adjustment knob. Test the hand path before approving the shoulder.",
     "intro": "An instrument can look secure from above while the lid bears on the part you meant to protect. For a lensmeter presentation sample, establish the permitted support faces with the device owner, then draw the free space around the optical head and any fitted cover. Include the actual removal motion in the review.",
     "datePublished": "2026-11-23",
-    "dateModified": "2026-11-23",
-    "faq": [],
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Why can a top-down die-line hide clearance issues on a lensmeter box?",
+        "A top-down outline only shows footprint width and depth, hiding vertical projections such as the eyepiece, protective cap, and adjustment knobs that can hit the inner lid."
+      ],
+      [
+        "Where should the insert support a portable lensmeter?",
+        "Support the instrument along its rigid base chassis rails and leave the optical head, eyepiece, and adjustment controls in a relieved free-air cavity."
+      ],
+      [
+        "How should finger access be tested before approving the insert?",
+        "Lift a dummy-weighted unit out of the sample insert from the chassis sides; if fingers must grip the optical assembly, add side finger recesses or a lift tray."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a portable lensmeter lift-off presentation box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -788,6 +835,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/portable-lensmeter-lift-off-presentation-box\">portable lensmeter lift-off presentation box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://wwwn.cdc.gov/nchs/data/nhanes/public/2019/manuals/2020-Balance-Procedures-Manual-508.pdf\">NHANES instrument packing procedure</a>. Model-specific instructions take precedence. This article addresses secondary packaging for new equipment and makes no sterile-barrier or clinical-use claim.</p>"
+      ],
+      [
+        "Optical-head clearance and support checklist",
+        "<table class=\"comparison-table\"><thead><tr><th>Zone</th><th>Permitted contact</th><th>Clearance verification</th></tr></thead><tbody><tr><td>Base chassis</td><td>Load-bearing foam or board cradle</td><td>Support under rigid frame rails, not rubber feet alone</td></tr><tr><td>Eyepiece &amp; diopter ring</td><td>Zero lid or insert contact</td><td>Verify side-elevation gap with protective dust cap fitted</td></tr><tr><td>Lens table &amp; marking arm</td><td>Locked in shipped rest position</td><td>Confirm finger access around chassis without pulling the optical head</td></tr></tbody></table><p>Always review the side-elevation drawing alongside the top-down die-line so protruding knobs, caps and eyepieces retain measurable headroom under the closed lid.</p>"
       ]
     ]
   },

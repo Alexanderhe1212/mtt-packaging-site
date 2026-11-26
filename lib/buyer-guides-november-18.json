@@ -584,7 +584,7 @@
     "summary": "Compare the largest pump body, the smallest body and the heaviest filled pair before committing to one insert.",
     "image": "/products/mtt-c0133-2.webp",
     "imageAlt": "Illustrative folded paperboard cradle for two pump bottles",
-    "dateModified": "2026-11-20",
+    "dateModified": "2026-11-26",
     "datePublished": "2026-11-20",
     "sections": [
       [
@@ -602,9 +602,26 @@
       [
         "Approve a loading instruction",
         "<p>Photograph both SKUs correctly seated, with the lid open and closed. Mark which surface supports the bottle and which area stays clear. Record the insert revision beside the bottle revision. Recheck the retained sample when the pump supplier changes its closure.</p><p>Review the <a href=\"/products/twin-airless-pump-carton-paperboard-cradle\">two-pump folding carton</a> alongside your actual components. See the <a href=\"/industries/cosmetics-skincare-packaging\">cosmetic packaging specification guide</a> for the dimensions and artwork needed for a quotation.</p>"
+      ],
+      [
+        "Compare single-insert vs. dual-insert sample checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Check item</th><th>Shared single insert</th><th>Dedicated insert per SKU</th></tr></thead><tbody><tr><td>Bottle body retention</td><td>Narrowest pump may tilt if pocket is sized for widest body</td><td>Each cavity matches its exact pump diameter and shoulder</td></tr><tr><td>Closed lid headroom</td><td>Tallest cap sets carton height, leaving extra gap above shorter caps</td><td>Headroom stays consistent with cap height per variant</td></tr><tr><td>Packing &amp; inventory</td><td>One insert SKU, but may require a loose collar for smaller pumps</td><td>Two insert SKUs to label, store and verify at packout</td></tr><tr><td>Tooling &amp; unit cost</td><td>Single die-cut tool; lower change-over when volumes are small</td><td>Separate insert tooling; cleaner packout at higher SKU volume</td></tr></tbody></table><p>Record the actual caliper measurements of both pump heads, neck collars and base diameters before requesting a cad sample. Never assume two 30 ml or 50 ml airless bottles share the same actuator height.</p>"
       ]
     ],
-    "faq": [],
+    "faq": [
+      [
+        "Can two different airless pump diameters share one folding carton insert?",
+        "Only if the narrower bottle is stabilized with a folded collar or stepped cradle; otherwise a pocket sized for the wider pump will let the narrower bottle rattle or lean."
+      ],
+      [
+        "Which pump dimension governs the outer carton height?",
+        "The tallest capped pump assembly in the paired set governs the internal carton height, including any raised actuator or decorative overcap."
+      ],
+      [
+        "What should be sent to confirm an airless pump carton insert sample?",
+        "Send actual filled samples or exact drawings showing base diameter, shoulder height, capped overall height, and filled weight for every variant in the set."
+      ]
+    ],
     "cta": "Send the dimension matrix and filled pair weights to compare one insert against dedicated variants. Minimum order: 1,000 pieces per design."
   },
   {
@@ -663,7 +680,7 @@
     "summary": "A shared printed carton reduces artwork versions only if the packer and the customer can both identify the enclosed shade.",
     "image": "/products/mtt-c0132-4.webp",
     "imageAlt": "Concept envelope beside its nail wrap sheet",
-    "dateModified": "2026-11-20",
+    "dateModified": "2026-11-26",
     "datePublished": "2026-11-20",
     "sections": [
       [
@@ -681,9 +698,26 @@
       [
         "Write the sign-off in packing order",
         "<p>Record the shade reference, carrier ID, carton or label revision and finished photograph for the first accepted pack of each changeover. Build a deliberate mismatch into the trial and confirm where it is caught. Keep customer-facing shade naming identical across the pack and order specification.</p><p>Review the <a href=\"/products/window-envelope-carton-nail-wrap-sheets\">windowed nail wrap envelope</a> alongside your actual components. See the <a href=\"/industries/cosmetics-skincare-packaging\">cosmetic packaging specification guide</a> for the dimensions and artwork needed for a quotation.</p>"
+      ],
+      [
+        "Shade-identification checks before bulk carton print",
+        "<table class=\"comparison-table\"><thead><tr><th>Control point</th><th>What fails on the packing line</th><th>Sample check to approve</th></tr></thead><tbody><tr><td>Window vs. printed artwork</td><td>Similar nude or pastel nail wraps look identical behind tinted or glossy film</td><td>Place the two closest shades side by side inside closed carton samples</td></tr><tr><td>Variable shade label</td><td>Sticker covers barcode or peels over embossed varnish</td><td>Reserve an unvarnished flat panel on the back or bottom tuck</td></tr><tr><td>Packer verification</td><td>Shade name is hidden once the carrier card slides into the envelope</td><td>Cut a rear inspection notch or align the primary SKU code with the window</td></tr></tbody></table><p>Confirm whether the shade identifier sits on the primary carrier card, a variable outer label, or a dedicated carton plate before locking print quantities.</p>"
       ]
     ],
-    "faq": [],
+    "faq": [
+      [
+        "How do brands use one printed carton for multiple nail wrap shades?",
+        "They print a shared outer shell with an unvarnished label zone or die-cut viewing window so the shade-specific sticker or visible carrier card identifies the SKU."
+      ],
+      [
+        "Where should a variable shade label sit on a folding carton?",
+        "Place it on a dedicated flat, unvarnished panel away from creases, tuck flaps and the primary retail barcode so it stays readable and adhered."
+      ],
+      [
+        "What is the minimum order quantity for custom printed nail wrap cartons?",
+        "MTT Packaging produces custom folding cartons from 1,000 pieces per design and US$2,000 minimum product value per order, excluding freight and samples."
+      ]
+    ],
     "cta": "Send the shade list, pack quantities and label positions to compare common and dedicated print. Minimum order: 1,000 pieces per design."
   },
   {

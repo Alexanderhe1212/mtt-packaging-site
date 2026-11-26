@@ -5,12 +5,25 @@
   "image": "/products/mtt-r0403-0.webp",
   "imageAlt": "Open muted-purple watch presentation box with a watch cushion on the left, spare metal bracelet slot on the right and matching card",
   "title": "Watch Box Cushion Sizing: Fit the Bracelet and the Case",
-  "seoTitle": "Watch Box Cushion Sizing & Sample Checks | MTT",
-  "summary": "Specify watch box cushion sizing using the closed bracelet, case envelope and loaded height. Compare samples with a measurement and approval checklist.",
+  "seoTitle": "Watch Box Cushion Sizing: Fit & Headroom | MTT",
+  "summary": "Specify watch box cushion sizing by closed bracelet loop, case envelope, and loaded lid headroom. Compare samples with our fit checklist.",
   "intro": "Watch box cushion sizing needs two separate checks: the closed strap or bracelet must fit around the cushion, and the mounted watch must fit inside the box. Measure the actual watch, including its crown, lugs and clasp. Then approve the cushion with its final covering and filling. Case diameter alone cannot establish bracelet tension, removal access or clearance under the lid.",
   "datePublished": "2026-11-06",
-  "dateModified": "2026-11-06",
-  "faq": [],
+  "dateModified": "2026-11-26",
+  "faq": [
+    [
+      "Why is dial diameter alone not enough for watch box cushion sizing?",
+      "Dial or case diameter does not show the closed bracelet loop circumference, lug-to-lug length, crown protrusion, or clasp thickness. A wide watch on a small-wrist bracelet requires a smaller cushion circumference than a smaller watch on a loose leather strap."
+    ],
+    [
+      "How do you calculate watch box lid headroom?",
+      "Measure from the finished compartment floor to the highest point of the watch mounted on its cushion, then subtract that from the lowest inside surface of the closed lid including lining or any card pocket."
+    ],
+    [
+      "Should two cushions with the same outside dimensions fit the same watch?",
+      "Not always. Cushion filling firmness, outer covering friction, and seam placement change how easily a metal clasp closes without force and whether hard edges press against the caseback or crown."
+    ]
+  ],
   "cta": "Send the watch dimensions, closed bracelet or strap setting, quantity and preferred box reference. Include the spare strap and accessories so we can review the cushion, compartment layout and loaded sample.",
   "sections": [
     [
