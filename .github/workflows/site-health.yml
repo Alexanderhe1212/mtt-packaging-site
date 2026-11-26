@@ -1,0 +1,48 @@
+name: Website and certificate health
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check public pages and certificates
+        shell: bash
+        run: |
+          set -o pipefail
+          failed=0
+          for path in / /sitemap.xml /robots.txt /request-a-quote; do
+            status=$(curl --silent --show-error --location --max-time 30 --output /dev/null --write-out '%{http_code}' "https://mttpackaging.com$path") || status=000
+            echo "$path HTTP $status"
+            if [ "$status" != 200 ]; then failed=1; fi
+          done
+          for host in mttpackaging.com www.mttpackaging.com; do
+            cert=$(mktemp)
+            if ! timeout 15 openssl s_client -connect "$host:443" -servername "$host" -verify_hostname "$host" -verify_return_error </dev/null 2>/dev/null | openssl x509 -out "$cert" 2>/dev/null; then
+              echo "::error::Could not validate public certificate for $host"
+              failed=1
+            elif ! openssl x509 -in "$cert" -noout -checkend 1814400; then
+              echo "::error::Public certificate for $host expires within 21 days"
+              failed=1
+            fi
+            rm -f "$cert"
+            for ip in 185.199.108.153 185.199.109.153 185.199.110.153 185.199.111.153; do
+              cert=$(mktemp)
+              if ! timeout 15 openssl s_client -connect "$ip:443" -servername "$host" -verify_hostname "$host" -verify_return_error </dev/null 2>/dev/null | openssl x509 -out "$cert" 2>/dev/null; then
+                echo "::error::Could not validate origin certificate for $host via $ip"
+                failed=1
+              elif ! openssl x509 -in "$cert" -noout -checkend 1814400; then
+                echo "::error::Origin certificate for $host via $ip expires within 21 days"
+                failed=1
+              fi
+              rm -f "$cert"
+            done
+          done
+          exit "$failed"
