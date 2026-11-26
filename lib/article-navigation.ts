@@ -3,6 +3,8 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:["box-dimensions-lxwxh-measurement-guide", "custom-rigid-box-greyboard-v-groove-guide", "measure-packaging-internal-external-dimensions", "two-piece-rigid-box-lid-fit"],products:["custom-v-groove-magnetic-rigid-box", "custom-eva-foam-insert-rigid-box", "signature-perfume-lift-off"]},
+  {articles:["offset-vs-digital-vs-flexo-gravure-packaging-printing", "foil-stamping-spot-uv-lamination-packaging-finishes", "packaging-barcodes-compliance-symbols-print-guide", "cmyk-vs-spot-colour-packaging"],products:["custom-foil-stamped-folding-carton", "custom-carton-packaging-set", "custom-euro-tote-luxury-paper-bag"]},
   {articles:["replaceable-flooring-sample-boards-dealer-kits", "fabric-swatch-book-binding-replenishment", "removable-tile-sample-presentation-case", "custom-packaging-sampling-process"],products:["six-trial-lens-hexagonal-presentation-case","camera-filter-trio-drawer-box","bayonet-lens-hood-hinged-box"]},
   {articles:["euro-tote-bags-wholesale-gsm-handle-load-guide", "paper-bag-size-handles-load-check", "apparel-gift-box-paper-bag-set", "perfume-box-and-bag-packaging"],products:["custom-euro-tote-luxury-paper-bag", "custom-perfume-bottle-ribbon-bag", "custom-silk-scarf-cord-bag"]},
   {articles:["foam-inserts-eva-vs-epe-vs-pu-packaging-guide", "eva-vs-paperboard-inserts", "custom-inserts-product-protection", "perfume-box-inserts"],products:["custom-eva-foam-insert-rigid-box", "signature-perfume-lift-off", "skincare-ritual-book"]},

@@ -27,12 +27,20 @@ Website: https://mttpackaging.com
 - [Emboss vs. Deboss on Rigid Boxes: Tooling, Paper Weight & Limits](https://mttpackaging.com/insights/emboss-vs-deboss-rigid-box-tooling-paper-guide)
 - [Dieline Artwork Setup: Bleed, Crease & Glue-Flap Rules](https://mttpackaging.com/insights/dieline-artwork-setup-folding-carton-rigid-box)
 - [Corrugated Fiberboard Guide: Flute Profiles, ECT & Mailer Fit](https://mttpackaging.com/insights/corrugated-fiberboard-flute-ect-shipping-box-guide)
+- [Box Dimensions (L x W x H): How to Measure Internal vs. External Size](https://mttpackaging.com/insights/box-dimensions-lxwxh-measurement-guide)
+- [Offset vs. Digital vs. Flexo vs. Gravure: Choosing Packaging Printing](https://mttpackaging.com/insights/offset-vs-digital-vs-flexo-gravure-packaging-printing)
+- [Foil Stamping, Spot UV & Lamination: Packaging Finish Tradeoffs](https://mttpackaging.com/insights/foil-stamping-spot-uv-lamination-packaging-finishes)
+- [Rigid Box Greyboard & V-Grooving: Caliper, Corners & Warp Control](https://mttpackaging.com/insights/custom-rigid-box-greyboard-v-groove-guide)
+- [Packaging Barcodes, Quiet Zones & Compliance Symbols: Print Guide](https://mttpackaging.com/insights/packaging-barcodes-compliance-symbols-print-guide)
 - [Apparel Gift Box and Paper Bag Sets: Fit, Folding and Brand Consistency](https://mttpackaging.com/insights/apparel-gift-box-paper-bag-set)
 - [Packaging Typography: Small Text, Foil and Proof Readability](https://mttpackaging.com/insights/packaging-typography-small-print)
 - [Reed Diffuser and Room Spray Gift Boxes: Cavity Separation and Reed Fit](https://mttpackaging.com/insights/reed-diffuser-room-spray-gift-box-insert)
 - [Dropper Serum Bottles in Shoulder-Neck Rigid Boxes: Fit and Bulb Clearance](https://mttpackaging.com/insights/dropper-serum-shoulder-neck-box-fit)
 - [Magnetic Rigid Box Closures: Magnet Size, Air Gap and Placement](https://mttpackaging.com/insights/magnetic-rigid-box-magnet-strength-sizing)
 - [How to Compare Custom Packaging Supplier Quotes Without Hidden Traps](https://mttpackaging.com/insights/compare-custom-packaging-supplier-quotes)
+- [Replaceable Flooring Sample Boards for Dealer Display Kits](https://mttpackaging.com/insights/replaceable-flooring-sample-boards-dealer-kits)
+- [Fabric Swatch Book Binding for Midseason Replenishment](https://mttpackaging.com/insights/fabric-swatch-book-binding-replenishment)
+- [Removable Tile Sample Cases: Protect the Edge and Show the Finish](https://mttpackaging.com/insights/removable-tile-sample-presentation-case)
 - [A Clip-On Tuner Mailer Needs a Defined Screen Position](https://mttpackaging.com/insights/clip-on-tuner-packaging-display-hinge-clearance)
 - [Packing a Pick Assortment So the Player Can Identify Every Gauge](https://mttpackaging.com/insights/guitar-pick-assortment-packaging-gauge-identification)
 - [Where to Support a Spring Capo Without Squeezing Its Handles](https://mttpackaging.com/insights/spring-capo-packaging-insert-handle-clearance)
@@ -197,7 +205,3 @@ Share product length × width × height, weight, quantity, delivery country, ope
 
 ## Scope and evidence
 The minimum order quantity is 1,000 pieces per design and the minimum product value is US$2,000 per order, excluding freight, sample charges and other fees. The final specification and quotation depend on the structure and process. Images can show custom design visualizations and are not evidence of a delivered client order. Certification, food-contact suitability and environmental claims require project-specific review and supporting documentation. The linked website pages provide the full context.
-
-- [Replaceable Flooring Sample Boards for Dealer Display Kits](https://mttpackaging.com/insights/replaceable-flooring-sample-boards-dealer-kits)
-- [Fabric Swatch Book Binding for Midseason Replenishment](https://mttpackaging.com/insights/fabric-swatch-book-binding-replenishment)
-- [Removable Tile Sample Cases: Protect the Edge and Show the Finish](https://mttpackaging.com/insights/removable-tile-sample-presentation-case)

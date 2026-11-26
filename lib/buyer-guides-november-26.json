@@ -188,5 +188,215 @@
         "<p>A 3 mm B-flute wall adds 6 mm across length and width—and up to 12 mm on double-tuck side walls. Always specify whether your dimensions are internal (ID) or external (OD) when requesting a dieline, and verify outer carton fit using our <a href=\"/insights/measure-packaging-internal-external-dimensions\">internal vs. external box measurement guide</a>.</p>"
       ]
     ]
+  },
+  {
+    "slug": "box-dimensions-lxwxh-measurement-guide",
+    "number": "170",
+    "angle": "Packaging measurement & structural engineering",
+    "image": "/products/mtt-r0103-0.webp",
+    "imageAlt": "Custom rigid presentation box showing internal cavity length, width, and height",
+    "title": "Box Dimensions (L x W x H): How to Measure Internal vs. External Size",
+    "seoTitle": "Box Dimensions L x W x H: Internal vs External | MTT",
+    "summary": "Measure packaging box dimensions in standard Length x Width x Height order. Compare internal cavity size vs. external dimensions across rigid boxes and cartons.",
+    "intro": "Industry packaging standards always list box dimensions in Length × Width × Height (L × W × H) order using internal dimensions in millimeters. Length is the longer side at the opening, Width is the shorter side at the opening, and Height is the vertical depth from opening to base. Never quote external dimensions without specifying board thickness, because 2.0 mm greyboard or 3.0 mm B-flute corrugated walls significantly reduce usable interior space.",
+    "datePublished": "2026-11-26",
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "What order are box dimensions written in (L x W x H)?",
+        "Packaging suppliers and FEFCO standards list dimensions as Length (longer opening side) × Width (shorter opening side) × Height (vertical depth from opening to base), always measured on the inside."
+      ],
+      [
+        "Should I send internal or external dimensions when requesting a box quote?",
+        "Always specify internal dimensions based on your filled product and insert, or clearly label external dimensions when matching an outer shipping carton or retail shelf limit."
+      ],
+      [
+        "How much wall thickness separates internal and external rigid box size?",
+        "A 1,200 gsm greyboard rigid box with wrap paper adds roughly 2.0–2.2 mm per wall (4.0–4.4 mm across the total width or length), plus lid overlap on two-piece telescoping boxes."
+      ]
+    ],
+    "cta": "Send your product's maximum L × W × H, filled weight, insert clearance, quantity per design, and destination for an internal-dimension box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Follow the L x W x H opening convention",
+        "<p>Under FEFCO and folding-carton drafting conventions, Length and Width define the opening footprint, and Height defines the vertical axis perpendicular to the opening. On a mailer or top-loading rigid box, Length is the longer edge of the mouth; on a side-opening sleeve or drawer box, the sliding mouth sets Length and Width while the sleeve depth becomes Height.</p><p>Mixing up Width and Height on a quotation changes which panel carries the glue flap, lid hinge, or flute direction. Always label each axis on a quick sketch alongside our <a href=\"/insights/measure-packaging-internal-external-dimensions\">internal versus external dimension checklist</a>.</p>"
+      ],
+      [
+        "Compare wall thickness across box families",
+        "<table class=\"comparison-table\"><thead><tr><th>Box family</th><th>Typical wall thickness</th><th>Internal-to-external difference (both walls)</th><th>Key allowance rule</th></tr></thead><tbody><tr><td>Folding carton (350 gsm SBS)</td><td>0.45–0.55 mm</td><td>+1.0–1.2 mm</td><td>Account for dust-flap fold-in at top/bottom mouths</td></tr><tr><td>Rigid box (1,200 gsm greyboard)</td><td>1.9–2.2 mm</td><td>+4.0–4.5 mm (base); +8–9 mm (with lid)</td><td>Specify base inner cavity separate from outer lid envelope</td></tr><tr><td>E-flute mailer</td><td>1.5–1.8 mm</td><td>+5.0–7.0 mm (double-wall fold)</td><td>Roll-end front/side locks double the wall thickness</td></tr><tr><td>B-flute shipping carton</td><td>2.8–3.2 mm</td><td>+6.0–7.0 mm</td><td>Score-to-score manufacturing tolerance is ±1.5–2.0 mm</td></tr></tbody></table>"
+      ],
+      [
+        "Verify loaded headroom and finger clearance",
+        "<p>Internal height must clear the tallest cap, dropper bulb, or folded pouch plus any lid-mounted card pocket. Add 2–3 mm vertical headroom on rigid boxes and leave 10–15 mm finger-pull notches beside heavy glass jars so buyers do not invert the box to remove the product. Test your target dimensions in our <a href=\"/tools/box-size-calculator\">box size calculator</a> before requesting a physical sample.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "offset-vs-digital-vs-flexo-gravure-packaging-printing",
+    "number": "171",
+    "angle": "Packaging print production",
+    "image": "/products/mtt-c0101-0.webp",
+    "imageAlt": "Custom printed folding carton and rigid box wrap produced with offset lithography",
+    "title": "Offset vs. Digital vs. Flexo vs. Gravure: Choosing Packaging Printing",
+    "seoTitle": "Offset vs Digital vs Flexo Packaging Printing | MTT",
+    "summary": "Compare offset, digital, flexographic, and gravure printing for custom boxes: MOQ breakpoints, plate tooling, ISO 12647 color accuracy, and substrates.",
+    "intro": "Offset lithography is the standard print method for 1,000+ custom folding cartons and rigid box wraps because it delivers sharp 300+ dpi halftones, tight ISO 12647 CMYK tolerances, and true Pantone spot inks at low plate cost. Digital printing suits short runs or multi-SKU versioning under ~500 units per design, while flexography serves direct-print corrugated shippers and gravure is reserved for ultra-high-volume flexible films.",
+    "datePublished": "2026-11-26",
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "Which printing method is best for custom rigid boxes and folding cartons at 1,000+ units?",
+        "Sheetfed offset lithography is the primary choice at 1,000+ pieces per design. It prints crisp fine typography, smooth gradients, and exact Pantone spot inks on 128–157 gsm wrap paper and 300–400 gsm folding carton board."
+      ],
+      [
+        "When should I choose flexographic printing instead of offset?",
+        "Choose flexographic printing for high-volume corrugated shipping cartons (1- or 2-color logos and handling icons printed directly on kraft linerboard) where litho-laminated gloss wraps are unnecessary."
+      ],
+      [
+        "Does digital printing match Pantone spot colors as accurately as offset?",
+        "Digital CMYK+ presses approximate Pantone colors via process ink builds rather than true solid spot ink, so neon, metallic, or strict brand-critical Pantone shades should be proofed on offset or matched with a Pantone drawdown."
+      ]
+    ],
+    "cta": "Share your artwork colors (CMYK vs. Pantone), quantity per SKU, and substrate preference for a print-method and proofing recommendation. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Compare the four packaging print processes",
+        "<table class=\"comparison-table\"><thead><tr><th>Print method</th><th>Typical MOQ &amp; tooling</th><th>Color &amp; detail</th><th>Best packaging application</th></tr></thead><tbody><tr><td>Sheetfed Offset</td><td>1,000+ pcs; low aluminum plate cost</td><td>Highest sharpness, true Pantone spot ink, ISO 12647 control</td><td>Folding cartons, rigid box wraps, Euro totes, inserts</td></tr><tr><td>Digital Press</td><td>50–500 pcs; zero plate tooling</td><td>Good CMYK, no true metallic/spot Pantone ink</td><td>Pre-launch prototypes, variable QR/lot runs, small multi-SKU</td></tr><tr><td>Flexographic</td><td>1,000–5,000+ pcs; polymer plate per color</td><td>Lower screen ruling on rough kraft; water-based inks</td><td>Direct-print corrugated shippers, kraft tape, poly mailers</td></tr><tr><td>Rotogravure</td><td>50,000+ pcs; expensive engraved cylinders</td><td>Very consistent heavy ink laydown at high speed</td><td>Long-run flexible pouches, shrink sleeves, roll labels</td></tr></tbody></table>"
+      ],
+      [
+        "Control color consistency across runs",
+        "<p>Under ISO 12647-2 offset standards, press operators measure solid ink density and dot gain on coated (C) versus uncoated (U) substrates. If your brand uses a rigid box wrap laminated with matte BOPP alongside a raw kraft outer shipper, specify coated Pantone swatches for the laminated wrap and uncoated swatches for the kraft box. Review file setup rules in our <a href=\"/insights/cmyk-vs-spot-colour-packaging\">CMYK vs. spot color guide</a> and <a href=\"/insights/dieline-artwork-setup-folding-carton-rigid-box\">dieline artwork setup checklist</a>.</p>"
+      ],
+      [
+        "Pair print choice with our custom carton line",
+        "<p>For multi-finish folding cartons that combine offset CMYK, Pantone brand solids, hot foil stamping, and spot UV, review our <a href=\"/products/custom-foil-stamped-folding-carton\">custom foil-stamped folding carton</a> specification before locking your print brief.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "foil-stamping-spot-uv-lamination-packaging-finishes",
+    "number": "172",
+    "angle": "Surface finishing & print durability",
+    "image": "/products/mtt-c0101-0.webp",
+    "imageAlt": "Custom folding carton with matte lamination, metallic foil stamping, and spot UV finish",
+    "title": "Foil Stamping, Spot UV & Lamination: Packaging Finish Tradeoffs",
+    "seoTitle": "Foil Stamping, Spot UV & Lamination Guide | MTT",
+    "summary": "Compare packaging finishes: hot foil stamping, spot UV, matte vs. soft-touch lamination, anti-scuff varnish, crease-cracking prevention, and recyclability.",
+    "intro": "Choose surface finishes for both shelf contrast and transit durability. Matte or anti-scuff BOPP lamination protects dark flood-coated boxes from rub marks and fold cracking, while hot foil stamping and spot UV create high-contrast focal points on logos. Avoid running thick UV varnish or soft-touch film across sharp 90-degree crease lines without testing a folded sample, and verify local recyclability rules when exporting to EU PPWR markets.",
+    "datePublished": "2026-11-26",
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "What is the difference between hot foil stamping and metallic ink?",
+        "Hot foil stamping transfers a thin metallic or pigment film onto paper using a heated brass/magnesium die, producing a mirror-like shine and crisp edge. Metallic offset ink prints flatter and duller, especially on uncoated stock."
+      ],
+      [
+        "Does soft-touch lamination scuff easily during shipping?",
+        "Standard soft-touch film can show shiny burnish marks where boxes rub against corrugated dividers. For dark matte or soft-touch boxes, specify anti-scuff matte lamination or wrap each box in tissue or a polybag inside the master carton."
+      ],
+      [
+        "Can spot UV crack along folding carton crease lines?",
+        "Yes. Cured UV varnish is brittle and flakes if applied directly over score lines. Always keep spot UV at least 1.5–2.0 mm away from fold creases and die-cut edges."
+      ]
+    ],
+    "cta": "Send your artwork layers (CMYK, foil mask, spot UV mask) and target market for a finish durability and tooling review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Compare protective coatings and decorative accents",
+        "<table class=\"comparison-table\"><thead><tr><th>Finish</th><th>Role</th><th>Tooling &amp; cost</th><th>Handling / recyclability note</th></tr></thead><tbody><tr><td>Matte / Gloss BOPP Lamination</td><td>Scuff &amp; fold-crack protection</td><td>No custom die; low unit add-on</td><td>Plastic film layer; check EU PPWR paper-stream limits</td></tr><tr><td>Aqueous / Anti-Scuff Varnish</td><td>Light rub protection, fiber-friendly</td><td>Inline press blanket</td><td>Easier repulping than BOPP film; less crack resistance on dark solids</td></tr><tr><td>Hot Foil Stamping</td><td>Mirror metallic or pigment branding</td><td>Brass/magnesium stamping die</td><td>Avoid 0.25 mm ultra-fine lines; keep off 90° folds</td></tr><tr><td>Spot UV / Raised UV</td><td>Gloss contrast over matte background</td><td>Screen/UV plate</td><td>Keep 1.5–2.0 mm clear of score lines to prevent flaking</td></tr></tbody></table>"
+      ],
+      [
+        "Prevent rubbing and burnishing in transit",
+        "<p>Dark uncoated papers and velvet soft-touch films pick up shiny rub marks wherever two boxes slide against each other or touch rough corrugated dividers. Pair finish selection with our <a href=\"/insights/emboss-vs-deboss-rigid-box-tooling-paper-guide\">emboss vs. deboss tooling guide</a> and <a href=\"/insights/printing-finishing-guide\">printing and finishing overview</a>, then check a packed sample after simulated handling.</p>"
+      ],
+      [
+        "Combine foil and spot UV cleanly on cartons",
+        "<p>When combining hot foil and spot UV on one panel, maintain at least 1.0 mm registration gap between foil edges and UV varnish unless using a single-pass inline tooling setup. See our <a href=\"/products/custom-foil-stamped-folding-carton\">custom foil-stamped folding carton</a> and <a href=\"/ppwr-compliant-packaging\">PPWR packaging compliance guide</a> for export material planning.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "custom-rigid-box-greyboard-v-groove-guide",
+    "number": "173",
+    "angle": "Rigid box structural engineering",
+    "image": "/products/mtt-r0103-0.webp",
+    "imageAlt": "Custom V-grooved rigid box showing sharp 90-degree corners and laminated wrap paper",
+    "title": "Rigid Box Greyboard & V-Grooving: Caliper, Corners & Warp Control",
+    "seoTitle": "Rigid Box Greyboard & V-Groove Engineering | MTT",
+    "summary": "Specify custom rigid box greyboard thickness (800–1500 gsm), V-grooved sharp 90° corners vs. die-cut score lines, wrap grain direction, and warp prevention.",
+    "intro": "Most luxury rigid boxes use 1,000–1,200 gsm greyboard (1.5–2.0 mm thick) wrapped in 128–157 gsm coated art paper or 120 gsm dyed specialty stock. Choose V-grooving when your brand wants crisp, architectural 90-degree outer edges without corner bulge, and use standard die-cut scoring for rounded boutique edges or lower unit cost. Always align board and wrap grain with the longest box dimension to prevent lid bowing.",
+    "datePublished": "2026-11-26",
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "What greyboard thickness is standard for luxury rigid gift boxes?",
+        "1,200 gsm (roughly 1.8–2.0 mm) greyboard is the standard for perfume, skincare, watch, and electronics rigid boxes. Use 800–1,000 gsm (1.2–1.5 mm) for compact jewelry boxes and 1,400–1,500 gsm (2.2–2.5 mm) for oversized heavy gift sets."
+      ],
+      [
+        "What is V-grooving in rigid box manufacturing?",
+        "V-grooving cuts a 90-degree V-shaped channel partway through the greyboard before folding, creating razor-sharp, flat outer corners instead of the slightly rounded corners formed by standard die-cut creasing."
+      ],
+      [
+        "Why do rigid box lids sometimes warp after delivery?",
+        "Lid warping usually happens when water-based glue moisture dries unevenly across mismatched paper grain directions or when heavy dark ink coverage pulls one face tighter than the inside liner."
+      ]
+    ],
+    "cta": "Send your box dimensions, target weight, corner style (V-grooved vs. standard), quantity per design, and destination for a greyboard specification review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Match greyboard GSM and caliper to box size",
+        "<table class=\"comparison-table\"><thead><tr><th>Greyboard weight</th><th>Approx. thickness</th><th>Recommended box size / load</th><th>V-groove suitability</th></tr></thead><tbody><tr><td>800–900 gsm</td><td>1.2–1.4 mm</td><td>Small jewelry, lipstick, single-vial boxes (&lt;150 mm)</td><td>Shallow groove; watch tear-through</td></tr><tr><td>1,100–1,200 gsm</td><td>1.7–2.0 mm</td><td>Standard perfume, skincare, watch, candle rigid boxes</td><td>Ideal balance for crisp 90° V-grooves</td></tr><tr><td>1,400–1,500 gsm</td><td>2.2–2.5 mm</td><td>Large multi-bottle sets, heavy electronics, PR kits (&gt;280 mm)</td><td>Deep clean V-groove; high stiffness</td></tr></tbody></table>"
+      ],
+      [
+        "Compare V-grooved sharp corners vs. standard die-cut corners",
+        "<p>Standard die-cut rigid boxes bend the board over a rule, leaving slight corner radiuses and needing corner stay tape before wrapping. V-grooving mills a clean 90-degree trough so the board folds flush onto itself, giving a sharp, jewelry-grade silhouette—best paired with our <a href=\"/products/custom-v-groove-magnetic-rigid-box\">custom V-grooved magnetic rigid box</a> construction.</p><p>However, V-grooved edges can show hairline wrap tension if the outer 157 gsm art paper is not laminated or if the paper grain runs perpendicular to the fold. Test the exact wrap stock on a V-grooved white dummy sample first.</p>"
+      ],
+      [
+        "Prevent lid bowing and moisture warp",
+        "<p>To minimize lid warping across humid sea freight, specify an inner balancing liner (120–157 gsm white or black paper laminated inside the lid), keep paper grain parallel to the long edge, and allow wrapped shells to cure flat before packing into master cartons. Compare rigid board construction with our <a href=\"/packaging/custom-rigid-boxes\">custom rigid boxes guide</a>.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "packaging-barcodes-compliance-symbols-print-guide",
+    "number": "174",
+    "angle": "Retail compliance & print preflight",
+    "image": "/products/mtt-c0102-0.webp",
+    "imageAlt": "Retail folding carton bottom panel showing GS1 barcode quiet zone and compliance symbols",
+    "title": "Packaging Barcodes, Quiet Zones & Compliance Symbols: Print Guide",
+    "seoTitle": "Packaging Barcodes & Compliance Symbols Guide | MTT",
+    "summary": "Set up scannable UPC/EAN-13 GS1 barcodes, QR codes, lot-coding varnish knockouts, and recycling symbols (Mobius loop, Triman) on custom boxes.",
+    "intro": "A retail carton fails warehouse receiving if its barcode cannot scan on the first pass. Print GS1 EAN-13 or UPC-A barcodes in 100% black (K-only) ink against a white or light background, keep at least 3.6 mm left and 2.3 mm right quiet zones clear of artwork or creases, and leave an unvarnished knockout window for thermal or inkjet lot/expiry coding. Never print regulatory recycling marks without confirming destination market rules.",
+    "datePublished": "2026-11-26",
+    "dateModified": "2026-11-26",
+    "faq": [
+      [
+        "What color should a retail barcode be printed in on custom packaging?",
+        "Print barcode bars in 100% black (0C 0M 0Y 100K) or dark blue/green on a flat white or bright warm background. Never use 4-color rich black (which blurs edges on press) or red/orange bars (which become invisible to red laser scanners)."
+      ],
+      [
+        "What is a barcode quiet zone and why does it matter?",
+        "The quiet zone is the blank white margin to the left and right of the barcode bars (typically 3.63 mm left / 2.31 mm right at 100% EAN-13 scale). If text, borders, or box creases encroach on this margin, retail scanners fail to decode the code."
+      ],
+      [
+        "Why do packaging suppliers leave an unvarnished window for batch and expiry dates?",
+        "UV varnish and BOPP film lamination repel inkjet and thermal-transfer batch coding inks, causing lot numbers to smudge. A clean unvarnished knockout rectangle lets line printers bond directly to the paperboard."
+      ]
+    ],
+    "cta": "Send your dieline with barcode placement, lot-code window, and destination markets for a print-preflight check. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "GS1 barcode and QR print specifications",
+        "<table class=\"comparison-table\"><thead><tr><th>Element</th><th>Minimum print spec</th><th>Common failure to avoid</th></tr></thead><tbody><tr><td>EAN-13 / UPC-A scale</td><td>80%–200% GS1 nominal (min ~30 × 21 mm at 80%)</td><td>Shrinking barcode below 80% on narrow cosmetic cartons</td></tr><tr><td>Ink color</td><td>100% K-only black on white knockout box</td><td>4-color rich black misregistration or red/gold foil bars</td></tr><tr><td>Quiet zones</td><td>≥3.6 mm left, ≥2.3 mm right blank margin</td><td>Placing fold creases, borders, or recycling icons too close</td></tr><tr><td>QR codes</td><td>≥12 × 12 mm module clarity; high contrast</td><td>Overprinting QR over dark textured or metallic foil stock</td></tr></tbody></table>"
+      ],
+      [
+        "Reserve ink-free & varnish-free coding zones",
+        "<p>If your co-packer stamps batch numbers, manufacturing dates, or PAO/lot codes after delivery, mark a dedicated <strong>varnish-free and lamination-free knockout</strong> on the artwork mechanical. For dark laminated boxes where film covers the entire sheet, test thermal-transfer ribbon adhesion or reserve a white paper label zone on the base panel. See our <a href=\"/insights/retail-barcode-placement-gift-boxes\">retail barcode placement guide</a> and <a href=\"/insights/packaging-typography-small-print\">small-print typography checklist</a>.</p>"
+      ],
+      [
+        "Check destination recycling and PPWR markings",
+        "<p>Before locking print plates for Europe, the UK, or North America, confirm which disposal or sorting icons (such as France's Triman Info-Tri, EU PPWR material codes, or Mobius loops) your brand legal counsel requires per SKU. Keep symbols at legible minimum heights (typically ≥6–10 mm) as detailed in our <a href=\"/insights/packaging-typography-small-print\">small-print typography guide</a> and <a href=\"/ppwr-compliant-packaging\">PPWR packaging overview</a>.</p>"
+      ]
+    ]
   }
 ]

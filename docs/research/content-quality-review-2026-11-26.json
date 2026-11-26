@@ -133,5 +133,140 @@
       "https://mttpackaging.com/packaging/corrugated-boxes",
       "https://mttpackaging.com/insights/measure-packaging-internal-external-dimensions"
     ]
+  },
+  {
+    "slug": "box-dimensions-lxwxh-measurement-guide",
+    "primaryQuery": "length width height box",
+    "searchEvidence": "Competitor gap US keyword (Vol 2400, KD 4; box dimensions Vol 2900, KD 15). High-intent engineering reference.",
+    "customerDecision": "Measure and specify internal L x W x H dimensions accurately across rigid boxes, folding cartons, and corrugated mailers",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "FEFCO internal L x W x H opening convention",
+      "Wall thickness comparison across 350 gsm SBS, 1200 gsm greyboard, E-flute, and B-flute",
+      "Loaded headroom and finger-notch allowance checks"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/measure-packaging-internal-external-dimensions",
+      "https://mttpackaging.com/tools/box-size-calculator"
+    ]
+  },
+  {
+    "slug": "offset-vs-digital-vs-flexo-gravure-packaging-printing",
+    "primaryQuery": "offset printing",
+    "searchEvidence": "Competitor gap US keyword (offset printing Vol 4400; gravure printing Vol 2400, KD 21; flexographic printing Vol 1600, KD 18).",
+    "customerDecision": "Select between offset lithography, digital, flexo, and gravure printing based on MOQ, tooling cost, and color accuracy",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "ISO 12647-2 offset color control vs digital CMYK simulation",
+      "MOQ breakpoints and cylinder/plate tooling comparison table",
+      "Coated (C) vs uncoated (U) Pantone ink interaction"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/cmyk-vs-spot-colour-packaging",
+      "https://mttpackaging.com/products/custom-foil-stamped-folding-carton"
+    ]
+  },
+  {
+    "slug": "foil-stamping-spot-uv-lamination-packaging-finishes",
+    "primaryQuery": "foil stamping",
+    "searchEvidence": "Competitor gap US keyword (Vol 1600, KD 9). High commercial packaging finish specification intent.",
+    "customerDecision": "Balance shelf contrast (hot foil, spot UV) against scuff resistance and EU PPWR recyclability",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Hot foil brass die vs metallic offset ink contrast",
+      "1.5-2.0 mm crease clearance for brittle spot UV",
+      "Anti-scuff matte BOPP vs aqueous varnish recyclability tradeoff"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/printing-finishing-guide",
+      "https://mttpackaging.com/ppwr-compliant-packaging"
+    ]
+  },
+  {
+    "slug": "custom-rigid-box-greyboard-v-groove-guide",
+    "primaryQuery": "rigid boxes",
+    "searchEvidence": "Competitor gap US keyword (Vol 1600, KD 33). Engineering buyer guide for rigid box specification.",
+    "customerDecision": "Choose greyboard GSM/caliper, V-grooved vs die-cut corners, and balancing liners to prevent lid warping",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "800-1500 gsm greyboard caliper comparison table",
+      "V-grooving 90-degree corners vs die-cut score + corner tape",
+      "Paper grain orientation and balancing inner liner for warp control"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-v-groove-magnetic-rigid-box",
+      "https://mttpackaging.com/packaging/custom-rigid-boxes"
+    ]
+  },
+  {
+    "slug": "packaging-barcodes-compliance-symbols-print-guide",
+    "primaryQuery": "retail barcode placement packaging",
+    "searchEvidence": "High-value preflight and retail compliance guide covering GS1 barcodes, quiet zones, lot-coding windows, and PPWR icons.",
+    "customerDecision": "Set up scannable GS1 barcodes, varnish-free lot windows, and destination recycling symbols without print rejects",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 13,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 89,
+    "reviewEvidence": [
+      "100% K-only ink and GS1 quiet-zone clearances (3.6 mm left / 2.3 mm right)",
+      "Varnish-free knockout windows for thermal/inkjet batch coding",
+      "EU PPWR / Triman / Mobius symbol sizing checks"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/retail-barcode-placement-gift-boxes",
+      "https://mttpackaging.com/insights/packaging-typography-small-print"
+    ]
   }
 ]
