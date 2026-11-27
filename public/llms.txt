@@ -22,6 +22,11 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Litho-Laminated vs. Direct-Flexo Corrugated Mailer Boxes](https://mttpackaging.com/insights/litho-laminated-vs-direct-flexo-corrugated-boxes)
+- [SBS (C1S/C2S) vs. CCNB vs. Kraft: Folding Carton Board Guide](https://mttpackaging.com/insights/sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board)
+- [Shoulder-Neck Rigid Boxes: Neck Reveal, Tolerance & Lid Fit](https://mttpackaging.com/insights/shoulder-neck-rigid-box-tolerance-reveal-guide)
+- [Custom Tissue Paper for Gift Boxes: GSM, Ink Rub & Sheet Sizing](https://mttpackaging.com/insights/custom-printed-tissue-paper-gift-box-guide)
+- [Die-Cut Packaging Tolerances: Steel-Rule Dies, Nicks & Windows](https://mttpackaging.com/insights/die-cut-packaging-steel-rule-tolerances-guide)
 - [Euro Tote Bags Wholesale: Paper GSM, Handle Load & Gusset Sizing](https://mttpackaging.com/insights/euro-tote-bags-wholesale-gsm-handle-load-guide)
 - [Foam Inserts for Packaging: EVA vs. EPE vs. PU Comparison](https://mttpackaging.com/insights/foam-inserts-eva-vs-epe-vs-pu-packaging-guide)
 - [Emboss vs. Deboss on Rigid Boxes: Tooling, Paper Weight & Limits](https://mttpackaging.com/insights/emboss-vs-deboss-rigid-box-tooling-paper-guide)

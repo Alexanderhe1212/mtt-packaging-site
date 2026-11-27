@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "litho-laminated-vs-direct-flexo-corrugated-boxes",
+    "primaryQuery": "corrugated packaging boxes",
+    "searchEvidence": "Competitor gap US keyword (corrugated packaging boxes Vol 2400, KD 31, CPC $15.71; custom mailers Vol 1600, KD 35). High-intent commercial comparison.",
+    "customerDecision": "Decide between litho-laminated E-flute corrugated mailers and direct flexo or digital printed kraft cartons based on graphics quality, washboarding, and warp risk",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "250-300 gsm CCNB/C1S offset top sheet mounted over E-flute (approx. 90 flutes/ft) to eliminate washboarding",
+      "Moisture warp mechanism from asymmetric PVA mounting adhesive vs flat curing racks",
+      "Hybrid exterior offset + interior flexo cost-control option for FEFCO 0427 mailers"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-litho-laminated-corrugated-mailer",
+      "https://mttpackaging.com/packaging/corrugated-boxes",
+      "https://mttpackaging.com/insights/corrugated-fiberboard-flute-ect-shipping-box-guide"
+    ]
+  },
+  {
+    "slug": "sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board",
+    "primaryQuery": "paper paperboard",
+    "searchEvidence": "Competitor gap US keyword (paper paperboard Vol 1600, KD 16) paired with commercial folding carton material specification intent.",
+    "customerDecision": "Select 300-400 gsm virgin SBS (C1S/C2S), FBB (GC1), CCNB recycled grey-back, or unbleached kraft board by caliper stiffness, interior whiteness, and fold cracking",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "350 gsm caliper comparison table: SBS (0.45-0.50 mm), FBB/GC1 (0.52-0.58 mm), CCNB (0.43-0.48 mm), Kraft (0.46-0.52 mm)",
+      "C1S vs C2S glue-flap varnish knockout and short recycled fiber crack behavior on auto-bottom folds",
+      "Vertical machine-direction paper grain orientation for heavy glass bottles"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-auto-bottom-retail-folding-carton",
+      "https://mttpackaging.com/products/custom-foil-stamped-folding-carton",
+      "https://mttpackaging.com/packaging/folding-cartons"
+    ]
+  },
+  {
+    "slug": "shoulder-neck-rigid-box-tolerance-reveal-guide",
+    "primaryQuery": "custom rigid boxes",
+    "searchEvidence": "Core rigid box structural engineering gap complementing dropper-serum and face-cream application guides with general shoulder-neck tolerance standards.",
+    "customerDecision": "Specify inner shoulder caliper (600-900 gsm), flush vs 3-10 mm contrast neck reveals, and 0.3-0.6 mm lid glide clearance on shoulder-neck rigid boxes",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "1000-1200 gsm outer shells paired with 600-900 gsm (1.0-1.4 mm) inner collar board",
+      "0.3-0.6 mm per-side wrapped lid-to-neck slip clearance and ~0.20-0.25 mm wrap thickness buildup per face",
+      "Insert outward push deformation check with loaded EVA trays"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/packaging/custom-rigid-boxes",
+      "https://mttpackaging.com/products/dropper-serum-and-refill-shoulder-rigid-box",
+      "https://mttpackaging.com/insights/two-piece-rigid-box-lid-fit"
+    ]
+  },
+  {
+    "slug": "custom-printed-tissue-paper-gift-box-guide",
+    "primaryQuery": "custom tissue paper",
+    "searchEvidence": "Competitor gap US keyword (custom tissue paper Vol 2900, KD 31, CPC $3.59). Previously 0 dedicated guides on the site.",
+    "customerDecision": "Specify 17-22 gsm MF vs MG acid-free printed tissue sheets matched to gift boxes and Euro totes while preventing ink transfer onto white containers",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "17 gsm MF vs 20-22 gsm MG glazed vs 28-35 gsm glassine/waxed tissue specification table",
+      "pH-neutral acid-free tissue prevention of silver/hardware tarnishing and yellowing",
+      "Box-matched sheet sizing formula and ~35-40% ink coverage rub-off guardrail"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-euro-tote-luxury-paper-bag",
+      "https://mttpackaging.com/insights/euro-tote-bags-wholesale-gsm-handle-load-guide",
+      "https://mttpackaging.com/packaging/custom-paper-bags"
+    ]
+  },
+  {
+    "slug": "die-cut-packaging-steel-rule-tolerances-guide",
+    "primaryQuery": "diecut",
+    "searchEvidence": "Competitor gap US keyword (diecut Vol 1300, KD 41, CPC $2.37). Physical press-side tooling guide distinct from artwork layer preflight.",
+    "customerDecision": "Account for steel-rule blade gauge, nick placement, ±0.3-1.5 mm substrate die-cut tolerances, and 12-15 mm minimum window frame widths before approving tooling",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "2 pt vs 3 pt steel-rule kerf and tolerance table across 350 gsm SBS, E/B-flute corrugated, 1200 gsm greyboard, and EVA foam",
+      "0.4-0.8 mm nick placement away from cosmetic front edges and perforation tear-test logic",
+      "12-15 mm minimum aperture border width and 2-3 mm artwork bleed tolerance"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/insights/dieline-artwork-setup-folding-carton-rigid-box",
+      "https://mttpackaging.com/products/custom-litho-laminated-corrugated-mailer",
+      "https://mttpackaging.com/products/custom-auto-bottom-retail-folding-carton"
+    ]
+  }
+]

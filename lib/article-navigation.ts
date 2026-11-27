@@ -3,6 +3,11 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:["litho-laminated-vs-direct-flexo-corrugated-boxes", "corrugated-fiberboard-flute-ect-shipping-box-guide", "die-cut-packaging-steel-rule-tolerances-guide", "dieline-artwork-setup-folding-carton-rigid-box"],products:["custom-litho-laminated-corrugated-mailer", "custom-corrugated-packaging-set", "three-compartment-skincare-mailer"]},
+  {articles:["sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board", "folding-carton-closure-selection", "foil-stamping-spot-uv-lamination-packaging-finishes", "packaging-barcodes-compliance-symbols-print-guide"],products:["custom-auto-bottom-retail-folding-carton", "custom-foil-stamped-folding-carton", "custom-skincare-duo-auto-bottom"]},
+  {articles:["shoulder-neck-rigid-box-tolerance-reveal-guide", "two-piece-rigid-box-lid-fit", "custom-rigid-box-greyboard-v-groove-guide", "dropper-serum-shoulder-neck-box-fit"],products:["dropper-serum-and-refill-shoulder-rigid-box", "face-cream-presentation-shoulder", "custom-v-groove-magnetic-rigid-box"]},
+  {articles:["custom-printed-tissue-paper-gift-box-guide", "euro-tote-bags-wholesale-gsm-handle-load-guide", "paper-bag-size-handles-load-check", "apparel-gift-box-paper-bag-set"],products:["custom-euro-tote-luxury-paper-bag", "custom-perfume-bottle-ribbon-bag", "signature-perfume-lift-off"]},
+  {articles:["die-cut-packaging-steel-rule-tolerances-guide", "dieline-artwork-setup-folding-carton-rigid-box", "packaging-artwork-dieline-preflight", "foam-inserts-eva-vs-epe-vs-pu-packaging-guide"],products:["custom-litho-laminated-corrugated-mailer", "custom-auto-bottom-retail-folding-carton", "custom-eva-foam-insert-rigid-box"]},
   {articles:["box-dimensions-lxwxh-measurement-guide", "custom-rigid-box-greyboard-v-groove-guide", "measure-packaging-internal-external-dimensions", "two-piece-rigid-box-lid-fit"],products:["custom-v-groove-magnetic-rigid-box", "custom-eva-foam-insert-rigid-box", "signature-perfume-lift-off"]},
   {articles:["offset-vs-digital-vs-flexo-gravure-packaging-printing", "foil-stamping-spot-uv-lamination-packaging-finishes", "packaging-barcodes-compliance-symbols-print-guide", "cmyk-vs-spot-colour-packaging"],products:["custom-foil-stamped-folding-carton", "custom-carton-packaging-set", "custom-euro-tote-luxury-paper-bag"]},
   {articles:["replaceable-flooring-sample-boards-dealer-kits", "fabric-swatch-book-binding-replenishment", "removable-tile-sample-presentation-case", "custom-packaging-sampling-process"],products:["six-trial-lens-hexagonal-presentation-case","camera-filter-trio-drawer-box","bayonet-lens-hood-hinged-box"]},
@@ -128,6 +133,11 @@ const topics = [
   {articles:['two-candle-jars-drawer-box-insert-fit','candle-accessory-channel-packout-check','luxury-gift-box-sample-approval-witness-marks','candle-box-glass-jar-protection','custom-inserts-product-protection'],products:['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'litho-laminated-vs-direct-flexo-corrugated-boxes':['custom-litho-laminated-corrugated-mailer','custom-corrugated-packaging-set','three-compartment-skincare-mailer'],
+  'sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board':['custom-auto-bottom-retail-folding-carton','custom-foil-stamped-folding-carton','custom-skincare-duo-auto-bottom'],
+  'shoulder-neck-rigid-box-tolerance-reveal-guide':['dropper-serum-and-refill-shoulder-rigid-box','face-cream-presentation-shoulder','custom-v-groove-magnetic-rigid-box'],
+  'custom-printed-tissue-paper-gift-box-guide':['custom-euro-tote-luxury-paper-bag','custom-perfume-bottle-ribbon-bag','signature-perfume-lift-off'],
+  'die-cut-packaging-steel-rule-tolerances-guide':['custom-litho-laminated-corrugated-mailer','custom-auto-bottom-retail-folding-carton','custom-eva-foam-insert-rigid-box'],
   'perfume-bottle-travel-spray-book-box-fit':['perfume-bottle-travel-spray-book-box','perfume-and-refill-lift-off','signature-perfume-lift-off'],
   'two-candle-jars-drawer-box-insert-fit':['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box'],
   'candle-accessory-channel-packout-check':['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box'],

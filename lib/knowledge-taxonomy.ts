@@ -4,6 +4,7 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "litho-laminated-vs-direct-flexo-corrugated-boxes",
       "box-dimensions-lxwxh-measurement-guide",
       "offset-vs-digital-vs-flexo-gravure-packaging-printing",
       "foil-stamping-spot-uv-lamination-packaging-finishes",
@@ -65,6 +66,7 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "shoulder-neck-rigid-box-tolerance-reveal-guide",
       "two-tea-tins-scoop-gift-box-insert",
       "drip-coffee-sachet-drawer-divider-fit",
       "perfume-bottle-travel-spray-book-box-fit",
@@ -115,6 +117,7 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "custom-printed-tissue-paper-gift-box-guide",
       "apparel-gift-box-paper-bag-set",
       "reed-diffuser-room-spray-gift-box-insert",
       "roller-bottle-drawer-insert-removal",
@@ -164,6 +167,7 @@ export const knowledgeTopics = [
     "title": "Materials and finishes",
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
+      "sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board",
       "round-packaging-barcode-curvature-review",
       "jewelry-box-and-earring-card-logo-alignment",
       "folding-carton-crease-cracking-sample-review",
@@ -195,6 +199,7 @@ export const knowledgeTopics = [
     "title": "Procurement and delivery",
     "description": "Prepare the brief, compare costs, approve samples and keep repeat orders consistent.",
     "slugs": [
+      "die-cut-packaging-steel-rule-tolerances-guide",
       "shaped-rigid-box-supplier-quote-comparison",
       "compare-custom-packaging-supplier-quotes",
       "holiday-packaging-production-planning",
