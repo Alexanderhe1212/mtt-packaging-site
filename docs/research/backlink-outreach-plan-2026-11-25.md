@@ -111,3 +111,18 @@ Target Portals (login/CAPTCHA required for Hugo to submit):
 > Best regards,  
 > Hugo He  
 > MTT Packaging · https://mttpackaging.com · info@mttpackaging.com
+
+---
+
+## Execution Log
+
+### 2026-11-26
+- **PakFactory** (`pakfactory.com/blog/contribute`): Online pitch form submitted (foam inserts angle).
+- **PackVendors** (`packvendors.com@gmail.com`): Pitch sent; **replied 2026-11-26 requesting $55/post** -> **Skipped** (paid link policy).
+- **Packnode** (`info@packnode.org`): Pitch sent (EU PPWR / dieline artwork angle); awaiting reply.
+- **WrapPick** (`wrappick.com`): **Skipped** ($25 paid link requirement).
+
+### 2026-11-27
+- **Packaging Lean** (`sales@packaginglean.com`): Pitch sent via `info@mttpackaging.com` — *Rigid Box Greyboard Caliper & V-Grooving Guide* -> target `https://mttpackaging.com/insights/custom-rigid-box-greyboard-v-groove-guide`.
+- **Consolidated Label** (`marketing@consolidatedlabel.com`): Pitch sent via `info@mttpackaging.com` — *Preventing Label Scuffing & Barcode Scan Rejects on Custom Cartons* -> target `https://mttpackaging.com/insights/packaging-barcodes-compliance-symbols-print-guide`.
+- **Custom Divine Boxes** (`info@customdivineboxes.com`): Pitch sent via `info@mttpackaging.com` — *Measuring Box Dimensions (L x W x H) for First-Time Samples* -> target `https://mttpackaging.com/insights/box-dimensions-lxwxh-measurement-guide`.

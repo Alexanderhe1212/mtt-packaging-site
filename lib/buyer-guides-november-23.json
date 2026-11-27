@@ -560,8 +560,21 @@
     "summary": "Nikon publishes objective families with different mounting threads. Give labels a stable reference.",
     "intro": "When a buyer sends three magnifications for a demonstration kit, I would ask for three packed profiles. Magnification identifies an optical choice. It leaves the cap, tube, shoulder and grip dimensions open. In a round case there is a second decision: whether the removable tray needs a fixed orientation relative to the printed legend.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-27",
+    "faq": [
+      [
+        "Should microscope objective wells be sized to the bare lens barrel or the protective canister?",
+        "Size each well to the closed protective canister or threaded cap outer diameter, because operators store and transport objectives inside their capped cases."
+      ],
+      [
+        "How do you make objective magnification labels readable without removing every unit?",
+        "Leave the upper shoulder or cap band visible above the foam or drum rim and orient the label face toward the opening."
+      ],
+      [
+        "What minimum order quantity applies to custom microscope objective boxes?",
+        "MTT Packaging supplies custom presentation drums and rigid boxes from 1,000 pieces per design and US$2,000 minimum product value per order."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a capped microscope objective trio drum box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -579,6 +592,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/capped-microscope-objective-trio-drum-box\">capped microscope objective trio drum box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://industry.nikon.com/de-de/wp-content/uploads/sites/14/2024/08/microscope-components-en.pdf\">Nikon microscope component drawings</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Capped objective well sizing and label-orientation checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Check point</th><th>Common risk</th><th>Sample verification</th></tr></thead><tbody><tr><td>Capped container OD</td><td>Objective barrel fits, but plastic canister cap jams</td><td>Size well diameter from the widest protective vial cap</td></tr><tr><td>Magnification label</td><td>Operators pull every canister to read 10x / 40x</td><td>Keep printed magnification band visible above well rim</td></tr><tr><td>Missing-piece stability</td><td>Remaining two canisters tilt when one well is empty</td><td>Test vertical wall grip with only one capped objective seated</td></tr></tbody></table><p>Approve well depth and finger-lift clearance with the actual capped canisters installed.</p>"
       ]
     ]
   },
@@ -593,8 +610,21 @@
     "summary": "Starrett lists the 25-881J with a lug back installed and a separate flat back included. Set the seating depth from the body.",
     "intro": "A front photograph makes two indicators look interchangeable. Turn them sideways before committing to one insert. A rear mounting lug can become the first point to touch the tray floor. That changes the dial angle and the clearance above the crystal when the lid closes.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-27",
+    "faq": [
+      [
+        "Why can a dial indicator rock inside a flat-bottomed insert?",
+        "A rear mounting lug protrudes behind the dial housing; without a deeper secondary pocket for that lug, the bezel sits tilted and rocks during handling."
+      ],
+      [
+        "Where should the insert support a dial indicator?",
+        "Support the outer cylindrical bezel perimeter and leave relieved free space around the stem, plunger tip, and rear lug."
+      ],
+      [
+        "How should a spare flat back be packed in the same box?",
+        "Place the spare flat back in a separate walled pocket or under-tray bay so loose metal hardware cannot contact the dial crystal."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a dial indicator lift-off instrument box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -612,6 +642,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/dial-indicator-lift-off-instrument-box\">dial indicator lift-off instrument box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.starrett.com/products/precision-measuring-tools/precision-hand-tools/indicators-and-gages/dial-indicators/25-881J\">Starrett 25-881J configuration</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Rear lug pocket and rocking-prevention checklist",
+        "<table class=\"comparison-table\"><thead><tr><th>Feature</th><th>Clearance requirement</th><th>Sample check</th></tr></thead><tbody><tr><td>Rear mounting lug</td><td>Dedicated recessed pocket below bezel floor</td><td>Verify bezel rests flat without rocking on the lug</td></tr><tr><td>Contact point / plunger</td><td>Zero side or end wall pressure</td><td>Leave relieved air gap beyond full stem travel</td></tr><tr><td>Spare flat back</td><td>Separate shallow bay with retention tab</td><td>Confirm spare back cannot slide onto dial crystal</td></tr></tbody></table><p>Test closed lid headroom with the fitted lug back installed and the spare flat back seated in its bay.</p>"
       ]
     ]
   },
@@ -626,8 +660,21 @@
     "summary": "Starrett lists outside micrometer sets with standards and an adjusting wrench. Decide what faces the drawer opening.",
     "intro": "Pull a partly loaded sample drawer across the bench. The micrometer may stay seated while a loose setting standard slides towards the frame. For a distributor ordering a branded kit, I would settle the contents list and the retention of that second item before choosing the ribbon or foil.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-27",
+    "faq": [
+      [
+        "How do you keep a micrometer setting standard from rolling inside a drawer box?",
+        "Give the calibration rod its own snug press-fit EVA channel with finger relief at the center rather than sharing an open tray bay."
+      ],
+      [
+        "Which way should the micrometer face inside a pull-out drawer?",
+        "Orient the heavier C-frame toward the rear or center of the tray and keep the spindle and ratchet clear of the drawer mouth."
+      ],
+      [
+        "Why test the sleeve and loaded tray together before production?",
+        "Heavy steel micrometers deflect thin tray floors slightly, which can increase drawer slide friction against the outer sleeve."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a outside micrometer and standard drawer box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -645,6 +692,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/outside-micrometer-and-standard-drawer-box\">outside micrometer and standard drawer box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.starrett.com/products/precision-measuring-tools/precision-hand-tools/micrometers/micrometer-sets/ST436.1EXRLZ\">Starrett outside micrometer kit contents</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Micrometer drawer orientation and standard-retention checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Component</th><th>Packing risk</th><th>Drawer sample rule</th></tr></thead><tbody><tr><td>C-frame micrometer</td><td>Heavy steel frame slides when drawer pulls out</td><td>Contour EVA or rigid board around the frame arc</td></tr><tr><td>Setting standard rod</td><td>Loose cylindrical bar rolls or drops out</td><td>Use a tight press-fit foam channel with finger notch</td></tr><tr><td>Adjusting wrench</td><td>Thin spanner slips beneath loose partitions</td><td>Keep separate shallow recess away from spindle</td></tr></tbody></table><p>Load the complete kit and cycle the drawer ten times to confirm zero snagging against the outer sleeve.</p>"
       ]
     ]
   },
@@ -659,8 +710,21 @@
     "summary": "Mitutoyo documents models with different jaw and depth-bar configurations. Put retention where the owner allows it.",
     "intro": "Imagine lifting a new caliper from its case and finding the only place to grip it is the inside measuring jaws. I would change that insert before approving the artwork. Start the drawing with the grip area, the measuring surfaces and the position in which the instrument manufacturer wants the slider packed.",
     "datePublished": "2026-11-24",
-    "dateModified": "2026-11-24",
-    "faq": [],
+    "dateModified": "2026-11-27",
+    "faq": [
+      [
+        "Where should a digital caliper insert grip the instrument?",
+        "Support the caliper along its rigid main scale beam and leave relieved clearance around the precision jaw tips, depth rod, and LCD housing."
+      ],
+      [
+        "Should jaws be packed closed or slightly open?",
+        "Pack jaws closed as specified by the instrument owner and leave air clearance beyond both jaw tips so end impacts do not misalign the faces."
+      ],
+      [
+        "What should be included in a caliper box quotation brief?",
+        "Send overall length, jaw width, thickness at the LCD module, accessory list, quantity from 1,000 pieces per design, and destination."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a digital caliper hinged presentation box review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -678,6 +742,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/digital-caliper-hinged-presentation-box\">digital caliper hinged presentation box concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.mitutoyo.com/webfoo/wp-content/uploads/E12047.pdf\">Mitutoyo caliper configurations</a>. Model-specific instructions take precedence. The buyer should specify the transport test and instrument acceptance criteria separately.</p>"
+      ],
+      [
+        "Digital caliper jaw clearance and slider-position checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Zone</th><th>Support rule</th><th>Sample check</th></tr></thead><tbody><tr><td>Closed jaw tips</td><td>No end-wall impact on precision measuring faces</td><td>Leave 3–5 mm clearance past closed jaw tips and depth bar</td></tr><tr><td>Main scale beam</td><td>Primary support along rigid stainless beam</td><td>Ensure LCD housing is not pressed by tight side walls</td></tr><tr><td>Battery &amp; screwdriver</td><td>Captive pocket separate from beam</td><td>Tilt open box to verify small parts stay seated</td></tr></tbody></table><p>Lock the approved slider position (jaws closed) in the packing drawing before cutting foam tooling.</p>"
       ]
     ]
   },
@@ -692,8 +760,21 @@
     "summary": "Lay out six mounted trial lenses inside a hexagonal base. Check slot clearance at the angled walls, label visibility and rim-only handling.",
     "intro": "Six sides do not automatically make room for six lenses. Near the angled walls a parallel row can run out of width before a lens rim clears the lid. Lay out the actual mounted samples, their handles and their identifiers at full scale before quoting the insert or choosing a decorative panel for the front.",
     "datePublished": "2026-11-23",
-    "dateModified": "2026-11-23",
-    "faq": [],
+    "dateModified": "2026-11-27",
+    "faq": [
+      [
+        "Why lay out hexagonal trial-lens slots before finalizing exterior branding?",
+        "The 120-degree angled walls of a hexagon constrain slot spacing at the corners; outer box diameter must accommodate safe divider thickness first."
+      ],
+      [
+        "How do you enable rim-only handling for mounted trial lenses?",
+        "Cut opposing finger-relief notches beside each lens rim and keep the diopter marking upright so operators never touch the glass surface."
+      ],
+      [
+        "What insert material works best for a six-lens hexagonal presentation case?",
+        "Firm closed-cell EVA foam (38–45 kg/m³) holds circular mounted rims securely while resisting divider tearing between adjacent angled slots."
+      ]
+    ],
     "cta": "Send the model revision, packed dimensions, accessory list, quantity and destination for a six trial lens hexagonal presentation case review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples and other fees.",
     "sections": [
       [
@@ -711,6 +792,10 @@
       [
         "What to include in the supplier brief",
         "<p>Mark the approved contact areas and the surfaces that must remain clear on a drawing of the packed instrument. Identify who supplies protective covers, who packs the device and who signs off the loaded sample. Compare the <a href=\"/products/six-trial-lens-hexagonal-presentation-case\">six trial lens hexagonal presentation case concept</a> with the device owner’s approved transport packaging. Request separate prices for the presentation box, insert, sample and shipping outer.</p><p>Technical reference: <a href=\"https://www.oculus.de/en/wp-content/uploads/sites/12/2024/07/Trial_Lens_Cases_en_2402.pdf\">OCULUS trial lens case and module catalogue</a>. Model-specific instructions take precedence. This article addresses secondary packaging for new equipment and makes no sterile-barrier or clinical-use claim.</p>"
+      ],
+      [
+        "Hexagonal trial-lens slot spacing and rim-handling checks",
+        "<table class=\"comparison-table\"><thead><tr><th>Check point</th><th>Geometry constraint</th><th>Sample verification</th></tr></thead><tbody><tr><td>Angled hexagon walls</td><td>Corner slots crowd nearest the 120° wall joints</td><td>Verify minimum 4–5 mm wall thickness at narrowest corner</td></tr><tr><td>Diopter label visibility</td><td>Operators touch glass if power markings are hidden</td><td>Keep lens power tag facing upward above the slot rim</td></tr><tr><td>Rim-only removal</td><td>Tight slots force fingers onto optical lens face</td><td>Add paired finger-lift notches on opposite sides of rim</td></tr></tbody></table><p>Verify closed lid clearance above all six mounted lens rims before finalizing outer foil or logo placement.</p>"
       ]
     ]
   },
