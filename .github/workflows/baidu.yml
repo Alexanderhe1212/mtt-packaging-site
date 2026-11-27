@@ -1,12 +1,6 @@
-name: Baidu URL submission
+name: Baidu URL submission (disabled automatic triggers)
 on:
-  workflow_run:
-    workflows: ["Deploy MTT Packaging"]
-    types: [completed]
-    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: '23 2 * * *'
 permissions:
   contents: write
 concurrency:
