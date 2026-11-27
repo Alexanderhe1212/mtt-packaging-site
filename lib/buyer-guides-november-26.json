@@ -84,9 +84,9 @@
     "title": "Emboss vs. Deboss on Rigid Boxes: Tooling, Paper Weight & Limits",
     "seoTitle": "Emboss vs Deboss on Rigid Boxes: Tooling & Paper | MTT",
     "summary": "Understand emboss vs. deboss on rigid boxes and folding cartons: brass vs. magnesium dies, paper weight limits, and why debossing is preferred on greyboard.",
-    "intro": "On paper-wrapped rigid boxes, blind debossing (recessing the logo) is far more common than embossing (raising it) because rigid greyboard cannot be stamped cleanly from the back once laminated. To emboss a rigid box lid, the 120–157 gsm wrapping paper must be stamped flat before wrapping—requiring careful registration and risking crush during box assembly. Folding cartons (300–400 gsm) can be embossed or debossed in-line with brass or magnesium dies.",
+    "intro": "On paper-wrapped rigid boxes, blind debossing (recessing the logo) is far more common than embossing (raising it) because rigid greyboard cannot be stamped cleanly from the back once laminated. To emboss a rigid box lid, the 120–157 gsm wrapping paper must be stamped flat before wrapping, requiring careful registration and risking crush during box assembly. Folding cartons (300–400 gsm) can be embossed or debossed in-line with brass or magnesium dies.",
     "datePublished": "2026-11-26",
-    "dateModified": "2026-11-26",
+    "dateModified": "2026-11-27",
     "faq": [
       [
         "Why is debossing easier than embossing on a rigid gift box?",
@@ -109,7 +109,7 @@
       ],
       [
         "Preventing paper cracking and laminate lift",
-        "<p>Deep embossing on 350 gsm folding cartons can crack coated surfaces if the die edges are too sharp or the paper grain runs perpendicular to the longest stroke. Softening the die shoulder slightly and using a tougher 157 gsm wrap or long-fiber dyed paper prevents white stress lines around the logo.</p>"
+        "<p>Deep embossing on 350 gsm folding cartons can crack coated surfaces if the die edges are too sharp or the paper grain runs perpendicular to the longest stroke. Softening the die shoulder slightly and using a tougher 157 gsm wrap or long-fiber dyed paper prevents white stress lines around the logo.</p> <p>See these finishes applied on our <a href=\"/products/custom-v-groove-magnetic-rigid-box\">custom V-grooved magnetic rigid box</a> and <a href=\"/packaging/custom-rigid-boxes\">rigid gift box</a> line.</p>"
       ]
     ]
   },
@@ -368,7 +368,7 @@
     "summary": "Set up scannable UPC/EAN-13 GS1 barcodes, QR codes, lot-coding varnish knockouts, and recycling symbols (Mobius loop, Triman) on custom boxes.",
     "intro": "A retail carton fails warehouse receiving if its barcode cannot scan on the first pass. Print GS1 EAN-13 or UPC-A barcodes in 100% black (K-only) ink against a white or light background, keep at least 3.6 mm left and 2.3 mm right quiet zones clear of artwork or creases, and leave an unvarnished knockout window for thermal or inkjet lot/expiry coding. Never print regulatory recycling marks without confirming destination market rules.",
     "datePublished": "2026-11-26",
-    "dateModified": "2026-11-26",
+    "dateModified": "2026-11-27",
     "faq": [
       [
         "What color should a retail barcode be printed in on custom packaging?",
@@ -395,7 +395,7 @@
       ],
       [
         "Check destination recycling and PPWR markings",
-        "<p>Before locking print plates for Europe, the UK, or North America, confirm which disposal or sorting icons (such as France's Triman Info-Tri, EU PPWR material codes, or Mobius loops) your brand legal counsel requires per SKU. Keep symbols at legible minimum heights (typically ≥6–10 mm) as detailed in our <a href=\"/insights/packaging-typography-small-print\">small-print typography guide</a> and <a href=\"/ppwr-compliant-packaging\">PPWR packaging overview</a>.</p>"
+        "<p>Before locking print plates for Europe, the UK, or North America, confirm which disposal or sorting icons (such as France's Triman Info-Tri, EU PPWR material codes, or Mobius loops) your brand legal counsel requires per SKU. Keep symbols at legible minimum heights (typically ≥6–10 mm) as detailed in our <a href=\"/insights/packaging-typography-small-print\">small-print typography guide</a> and <a href=\"/ppwr-compliant-packaging\">PPWR packaging overview</a>.</p> <p>Review our <a href=\"/products/custom-foil-stamped-folding-carton\">custom foil-stamped folding carton</a> and <a href=\"/packaging/folding-cartons\">folding cartons</a> preflight specs.</p>"
       ]
     ]
   }
