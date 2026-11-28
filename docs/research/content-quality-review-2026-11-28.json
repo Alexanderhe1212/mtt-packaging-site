@@ -138,5 +138,135 @@
       "https://mttpackaging.com/packaging/custom-paper-bags",
       "https://mttpackaging.com/insights/euro-tote-bags-wholesale-gsm-handle-load-guide"
     ]
+  },
+  {
+    "slug": "sleeved-print-stack-portfolio-box-depth",
+    "primaryQuery": "sleeved print stack portfolio box depth",
+    "searchEvidence": "Buyer-question hypothesis; no measured search volume.",
+    "customerDecision": "How deep should a box be for a sleeved print edition?",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 85,
+    "reviewEvidence": [
+      "Measure the loaded corners",
+      "Quote the shortest and deepest editions",
+      "Approve the closure with a dummy edition"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.loc.gov/preservation/care/paper.html"
+    ]
+  },
+  {
+    "slug": "photo-print-box-sleeve-or-folder",
+    "primaryQuery": "photo print box sleeve or folder",
+    "searchEvidence": "Buyer-question hypothesis; no measured search volume.",
+    "customerDecision": "Should a photographic print box use sleeves or folders?",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 85,
+    "reviewEvidence": [
+      "Start with the printing studio",
+      "Separate the two supplier decisions",
+      "Write a useful acceptance note"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.loc.gov/preservation/care/photo.html"
+    ]
+  },
+  {
+    "slug": "flat-art-print-mailer-corner-protection",
+    "primaryQuery": "flat art print mailer corner protection",
+    "searchEvidence": "Buyer-question hypothesis; no measured search volume.",
+    "customerDecision": "How do I keep print corners clear of a flat mailer closure?",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 85,
+    "reviewEvidence": [
+      "Draw the swept path",
+      "Test two different failures",
+      "Agree what the receiver will inspect"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.loc.gov/preservation/care/paper.html"
+    ]
+  },
+  {
+    "slug": "matted-print-box-lift-out-carrier",
+    "primaryQuery": "matted print box lift out carrier",
+    "searchEvidence": "Buyer-question hypothesis; no measured search volume.",
+    "customerDecision": "How can a customer lift a matted print from a shallow box?",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 85,
+    "reviewEvidence": [
+      "Follow the first and last lift",
+      "Choose where to attach the tab",
+      "Check the return movement"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.loc.gov/preservation/care/paper.html"
+    ]
+  },
+  {
+    "slug": "edition-certificate-pocket-number-matching",
+    "primaryQuery": "edition certificate pocket number matching",
+    "searchEvidence": "Buyer-question hypothesis; no measured search volume.",
+    "customerDecision": "Where should the certificate go in a numbered print box?",
+    "score": {
+      "customer": 9,
+      "insight": 17,
+      "technical": 17,
+      "human": 13,
+      "seo": 8,
+      "geo": 8,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 85,
+    "reviewEvidence": [
+      "Match numbers before closing the box",
+      "Place the pocket around the signature",
+      "Run a deliberate mismatch"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://www.loc.gov/preservation/care/paper.html"
+    ]
   }
 ]

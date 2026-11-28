@@ -4,6 +4,11 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "sleeved-print-stack-portfolio-box-depth",
+      "photo-print-box-sleeve-or-folder",
+      "flat-art-print-mailer-corner-protection",
+      "matted-print-box-lift-out-carrier",
+      "edition-certificate-pocket-number-matching",
       "corrugated-shipping-carton-sizes-pallet-stacking-guide",
       "litho-laminated-vs-direct-flexo-corrugated-boxes",
       "box-dimensions-lxwxh-measurement-guide",

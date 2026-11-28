@@ -3,6 +3,7 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {"articles": ["sleeved-print-stack-portfolio-box-depth", "photo-print-box-sleeve-or-folder", "flat-art-print-mailer-corner-protection", "matted-print-box-lift-out-carrier", "edition-certificate-pocket-number-matching"], "products": ["matted-print-edition-portfolio-box", "sleeved-art-print-flat-mailer", "custom-litho-laminated-corrugated-mailer"]},
   {articles:["pms-pantone-color-matching-packaging-print-guide", "cmyk-vs-spot-colour-packaging", "offset-vs-digital-vs-flexo-gravure-packaging-printing", "foil-stamping-spot-uv-lamination-packaging-finishes"],products:["custom-foil-stamped-folding-carton", "custom-auto-bottom-retail-folding-carton", "custom-cotton-cord-luxury-retail-paper-bag"]},
   {articles:["rigid-drawer-box-ribbon-pull-thumb-notch-guide", "drawer-box-clearance-ribbon-pull", "custom-rigid-box-greyboard-v-groove-guide", "foam-inserts-eva-vs-epe-vs-pu-packaging-guide"],products:["travel-fragrance-trio-drawer", "custom-v-groove-magnetic-rigid-box", "custom-eva-foam-insert-rigid-box"]},
   {articles:["collapsible-fold-flat-rigid-box-cbm-freight-guide", "collapsible-rigid-box-assembly-checklist", "reduce-shipping-costs-rigid-boxes", "skincare-gift-box-1000-units-flat-vs-assembled"],products:["custom-fold-flat-collapsible-rigid-gift-box", "skincare-ritual-collapsible-magnetic-rigid-box", "perfume-duo-collapsible-magnetic-rigid-box"]},

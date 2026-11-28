@@ -208,5 +208,195 @@
         "<p>Dyed cotton cords and grosgrain ribbons come in stock color cards unless ordered in large dye-lot volumes. Approve physical cord swatches beside your laminated bag sheet under retail lighting, and hang a loaded sample with real filled boxes for 24 hours to verify zero hole tearing. Review full bag sizing rules in our <a href=\"/insights/euro-tote-bags-wholesale-gsm-handle-load-guide\">Euro tote GSM and gusset guide</a> and <a href=\"/insights/paper-bag-size-handles-load-check\">paper bag load checklist</a>.</p>"
       ]
     ]
+  },
+  {
+    "slug": "sleeved-print-stack-portfolio-box-depth",
+    "number": "185",
+    "angle": "Print edition procurement",
+    "image": "/products/mtt-r0103-1.webp",
+    "imageAlt": "Reference for the magnetic book box opening structure",
+    "title": "How deep should a box be for a sleeved print edition?",
+    "seoTitle": "How deep should a box be for a sleeved print edition? | MTT",
+    "summary": "Size the cavity from the complete sleeved edition, including folded seams, mats and the certificate packet. Measure the loaded corners before sample approval.",
+    "intro": "Size the cavity from the complete sleeved edition, including folded seams, mats and the certificate packet. A stack measured at its centre can understate the height along one edge. Send both measurements and a representative packed set before approving a rigid portfolio box.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "Can I size the box by multiplying paper thickness by print count?",
+        "Use that calculation for a first estimate. Folded sleeve edges, mounts and the certificate wallet contribute to the assembled depth, so measure a packed dummy before tooling."
+      ]
+    ],
+    "cta": "Send the packed dimensions, edition size, quantity per design and delivery destination. Custom projects start at 1,000 pieces per design and US$2,000 in product value per order, excluding freight, samples and other fees.",
+    "sections": [
+      [
+        "Measure the loaded corners",
+        "Lay the edition on a flat support in pack order. Measure the four corners and centre with the stack resting naturally. If one side rises where sleeve seams align, try alternating seam orientation only if the packing team can repeat it reliably. Record the orientation on the assembly sheet."
+      ],
+      [
+        "Quote the shortest and deepest editions",
+        "For an illustrative 12-print set, removing six prints can leave the top half of the cavity empty. Compare separate box depths with one common shell and a removable false bottom. The common shell simplifies artwork but adds a component that can be omitted at packing."
+      ],
+      [
+        "Approve the closure with a dummy edition",
+        "Use sacrificial sheets in the production sleeves, then close and reopen the case. Look for a polished line where the lid rubbed the top sleeve, compressed mat corners or a lid sitting proud. Record the accepted stack height and revise the cavity if any contact persists."
+      ],
+      [
+        "What to send for a sample",
+        "<p>Include the stack measurements and sleeve seam layout. Review the <a href=\"/products/matted-print-edition-portfolio-box\">matted print edition portfolio box</a> with the packing team. For background on protective enclosures and handling, see the <a href=\"https://www.loc.gov/preservation/care/paper.html\">Library of Congress collection care guidance</a>. The prototype checks above are proposed purchasing checks.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "photo-print-box-sleeve-or-folder",
+    "number": "186",
+    "angle": "Print edition procurement",
+    "image": "/products/mtt-r0103-0.webp",
+    "imageAlt": "Reference for the magnetic book box opening structure",
+    "title": "Should a photographic print box use sleeves or folders?",
+    "seoTitle": "Should a photographic print box use sleeves or folders? | MTT",
+    "summary": "Choose the primary enclosure from the photographic process and how often the buyer will view the print. Start with the printing studio before sample approval.",
+    "intro": "Choose the primary enclosure from the photographic process and how often the buyer will view the print. Then design the presentation box around that enclosure. Ask for documentation for the exact contact material before using photo-safe language in a purchase order or on a retail label.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "Does a photo-safe sleeve make the whole box archival?",
+        "A sleeve supplier can document its own material. Assess the intended storage conditions and every component relevant to the claim before printing it on the box."
+      ]
+    ],
+    "cta": "Send the packed dimensions, edition size, quantity per design and delivery destination. Custom projects start at 1,000 pieces per design and US$2,000 in product value per order, excluding freight, samples and other fees.",
+    "sections": [
+      [
+        "Start with the printing studio",
+        "Identify the image process, finish and storage conditions. A folder lets a print rest on a support while the buyer opens the cover. A transparent sleeve allows inspection through the material, but inserting a vulnerable surface can involve friction. Test the loading movement with a spare from the same print run."
+      ],
+      [
+        "Separate the two supplier decisions",
+        "Request a supplier reference and relevant photographic activity test documentation for the enclosure. Record paper, adhesive and lining separately. Evidence for a sleeve cannot establish the performance of a decorative box, and a description such as acid-free leaves other material questions open."
+      ],
+      [
+        "Write a useful acceptance note",
+        "Ask the packer to identify the side that opens, the surface that can be touched and the orientation of the image. Have a second person pack and retrieve a dummy using only that note. If they must grip the printed face, change access before selecting decoration."
+      ],
+      [
+        "What to send for a sample",
+        "<p>Include the identified print process and enclosure supplier reference. Review the <a href=\"/products/matted-print-edition-portfolio-box\">matted print edition portfolio box</a> with the packing team. For background on protective enclosures and handling, see the <a href=\"https://www.loc.gov/preservation/care/photo.html\">Library of Congress collection care guidance</a>. The prototype checks above are proposed purchasing checks.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "flat-art-print-mailer-corner-protection",
+    "number": "187",
+    "angle": "Print edition procurement",
+    "image": "/products/mtt-e0101-1.webp",
+    "imageAlt": "Reference for the roll-end mailer opening structure",
+    "title": "How do I keep print corners clear of a flat mailer closure?",
+    "seoTitle": "How do I keep print corners clear of a flat mailer closure? | MTT",
+    "summary": "Build the shipping sample around the finished sleeve and backing sheet. Draw the swept path before sample approval.",
+    "intro": "Build the shipping sample around the finished sleeve and backing sheet. Position folded stops outside the artwork footprint, then trace where the locking tabs travel during closing. An empty mailer can shut cleanly while a loaded one drives a tab into the corner of an edition.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "What should I photograph after a parcel trial?",
+        "Take the same corner and surface views before packing and after opening. Include the flap position and the stiffeners so that the packer can locate the source of any mark."
+      ]
+    ],
+    "cta": "Send the packed dimensions, edition size, quantity per design and delivery destination. Custom projects start at 1,000 pieces per design and US$2,000 in product value per order, excluding freight, samples and other fees.",
+    "sections": [
+      [
+        "Draw the swept path",
+        "Use a pencil on a dummy backing sheet to mark the area occupied by each tab as the lid turns. Check the tallest packed version. Move a stop, change flap depth or increase the panel margin if the path overlaps the sleeve. Increasing the entire mailer also changes parcel dimensions."
+      ],
+      [
+        "Test two different failures",
+        "An edge stop can prevent sliding yet leave the middle free to bow. Compare a loaded prototype with one using a second stiffener. Support each as it will be handled and inspect the dummy for a crease or compressed edge. Extra board may increase packed weight; weigh both versions before choosing."
+      ],
+      [
+        "Agree what the receiver will inspect",
+        "Photograph the dummy corners before the trial. After a representative delivery, open the mailer in order and record external dents separately from shifted stiffeners, sleeve scuffs and bent corners. A single trial helps compare designs but does not establish a shipping damage rate."
+      ],
+      [
+        "What to send for a sample",
+        "<p>Include the folded tab drawing and destination. Review the <a href=\"/products/sleeved-art-print-flat-mailer\">flat mailer for sleeved art prints</a> with the packing team. For background on protective enclosures and handling, see the <a href=\"https://www.loc.gov/preservation/care/paper.html\">Library of Congress collection care guidance</a>. The prototype checks above are proposed purchasing checks.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "matted-print-box-lift-out-carrier",
+    "number": "188",
+    "angle": "Print edition procurement",
+    "image": "/products/mtt-r0103-2.webp",
+    "imageAlt": "Reference for the magnetic book box opening structure",
+    "title": "How can a customer lift a matted print from a shallow box?",
+    "seoTitle": "How can a customer lift a matted print from a shallow box? | MTT",
+    "summary": "Give the buyer a way to lift a support under the mat. Follow the first and last lift before sample approval.",
+    "intro": "Give the buyer a way to lift a support under the mat. Fingers reaching into a close cavity can press its bevel or touch the image. Compare edge access, a lift-out carrier and a tab on the carrier using the smallest and largest mounts in the edition.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "Should the ribbon go directly under a loose print?",
+        "Prototype a pull attached to the backing carrier so the carrier takes the load. Check the final sheet as well as the full set."
+      ]
+    ],
+    "cta": "Send the packed dimensions, edition size, quantity per design and delivery destination. Custom projects start at 1,000 pieces per design and US$2,000 in product value per order, excluding freight, samples and other fees.",
+    "sections": [
+      [
+        "Follow the first and last lift",
+        "Load the full set and observe where the hand goes first. Repeat with only the last mat left. A shallow notch may work at the top of a full stack yet leave the final sheet beyond reach. A carrier spanning the base gives the final mat support during removal."
+      ],
+      [
+        "Choose where to attach the tab",
+        "Attach a prototype pull to the backing carrier, away from the image and bevel. A central pull can tip a wide mat; two broad grip positions can keep it level but require two hands. Ask whether the intended user opens the box on a counter or holds it during presentation."
+      ],
+      [
+        "Check the return movement",
+        "Have a new tester put the mat back without instructions. Look for bent corners, a tab trapped under the backing or a lid that presses a folded tab against the image. Send the accepted grip location and packing sequence with the artwork files."
+      ],
+      [
+        "What to send for a sample",
+        "<p>Include the widest mat and intended grip position. Review the <a href=\"/products/matted-print-edition-portfolio-box\">matted print edition portfolio box</a> with the packing team. For background on protective enclosures and handling, see the <a href=\"https://www.loc.gov/preservation/care/paper.html\">Library of Congress collection care guidance</a>. The prototype checks above are proposed purchasing checks.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "edition-certificate-pocket-number-matching",
+    "number": "189",
+    "angle": "Print edition procurement",
+    "image": "/products/mtt-r0103-3.webp",
+    "imageAlt": "Reference for the magnetic book box opening structure",
+    "title": "Where should the certificate go in a numbered print box?",
+    "seoTitle": "Where should the certificate go in a numbered print box? | MTT",
+    "summary": "Specify how the packer matches each edition number before choosing a certificate pocket. Match numbers before closing the box before sample approval.",
+    "intro": "Specify how the packer matches each edition number before choosing a certificate pocket. A lid pocket makes the document easy to find, while a separate wallet can travel with a framed print. Prototype both with the actual certificate, signature position and loaded box.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "Can the same pocket hold different editions?",
+        "Try each certificate size and signature position. A common pocket works only if a receiver can read and remove every version without catching the corners."
+      ]
+    ],
+    "cta": "Send the packed dimensions, edition size, quantity per design and delivery destination. Custom projects start at 1,000 pieces per design and US$2,000 in product value per order, excluding freight, samples and other fees.",
+    "sections": [
+      [
+        "Match numbers before closing the box",
+        "Set one print and one certificate at the station. Compare identifiers, record the pair and move the complete pair together. If a sheet needs replacement, hold its partner with it until the studio resolves the number. Use dummy identifiers for the first packaging trial."
+      ],
+      [
+        "Place the pocket around the signature",
+        "Check whether a thumb cut exposes the signature, whether the card can escape when the lid opens and whether its corners project into the stack. A wallet costs an extra packing step but can accompany the buyer independently. Ask the studio which item the recipient will keep with the framed work."
+      ],
+      [
+        "Run a deliberate mismatch",
+        "Give a trial packer two dummy sets with adjacent numbers and switch the certificates. Observe whether the written procedure catches the switch before sealing. Then reopen one completed box: the number should be legible without lifting the print or pulling against the signed face."
+      ],
+      [
+        "What to send for a sample",
+        "<p>Include the certificate dimensions and packing sequence. Review the <a href=\"/products/matted-print-edition-portfolio-box\">matted print edition portfolio box</a> with the packing team. For background on protective enclosures and handling, see the <a href=\"https://www.loc.gov/preservation/care/paper.html\">Library of Congress collection care guidance</a>. The prototype checks above are proposed purchasing checks.</p>"
+      ]
+    ]
   }
 ]
