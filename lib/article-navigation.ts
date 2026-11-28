@@ -3,6 +3,11 @@ import {products} from './products';
 
 // Editorial groupings: shared buying decisions, not catalogue position or keyword stuffing.
 const topics = [
+  {articles:["pms-pantone-color-matching-packaging-print-guide", "cmyk-vs-spot-colour-packaging", "offset-vs-digital-vs-flexo-gravure-packaging-printing", "foil-stamping-spot-uv-lamination-packaging-finishes"],products:["custom-foil-stamped-folding-carton", "custom-auto-bottom-retail-folding-carton", "custom-cotton-cord-luxury-retail-paper-bag"]},
+  {articles:["rigid-drawer-box-ribbon-pull-thumb-notch-guide", "drawer-box-clearance-ribbon-pull", "custom-rigid-box-greyboard-v-groove-guide", "foam-inserts-eva-vs-epe-vs-pu-packaging-guide"],products:["travel-fragrance-trio-drawer", "custom-v-groove-magnetic-rigid-box", "custom-eva-foam-insert-rigid-box"]},
+  {articles:["collapsible-fold-flat-rigid-box-cbm-freight-guide", "collapsible-rigid-box-assembly-checklist", "reduce-shipping-costs-rigid-boxes", "skincare-gift-box-1000-units-flat-vs-assembled"],products:["custom-fold-flat-collapsible-rigid-gift-box", "skincare-ritual-collapsible-magnetic-rigid-box", "perfume-duo-collapsible-magnetic-rigid-box"]},
+  {articles:["corrugated-shipping-carton-sizes-pallet-stacking-guide", "rigid-gift-box-shipping-outer-carton", "corrugated-fiberboard-flute-ect-shipping-box-guide", "litho-laminated-vs-direct-flexo-corrugated-boxes"],products:["custom-litho-laminated-corrugated-mailer", "custom-skincare-duo-rsc", "custom-corrugated-packaging-set"]},
+  {articles:["luxury-paper-bag-handles-cotton-ribbon-twisted-guide", "euro-tote-bags-wholesale-gsm-handle-load-guide", "paper-bag-size-handles-load-check", "custom-printed-tissue-paper-gift-box-guide"],products:["custom-cotton-cord-luxury-retail-paper-bag", "custom-euro-tote-luxury-paper-bag", "single-wine-cotton-handle-paper-bag"]},
   {articles:["litho-laminated-vs-direct-flexo-corrugated-boxes", "corrugated-fiberboard-flute-ect-shipping-box-guide", "die-cut-packaging-steel-rule-tolerances-guide", "dieline-artwork-setup-folding-carton-rigid-box"],products:["custom-litho-laminated-corrugated-mailer", "custom-corrugated-packaging-set", "three-compartment-skincare-mailer"]},
   {articles:["sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board", "folding-carton-closure-selection", "foil-stamping-spot-uv-lamination-packaging-finishes", "packaging-barcodes-compliance-symbols-print-guide"],products:["custom-auto-bottom-retail-folding-carton", "custom-foil-stamped-folding-carton", "custom-skincare-duo-auto-bottom"]},
   {articles:["shoulder-neck-rigid-box-tolerance-reveal-guide", "two-piece-rigid-box-lid-fit", "custom-rigid-box-greyboard-v-groove-guide", "dropper-serum-shoulder-neck-box-fit"],products:["dropper-serum-and-refill-shoulder-rigid-box", "face-cream-presentation-shoulder", "custom-v-groove-magnetic-rigid-box"]},
@@ -133,6 +138,11 @@ const topics = [
   {articles:['two-candle-jars-drawer-box-insert-fit','candle-accessory-channel-packout-check','luxury-gift-box-sample-approval-witness-marks','candle-box-glass-jar-protection','custom-inserts-product-protection'],products:['two-candle-jar-wick-tool-drawer-box','custom-candle-packaging-set','candle-duo-collapsible-magnetic-rigid-box']},
 ];
 const specificProducts: Record<string,string[]> = {
+  'pms-pantone-color-matching-packaging-print-guide':['custom-foil-stamped-folding-carton','custom-auto-bottom-retail-folding-carton','custom-cotton-cord-luxury-retail-paper-bag'],
+  'rigid-drawer-box-ribbon-pull-thumb-notch-guide':['travel-fragrance-trio-drawer','custom-v-groove-magnetic-rigid-box','custom-eva-foam-insert-rigid-box'],
+  'collapsible-fold-flat-rigid-box-cbm-freight-guide':['custom-fold-flat-collapsible-rigid-gift-box','skincare-ritual-collapsible-magnetic-rigid-box','perfume-duo-collapsible-magnetic-rigid-box'],
+  'corrugated-shipping-carton-sizes-pallet-stacking-guide':['custom-litho-laminated-corrugated-mailer','custom-skincare-duo-rsc','custom-corrugated-packaging-set'],
+  'luxury-paper-bag-handles-cotton-ribbon-twisted-guide':['custom-cotton-cord-luxury-retail-paper-bag','custom-euro-tote-luxury-paper-bag','single-wine-cotton-handle-paper-bag'],
   'litho-laminated-vs-direct-flexo-corrugated-boxes':['custom-litho-laminated-corrugated-mailer','custom-corrugated-packaging-set','three-compartment-skincare-mailer'],
   'sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board':['custom-auto-bottom-retail-folding-carton','custom-foil-stamped-folding-carton','custom-skincare-duo-auto-bottom'],
   'shoulder-neck-rigid-box-tolerance-reveal-guide':['dropper-serum-and-refill-shoulder-rigid-box','face-cream-presentation-shoulder','custom-v-groove-magnetic-rigid-box'],

@@ -4,6 +4,7 @@ export const knowledgeTopics = [
     "title": "Product families",
     "description": "Start with the packaging system: compare boxes, bags and inserts before specifying individual components.",
     "slugs": [
+      "corrugated-shipping-carton-sizes-pallet-stacking-guide",
       "litho-laminated-vs-direct-flexo-corrugated-boxes",
       "box-dimensions-lxwxh-measurement-guide",
       "offset-vs-digital-vs-flexo-gravure-packaging-printing",
@@ -66,6 +67,7 @@ export const knowledgeTopics = [
     "title": "Structure and protection",
     "description": "Resolve openings, support points, clearance and removal with the actual product.",
     "slugs": [
+      "rigid-drawer-box-ribbon-pull-thumb-notch-guide",
       "shoulder-neck-rigid-box-tolerance-reveal-guide",
       "two-tea-tins-scoop-gift-box-insert",
       "drip-coffee-sachet-drawer-divider-fit",
@@ -117,6 +119,7 @@ export const knowledgeTopics = [
     "title": "Industry applications",
     "description": "Plan complete sets for fragrance, skincare, jewelry, drinks and seasonal gifts.",
     "slugs": [
+      "luxury-paper-bag-handles-cotton-ribbon-twisted-guide",
       "custom-printed-tissue-paper-gift-box-guide",
       "apparel-gift-box-paper-bag-set",
       "reed-diffuser-room-spray-gift-box-insert",
@@ -167,6 +170,7 @@ export const knowledgeTopics = [
     "title": "Materials and finishes",
     "description": "Compare board, inserts and decoration, then define the evidence behind environmental claims.",
     "slugs": [
+      "pms-pantone-color-matching-packaging-print-guide",
       "sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board",
       "round-packaging-barcode-curvature-review",
       "jewelry-box-and-earring-card-logo-alignment",
@@ -199,6 +203,7 @@ export const knowledgeTopics = [
     "title": "Procurement and delivery",
     "description": "Prepare the brief, compare costs, approve samples and keep repeat orders consistent.",
     "slugs": [
+      "collapsible-fold-flat-rigid-box-cbm-freight-guide",
       "die-cut-packaging-steel-rule-tolerances-guide",
       "shaped-rigid-box-supplier-quote-comparison",
       "compare-custom-packaging-supplier-quotes",

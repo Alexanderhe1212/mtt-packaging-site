@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "pms-pantone-color-matching-packaging-print-guide",
+    "primaryQuery": "pantone matching system",
+    "searchEvidence": "Competitor gap US keyword (pantone matching system Vol 2400, KD 48; pms color Vol 1900; hex pms Vol 1300). Core print color-matching specification guide.",
+    "customerDecision": "Specify Pantone Solid Coated (C) vs. Uncoated (U) targets, convert Hex values accurately, and approve wet drawdowns under lamination before mass printing",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Comparison table across Pantone C, Pantone U, 4-color CMYK, and Hex screen values",
+      "Matte BOPP lamination darkening effect on dark brand solids and porous fiber ink absorption",
+      "D50 viewing booth and wet press drawdown approval before 1,000+ runs"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/packaging/folding-cartons",
+      "https://mttpackaging.com/insights/offset-vs-digital-vs-flexo-gravure-packaging-printing",
+      "https://mttpackaging.com/products/custom-foil-stamped-folding-carton"
+    ]
+  },
+  {
+    "slug": "rigid-drawer-box-ribbon-pull-thumb-notch-guide",
+    "primaryQuery": "rigid drawer box",
+    "searchEvidence": "High-value rigid box engineering comparison covering ribbon pull tabs vs. die-cut thumb notches and sleeve glide tolerance.",
+    "customerDecision": "Choose between ribbon pull tabs, die-cut thumb notches, and push-through sleeves while specifying 1.0–1.5 mm slide clearance and loaded friction tests",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Comparison table of ribbon pulls, 18–22 mm thumb notches, and push-through sleeves",
+      "Hot-cut thermal ribbon sealing and through-slot greyboard anchoring behind inner liner",
+      "1.0–1.5 mm total width/height slide clearance and 20-cycle loaded sample check"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/packaging/custom-rigid-boxes",
+      "https://mttpackaging.com/insights/drawer-box-clearance-ribbon-pull",
+      "https://mttpackaging.com/products/travel-fragrance-trio-drawer"
+    ]
+  },
+  {
+    "slug": "collapsible-fold-flat-rigid-box-cbm-freight-guide",
+    "primaryQuery": "collapsible rigid box",
+    "searchEvidence": "90-day operating plan milestone (assembled vs. flat-packed CBM comparison) paired with custom rigid boxes commercial intent.",
+    "customerDecision": "Evaluate fold-flat collapsible rigid boxes vs. pre-assembled rigid boxes by CBM volume savings, warehouse erection labor, and corner lock durability",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Illustrative 1,000-unit CBM comparison table for a 240 x 180 x 95 mm gift box (~4.6–5.2 CBM vs. ~1.1–1.4 CBM)",
+      "Peel-and-stick acrylic corner triangles vs. concealed corner magnets tradeoffs",
+      "Hinge wrap BOPP lamination requirement and <45 mm shallow-box crossover rule"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-fold-flat-collapsible-rigid-gift-box",
+      "https://mttpackaging.com/insights/collapsible-rigid-box-assembly-checklist",
+      "https://mttpackaging.com/insights/reduce-shipping-costs-rigid-boxes"
+    ]
+  },
+  {
+    "slug": "corrugated-shipping-carton-sizes-pallet-stacking-guide",
+    "primaryQuery": "shipping box sizes",
+    "searchEvidence": "Competitor gap US keyword (shipping box sizes Vol 2400, KD 39; shipping box dimensions Vol 1900, KD 24). Export master carton sizing guide.",
+    "customerDecision": "Size export master shipping cartons around inner gift boxes with 12–20 kg weight caps, 32/44 ECT vs. BC double-wall grades, and GMA/Euro pallet alignment",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Export board comparison table: 32 ECT C-flute, 44 ECT B/C-flute, and 5-ply BC double-wall (6.0–7.0 mm)",
+      "12–20 kg gross carton weight cap and zero-overhang 1200 x 1000 mm / 1200 x 800 mm pallet alignment",
+      "Inner finish scuff protection via poly-sleeves, tissue wrap, and top/bottom pad sheets"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/packaging/corrugated-boxes",
+      "https://mttpackaging.com/insights/rigid-gift-box-shipping-outer-carton",
+      "https://mttpackaging.com/products/custom-litho-laminated-corrugated-mailer"
+    ]
+  },
+  {
+    "slug": "luxury-paper-bag-handles-cotton-ribbon-twisted-guide",
+    "primaryQuery": "reusable bags with logo",
+    "searchEvidence": "Competitor gap US keyword (reusable bags with logo Vol 1600, KD 26, CPC $4.71; custom reusable shopping bags Vol 1300). Retail paper bag handle engineering guide.",
+    "customerDecision": "Select cotton cord, grosgrain ribbon, twisted kraft paper, or die-cut handles by carry load, turnover board reinforcement, and mono-material recyclability",
+    "score": {
+      "customer": 9,
+      "insight": 18,
+      "technical": 18,
+      "human": 14,
+      "seo": 9,
+      "geo": 9,
+      "trust": 9,
+      "conversion": 4
+    },
+    "total": 90,
+    "reviewEvidence": [
+      "Four-handle comparison table: 5–6 mm cotton cord, 15–20 mm grosgrain ribbon, twisted kraft paper, and die-cut slot",
+      "35–40 cm hand-carry vs. 55–65 cm shoulder-carry cord drop sizing",
+      "450 gsm turnover top and bottom card reinforcement with 24-hour loaded hang test"
+    ],
+    "unresolvedFactualIssues": [],
+    "sources": [
+      "https://mttpackaging.com/products/custom-cotton-cord-luxury-retail-paper-bag",
+      "https://mttpackaging.com/packaging/custom-paper-bags",
+      "https://mttpackaging.com/insights/euro-tote-bags-wholesale-gsm-handle-load-guide"
+    ]
+  }
+]

@@ -60,7 +60,7 @@ print('Four-family comparison in EN/ZH static HTML; carton MOQ consistency passe
 
 # Product discovery maps must cover the catalogue and point to existing URLs.
 import csv
-catalogue = json.loads(Path('lib/products.json').read_text()) + json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())+json.loads(Path('lib/products-november-18.json').read_text())+json.loads(Path('lib/products-november-26.json').read_text())+json.loads(Path('lib/products-november-27.json').read_text())
+catalogue = json.loads(Path('lib/products.json').read_text()) + json.loads(Path('lib/products-expanded.json').read_text())+json.loads(Path('lib/products-november-17.json').read_text())+json.loads(Path('lib/products-november-18.json').read_text())+json.loads(Path('lib/products-november-26.json').read_text())+json.loads(Path('lib/products-november-27.json').read_text())+json.loads(Path('lib/products-november-28.json').read_text())
 keyword_rows = list(csv.DictReader(Path('docs/v15-keyword-map.csv').open()))
 keyword_json = json.loads(Path('docs/catalog/product-keywords.json').read_text())
 assert len(keyword_rows) == len(keyword_json) == len(catalogue)

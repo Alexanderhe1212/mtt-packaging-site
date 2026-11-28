@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "pms-pantone-color-matching-packaging-print-guide",
+    "number": "180",
+    "angle": "Color control & print engineering",
+    "image": "/products/mtt-c0101-0.webp",
+    "imageAlt": "Custom printed folding carton demonstrating Pantone spot color consistency on coated paperboard",
+    "title": "Pantone (PMS) Color Matching for Packaging: C vs. U & Drawdowns",
+    "seoTitle": "Pantone PMS Color Matching for Packaging | MTT",
+    "summary": "Specify Pantone (PMS) spot colors for custom boxes: Coated (C) vs. Uncoated (U) ink shift, Hex-to-PMS conversion, matte lamination shift, and press drawdowns.",
+    "intro": "Always specify Pantone Matching System (PMS) solid spot codes with the exact substrate suffix—Coated (C) for laminated art paper or SBS cartons, and Uncoated (U) for raw dyed specialty paper or kraft board—rather than sending RGB Hex codes alone. Screen Hex values convert poorly into CMYK process builds on dark, pastel, or metallic brand tones, and matte BOPP lamination slightly darkens and desaturates printed ink. Approve a physical ink drawdown or wet press proof on your actual production stock before mass printing 1,000+ boxes.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "Why does the same Pantone number look different on coated vs. uncoated box paper?",
+        "Uncoated and kraft papers absorb ink deeper into porous fibers, making Pantone U inks appear darker, warmer, and slightly muted compared to the same ink resting on clay-coated C1S art paper."
+      ],
+      [
+        "Can I send a website Hex code instead of a Pantone code for box printing?",
+        "Hex codes define backlit RGB screen pixels, not physical printing inks. Convert your Hex target to the closest physical Pantone Solid Coated (C) or Uncoated (U) swatch book reference, then confirm the match on a physical proof."
+      ],
+      [
+        "Does matte lamination change my Pantone brand color?",
+        "Yes. Matte and soft-touch BOPP films scatter surface light, typically making dark blues, greens, and blacks appear slightly deeper and softer while muting bright saturated reds or oranges."
+      ]
+    ],
+    "cta": "Share your Pantone C/U codes, target box substrate (coated art paper, dyed specialty stock, or kraft), lamination preference, quantity per design, and destination for a print-proofing review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Compare Pantone C, Pantone U, and 4-color CMYK",
+        "<p>Brand guidelines often list a single RGB Hex value or one Pantone code across a whole product line. In physical packaging production, paper coating and protective film change how light reflects off the ink film. Use this reference when specifying <a href=\"/packaging/folding-cartons\">folding cartons</a>, <a href=\"/packaging/custom-rigid-boxes\">rigid box wraps</a>, and matching retail bags.</p><table class=\"comparison-table\"><thead><tr><th>Color method</th><th>Best packaging use</th><th>Tolerance &amp; consistency</th><th>Watch-out on press</th></tr></thead><tbody><tr><td>Pantone Solid Coated (C)</td><td>157 gsm C2S wrap paper, 350 gsm SBS cartons</td><td>Tightest brand consistency across reorders</td><td>Matte BOPP film slightly deepens dark tones</td></tr><tr><td>Pantone Solid Uncoated (U)</td><td>Uncoated dyed specialty stock, white kraft</td><td>Consistent within same paper mill lot</td><td>Porous fibers absorb ink; dries flatter than C</td></tr><tr><td>4-Color CMYK Process</td><td>Photographic imagery, gradients, multi-color art</td><td>Normal press delta-E drift across runs</td><td>Avoid building large solid brand floods in CMYK</td></tr><tr><td>Hex / RGB Screen Value</td><td>Digital UI mockups only</td><td>Not a press specification</td><td>Must be mapped to physical PMS swatch book first</td></tr></tbody></table>"
+      ],
+      [
+        "Matching one brand color across boxes, bags, and inserts",
+        "<p>When a fragrance launch pairs a laminated rigid gift box with an uncoated cotton-cord paper bag and a kraft corrugated shipper, identical ink formulas will not look identical under retail lighting. Specify separate C and U Pantone targets for each substrate, or request a single-lot physical ink drawdown on the actual wrap stock. Review broader print selection rules in our <a href=\"/insights/offset-vs-digital-vs-flexo-gravure-packaging-printing\">offset vs. digital vs. flexo printing guide</a> and <a href=\"/insights/cmyk-vs-spot-colour-packaging\">CMYK vs. spot color case</a>.</p>"
+      ],
+      [
+        "Pre-press proof checks before releasing 1,000+ units",
+        "<p>Digital inkjet proofs simulate CMYK well but cannot reproduce true metallic Pantone 871C/877C gold/silver inks or soft-touch film darkening. For flagship SKUs, approve a wet press sample on the exact production board with final lamination applied, and record the approved Pantone swatch plus delta-E lighting standard (D50 viewing booth) in your specification sheet alongside our <a href=\"/products/custom-foil-stamped-folding-carton\">custom foil-stamped folding carton</a> and <a href=\"/insights/packaging-reorder-specification-change-control\">reorder control checklist</a>.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "rigid-drawer-box-ribbon-pull-thumb-notch-guide",
+    "number": "181",
+    "angle": "Rigid box structural engineering",
+    "image": "/products/mtt-r0102-0.webp",
+    "imageAlt": "Custom rigid drawer gift box showing outer sleeve fit and smooth sliding inner tray",
+    "title": "Rigid Drawer Boxes: Ribbon Pull vs. Thumb Notch & Slide Fit",
+    "seoTitle": "Rigid Drawer Box: Ribbon Pull vs. Thumb Notch | MTT",
+    "summary": "Compare ribbon pull tabs vs. die-cut thumb notches on rigid drawer boxes: pull-force limits, 1.0–1.5 mm sleeve clearance, ribbon heat-sealing, and sleeve sag.",
+    "intro": "Choose a die-cut semi-circular thumb notch on rigid drawer boxes when you want zero-plastic mono-material recycling, clean flush edges, and fast automated packing; choose a grosgrain or satin ribbon pull tab when a luxury unboxing reveal matters and the drawer carries heavier glass bottles up to roughly 1.2 kg. Keep 1.0–1.5 mm total width and height clearance between the wrapped inner tray and outer rigid sleeve so the drawer glides smoothly without binding under sea-freight humidity.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "How much clearance should a rigid drawer box have between the tray and sleeve?",
+        "Plan 1.0–1.5 mm total clearance across width and height after wrapping paper and lamination thickness are added. Less than 0.6 mm binds when humid air swells greyboard; more than 2.5 mm lets the tray tip and rattle."
+      ],
+      [
+        "Do ribbon pull tabs tear out on heavy glass gift sets?",
+        "Glue-only ribbon tabs can peel if a buyer yanks a heavy 1 kg+ drawer. Anchor the ribbon through a punched slot in the front greyboard wall and trap the tail behind the glued inner liner paper so pull force distributes across the board."
+      ],
+      [
+        "How do factories prevent satin or grosgrain ribbon pulls from fraying?",
+        "Production lines cut ribbon pulls with a heated thermal knife (hot-cut) rather than cold shears, fusing polyester fibers cleanly at the cut tip so threads do not unravel during retail handling."
+      ]
+    ],
+    "cta": "Send your product dimensions, filled tray weight, preferred pull style (thumb notch vs. ribbon pull), quantity per design, and destination for a drawer-fit engineering review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Compare ribbon pull tabs vs. die-cut thumb notches",
+        "<p>The opening mechanism on a rigid slide-out drawer box affects both perceived luxury and assembly durability. Compare the three standard pull constructions before finalizing your dieline on <a href=\"/packaging/custom-rigid-boxes\">custom rigid boxes</a>.</p><table class=\"comparison-table\"><thead><tr><th>Opening mechanism</th><th>Best product weight</th><th>Recyclability &amp; cost</th><th>Key engineering check</th></tr></thead><tbody><tr><td>Grosgrain / Satin Ribbon Pull</td><td>Medium to heavy glass (up to ~1.2 kg)</td><td>Mixed textile/paper; adds hand-gluing labor</td><td>Hot-cut tip + through-slot anchor behind inner liner</td></tr><tr><td>Die-Cut Thumb Notch (18–22 mm)</td><td>Light to medium SKUs (vials, jewelry, cosmetics)</td><td>100% mono-material paper; lowest unit cost</td><td>Avoid placing notch over thin outer foil borders</td></tr><tr><td>Push-Through Open-Ended Sleeve</td><td>Compact perfume or chocolate trays</td><td>Zero extra hardware; fast pack-out</td><td>Requires tighter 0.8–1.2 mm friction fit so tray stays put</td></tr></tbody></table>"
+      ],
+      [
+        "Preventing outer sleeve sag and tray binding",
+        "<p>Wide drawer boxes over 220 mm span often bow slightly across the top panel of the outer sleeve when stacked inside export cartons, pinching the inner tray. Use 1,200 gsm greyboard for the outer sleeve (with grain running along the longest panel) and 1,000 gsm for the inner tray, paired with a balanced inner liner paper to counteract glue warp. Review loaded sample checks in our <a href=\"/insights/drawer-box-clearance-ribbon-pull\">drawer clearance checklist</a> and <a href=\"/insights/custom-rigid-box-greyboard-v-groove-guide\">greyboard V-groove guide</a>.</p>"
+      ],
+      [
+        "Testing loaded slide resistance before mass production",
+        "<p>Never approve drawer slide friction on an empty white dummy: heavy glass jars or tight <a href=\"/insights/foam-inserts-eva-vs-epe-vs-pu-packaging-guide\">EVA foam inserts</a> flex tray sidewalls outward by 0.5–1.0 mm, turning a smooth empty slide into a jammed retail box. Test a fully loaded sample through 20 open-close cycles and compare drawer formats on our <a href=\"/products/travel-fragrance-trio-drawer\">travel fragrance trio drawer box</a>.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "collapsible-fold-flat-rigid-box-cbm-freight-guide",
+    "number": "182",
+    "angle": "Logistics & collapsible box engineering",
+    "image": "/products/mtt-r1203-0.webp",
+    "imageAlt": "Custom collapsible fold-flat magnetic rigid box folded flat for compact ocean freight",
+    "title": "Collapsible Fold-Flat Rigid Boxes: CBM Freight & Corner Tape",
+    "seoTitle": "Fold-Flat Rigid Boxes: CBM Freight & Tape | MTT",
+    "summary": "Compare fold-flat collapsible vs. assembled rigid boxes: ocean/air CBM freight math, 3M corner tape vs. magnets, and warehouse assembly time.",
+    "intro": "A collapsible fold-flat rigid box ships flat at roughly one-quarter to one-third the cubic meter (CBM) volume of a pre-assembled rigid box of identical internal size, cutting ocean LCL and air-courier volumetric freight substantially on orders of 1,000+ units. In return, you add roughly 8–15 seconds of manual erection labor at your destination warehouse and must specify reliable corner locking—either peel-and-stick high-tack adhesive triangles or concealed corner magnets—plus creased hinge durability tested across repeated folds.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "How much shipping volume does a fold-flat rigid box save compared to assembled boxes?",
+        "Exact savings depend on box height: a tall 100 mm deep rigid box folded flat to ~18 mm thickness ships in roughly 70–80% less carton volume, whereas a shallow 35 mm box saves much less and may not justify the extra folding hinge cost."
+      ],
+      [
+        "Which corner closure is better on collapsible boxes: peel-and-stick tape or magnets?",
+        "Peel-and-stick double-sided adhesive triangles (such as 3M-grade acrylic tape) lock corners permanently and cost less per unit; concealed corner magnets allow repeated flattening and re-erection but add hardware cost and weight."
+      ],
+      [
+        "Can a fold-flat rigid box hold a custom EVA foam or paperboard insert?",
+        "Yes. Inserts ship separately in nested stacks inside master cartons and drop straight into the erected collapsible box during fulfillment, keeping total shipped CBM compact."
+      ]
+    ],
+    "cta": "Send your target internal box L x W x H, quantity per design, and destination port or ZIP code to compare assembled vs. fold-flat unit price and total shipped CBM. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Illustrative CBM comparison: assembled vs. fold-flat",
+        "<p>Use this illustrative engineering comparison for a 240 × 180 × 95 mm luxury gift box at 1,000 units (excluding inserts and outer pallet overhang) to see when a <a href=\"/products/custom-fold-flat-collapsible-rigid-gift-box\">custom fold-flat collapsible rigid gift box</a> outperforms a standard rigid shell.</p><table class=\"comparison-table\"><thead><tr><th>Packing metric (illustrative 1,000 pcs)</th><th>Pre-assembled rigid box</th><th>Fold-flat collapsible rigid box</th><th>Buyer decision note</th></tr></thead><tbody><tr><td>Unit packed height</td><td>~99 mm (assembled shell)</td><td>~18–20 mm (folded flat)</td><td>Tall boxes (&gt;70 mm) gain the most CBM reduction</td></tr><tr><td>Approx. total carton volume</td><td>~4.6–5.2 CBM</td><td>~1.1–1.4 CBM</td><td>Confirm exact master-carton count on your quotation</td></tr><tr><td>Warehouse erection time</td><td>0 sec (ready to fill)</td><td>~8–15 sec per box</td><td>Factor destination fulfillment labor into landed cost</td></tr><tr><td>Corner rigidity</td><td>Glued + stay-taped 90° corners</td><td>Peel-and-stick tape or corner magnets</td><td>Test peel-tape tack at cold warehouse temperatures</td></tr></tbody></table>"
+      ],
+      [
+        "Engineering the hinge wrap and corner adhesive",
+        "<p>Collapsible rigid boxes fold along precision-spaced greyboard gaps bridged by 157 gsm laminated art paper or tougher specialty kraft wrap. If the outer paper is uncoated or brittle, repeated folding cracks the spine along the hinge line. Always specify matte BOPP lamination or long-fiber bookcloth/specialty paper on hinged panels, and test corner adhesive release liners so warehouse staff can peel tabs cleanly in one motion. Check our <a href=\"/insights/collapsible-rigid-box-assembly-checklist\">collapsible assembly checklist</a> and <a href=\"/insights/reduce-shipping-costs-rigid-boxes\">rigid box freight guide</a>.</p>"
+      ],
+      [
+        "When pre-assembled rigid boxes still win",
+        "<p>If your box height is under 45 mm, if your co-packer charges high piece-rate assembly fees, or if your design requires razor-sharp V-grooved zero-gap architectural corners, a standard pre-assembled <a href=\"/products/custom-v-groove-magnetic-rigid-box\">V-grooved magnetic rigid box</a> often delivers lower total landed cost and cleaner corner seams. Compare both structures in your initial RFQ brief.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "corrugated-shipping-carton-sizes-pallet-stacking-guide",
+    "number": "183",
+    "angle": "Export master carton engineering",
+    "image": "/products/mtt-e0104-0.webp",
+    "imageAlt": "Four-flap RSC corrugated export shipping carton sized for palletized retail gift boxes",
+    "title": "Master Shipping Carton Sizes: Packout, Pallet Fit & ECT Stacking",
+    "seoTitle": "Shipping Carton Sizes: Packout & Pallet Fit | MTT",
+    "summary": "Size export master shipping cartons for retail gift boxes: 15–20 kg weight limits, 32/44 ECT vs. BC double-wall stacking, and EU/US pallet fit.",
+    "intro": "Size export master shipping cartons from the outside dimensions of your packed inner gift boxes plus 5–10 mm cushioning clearance per axis, while capping gross carton weight around 15–20 kg so warehouse handlers do not drop oversized boxes. Match outer board grade to transit humidity and pallet height—32 ECT single-wall for lightweight retail cartons, 44 ECT B/C-flute or BC double-wall (6–7 mm) for heavy glass fragrance or skincare shipments—and align outer dimensions to standard 1200 × 1000 mm (US/UK) or 1200 × 800 mm (EU) pallets.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "What is the maximum recommended weight for an export master shipping carton?",
+        "Keep filled master cartons between 12 and 20 kg (under 22.7 kg / 50 lb for standard US/EU parcel and FBA receiving rules). Cartons over 20 kg suffer far higher corner-drop impact damage during manual loading."
+      ],
+      [
+        "Should I use single-wall or BC double-wall corrugated cartons for glass bottles?",
+        "Use 5-ply BC double-wall corrugated board (approx. 6.0–7.0 mm thick) for sea freight carrying heavy glass perfume, candle, or skincare rigid boxes, because container humidity reduces corrugated stacking strength over multi-week voyages."
+      ],
+      [
+        "How much clearance should I leave between retail gift boxes and the master carton wall?",
+        "Leave 3–5 mm snug tolerance when using a rigid corrugated inner liner or honeycomb pad, or 10–15 mm if wrapping each rigid gift box in bubble film or tissue plus corner protectors."
+      ]
+    ],
+    "cta": "Share your individual gift box external dimensions, filled unit weight, order quantity, and destination warehouse rules (FBA, retail DC, or sea pallet) for a master-carton packout calculation. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Match master carton board grade to transit load",
+        "<p>An outer four-flap RSC (FEFCO 0201) shipping carton protects both corners and box finishes during ocean LCL or parcel hub sorting. Compare standard export board specifications on our <a href=\"/packaging/corrugated-boxes\">corrugated boxes hub</a>.</p><table class=\"comparison-table\"><thead><tr><th>Master carton grade</th><th>Wall thickness</th><th>Best gross carton weight</th><th>Export transit fit</th></tr></thead><tbody><tr><td>32 ECT Single-Wall (C-flute)</td><td>3.5–4.0 mm</td><td>Up to ~10–12 kg</td><td>Lightweight folding cartons, apparel, short domestic legs</td></tr><tr><td>44 ECT Single-Wall (B/C-flute)</td><td>3.5–4.0 mm</td><td>~12–16 kg</td><td>Standard retail gift boxes on palletized freight</td></tr><tr><td>BC Double-Wall (5-ply)</td><td>6.0–7.0 mm</td><td>~15–22 kg</td><td>Heavy glass fragrance/skincare, ocean LCL, multi-tier stacking</td></tr></tbody></table>"
+      ],
+      [
+        "Align carton footprint to US and EU pallets",
+        "<p>Carton dimensions that overhang a 1200 × 1000 mm (GMA) or 1200 × 800 mm (Euro) pallet lose up to a third of their vertical corner compression strength and get crushed by forklift clamps. Aim for an even column-stacking layout (for example, 400 × 300 mm or 600 × 400 mm outer footprints) with zero overhang, and verify whether your inner boxes require individual polybags or corrugated dividers inside the shipper. Pair outer carton sizing with our <a href=\"/insights/rigid-gift-box-shipping-outer-carton\">rigid gift box outer carton guide</a> and <a href=\"/insights/corrugated-fiberboard-flute-ect-shipping-box-guide\">flute &amp; ECT guide</a>.</p>"
+      ],
+      [
+        "Preventing finish scuffing inside export shippers",
+        "<p>Even when a master carton survives drop tests intact, loose inner rigid boxes rub against rough kraft liners and burnish matte black lamination. Specify snug inner fit, protective tissue or poly-sleeve wrapping per gift box, and top/bottom corrugated pad sheets so box cutters never slice into retail lids during receiving. See also our <a href=\"/products/custom-litho-laminated-corrugated-mailer\">custom litho-laminated corrugated mailer</a> for direct-to-consumer parcel packs.</p>"
+      ]
+    ]
+  },
+  {
+    "slug": "luxury-paper-bag-handles-cotton-ribbon-twisted-guide",
+    "number": "184",
+    "angle": "Retail paper bag engineering",
+    "image": "/products/mtt-b0102-0.webp",
+    "imageAlt": "Custom luxury paper retail bag with knotted cotton cord handles and reinforced top turnover",
+    "title": "Custom Paper Bag Handles: Cotton Cord, Ribbon & Load Limits",
+    "seoTitle": "Paper Bag Handles: Cotton Cord & Ribbon Guide | MTT",
+    "summary": "Compare custom paper bag handles: 5–6 mm cotton cord, grosgrain ribbon, twisted kraft paper, and die-cut slots by carry load, cost, and recyclability.",
+    "intro": "Choose 5–6 mm knotted cotton cord or 15–20 mm grosgrain ribbon handles anchored through a 450 gsm reinforced turnover top when your luxury paper bag carries heavy rigid fragrance, wine, or skincare boxes (typically 1.5–3.5 kg). Choose twisted kraft paper handles when 100% mono-material curbside recyclability and lower unit cost outweigh boutique softness, and reserve die-cut hand slots for lightweight apparel or flat gift boxes under 1.0 kg. Always load-test handle knots and bottom seams with filled product samples before mass production.",
+    "datePublished": "2026-11-28",
+    "dateModified": "2026-11-28",
+    "faq": [
+      [
+        "Which paper bag handle is strongest for heavy glass bottles or wine boxes?",
+        "5–6 mm braided cotton or PP cord knotted through metal eyelets (or glued-in wide cotton twill tape) anchored across a 450 gsm turnover top board provides the highest tear resistance for heavy glass sets."
+      ],
+      [
+        "Are knotted cotton or ribbon handles recyclable with the paper bag?",
+        "Textile cords and polyester ribbons must be pulled out before paper repulping, whereas twisted paper handles glued with paper patches allow 100% mono-material paper recycling without disassembly."
+      ],
+      [
+        "What is the difference between knotted ribbon handles and glued-in ribbon handles?",
+        "Knotted handles pass through punched holes with visible knots inside the bag; glued-in (J-cut or sandwiched) ribbon handles hide the handle tails neatly inside the folded turnover top for a cleaner luxury interior."
+      ]
+    ],
+    "cta": "Share your inner box dimensions, filled bag weight, preferred handle style (cotton cord, ribbon, or twisted paper), quantity per design, and destination for a bag load and specification review. Minimum 1,000 pieces per design and US$2,000 product value per order, excluding freight, samples, and other fees.",
+    "sections": [
+      [
+        "Compare the four custom retail paper bag handles",
+        "<p>Handle failure almost always occurs at the paper punch hole or patch seam rather than snapping the cord itself. Match handle hardware to your filled box weight and sustainability rules on our <a href=\"/packaging/custom-paper-bags\">custom paper bags hub</a>.</p><table class=\"comparison-table\"><thead><tr><th>Handle type</th><th>Typical comfortable load</th><th>Anchor construction</th><th>Best brand fit</th></tr></thead><tbody><tr><td>5–6 mm Cotton / PP Cord</td><td>2.0–3.5 kg</td><td>Knotted through 450 gsm turnover (+ optional metal eyelet)</td><td>Perfume, wine, heavy skincare rigid boxes</td></tr><tr><td>15–20 mm Grosgrain / Satin Ribbon</td><td>1.5–2.5 kg</td><td>Knotted or hidden glued-in turnover sandwich</td><td>Boutique jewelry, cosmetics, bridal &amp; gifting</td></tr><tr><td>Twisted Kraft Paper Handle</td><td>1.5–3.0 kg</td><td>Machine-glued interior kraft patch</td><td>100% mono-material eco retail &amp; high-volume stores</td></tr><tr><td>Die-Cut Oval Hand Slot</td><td>Up to ~1.0 kg</td><td>Punched through double-folded reinforced top</td><td>Lightweight apparel, scarves, flat gift sets</td></tr></tbody></table>"
+      ],
+      [
+        "Sizing handle drop length and turnover depth",
+        "<p>Standard hand-carry cotton cords use a 35–40 cm cut length (approx. 13–15 cm drop height above the bag mouth), while shoulder-carry apparel totes need 55–65 cm cords so the bag clears a winter coat sleeve. Pair our <a href=\"/products/custom-cotton-cord-luxury-retail-paper-bag\">custom cotton-cord luxury retail paper bag</a> with a 40–45 mm top turnover board and a 450 gsm bottom insert card so point loads never pull the gusset seam apart.</p>"
+      ],
+      [
+        "Checking color match and carry comfort on samples",
+        "<p>Dyed cotton cords and grosgrain ribbons come in stock color cards unless ordered in large dye-lot volumes. Approve physical cord swatches beside your laminated bag sheet under retail lighting, and hang a loaded sample with real filled boxes for 24 hours to verify zero hole tearing. Review full bag sizing rules in our <a href=\"/insights/euro-tote-bags-wholesale-gsm-handle-load-guide\">Euro tote GSM and gusset guide</a> and <a href=\"/insights/paper-bag-size-handles-load-check\">paper bag load checklist</a>.</p>"
+      ]
+    ]
+  }
+]

@@ -22,6 +22,11 @@ Website: https://mttpackaging.com
 - [Sustainability](https://mttpackaging.com/sustainability): Project-specific material and environmental claim review.
 
 ## Packaging guides
+- [Pantone (PMS) Color Matching for Packaging: C vs. U & Drawdowns](https://mttpackaging.com/insights/pms-pantone-color-matching-packaging-print-guide)
+- [Rigid Drawer Boxes: Ribbon Pull vs. Thumb Notch & Slide Fit](https://mttpackaging.com/insights/rigid-drawer-box-ribbon-pull-thumb-notch-guide)
+- [Collapsible Fold-Flat Rigid Boxes: CBM Freight & Corner Tape](https://mttpackaging.com/insights/collapsible-fold-flat-rigid-box-cbm-freight-guide)
+- [Master Shipping Carton Sizes: Packout, Pallet Fit & ECT Stacking](https://mttpackaging.com/insights/corrugated-shipping-carton-sizes-pallet-stacking-guide)
+- [Custom Paper Bag Handles: Cotton Cord, Ribbon & Load Limits](https://mttpackaging.com/insights/luxury-paper-bag-handles-cotton-ribbon-twisted-guide)
 - [Litho-Laminated vs. Direct-Flexo Corrugated Mailer Boxes](https://mttpackaging.com/insights/litho-laminated-vs-direct-flexo-corrugated-boxes)
 - [SBS (C1S/C2S) vs. CCNB vs. Kraft: Folding Carton Board Guide](https://mttpackaging.com/insights/sbs-c1s-vs-ccnb-vs-kraft-folding-carton-board)
 - [Shoulder-Neck Rigid Boxes: Neck Reveal, Tolerance & Lid Fit](https://mttpackaging.com/insights/shoulder-neck-rigid-box-tolerance-reveal-guide)
